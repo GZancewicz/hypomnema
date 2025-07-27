@@ -1,0 +1,42 @@
+{
+  "genesis": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:35:48"
+  },
+  "exodos": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:36:39"
+  },
+  "levitikon": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:37:16"
+  },
+  "arithmoi": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:38:03"
+  },
+  "defteronomion": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:38:48"
+  },
+  "navi": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:39:19"
+  },
+  "kritai": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:39:48"
+  },
+  "routh": {
+    "status": "completed",
+    "timestamp": "2025-07-26 11:39:54"
+  },
+  "vasiliona": {
+    "status": "failed",
+    "timestamp": "2025-07-26 11:41:50"
+  },
+  "vasilionb": {
+    "status": "failed",
+    "timestamp": "2025-07-26 11:43:19"
+  }
+}
