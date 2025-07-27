@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-texts
+
+texts/scripture/old_testament
+texts/scripture/new_testament/greek
