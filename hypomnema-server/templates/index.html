@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypomnema - Bible Reader</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <link rel="stylesheet" href="/static/styles.css?v=3">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="book-list">
+                <h3>New Testament</h3>
+                <ul>
+                    {{range .Books}}
+                    <li class="book-item {{if eq $.CurrentBook .ID}}active{{end}}" 
+                        data-book-id="{{.ID}}"
+                        onclick="selectBook('{{.ID}}', {{.Chapters}})">
+                        {{.Name}}
+                    </li>
+                    {{end}}
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main content -->
+        <main class="content">
+            <header class="content-header">
+                <button id="sidebarToggle" class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+                <h1 id="book-title">Matthew</h1>
+                <div class="chapter-nav">
+                    <button id="prevChapter" class="nav-btn" onclick="navigateChapter(-1)">← Previous</button>
+                    <button id="nextChapter" class="nav-btn" onclick="navigateChapter(1)">Next →</button>
+                </div>
+                <h2 id="chapter-title">Chapter 1</h2>
+            </header>
+            
+            <div id="text-content" 
+                 hx-get="/api/chapter/{{.CurrentBook}}/{{.CurrentChap}}"
+                 hx-trigger="load"
+                 hx-swap="innerHTML">
+                <div class="loading">Loading...</div>
+            </div>
+        </main>
+    </div>
+    
+    <script>
+        let currentBook = '{{.CurrentBook}}';
+        let currentChapter = {{.CurrentChap}};
+        
+        // Book chapter counts
+        const bookChapters = {
+            {{range .Books}}'{{.ID}}': {{.Chapters}},
+            {{end}}
+        };
+        
+        function selectBook(bookId, numChapters) {
+            currentBook = bookId;
+            currentChapter = 1;
+            
+            // Update active book
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update book title
+            const bookName = event.target.textContent.trim();
+            document.getElementById('book-title').textContent = bookName;
+            
+            // Load first chapter
+            loadChapter(bookId, 1);
+        }
+        
+        function loadChapter(bookId, chapter) {
+            currentChapter = chapter;
+            
+            // Update chapter title
+            document.getElementById('chapter-title').textContent = `Chapter ${chapter}`;
+            
+            // Ensure book stays highlighted
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.toggle('active', item.getAttribute('data-book-id') === bookId);
+            });
+            
+            // Load content with HTMX
+            htmx.ajax('GET', `/api/chapter/${bookId}/${chapter}`, '#text-content');
+            
+            // Update navigation buttons
+            updateNavigationButtons();
+        }
+        
+        function navigateChapter(direction) {
+            const newChapter = currentChapter + direction;
+            const maxChapters = bookChapters[currentBook];
+            
+            if (newChapter >= 1 && newChapter <= maxChapters) {
+                loadChapter(currentBook, newChapter);
+            }
+            
+            // Update button states
+            updateNavigationButtons();
+        }
+        
+        function updateNavigationButtons() {
+            const maxChapters = bookChapters[currentBook];
+            document.getElementById('prevChapter').disabled = currentChapter <= 1;
+            document.getElementById('nextChapter').disabled = currentChapter >= maxChapters;
+        }
+        
+        function toggleSidebar() {
+            const container = document.querySelector('.container');
+            container.classList.toggle('sidebar-collapsed');
+        }
+        
+        // Initialize navigation buttons
+        window.addEventListener('DOMContentLoaded', () => {
+            updateNavigationButtons();
+        });
+    </script>
+</body>
+</html>

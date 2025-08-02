@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hypomnema
+    runtime: go
+    buildCommand: ./copy-texts.sh && go build -o app main.go
+    startCommand: ./app
+    envVars:
+      - key: PORT
+        value: 10000
+    rootDir: hypomnema-server
