@@ -1,21 +1,23 @@
 # Hypomnema
 
-A modern biblical commentary application built with React, TypeScript, and Vite.
+A biblical text reader with Eusebian Canon references, built with Go and HTMX.
 
 ## Features
 
-- Browse biblical books and chapters
-- View verse-by-verse text
-- Add and view commentary on individual verses
-- Clean, responsive interface built with Tailwind CSS
-- State management with Zustand
+- Browse complete KJV New Testament texts
+- Chapter navigation with Previous/Next buttons
+- Paragraph-based text formatting
+- Eusebian Canon numbers in the margin
+- Hover tooltips showing parallel Gospel passages
+- Clean, responsive interface
+- Live reload during development with Air
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- npm or yarn
+- Go (v1.19 or higher)
+- Air (for live reload during development)
 
 ### Installation
 
@@ -25,50 +27,82 @@ git clone https://github.com/yourusername/hypomnema.git
 cd hypomnema
 ```
 
-2. Install dependencies:
+2. Install Air for live reload:
 ```bash
-npm install
+go install github.com/air-verse/air@latest
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
+cd hypomnema-server
+~/go/bin/air
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-## Available Scripts
+### Running without Air
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview the production build
-- `npm run lint` - Run ESLint
-
-## Tech Stack
-
-- **React** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Styling
-- **Zustand** - State management
+To run the server directly without live reload:
+```bash
+cd hypomnema-server
+go run main.go
+```
 
 ## Project Structure
 
 ```
 hypomnema/
-├── src/
-│   ├── components/     # React components
-│   │   ├── BookSelector.tsx
-│   │   ├── ChapterSelector.tsx
-│   │   ├── CommentaryPanel.tsx
-│   │   └── VerseDisplay.tsx
-│   ├── data/          # Static data (books, etc.)
-│   ├── store/         # Zustand store
-│   ├── types/         # TypeScript types
-│   └── App.tsx        # Main app component
-├── public/            # Static assets
-└── package.json       # Dependencies and scripts
+├── hypomnema-server/      # Go web server
+│   ├── main.go           # Main server code
+│   ├── templates/        # HTML templates
+│   ├── static/          # CSS and static files
+│   └── tmp/             # Air build artifacts (git ignored)
+├── texts/               # Biblical texts and reference data
+│   ├── scripture/       # KJV text files
+│   └── reference/       # Eusebian canons, paragraph divisions
+├── scripts/             # Python utility scripts
+└── README.md
 ```
+
+## Eusebian Canons
+
+The application displays Eusebian Canon numbers in the left margin of Gospel texts. These ancient cross-references show parallel passages across the four Gospels. Hovering over a canon number reveals the specific verse references.
+
+### Data Files
+
+- `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries
+- `texts/reference/eusebian_canons/canon_lookup.json` - Maps canon entries to parallel passages
+- `texts/reference/eusebian_canons/eusebian-canons.db` - SQLite database with source data
+
+## Development
+
+### Regenerating Eusebian Canon Data
+
+If you need to rebuild the canon data from the SQLite database:
+
+```bash
+python scripts/generate_canon_lookup_from_sql.py
+python scripts/generate_verse_to_canon_mapping.py
+```
+
+### Verifying Text Completeness
+
+To check that all KJV chapters are present:
+
+```bash
+python scripts/verify_kjv_completeness.py
+```
+
+## Deployment
+
+The application is configured for deployment on Render.com:
+
+```bash
+go build -o main .
+./main
+```
+
+The `render.yaml` file contains the deployment configuration.
 
 ## Contributing
 
