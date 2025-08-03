@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -149,6 +150,7 @@ func main() {
 
 	// API endpoints
 	http.HandleFunc("/api/chapter/", chapterHandler)
+	http.HandleFunc("/api/canon/", canonHandler)
 
 	port := os.Getenv("PORT")
 	if port == "" {
@@ -287,7 +289,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		if showCanon {
 			// canonNum is already in format "I.1", "XIII.3", etc.
 			tooltip := getCanonTooltipFromKey(canonNum, bookID)
-			html.WriteString(fmt.Sprintf(`<span class="canon-num" title="%s">%s</span>`, tooltip, canonNum))
+			html.WriteString(fmt.Sprintf(`<span class="canon-num" title="%s" onclick="showCanonModal('%s')">%s</span>`, tooltip, canonNum, canonNum))
 		}
 		
 		// Add verse with superscript number
@@ -349,4 +351,111 @@ func getCanonTooltipFromKey(canonKey string, currentBook string) string {
 	
 	// Fallback - shouldn't happen with complete data
 	return fmt.Sprintf("Canon %s", canonKey)
+}
+
+func canonHandler(w http.ResponseWriter, r *http.Request) {
+	// Parse URL: /api/canon/I.1
+	canonKey := strings.TrimPrefix(r.URL.Path, "/api/canon/")
+	if canonKey == "" {
+		http.Error(w, "Canon key required", http.StatusBadRequest)
+		return
+	}
+	
+	// Look up the canon entry
+	passages, ok := canonLookup[canonKey]
+	if !ok {
+		http.Error(w, "Canon not found", http.StatusNotFound)
+		return
+	}
+	
+	gospelAbbr := map[string]string{
+		"matthew": "Mt",
+		"mark": "Mk", 
+		"luke": "Lk",
+		"john": "Jn",
+	}
+	
+	var html strings.Builder
+	html.WriteString("<div class='canon-passages'>")
+	
+	// Order: Mt, Mk, Lk, Jn
+	gospelOrder := []string{"matthew", "mark", "luke", "john"}
+	for _, gospel := range gospelOrder {
+		if verses, ok := passages[gospel]; ok {
+			html.WriteString(fmt.Sprintf("<div class='passage'>"))
+			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospelAbbr[gospel], verses))
+			
+			// Load the actual verse text
+			verseText := loadVerseText(gospel, verses)
+			if verseText != "" {
+				html.WriteString(fmt.Sprintf("<p class='verse-text'>%s</p>", verseText))
+			} else {
+				html.WriteString("<p class='verse-text'><em>Text not available</em></p>")
+			}
+			html.WriteString("</div>")
+		}
+	}
+	
+	html.WriteString("</div>")
+	
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(html.String()))
+}
+
+func loadVerseText(gospel string, verseRef string) string {
+	// Parse verse reference like "3.3" or "1.19-22"
+	// For now, we'll implement a basic version that loads the first verse
+	// This could be expanded to handle ranges properly
+	
+	// Extract chapter and verse
+	parts := strings.Split(verseRef, ".")
+	if len(parts) != 2 {
+		return ""
+	}
+	
+	chapter := parts[0]
+	versePart := parts[1]
+	
+	// Handle ranges like "19-22" - just take the first verse for now
+	if strings.Contains(versePart, "-") {
+		versePart = strings.Split(versePart, "-")[0]
+	}
+	
+	// Remove any letter suffixes like "A", "B"
+	re := regexp.MustCompile(`[A-Z]+$`)
+	versePart = re.ReplaceAllString(versePart, "")
+	
+	// Load the chapter file
+	chapterNum, err := strconv.Atoi(chapter)
+	if err != nil {
+		return ""
+	}
+	
+	chapterStr := fmt.Sprintf("%02d", chapterNum)
+	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", gospel, chapterStr, gospel+"_"+chapterStr+".txt")
+	
+	file, err := os.Open(filePath)
+	if err != nil {
+		return ""
+	}
+	defer file.Close()
+	
+	content, err := io.ReadAll(file)
+	if err != nil {
+		return ""
+	}
+	
+	// Find the verse
+	lines := strings.Split(string(content), "\n")
+	for _, line := range lines {
+		if strings.HasPrefix(line, chapter+":"+versePart+" ") {
+			// Extract just the text part
+			spaceIndex := strings.Index(line, " ")
+			if spaceIndex != -1 {
+				return line[spaceIndex+1:]
+			}
+		}
+	}
+	
+	return ""
 }

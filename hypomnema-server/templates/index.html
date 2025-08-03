@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypomnema - Bible Reader</title>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=11">
+    <link rel="stylesheet" href="/static/styles.css?v=12">
 </head>
 <body>
     <div class="container">
@@ -51,6 +51,19 @@
                 </div>
             </footer>
         </main>
+    </div>
+    
+    <!-- Eusebian Canon Modal -->
+    <div id="canonModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 id="modalTitle">Canon References</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <div class="loading">Loading passages...</div>
+            </div>
+        </div>
     </div>
     
     <script>
@@ -127,6 +140,33 @@
             const container = document.querySelector('.container');
             container.classList.toggle('sidebar-collapsed');
         }
+        
+        // Modal functions
+        function showCanonModal(canonKey) {
+            const modal = document.getElementById('canonModal');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalBody = document.getElementById('modalBody');
+            
+            modalTitle.textContent = `Canon ${canonKey}`;
+            modalBody.innerHTML = '<div class="loading">Loading passages...</div>';
+            modal.style.display = 'block';
+            
+            // Fetch the verses via HTMX
+            htmx.ajax('GET', `/api/canon/${canonKey}`, '#modalBody');
+        }
+        
+        function closeModal(event) {
+            if (!event || event.target === document.getElementById('canonModal') || event.target.classList.contains('modal-close')) {
+                document.getElementById('canonModal').style.display = 'none';
+            }
+        }
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
         
         // Initialize navigation buttons
         window.addEventListener('DOMContentLoaded', () => {
