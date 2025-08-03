@@ -30,8 +30,16 @@ type ParagraphBreak struct {
 	Verse   int `json:"verse"`
 }
 
+// VerseToCanon holds the verse-to-canon mapping for each gospel
+type VerseToCanon map[string]map[string]string
+
+// CanonLookup holds the canon lookup table with format "I.1": {gospel: verses}
+type CanonLookup map[string]map[string]string
+
 // Global data
 var (
+	verseToCanon VerseToCanon
+	canonLookup CanonLookup
 	books = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
@@ -69,6 +77,12 @@ var (
 func init() {
 	// Load paragraph data
 	loadParagraphData()
+	
+	// Load verse-to-canon mapping
+	loadVerseToCanon()
+	
+	// Load canon lookup data
+	loadCanonLookup()
 
 	// Parse templates
 	var err error
@@ -91,6 +105,38 @@ func loadParagraphData() {
 	if err != nil {
 		log.Println("Warning: Could not parse paragraph data:", err)
 		paragraphData = make(map[string][]ParagraphBreak)
+	}
+}
+
+func loadVerseToCanon() {
+	file, err := os.Open("../texts/reference/eusebian_canons/verse_to_canon.json")
+	if err != nil {
+		log.Println("Warning: Could not load verse-to-canon data:", err)
+		verseToCanon = make(VerseToCanon)
+		return
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&verseToCanon)
+	if err != nil {
+		log.Println("Warning: Could not parse verse-to-canon data:", err)
+		verseToCanon = make(VerseToCanon)
+	}
+}
+
+func loadCanonLookup() {
+	file, err := os.Open("../texts/reference/eusebian_canons/canon_lookup.json")
+	if err != nil {
+		log.Println("Warning: Could not load canon lookup:", err)
+		canonLookup = make(CanonLookup)
+		return
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&canonLookup)
+	if err != nil {
+		log.Println("Warning: Could not parse canon lookup:", err)
+		canonLookup = make(CanonLookup)
 	}
 }
 
@@ -171,14 +217,17 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	// Format the text with paragraphs
-	html := formatChapterHTML(string(content), chapterParagraphs)
+	// Get verse-to-canon mapping for this book
+	bookCanons := verseToCanon[bookID]
+	
+	// Format the text with paragraphs and canon numbers
+	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID)
 	
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
 }
 
-func formatChapterHTML(text string, paragraphBreaks []int) string {
+func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string) string {
 	lines := strings.Split(strings.TrimSpace(text), "\n")
 	var html strings.Builder
 	
@@ -186,6 +235,7 @@ func formatChapterHTML(text string, paragraphBreaks []int) string {
 	
 	inParagraph := false
 	isFirstVerse := true
+	lastCanonNum := ""
 	
 	for _, line := range lines {
 		// Parse verse number and text - handle "1:1" format
@@ -220,6 +270,26 @@ func formatChapterHTML(text string, paragraphBreaks []int) string {
 			inParagraph = true
 		}
 		
+		// Check if this verse has a canon number
+		verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
+		canonNum := ""
+		if bookCanons != nil {
+			canonNum = bookCanons[verseKey]
+		}
+		
+		// Only show canon number if it's different from the last one (new section)
+		showCanon := canonNum != "" && canonNum != lastCanonNum
+		if canonNum != "" {
+			lastCanonNum = canonNum
+		}
+		
+		// Add canon number if needed (before the verse)
+		if showCanon {
+			// canonNum is already in format "I.1", "XIII.3", etc.
+			tooltip := getCanonTooltipFromKey(canonNum, bookID)
+			html.WriteString(fmt.Sprintf(`<span class="canon-num" title="%s">%s</span>`, tooltip, canonNum))
+		}
+		
 		// Add verse with superscript number
 		html.WriteString(fmt.Sprintf(`<span class="verse"><sup class="verse-num">%d</sup>%s </span>`, verseNum, verseText))
 		
@@ -241,4 +311,42 @@ func contains(slice []int, val int) bool {
 		}
 	}
 	return false
+}
+
+func getCanonTooltipFromKey(canonKey string, currentBook string) string {
+	gospelAbbr := map[string]string{
+		"matthew": "Mt",
+		"mark": "Mk", 
+		"luke": "Lk",
+		"john": "Jn",
+	}
+	
+	// canonKey is already in format "I.1", "XIII.3", etc.
+	if passages, ok := canonLookup[canonKey]; ok {
+		// Build list of passages, with current book first
+		var result []string
+		
+		// Add current book first if present
+		if verses, ok := passages[currentBook]; ok {
+			result = append(result, fmt.Sprintf("%s %s", gospelAbbr[currentBook], verses))
+		}
+		
+		// Then add other gospels in canonical order
+		gospelOrder := []string{"matthew", "mark", "luke", "john"}
+		for _, g := range gospelOrder {
+			if g == currentBook {
+				continue // Skip current book as we already added it
+			}
+			if verses, ok := passages[g]; ok {
+				result = append(result, fmt.Sprintf("%s %s", gospelAbbr[g], verses))
+			}
+		}
+		
+		if len(result) > 0 {
+			return strings.Join(result, "; ")
+		}
+	}
+	
+	// Fallback - shouldn't happen with complete data
+	return fmt.Sprintf("Canon %s", canonKey)
 }

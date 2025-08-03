@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypomnema - Bible Reader</title>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=3">
+    <link rel="stylesheet" href="/static/styles.css?v=11">
 </head>
 <body>
     <div class="container">
@@ -43,6 +43,13 @@
                  hx-swap="innerHTML">
                 <div class="loading">Loading...</div>
             </div>
+            
+            <footer class="content-footer">
+                <div class="chapter-nav">
+                    <button id="prevChapterBottom" class="nav-btn" onclick="navigateChapter(-1)">← Previous</button>
+                    <button id="nextChapterBottom" class="nav-btn" onclick="navigateChapter(1)">Next →</button>
+                </div>
+            </footer>
         </main>
     </div>
     
@@ -106,8 +113,14 @@
         
         function updateNavigationButtons() {
             const maxChapters = bookChapters[currentBook];
-            document.getElementById('prevChapter').disabled = currentChapter <= 1;
-            document.getElementById('nextChapter').disabled = currentChapter >= maxChapters;
+            const prevDisabled = currentChapter <= 1;
+            const nextDisabled = currentChapter >= maxChapters;
+            
+            // Update both top and bottom buttons
+            document.getElementById('prevChapter').disabled = prevDisabled;
+            document.getElementById('nextChapter').disabled = nextDisabled;
+            document.getElementById('prevChapterBottom').disabled = prevDisabled;
+            document.getElementById('nextChapterBottom').disabled = nextDisabled;
         }
         
         function toggleSidebar() {
