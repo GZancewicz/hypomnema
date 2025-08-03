@@ -76,21 +76,32 @@ The application displays Eusebian Canon numbers in the left margin of Gospel tex
 
 ## Development
 
-### Regenerating Eusebian Canon Data
+### Python Scripts
 
-If you need to rebuild the canon data from the SQLite database:
+#### verify_kjv_completeness.py
+Verifies that all KJV New Testament books have complete chapters with verse content:
+```bash
+python scripts/verify_kjv_completeness.py
+```
 
+#### generate_canon_lookup_from_sql.py
+Generates the Eusebian Canon lookup table from the SQLite database. Creates `canon_lookup.json` which maps canon entries (e.g., "I.1", "XIII.3") to their verse references:
 ```bash
 python scripts/generate_canon_lookup_from_sql.py
+```
+
+#### generate_verse_to_canon_mapping.py
+Generates the verse-to-canon mapping from the SQLite database. Creates `verse_to_canon.json` which maps verse references to their canon entries:
+```bash
 python scripts/generate_verse_to_canon_mapping.py
 ```
 
-### Verifying Text Completeness
+### Regenerating Eusebian Canon Data
 
-To check that all KJV chapters are present:
-
+If you need to rebuild the canon data from the SQLite database:
 ```bash
-python scripts/verify_kjv_completeness.py
+python scripts/generate_canon_lookup_from_sql.py
+python scripts/generate_verse_to_canon_mapping.py
 ```
 
 ## Deployment
