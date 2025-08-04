@@ -1,15 +1,18 @@
 # Hypomnema
 
-A biblical text reader with Eusebian Canon references, built with Go and HTMX.
+A biblical text reader with integrated patristic commentary, featuring John Chrysostom's homilies on Matthew with cross-references to parallel Gospel passages.
 
 ## Features
 
-- Browse complete KJV New Testament texts
-- Chapter navigation with Previous/Next buttons
-- Paragraph-based text formatting
-- Eusebian Canon numbers in the margin
-- Hover tooltips showing parallel Gospel passages
-- Clean, responsive interface
+- **Complete KJV New Testament** with chapter-by-chapter navigation
+- **John Chrysostom's Homilies on Matthew** with:
+  - Inline homily references in the biblical text
+  - Split-screen homily viewing (50/50 layout)
+  - Footnotes with hover tooltips
+  - Smart cross-referencing to parallel Gospel passages
+- **Eusebian Canon System** showing parallel Gospel passages
+- **Responsive Design** with mobile-friendly hamburger menu
+- **Clean Typography** with paragraph-based formatting
 - Live reload during development with Air
 
 ## Getting Started
@@ -52,15 +55,19 @@ go run main.go
 
 ```
 hypomnema/
-├── hypomnema-server/      # Go web server
-│   ├── main.go           # Main server code
-│   ├── templates/        # HTML templates
-│   ├── static/          # CSS and static files
-│   └── tmp/             # Air build artifacts (git ignored)
-├── texts/               # Biblical texts and reference data
-│   ├── scripture/       # KJV text files
-│   └── reference/       # Eusebian canons, paragraph divisions
-├── scripts/             # Python utility scripts
+├── hypomnema-server/         # Go web server
+│   ├── main.go              # Main server code
+│   ├── templates/           # HTML templates
+│   ├── static/              # CSS and static files
+│   └── tmp/                 # Air build artifacts (git ignored)
+├── texts/                   # Biblical texts and reference data
+│   ├── scripture/           # KJV text files organized by book/chapter
+│   ├── commentaries/        # Patristic commentaries
+│   │   └── chrysostom/      # John Chrysostom's works
+│   │       └── matthew/     # Homilies on Matthew with footnotes
+│   └── reference/           # Eusebian canons, paragraph divisions
+├── scripts/                 # Python utility scripts
+├── bible-reader/            # (Legacy - to be removed)
 └── README.md
 ```
 
@@ -68,8 +75,25 @@ hypomnema/
 
 The application displays Eusebian Canon numbers in the left margin of Gospel texts. These ancient cross-references show parallel passages across the four Gospels. Hovering over a canon number reveals the specific verse references.
 
+## John Chrysostom's Homilies
+
+The application integrates John Chrysostom's complete homilies on the Gospel of Matthew:
+
+- **90 Homilies** covering the entire Gospel of Matthew
+- **Inline References** showing which homilies discuss each passage
+- **Cross-Gospel Integration** - When reading Mark, Luke, or John, the system automatically shows relevant Matthew homilies for parallel passages
+- **Footnotes** with hover tooltips for additional context
+- **Split-screen Reading** for studying scripture alongside commentary
+
 ### Data Files
 
+**Chrysostom Commentary:**
+- `texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml` - Complete homilies in ThML format
+- `texts/commentaries/chrysostom/matthew/footnotes.json` - Extracted footnotes with renumbering
+- `texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json` - Verse-to-homily mapping
+- `texts/commentaries/chrysostom/matthew/homily_coverage.json` - Homily passage coverage
+
+**Eusebian Canons:**
 - `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries
 - `texts/reference/eusebian_canons/canon_lookup.json` - Maps canon entries to parallel passages
 - `texts/reference/eusebian_canons/eusebian-canons.db` - SQLite database with source data
@@ -78,42 +102,68 @@ The application displays Eusebian Canon numbers in the left margin of Gospel tex
 
 ### Python Scripts
 
-#### verify_kjv_completeness.py
-Verifies that all KJV New Testament books have complete chapters with verse content:
+#### Text Processing Scripts
+
+**extract_footnotes_to_json.py** - Extracts footnotes from Chrysostom's ThML XML and creates JSON with renumbered footnotes per homily:
 ```bash
-python scripts/verify_kjv_completeness.py
+python scripts/extract_footnotes_to_json.py
 ```
 
-#### generate_canon_lookup_from_sql.py
-Generates the Eusebian Canon lookup table from the SQLite database. Creates `canon_lookup.json` which maps canon entries (e.g., "I.1", "XIII.3") to their verse references:
+**split_kjv_into_chapters.py** - Splits combined KJV book files into individual chapter files:
+```bash
+python scripts/split_kjv_into_chapters.py
+```
+
+**check_kjv_completeness.py** - Verifies all KJV chapters are present and properly formatted:
+```bash
+python scripts/check_kjv_completeness.py
+```
+
+#### Eusebian Canon Scripts
+
+**generate_canon_lookup_from_sql.py** - Generates the canon lookup table from SQLite database:
 ```bash
 python scripts/generate_canon_lookup_from_sql.py
 ```
 
-#### generate_verse_to_canon_mapping.py
-Generates the verse-to-canon mapping from the SQLite database. Creates `verse_to_canon.json` which maps verse references to their canon entries:
+**generate_verse_to_canon_mapping.py** - Generates verse-to-canon mapping from SQLite database:
 ```bash
 python scripts/generate_verse_to_canon_mapping.py
 ```
 
-### Regenerating Eusebian Canon Data
+### Regenerating Data Files
 
-If you need to rebuild the canon data from the SQLite database:
+To rebuild Eusebian Canon data:
 ```bash
 python scripts/generate_canon_lookup_from_sql.py
 python scripts/generate_verse_to_canon_mapping.py
+```
+
+To extract Chrysostom footnotes:
+```bash
+python scripts/extract_footnotes_to_json.py
 ```
 
 ## Deployment
 
-The application is configured for deployment on Render.com:
+The application is configured for deployment on Render.com.
 
+### Render Configuration
+
+1. **Root Directory:** `hypomnema-server`
+2. **Build Command:** `go build -o app`
+3. **Start Command:** `./app`
+
+The server automatically uses the PORT environment variable provided by Render.
+
+### Manual Deployment
+
+To build and run manually:
 ```bash
-go build -o main .
-./main
+cd hypomnema-server
+go build -o app
+PORT=8080 ./app
 ```
-
-The `render.yaml` file contains the deployment configuration.
 
 ## Contributing
 
