@@ -1191,9 +1191,8 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		<p><strong>Chrysostom Homilies on Matthew</strong><br>
 		The homilies of St. John Chrysostom on the Gospel of Matthew are sourced from the 
 		<em>Nicene and Post-Nicene Fathers</em> series, available through the 
-		<a href="https://www.ccel.org" target="_blank">Christian Classics Ethereal Library (CCEL)</a>. 
-		Specifically from: <a href="https://www.ccel.org/ccel/schaff/npnf110.xml" target="_blank">
-		https://www.ccel.org/ccel/schaff/npnf110.xml</a></p>
+		<a href="https://www.ccel.org" target="_blank" style="white-space: nowrap;">Christian Classics Ethereal Library (CCEL)</a>. 
+		Specifically from: <a href="https://www.ccel.org/ccel/schaff/npnf110.xml" target="_blank">https://www.ccel.org/ccel/schaff/npnf110.xml</a></p>
 		
 		<h3>Features</h3>
 		<ul>
@@ -1202,6 +1201,18 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 			<li>Chrysostom homily references for the Gospel of Matthew</li>
 			<li>Responsive design for comfortable reading</li>
 		</ul>
+		
+		<h3>Contributing</h3>
+		<p>This project is open source and available on <a href="https://github.com/GZancewicz/hypomnema" target="_blank">GitHub</a>. 
+		Issues, suggestions, and pull requests are welcome.</p>
+		
+		<h3>Support</h3>
+		<p>Please donate if you wish to help defer the costs of hosting this app. Excess donations will be converted to USD and donated to International Orthodox Christian Charities (IOCC).</p>
+		<div style="display: flex; align-items: center; gap: 10px; margin: 15px 0;">
+			<span style="font-size: 24px;">₿</span>
+			<code style="background: #f5f5f5; padding: 8px 12px; border-radius: 4px; font-size: 14px;">397NxpMc8HAQxKW6CkSsgJP5kTuyFQ6R45</code>
+			<button onclick="navigator.clipboard.writeText('397NxpMc8HAQxKW6CkSsgJP5kTuyFQ6R45').then(() => { this.textContent = 'Copied!'; setTimeout(() => this.textContent = 'Copy', 2000); })" style="padding: 6px 12px; background: #f0f0f0; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">Copy</button>
+		</div>
 	</div>
 	`
 	
