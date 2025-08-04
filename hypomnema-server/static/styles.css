@@ -451,6 +451,13 @@ body {
     color: #2c3e50;
 }
 
+.homily-author {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
 .close-btn {
     background: none;
     border: none;

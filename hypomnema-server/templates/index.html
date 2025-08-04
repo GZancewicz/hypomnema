@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypomnema - Bible Reader</title>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=38">
+    <link rel="stylesheet" href="/static/styles.css?v=39">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -141,7 +141,10 @@
         <!-- Homily Panel -->
         <aside id="homilyPanel" class="homily-panel">
             <div class="homily-panel-header">
-                <h2 id="homilyTitle">Homily</h2>
+                <div>
+                    <div class="homily-author">John Chrysostom</div>
+                    <h2 id="homilyTitle">Homily</h2>
+                </div>
                 <button class="close-btn" onclick="closeHomilyPanel()">×</button>
             </div>
             <div id="homilyContent" class="homily-panel-content">
