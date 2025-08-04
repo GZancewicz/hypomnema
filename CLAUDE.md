@@ -96,7 +96,8 @@ python scripts/split_kjv_into_chapters.py
 ## Current Features
 - KJV New Testament with chapter navigation
 - John Chrysostom's 90 homilies on Matthew
-- Inline homily references in biblical text
+- Minimal grey box markers in right margin for homily references
+- Custom hover tooltips showing homily numbers
 - Split-screen homily viewing (50/50 layout)
 - Footnotes with hover tooltips
 - Cross-Gospel homily references via Eusebian canons
