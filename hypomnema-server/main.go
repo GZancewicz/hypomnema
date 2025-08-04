@@ -169,6 +169,7 @@ func loadVerseToHomily() {
 	if err != nil {
 		log.Println("Warning: Could not parse verse-to-homily data:", err)
 		verseToHomily = make(VerseToHomily)
+		return
 	}
 }
 
@@ -368,10 +369,13 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		if homilyMap != nil {
 			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
 			if homilies, ok := homilyMap[verseKey]; ok {
+				// Wrap multiple homilies in a container
+				html.WriteString(`<div class="homily-refs-container">`)
 				for _, homily := range homilies {
 					html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref">John Chrysostom, Homily %s on Matthew</a>`, 
 						homily.Number, homily.Roman, homily.Roman))
 				}
+				html.WriteString(`</div>`)
 			}
 		}
 		

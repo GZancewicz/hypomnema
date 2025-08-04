@@ -100,6 +100,7 @@ body {
     overflow-y: auto;
     background-color: #fff;
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    position: relative;
 }
 
 .content-header {
@@ -158,7 +159,8 @@ body {
 /* Text content */
 #text-content {
     padding: 40px 220px 40px 100px;
-    max-width: 800px;
+    max-width: none;
+    width: 100%;
     position: relative;
 }
 
@@ -318,25 +320,32 @@ body {
     border-bottom: 1px dotted #888;
 }
 
+/* Homily references container */
+.homily-refs-container {
+    position: absolute;
+    right: 20px;
+    margin-top: -2px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 /* Homily references in right margin */
 .homily-ref {
-    float: right;
-    margin-right: -200px;
     font-size: 0.85em;
     color: #666;
     font-style: italic;
-    width: 180px;
     text-align: left;
     white-space: normal;
-    clear: right;
     line-height: 1.4;
     padding: 5px 8px;
     border-left: 2px solid #ddd;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     display: block;
     text-decoration: none;
-    margin-bottom: 5px;
     transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .homily-ref:hover {
@@ -364,7 +373,7 @@ body {
 
 /* Content footer */
 .content-footer {
-    padding: 20px 50px 30px 100px;
+    padding: 20px 220px 30px 100px;
     border-top: 1px solid #e9ecef;
     margin-top: 40px;
 }
@@ -396,7 +405,7 @@ body {
     position: fixed;
     top: 0;
     right: -50%;
-    width: 50%;
+    width: calc((100vw - 250px) / 2);
     height: 100vh;
     background-color: #fff;
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
@@ -460,7 +469,30 @@ body {
 
 /* Adjust main content when homily panel is open */
 .container.homily-open .content {
-    margin-right: 50%;
+    margin-right: calc((100vw - 250px) / 2);
+}
+
+/* When sidebar is collapsed, adjust calculations */
+.container.sidebar-collapsed.homily-open .content {
+    margin-right: calc(100vw / 2);
+}
+
+.container.sidebar-collapsed .homily-panel {
+    width: calc(100vw / 2);
+}
+
+/* Remove right padding when homily panel is open since we don't need space for references */
+.container.homily-open #text-content {
+    padding-right: 40px;
+}
+
+.container.homily-open .content-footer {
+    padding-right: 40px;
+}
+
+/* Hide homily references when homily panel is open */
+.container.homily-open .homily-refs-container {
+    display: none;
 }
 
 /* Footnotes */
