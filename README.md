@@ -6,10 +6,11 @@ A biblical text reader with integrated patristic commentary, featuring John Chry
 
 - **Complete KJV New Testament** with chapter-by-chapter navigation
 - **John Chrysostom's Homilies on Matthew** with:
-  - Inline homily references in the biblical text
+  - Minimal grey box markers in the right margin
   - Split-screen homily viewing (50/50 layout)
-  - Footnotes with hover tooltips
+  - Hover tooltips showing homily numbers
   - Smart cross-referencing to parallel Gospel passages
+  - Footnotes with hover tooltips
 - **Eusebian Canon System** showing parallel Gospel passages
 - **Responsive Design** with mobile-friendly hamburger menu
 - **Clean Typography** with paragraph-based formatting
