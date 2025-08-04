@@ -1,0 +1,344 @@
+{
+  "2": {
+    "homily_number": 2,
+    "homily_roman": "II",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 25,
+    "title": "Matthew I. 1."
+  },
+  "3": {
+    "homily_number": 3,
+    "homily_roman": "III",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 16,
+    "title": "Matthew I. 1."
+  },
+  "4": {
+    "homily_number": 4,
+    "homily_roman": "IV",
+    "start_chapter": 1,
+    "start_verse": 17,
+    "end_chapter": 1,
+    "end_verse": 25,
+    "title": "Matthew I. 17."
+  },
+  "5": {
+    "homily_number": 5,
+    "homily_roman": "V",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 64,
+    "title": "Matthew 1. 22, 23."
+  },
+  "6": {
+    "homily_number": 6,
+    "homily_roman": "VI",
+    "start_chapter": 2,
+    "start_verse": 1,
+    "end_chapter": 2,
+    "end_verse": 3,
+    "title": "Matthew II. 1, 2."
+  },
+  "7": {
+    "homily_number": 7,
+    "homily_roman": "VII",
+    "start_chapter": 2,
+    "start_verse": 4,
+    "end_chapter": 2,
+    "end_verse": 1,
+    "title": "Matthew II. 4, 5."
+  },
+  "8": {
+    "homily_number": 8,
+    "homily_roman": "VIII",
+    "start_chapter": 2,
+    "start_verse": 2,
+    "end_chapter": 2,
+    "end_verse": 15,
+    "title": "Matthew II. 2."
+  },
+  "9": {
+    "homily_number": 9,
+    "homily_roman": "IX",
+    "start_chapter": 2,
+    "start_verse": 16,
+    "end_chapter": 2,
+    "end_verse": 23,
+    "title": "Matthew II. 16."
+  },
+  "10": {
+    "homily_number": 10,
+    "homily_roman": "X",
+    "start_chapter": 3,
+    "start_verse": 1,
+    "end_chapter": 3,
+    "end_verse": 6,
+    "title": "Matthew III. 1, 2."
+  },
+  "11": {
+    "homily_number": 11,
+    "homily_roman": "XI",
+    "start_chapter": 3,
+    "start_verse": 7,
+    "end_chapter": 3,
+    "end_verse": 12,
+    "title": "Matthew III. 7."
+  },
+  "12": {
+    "homily_number": 12,
+    "homily_roman": "XII",
+    "start_chapter": 3,
+    "start_verse": 13,
+    "end_chapter": 3,
+    "end_verse": 17,
+    "title": "Matthew III. 13."
+  },
+  "13": {
+    "homily_number": 13,
+    "homily_roman": "XIII",
+    "start_chapter": 4,
+    "start_verse": 1,
+    "end_chapter": 4,
+    "end_verse": 11,
+    "title": "Matthew IV. 1."
+  },
+  "14": {
+    "homily_number": 14,
+    "homily_roman": "XIV",
+    "start_chapter": 4,
+    "start_verse": 12,
+    "end_chapter": 4,
+    "end_verse": 25,
+    "title": "Matthew IV. 12."
+  },
+  "15": {
+    "homily_number": 15,
+    "homily_roman": "XV",
+    "start_chapter": 5,
+    "start_verse": 1,
+    "end_chapter": 5,
+    "end_verse": 16,
+    "title": "Matthew V. 1, 2."
+  },
+  "16": {
+    "homily_number": 16,
+    "homily_roman": "XVI",
+    "start_chapter": 5,
+    "start_verse": 17,
+    "end_chapter": 5,
+    "end_verse": 26,
+    "title": "Matthew V. 17."
+  },
+  "17": {
+    "homily_number": 17,
+    "homily_roman": "XVII",
+    "start_chapter": 5,
+    "start_verse": 27,
+    "end_chapter": 5,
+    "end_verse": 37,
+    "title": "Matthew V. 27, 28."
+  },
+  "18": {
+    "homily_number": 18,
+    "homily_roman": "XVIII",
+    "start_chapter": 5,
+    "start_verse": 38,
+    "end_chapter": 5,
+    "end_verse": 48,
+    "title": "Matthew V. 38, 39, 40."
+  },
+  "19": {
+    "homily_number": 19,
+    "homily_roman": "XIX",
+    "start_chapter": 6,
+    "start_verse": 1,
+    "end_chapter": 6,
+    "end_verse": 15,
+    "title": "Matthew VI. 1."
+  },
+  "20": {
+    "homily_number": 20,
+    "homily_roman": "XX",
+    "start_chapter": 6,
+    "start_verse": 16,
+    "end_chapter": 6,
+    "end_verse": 23,
+    "title": "Matthew VI. 16."
+  },
+  "21": {
+    "homily_number": 21,
+    "homily_roman": "XXI",
+    "start_chapter": 6,
+    "start_verse": 24,
+    "end_chapter": 6,
+    "end_verse": 27,
+    "title": "Matthew VI. 24."
+  },
+  "22": {
+    "homily_number": 22,
+    "homily_roman": "XXII",
+    "start_chapter": 6,
+    "start_verse": 28,
+    "end_chapter": 6,
+    "end_verse": 34,
+    "title": "Matthew VI. 28, 29."
+  },
+  "23": {
+    "homily_number": 23,
+    "homily_roman": "XXIII",
+    "start_chapter": 7,
+    "start_verse": 1,
+    "end_chapter": 7,
+    "end_verse": 20,
+    "title": "Matthew VII. 1."
+  },
+  "24": {
+    "homily_number": 24,
+    "homily_roman": "XXIV",
+    "start_chapter": 7,
+    "start_verse": 21,
+    "end_chapter": 7,
+    "end_verse": 27,
+    "title": "Matthew VII. 21."
+  },
+  "25": {
+    "homily_number": 25,
+    "homily_roman": "XXV",
+    "start_chapter": 7,
+    "start_verse": 28,
+    "end_chapter": 8,
+    "end_verse": 4,
+    "title": "Matthew VII. 28."
+  },
+  "26": {
+    "homily_number": 26,
+    "homily_roman": "XXVI",
+    "start_chapter": 8,
+    "start_verse": 5,
+    "end_chapter": 8,
+    "end_verse": 13,
+    "title": "Matthew VIII. 5."
+  },
+  "27": {
+    "homily_number": 27,
+    "homily_roman": "XXVII",
+    "start_chapter": 8,
+    "start_verse": 14,
+    "end_chapter": 8,
+    "end_verse": 22,
+    "title": "Matthew VIII. 14, 15."
+  },
+  "28": {
+    "homily_number": 28,
+    "homily_roman": "XXVIII",
+    "start_chapter": 8,
+    "start_verse": 23,
+    "end_chapter": 8,
+    "end_verse": 34,
+    "title": "Matthew VIII. 23, 24."
+  },
+  "29": {
+    "homily_number": 29,
+    "homily_roman": "XXIX",
+    "start_chapter": 9,
+    "start_verse": 1,
+    "end_chapter": 9,
+    "end_verse": 8,
+    "title": "Matthew IX. 1, 2."
+  },
+  "30": {
+    "homily_number": 30,
+    "homily_roman": "XXX",
+    "start_chapter": 9,
+    "start_verse": 9,
+    "end_chapter": 9,
+    "end_verse": 17,
+    "title": "Matthew IX. 9."
+  },
+  "31": {
+    "homily_number": 31,
+    "homily_roman": "XXXI",
+    "start_chapter": 9,
+    "start_verse": 18,
+    "end_chapter": 9,
+    "end_verse": 26,
+    "title": "Matthew IX. 18."
+  },
+  "32": {
+    "homily_number": 32,
+    "homily_roman": "XXXII",
+    "start_chapter": 9,
+    "start_verse": 27,
+    "end_chapter": 9,
+    "end_verse": 30,
+    "title": "Matthew IX. 27-30."
+  },
+  "33": {
+    "homily_number": 33,
+    "homily_roman": "XXXIII",
+    "start_chapter": 10,
+    "start_verse": 16,
+    "end_chapter": 10,
+    "end_verse": 22,
+    "title": "Matthew X. 16."
+  },
+  "34": {
+    "homily_number": 34,
+    "homily_roman": "XXXIV",
+    "start_chapter": 10,
+    "start_verse": 23,
+    "end_chapter": 10,
+    "end_verse": 33,
+    "title": "Matthew X. 23."
+  },
+  "35": {
+    "homily_number": 35,
+    "homily_roman": "XXXV",
+    "start_chapter": 10,
+    "start_verse": 34,
+    "end_chapter": 10,
+    "end_verse": 42,
+    "title": "Matthew X. 34."
+  },
+  "36": {
+    "homily_number": 36,
+    "homily_roman": "XXXVI",
+    "start_chapter": 11,
+    "start_verse": 1,
+    "end_chapter": 10,
+    "end_verse": 6,
+    "title": "Matthew XI. 1."
+  },
+  "37": {
+    "homily_number": 37,
+    "homily_roman": "XXXVII",
+    "start_chapter": 10,
+    "start_verse": 7,
+    "end_chapter": 11,
+    "end_verse": 24,
+    "title": "Matthew X. 7, 8, 9."
+  },
+  "38": {
+    "homily_number": 38,
+    "homily_roman": "XXXVIII",
+    "start_chapter": 11,
+    "start_verse": 25,
+    "end_chapter": 11,
+    "end_verse": 30,
+    "title": "Matthew XI. 25, 26."
+  },
+  "39": {
+    "homily_number": 39,
+    "homily_roman": "XXXIX",
+    "start_chapter": 12,
+    "start_verse": 1,
+    "end_chapter": 28,
+    "end_verse": 20,
+    "title": "Matthew XII. 1."
+  }
+}

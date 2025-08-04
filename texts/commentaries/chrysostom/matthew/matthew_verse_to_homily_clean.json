@@ -1,0 +1,218 @@
+{
+  "1:1": {
+    "homily_number": 5,
+    "homily_roman": "V",
+    "passage": "Matthew 1:1",
+    "end": "Matthew 1:64"
+  },
+  "1:17": {
+    "homily_number": 4,
+    "homily_roman": "IV",
+    "passage": "Matthew 1:17",
+    "end": "Matthew 1:25"
+  },
+  "2:1": {
+    "homily_number": 6,
+    "homily_roman": "VI",
+    "passage": "Matthew 2:1",
+    "end": "Matthew 2:3"
+  },
+  "2:4": {
+    "homily_number": 7,
+    "homily_roman": "VII",
+    "passage": "Matthew 2:4",
+    "end": "Matthew 2:1"
+  },
+  "2:2": {
+    "homily_number": 8,
+    "homily_roman": "VIII",
+    "passage": "Matthew 2:2",
+    "end": "Matthew 2:15"
+  },
+  "2:16": {
+    "homily_number": 9,
+    "homily_roman": "IX",
+    "passage": "Matthew 2:16",
+    "end": "Matthew 2:23"
+  },
+  "3:1": {
+    "homily_number": 10,
+    "homily_roman": "X",
+    "passage": "Matthew 3:1",
+    "end": "Matthew 3:6"
+  },
+  "3:7": {
+    "homily_number": 11,
+    "homily_roman": "XI",
+    "passage": "Matthew 3:7",
+    "end": "Matthew 3:12"
+  },
+  "3:13": {
+    "homily_number": 12,
+    "homily_roman": "XII",
+    "passage": "Matthew 3:13",
+    "end": "Matthew 3:17"
+  },
+  "4:1": {
+    "homily_number": 13,
+    "homily_roman": "XIII",
+    "passage": "Matthew 4:1",
+    "end": "Matthew 4:11"
+  },
+  "4:12": {
+    "homily_number": 14,
+    "homily_roman": "XIV",
+    "passage": "Matthew 4:12",
+    "end": "Matthew 4:25"
+  },
+  "5:1": {
+    "homily_number": 15,
+    "homily_roman": "XV",
+    "passage": "Matthew 5:1",
+    "end": "Matthew 5:16"
+  },
+  "5:17": {
+    "homily_number": 16,
+    "homily_roman": "XVI",
+    "passage": "Matthew 5:17",
+    "end": "Matthew 5:26"
+  },
+  "5:27": {
+    "homily_number": 17,
+    "homily_roman": "XVII",
+    "passage": "Matthew 5:27",
+    "end": "Matthew 5:37"
+  },
+  "5:38": {
+    "homily_number": 18,
+    "homily_roman": "XVIII",
+    "passage": "Matthew 5:38",
+    "end": "Matthew 5:48"
+  },
+  "6:1": {
+    "homily_number": 19,
+    "homily_roman": "XIX",
+    "passage": "Matthew 6:1",
+    "end": "Matthew 6:15"
+  },
+  "6:16": {
+    "homily_number": 20,
+    "homily_roman": "XX",
+    "passage": "Matthew 6:16",
+    "end": "Matthew 6:23"
+  },
+  "6:24": {
+    "homily_number": 21,
+    "homily_roman": "XXI",
+    "passage": "Matthew 6:24",
+    "end": "Matthew 6:27"
+  },
+  "6:28": {
+    "homily_number": 22,
+    "homily_roman": "XXII",
+    "passage": "Matthew 6:28",
+    "end": "Matthew 6:34"
+  },
+  "7:1": {
+    "homily_number": 23,
+    "homily_roman": "XXIII",
+    "passage": "Matthew 7:1",
+    "end": "Matthew 7:20"
+  },
+  "7:21": {
+    "homily_number": 24,
+    "homily_roman": "XXIV",
+    "passage": "Matthew 7:21",
+    "end": "Matthew 7:27"
+  },
+  "7:28": {
+    "homily_number": 25,
+    "homily_roman": "XXV",
+    "passage": "Matthew 7:28",
+    "end": "Matthew 8:4"
+  },
+  "8:5": {
+    "homily_number": 26,
+    "homily_roman": "XXVI",
+    "passage": "Matthew 8:5",
+    "end": "Matthew 8:13"
+  },
+  "8:14": {
+    "homily_number": 27,
+    "homily_roman": "XXVII",
+    "passage": "Matthew 8:14",
+    "end": "Matthew 8:22"
+  },
+  "8:23": {
+    "homily_number": 28,
+    "homily_roman": "XXVIII",
+    "passage": "Matthew 8:23",
+    "end": "Matthew 8:34"
+  },
+  "9:1": {
+    "homily_number": 29,
+    "homily_roman": "XXIX",
+    "passage": "Matthew 9:1",
+    "end": "Matthew 9:8"
+  },
+  "9:9": {
+    "homily_number": 30,
+    "homily_roman": "XXX",
+    "passage": "Matthew 9:9",
+    "end": "Matthew 9:17"
+  },
+  "9:18": {
+    "homily_number": 31,
+    "homily_roman": "XXXI",
+    "passage": "Matthew 9:18",
+    "end": "Matthew 9:26"
+  },
+  "9:27": {
+    "homily_number": 32,
+    "homily_roman": "XXXII",
+    "passage": "Matthew 9:27",
+    "end": "Matthew 9:30"
+  },
+  "10:16": {
+    "homily_number": 33,
+    "homily_roman": "XXXIII",
+    "passage": "Matthew 10:16",
+    "end": "Matthew 10:22"
+  },
+  "10:23": {
+    "homily_number": 34,
+    "homily_roman": "XXXIV",
+    "passage": "Matthew 10:23",
+    "end": "Matthew 10:33"
+  },
+  "10:34": {
+    "homily_number": 35,
+    "homily_roman": "XXXV",
+    "passage": "Matthew 10:34",
+    "end": "Matthew 10:42"
+  },
+  "11:1": {
+    "homily_number": 36,
+    "homily_roman": "XXXVI",
+    "passage": "Matthew 11:1",
+    "end": "Matthew 10:6"
+  },
+  "10:7": {
+    "homily_number": 37,
+    "homily_roman": "XXXVII",
+    "passage": "Matthew 10:7",
+    "end": "Matthew 11:24"
+  },
+  "11:25": {
+    "homily_number": 38,
+    "homily_roman": "XXXVIII",
+    "passage": "Matthew 11:25",
+    "end": "Matthew 11:30"
+  },
+  "12:1": {
+    "homily_number": 39,
+    "homily_roman": "XXXIX",
+    "passage": "Matthew 12:1",
+    "end": "Matthew 28:20"
+  }
+}
