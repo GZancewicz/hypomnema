@@ -62,8 +62,10 @@ type HomilyRange struct {
 var (
 	verseToCanon VerseToCanon
 	canonLookup CanonLookup
-	verseToHomily VerseToHomily
-	homilyCoverage map[int]HomilyRange
+	matthewVerseToHomily VerseToHomily
+	matthewHomilyCoverage map[int]HomilyRange
+	johnVerseToHomily VerseToHomily
+	johnHomilyCoverage map[int]HomilyRange
 	books = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
@@ -109,8 +111,10 @@ func init() {
 	loadCanonLookup()
 	
 	// Load verse-to-homily mapping
-	loadVerseToHomily()
-	loadHomilyCoverage()
+	loadMatthewHomilies()
+	loadMatthewHomilyCoverage()
+	loadJohnHomilies()
+	loadJohnHomilyCoverage()
 
 	// Parse templates
 	var err error
@@ -168,28 +172,45 @@ func loadCanonLookup() {
 	}
 }
 
-func loadVerseToHomily() {
+func loadMatthewHomilies() {
 	file, err := os.Open("../texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json")
 	if err != nil {
 		log.Println("Warning: Could not load verse-to-homily data:", err)
-		verseToHomily = make(VerseToHomily)
+		matthewVerseToHomily = make(VerseToHomily)
 		return
 	}
 	defer file.Close()
 
-	err = json.NewDecoder(file).Decode(&verseToHomily)
+	err = json.NewDecoder(file).Decode(&matthewVerseToHomily)
 	if err != nil {
 		log.Println("Warning: Could not parse verse-to-homily data:", err)
-		verseToHomily = make(VerseToHomily)
+		matthewVerseToHomily = make(VerseToHomily)
 		return
 	}
 }
 
-func loadHomilyCoverage() {
+func loadJohnHomilies() {
+	file, err := os.Open("../texts/commentaries/chrysostom/john/john_verse_to_homilies.json")
+	if err != nil {
+		log.Println("Warning: Could not load John verse-to-homily data:", err)
+		johnVerseToHomily = make(VerseToHomily)
+		return
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&johnVerseToHomily)
+	if err != nil {
+		log.Println("Warning: Could not parse John verse-to-homily data:", err)
+		johnVerseToHomily = make(VerseToHomily)
+		return
+	}
+}
+
+func loadMatthewHomilyCoverage() {
 	file, err := os.Open("../texts/commentaries/chrysostom/matthew/homily_coverage.json")
 	if err != nil {
-		log.Println("Warning: Could not load homily coverage data:", err)
-		homilyCoverage = make(map[int]HomilyRange)
+		log.Println("Warning: Could not load Matthew homily coverage data:", err)
+		matthewHomilyCoverage = make(map[int]HomilyRange)
 		return
 	}
 	defer file.Close()
@@ -197,21 +218,50 @@ func loadHomilyCoverage() {
 	var tempCoverage map[string]HomilyRange
 	err = json.NewDecoder(file).Decode(&tempCoverage)
 	if err != nil {
-		log.Println("Warning: Could not parse homily coverage data:", err)
-		homilyCoverage = make(map[int]HomilyRange)
+		log.Println("Warning: Could not parse Matthew homily coverage data:", err)
+		matthewHomilyCoverage = make(map[int]HomilyRange)
 		return
 	}
 	
 	// Convert string keys to int
-	homilyCoverage = make(map[int]HomilyRange)
+	matthewHomilyCoverage = make(map[int]HomilyRange)
 	for k, v := range tempCoverage {
 		if num, err := strconv.Atoi(k); err == nil {
-			homilyCoverage[num] = v
+			matthewHomilyCoverage[num] = v
+		}
+	}
+	
+	log.Printf("Loaded Matthew homily coverage for %d homilies", len(matthewHomilyCoverage))
+}
+
+func loadJohnHomilyCoverage() {
+	file, err := os.Open("../texts/commentaries/chrysostom/john/homily_coverage.json")
+	if err != nil {
+		log.Println("Warning: Could not load John homily coverage data:", err)
+		johnHomilyCoverage = make(map[int]HomilyRange)
+		return
+	}
+	defer file.Close()
+
+	var tempCoverage map[string]HomilyRange
+	err = json.NewDecoder(file).Decode(&tempCoverage)
+	if err != nil {
+		log.Println("Warning: Could not parse John homily coverage data:", err)
+		johnHomilyCoverage = make(map[int]HomilyRange)
+		return
+	}
+	
+	// Convert string keys to int
+	johnHomilyCoverage = make(map[int]HomilyRange)
+	for k, v := range tempCoverage {
+		if num, err := strconv.Atoi(k); err == nil {
+			johnHomilyCoverage[num] = v
 		}
 	}
 }
 
 // parseVerseRef parses a verse reference like "3.3" or "3.3-6" into chapter and verse numbers
+
 func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, err error) {
 	// Handle ranges like "3.3-6" or single verses like "3.3"
 	parts := strings.Split(ref, "-")
@@ -271,13 +321,39 @@ func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, er
 func findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse int) []Homily {
 	var result []Homily
 	
-	for _, hr := range homilyCoverage {
+	for _, hr := range matthewHomilyCoverage {
 		// Check if the homily range overlaps with the requested range
 		if (hr.StartChapter < endChap || (hr.StartChapter == endChap && hr.StartVerse <= endVerse)) &&
 		   (hr.EndChapter > startChap || (hr.EndChapter == startChap && hr.EndVerse >= startVerse)) {
+			// Simple passage format - we'll format it properly when displaying
+			passage := fmt.Sprintf("%d:%d-%d:%d", hr.StartChapter, hr.StartVerse, hr.EndChapter, hr.EndVerse)
+			
 			result = append(result, Homily{
 				Number: hr.Number,
 				Roman:  hr.Roman,
+				Passage: passage,
+			})
+		}
+	}
+	
+	return result
+}
+
+// findHomiliesForJohnRange finds which homilies cover a given John passage
+func findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse int) []Homily {
+	var result []Homily
+	
+	for _, hr := range johnHomilyCoverage {
+		// Check if the homily range overlaps with the requested range
+		if (hr.StartChapter < endChap || (hr.StartChapter == endChap && hr.StartVerse <= endVerse)) &&
+		   (hr.EndChapter > startChap || (hr.EndChapter == startChap && hr.EndVerse >= startVerse)) {
+			// Simple passage format - we'll format it properly when displaying
+			passage := fmt.Sprintf("%d:%d-%d:%d", hr.StartChapter, hr.StartVerse, hr.EndChapter, hr.EndVerse)
+			
+			result = append(result, Homily{
+				Number: hr.Number,
+				Roman:  hr.Roman,
+				Passage: passage,
 			})
 		}
 	}
@@ -401,10 +477,12 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	// Get verse-to-canon mapping for this book
 	bookCanons := verseToCanon[bookID]
 	
-	// Get homily mappings (only for Matthew)
+	// Get homily mappings
 	var homilyMap map[string][]Homily
 	if bookID == "matthew" {
-		homilyMap = verseToHomily
+		homilyMap = matthewVerseToHomily
+	} else if bookID == "john" {
+		homilyMap = johnVerseToHomily
 	}
 	
 	// Format the text with paragraphs and canon numbers
@@ -481,8 +559,8 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		// Check if this verse has homily references
 		currentHomilies := []int{} // Track homilies for this verse
 		
-		if bookID == "matthew" && homilyMap != nil {
-			// Direct homily references for Matthew
+		if (bookID == "matthew" || bookID == "john") && homilyMap != nil {
+			// Direct homily references
 			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
 			if homilies, ok := homilyMap[verseKey]; ok {
 				// Filter out consecutive duplicates
@@ -505,46 +583,166 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 				if len(filteredHomilies) > 0 {
 					html.WriteString(`<div class="homily-refs-container">`)
 					for _, homily := range filteredHomilies {
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
-							homily.Number, homily.Roman, homily.Roman))
+						bookTitle := "Matthew"
+						if bookID == "john" {
+							bookTitle = "John"
+						}
+						
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on %s"></a>`, 
+							homily.Number, homily.Roman, bookID, homily.Roman, bookTitle))
 					}
 					html.WriteString(`</div>`)
 				}
 			}
-		} else if bookID != "matthew" && canonNum != "" {
-			// Cross-referenced homilies for other Gospels via canon tables
+		} 
+		
+		// Check for cross-referenced homilies via canon tables
+		if canonNum != "" {
 			if canonData, ok := canonLookup[canonNum]; ok {
-				if matthewRef, ok := canonData["matthew"]; ok {
-					// Parse the Matthew reference
-					startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
-					if err == nil {
-						// Find homilies that cover this Matthew passage
-						homilies := findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse)
-						
-						// Filter out consecutive duplicates
-						var filteredHomilies []Homily
-						for _, homily := range homilies {
-							isDuplicate := false
-							for _, lastNum := range lastHomilies {
-								if homily.Number == lastNum {
-									isDuplicate = true
-									break
+				// When viewing John, show Matthew homilies for parallel passages
+				if bookID == "john" {
+					if matthewRef, ok := canonData["matthew"]; ok {
+						// Parse the Matthew reference
+						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
+						if err == nil {
+							// Find homilies that cover this Matthew passage
+							homilies := findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse)
+							
+							// Filter out consecutive duplicates
+							var filteredHomilies []Homily
+							for _, homily := range homilies {
+								isDuplicate := false
+								for _, lastNum := range lastHomilies {
+									if homily.Number == lastNum {
+										isDuplicate = true
+										break
+									}
+								}
+								if !isDuplicate {
+									filteredHomilies = append(filteredHomilies, homily)
+									currentHomilies = append(currentHomilies, homily.Number)
 								}
 							}
-							if !isDuplicate {
-								filteredHomilies = append(filteredHomilies, homily)
-								currentHomilies = append(currentHomilies, homily.Number)
+							
+							// Only render if we have non-duplicate homilies
+							if len(filteredHomilies) > 0 {
+								html.WriteString(`<div class="homily-refs-container cross-ref">`)
+								for _, homily := range filteredHomilies {
+									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'matthew'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
+										homily.Number, homily.Roman, homily.Roman))
+								}
+								html.WriteString(`</div>`)
 							}
 						}
-						
-						// Only render if we have non-duplicate homilies
-						if len(filteredHomilies) > 0 {
-							html.WriteString(`<div class="homily-refs-container cross-ref">`)
-							for _, homily := range filteredHomilies {
-								html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
-									homily.Number, homily.Roman, homily.Roman))
+					}
+				} else if bookID == "matthew" {
+					// When viewing Matthew, show John homilies for parallel passages
+					if johnRef, ok := canonData["john"]; ok {
+						// Parse the John reference
+						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
+						if err == nil {
+							// Find homilies that cover this John passage
+							homilies := findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse)
+							
+							// Filter out consecutive duplicates
+							var filteredHomilies []Homily
+							for _, homily := range homilies {
+								isDuplicate := false
+								for _, lastNum := range lastHomilies {
+									if homily.Number == lastNum {
+										isDuplicate = true
+										break
+									}
+								}
+								if !isDuplicate {
+									filteredHomilies = append(filteredHomilies, homily)
+									currentHomilies = append(currentHomilies, homily.Number)
+								}
 							}
-							html.WriteString(`</div>`)
+							
+							// Only render if we have non-duplicate homilies
+							if len(filteredHomilies) > 0 {
+								html.WriteString(`<div class="homily-refs-container cross-ref">`)
+								for _, homily := range filteredHomilies {
+									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'john'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on John"></a>`, 
+										homily.Number, homily.Roman, homily.Roman))
+								}
+								html.WriteString(`</div>`)
+							}
+						}
+					}
+				} else if bookID != "matthew" && bookID != "john" {
+					// For Mark and Luke, show both Matthew and John homilies
+					
+					// First, check for Matthew homilies
+					if matthewRef, ok := canonData["matthew"]; ok {
+						// Parse the Matthew reference
+						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
+						if err == nil {
+							// Find homilies that cover this Matthew passage
+							homilies := findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse)
+							
+							// Filter out consecutive duplicates
+							var filteredHomilies []Homily
+							for _, homily := range homilies {
+								isDuplicate := false
+								for _, lastNum := range lastHomilies {
+									if homily.Number == lastNum {
+										isDuplicate = true
+										break
+									}
+								}
+								if !isDuplicate {
+									filteredHomilies = append(filteredHomilies, homily)
+									currentHomilies = append(currentHomilies, homily.Number)
+								}
+							}
+							
+							// Only render if we have non-duplicate homilies
+							if len(filteredHomilies) > 0 {
+								html.WriteString(`<div class="homily-refs-container cross-ref">`)
+								for _, homily := range filteredHomilies {
+									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'matthew'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
+										homily.Number, homily.Roman, homily.Roman))
+								}
+								html.WriteString(`</div>`)
+							}
+						}
+					}
+					
+					// Also check for John homilies
+					if johnRef, ok := canonData["john"]; ok {
+						// Parse the John reference
+						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
+						if err == nil {
+							// Find homilies that cover this John passage
+							homilies := findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse)
+							
+							// Filter out consecutive duplicates
+							var filteredHomilies []Homily
+							for _, homily := range homilies {
+								isDuplicate := false
+								for _, lastNum := range lastHomilies {
+									if homily.Number == lastNum {
+										isDuplicate = true
+										break
+									}
+								}
+								if !isDuplicate {
+									filteredHomilies = append(filteredHomilies, homily)
+									currentHomilies = append(currentHomilies, homily.Number)
+								}
+							}
+							
+							// Only render if we have non-duplicate homilies
+							if len(filteredHomilies) > 0 {
+								html.WriteString(`<div class="homily-refs-container cross-ref">`)
+								for _, homily := range filteredHomilies {
+									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'john'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on John"></a>`, 
+										homily.Number, homily.Roman, homily.Roman))
+								}
+								html.WriteString(`</div>`)
+							}
 						}
 					}
 				}
@@ -734,7 +932,7 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	book := parts[1]
 	homilyNumStr := parts[2]
 	
-	if author != "chrysostom" || book != "matthew" {
+	if author != "chrysostom" || (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
 	}
@@ -749,9 +947,9 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	roman := intToRoman(homilyNum)
 	
 	// Extract homily text from XML
-	homilyText, verseRef, err := extractHomilyFromXML(homilyNum)
+	homilyText, verseRef, err := extractHomilyFromXML(book, homilyNum)
 	if err != nil {
-		log.Printf("Error extracting homily %d: %v", homilyNum, err)
+		log.Printf("Error extracting %s homily %d: %v", book, homilyNum, err)
 		homilyText = "Error loading homily text."
 	}
 	
@@ -769,7 +967,7 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		VerseRef    string
 	}{
 		Author:      "John Chrysostom",
-		Book:        "Matthew",
+		Book:        strings.Title(book),
 		HomilyNum:   homilyNum,
 		HomilyRoman: roman,
 		HomilyText:  template.HTML(homilyText),
@@ -814,28 +1012,43 @@ type FootnoteData struct {
 }
 
 // Global variable to store footnotes
-var footnotesData map[string]FootnoteData
+var matthewFootnotesData map[string]FootnoteData
+var johnFootnotesData map[string]FootnoteData
 
 // Load footnotes from JSON file
 func loadFootnotes() error {
-	data, err := os.ReadFile("../texts/commentaries/chrysostom/matthew/footnotes.json")
+	// Load Matthew footnotes
+	matthewData, err := os.ReadFile("../texts/commentaries/chrysostom/matthew/footnotes.json")
 	if err != nil {
 		return err
 	}
 	
-	footnotesData = make(map[string]FootnoteData)
-	err = json.Unmarshal(data, &footnotesData)
+	matthewFootnotesData = make(map[string]FootnoteData)
+	err = json.Unmarshal(matthewData, &matthewFootnotesData)
 	if err != nil {
 		return err
 	}
 	
-	log.Printf("Loaded footnotes for %d homilies", len(footnotesData))
+	// Load John footnotes
+	johnData, err := os.ReadFile("../texts/commentaries/chrysostom/john/footnotes.json")
+	if err != nil {
+		return err
+	}
+	
+	johnFootnotesData = make(map[string]FootnoteData)
+	err = json.Unmarshal(johnData, &johnFootnotesData)
+	if err != nil {
+		return err
+	}
+	
+	log.Printf("Loaded footnotes for %d Matthew homilies and %d John homilies", 
+		len(matthewFootnotesData), len(johnFootnotesData))
 	return nil
 }
 
-func extractHomilyFromXML(homilyNum int) (string, string, error) {
+func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	// Read the XML file
-	xmlPath := "../texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml"
+	xmlPath := fmt.Sprintf("../texts/commentaries/chrysostom/%s/chrysostom_%s_homilies.xml", book, book)
 	content, err := os.ReadFile(xmlPath)
 	if err != nil {
 		return "", "", err
@@ -848,11 +1061,38 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	roman := intToRoman(homilyNum)
 	
 	// Pattern to find the homily div2
-	// Handle both cases: with type="Homily" attribute and without
-	pattern := fmt.Sprintf(`(?s)<div2[^>]*n="%s"[^>]*>.*?</div2>`, roman)
-	re := regexp.MustCompile(pattern)
+	// For John, we need to ensure we're getting John homilies, not Hebrews
+	var pattern string
+	var match string
 	
-	match := re.FindString(xmlContent)
+	if book == "john" {
+		// For John, we need a different approach because most homilies don't have n= attribute
+		// Find all div2 homilies that are NOT Hebrews
+		allHomiliesPattern := `(?s)<div2[^>]*type="Homily"[^>]*>.*?</div2>`
+		allRe := regexp.MustCompile(allHomiliesPattern)
+		allMatches := allRe.FindAllString(xmlContent, -1)
+		
+		// Filter to only John homilies (exclude Hebrews) and find the nth one
+		johnHomilies := []string{}
+		for _, m := range allMatches {
+			if !strings.Contains(m, `title="Hebrews`) {
+				johnHomilies = append(johnHomilies, m)
+			}
+		}
+		
+		// Get the homily by number (1-based index)
+		if homilyNum > 0 && homilyNum <= len(johnHomilies) {
+			match = johnHomilies[homilyNum-1]
+		} else {
+			return "", "", fmt.Errorf("John homily %d not found (only %d homilies available)", homilyNum, len(johnHomilies))
+		}
+	} else {
+		// For Matthew, simpler pattern using Roman numerals
+		pattern = fmt.Sprintf(`(?s)<div2[^>]*n="%s"[^>]*>.*?</div2>`, roman)
+		re := regexp.MustCompile(pattern)
+		match = re.FindString(xmlContent)
+	}
+	
 	if match == "" {
 		// Try alternative pattern for homilies without div2
 		// Look for "Homily [Roman]." pattern
@@ -876,7 +1116,32 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	// Clean up the text
 	text := match
 	
+	// Debug logging for John Homily I
+	if book == "john" && homilyNum == 1 {
+		// Check if the text contains [1.]
+		if strings.Contains(text, "[1.]") {
+			log.Printf("DEBUG: Raw extracted text contains [1.]")
+			idx := strings.Index(text, "[1.]")
+			if idx > 0 && idx < len(text)-100 {
+				log.Printf("DEBUG: Text around [1.]: %q", text[idx-20:idx+80])
+			}
+		} else {
+			log.Printf("DEBUG: Raw extracted text does NOT contain [1.]")
+			// Check for "They that are"
+			if idx := strings.Index(text, "They that are"); idx >= 0 && idx < 1000 {
+				log.Printf("DEBUG: Found 'They that are' at position %d", idx)
+			}
+		}
+	}
+	
 	// Get footnotes from preloaded data
+	var footnotesData map[string]FootnoteData
+	if book == "matthew" {
+		footnotesData = matthewFootnotesData
+	} else if book == "john" {
+		footnotesData = johnFootnotesData
+	}
+	
 	homilyFootnotes, hasFootnotes := footnotesData[strconv.Itoa(homilyNum)]
 	var footnotes []Footnote
 	footnoteMap := make(map[string]int)
@@ -944,27 +1209,74 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	// Remove the redundant header (appears in various formats)
 	// This header appears before the actual homily content
 	// Using multiple patterns to catch different formatting
-	text = regexp.MustCompile(`(?si)Homilies\s+of\s+St\.\s*John\s+Chrysostom[^.]*?gospel\s+according\s+to\s+st\.\s*matthew\.`).ReplaceAllString(text, "")
-	
-	// Also try a more aggressive pattern with any characters between
-	text = regexp.MustCompile(`(?s)Homilies of St\. John Chrysostom.*?matthew\.`).ReplaceAllString(text, "")
+	if book == "matthew" {
+		text = regexp.MustCompile(`(?si)Homilies\s+of\s+St\.\s*John\s+Chrysostom[^.]*?gospel\s+according\s+to\s+st\.\s*matthew\.`).ReplaceAllString(text, "")
+		text = regexp.MustCompile(`(?s)Homilies of St\. John Chrysostom.*?matthew\.`).ReplaceAllString(text, "")
+		text = regexp.MustCompile(`(?s)on the\s*gospel according to st\. matthew\.`).ReplaceAllString(text, "")
+	} else if book == "john" {
+		// Remove John-specific headers
+		text = regexp.MustCompile(`(?si)Homilies\s+of\s+St\.\s*John\s+Chrysostom[^.]*?gospel\s+according\s+to\s+st\.\s*john\.`).ReplaceAllString(text, "")
+		text = regexp.MustCompile(`(?s)Homilies of St\. John Chrysostom.*?john\.`).ReplaceAllString(text, "")
+		text = regexp.MustCompile(`(?s)on the\s*gospel according to st\. john\.`).ReplaceAllString(text, "")
+		
+		// Remove "gospel according to" and "st. john." that may appear on separate lines
+		text = regexp.MustCompile(`(?si)gospel\s+according\s+to\s*(?:<[^>]+>)*\s*st\.\s*john\.`).ReplaceAllString(text, "")
+		
+		// Remove standalone fragments
+		text = regexp.MustCompile(`(?si)gospel\s+according\s+to\s*$`).ReplaceAllString(text, "")
+		text = regexp.MustCompile(`(?si)^\s*st\.\s*john\.`).ReplaceAllString(text, "")
+		
+		// Remove "Preface." header with various formatting
+		text = regexp.MustCompile(`(?si)(?:<[^>]+>)*\s*Preface\.\s*(?:<[^>]+>)*`).ReplaceAllString(text, "")
+	}
 	
 	// Remove any lingering header fragments
 	text = regexp.MustCompile(`(?s)archbishop of constantinople,`).ReplaceAllString(text, "")
-	text = regexp.MustCompile(`(?s)on the\s*gospel according to st\. matthew\.`).ReplaceAllString(text, "")
 	
 	// Remove multiple dashes that might appear after header removal
 	text = regexp.MustCompile(`(?s)[-—]+\s*`).ReplaceAllString(text, "")
 	
-	// Also remove just "Homily [Roman]." at the beginning of the text
-	homilyStartPattern := fmt.Sprintf(`(?s)Homily %s\.`, roman)
+	// Remove "Homily [Roman]." patterns with various formatting
+	// This handles cases like <span>Homily III.</span> inside paragraph tags
+	homilyStartPattern := fmt.Sprintf(`(?si)<p[^>]*>\s*<span[^>]*>\s*Homily\s+%s\.\s*</span>\s*</p>`, roman)
+	if book == "john" && homilyNum == 1 {
+		log.Printf("DEBUG: Before first pattern removal, looking for: %s", homilyStartPattern)
+		if strings.Contains(text, "Homily I.") {
+			log.Printf("DEBUG: Text contains 'Homily I.'")
+		}
+	}
 	text = regexp.MustCompile(homilyStartPattern).ReplaceAllString(text, "")
 	
-	// Remove verse references at the beginning (like "Matt. I. 1." or "Matthew 1:1" or "Matt. II. 4, 5.")
-	// These are redundant since we show them in the subtitle
-	// Handle comma-separated verses
-	verseStartPattern := `(?s)^[\s\p{Z}]*(?:Matt\.|Matthew)\s+[IVX]+\.\s*\d+(?:\s*,\s*\d+)?\.?`
-	text = regexp.MustCompile(verseStartPattern).ReplaceAllString(text, "")
+	// Also remove standalone pattern with word boundaries
+	// For John Homily I (Preface), skip this to avoid removing "I" from content
+	if !(book == "john" && homilyNum == 1) {
+		homilyStartPattern2 := fmt.Sprintf(`\bHomily %s\.`, roman)
+		text = regexp.MustCompile(homilyStartPattern2).ReplaceAllString(text, "")
+	}
+	
+	// Remove the quoted verse text that often appears after the homily title
+	// Pattern: paragraph containing quoted text in quotes
+	quotedVersePattern := `(?si)<p[^>]*>\s*"[^"]+"\s*</p>`
+	text = regexp.MustCompile(quotedVersePattern).ReplaceAllString(text, "")
+	
+	// Clean up any remaining "Homily [Roman]." text that wasn't inside complete paragraph tags
+	// For John Homily I (Preface), skip this step to avoid removing "I" from content
+	if !(book == "john" && homilyNum == 1) {
+		homilySimplePattern := fmt.Sprintf(`\bHomily\s+%s\.`, roman)
+		text = regexp.MustCompile(homilySimplePattern).ReplaceAllString(text, "")
+	}
+	if book == "john" && homilyNum == 1 {
+		log.Printf("DEBUG: After removing pattern, text length %d", len(text))
+		// Check if text starts with expected content
+		if len(text) > 500 {
+			// Find where actual content starts (after tags)
+			plainTextStart := strings.Index(text, "the heathen")
+			if plainTextStart > 0 && plainTextStart < 200 {
+				preview := text[plainTextStart-10:plainTextStart+50]
+				log.Printf("DEBUG: Text around 'the heathen': %q", preview)
+			}
+		}
+	}
 	
 	// Also remove arabic numeral format
 	verseStartPattern2 := `(?s)^[\s\p{Z}]*(?:Matt\.|Matthew)\s+\d+[:.]\s*\d+(?:\s*,\s*\d+)?\.?`
@@ -974,10 +1286,16 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	verseFragmentPattern := `(?s)^[\s\p{Z}]*,\s*\d+\.?`
 	text = regexp.MustCompile(verseFragmentPattern).ReplaceAllString(text, "")
 	
-	// Extract scripture references from scripRef tags before removing them
-	// Replace scripRef tags with their text content
-	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>([^<]+)</scripRef>`)
-	text = scripRefPattern.ReplaceAllString(text, "$1")
+	// Later we'll remove remaining XML tags but we need to process structured removals first
+	
+	// Remove scripRef tags and their content entirely, not just replace with text
+	// This removes references like "John i. 1" that are redundant with the subtitle
+	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>[^<]+</scripRef>`)
+	text = scripRefPattern.ReplaceAllString(text, "")
+	
+	// Also remove scripCom tags which contain scripture commentary metadata
+	scripComPattern := regexp.MustCompile(`<scripCom[^>]*/>`)
+	text = scripComPattern.ReplaceAllString(text, "")
 	
 	// Handle page breaks - first check if they split a word
 	// Pattern: word fragment, optional whitespace/newline, <pb>, optional whitespace/newline, word fragment
@@ -1007,6 +1325,20 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	text = strings.ReplaceAll(text, "</a>", "{{A_CLOSE}}")
 	// Remove all remaining tags
 	text = regexp.MustCompile(`<[^>]+>`).ReplaceAllString(text, "")
+	
+	// Debug for John Homily I - check after tag removal
+	if book == "john" && homilyNum == 1 {
+		if strings.Contains(text, "[1.]") {
+			log.Printf("DEBUG: After tag removal, text still contains [1.]")
+		} else {
+			log.Printf("DEBUG: After tag removal, [1.] is GONE")
+			// Check what's at the beginning
+			if len(text) > 100 {
+				log.Printf("DEBUG: First 100 chars after tag removal: %q", text[:100])
+			}
+		}
+	}
+	
 	// Restore preserved tags
 	text = strings.ReplaceAll(text, "{{P_OPEN}}", "<p>")
 	text = strings.ReplaceAll(text, "{{P_CLOSE}}", "</p>")
@@ -1014,6 +1346,26 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	text = strings.ReplaceAll(text, "{{SUP_CLOSE}}", "</sup>")
 	text = regexp.MustCompile(`{{A_OPEN:([^}]+)}}`).ReplaceAllString(text, "<a $1>")
 	text = strings.ReplaceAll(text, "{{A_CLOSE}}", "</a>")
+	
+	// After all tag processing, remove any biblical references at the beginning of the text
+	// This needs to happen AFTER tag removal so we're working with plain text
+	if book == "matthew" {
+		// Handle Matthew references like "Matt. I. 1." or "Matthew 1:1" or "Matt. II. 4, 5."
+		verseStartPattern := `(?s)^[\s\p{Z}]*(?:Matt\.|Matthew)\s+[IVX]+\.\s*\d+(?:\s*,\s*\d+)?\.?\s*`
+		text = regexp.MustCompile(verseStartPattern).ReplaceAllString(text, "")
+	} else if book == "john" {
+		// Special handling for John Homily I (Preface) - it doesn't have verse references to remove
+		if homilyNum != 1 {
+			// Remove ANY biblical reference at the beginning
+			// Pattern for book name with Roman numerals (e.g., "Hebrews i. 3")
+			verseStartPattern := `(?si)^[\s\p{Z}]*[A-Za-z]+\s+[ivxIVX]+\.\s*\d+(?:\s*[,-]\s*\d+)?\.?\s*`
+			text = regexp.MustCompile(verseStartPattern).ReplaceAllString(text, "")
+			
+			// Pattern for book name with Arabic numerals (e.g., "John 1:1")
+			verseStartPattern2 := `(?si)^[\s\p{Z}]*[A-Za-z]+\s+\d+[:\.] ?\d+(?:\s*[,-]\s*\d+)?\.?\s*`
+			text = regexp.MustCompile(verseStartPattern2).ReplaceAllString(text, "")
+		}
+	}
 	
 	// Clean up extra whitespace
 	text = regexp.MustCompile(`\s+`).ReplaceAllString(text, " ")
@@ -1100,6 +1452,91 @@ func extractHomilyFromXML(homilyNum int) (string, string, error) {
 	// Final step: Replace our marker with the correct class name
 	text = strings.ReplaceAll(text, "XXXFOOTNOTEREFXXX", "footnote-ref")
 	
+	// Final cleanup - remove any remaining header text at the beginning after all processing
+	if book == "john" {
+		// Special handling for John homilies
+		if homilyNum == 1 {
+			// For John Homily I (Preface), just remove the header paragraphs
+			// Split into paragraphs
+			paragraphs := strings.Split(text, "</p>")
+			newParagraphs := []string{}
+			foundContent := false
+			
+			for _, p := range paragraphs {
+				p = strings.TrimSpace(p)
+				if p == "" {
+					continue
+				}
+				
+				// Remove <p> tag for checking
+				content := strings.TrimPrefix(p, "<p>")
+				content = strings.TrimSpace(content)
+				
+				// Skip header paragraphs
+				if !foundContent {
+					lowerContent := strings.ToLower(content)
+					if strings.Contains(lowerContent, "homily i.") ||
+					   strings.Contains(lowerContent, "preface.") ||
+					   strings.Contains(lowerContent, "gospel according to") ||
+					   strings.Contains(lowerContent, "st. john.") ||
+					   strings.Contains(lowerContent, "archbishop of constantinople") ||
+					   content == "" {
+						continue
+					}
+					foundContent = true
+				}
+				
+				// This is actual content, keep it
+				if !strings.HasSuffix(p, "</p>") {
+					p = p + "</p>"
+				}
+				newParagraphs = append(newParagraphs, p)
+			}
+			
+			text = strings.Join(newParagraphs, "\n")
+			text = strings.TrimSpace(text)
+		} else {
+			// For other homilies, use the line-based cleanup
+			lines := strings.Split(text, "\n")
+			startIdx := 0
+			for i, line := range lines {
+				trimmed := strings.TrimSpace(strings.ToLower(line))
+				// Skip lines that are just headers
+				if trimmed == "gospel according to" || trimmed == "st. john." || trimmed == "preface." ||
+				   strings.Contains(trimmed, "gospel according to") && strings.Contains(trimmed, "john") && i < 5 {
+					startIdx = i + 1
+				} else if trimmed != "" && i >= startIdx {
+					break
+				}
+			}
+			if startIdx > 0 && startIdx < len(lines) {
+				text = strings.Join(lines[startIdx:], "\n")
+			}
+		}
+	}
+	
+	// Final debug check for John Homily I
+	if book == "john" && homilyNum == 1 {
+		// Look for where the content actually starts
+		previewStart := strings.Index(text, "heathen")
+		if previewStart > 0 && previewStart < 500 {
+			start := previewStart - 50
+			if start < 0 {
+				start = 0
+			}
+			end := previewStart + 100
+			if end > len(text) {
+				end = len(text)
+			}
+			log.Printf("DEBUG: Final text around 'heathen': %q", text[start:end])
+		}
+		
+		// Also check the very beginning
+		if len(text) > 200 {
+			log.Printf("DEBUG: First 200 chars of final text: %q", text[:200])
+		}
+	}
+	
 	return text, verseRef, nil
 }
 
@@ -1116,7 +1553,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	book := parts[1]
 	homilyNumStr := parts[2]
 	
-	if author != "chrysostom" || book != "matthew" {
+	if author != "chrysostom" || (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
 	}
@@ -1128,7 +1565,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	
 	// Extract homily text from XML
-	homilyText, verseRef, err := extractHomilyFromXML(homilyNum)
+	homilyText, verseRef, err := extractHomilyFromXML(book, homilyNum)
 	if err != nil {
 		log.Printf("Error extracting homily %d: %v", homilyNum, err)
 		w.Header().Set("Content-Type", "text/html")
@@ -1194,11 +1631,17 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		<a href="https://www.ccel.org" target="_blank" style="white-space: nowrap;">Christian Classics Ethereal Library (CCEL)</a>. 
 		Specifically from: <a href="https://www.ccel.org/ccel/schaff/npnf110.xml" target="_blank">https://www.ccel.org/ccel/schaff/npnf110.xml</a></p>
 		
+		<p><strong>Chrysostom Homilies on John</strong><br>
+		The homilies of St. John Chrysostom on the Gospel of John are also sourced from the 
+		<em>Nicene and Post-Nicene Fathers</em> series, available through CCEL. 
+		Specifically from: <a href="https://www.ccel.org/ccel/schaff/npnf114.xml" target="_blank">https://www.ccel.org/ccel/schaff/npnf114.xml</a></p>
+		
 		<h3>Features</h3>
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Chrysostom homily references for the Gospel of Matthew</li>
+			<li>Chrysostom homily references for the Gospels of Matthew and John</li>
+			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Responsive design for comfortable reading</li>
 		</ul>
 		

@@ -1,7 +1,7 @@
 # Hypomnema Project Instructions
 
 ## Project Overview
-Hypomnema is a biblical text reader featuring the KJV New Testament with integrated patristic commentary, specifically John Chrysostom's homilies on Matthew. The application includes Eusebian canon cross-references and responsive design.
+Hypomnema is a biblical text reader featuring the KJV New Testament with integrated patristic commentary, specifically John Chrysostom's homilies on Matthew and John. The application includes Eusebian canon cross-references and responsive design.
 
 ## Key Commands
 ```bash
@@ -36,6 +36,7 @@ python scripts/split_kjv_into_chapters.py
   /commentaries/       - Patristic commentaries
     /chrysostom/       - John Chrysostom's works
       /matthew/        - Homilies on Matthew + data files
+      /john/           - Homilies on John + data files
   /reference/          - Supporting data
     /eusebian_canons/  - Canon tables and mappings
     /kjv_paragraphs/   - Paragraph divisions
@@ -53,6 +54,7 @@ python scripts/split_kjv_into_chapters.py
 - **Path handling**: Server expects texts at `../texts/` relative to hypomnema-server
 - **Responsive breakpoint**: 700px for mobile view
 - Never run git commands - user manages git through IDE
+- **NEVER calculate or regenerate data that already exists in JSON files** - always use existing JSON data files for verse-to-homily mappings, canon lookups, and homily coverage
 
 ## Important Notes
 - Footnotes are extracted to JSON to avoid XML parsing on each request
@@ -71,12 +73,13 @@ python scripts/split_kjv_into_chapters.py
 
 ### Updating Chrysostom footnotes
 1. Edit the XML source if needed
-2. Run `python scripts/extract_footnotes_to_json.py`
-3. Restart the server
+2. Run `python scripts/extract_footnotes_to_json.py` (Matthew)
+3. Run `python scripts/extract_john_footnotes.py` (John)
+4. Restart the server
 
 ### Debugging homily references
-- Check `matthew_verse_to_homilies.json` (note plural 's')
-- Verify `homily_coverage.json` for passage ranges
+- Check `matthew_verse_to_homilies.json` and `john_verse_to_homilies.json` (note plural 's')
+- Verify `homily_coverage.json` for passage ranges (both Matthew and John directories)
 - Use browser DevTools to inspect `.homily-ref` elements
 
 ### Testing responsive design
@@ -95,11 +98,11 @@ python scripts/split_kjv_into_chapters.py
 
 ## Current Features
 - KJV New Testament with chapter navigation
-- John Chrysostom's 90 homilies on Matthew
+- John Chrysostom's 90 homilies on Matthew and 88 homilies on John
 - Minimal grey box markers in right margin for homily references
 - Custom hover tooltips showing homily numbers
 - Split-screen homily viewing (50/50 layout)
 - Footnotes with hover tooltips
-- Cross-Gospel homily references via Eusebian canons
+- Cross-Gospel homily references via Eusebian canons (Matthew and John homilies appear in Mark/Luke)
 - Responsive design with mobile hamburger menu
 - Eusebian canon numbers with parallel passage tooltips
