@@ -505,8 +505,8 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 				if len(filteredHomilies) > 0 {
 					html.WriteString(`<div class="homily-refs-container">`)
 					for _, homily := range filteredHomilies {
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on Matthew">Homily %s</a>`, 
-							homily.Number, homily.Roman, homily.Roman, homily.Roman))
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
+							homily.Number, homily.Roman, homily.Roman))
 					}
 					html.WriteString(`</div>`)
 				}
@@ -541,8 +541,8 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						if len(filteredHomilies) > 0 {
 							html.WriteString(`<div class="homily-refs-container cross-ref">`)
 							for _, homily := range filteredHomilies {
-								html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew">Homily %s</a>`, 
-									homily.Number, homily.Roman, homily.Roman, homily.Roman))
+								html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
+									homily.Number, homily.Roman, homily.Roman))
 							}
 							html.WriteString(`</div>`)
 						}

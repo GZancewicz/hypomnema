@@ -328,7 +328,7 @@ body {
     margin-right: -200px;
     margin-left: 20px;
     margin-bottom: 5px;
-    width: 180px;
+    width: 30px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -342,13 +342,14 @@ body {
     text-align: left;
     white-space: normal;
     line-height: 1.4;
-    padding: 5px 8px;
+    padding: 8px 8px;
     border-left: 2px solid #ddd;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #f5f5f5;
     display: block;
     text-decoration: none;
     transition: all 0.2s ease;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: relative;
 }
 
 .homily-ref:hover {
@@ -357,20 +358,23 @@ body {
     border-left-color: #999;
 }
 
-/* Show full text on desktop */
-@media (min-width: 701px) {
-    .homily-ref::before {
-        content: attr(data-full-text);
-    }
-    
-    .homily-ref {
-        font-size: 0;
-    }
-    
-    .homily-ref::before {
-        font-size: 0.85rem;
-    }
+/* Tooltip on hover */
+.homily-ref[data-full-text]:hover::after {
+    content: attr(data-full-text);
+    position: absolute;
+    right: 100%;
+    top: 0;
+    margin-right: 10px;
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    z-index: 1000;
+    pointer-events: none;
 }
+
 
 
 .canon-num[title]:hover::after {
@@ -680,29 +684,11 @@ sup.footnote-ref[title]:hover::after {
         padding: 20px 20px 30px 20px;
     }
     
-    /* Transform homily references for mobile */
+    /* Keep homily references visible for mobile */
     .homily-refs-container {
-        position: static;
-        width: auto;
-        display: inline;
-        margin-left: 4px;
+        margin-right: -30px;
     }
     
-    .homily-ref {
-        display: inline-block;
-        font-size: 0.75em;
-        padding: 2px 6px;
-        margin: 0 2px;
-        background-color: #f0f0f0;
-        border-left: none;
-        border-radius: 3px;
-        box-shadow: none;
-        white-space: nowrap;
-    }
-    
-    .homily-ref:hover {
-        background-color: #e0e0e0;
-    }
     
     /* Adjust canon numbers for mobile */
     .canon-num {
