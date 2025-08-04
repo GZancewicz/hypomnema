@@ -372,8 +372,8 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 				// Wrap multiple homilies in a container
 				html.WriteString(`<div class="homily-refs-container">`)
 				for _, homily := range homilies {
-					html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref">John Chrysostom, Homily %s on Matthew</a>`, 
-						homily.Number, homily.Roman, homily.Roman))
+					html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on Matthew">Homily %s</a>`, 
+						homily.Number, homily.Roman, homily.Roman, homily.Roman))
 				}
 				html.WriteString(`</div>`)
 			}

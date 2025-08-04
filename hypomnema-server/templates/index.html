@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypomnema - Bible Reader</title>
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=30">
+    <link rel="stylesheet" href="/static/styles.css?v=38">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -20,6 +20,34 @@
         /* When sidebar is collapsed, hide the indicator */
         .container.sidebar-collapsed .sidebar-indicator {
             opacity: 0;
+        }
+        
+        /* Sidebar overlay */
+        #sidebarOverlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 199;
+        }
+        
+        /* Hamburger icon for narrow viewports */
+        @media (max-width: 700px) {
+            .sidebar-toggle svg {
+                display: none;
+            }
+            
+            .sidebar-toggle::after {
+                content: '';
+                display: block;
+                width: 24px;
+                height: 2px;
+                background: #666;
+                box-shadow: 0 8px 0 #666, 0 16px 0 #666;
+            }
         }
         
         /* Navigation icon buttons */
@@ -122,6 +150,9 @@
         </aside>
     </div>
     
+    <!-- Overlay for mobile sidebar -->
+    <div id="sidebarOverlay" onclick="closeSidebarOverlay()"></div>
+    
     <!-- Eusebian Canon Modal -->
     <div id="canonModal" class="modal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
@@ -167,6 +198,11 @@
             
             // Load first chapter
             loadChapter(bookId, 1);
+            
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
         }
         
         function loadChapter(bookId, chapter) {
@@ -211,10 +247,58 @@
             document.getElementById('nextChapterBottom').disabled = nextDisabled;
         }
         
+        // Track desired sidebar state (what user wants)
+        let desiredSidebarOpen = true;
+        
         function toggleSidebar() {
             const container = document.querySelector('.container');
-            container.classList.toggle('sidebar-collapsed');
+            const overlay = document.getElementById('sidebarOverlay');
+            const isNarrowViewport = window.innerWidth <= 700;
+            
+            if (isNarrowViewport) {
+                // In narrow mode, toggle between forced closed and temporary open
+                if (container.classList.contains('sidebar-temp-open')) {
+                    container.classList.remove('sidebar-temp-open');
+                    overlay.style.display = 'none';
+                } else {
+                    container.classList.add('sidebar-temp-open');
+                    overlay.style.display = 'block';
+                }
+            } else {
+                // In wide mode, normal toggle
+                container.classList.toggle('sidebar-collapsed');
+                // Remember user preference
+                desiredSidebarOpen = !container.classList.contains('sidebar-collapsed');
+            }
         }
+        
+        function closeSidebarOverlay() {
+            const container = document.querySelector('.container');
+            const overlay = document.getElementById('sidebarOverlay');
+            container.classList.remove('sidebar-temp-open');
+            overlay.style.display = 'none';
+        }
+        
+        // Handle viewport resize
+        function handleResize() {
+            const container = document.querySelector('.container');
+            const overlay = document.getElementById('sidebarOverlay');
+            const isNarrowViewport = window.innerWidth <= 700;
+            
+            if (isNarrowViewport) {
+                // Remove normal sidebar state classes in narrow mode
+                container.classList.remove('sidebar-collapsed');
+                container.classList.remove('sidebar-temp-open');
+                overlay.style.display = 'none';
+            } else {
+                // Restore user preference when returning to wide mode
+                container.classList.toggle('sidebar-collapsed', !desiredSidebarOpen);
+                overlay.style.display = 'none';
+            }
+        }
+        
+        // Listen for viewport changes
+        window.addEventListener('resize', handleResize);
         
         function loadAbout() {
             // Update header
@@ -237,6 +321,11 @@
             
             // Load about content
             htmx.ajax('GET', '/api/about', '#text-content');
+            
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
         }
         
         // Modal functions
@@ -267,9 +356,10 @@
             }
         });
         
-        // Initialize navigation buttons
+        // Initialize navigation buttons and handle resize
         window.addEventListener('DOMContentLoaded', () => {
             updateNavigationButtons();
+            handleResize();
         });
         
         

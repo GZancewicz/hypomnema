@@ -354,6 +354,21 @@ body {
     border-left-color: #999;
 }
 
+/* Show full text on desktop */
+@media (min-width: 701px) {
+    .homily-ref::before {
+        content: attr(data-full-text);
+    }
+    
+    .homily-ref {
+        font-size: 0;
+    }
+    
+    .homily-ref::before {
+        font-size: 0.85rem;
+    }
+}
+
 .canon-num[title]:hover::after {
     content: attr(title);
     position: absolute;
@@ -404,7 +419,7 @@ body {
 .homily-panel {
     position: fixed;
     top: 0;
-    right: -50%;
+    right: calc((100vw - 250px) / -2);
     width: calc((100vw - 250px) / 2);
     height: 100vh;
     background-color: #fff;
@@ -479,6 +494,11 @@ body {
 
 .container.sidebar-collapsed .homily-panel {
     width: calc(100vw / 2);
+    right: calc(100vw / -2);
+}
+
+.container.sidebar-collapsed .homily-panel.active {
+    right: 0;
 }
 
 /* Remove right padding when homily panel is open since we don't need space for references */
@@ -521,7 +541,7 @@ sup.footnote-ref:hover {
 sup.footnote-ref[title]:hover::after {
     content: attr(title);
     position: absolute;
-    left: 0;
+    right: 0;
     top: 1.5em;
     background: #333;
     color: white;
@@ -593,22 +613,89 @@ sup.footnote-ref[title]:hover::after {
 }
 
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Responsive - force hamburger mode when viewport is narrow */
+@media (max-width: 700px) {
+    /* Change container to allow sidebar to properly hide */
     .container {
-        flex-direction: column;
+        position: relative;
     }
     
+    /* Force sidebar to hide */
     .sidebar {
-        width: 100%;
-        height: auto;
+        position: fixed;
+        left: -250px;
+        top: 0;
+        width: 250px;
+        height: 100vh;
+        z-index: 200;
+        transition: left 0.3s ease;
     }
     
+    /* When temporarily open in narrow mode */
+    .container.sidebar-temp-open .sidebar {
+        left: 0;
+    }
+    
+    /* Adjust content to full width */
+    .content {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    
+    /* Adjust homily panel for mobile */
+    .homily-panel {
+        width: 100vw !important;
+        right: -100vw !important;
+    }
+    
+    .homily-panel.active {
+        right: 0 !important;
+    }
+    
+    .container.homily-open .content {
+        display: none;
+    }
+    
+    /* Reduce padding on mobile */
     .content-header {
-        padding: 20px 30px;
+        padding: 20px 20px 20px 60px;
     }
     
     #text-content {
-        padding: 30px;
+        padding: 30px 20px;
+    }
+    
+    .content-footer {
+        padding: 20px 20px 30px 20px;
+    }
+    
+    /* Transform homily references for mobile */
+    .homily-refs-container {
+        position: static;
+        width: auto;
+        display: inline;
+        margin-left: 4px;
+    }
+    
+    .homily-ref {
+        display: inline-block;
+        font-size: 0.75em;
+        padding: 2px 6px;
+        margin: 0 2px;
+        background-color: #f0f0f0;
+        border-left: none;
+        border-radius: 3px;
+        box-shadow: none;
+        white-space: nowrap;
+    }
+    
+    .homily-ref:hover {
+        background-color: #e0e0e0;
+    }
+    
+    /* Adjust canon numbers for mobile */
+    .canon-num {
+        margin-left: -40px;
+        font-size: 0.7em;
     }
 }
