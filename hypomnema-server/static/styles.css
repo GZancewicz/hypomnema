@@ -322,9 +322,12 @@ body {
 
 /* Homily references container */
 .homily-refs-container {
-    position: absolute;
-    right: 20px;
-    margin-top: -2px;
+    position: relative;
+    float: right;
+    clear: right;
+    margin-right: -200px;
+    margin-left: 20px;
+    margin-bottom: 5px;
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -368,6 +371,7 @@ body {
         font-size: 0.85rem;
     }
 }
+
 
 .canon-num[title]:hover::after {
     content: attr(title);
