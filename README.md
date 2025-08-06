@@ -1,11 +1,11 @@
 # Hypomnema
 
-A biblical text reader with integrated patristic commentary, featuring John Chrysostom's homilies on Matthew with cross-references to parallel Gospel passages.
+A biblical text reader with integrated patristic commentary, featuring John Chrysostom's homilies on Matthew and John with cross-references to parallel Gospel passages.
 
 ## Features
 
 - **Complete KJV New Testament** with chapter-by-chapter navigation
-- **John Chrysostom's Homilies on Matthew** with:
+- **John Chrysostom's Homilies on Matthew and John** with:
   - Minimal grey box markers in the right margin
   - Split-screen homily viewing (50/50 layout)
   - Hover tooltips showing homily numbers
@@ -65,7 +65,8 @@ hypomnema/
 │   ├── scripture/           # KJV text files organized by book/chapter
 │   ├── commentaries/        # Patristic commentaries
 │   │   └── chrysostom/      # John Chrysostom's works
-│   │       └── matthew/     # Homilies on Matthew with footnotes
+│   │       ├── matthew/     # Homilies on Matthew with footnotes
+│   │       └── john/        # Homilies on John with footnotes
 │   └── reference/           # Eusebian canons, paragraph divisions
 ├── scripts/                 # Python utility scripts
 ├── bible-reader/            # (Legacy - to be removed)
@@ -78,21 +79,30 @@ The application displays Eusebian Canon numbers in the left margin of Gospel tex
 
 ## John Chrysostom's Homilies
 
-The application integrates John Chrysostom's complete homilies on the Gospel of Matthew:
+The application integrates John Chrysostom's complete homilies on the Gospels of Matthew and John:
 
-- **90 Homilies** covering the entire Gospel of Matthew
+- **90 Homilies on Matthew** covering the entire Gospel of Matthew
+- **88 Homilies on John** covering the entire Gospel of John
 - **Inline References** showing which homilies discuss each passage
-- **Cross-Gospel Integration** - When reading Mark, Luke, or John, the system automatically shows relevant Matthew homilies for parallel passages
+- **Cross-Gospel Integration** - When reading Mark or Luke, the system automatically shows relevant Matthew and John homilies for parallel passages
 - **Footnotes** with hover tooltips for additional context
 - **Split-screen Reading** for studying scripture alongside commentary
 
 ### Data Files
 
 **Chrysostom Commentary:**
+
+*Matthew Homilies:*
 - `texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml` - Complete homilies in ThML format
 - `texts/commentaries/chrysostom/matthew/footnotes.json` - Extracted footnotes with renumbering
 - `texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json` - Verse-to-homily mapping
 - `texts/commentaries/chrysostom/matthew/homily_coverage.json` - Homily passage coverage
+
+*John Homilies:*
+- `texts/commentaries/chrysostom/john/chrysostom_john_homilies.xml` - Complete homilies in ThML format
+- `texts/commentaries/chrysostom/john/footnotes.json` - Extracted footnotes with renumbering
+- `texts/commentaries/chrysostom/john/john_verse_to_homilies.json` - Verse-to-homily mapping
+- `texts/commentaries/chrysostom/john/homily_coverage.json` - Homily passage coverage
 
 **Eusebian Canons:**
 - `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries
@@ -105,9 +115,14 @@ The application integrates John Chrysostom's complete homilies on the Gospel of 
 
 #### Text Processing Scripts
 
-**extract_footnotes_to_json.py** - Extracts footnotes from Chrysostom's ThML XML and creates JSON with renumbered footnotes per homily:
+**extract_footnotes_to_json.py** - Extracts footnotes from Chrysostom's Matthew homilies ThML XML:
 ```bash
 python scripts/extract_footnotes_to_json.py
+```
+
+**extract_john_footnotes.py** - Extracts footnotes from Chrysostom's John homilies ThML XML:
+```bash
+python scripts/extract_john_footnotes.py
 ```
 
 **split_kjv_into_chapters.py** - Splits combined KJV book files into individual chapter files:
@@ -143,6 +158,7 @@ python scripts/generate_verse_to_canon_mapping.py
 To extract Chrysostom footnotes:
 ```bash
 python scripts/extract_footnotes_to_json.py
+python scripts/extract_john_footnotes.py
 ```
 
 ## Deployment

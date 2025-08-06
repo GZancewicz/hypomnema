@@ -1,0 +1,740 @@
+{
+  "1": {
+    "homily_number": 1,
+    "homily_roman": "I",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 1,
+    "title": "Preface."
+  },
+  "2": {
+    "homily_number": 2,
+    "homily_roman": "II",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 1,
+    "title": "John 1.1"
+  },
+  "3": {
+    "homily_number": 3,
+    "homily_roman": "III",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 1,
+    "title": "John 1.1"
+  },
+  "4": {
+    "homily_number": 4,
+    "homily_roman": "IV",
+    "start_chapter": 1,
+    "start_verse": 1,
+    "end_chapter": 1,
+    "end_verse": 1,
+    "title": "John 1.1"
+  },
+  "5": {
+    "homily_number": 5,
+    "homily_roman": "V",
+    "start_chapter": 1,
+    "start_verse": 3,
+    "end_chapter": 1,
+    "end_verse": 3,
+    "title": "John 1.3"
+  },
+  "6": {
+    "homily_number": 6,
+    "homily_roman": "VI",
+    "start_chapter": 1,
+    "start_verse": 6,
+    "end_chapter": 1,
+    "end_verse": 6,
+    "title": "John 1.6"
+  },
+  "7": {
+    "homily_number": 7,
+    "homily_roman": "VII",
+    "start_chapter": 1,
+    "start_verse": 9,
+    "end_chapter": 1,
+    "end_verse": 9,
+    "title": "John 1.9"
+  },
+  "8": {
+    "homily_number": 8,
+    "homily_roman": "VIII",
+    "start_chapter": 1,
+    "start_verse": 9,
+    "end_chapter": 1,
+    "end_verse": 9,
+    "title": "John 1.9"
+  },
+  "9": {
+    "homily_number": 9,
+    "homily_roman": "IX",
+    "start_chapter": 1,
+    "start_verse": 11,
+    "end_chapter": 1,
+    "end_verse": 11,
+    "title": "John 1.11"
+  },
+  "10": {
+    "homily_number": 10,
+    "homily_roman": "X",
+    "start_chapter": 1,
+    "start_verse": 11,
+    "end_chapter": 1,
+    "end_verse": 11,
+    "title": "John 1.11"
+  },
+  "11": {
+    "homily_number": 11,
+    "homily_roman": "XI",
+    "start_chapter": 1,
+    "start_verse": 14,
+    "end_chapter": 1,
+    "end_verse": 14,
+    "title": "John 1.14"
+  },
+  "12": {
+    "homily_number": 12,
+    "homily_roman": "XII",
+    "start_chapter": 1,
+    "start_verse": 14,
+    "end_chapter": 1,
+    "end_verse": 14,
+    "title": "John 1.14"
+  },
+  "13": {
+    "homily_number": 13,
+    "homily_roman": "XIII",
+    "start_chapter": 1,
+    "start_verse": 15,
+    "end_chapter": 1,
+    "end_verse": 15,
+    "title": "John 1.15"
+  },
+  "14": {
+    "homily_number": 14,
+    "homily_roman": "XIV",
+    "start_chapter": 1,
+    "start_verse": 16,
+    "end_chapter": 1,
+    "end_verse": 16,
+    "title": "John 1.16"
+  },
+  "15": {
+    "homily_number": 15,
+    "homily_roman": "XV",
+    "start_chapter": 1,
+    "start_verse": 18,
+    "end_chapter": 1,
+    "end_verse": 18,
+    "title": "John 1.18"
+  },
+  "16": {
+    "homily_number": 16,
+    "homily_roman": "XVI",
+    "start_chapter": 1,
+    "start_verse": 19,
+    "end_chapter": 1,
+    "end_verse": 19,
+    "title": "John 1.19"
+  },
+  "17": {
+    "homily_number": 17,
+    "homily_roman": "XVII",
+    "start_chapter": 1,
+    "start_verse": 28,
+    "end_chapter": 1,
+    "end_verse": 28,
+    "title": "John 1.28,29"
+  },
+  "18": {
+    "homily_number": 18,
+    "homily_roman": "XVIII",
+    "start_chapter": 1,
+    "start_verse": 35,
+    "end_chapter": 1,
+    "end_verse": 37,
+    "title": "John 1.35\u201437"
+  },
+  "19": {
+    "homily_number": 19,
+    "homily_roman": "XIX",
+    "start_chapter": 1,
+    "start_verse": 41,
+    "end_chapter": 1,
+    "end_verse": 41,
+    "title": "John 1.41,42"
+  },
+  "20": {
+    "homily_number": 20,
+    "homily_roman": "XX",
+    "start_chapter": 1,
+    "start_verse": 43,
+    "end_chapter": 1,
+    "end_verse": 43,
+    "title": "John 1.43,44"
+  },
+  "21": {
+    "homily_number": 21,
+    "homily_roman": "XXI",
+    "start_chapter": 1,
+    "start_verse": 49,
+    "end_chapter": 1,
+    "end_verse": 49,
+    "title": "John 1.49,50"
+  },
+  "22": {
+    "homily_number": 22,
+    "homily_roman": "XXII",
+    "start_chapter": 2,
+    "start_verse": 4,
+    "end_chapter": 2,
+    "end_verse": 4,
+    "title": "John 2.4"
+  },
+  "23": {
+    "homily_number": 23,
+    "homily_roman": "XXIII",
+    "start_chapter": 2,
+    "start_verse": 11,
+    "end_chapter": 2,
+    "end_verse": 11,
+    "title": "John 2.11"
+  },
+  "24": {
+    "homily_number": 24,
+    "homily_roman": "XXIV",
+    "start_chapter": 2,
+    "start_verse": 23,
+    "end_chapter": 2,
+    "end_verse": 23,
+    "title": "John 2.23"
+  },
+  "25": {
+    "homily_number": 25,
+    "homily_roman": "XXV",
+    "start_chapter": 3,
+    "start_verse": 5,
+    "end_chapter": 3,
+    "end_verse": 5,
+    "title": "John 3.5"
+  },
+  "26": {
+    "homily_number": 26,
+    "homily_roman": "XXVI",
+    "start_chapter": 3,
+    "start_verse": 6,
+    "end_chapter": 3,
+    "end_verse": 6,
+    "title": "John 3.6"
+  },
+  "27": {
+    "homily_number": 27,
+    "homily_roman": "XXVII",
+    "start_chapter": 3,
+    "start_verse": 12,
+    "end_chapter": 3,
+    "end_verse": 12,
+    "title": "John 3.12,13"
+  },
+  "28": {
+    "homily_number": 28,
+    "homily_roman": "XXVIII",
+    "start_chapter": 3,
+    "start_verse": 17,
+    "end_chapter": 3,
+    "end_verse": 17,
+    "title": "John 3.17"
+  },
+  "29": {
+    "homily_number": 29,
+    "homily_roman": "XXIX",
+    "start_chapter": 3,
+    "start_verse": 22,
+    "end_chapter": 3,
+    "end_verse": 22,
+    "title": "John 3.22"
+  },
+  "30": {
+    "homily_number": 30,
+    "homily_roman": "XXX",
+    "start_chapter": 3,
+    "start_verse": 31,
+    "end_chapter": 3,
+    "end_verse": 31,
+    "title": "John 3.31"
+  },
+  "31": {
+    "homily_number": 31,
+    "homily_roman": "XXXI",
+    "start_chapter": 3,
+    "start_verse": 35,
+    "end_chapter": 3,
+    "end_verse": 35,
+    "title": "John 3.35,36"
+  },
+  "32": {
+    "homily_number": 32,
+    "homily_roman": "XXXII",
+    "start_chapter": 4,
+    "start_verse": 13,
+    "end_chapter": 4,
+    "end_verse": 13,
+    "title": "John 4.13,14"
+  },
+  "33": {
+    "homily_number": 33,
+    "homily_roman": "XXXIII",
+    "start_chapter": 4,
+    "start_verse": 21,
+    "end_chapter": 4,
+    "end_verse": 21,
+    "title": "John 4.21,22"
+  },
+  "34": {
+    "homily_number": 34,
+    "homily_roman": "XXXIV",
+    "start_chapter": 4,
+    "start_verse": 28,
+    "end_chapter": 4,
+    "end_verse": 28,
+    "title": "John 4.28,29"
+  },
+  "35": {
+    "homily_number": 35,
+    "homily_roman": "XXXV",
+    "start_chapter": 4,
+    "start_verse": 40,
+    "end_chapter": 4,
+    "end_verse": 43,
+    "title": "John 4.40\u201443"
+  },
+  "36": {
+    "homily_number": 36,
+    "homily_roman": "XXXVI",
+    "start_chapter": 4,
+    "start_verse": 54,
+    "end_chapter": 4,
+    "end_verse": 54,
+    "title": "John 4.54; 5.1"
+  },
+  "37": {
+    "homily_number": 37,
+    "homily_roman": "XXXVII",
+    "start_chapter": 5,
+    "start_verse": 6,
+    "end_chapter": 5,
+    "end_verse": 6,
+    "title": "John 5.6,7"
+  },
+  "38": {
+    "homily_number": 38,
+    "homily_roman": "XXXVIII",
+    "start_chapter": 5,
+    "start_verse": 14,
+    "end_chapter": 5,
+    "end_verse": 14,
+    "title": "John 5.14"
+  },
+  "39": {
+    "homily_number": 39,
+    "homily_roman": "XXXIX",
+    "start_chapter": 5,
+    "start_verse": 23,
+    "end_chapter": 5,
+    "end_verse": 23,
+    "title": "John 5.23,24"
+  },
+  "40": {
+    "homily_number": 40,
+    "homily_roman": "XL",
+    "start_chapter": 5,
+    "start_verse": 31,
+    "end_chapter": 5,
+    "end_verse": 31,
+    "title": "John 5.31,32"
+  },
+  "41": {
+    "homily_number": 41,
+    "homily_roman": "XLI",
+    "start_chapter": 5,
+    "start_verse": 39,
+    "end_chapter": 5,
+    "end_verse": 39,
+    "title": "John 5.39,40"
+  },
+  "42": {
+    "homily_number": 42,
+    "homily_roman": "XLII",
+    "start_chapter": 6,
+    "start_verse": 1,
+    "end_chapter": 6,
+    "end_verse": 1,
+    "title": "John 6.1,4"
+  },
+  "44": {
+    "homily_number": 44,
+    "homily_roman": "XLIV",
+    "start_chapter": 6,
+    "start_verse": 26,
+    "end_chapter": 6,
+    "end_verse": 26,
+    "title": "John 6.26,27"
+  },
+  "45": {
+    "homily_number": 45,
+    "homily_roman": "XLV",
+    "start_chapter": 6,
+    "start_verse": 28,
+    "end_chapter": 6,
+    "end_verse": 30,
+    "title": "John 6.28\u201430"
+  },
+  "46": {
+    "homily_number": 46,
+    "homily_roman": "XLVI",
+    "start_chapter": 6,
+    "start_verse": 41,
+    "end_chapter": 6,
+    "end_verse": 41,
+    "title": "John 6.41,42"
+  },
+  "47": {
+    "homily_number": 47,
+    "homily_roman": "XLVII",
+    "start_chapter": 6,
+    "start_verse": 53,
+    "end_chapter": 6,
+    "end_verse": 53,
+    "title": "John 6.53,54"
+  },
+  "48": {
+    "homily_number": 48,
+    "homily_roman": "XLVIII",
+    "start_chapter": 7,
+    "start_verse": 1,
+    "end_chapter": 7,
+    "end_verse": 1,
+    "title": "John 7.1,2"
+  },
+  "49": {
+    "homily_number": 49,
+    "homily_roman": "XLIX",
+    "start_chapter": 7,
+    "start_verse": 9,
+    "end_chapter": 7,
+    "end_verse": 9,
+    "title": "John 7.9,10"
+  },
+  "51": {
+    "homily_number": 51,
+    "homily_roman": "LI",
+    "start_chapter": 7,
+    "start_verse": 37,
+    "end_chapter": 7,
+    "end_verse": 37,
+    "title": "John 7.37,38"
+  },
+  "52": {
+    "homily_number": 52,
+    "homily_roman": "LII",
+    "start_chapter": 7,
+    "start_verse": 45,
+    "end_chapter": 7,
+    "end_verse": 45,
+    "title": "John 7.45,46"
+  },
+  "53": {
+    "homily_number": 53,
+    "homily_roman": "LIII",
+    "start_chapter": 8,
+    "start_verse": 20,
+    "end_chapter": 8,
+    "end_verse": 20,
+    "title": "John 8.20"
+  },
+  "54": {
+    "homily_number": 54,
+    "homily_roman": "LIV",
+    "start_chapter": 8,
+    "start_verse": 31,
+    "end_chapter": 8,
+    "end_verse": 31,
+    "title": "John 8.31,32"
+  },
+  "55": {
+    "homily_number": 55,
+    "homily_roman": "LV",
+    "start_chapter": 8,
+    "start_verse": 48,
+    "end_chapter": 8,
+    "end_verse": 48,
+    "title": "John 8.48,49"
+  },
+  "56": {
+    "homily_number": 56,
+    "homily_roman": "LVI",
+    "start_chapter": 9,
+    "start_verse": 1,
+    "end_chapter": 9,
+    "end_verse": 1,
+    "title": "John 9.1,2"
+  },
+  "57": {
+    "homily_number": 57,
+    "homily_roman": "LVII",
+    "start_chapter": 9,
+    "start_verse": 6,
+    "end_chapter": 9,
+    "end_verse": 6,
+    "title": "John 9.6,7"
+  },
+  "58": {
+    "homily_number": 58,
+    "homily_roman": "LVIII",
+    "start_chapter": 9,
+    "start_verse": 17,
+    "end_chapter": 9,
+    "end_verse": 17,
+    "title": "John 9.17,18"
+  },
+  "60": {
+    "homily_number": 60,
+    "homily_roman": "LX",
+    "start_chapter": 10,
+    "start_verse": 14,
+    "end_chapter": 10,
+    "end_verse": 14,
+    "title": "John 10.14,15"
+  },
+  "62": {
+    "homily_number": 62,
+    "homily_roman": "LXII",
+    "start_chapter": 11,
+    "start_verse": 1,
+    "end_chapter": 11,
+    "end_verse": 1,
+    "title": "John 11.1,2"
+  },
+  "63": {
+    "homily_number": 63,
+    "homily_roman": "LXIII",
+    "start_chapter": 11,
+    "start_verse": 30,
+    "end_chapter": 11,
+    "end_verse": 30,
+    "title": "John 11.30,31"
+  },
+  "64": {
+    "homily_number": 64,
+    "homily_roman": "LXIV",
+    "start_chapter": 11,
+    "start_verse": 41,
+    "end_chapter": 11,
+    "end_verse": 41,
+    "title": "John 11.41,42"
+  },
+  "65": {
+    "homily_number": 65,
+    "homily_roman": "LXV",
+    "start_chapter": 11,
+    "start_verse": 49,
+    "end_chapter": 11,
+    "end_verse": 49,
+    "title": "John 11.49,50"
+  },
+  "66": {
+    "homily_number": 66,
+    "homily_roman": "LXVI",
+    "start_chapter": 12,
+    "start_verse": 8,
+    "end_chapter": 12,
+    "end_verse": 8,
+    "title": "John 12.8"
+  },
+  "67": {
+    "homily_number": 67,
+    "homily_roman": "LXVII",
+    "start_chapter": 12,
+    "start_verse": 25,
+    "end_chapter": 12,
+    "end_verse": 25,
+    "title": "John 12.25,26"
+  },
+  "68": {
+    "homily_number": 68,
+    "homily_roman": "LXVIII",
+    "start_chapter": 12,
+    "start_verse": 34,
+    "end_chapter": 12,
+    "end_verse": 34,
+    "title": "John 12.34"
+  },
+  "69": {
+    "homily_number": 69,
+    "homily_roman": "LXIX",
+    "start_chapter": 12,
+    "start_verse": 42,
+    "end_chapter": 12,
+    "end_verse": 42,
+    "title": "John 12.42,43"
+  },
+  "70": {
+    "homily_number": 70,
+    "homily_roman": "LXX",
+    "start_chapter": 13,
+    "start_verse": 1,
+    "end_chapter": 13,
+    "end_verse": 1,
+    "title": "John 13.1"
+  },
+  "71": {
+    "homily_number": 71,
+    "homily_roman": "LXXI",
+    "start_chapter": 13,
+    "start_verse": 1,
+    "end_chapter": 13,
+    "end_verse": 1,
+    "title": "John 13"
+  },
+  "72": {
+    "homily_number": 72,
+    "homily_roman": "LXXII",
+    "start_chapter": 13,
+    "start_verse": 20,
+    "end_chapter": 13,
+    "end_verse": 20,
+    "title": "John 13.20"
+  },
+  "73": {
+    "homily_number": 73,
+    "homily_roman": "LXXIII",
+    "start_chapter": 13,
+    "start_verse": 36,
+    "end_chapter": 13,
+    "end_verse": 36,
+    "title": "John 13.36"
+  },
+  "74": {
+    "homily_number": 74,
+    "homily_roman": "LXXIV",
+    "start_chapter": 14,
+    "start_verse": 8,
+    "end_chapter": 14,
+    "end_verse": 8,
+    "title": "John 14.8,9"
+  },
+  "76": {
+    "homily_number": 76,
+    "homily_roman": "LXXVI",
+    "start_chapter": 14,
+    "start_verse": 31,
+    "end_chapter": 14,
+    "end_verse": 31,
+    "title": "John 14.31; 15.1"
+  },
+  "77": {
+    "homily_number": 77,
+    "homily_roman": "LXXVII",
+    "start_chapter": 15,
+    "start_verse": 11,
+    "end_chapter": 15,
+    "end_verse": 11,
+    "title": "John 15.11,12"
+  },
+  "78": {
+    "homily_number": 78,
+    "homily_roman": "LXXVIII",
+    "start_chapter": 16,
+    "start_verse": 4,
+    "end_chapter": 16,
+    "end_verse": 6,
+    "title": "John 16.4\u20146"
+  },
+  "79": {
+    "homily_number": 79,
+    "homily_roman": "LXXIX",
+    "start_chapter": 16,
+    "start_verse": 16,
+    "end_chapter": 16,
+    "end_verse": 16,
+    "title": "John 16.16,17"
+  },
+  "80": {
+    "homily_number": 80,
+    "homily_roman": "LXXX",
+    "start_chapter": 17,
+    "start_verse": 1,
+    "end_chapter": 17,
+    "end_verse": 1,
+    "title": "John 17.1"
+  },
+  "81": {
+    "homily_number": 81,
+    "homily_roman": "LXXXI",
+    "start_chapter": 17,
+    "start_verse": 6,
+    "end_chapter": 17,
+    "end_verse": 6,
+    "title": "John 17.6"
+  },
+  "82": {
+    "homily_number": 82,
+    "homily_roman": "LXXXII",
+    "start_chapter": 17,
+    "start_verse": 14,
+    "end_chapter": 17,
+    "end_verse": 14,
+    "title": "John 17.14"
+  },
+  "83": {
+    "homily_number": 83,
+    "homily_roman": "LXXXIII",
+    "start_chapter": 18,
+    "start_verse": 1,
+    "end_chapter": 18,
+    "end_verse": 1,
+    "title": "John 18.1"
+  },
+  "84": {
+    "homily_number": 84,
+    "homily_roman": "LXXXIV",
+    "start_chapter": 18,
+    "start_verse": 37,
+    "end_chapter": 18,
+    "end_verse": 37,
+    "title": "John 18.37"
+  },
+  "86": {
+    "homily_number": 86,
+    "homily_roman": "LXXXVI",
+    "start_chapter": 20,
+    "start_verse": 10,
+    "end_chapter": 20,
+    "end_verse": 10,
+    "title": "John 20.10,11"
+  },
+  "87": {
+    "homily_number": 87,
+    "homily_roman": "LXXXVII",
+    "start_chapter": 20,
+    "start_verse": 24,
+    "end_chapter": 20,
+    "end_verse": 24,
+    "title": "John 20.24,25"
+  },
+  "88": {
+    "homily_number": 88,
+    "homily_roman": "LXXXVIII",
+    "start_chapter": 21,
+    "start_verse": 15,
+    "end_chapter": 21,
+    "end_verse": 15,
+    "title": "John 21.15"
+  }
+}

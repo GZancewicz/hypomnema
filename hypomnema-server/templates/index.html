@@ -6,7 +6,7 @@
     <title>Hypomnema - Bible Reader</title>
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=57">
+    <link rel="stylesheet" href="/static/styles.css?v=58">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -368,7 +368,9 @@
         
         
         // Homily panel functions
-        function loadHomily(homilyNum, romanNum) {
+        function loadHomily(homilyNum, romanNum, book) {
+            // Default to matthew for backward compatibility
+            if (!book) book = 'matthew';
             const panel = document.getElementById('homilyPanel');
             const title = document.getElementById('homilyTitle');
             const content = document.getElementById('homilyContent');
@@ -385,7 +387,7 @@
             container.classList.add('homily-open');
             
             // Load homily content
-            htmx.ajax('GET', `/api/homily/chrysostom/matthew/${homilyNum}`, '#homilyContent');
+            htmx.ajax('GET', `/api/homily/chrysostom/${book}/${homilyNum}`, '#homilyContent');
         }
         
         function closeHomilyPanel() {
