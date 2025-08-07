@@ -1,7 +1,7 @@
 # Hypomnema Project Instructions
 
 ## Project Overview
-Hypomnema is a biblical text reader featuring the KJV New Testament with integrated patristic commentary, specifically John Chrysostom's homilies on Matthew and John. The application includes Eusebian canon cross-references and responsive design.
+Hypomnema is a biblical text reader featuring the KJV New Testament with integrated patristic commentary from John Chrysostom (Matthew and John) and Cyril of Alexandria (Luke). The application includes Eusebian canon cross-references and responsive design.
 
 ## Key Commands
 ```bash
@@ -15,18 +15,23 @@ go build -o app
 # Run directly without air
 go run main.go
 
-# Python scripts for data processing
-python scripts/extract_footnotes_to_json.py
-python scripts/check_kjv_completeness.py
-python scripts/split_kjv_into_chapters.py
+# Python scripts for data processing (Chrysostom)
+python scripts/extract_footnotes_to_json.py  # Matthew footnotes
+python scripts/extract_john_footnotes.py      # John footnotes
+
+# Python scripts for data processing (Cyril)
+python scripts/extract_cyril_luke_data.py     # Luke sermon data
+
+# Utility scripts
+python scripts/verify_kjv_completeness.py
 ```
 
 ## Project Structure
 ```
 /hypomnema-server/      - Go web server (main application)
   main.go              - Server code with all endpoints and logic
-  /templates/          - HTML templates (index.html)
-  /static/             - CSS files (styles.css)
+  /templates/          - HTML templates (index.html, homily.html)
+  /static/             - CSS files (styles.css), favicon
   
 /texts/                - All text content
   /scripture/          - Biblical texts
@@ -37,12 +42,13 @@ python scripts/split_kjv_into_chapters.py
     /chrysostom/       - John Chrysostom's works
       /matthew/        - Homilies on Matthew + data files
       /john/           - Homilies on John + data files
+    /cyril/            - Cyril of Alexandria's works
+      /luke/           - Sermons on Luke (HTML files + data)
   /reference/          - Supporting data
     /eusebian_canons/  - Canon tables and mappings
     /kjv_paragraphs/   - Paragraph divisions
 
 /scripts/              - Python utilities for text processing
-/bible-reader/         - Legacy code (to be removed)
 ```
 
 ## Development Guidelines
@@ -74,16 +80,23 @@ python scripts/split_kjv_into_chapters.py
 1. Place files in `/texts/scripture/new_testament/english/kjv/[book]/[chapter]/`
 2. Format: `[book]_[chapter].txt` with verses as `[chapter]:[verse] text`
 
-### Updating Chrysostom footnotes
+### Updating commentary data
+**Chrysostom footnotes:**
 1. Edit the XML source if needed
 2. Run `python scripts/extract_footnotes_to_json.py` (Matthew)
 3. Run `python scripts/extract_john_footnotes.py` (John)
 4. Restart the server
 
-### Debugging homily references
-- Check `matthew_verse_to_homilies.json` and `john_verse_to_homilies.json` (note plural 's')
-- Verify `homily_coverage.json` for passage ranges (both Matthew and John directories)
+**Cyril sermon data:**
+1. Edit HTML source files if needed
+2. Run `python scripts/extract_cyril_luke_data.py`
+3. Restart the server
+
+### Debugging commentary references
+- Check verse mapping files: `[book]_verse_to_homilies.json` (note plural 's')
+- Verify `homily_coverage.json` for passage ranges (all commentary directories)
 - Use browser DevTools to inspect `.homily-ref` elements
+- Cyril's sermons use negative numbers internally to distinguish from Chrysostom
 
 ### Testing responsive design
 - Toggle viewport below/above 700px
@@ -102,13 +115,15 @@ python scripts/split_kjv_into_chapters.py
 ## Current Features
 - KJV New Testament with chapter navigation
 - John Chrysostom's 90 homilies on Matthew and 88 homilies on John
-- Minimal grey box markers in right margin for homily references
-- Custom hover tooltips showing homily numbers
-- Split-screen homily viewing (50/50 layout)
-- Footnotes with hover tooltips
+- Cyril of Alexandria's 156 sermons on Luke
+- Minimal blue markers in right margin for commentary references
+- Custom hover tooltips showing homily/sermon numbers
+- Split-screen commentary viewing (50/50 layout)
+- Footnotes with hover tooltips (Chrysostom only)
 - Cross-Gospel homily references via Eusebian canons (Matthew and John homilies appear in Mark/Luke)
 - Responsive design with mobile hamburger menu
 - Eusebian canon numbers with parallel passage tooltips
+- Unified commentary system using common data structures
 
 ## Server Startup Reminders
 - User should always start/restart server
