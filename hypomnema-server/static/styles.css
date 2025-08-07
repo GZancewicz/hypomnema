@@ -343,8 +343,8 @@ body {
     white-space: nowrap;
     line-height: 1.4;
     padding: 8px 6px;
-    border-left: 2px solid #ddd;
-    background-color: #f5f5f5;
+    border-left: 2px solid #b8d9ff;
+    background-color: #e8f3ff;
     display: block;
     text-decoration: none;
     transition: all 0.2s ease;
@@ -355,9 +355,12 @@ body {
 
 .homily-ref:hover {
     color: #333;
-    background-color: #f5f5f5;
-    border-left-color: #999;
+    background-color: #d8e9ff;
+    border-left-color: #a8c9ff;
 }
+
+/* All homily references now use the same light blue color defined in base .homily-ref class */
+/* No need for specific author styles when they're all the same */
 
 /* Tooltip on hover */
 .homily-ref[data-full-text]:hover::after {

@@ -65,6 +65,9 @@ python scripts/split_kjv_into_chapters.py
 - Text files are organized by language/version/book/chapter
 - Each chapter is in format: `bookname_##.txt` (e.g., `matthew_01.txt`)
 
+## Coding Rules and Conventions
+- Under no circumstance should a commentary's footnote begin with anything other than 1
+
 ## Common Tasks
 
 ### Adding new biblical texts
@@ -106,3 +109,11 @@ python scripts/split_kjv_into_chapters.py
 - Cross-Gospel homily references via Eusebian canons (Matthew and John homilies appear in Mark/Luke)
 - Responsive design with mobile hamburger menu
 - Eusebian canon numbers with parallel passage tooltips
+
+## Server Startup Reminders
+- User should always start/restart server
+- User should always execute git commands
+- Let user start and stop server
+
+## Workflow Guidelines
+- When fixing an issue do not report issue as resolved until you can curl to the page being worked on and confirm it

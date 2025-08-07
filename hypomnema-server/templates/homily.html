@@ -71,7 +71,11 @@
         <a href="/" class="back-link">← Back to Scripture</a>
         
         <div class="homily-header">
-            <h1>Homily {{.HomilyRoman}}</h1>
+            {{if eq .Author "Cyril of Alexandria"}}
+                <h1>Sermon {{.HomilyRoman}}</h1>
+            {{else}}
+                <h1>Homily {{.HomilyRoman}}</h1>
+            {{end}}
             <p>{{.Author}} on the Gospel of {{.Book}}</p>
             {{if .VerseRef}}<p class="verse-reference">{{.VerseRef}}</p>{{end}}
         </div>
