@@ -6,7 +6,7 @@
     <title>Hypomnema - Bible Reader</title>
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=67">
+    <link rel="stylesheet" href="/static/styles.css?v=69">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -82,6 +82,27 @@
         #nextChapterBottom:hover:not(:disabled) svg {
             transform: translateX(2px);
         }
+        
+        /* Search container animation */
+        .search-container {
+            animation: slideDown 0.2s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Search toggle button */
+        #search-toggle:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -89,6 +110,47 @@
         <!-- Sidebar -->
         <nav class="sidebar">
             <div class="book-list">
+                <!-- Search Toggle Button -->
+                <div style="padding: 15px; display: flex; justify-content: center;">
+                    <button id="search-toggle" onclick="toggleSearch()" 
+                            style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;"
+                            onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.5)'" 
+                            onmouseout="this.style.backgroundColor='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.3)'">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Search Box (initially hidden) -->
+                <div id="search-container" class="search-container" style="padding: 0 15px 15px 15px; display: none;">
+                    <div style="position: relative;">
+                        <input type="search" 
+                               id="verse-search"
+                               placeholder="Search verses..."
+                               hx-get="/api/search"
+                               hx-trigger="keyup changed delay:500ms"
+                               hx-target="#search-results"
+                               hx-indicator="#search-indicator"
+                               name="q"
+                               style="width: 100%; padding: 8px 35px 8px 8px; border: 1px solid #ddd; border-radius: 4px;">
+                        <button onclick="closeSearch()" 
+                                style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; padding: 5px; color: #666;"
+                                onmouseover="this.style.color='#333'" 
+                                onmouseout="this.style.color='#666'">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="search-indicator" class="htmx-indicator" style="text-align: center; padding: 5px;">
+                        <small>Searching...</small>
+                    </div>
+                    <div id="search-results"></div>
+                </div>
+                
                 <ul style="margin-bottom: 20px;">
                     <li class="book-item" onclick="loadAbout()">
                         About Hypomnema
@@ -228,6 +290,8 @@
         document.addEventListener('htmx:afterSwap', function(event) {
             // Check if this was a chapter load (the target will be text-content)
             if (event.detail.target.id === 'text-content') {
+                // Clear and hide search when navigating to a chapter
+                closeSearch();
                 // Get the request path from the event
                 let url = '';
                 if (event.detail.requestConfig && event.detail.requestConfig.path) {
@@ -267,6 +331,34 @@
         
         // Track desired sidebar state (what user wants)
         let desiredSidebarOpen = true;
+        
+        function toggleSearch() {
+            const searchContainer = document.getElementById('search-container');
+            const searchToggle = document.getElementById('search-toggle');
+            const searchInput = document.getElementById('verse-search');
+            
+            if (searchContainer.style.display === 'none') {
+                searchContainer.style.display = 'block';
+                searchToggle.style.display = 'none';
+                searchInput.focus();
+            } else {
+                searchContainer.style.display = 'none';
+                searchToggle.style.display = 'flex';
+                searchInput.value = '';
+                document.getElementById('search-results').innerHTML = '';
+            }
+        }
+        
+        function closeSearch() {
+            const searchContainer = document.getElementById('search-container');
+            const searchToggle = document.getElementById('search-toggle');
+            const searchInput = document.getElementById('verse-search');
+            
+            searchContainer.style.display = 'none';
+            searchToggle.style.display = 'flex';
+            searchInput.value = '';
+            document.getElementById('search-results').innerHTML = '';
+        }
         
         function toggleSidebar() {
             const container = document.querySelector('.container');

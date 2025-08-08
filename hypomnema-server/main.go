@@ -4,6 +4,7 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
+	"html"
 	"html/template"
 	"io"
 	"log"
@@ -398,6 +399,7 @@ func main() {
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
+	http.HandleFunc("/api/search", searchHandler)
 	
 	// Homily page
 	http.HandleFunc("/homily/", homilyHandler)
@@ -460,6 +462,111 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
+}
+
+func searchHandler(w http.ResponseWriter, r *http.Request) {
+	// Get search query
+	query := r.URL.Query().Get("q")
+	if query == "" {
+		w.Write([]byte(""))
+		return
+	}
+	
+	// Convert to lowercase for case-insensitive search
+	searchTerm := strings.ToLower(query)
+	
+	// Search results HTML
+	var results strings.Builder
+	results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+	
+	resultCount := 0
+	maxResults := 20
+	
+	// Search through all books
+	for _, book := range books {
+		if resultCount >= maxResults {
+			break
+		}
+		
+		// Get book directory
+		bookDir := filepath.Join("../texts/scripture/new_testament/english/kjv", book.ID)
+		
+		// Read all chapters for this book
+		for chapter := 1; chapter <= book.Chapters; chapter++ {
+			if resultCount >= maxResults {
+				break
+			}
+			
+			chapterDir := fmt.Sprintf("%02d", chapter)
+			chapterFile := filepath.Join(bookDir, chapterDir, fmt.Sprintf("%s_%02d.txt", book.ID, chapter))
+			
+			// Read chapter file
+			content, err := os.ReadFile(chapterFile)
+			if err != nil {
+				continue
+			}
+			
+			// Search line by line
+			lines := strings.Split(string(content), "\n")
+			for _, line := range lines {
+				if resultCount >= maxResults {
+					break
+				}
+				
+				// Check if line contains search term
+				if strings.Contains(strings.ToLower(line), searchTerm) {
+					// Parse verse reference
+					parts := strings.SplitN(line, " ", 2)
+					if len(parts) == 2 {
+						verseRef := parts[0]
+						verseText := parts[1]
+						
+						// Highlight search term
+						highlightedText := verseText
+						// Simple highlight - wrap matches in <mark> tags
+						re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+						highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+						
+						// Truncate if too long
+						if len(highlightedText) > 200 {
+							highlightedText = highlightedText[:200] + "..."
+						}
+						
+						// Create clickable result
+						results.WriteString(fmt.Sprintf(`
+							<div class="search-result" 
+							     style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+							     onmouseover="this.style.backgroundColor='#f5f5f5'" 
+							     onmouseout="this.style.backgroundColor=''"
+							     hx-get="/api/chapter/%s/%d"
+							     hx-target="#text-content"
+							     hx-swap="innerHTML"
+							     hx-push-url="/%s/%d"
+							     hx-indicator="#loading-indicator">
+								<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+								<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+							</div>
+						`, book.ID, chapter, book.ID, chapter, book.Name, verseRef, highlightedText))
+						
+						resultCount++
+					}
+				}
+			}
+		}
+	}
+	
+	if resultCount == 0 {
+		results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
+		results.WriteString(html.EscapeString(query))
+		results.WriteString(`"</div>`)
+	} else if resultCount >= maxResults {
+		results.WriteString(fmt.Sprintf(`<div style="padding: 10px; color: #666; text-align: center;">Showing first %d results</div>`, maxResults))
+	}
+	
+	results.WriteString(`</div>`)
+	
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(results.String()))
 }
 
 func chapterHandler(w http.ResponseWriter, r *http.Request) {

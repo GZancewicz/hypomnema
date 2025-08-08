@@ -555,6 +555,14 @@ body {
     justify-content: flex-start;
 }
 
+/* Search result highlighting */
+mark {
+    background-color: #ffeb3b;
+    color: inherit;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+
 /* HTMX loading indicator */
 .htmx-indicator {
     display: none;
