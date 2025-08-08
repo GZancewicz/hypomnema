@@ -1,96 +1,60 @@
-7:1 Then said the high priest, Are these things so?
-7:2 And he said, Men, brethren, and fathers, hearken; The God of glory appeared unto our father Abraham, when he was in Mesopotamia, before he dwelt in Charran,
-7:3 And said unto him, Get thee out of thy country, and from thy kindred, and come into the land which I shall shew thee.
-7:4 Then came he out of the land of the Chaldaeans, and dwelt in Charran: and from thence, when his father was dead, he removed him into this land, wherein ye now dwell.
-7:5 And he gave him none inheritance in it, no, not
-so much as
- to set his foot on: yet he promised that he would give it to him for a possession, and to his seed after him, when
-as yet he had no child.
-7:6 And God spake on this wise, That his seed should sojourn in a strange land; and that they should bring them into bondage, and entreat
-them
- evil four hundred years.
-7:7 And the nation to whom they shall be in bondage will I judge, said God: and after that shall they come forth, and serve me in this place.
-7:8 And he gave him the covenant of circumcision: and so
-Abraham
- begat Isaac, and circumcised him the eighth day; and Isaac
-begat
- Jacob; and Jacob
-begat the twelve patriarchs.
-7:9 And the patriarchs, moved with envy, sold Joseph into Egypt: but God was with him,
-7:10 And delivered him out of all his afflictions, and gave him favour and wisdom in the sight of Pharaoh king of Egypt; and he made him governor over Egypt and all his house.
-7:11 Now there came a dearth over all the land of Egypt and Chanaan, and great affliction: and our fathers found no sustenance.
-7:12 But when Jacob heard that there was corn in Egypt, he sent out our fathers first.
-7:13 And at the second
-time Joseph was made known to his brethren; and Joseph’s kindred was made known unto Pharaoh.
-7:14 Then sent Joseph, and called his father Jacob to
-him, and all his kindred, threescore and fifteen souls.
-7:15 So Jacob went down into Egypt, and died, he, and our fathers,
-7:16 And were carried over into Sychem, and laid in the sepulchre that Abraham bought for a sum of money of the sons of Emmor
-the father
- of Sychem.
-7:17 But when the time of the promise drew nigh, which God had sworn to Abraham, the people grew and multiplied in Egypt,
-7:18 Till another king arose, which knew not Joseph.
-7:19 The same dealt subtilly with our kindred, and evil entreated our fathers, so that they cast out their young children, to the end they might not live.
-7:20 In which time Moses was born, and was exceeding fair, and nourished up in his father’s house three months:
-7:21 And when he was cast out, Pharaoh’s daughter took him up, and nourished him for her own son.
-7:22 And Moses was learned in all the wisdom of the Egyptians, and was mighty in words and in deeds.
-7:23 And when he was full forty years old, it came into his heart to visit his brethren the children of Israel.
-7:24 And seeing one
-of them suffer wrong, he defended
-him,
- and avenged him that was oppressed, and smote the Egyptian:
-7:25 For he supposed his brethren would have understood how that God by his hand would deliver them: but they understood not.
-7:26 And the next day he shewed himself unto them as they strove, and would have set them at one again, saying, Sirs, ye are brethren; why do ye wrong one to another?
-7:27 But he that did his neighbour wrong thrust him away, saying, Who made thee a ruler and a judge over us?
-7:28 Wilt thou kill me, as thou diddest the Egyptian yesterday?
-7:29 Then fled Moses at this saying, and was a stranger in the land of Madian, where he begat two sons.
-7:30 And when forty years were expired, there appeared to him in the wilderness of mount Sina an angel of the Lord in a flame of fire in a bush.
-7:31 When Moses saw
-it, he wondered at the sight: and as he drew near to behold
-it, the voice of the Lord came unto him,
-7:32 Saying, I
-am the God of thy fathers, the God of Abraham, and the God of Isaac, and the God of Jacob. Then Moses trembled, and durst not behold.
-7:33 Then said the Lord to him, Put off thy shoes from thy feet: for the place where thou standest is holy ground.
-7:34 I have seen, I have seen the affliction of my people which is in Egypt, and I have heard their groaning, and am come down to deliver them. And now come, I will send thee into Egypt.
-7:35 This Moses whom they refused, saying, Who made thee a ruler and a judge? the same did God send
-to be a ruler and a deliverer by the hand of the angel which appeared to him in the bush.
-7:36 He brought them out, after that he had shewed wonders and signs in the land of Egypt, and in the Red sea, and in the wilderness forty years.
-7:37 This is that Moses, which said unto the children of Israel, A prophet shall the Lord your God raise up unto you of your brethren, like unto me; him shall ye hear.
-7:38 This is he, that was in the church in the wilderness with the angel which spake to him in the mount Sina, and
-with our fathers: who received the lively oracles to give unto us:
-7:39 To whom our fathers would not obey, but thrust
-him from them, and in their hearts turned back again into Egypt,
-7:40 Saying unto Aaron, Make us gods to go before us: for
-as for
- this Moses, which brought us out of the land of Egypt, we wot not what is become of him.
+7:1 Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God.
+7:2 Receive us; we have wronged no man, we have corrupted no man, we have defrauded no man.
+7:3 I speak not this to condemn you: for I have said before, that ye are in our hearts to die and live with you.
+7:4 Great is my boldness of speech toward you, great is my glorying of you: I am filled with comfort, I am exceeding joyful in all our tribulation.
+7:5 For, when we were come into Macedonia, our flesh had no rest, but we were troubled on every side; without were fightings, within were fears.
+7:6 Nevertheless God, that comforteth those that are cast down, comforted us by the coming of Titus;
+7:7 And not by his coming only, but by the consolation wherewith he was comforted in you, when he told us your earnest desire, your mourning, your fervent mind toward me; so that I rejoiced the more.
+7:8 For though I made you sorry with a letter, I do not repent, though I did repent: for I perceive that the same epistle hath made you sorry, though it were but for a season.
+7:9 Now I rejoice, not that ye were made sorry, but that ye sorrowed to repentance: for ye were made sorry after a godly manner, that ye might receive damage by us in nothing.
+7:10 For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death.
+7:11 For behold this selfsame thing, that ye sorrowed after a godly sort, what carefulness it wrought in you, yea, what clearing of yourselves, yea, what indignation, yea, what fear, yea, what vehement desire, yea, what zeal, yea, what revenge! In all things ye have approved yourselves to be clear in this matter.
+7:12 Wherefore, though I wrote unto you, I did it not for his cause that had done the wrong, nor for his cause that suffered wrong, but that our care for you in the sight of God might appear unto you.
+7:13 Therefore we were comforted in your comfort: yea, and exceedingly the more joyed we for the joy of Titus, because his spirit was refreshed by you all.
+7:14 For if I have boasted any thing to him of you, I am not ashamed; but as we spake all things to you in truth, even so our boasting, which I made before Titus, is found a truth.
+7:15 And his inward affection is more abundant toward you, whilst he remembereth the obedience of you all, how with fear and trembling ye received him.
+7:16 I rejoice therefore that I have confidence in you in all things.
+7:17 But as God hath distributed to every man, as the Lord hath called every one, so let him walk. And so ordain I in all churches.
+7:18 Is any man called being circumcised? let him not become uncircumcised. Is any called in uncircumcision? let him not be circumcised.
+7:19 Circumcision is nothing, and uncircumcision is nothing, but the keeping of the commandments of God.
+7:20 Let every man abide in the same calling wherein he was called.
+7:21 Art thou called being a servant? care not for it: but if thou mayest be made free, use it rather.
+7:22 For he that is called in the Lord, being a servant, is the Lord’s freeman: likewise also he that is called, being free, is Christ’s servant.
+7:23 Ye are bought with a price; be not ye the servants of men.
+7:24 Brethren, let every man, wherein he is called, therein abide with God.
+7:25 Now concerning virgins I have no commandment of the Lord: yet I give my judgment, as one that hath obtained mercy of the Lord to be faithful.
+7:26 I suppose therefore that this is good for the present distress, I say, that it is good for a man so to be.
+7:27 Art thou bound unto a wife? seek not to be loosed. Art thou loosed from a wife? seek not a wife.
+7:28 But and if thou marry, thou hast not sinned; and if a virgin marry, she hath not sinned. Nevertheless such shall have trouble in the flesh: but I spare you.
+7:29 But this I say, brethren, the time is short: it remaineth, that both they that have wives be as though they had none;
+7:30 And they that weep, as though they wept not; and they that rejoice, as though they rejoiced not; and they that buy, as though they possessed not;
+7:31 And they that use this world, as not abusing it: for the fashion of this world passeth away.
+7:32 But I would have you without carefulness. He that is unmarried careth for the things that belong to the Lord, how he may please the Lord:
+7:33 But he that is married careth for the things that are of the world, how he may please his wife.
+7:34 There is difference also between a wife and a virgin. The unmarried woman careth for the things of the Lord, that she may be holy both in body and in spirit: but she that is married careth for the things of the world, how she may please her husband.
+7:35 And this I speak for your own profit; not that I may cast a snare upon you, but for that which is comely, and that ye may attend upon the Lord without distraction.
+7:36 But if any man think that he behaveth himself uncomely toward his virgin, if she pass the flower of her age, and need so require, let him do what he will, he sinneth not: let them marry.
+7:37 Nevertheless he that standeth stedfast in his heart, having no necessity, but hath power over his own will, and hath so decreed in his heart that he will keep his virgin, doeth well.
+7:38 So then he that giveth her in marriage doeth well; but he that giveth her not in marriage doeth better.
+7:39 The wife is bound by the law as long as her husband liveth; but if her husband be dead, she is at liberty to be married to whom she will; only in the Lord.
+7:40 But she is happier if she so abide, after my judgment: and I think also that I have the Spirit of God.
 7:41 And they made a calf in those days, and offered sacrifice unto the idol, and rejoiced in the works of their own hands.
-7:42 Then God turned, and gave them up to worship the host of heaven; as it is written in the book of the prophets, O ye house of Israel, have ye offered to me slain beasts and sacrifices
-by the space of forty years in the wilderness?
+7:42 Then God turned, and gave them up to worship the host of heaven; as it is written in the book of the prophets, O ye house of Israel, have ye offered to me slain beasts and sacrifices by the space of forty years in the wilderness?
 7:43 Yea, ye took up the tabernacle of Moloch, and the star of your god Remphan, figures which ye made to worship them: and I will carry you away beyond Babylon.
 7:44 Our fathers had the tabernacle of witness in the wilderness, as he had appointed, speaking unto Moses, that he should make it according to the fashion that he had seen.
 7:45 Which also our fathers that came after brought in with Jesus into the possession of the Gentiles, whom God drave out before the face of our fathers, unto the days of David;
 7:46 Who found favour before God, and desired to find a tabernacle for the God of Jacob.
 7:47 But Solomon built him an house.
 7:48 Howbeit the most High dwelleth not in temples made with hands; as saith the prophet,
-7:49 Heaven
-is my throne, and earth
-is my footstool: what house will ye build me? saith the Lord: or what
-is the place of my rest?
+7:49 Heaven is my throne, and earth is my footstool: what house will ye build me? saith the Lord: or what is the place of my rest?
 7:50 Hath not my hand made all these things?
-7:51 Ye stiffnecked and uncircumcised in heart and ears, ye do always resist the Holy Ghost: as your fathers
-did, so
-do ye.
+7:51 Ye stiffnecked and uncircumcised in heart and ears, ye do always resist the Holy Ghost: as your fathers did, so do ye.
 7:52 Which of the prophets have not your fathers persecuted? and they have slain them which shewed before of the coming of the Just One; of whom ye have been now the betrayers and murderers:
-7:53 Who have received the law by the disposition of angels, and have not kept
-it.
-7:54 When they heard these things, they were cut to the heart, and they gnashed on him with
-their teeth.
+7:53 Who have received the law by the disposition of angels, and have not kept it.
+7:54 When they heard these things, they were cut to the heart, and they gnashed on him with their teeth.
 7:55 But he, being full of the Holy Ghost, looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God,
 7:56 And said, Behold, I see the heavens opened, and the Son of man standing on the right hand of God.
 7:57 Then they cried out with a loud voice, and stopped their ears, and ran upon him with one accord,
-7:58 And cast
-him out of the city, and stoned
-him: and the witnesses laid down their clothes at a young man’s feet, whose name was Saul.
-7:59 And they stoned Stephen, calling upon
-God, and saying, Lord Jesus, receive my spirit.
+7:58 And cast him out of the city, and stoned him: and the witnesses laid down their clothes at a young man’s feet, whose name was Saul.
+7:59 And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.
 7:60 And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep.

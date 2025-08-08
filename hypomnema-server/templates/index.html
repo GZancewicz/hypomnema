@@ -6,7 +6,8 @@
     <title>Hypomnema - Bible Reader</title>
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=58">
+    <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
+    <link rel="stylesheet" href="/static/styles.css?v=79">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -51,18 +52,82 @@
             }
         }
         
-        /* Navigation icon buttons */
-        .nav-btn.nav-icon {
-            padding: 8px;
-            width: 36px;
-            height: 36px;
+        /* Search container animation */
+        .search-container {
+            animation: slideDown 0.2s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Chapter selector styles */
+        .chapter-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 15px 20px;
+            justify-content: center;
+            max-width: 100%;
+        }
+        
+        .chapter-box {
+            width: 40px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 14px;
+            color: #333;
+            text-decoration: none;
         }
         
-        .nav-btn.nav-icon svg {
-            display: block;
+        .chapter-box:hover {
+            border-color: #007bff;
+            background: #f0f8ff;
+            transform: scale(1.05);
+        }
+        
+        .chapter-box.active {
+            background: #f5f5f5;
+            color: #7f8c8d;
+            border-color: #7f8c8d;
+            font-weight: bold;
+        }
+        
+        .chapter-box.active:hover {
+            background: #ebebeb;
+            border-color: #6a7576;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 700px) {
+            .chapter-selector {
+                padding: 10px 15px;
+            }
+            
+            .chapter-box {
+                width: 35px;
+                height: 35px;
+                font-size: 13px;
+            }
+        }
+        
+        /* Search toggle button */
+        #search-toggle:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -71,17 +136,63 @@
         <!-- Sidebar -->
         <nav class="sidebar">
             <div class="book-list">
+                <!-- Search Toggle Button -->
+                <div style="padding: 15px; display: flex; justify-content: center;">
+                    <button id="search-toggle" onclick="toggleSearch()" 
+                            style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 50%; width: 40px; height: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;"
+                            onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.5)'" 
+                            onmouseout="this.style.backgroundColor='rgba(255, 255, 255, 0.1)'; this.style.borderColor='rgba(255, 255, 255, 0.3)'">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Search Box (initially hidden) -->
+                <div id="search-container" class="search-container" style="padding: 0 15px 15px 15px; display: none;">
+                    <div style="position: relative;">
+                        <input type="search" 
+                               id="verse-search"
+                               placeholder="Search verses..."
+                               hx-get="/api/search"
+                               hx-trigger="keyup changed delay:500ms"
+                               hx-target="#search-results"
+                               hx-indicator="#search-indicator"
+                               name="q"
+                               style="width: 100%; padding: 8px 35px 8px 8px; border: 1px solid #ddd; border-radius: 4px;">
+                        <button onclick="closeSearch()" 
+                                style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; padding: 5px; color: #666;"
+                                onmouseover="this.style.color='#333'" 
+                                onmouseout="this.style.color='#666'">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="search-indicator" class="htmx-indicator" style="text-align: center; padding: 5px;">
+                        <small>Searching...</small>
+                    </div>
+                    <div id="search-results"></div>
+                </div>
+                
                 <ul style="margin-bottom: 20px;">
                     <li class="book-item" onclick="loadAbout()">
                         About Hypomnema
                     </li>
                 </ul>
                 <h3>New Testament</h3>
-                <ul>
+                <ul hx-boost="true" hx-target="#text-content" hx-swap="innerHTML" hx-ext="preload">
                     {{range .Books}}
                     <li class="book-item {{if eq $.CurrentBook .ID}}active{{end}}" 
                         data-book-id="{{.ID}}"
-                        onclick="selectBook('{{.ID}}', {{.Chapters}})">
+                        hx-get="/api/chapter/{{.ID}}/1"
+                        hx-target="#text-content"
+                        hx-swap="innerHTML show:window:top"
+                        hx-push-url="/{{.ID}}/1"
+                        hx-indicator="#loading-indicator"
+                        preload="mousedown">
                         {{.Name}}
                     </li>
                     {{end}}
@@ -100,20 +211,14 @@
                         <rect class="sidebar-indicator" x="4" y="4" width="6" height="16" fill="#999" rx="0"></rect>
                     </svg>
                 </button>
-                <h1 id="book-title">Matthew</h1>
-                <div class="chapter-nav">
-                    <button id="prevChapter" class="nav-btn nav-icon" onclick="navigateChapter(-1)" title="Previous Chapter">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </button>
-                    <button id="nextChapter" class="nav-btn nav-icon" onclick="navigateChapter(1)" title="Next Chapter">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
+                <h1 id="book-title">{{range .Books}}{{if eq .ID $.CurrentBook}}{{.Name}}{{end}}{{end}}</h1>
+                
+                <!-- Chapter selector -->
+                <div id="chapter-selector" class="chapter-selector" hx-ext="preload">
+                    <!-- Will be populated by server on chapter load -->
                 </div>
-                <h2 id="chapter-title">Chapter 1</h2>
+                
+                <h2 id="chapter-title">Chapter {{.CurrentChap}}</h2>
             </header>
             
             <div id="text-content" 
@@ -124,17 +229,9 @@
             </div>
             
             <footer class="content-footer">
-                <div class="chapter-nav">
-                    <button id="prevChapterBottom" class="nav-btn nav-icon" onclick="navigateChapter(-1)" title="Previous Chapter">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </button>
-                    <button id="nextChapterBottom" class="nav-btn nav-icon" onclick="navigateChapter(1)" title="Next Chapter">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
+                <!-- Bottom chapter selector -->
+                <div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload">
+                    <!-- Will be populated by server on chapter load -->
                 </div>
             </footer>
         </main>
@@ -143,7 +240,7 @@
         <aside id="homilyPanel" class="homily-panel">
             <div class="homily-panel-header">
                 <div>
-                    <div class="homily-author">John Chrysostom</div>
+                    <div id="homilyAuthor" class="homily-author">John Chrysostom</div>
                     <h2 id="homilyTitle">Homily</h2>
                 </div>
                 <button class="close-btn" onclick="closeHomilyPanel()">×</button>
@@ -170,6 +267,12 @@
         </div>
     </div>
     
+    <!-- Global loading indicator -->
+    <div id="loading-indicator" class="htmx-indicator">
+        <div class="loading-spinner"></div>
+        <span>Loading...</span>
+    </div>
+    
     <script>
         let currentBook = '{{.CurrentBook}}';
         let currentChapter = {{.CurrentChap}};
@@ -180,79 +283,139 @@
             {{end}}
         };
         
-        function selectBook(bookId, numChapters) {
-            currentBook = bookId;
-            currentChapter = 1;
+        // Populate chapter selectors (both top and bottom)
+        function populateChapterSelectors(bookId, currentChap) {
+            const selectors = ['chapter-selector', 'chapter-selector-bottom'];
             
-            // Update active book
-            document.querySelectorAll('.book-item').forEach(item => {
-                item.classList.remove('active');
-            });
-            event.target.classList.add('active');
+            if (!bookChapters[bookId]) return;
             
-            // Update book title
-            const bookName = event.target.textContent.trim();
-            document.getElementById('book-title').textContent = bookName;
+            const maxChapters = bookChapters[bookId];
+            let html = '';
             
-            // Show navigation buttons
-            document.getElementById('prevChapter').style.display = '';
-            document.getElementById('nextChapter').style.display = '';
-            document.getElementById('prevChapterBottom').style.display = '';
-            document.getElementById('nextChapterBottom').style.display = '';
-            
-            // Load first chapter
-            loadChapter(bookId, 1);
-            
-            // Auto-close sidebar on mobile
-            if (window.innerWidth <= 700) {
-                closeSidebarOverlay();
+            for (let i = 1; i <= maxChapters; i++) {
+                const activeClass = i === currentChap ? ' active' : '';
+                html += `<div class="chapter-box${activeClass}"
+                             onclick="loadChapterAndScroll('${bookId}', ${i})"
+                             style="cursor: pointer;">${i}</div>`;
             }
+            
+            selectors.forEach(selectorId => {
+                const selector = document.getElementById(selectorId);
+                if (selector) {
+                    selector.innerHTML = html;
+                    htmx.process(selector); // Re-process HTMX attributes
+                }
+            });
         }
         
-        function loadChapter(bookId, chapter) {
-            currentChapter = chapter;
+        // Populate on initial load
+        document.addEventListener('DOMContentLoaded', function() {
+            populateChapterSelectors(currentBook, currentChapter);
+        });
+        
+        // Load chapter and scroll to top
+        function loadChapterAndScroll(bookId, chapter) {
+            // Try multiple scroll methods to ensure it works
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
             
-            // Update chapter title
-            document.getElementById('chapter-title').textContent = `Chapter ${chapter}`;
+            // Also scroll the main content area if it exists
+            const mainContent = document.querySelector('.content');
+            if (mainContent) {
+                mainContent.scrollTop = 0;
+            }
             
-            // Ensure book stays highlighted
-            document.querySelectorAll('.book-item').forEach(item => {
-                item.classList.toggle('active', item.getAttribute('data-book-id') === bookId);
-            });
-            
-            // Load content with HTMX
+            // Load the chapter content
             htmx.ajax('GET', `/api/chapter/${bookId}/${chapter}`, '#text-content');
             
-            // Update navigation buttons
-            updateNavigationButtons();
+            // Update URL
+            history.pushState(null, '', `/${bookId}/${chapter}`);
+            
+            // Close search if open
+            closeSearch();
+            
+            // Force another scroll after a brief delay
+            setTimeout(() => {
+                window.scrollTo(0, 0);
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
+            }, 50);
         }
         
-        function navigateChapter(direction) {
-            const newChapter = currentChapter + direction;
-            const maxChapters = bookChapters[currentBook];
-            
-            if (newChapter >= 1 && newChapter <= maxChapters) {
-                loadChapter(currentBook, newChapter);
+        // Listen for HTMX events to update UI after content loads
+        document.addEventListener('htmx:afterSwap', function(event) {
+            // Check if this was a chapter load (the target will be text-content)
+            if (event.detail.target && event.detail.target.id === 'text-content') {
+                // Clear and hide search when navigating to a chapter
+                closeSearch();
+                // Get the request path from the event
+                let url = '';
+                if (event.detail.requestConfig && event.detail.requestConfig.path) {
+                    url = event.detail.requestConfig.path;
+                } else if (event.detail.xhr && event.detail.xhr.responseURL) {
+                    // Fallback to response URL from XMLHttpRequest
+                    const responseUrl = event.detail.xhr.responseURL;
+                    // Extract path from full URL
+                    const urlObj = new URL(responseUrl);
+                    url = urlObj.pathname;
+                }
+                
+                const match = url.match(/\/api\/chapter\/([^\/]+)\/(\d+)/);
+                
+                if (match) {
+                    currentBook = match[1];
+                    currentChapter = parseInt(match[2]);
+                    
+                    // Update active book in sidebar
+                    document.querySelectorAll('.book-item').forEach(item => {
+                        item.classList.toggle('active', item.getAttribute('data-book-id') === currentBook);
+                    });
+                    
+                    // Update book title
+                    const activeBook = document.querySelector('.book-item.active');
+                    if (activeBook) {
+                        document.getElementById('book-title').textContent = activeBook.textContent.trim();
+                    }
+                    
+                    // Auto-close sidebar on mobile
+                    if (window.innerWidth <= 700) {
+                        closeSidebarOverlay();
+                    }
+                }
             }
-            
-            // Update button states
-            updateNavigationButtons();
-        }
-        
-        function updateNavigationButtons() {
-            const maxChapters = bookChapters[currentBook];
-            const prevDisabled = currentChapter <= 1;
-            const nextDisabled = currentChapter >= maxChapters;
-            
-            // Update both top and bottom buttons
-            document.getElementById('prevChapter').disabled = prevDisabled;
-            document.getElementById('nextChapter').disabled = nextDisabled;
-            document.getElementById('prevChapterBottom').disabled = prevDisabled;
-            document.getElementById('nextChapterBottom').disabled = nextDisabled;
-        }
+        });
         
         // Track desired sidebar state (what user wants)
         let desiredSidebarOpen = true;
+        
+        function toggleSearch() {
+            const searchContainer = document.getElementById('search-container');
+            const searchToggle = document.getElementById('search-toggle');
+            const searchInput = document.getElementById('verse-search');
+            
+            if (searchContainer.style.display === 'none') {
+                searchContainer.style.display = 'block';
+                searchToggle.style.display = 'none';
+                searchInput.focus();
+            } else {
+                searchContainer.style.display = 'none';
+                searchToggle.style.display = 'flex';
+                searchInput.value = '';
+                document.getElementById('search-results').innerHTML = '';
+            }
+        }
+        
+        function closeSearch() {
+            const searchContainer = document.getElementById('search-container');
+            const searchToggle = document.getElementById('search-toggle');
+            const searchInput = document.getElementById('verse-search');
+            
+            searchContainer.style.display = 'none';
+            searchToggle.style.display = 'flex';
+            searchInput.value = '';
+            document.getElementById('search-results').innerHTML = '';
+        }
         
         function toggleSidebar() {
             const container = document.querySelector('.container');
@@ -317,11 +480,6 @@
             // Add active state to About
             event.target.classList.add('active');
             
-            // Hide navigation buttons
-            document.getElementById('prevChapter').style.display = 'none';
-            document.getElementById('nextChapter').style.display = 'none';
-            document.getElementById('prevChapterBottom').style.display = 'none';
-            document.getElementById('nextChapterBottom').style.display = 'none';
             
             // Load about content
             htmx.ajax('GET', '/api/about', '#text-content');
@@ -360,9 +518,8 @@
             }
         });
         
-        // Initialize navigation buttons and handle resize
+        // Initialize on page load
         window.addEventListener('DOMContentLoaded', () => {
-            updateNavigationButtons();
             handleResize();
         });
         
@@ -373,11 +530,13 @@
             if (!book) book = 'matthew';
             const panel = document.getElementById('homilyPanel');
             const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
             const content = document.getElementById('homilyContent');
             const container = document.querySelector('.container');
             
-            // Update title
+            // Update title and author
             title.textContent = `Homily ${romanNum}`;
+            author.textContent = 'John Chrysostom';
             
             // Show loading state
             content.innerHTML = '<div class="loading">Loading homily...</div>';
@@ -390,6 +549,28 @@
             htmx.ajax('GET', `/api/homily/chrysostom/${book}/${homilyNum}`, '#homilyContent');
         }
         
+        function loadCyrilHomily(sermonNum, romanNum, book) {
+            const panel = document.getElementById('homilyPanel');
+            const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
+            const content = document.getElementById('homilyContent');
+            const container = document.querySelector('.container');
+            
+            // Update title and author
+            title.textContent = `Sermon ${romanNum}`;
+            author.textContent = 'Cyril of Alexandria';
+            
+            // Show loading state
+            content.innerHTML = '<div class="loading">Loading sermon...</div>';
+            
+            // Show panel
+            panel.classList.add('active');
+            container.classList.add('homily-open');
+            
+            // Load sermon content
+            htmx.ajax('GET', `/api/homily/cyril/${book}/${sermonNum}`, '#homilyContent');
+        }
+        
         function closeHomilyPanel() {
             const panel = document.getElementById('homilyPanel');
             const container = document.querySelector('.container');
@@ -398,6 +579,109 @@
             container.classList.remove('homily-open');
         }
         
+        // Dynamic tooltip positioning for footnotes in homily panel
+        function initializeFootnoteTooltips() {
+            // Remove any existing tooltip
+            const existingTooltip = document.querySelector('.footnote-tooltip-dynamic');
+            if (existingTooltip) {
+                existingTooltip.remove();
+            }
+            
+            // Create a reusable tooltip element
+            const tooltip = document.createElement('div');
+            tooltip.className = 'footnote-tooltip-dynamic';
+            tooltip.style.cssText = `
+                position: fixed;
+                background: #333;
+                color: white;
+                padding: 8px 12px;
+                border-radius: 4px;
+                font-size: 14px;
+                z-index: 10001;
+                pointer-events: none;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                max-width: 300px;
+                min-width: 200px;
+                line-height: 1.4;
+                display: none;
+                font-weight: normal;
+            `;
+            document.body.appendChild(tooltip);
+            
+            // Find all footnote references in the homily panel
+            const footnotes = document.querySelectorAll('#homilyContent sup.footnote-ref[title]');
+            
+            footnotes.forEach(footnote => {
+                // Remove any existing listeners
+                const newFootnote = footnote.cloneNode(true);
+                footnote.parentNode.replaceChild(newFootnote, footnote);
+                
+                newFootnote.addEventListener('mouseenter', function(e) {
+                    const title = this.getAttribute('title');
+                    if (!title) return;
+                    
+                    tooltip.textContent = title;
+                    tooltip.style.display = 'block';
+                    
+                    // Get the position of the footnote and the homily panel
+                    const rect = this.getBoundingClientRect();
+                    const panel = document.getElementById('homilyPanel');
+                    const panelRect = panel.getBoundingClientRect();
+                    
+                    // Initially position below the footnote
+                    let left = rect.left;
+                    let top = rect.bottom + 5;
+                    
+                    // Measure tooltip after content is set
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.top = top + 'px';
+                    const tooltipRect = tooltip.getBoundingClientRect();
+                    
+                    // Keep tooltip within the homily panel bounds
+                    // Check right edge
+                    if (left + tooltipRect.width > panelRect.right - 10) {
+                        left = panelRect.right - tooltipRect.width - 10;
+                    }
+                    
+                    // Check left edge
+                    if (left < panelRect.left + 10) {
+                        left = panelRect.left + 10;
+                    }
+                    
+                    // Check bottom edge
+                    if (top + tooltipRect.height > window.innerHeight - 20) {
+                        // Position above the footnote instead
+                        top = rect.top - tooltipRect.height - 5;
+                    }
+                    
+                    // Check top edge
+                    if (top < 20) {
+                        // Position to the side instead
+                        top = rect.top;
+                        left = rect.left - tooltipRect.width - 10;
+                        
+                        // If that goes off the left edge of panel, position to the right
+                        if (left < panelRect.left + 10) {
+                            left = rect.right + 10;
+                        }
+                    }
+                    
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.top = top + 'px';
+                });
+                
+                newFootnote.addEventListener('mouseleave', function() {
+                    tooltip.style.display = 'none';
+                });
+            });
+        }
+        
+        // Call initializeFootnoteTooltips after homily content is loaded
+        document.addEventListener('htmx:afterSwap', function(event) {
+            if (event.detail.target.id === 'homilyContent') {
+                setTimeout(initializeFootnoteTooltips, 100);
+            }
+        });
         
     </script>
 </body>

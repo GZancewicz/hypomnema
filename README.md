@@ -1,14 +1,17 @@
 # Hypomnema
 
-A biblical text reader with integrated patristic commentary, featuring John Chrysostom's homilies on Matthew and John with cross-references to parallel Gospel passages.
+A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom and Cyril of Alexandria.
 
 ## Features
 
 - **Complete KJV New Testament** with chapter-by-chapter navigation
-- **John Chrysostom's Homilies on Matthew and John** with:
-  - Minimal grey box markers in the right margin
-  - Split-screen homily viewing (50/50 layout)
-  - Hover tooltips showing homily numbers
+- **Patristic Commentary Integration**:
+  - John Chrysostom's 90 homilies on Matthew
+  - John Chrysostom's 88 homilies on John
+  - Cyril of Alexandria's 156 sermons on Luke
+  - Minimal blue markers in the right margin
+  - Split-screen commentary viewing (50/50 layout)
+  - Hover tooltips showing commentary references
   - Smart cross-referencing to parallel Gospel passages
   - Footnotes with hover tooltips
 - **Eusebian Canon System** showing parallel Gospel passages
@@ -57,19 +60,21 @@ go run main.go
 ```
 hypomnema/
 ├── hypomnema-server/         # Go web server
-│   ├── main.go              # Main server code
+│   ├── main.go              # Main server code with all routing
 │   ├── templates/           # HTML templates
 │   ├── static/              # CSS and static files
 │   └── tmp/                 # Air build artifacts (git ignored)
 ├── texts/                   # Biblical texts and reference data
 │   ├── scripture/           # KJV text files organized by book/chapter
 │   ├── commentaries/        # Patristic commentaries
-│   │   └── chrysostom/      # John Chrysostom's works
-│   │       ├── matthew/     # Homilies on Matthew with footnotes
-│   │       └── john/        # Homilies on John with footnotes
+│   │   ├── chrysostom/      # John Chrysostom's works
+│   │   │   ├── matthew/     # Homilies on Matthew with footnotes
+│   │   │   └── john/        # Homilies on John with footnotes
+│   │   └── cyril/           # Cyril of Alexandria's works
+│   │       └── luke/        # Sermons on Luke
 │   └── reference/           # Eusebian canons, paragraph divisions
 ├── scripts/                 # Python utility scripts
-├── bible-reader/            # (Legacy - to be removed)
+├── CLAUDE.md               # Development notes and instructions
 └── README.md
 ```
 
@@ -77,16 +82,24 @@ hypomnema/
 
 The application displays Eusebian Canon numbers in the left margin of Gospel texts. These ancient cross-references show parallel passages across the four Gospels. Hovering over a canon number reveals the specific verse references.
 
-## John Chrysostom's Homilies
+## Patristic Commentary
 
-The application integrates John Chrysostom's complete homilies on the Gospels of Matthew and John:
+The application integrates complete patristic commentary on the Gospels:
 
+### John Chrysostom
 - **90 Homilies on Matthew** covering the entire Gospel of Matthew
 - **88 Homilies on John** covering the entire Gospel of John
-- **Inline References** showing which homilies discuss each passage
 - **Cross-Gospel Integration** - When reading Mark or Luke, the system automatically shows relevant Matthew and John homilies for parallel passages
+
+### Cyril of Alexandria
+- **156 Sermons on Luke** covering the entire Gospel of Luke
+- Integrated footnotes and textual notes
+
+### Features
+- **Inline References** showing which homilies/sermons discuss each passage
 - **Footnotes** with hover tooltips for additional context
 - **Split-screen Reading** for studying scripture alongside commentary
+- **Unified Commentary System** using common data structures for all sources
 
 ### Data Files
 
@@ -103,6 +116,14 @@ The application integrates John Chrysostom's complete homilies on the Gospels of
 - `texts/commentaries/chrysostom/john/footnotes.json` - Extracted footnotes with renumbering
 - `texts/commentaries/chrysostom/john/john_verse_to_homilies.json` - Verse-to-homily mapping
 - `texts/commentaries/chrysostom/john/homily_coverage.json` - Homily passage coverage
+
+**Cyril Commentary:**
+
+*Luke Sermons:*
+- `texts/commentaries/cyril/luke/cyril_on_luke_*.htm` - HTML sermon files (15 files)
+- `texts/commentaries/cyril/luke/luke_verse_to_homilies.json` - Verse-to-sermon mapping
+- `texts/commentaries/cyril/luke/homily_coverage.json` - Sermon passage coverage
+- `texts/commentaries/cyril/luke/footnotes.json` - Extracted footnotes
 
 **Eusebian Canons:**
 - `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries

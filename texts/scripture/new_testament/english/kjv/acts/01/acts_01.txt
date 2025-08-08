@@ -1,34 +1,32 @@
-1:1 The former treatise have I made, O Theophilus, of all that Jesus began both to do and teach,
-1:2 Until the day in which he was taken up, after that he through the Holy Ghost had given commandments unto the apostles whom he had chosen:
-1:3 To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God:
-1:4 And, being assembled together with
-them, commanded them that they should not depart from Jerusalem, but
-wait for the promise of the Father, which,
-saith he, ye have heard of me.
-1:5 For John truly baptized with water; but ye shall be baptized with the Holy Ghost not many days hence.
-1:6 When they therefore were come together, they asked of him, saying, Lord, wilt thou at this time restore again the kingdom to Israel?
-1:7 And he said unto them,
-It is not for you to know the times or the seasons, which the Father hath put in his own power.
-1:8 But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.
-1:9 And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight.
-1:10 And while they looked stedfastly toward heaven as he went up, behold, two men stood by them in white apparel;
-1:11 Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
-1:12 Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day’s journey.
-1:13 And when they were come in, they went up into an upper room, where abode both Peter, and James, and John, and Andrew, Philip, and Thomas, Bartholomew, and Matthew, James
-the son of Alphaeus, and Simon Zelotes, and Judas
-the brother of James.
-1:14 These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.
-1:15 And in those days Peter stood up in the midst of the disciples, and said, (the number of names together were about an hundred and twenty,)
-1:16 Men
-and brethren, this scripture must needs have been fulfilled, which the Holy Ghost by the mouth of David spake before concerning Judas, which was guide to them that took Jesus.
-1:17 For he was numbered with us, and had obtained part of this ministry.
-1:18 Now this man purchased a field with the reward of iniquity; and falling headlong, he burst asunder in the midst, and all his bowels gushed out.
-1:19 And it was known unto all the dwellers at Jerusalem; insomuch as that field is called in their proper tongue, Aceldama, that is to say, The field of blood.
-1:20 For it is written in the book of Psalms, Let his habitation be desolate, and let no man dwell therein: and his bishoprick let another take.
-1:21 Wherefore of these men which have companied with us all the time that the Lord Jesus went in and out among us,
-1:22 Beginning from the baptism of John, unto that same day that he was taken up from us, must one be ordained to be a witness with us of his resurrection.
-1:23 And they appointed two, Joseph called Barsabas, who was surnamed Justus, and Matthias.
-1:24 And they prayed, and said, Thou, Lord, which knowest the hearts of all
-men, shew whether of these two thou hast chosen,
-1:25 That he may take part of this ministry and apostleship, from which Judas by transgression fell, that he might go to his own place.
-1:26 And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles.
+1:1 Paul, an apostle of Jesus Christ by the will of God, and Timothy our brother, unto the church of God which is at Corinth, with all the saints which are in all Achaia:
+1:2 Grace be to you and peace from God our Father, and from the Lord Jesus Christ.
+1:3 Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort;
+1:4 Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.
+1:5 For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ.
+1:6 And whether we be afflicted, it is for your consolation and salvation, which is effectual in the enduring of the same sufferings which we also suffer: or whether we be comforted, it is for your consolation and salvation.
+1:7 And our hope of you is stedfast, knowing, that as ye are partakers of the sufferings, so shall ye be also of the consolation.
+1:8 For we would not, brethren, have you ignorant of our trouble which came to us in Asia, that we were pressed out of measure, above strength, insomuch that we despaired even of life:
+1:9 But we had the sentence of death in ourselves, that we should not trust in ourselves, but in God which raiseth the dead:
+1:10 Who delivered us from so great a death, and doth deliver: in whom we trust that he will yet deliver us;
+1:11 Ye also helping together by prayer for us, that for the gift bestowed upon us by the means of many persons thanks may be given by many on our behalf.
+1:12 For our rejoicing is this, the testimony of our conscience, that in simplicity and godly sincerity, not with fleshly wisdom, but by the grace of God, we have had our conversation in the world, and more abundantly to you-ward.
+1:13 For we write none other things unto you, than what ye read or acknowledge; and I trust ye shall acknowledge even to the end;
+1:14 As also ye have acknowledged us in part, that we are your rejoicing, even as ye also are ours in the day of the Lord Jesus.
+1:15 And in this confidence I was minded to come unto you before, that ye might have a second benefit;
+1:16 And to pass by you into Macedonia, and to come again out of Macedonia unto you, and of you to be brought on my way toward Judaea.
+1:17 When I therefore was thus minded, did I use lightness? or the things that I purpose, do I purpose according to the flesh, that with me there should be yea yea, and nay nay?
+1:18 But as God is true, our word toward you was not yea and nay.
+1:19 For the Son of God, Jesus Christ, who was preached among you by us, even by me and Silvanus and Timotheus, was not yea and nay, but in him was yea.
+1:20 For all the promises of God in him are yea, and in him Amen, unto the glory of God by us.
+1:21 Now he which stablisheth us with you in Christ, and hath anointed us, is God;
+1:22 Who hath also sealed us, and given the earnest of the Spirit in our hearts.
+1:23 Moreover I call God for a record upon my soul, that to spare you I came not as yet unto Corinth.
+1:24 Not for that we have dominion over your faith, but are helpers of your joy: for by faith ye stand.
+1:25 Because the foolishness of God is wiser than men; and the weakness of God is stronger than men.
+1:26 For ye see your calling, brethren, how that not many wise men after the flesh, not many mighty, not many noble, are called:
+1:27 But God hath chosen the foolish things of the world to confound the wise; and God hath chosen the weak things of the world to confound the things which are mighty;
+1:28 And base things of the world, and things which are despised, hath God chosen, yea, and things which are not, to bring to nought things that are:
+1:29 That no flesh should glory in his presence.
+1:30 But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:
+1:31 That, according as it is written, He that glorieth, let him glory in the Lord.
+1:32 Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them.

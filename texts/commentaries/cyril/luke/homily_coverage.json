@@ -1,0 +1,1397 @@
+{
+  "1": {
+    "homily_number": 1,
+    "homily_roman": "I",
+    "start_chapter": 2,
+    "start_verse": 1,
+    "end_chapter": 2,
+    "end_verse": 7,
+    "title": "Luke 2:1"
+  },
+  "2": {
+    "homily_number": 2,
+    "homily_roman": "II",
+    "start_chapter": 2,
+    "start_verse": 8,
+    "end_chapter": 2,
+    "end_verse": 18,
+    "title": "Luke 2:8"
+  },
+  "3": {
+    "homily_number": 3,
+    "homily_roman": "III",
+    "start_chapter": 2,
+    "start_verse": 21,
+    "end_chapter": 2,
+    "end_verse": 24,
+    "title": "Luke 2:21"
+  },
+  "4": {
+    "homily_number": 4,
+    "homily_roman": "IV",
+    "start_chapter": 2,
+    "start_verse": 25,
+    "end_chapter": 2,
+    "end_verse": 35,
+    "title": "Luke 2:25"
+  },
+  "5": {
+    "homily_number": 5,
+    "homily_roman": "V",
+    "start_chapter": 2,
+    "start_verse": 40,
+    "end_chapter": 2,
+    "end_verse": 52,
+    "title": "Luke 2:40"
+  },
+  "6": {
+    "homily_number": 6,
+    "homily_roman": "VI",
+    "start_chapter": 3,
+    "start_verse": 1,
+    "end_chapter": 3,
+    "end_verse": 6,
+    "title": "Luke 3:1"
+  },
+  "7": {
+    "homily_number": 7,
+    "homily_roman": "VII",
+    "start_chapter": 3,
+    "start_verse": 7,
+    "end_chapter": 3,
+    "end_verse": 9,
+    "title": "Luke 3:7"
+  },
+  "8": {
+    "homily_number": 8,
+    "homily_roman": "VIII",
+    "start_chapter": 3,
+    "start_verse": 10,
+    "end_chapter": 3,
+    "end_verse": 14,
+    "title": "Luke 3:10"
+  },
+  "9": {
+    "homily_number": 9,
+    "homily_roman": "IX",
+    "start_chapter": 3,
+    "start_verse": 10,
+    "end_chapter": 3,
+    "end_verse": 14,
+    "title": "Luke 3:10"
+  },
+  "10": {
+    "homily_number": 10,
+    "homily_roman": "X",
+    "start_chapter": 3,
+    "start_verse": 15,
+    "end_chapter": 3,
+    "end_verse": 17,
+    "title": "Luke 3:15"
+  },
+  "11": {
+    "homily_number": 11,
+    "homily_roman": "XI",
+    "start_chapter": 3,
+    "start_verse": 21,
+    "end_chapter": 3,
+    "end_verse": 23,
+    "title": "Luke 3:21"
+  },
+  "12": {
+    "homily_number": 12,
+    "homily_roman": "XII",
+    "start_chapter": 4,
+    "start_verse": 1,
+    "end_chapter": 4,
+    "end_verse": 13,
+    "title": "Luke 4:1"
+  },
+  "13": {
+    "homily_number": 13,
+    "homily_roman": "XIII",
+    "start_chapter": 4,
+    "start_verse": 14,
+    "end_chapter": 4,
+    "end_verse": 21,
+    "title": "Luke 4:14"
+  },
+  "14": {
+    "homily_number": 14,
+    "homily_roman": "XIV",
+    "start_chapter": 4,
+    "start_verse": 22,
+    "end_chapter": 4,
+    "end_verse": 37,
+    "title": "Luke 4:22"
+  },
+  "15": {
+    "homily_number": 15,
+    "homily_roman": "XV",
+    "start_chapter": 4,
+    "start_verse": 38,
+    "end_chapter": 4,
+    "end_verse": 41,
+    "title": "Luke 4:38"
+  },
+  "16": {
+    "homily_number": 16,
+    "homily_roman": "XVI",
+    "start_chapter": 4,
+    "start_verse": 40,
+    "end_chapter": 4,
+    "end_verse": 44,
+    "title": "Luke 4:40"
+  },
+  "17": {
+    "homily_number": 17,
+    "homily_roman": "XVII",
+    "start_chapter": 5,
+    "start_verse": 1,
+    "end_chapter": 5,
+    "end_verse": 11,
+    "title": "Luke 5:1"
+  },
+  "18": {
+    "homily_number": 18,
+    "homily_roman": "XVIII",
+    "start_chapter": 5,
+    "start_verse": 12,
+    "end_chapter": 5,
+    "end_verse": 15,
+    "title": "Luke 5:12"
+  },
+  "19": {
+    "homily_number": 19,
+    "homily_roman": "XIX",
+    "start_chapter": 5,
+    "start_verse": 12,
+    "end_chapter": 5,
+    "end_verse": 16,
+    "title": "Luke 5:12"
+  },
+  "20": {
+    "homily_number": 20,
+    "homily_roman": "XX",
+    "start_chapter": 5,
+    "start_verse": 17,
+    "end_chapter": 5,
+    "end_verse": 32,
+    "title": "Luke 5:17"
+  },
+  "21": {
+    "homily_number": 21,
+    "homily_roman": "XXI",
+    "start_chapter": 5,
+    "start_verse": 33,
+    "end_chapter": 5,
+    "end_verse": 39,
+    "title": "Luke 5:33"
+  },
+  "22": {
+    "homily_number": 22,
+    "homily_roman": "XXII",
+    "start_chapter": 6,
+    "start_verse": 1,
+    "end_chapter": 6,
+    "end_verse": 5,
+    "title": "Luke 6:1"
+  },
+  "23": {
+    "homily_number": 23,
+    "homily_roman": "XXIII",
+    "start_chapter": 6,
+    "start_verse": 6,
+    "end_chapter": 6,
+    "end_verse": 11,
+    "title": "Luke 6:6"
+  },
+  "24": {
+    "homily_number": 24,
+    "homily_roman": "XXIV",
+    "start_chapter": 6,
+    "start_verse": 12,
+    "end_chapter": 6,
+    "end_verse": 16,
+    "title": "Luke 6:12"
+  },
+  "25": {
+    "homily_number": 25,
+    "homily_roman": "XXV",
+    "start_chapter": 6,
+    "start_verse": 17,
+    "end_chapter": 6,
+    "end_verse": 19,
+    "title": "Luke 6:17"
+  },
+  "27": {
+    "homily_number": 27,
+    "homily_roman": "XXVII",
+    "start_chapter": 6,
+    "start_verse": 20,
+    "end_chapter": 6,
+    "end_verse": 26,
+    "title": "Luke 6:20"
+  },
+  "28": {
+    "homily_number": 28,
+    "homily_roman": "XXVIII",
+    "start_chapter": 6,
+    "start_verse": 27,
+    "end_chapter": 6,
+    "end_verse": 35,
+    "title": "Luke 6:27"
+  },
+  "29": {
+    "homily_number": 29,
+    "homily_roman": "XXIX",
+    "start_chapter": 6,
+    "start_verse": 31,
+    "end_chapter": 6,
+    "end_verse": 31,
+    "title": "Luke 6:31"
+  },
+  "30": {
+    "homily_number": 30,
+    "homily_roman": "XXX",
+    "start_chapter": 6,
+    "start_verse": 37,
+    "end_chapter": 6,
+    "end_verse": 38,
+    "title": "Luke 6:37"
+  },
+  "31": {
+    "homily_number": 31,
+    "homily_roman": "XXXI",
+    "start_chapter": 6,
+    "start_verse": 39,
+    "end_chapter": 6,
+    "end_verse": 42,
+    "title": "Luke 6:39"
+  },
+  "32": {
+    "homily_number": 32,
+    "homily_roman": "XXXII",
+    "start_chapter": 6,
+    "start_verse": 43,
+    "end_chapter": 6,
+    "end_verse": 45,
+    "title": "Luke 6:43"
+  },
+  "33": {
+    "homily_number": 33,
+    "homily_roman": "XXXIII",
+    "start_chapter": 6,
+    "start_verse": 46,
+    "end_chapter": 6,
+    "end_verse": 49,
+    "title": "Luke 6:46"
+  },
+  "34": {
+    "homily_number": 34,
+    "homily_roman": "XXXIV",
+    "start_chapter": 7,
+    "start_verse": 1,
+    "end_chapter": 7,
+    "end_verse": 10,
+    "title": "Luke 7:1"
+  },
+  "35": {
+    "homily_number": 35,
+    "homily_roman": "XXXV",
+    "start_chapter": 7,
+    "start_verse": 11,
+    "end_chapter": 7,
+    "end_verse": 17,
+    "title": "Luke 7:11"
+  },
+  "36": {
+    "homily_number": 36,
+    "homily_roman": "XXXVI",
+    "start_chapter": 7,
+    "start_verse": 18,
+    "end_chapter": 7,
+    "end_verse": 23,
+    "title": "Luke 7:18"
+  },
+  "37": {
+    "homily_number": 37,
+    "homily_roman": "XXXVII",
+    "start_chapter": 7,
+    "start_verse": 24,
+    "end_chapter": 7,
+    "end_verse": 28,
+    "title": "Luke 7:24"
+  },
+  "38": {
+    "homily_number": 38,
+    "homily_roman": "XXXVIII",
+    "start_chapter": 7,
+    "start_verse": 24,
+    "end_chapter": 7,
+    "end_verse": 28,
+    "title": "Luke 7:24"
+  },
+  "39": {
+    "homily_number": 39,
+    "homily_roman": "XXXIX",
+    "start_chapter": 7,
+    "start_verse": 31,
+    "end_chapter": 7,
+    "end_verse": 35,
+    "title": "Luke 7:31"
+  },
+  "40": {
+    "homily_number": 40,
+    "homily_roman": "XL",
+    "start_chapter": 7,
+    "start_verse": 36,
+    "end_chapter": 7,
+    "end_verse": 50,
+    "title": "Luke 7:36"
+  },
+  "41": {
+    "homily_number": 41,
+    "homily_roman": "XLI",
+    "start_chapter": 8,
+    "start_verse": 1,
+    "end_chapter": 8,
+    "end_verse": 3,
+    "title": "Luke 8:1"
+  },
+  "42": {
+    "homily_number": 42,
+    "homily_roman": "XLII",
+    "start_chapter": 8,
+    "start_verse": 4,
+    "end_chapter": 8,
+    "end_verse": 15,
+    "title": "Luke 8:4"
+  },
+  "43": {
+    "homily_number": 43,
+    "homily_roman": "XLIII",
+    "start_chapter": 8,
+    "start_verse": 16,
+    "end_chapter": 8,
+    "end_verse": 21,
+    "title": "Luke 8:16"
+  },
+  "44": {
+    "homily_number": 44,
+    "homily_roman": "XLIV",
+    "start_chapter": 8,
+    "start_verse": 22,
+    "end_chapter": 8,
+    "end_verse": 25,
+    "title": "Luke 8:22"
+  },
+  "45": {
+    "homily_number": 45,
+    "homily_roman": "XLV",
+    "start_chapter": 8,
+    "start_verse": 26,
+    "end_chapter": 8,
+    "end_verse": 39,
+    "title": "Luke 8:26"
+  },
+  "46": {
+    "homily_number": 46,
+    "homily_roman": "XLVI",
+    "start_chapter": 8,
+    "start_verse": 40,
+    "end_chapter": 8,
+    "end_verse": 56,
+    "title": "Luke 8:40"
+  },
+  "47": {
+    "homily_number": 47,
+    "homily_roman": "XLVII",
+    "start_chapter": 9,
+    "start_verse": 1,
+    "end_chapter": 9,
+    "end_verse": 6,
+    "title": "Luke 9:1"
+  },
+  "48": {
+    "homily_number": 48,
+    "homily_roman": "XLVIII",
+    "start_chapter": 9,
+    "start_verse": 10,
+    "end_chapter": 9,
+    "end_verse": 17,
+    "title": "Luke 9:10"
+  },
+  "49": {
+    "homily_number": 49,
+    "homily_roman": "XLIX",
+    "start_chapter": 9,
+    "start_verse": 18,
+    "end_chapter": 9,
+    "end_verse": 22,
+    "title": "Luke 9:18"
+  },
+  "50": {
+    "homily_number": 50,
+    "homily_roman": "L",
+    "start_chapter": 9,
+    "start_verse": 23,
+    "end_chapter": 9,
+    "end_verse": 27,
+    "title": "Luke 9:23"
+  },
+  "51": {
+    "homily_number": 51,
+    "homily_roman": "LI",
+    "start_chapter": 9,
+    "start_verse": 28,
+    "end_chapter": 9,
+    "end_verse": 36,
+    "title": "Luke 9:28"
+  },
+  "52": {
+    "homily_number": 52,
+    "homily_roman": "LII",
+    "start_chapter": 9,
+    "start_verse": 37,
+    "end_chapter": 9,
+    "end_verse": 42,
+    "title": "Luke 9:37"
+  },
+  "53": {
+    "homily_number": 53,
+    "homily_roman": "LIII",
+    "start_chapter": 9,
+    "start_verse": 43,
+    "end_chapter": 9,
+    "end_verse": 45,
+    "title": "Luke 9:43"
+  },
+  "54": {
+    "homily_number": 54,
+    "homily_roman": "LIV",
+    "start_chapter": 9,
+    "start_verse": 46,
+    "end_chapter": 9,
+    "end_verse": 48,
+    "title": "Luke 9:46"
+  },
+  "55": {
+    "homily_number": 55,
+    "homily_roman": "LV",
+    "start_chapter": 9,
+    "start_verse": 51,
+    "end_chapter": 9,
+    "end_verse": 56,
+    "title": "Luke 9:51"
+  },
+  "56": {
+    "homily_number": 56,
+    "homily_roman": "LVI",
+    "start_chapter": 9,
+    "start_verse": 51,
+    "end_chapter": 9,
+    "end_verse": 56,
+    "title": "Luke 9:51"
+  },
+  "57": {
+    "homily_number": 57,
+    "homily_roman": "LVII",
+    "start_chapter": 9,
+    "start_verse": 57,
+    "end_chapter": 9,
+    "end_verse": 62,
+    "title": "Luke 9:57"
+  },
+  "58": {
+    "homily_number": 58,
+    "homily_roman": "LVIII",
+    "start_chapter": 10,
+    "start_verse": 1,
+    "end_chapter": 10,
+    "end_verse": 7,
+    "title": "Luke 10:1"
+  },
+  "59": {
+    "homily_number": 59,
+    "homily_roman": "LIX",
+    "start_chapter": 10,
+    "start_verse": 8,
+    "end_chapter": 10,
+    "end_verse": 12,
+    "title": "Luke 10:8"
+  },
+  "60": {
+    "homily_number": 60,
+    "homily_roman": "LX",
+    "start_chapter": 10,
+    "start_verse": 13,
+    "end_chapter": 10,
+    "end_verse": 15,
+    "title": "Luke 10:13"
+  },
+  "61": {
+    "homily_number": 61,
+    "homily_roman": "LXI",
+    "start_chapter": 10,
+    "start_verse": 16,
+    "end_chapter": 10,
+    "end_verse": 16,
+    "title": "Luke 10:16"
+  },
+  "62": {
+    "homily_number": 62,
+    "homily_roman": "LXII",
+    "start_chapter": 10,
+    "start_verse": 17,
+    "end_chapter": 10,
+    "end_verse": 20,
+    "title": "Luke 10:17"
+  },
+  "63": {
+    "homily_number": 63,
+    "homily_roman": "LXIII",
+    "start_chapter": 10,
+    "start_verse": 21,
+    "end_chapter": 10,
+    "end_verse": 22,
+    "title": "Luke 10:21"
+  },
+  "64": {
+    "homily_number": 64,
+    "homily_roman": "LXIV",
+    "start_chapter": 10,
+    "start_verse": 21,
+    "end_chapter": 10,
+    "end_verse": 22,
+    "title": "Luke 10:21"
+  },
+  "65": {
+    "homily_number": 65,
+    "homily_roman": "LXV",
+    "start_chapter": 10,
+    "start_verse": 21,
+    "end_chapter": 10,
+    "end_verse": 22,
+    "title": "Luke 10:21"
+  },
+  "66": {
+    "homily_number": 66,
+    "homily_roman": "LXVI",
+    "start_chapter": 10,
+    "start_verse": 23,
+    "end_chapter": 10,
+    "end_verse": 24,
+    "title": "Luke 10:23"
+  },
+  "67": {
+    "homily_number": 67,
+    "homily_roman": "LXVII",
+    "start_chapter": 10,
+    "start_verse": 25,
+    "end_chapter": 10,
+    "end_verse": 37,
+    "title": "Luke 10:25"
+  },
+  "68": {
+    "homily_number": 68,
+    "homily_roman": "LXVIII",
+    "start_chapter": 10,
+    "start_verse": 38,
+    "end_chapter": 10,
+    "end_verse": 42,
+    "title": "Luke 10:38"
+  },
+  "69": {
+    "homily_number": 69,
+    "homily_roman": "LXIX",
+    "start_chapter": 11,
+    "start_verse": 1,
+    "end_chapter": 11,
+    "end_verse": 4,
+    "title": "Luke 11:1"
+  },
+  "70": {
+    "homily_number": 70,
+    "homily_roman": "LXX",
+    "start_chapter": 11,
+    "start_verse": 5,
+    "end_chapter": 11,
+    "end_verse": 10,
+    "title": "Luke 11:5"
+  },
+  "71": {
+    "homily_number": 71,
+    "homily_roman": "LXXI",
+    "start_chapter": 11,
+    "start_verse": 11,
+    "end_chapter": 11,
+    "end_verse": 13,
+    "title": "Luke 11:11"
+  },
+  "72": {
+    "homily_number": 72,
+    "homily_roman": "LXXII",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "73": {
+    "homily_number": 73,
+    "homily_roman": "LXXIII",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "74": {
+    "homily_number": 74,
+    "homily_roman": "LXXIV",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "75": {
+    "homily_number": 75,
+    "homily_roman": "LXXV",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "76": {
+    "homily_number": 76,
+    "homily_roman": "LXXVI",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "77": {
+    "homily_number": 77,
+    "homily_roman": "LXXVII",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "78": {
+    "homily_number": 78,
+    "homily_roman": "LXXVIII",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "79": {
+    "homily_number": 79,
+    "homily_roman": "LXXIX",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "80": {
+    "homily_number": 80,
+    "homily_roman": "LXXX",
+    "start_chapter": 11,
+    "start_verse": 14,
+    "end_chapter": 11,
+    "end_verse": 18,
+    "title": "Luke 11:14"
+  },
+  "81": {
+    "homily_number": 81,
+    "homily_roman": "LXXXI",
+    "start_chapter": 11,
+    "start_verse": 19,
+    "end_chapter": 11,
+    "end_verse": 28,
+    "title": "Luke 11:19"
+  },
+  "82": {
+    "homily_number": 82,
+    "homily_roman": "LXXXII",
+    "start_chapter": 11,
+    "start_verse": 29,
+    "end_chapter": 11,
+    "end_verse": 32,
+    "title": "Luke 11:29"
+  },
+  "83": {
+    "homily_number": 83,
+    "homily_roman": "LXXXIII",
+    "start_chapter": 11,
+    "start_verse": 33,
+    "end_chapter": 11,
+    "end_verse": 36,
+    "title": "Luke 11:33"
+  },
+  "84": {
+    "homily_number": 84,
+    "homily_roman": "LXXXIV",
+    "start_chapter": 11,
+    "start_verse": 37,
+    "end_chapter": 11,
+    "end_verse": 44,
+    "title": "Luke 11:37"
+  },
+  "85": {
+    "homily_number": 85,
+    "homily_roman": "LXXXV",
+    "start_chapter": 11,
+    "start_verse": 45,
+    "end_chapter": 11,
+    "end_verse": 54,
+    "title": "Luke 11:45"
+  },
+  "86": {
+    "homily_number": 86,
+    "homily_roman": "LXXXVI",
+    "start_chapter": 12,
+    "start_verse": 1,
+    "end_chapter": 12,
+    "end_verse": 3,
+    "title": "Luke 12:1"
+  },
+  "87": {
+    "homily_number": 87,
+    "homily_roman": "LXXXVII",
+    "start_chapter": 12,
+    "start_verse": 4,
+    "end_chapter": 12,
+    "end_verse": 7,
+    "title": "Luke 12:4"
+  },
+  "88": {
+    "homily_number": 88,
+    "homily_roman": "LXXXVIII",
+    "start_chapter": 12,
+    "start_verse": 8,
+    "end_chapter": 12,
+    "end_verse": 10,
+    "title": "Luke 12:8"
+  },
+  "89": {
+    "homily_number": 89,
+    "homily_roman": "LXXXIX",
+    "start_chapter": 12,
+    "start_verse": 13,
+    "end_chapter": 12,
+    "end_verse": 21,
+    "title": "Luke 12:13"
+  },
+  "90": {
+    "homily_number": 90,
+    "homily_roman": "XC",
+    "start_chapter": 12,
+    "start_verse": 22,
+    "end_chapter": 12,
+    "end_verse": 31,
+    "title": "Luke 12:22"
+  },
+  "91": {
+    "homily_number": 91,
+    "homily_roman": "XCI",
+    "start_chapter": 12,
+    "start_verse": 32,
+    "end_chapter": 12,
+    "end_verse": 40,
+    "title": "Luke 12:32"
+  },
+  "92": {
+    "homily_number": 92,
+    "homily_roman": "XCII",
+    "start_chapter": 12,
+    "start_verse": 41,
+    "end_chapter": 12,
+    "end_verse": 48,
+    "title": "Luke 12:41"
+  },
+  "93": {
+    "homily_number": 93,
+    "homily_roman": "XCIII",
+    "start_chapter": 12,
+    "start_verse": 49,
+    "end_chapter": 12,
+    "end_verse": 53,
+    "title": "Luke 12:49"
+  },
+  "94": {
+    "homily_number": 94,
+    "homily_roman": "XCIV",
+    "start_chapter": 12,
+    "start_verse": 54,
+    "end_chapter": 12,
+    "end_verse": 59,
+    "title": "Luke 12:54"
+  },
+  "95": {
+    "homily_number": 95,
+    "homily_roman": "XCV",
+    "start_chapter": 13,
+    "start_verse": 1,
+    "end_chapter": 13,
+    "end_verse": 5,
+    "title": "Luke 13:1"
+  },
+  "96": {
+    "homily_number": 96,
+    "homily_roman": "XCVI",
+    "start_chapter": 13,
+    "start_verse": 6,
+    "end_chapter": 13,
+    "end_verse": 9,
+    "title": "Luke 13:6"
+  },
+  "97": {
+    "homily_number": 97,
+    "homily_roman": "XCVII",
+    "start_chapter": 13,
+    "start_verse": 6,
+    "end_chapter": 13,
+    "end_verse": 9,
+    "title": "Luke 13:6"
+  },
+  "98": {
+    "homily_number": 98,
+    "homily_roman": "XCVIII",
+    "start_chapter": 13,
+    "start_verse": 6,
+    "end_chapter": 13,
+    "end_verse": 9,
+    "title": "Luke 13:6"
+  },
+  "99": {
+    "homily_number": 99,
+    "homily_roman": "XCIX",
+    "start_chapter": 13,
+    "start_verse": 22,
+    "end_chapter": 13,
+    "end_verse": 30,
+    "title": "Luke 13:22"
+  },
+  "100": {
+    "homily_number": 100,
+    "homily_roman": "C",
+    "start_chapter": 13,
+    "start_verse": 31,
+    "end_chapter": 13,
+    "end_verse": 35,
+    "title": "Luke 13:31"
+  },
+  "101": {
+    "homily_number": 101,
+    "homily_roman": "CI",
+    "start_chapter": 14,
+    "start_verse": 1,
+    "end_chapter": 14,
+    "end_verse": 6,
+    "title": "Luke 14:1"
+  },
+  "102": {
+    "homily_number": 102,
+    "homily_roman": "CII",
+    "start_chapter": 14,
+    "start_verse": 7,
+    "end_chapter": 14,
+    "end_verse": 14,
+    "title": "Luke 14:7"
+  },
+  "103": {
+    "homily_number": 103,
+    "homily_roman": "CIII",
+    "start_chapter": 14,
+    "start_verse": 15,
+    "end_chapter": 14,
+    "end_verse": 24,
+    "title": "Luke 14:15"
+  },
+  "104": {
+    "homily_number": 104,
+    "homily_roman": "CIV",
+    "start_chapter": 14,
+    "start_verse": 25,
+    "end_chapter": 14,
+    "end_verse": 35,
+    "title": "Luke 14:25"
+  },
+  "105": {
+    "homily_number": 105,
+    "homily_roman": "CV",
+    "start_chapter": 15,
+    "start_verse": 1,
+    "end_chapter": 15,
+    "end_verse": 10,
+    "title": "Luke 15:1"
+  },
+  "106": {
+    "homily_number": 106,
+    "homily_roman": "CVI",
+    "start_chapter": 15,
+    "start_verse": 11,
+    "end_chapter": 15,
+    "end_verse": 32,
+    "title": "Luke 15:11"
+  },
+  "107": {
+    "homily_number": 107,
+    "homily_roman": "CVII",
+    "start_chapter": 16,
+    "start_verse": 1,
+    "end_chapter": 16,
+    "end_verse": 13,
+    "title": "Luke 16:1"
+  },
+  "108": {
+    "homily_number": 108,
+    "homily_roman": "CVIII",
+    "start_chapter": 16,
+    "start_verse": 1,
+    "end_chapter": 16,
+    "end_verse": 13,
+    "title": "Luke 16:1"
+  },
+  "109": {
+    "homily_number": 109,
+    "homily_roman": "CIX",
+    "start_chapter": 16,
+    "start_verse": 1,
+    "end_chapter": 16,
+    "end_verse": 13,
+    "title": "Luke 16:1"
+  },
+  "110": {
+    "homily_number": 110,
+    "homily_roman": "CX",
+    "start_chapter": 16,
+    "start_verse": 14,
+    "end_chapter": 16,
+    "end_verse": 18,
+    "title": "Luke 16:14"
+  },
+  "111": {
+    "homily_number": 111,
+    "homily_roman": "CXI",
+    "start_chapter": 16,
+    "start_verse": 19,
+    "end_chapter": 16,
+    "end_verse": 31,
+    "title": "Luke 16:19"
+  },
+  "112": {
+    "homily_number": 112,
+    "homily_roman": "CXII",
+    "start_chapter": 17,
+    "start_verse": 1,
+    "end_chapter": 17,
+    "end_verse": 4,
+    "title": "Luke 17:1"
+  },
+  "113": {
+    "homily_number": 113,
+    "homily_roman": "CXIII",
+    "start_chapter": 17,
+    "start_verse": 5,
+    "end_chapter": 17,
+    "end_verse": 10,
+    "title": "Luke 17:5"
+  },
+  "114": {
+    "homily_number": 114,
+    "homily_roman": "CXIV",
+    "start_chapter": 17,
+    "start_verse": 11,
+    "end_chapter": 17,
+    "end_verse": 19,
+    "title": "Luke 17:11"
+  },
+  "115": {
+    "homily_number": 115,
+    "homily_roman": "CXV",
+    "start_chapter": 17,
+    "start_verse": 20,
+    "end_chapter": 17,
+    "end_verse": 21,
+    "title": "Luke 17:20"
+  },
+  "116": {
+    "homily_number": 116,
+    "homily_roman": "CXVI",
+    "start_chapter": 17,
+    "start_verse": 22,
+    "end_chapter": 17,
+    "end_verse": 37,
+    "title": "Luke 17:22"
+  },
+  "117": {
+    "homily_number": 117,
+    "homily_roman": "CXVII",
+    "start_chapter": 18,
+    "start_verse": 1,
+    "end_chapter": 18,
+    "end_verse": 8,
+    "title": "Luke 18:1"
+  },
+  "118": {
+    "homily_number": 118,
+    "homily_roman": "CXVIII",
+    "start_chapter": 18,
+    "start_verse": 9,
+    "end_chapter": 18,
+    "end_verse": 14,
+    "title": "Luke 18:9"
+  },
+  "119": {
+    "homily_number": 119,
+    "homily_roman": "CXIX",
+    "start_chapter": 18,
+    "start_verse": 15,
+    "end_chapter": 18,
+    "end_verse": 17,
+    "title": "Luke 18:15"
+  },
+  "120": {
+    "homily_number": 120,
+    "homily_roman": "CXX",
+    "start_chapter": 18,
+    "start_verse": 18,
+    "end_chapter": 18,
+    "end_verse": 27,
+    "title": "Luke 18:18"
+  },
+  "121": {
+    "homily_number": 121,
+    "homily_roman": "CXXI",
+    "start_chapter": 18,
+    "start_verse": 18,
+    "end_chapter": 18,
+    "end_verse": 27,
+    "title": "Luke 18:18"
+  },
+  "122": {
+    "homily_number": 122,
+    "homily_roman": "CXXII",
+    "start_chapter": 18,
+    "start_verse": 18,
+    "end_chapter": 18,
+    "end_verse": 27,
+    "title": "Luke 18:18"
+  },
+  "123": {
+    "homily_number": 123,
+    "homily_roman": "CXXIII",
+    "start_chapter": 18,
+    "start_verse": 18,
+    "end_chapter": 18,
+    "end_verse": 27,
+    "title": "Luke 18:18"
+  },
+  "124": {
+    "homily_number": 124,
+    "homily_roman": "CXXIV",
+    "start_chapter": 18,
+    "start_verse": 28,
+    "end_chapter": 18,
+    "end_verse": 30,
+    "title": "Luke 18:28"
+  },
+  "125": {
+    "homily_number": 125,
+    "homily_roman": "CXXV",
+    "start_chapter": 18,
+    "start_verse": 31,
+    "end_chapter": 18,
+    "end_verse": 34,
+    "title": "Luke 18:31"
+  },
+  "126": {
+    "homily_number": 126,
+    "homily_roman": "CXXVI",
+    "start_chapter": 18,
+    "start_verse": 35,
+    "end_chapter": 18,
+    "end_verse": 43,
+    "title": "Luke 18:35"
+  },
+  "127": {
+    "homily_number": 127,
+    "homily_roman": "CXXVII",
+    "start_chapter": 19,
+    "start_verse": 1,
+    "end_chapter": 19,
+    "end_verse": 10,
+    "title": "Luke 19:1"
+  },
+  "128": {
+    "homily_number": 128,
+    "homily_roman": "CXXVIII",
+    "start_chapter": 19,
+    "start_verse": 11,
+    "end_chapter": 19,
+    "end_verse": 28,
+    "title": "Luke 19:11"
+  },
+  "129": {
+    "homily_number": 129,
+    "homily_roman": "CXXIX",
+    "start_chapter": 19,
+    "start_verse": 29,
+    "end_chapter": 19,
+    "end_verse": 40,
+    "title": "Luke 19:29"
+  },
+  "130": {
+    "homily_number": 130,
+    "homily_roman": "CXXX",
+    "start_chapter": 19,
+    "start_verse": 41,
+    "end_chapter": 19,
+    "end_verse": 48,
+    "title": "Luke 19:41"
+  },
+  "131": {
+    "homily_number": 131,
+    "homily_roman": "CXXXI",
+    "start_chapter": 20,
+    "start_verse": 1,
+    "end_chapter": 20,
+    "end_verse": 8,
+    "title": "Luke 20:1"
+  },
+  "132": {
+    "homily_number": 132,
+    "homily_roman": "CXXXII",
+    "start_chapter": 20,
+    "start_verse": 9,
+    "end_chapter": 20,
+    "end_verse": 18,
+    "title": "Luke 20:9"
+  },
+  "133": {
+    "homily_number": 133,
+    "homily_roman": "CXXXIII",
+    "start_chapter": 20,
+    "start_verse": 9,
+    "end_chapter": 20,
+    "end_verse": 18,
+    "title": "Luke 20:9"
+  },
+  "134": {
+    "homily_number": 134,
+    "homily_roman": "CXXXIV",
+    "start_chapter": 20,
+    "start_verse": 9,
+    "end_chapter": 20,
+    "end_verse": 18,
+    "title": "Luke 20:9"
+  },
+  "135": {
+    "homily_number": 135,
+    "homily_roman": "CXXXV",
+    "start_chapter": 20,
+    "start_verse": 19,
+    "end_chapter": 20,
+    "end_verse": 26,
+    "title": "Luke 20:19"
+  },
+  "136": {
+    "homily_number": 136,
+    "homily_roman": "CXXXVI",
+    "start_chapter": 20,
+    "start_verse": 27,
+    "end_chapter": 20,
+    "end_verse": 40,
+    "title": "Luke 20:27"
+  },
+  "137": {
+    "homily_number": 137,
+    "homily_roman": "CXXXVII",
+    "start_chapter": 20,
+    "start_verse": 41,
+    "end_chapter": 20,
+    "end_verse": 44,
+    "title": "Luke 20:41"
+  },
+  "138": {
+    "homily_number": 138,
+    "homily_roman": "CXXXVIII",
+    "start_chapter": 20,
+    "start_verse": 45,
+    "end_chapter": 21,
+    "end_verse": 4,
+    "title": "Luke 20:45"
+  },
+  "139": {
+    "homily_number": 139,
+    "homily_roman": "CXXXIX",
+    "start_chapter": 21,
+    "start_verse": 5,
+    "end_chapter": 21,
+    "end_verse": 19,
+    "title": "Luke 21:5"
+  },
+  "140": {
+    "homily_number": 140,
+    "homily_roman": "CXL",
+    "start_chapter": 21,
+    "start_verse": 20,
+    "end_chapter": 21,
+    "end_verse": 24,
+    "title": "Luke 21:20"
+  },
+  "141": {
+    "homily_number": 141,
+    "homily_roman": "CXLI",
+    "start_chapter": 21,
+    "start_verse": 25,
+    "end_chapter": 21,
+    "end_verse": 28,
+    "title": "Luke 21:25"
+  },
+  "142": {
+    "homily_number": 142,
+    "homily_roman": "CXLII",
+    "start_chapter": 21,
+    "start_verse": 29,
+    "end_chapter": 21,
+    "end_verse": 38,
+    "title": "Luke 21:29"
+  },
+  "143": {
+    "homily_number": 143,
+    "homily_roman": "CXLIII",
+    "start_chapter": 22,
+    "start_verse": 1,
+    "end_chapter": 22,
+    "end_verse": 6,
+    "title": "Luke 22:1"
+  },
+  "144": {
+    "homily_number": 144,
+    "homily_roman": "CXLIV",
+    "start_chapter": 22,
+    "start_verse": 7,
+    "end_chapter": 22,
+    "end_verse": 23,
+    "title": "Luke 22:7"
+  },
+  "145": {
+    "homily_number": 145,
+    "homily_roman": "CXLV",
+    "start_chapter": 22,
+    "start_verse": 24,
+    "end_chapter": 22,
+    "end_verse": 38,
+    "title": "Luke 22:24"
+  },
+  "146": {
+    "homily_number": 146,
+    "homily_roman": "CXLVI",
+    "start_chapter": 22,
+    "start_verse": 39,
+    "end_chapter": 22,
+    "end_verse": 46,
+    "title": "Luke 22:39"
+  },
+  "147": {
+    "homily_number": 147,
+    "homily_roman": "CXLVII",
+    "start_chapter": 22,
+    "start_verse": 47,
+    "end_chapter": 22,
+    "end_verse": 53,
+    "title": "Luke 22:47"
+  },
+  "148": {
+    "homily_number": 148,
+    "homily_roman": "CXLVIII",
+    "start_chapter": 22,
+    "start_verse": 54,
+    "end_chapter": 22,
+    "end_verse": 62,
+    "title": "Luke 22:54"
+  },
+  "149": {
+    "homily_number": 149,
+    "homily_roman": "CXLIX",
+    "start_chapter": 22,
+    "start_verse": 63,
+    "end_chapter": 23,
+    "end_verse": 12,
+    "title": "Luke 22:63"
+  },
+  "150": {
+    "homily_number": 150,
+    "homily_roman": "CL",
+    "start_chapter": 23,
+    "start_verse": 13,
+    "end_chapter": 23,
+    "end_verse": 25,
+    "title": "Luke 23:13"
+  },
+  "151": {
+    "homily_number": 151,
+    "homily_roman": "CLI",
+    "start_chapter": 23,
+    "start_verse": 26,
+    "end_chapter": 23,
+    "end_verse": 31,
+    "title": "Luke 23:26"
+  },
+  "152": {
+    "homily_number": 152,
+    "homily_roman": "CLII",
+    "start_chapter": 23,
+    "start_verse": 32,
+    "end_chapter": 23,
+    "end_verse": 43,
+    "title": "Luke 23:32"
+  },
+  "153": {
+    "homily_number": 153,
+    "homily_roman": "CLIII",
+    "start_chapter": 23,
+    "start_verse": 44,
+    "end_chapter": 23,
+    "end_verse": 56,
+    "title": "Luke 23:44"
+  },
+  "154": {
+    "homily_number": 154,
+    "homily_roman": "CLIV",
+    "start_chapter": 24,
+    "start_verse": 1,
+    "end_chapter": 24,
+    "end_verse": 12,
+    "title": "Luke 24:1"
+  },
+  "155": {
+    "homily_number": 155,
+    "homily_roman": "CLV",
+    "start_chapter": 24,
+    "start_verse": 13,
+    "end_chapter": 24,
+    "end_verse": 35,
+    "title": "Luke 24:13"
+  },
+  "156": {
+    "homily_number": 156,
+    "homily_roman": "CLVI",
+    "start_chapter": 24,
+    "start_verse": 36,
+    "end_chapter": 24,
+    "end_verse": 45,
+    "title": "Luke 24:36"
+  }
+}

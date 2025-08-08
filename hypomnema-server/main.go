@@ -4,6 +4,7 @@ import (
 	"embed"
 	"encoding/json"
 	"fmt"
+	"html"
 	"html/template"
 	"io"
 	"log"
@@ -20,9 +21,19 @@ var templateFS embed.FS
 
 // Book represents a Bible book
 type Book struct {
-	ID       string `json:"id"`
-	Name     string `json:"name"`
-	Chapters int    `json:"chapters"`
+	ID           string `json:"id"`
+	Name         string `json:"name"`
+	Chapters     int    `json:"chapters"`
+	ChapterRange []int  `json:"-"` // For template use
+}
+
+// GetChapterRange returns a slice of chapter numbers for iteration
+func (b Book) GetChapterRange() []int {
+	chapters := make([]int, b.Chapters)
+	for i := 0; i < b.Chapters; i++ {
+		chapters[i] = i + 1
+	}
+	return chapters
 }
 
 // ParagraphBreak represents where a new paragraph starts
@@ -58,14 +69,39 @@ type HomilyRange struct {
 	EndVerse     int    `json:"end_verse"`
 }
 
+// HomilyFootnote represents a single footnote in a homily
+type HomilyFootnote struct {
+	Homily         int    `json:"homily"`
+	OriginalNumber string `json:"original_number"`
+	Content        string `json:"content"`
+	ID             string `json:"id"`
+	DisplayNumber  int    `json:"display_number"`
+}
+
+// AllFootnotes holds all footnotes for all homilies
+type AllFootnotes map[string][]HomilyFootnote
+
+// Footnote represents a footnote for display
+type Footnote struct {
+	Number  string
+	Content string
+}
+
+// Commentary represents a set of homilies/sermons for a book
+type Commentary struct {
+	Author        string
+	Book          string
+	VerseToHomily VerseToHomily
+	Coverage      map[int]HomilyRange
+}
+
 // Global data
 var (
 	verseToCanon VerseToCanon
 	canonLookup CanonLookup
-	matthewVerseToHomily VerseToHomily
-	matthewHomilyCoverage map[int]HomilyRange
-	johnVerseToHomily VerseToHomily
-	johnHomilyCoverage map[int]HomilyRange
+	commentaries map[string]*Commentary
+	chrysostomMatthewFootnotes AllFootnotes
+	chrysostomJohnFootnotes    AllFootnotes
 	books = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
@@ -101,6 +137,10 @@ var (
 )
 
 func init() {
+	// Initialize commentaries map
+	commentaries = make(map[string]*Commentary)
+	// Force rebuild - footnote tooltip positioning fix
+	
 	// Load paragraph data
 	loadParagraphData()
 	
@@ -110,15 +150,23 @@ func init() {
 	// Load canon lookup data
 	loadCanonLookup()
 	
-	// Load verse-to-homily mapping
-	loadMatthewHomilies()
-	loadMatthewHomilyCoverage()
-	loadJohnHomilies()
-	loadJohnHomilyCoverage()
+	// Load all commentaries
+	loadCommentary("chrysostom", "matthew", 
+		"../texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json",
+		"../texts/commentaries/chrysostom/matthew/homily_coverage.json")
+	loadCommentary("chrysostom", "john",
+		"../texts/commentaries/chrysostom/john/john_verse_to_homilies.json",
+		"../texts/commentaries/chrysostom/john/homily_coverage.json")
+	loadCommentary("cyril", "luke",
+		"../texts/commentaries/cyril/luke/luke_verse_to_homilies.json",
+		"../texts/commentaries/cyril/luke/homily_coverage.json")
 
-	// Parse templates
+	// Load footnotes
+	loadAllFootnotes()
+
+	// Parse templates from filesystem (not embedded) for development
 	var err error
-	templates, err = template.ParseFS(templateFS, "templates/*.html")
+	templates, err = template.ParseGlob("templates/*.html")
 	if err != nil {
 		log.Fatal("Error parsing templates:", err)
 	}
@@ -172,90 +220,90 @@ func loadCanonLookup() {
 	}
 }
 
-func loadMatthewHomilies() {
-	file, err := os.Open("../texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json")
-	if err != nil {
-		log.Println("Warning: Could not load verse-to-homily data:", err)
-		matthewVerseToHomily = make(VerseToHomily)
-		return
-	}
-	defer file.Close()
-
-	err = json.NewDecoder(file).Decode(&matthewVerseToHomily)
-	if err != nil {
-		log.Println("Warning: Could not parse verse-to-homily data:", err)
-		matthewVerseToHomily = make(VerseToHomily)
-		return
-	}
-}
-
-func loadJohnHomilies() {
-	file, err := os.Open("../texts/commentaries/chrysostom/john/john_verse_to_homilies.json")
-	if err != nil {
-		log.Println("Warning: Could not load John verse-to-homily data:", err)
-		johnVerseToHomily = make(VerseToHomily)
-		return
-	}
-	defer file.Close()
-
-	err = json.NewDecoder(file).Decode(&johnVerseToHomily)
-	if err != nil {
-		log.Println("Warning: Could not parse John verse-to-homily data:", err)
-		johnVerseToHomily = make(VerseToHomily)
-		return
-	}
-}
-
-func loadMatthewHomilyCoverage() {
-	file, err := os.Open("../texts/commentaries/chrysostom/matthew/homily_coverage.json")
-	if err != nil {
-		log.Println("Warning: Could not load Matthew homily coverage data:", err)
-		matthewHomilyCoverage = make(map[int]HomilyRange)
-		return
-	}
-	defer file.Close()
-
-	var tempCoverage map[string]HomilyRange
-	err = json.NewDecoder(file).Decode(&tempCoverage)
-	if err != nil {
-		log.Println("Warning: Could not parse Matthew homily coverage data:", err)
-		matthewHomilyCoverage = make(map[int]HomilyRange)
-		return
+// loadCommentary loads both verse-to-homily mapping and coverage data for a commentary
+func loadCommentary(author, book, homiliesPath, coveragePath string) {
+	key := fmt.Sprintf("%s-%s", author, book)
+	commentary := &Commentary{
+		Author: author,
+		Book:   book,
 	}
 	
-	// Convert string keys to int
-	matthewHomilyCoverage = make(map[int]HomilyRange)
-	for k, v := range tempCoverage {
-		if num, err := strconv.Atoi(k); err == nil {
-			matthewHomilyCoverage[num] = v
+	// Load verse-to-homily mapping
+	file, err := os.Open(homiliesPath)
+	if err != nil {
+		log.Printf("Warning: Could not load %s %s verse-to-homily data: %v", author, book, err)
+		commentary.VerseToHomily = make(VerseToHomily)
+	} else {
+		defer file.Close()
+		err = json.NewDecoder(file).Decode(&commentary.VerseToHomily)
+		if err != nil {
+			log.Printf("Warning: Could not parse %s %s verse-to-homily data: %v", author, book, err)
+			commentary.VerseToHomily = make(VerseToHomily)
 		}
 	}
 	
-	log.Printf("Loaded Matthew homily coverage for %d homilies", len(matthewHomilyCoverage))
-}
-
-func loadJohnHomilyCoverage() {
-	file, err := os.Open("../texts/commentaries/chrysostom/john/homily_coverage.json")
+	// Load coverage data
+	file2, err := os.Open(coveragePath)
 	if err != nil {
-		log.Println("Warning: Could not load John homily coverage data:", err)
-		johnHomilyCoverage = make(map[int]HomilyRange)
-		return
-	}
-	defer file.Close()
-
-	var tempCoverage map[string]HomilyRange
-	err = json.NewDecoder(file).Decode(&tempCoverage)
-	if err != nil {
-		log.Println("Warning: Could not parse John homily coverage data:", err)
-		johnHomilyCoverage = make(map[int]HomilyRange)
-		return
+		log.Printf("Warning: Could not load %s %s homily coverage data: %v", author, book, err)
+		commentary.Coverage = make(map[int]HomilyRange)
+	} else {
+		defer file2.Close()
+		var tempCoverage map[string]HomilyRange
+		err = json.NewDecoder(file2).Decode(&tempCoverage)
+		if err != nil {
+			log.Printf("Warning: Could not parse %s %s homily coverage data: %v", author, book, err)
+			commentary.Coverage = make(map[int]HomilyRange)
+		} else {
+			// Convert string keys to int
+			commentary.Coverage = make(map[int]HomilyRange)
+			for k, v := range tempCoverage {
+				if num, err := strconv.Atoi(k); err == nil {
+					commentary.Coverage[num] = v
+				}
+			}
+			log.Printf("Loaded %s %s coverage for %d homilies/sermons", author, book, len(commentary.Coverage))
+		}
 	}
 	
-	// Convert string keys to int
-	johnHomilyCoverage = make(map[int]HomilyRange)
-	for k, v := range tempCoverage {
-		if num, err := strconv.Atoi(k); err == nil {
-			johnHomilyCoverage[num] = v
+	commentaries[key] = commentary
+}
+
+// loadAllFootnotes loads the pre-extracted footnotes for all homilies
+func loadAllFootnotes() {
+	// Load Chrysostom Matthew footnotes
+	matthewFile, err := os.Open("../texts/commentaries/chrysostom/matthew/all_footnotes.json")
+	if err != nil {
+		log.Printf("Could not load Chrysostom Matthew footnotes: %v", err)
+	} else {
+		defer matthewFile.Close()
+		decoder := json.NewDecoder(matthewFile)
+		if err := decoder.Decode(&chrysostomMatthewFootnotes); err != nil {
+			log.Printf("Error decoding Chrysostom Matthew footnotes: %v", err)
+		} else {
+			count := 0
+			for _, footnotes := range chrysostomMatthewFootnotes {
+				count += len(footnotes)
+			}
+			log.Printf("Loaded %d Chrysostom Matthew footnotes across %d homilies", count, len(chrysostomMatthewFootnotes))
+		}
+	}
+	
+	// Load Chrysostom John footnotes
+	johnFile, err := os.Open("../texts/commentaries/chrysostom/john/all_footnotes.json")
+	if err != nil {
+		log.Printf("Could not load Chrysostom John footnotes: %v", err)
+	} else {
+		defer johnFile.Close()
+		decoder := json.NewDecoder(johnFile)
+		if err := decoder.Decode(&chrysostomJohnFootnotes); err != nil {
+			log.Printf("Error decoding Chrysostom John footnotes: %v", err)
+		} else {
+			count := 0
+			for _, footnotes := range chrysostomJohnFootnotes {
+				count += len(footnotes)
+			}
+			log.Printf("Loaded %d Chrysostom John footnotes across %d homilies", count, len(chrysostomJohnFootnotes))
 		}
 	}
 }
@@ -317,33 +365,16 @@ func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, er
 	return startChap, startVerse, endChap, endVerse, nil
 }
 
-// findHomiliesForMatthewRange finds which homilies cover a given Matthew passage
-func findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse int) []Homily {
-	var result []Homily
-	
-	for _, hr := range matthewHomilyCoverage {
-		// Check if the homily range overlaps with the requested range
-		if (hr.StartChapter < endChap || (hr.StartChapter == endChap && hr.StartVerse <= endVerse)) &&
-		   (hr.EndChapter > startChap || (hr.EndChapter == startChap && hr.EndVerse >= startVerse)) {
-			// Simple passage format - we'll format it properly when displaying
-			passage := fmt.Sprintf("%d:%d-%d:%d", hr.StartChapter, hr.StartVerse, hr.EndChapter, hr.EndVerse)
-			
-			result = append(result, Homily{
-				Number: hr.Number,
-				Roman:  hr.Roman,
-				Passage: passage,
-			})
-		}
+// findHomiliesForRange finds which homilies cover a given passage for a specific commentary
+func findHomiliesForRange(author, book string, startChap, startVerse, endChap, endVerse int) []Homily {
+	key := fmt.Sprintf("%s-%s", author, book)
+	commentary, ok := commentaries[key]
+	if !ok {
+		return nil
 	}
 	
-	return result
-}
-
-// findHomiliesForJohnRange finds which homilies cover a given John passage
-func findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse int) []Homily {
 	var result []Homily
-	
-	for _, hr := range johnHomilyCoverage {
+	for _, hr := range commentary.Coverage {
 		// Check if the homily range overlaps with the requested range
 		if (hr.StartChapter < endChap || (hr.StartChapter == endChap && hr.StartVerse <= endVerse)) &&
 		   (hr.EndChapter > startChap || (hr.EndChapter == startChap && hr.EndVerse >= startVerse)) {
@@ -378,6 +409,7 @@ func main() {
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
+	http.HandleFunc("/api/search", searchHandler)
 	
 	// Homily page
 	http.HandleFunc("/homily/", homilyHandler)
@@ -387,11 +419,20 @@ func main() {
 		port = "8080"
 	}
 
-	fmt.Printf("Server starting on http://localhost:%s\n", port)
+	fmt.Printf("Server starting on http://localhost:%s (Cyril debug v15)\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
+	// Reload templates in development for hot reload - v5
+	// Use absolute path since Air runs from tmp directory
+	tmpl, err := template.ParseGlob("/Users/gregzancewicz/Documents/Other/Projects/hypomnema/hypomnema-server/templates/*.html")
+	if err != nil {
+		log.Printf("Template loading error from filesystem: %v", err)
+		// Fallback to embedded templates
+		tmpl = templates
+	}
+	
 	// Handle direct book/chapter URLs like /matthew/1
 	path := r.URL.Path
 	currentBook := "matthew"
@@ -427,10 +468,115 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		CurrentChap: currentChap,
 	}
 
-	err := templates.ExecuteTemplate(w, "index.html", data)
+	err = tmpl.ExecuteTemplate(w, "index.html", data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
+}
+
+func searchHandler(w http.ResponseWriter, r *http.Request) {
+	// Get search query
+	query := r.URL.Query().Get("q")
+	if query == "" {
+		w.Write([]byte(""))
+		return
+	}
+	
+	// Convert to lowercase for case-insensitive search
+	searchTerm := strings.ToLower(query)
+	
+	// Search results HTML
+	var results strings.Builder
+	results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+	
+	resultCount := 0
+	maxResults := 20
+	
+	// Search through all books
+	for _, book := range books {
+		if resultCount >= maxResults {
+			break
+		}
+		
+		// Get book directory
+		bookDir := filepath.Join("../texts/scripture/new_testament/english/kjv", book.ID)
+		
+		// Read all chapters for this book
+		for chapter := 1; chapter <= book.Chapters; chapter++ {
+			if resultCount >= maxResults {
+				break
+			}
+			
+			chapterDir := fmt.Sprintf("%02d", chapter)
+			chapterFile := filepath.Join(bookDir, chapterDir, fmt.Sprintf("%s_%02d.txt", book.ID, chapter))
+			
+			// Read chapter file
+			content, err := os.ReadFile(chapterFile)
+			if err != nil {
+				continue
+			}
+			
+			// Search line by line
+			lines := strings.Split(string(content), "\n")
+			for _, line := range lines {
+				if resultCount >= maxResults {
+					break
+				}
+				
+				// Check if line contains search term
+				if strings.Contains(strings.ToLower(line), searchTerm) {
+					// Parse verse reference
+					parts := strings.SplitN(line, " ", 2)
+					if len(parts) == 2 {
+						verseRef := parts[0]
+						verseText := parts[1]
+						
+						// Highlight search term
+						highlightedText := verseText
+						// Simple highlight - wrap matches in <mark> tags
+						re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+						highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+						
+						// Truncate if too long
+						if len(highlightedText) > 200 {
+							highlightedText = highlightedText[:200] + "..."
+						}
+						
+						// Create clickable result
+						results.WriteString(fmt.Sprintf(`
+							<div class="search-result" 
+							     style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+							     onmouseover="this.style.backgroundColor='#f5f5f5'" 
+							     onmouseout="this.style.backgroundColor=''"
+							     hx-get="/api/chapter/%s/%d"
+							     hx-target="#text-content"
+							     hx-swap="innerHTML"
+							     hx-push-url="/%s/%d"
+							     hx-indicator="#loading-indicator">
+								<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+								<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+							</div>
+						`, book.ID, chapter, book.ID, chapter, book.Name, verseRef, highlightedText))
+						
+						resultCount++
+					}
+				}
+			}
+		}
+	}
+	
+	if resultCount == 0 {
+		results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
+		results.WriteString(html.EscapeString(query))
+		results.WriteString(`"</div>`)
+	} else if resultCount >= maxResults {
+		results.WriteString(fmt.Sprintf(`<div style="padding: 10px; color: #666; text-align: center;">Showing first %d results</div>`, maxResults))
+	}
+	
+	results.WriteString(`</div>`)
+	
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(results.String()))
 }
 
 func chapterHandler(w http.ResponseWriter, r *http.Request) {
@@ -479,20 +625,93 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	
 	// Get homily mappings
 	var homilyMap map[string][]Homily
+	var cyrilHomilyMap map[string][]Homily
 	if bookID == "matthew" {
-		homilyMap = matthewVerseToHomily
+		if comm, ok := commentaries["chrysostom-matthew"]; ok {
+			homilyMap = comm.VerseToHomily
+		}
 	} else if bookID == "john" {
-		homilyMap = johnVerseToHomily
+		if comm, ok := commentaries["chrysostom-john"]; ok {
+			homilyMap = comm.VerseToHomily
+		}
+	} else if bookID == "luke" {
+		// For Luke, we'll have both Chrysostom (from cross-references) and Cyril
+		if comm, ok := commentaries["cyril-luke"]; ok {
+			cyrilHomilyMap = comm.VerseToHomily
+		}
 	}
 	
 	// Format the text with paragraphs and canon numbers
-	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap)
+	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap)
 	
-	w.Header().Set("Content-Type", "text/html")
-	w.Write([]byte(html))
+	// Check if this is an HTMX request
+	isHTMX := r.Header.Get("HX-Request") == "true"
+	
+	// If it's an HTMX request, add out-of-band swaps
+	if isHTMX {
+		var response strings.Builder
+		
+		// Main content
+		response.WriteString(html)
+		
+		// Out-of-band update for chapter title
+		response.WriteString(fmt.Sprintf(`<h2 id="chapter-title" hx-swap-oob="true">Chapter %d</h2>`, chapter))
+		
+		// Get book display name
+		bookName := bookID // default to ID
+		for _, book := range books {
+			if book.ID == bookID {
+				bookName = book.Name
+				break
+			}
+		}
+		
+		// Out-of-band update for browser title
+		response.WriteString(fmt.Sprintf(`<title hx-swap-oob="true">%s %d - Hypomnema</title>`, bookName, chapter))
+		
+		// Find max chapters for this book
+		maxChapters := 1
+		for _, book := range books {
+			if book.ID == bookID {
+				maxChapters = book.Chapters
+				break
+			}
+		}
+		
+		// Generate chapter selector out-of-band updates (both top and bottom)
+		var chapterBoxes strings.Builder
+		for i := 1; i <= maxChapters; i++ {
+			activeClass := ""
+			if i == chapter {
+				activeClass = " active"
+			}
+			chapterBoxes.WriteString(fmt.Sprintf(`
+				<div class="chapter-box%s"
+				     onclick="loadChapterAndScroll('%s', %d)"
+				     style="cursor: pointer;">%d</div>`,
+				activeClass, bookID, i, i))
+		}
+		
+		// Top chapter selector
+		response.WriteString(`<div id="chapter-selector" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
+		response.WriteString(chapterBoxes.String())
+		response.WriteString(`</div>`)
+		
+		// Bottom chapter selector
+		response.WriteString(`<div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
+		response.WriteString(chapterBoxes.String())
+		response.WriteString(`</div>`)
+		
+		w.Header().Set("Content-Type", "text/html")
+		w.Write([]byte(response.String()))
+	} else {
+		// Regular response without OOB swaps
+		w.Header().Set("Content-Type", "text/html")
+		w.Write([]byte(html))
+	}
 }
 
-func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily) string {
+func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily) string {
 	lines := strings.Split(strings.TrimSpace(text), "\n")
 	var html strings.Builder
 	
@@ -606,33 +825,10 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
 						if err == nil {
 							// Find homilies that cover this Matthew passage
-							homilies := findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse)
-							
-							// Filter out consecutive duplicates
-							var filteredHomilies []Homily
-							for _, homily := range homilies {
-								isDuplicate := false
-								for _, lastNum := range lastHomilies {
-									if homily.Number == lastNum {
-										isDuplicate = true
-										break
-									}
-								}
-								if !isDuplicate {
-									filteredHomilies = append(filteredHomilies, homily)
-									currentHomilies = append(currentHomilies, homily.Number)
-								}
-							}
-							
-							// Only render if we have non-duplicate homilies
-							if len(filteredHomilies) > 0 {
-								html.WriteString(`<div class="homily-refs-container cross-ref">`)
-								for _, homily := range filteredHomilies {
-									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'matthew'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
-										homily.Number, homily.Roman, homily.Roman))
-								}
-								html.WriteString(`</div>`)
-							}
+							homilies := findHomiliesForRange("chrysostom", "matthew", startChap, startVerse, endChap, endVerse)
+							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "matthew", true, lastHomilies)
+							html.WriteString(renderedHTML)
+							currentHomilies = append(currentHomilies, newHomilies...)
 						}
 					}
 				} else if bookID == "matthew" {
@@ -642,33 +838,10 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
 						if err == nil {
 							// Find homilies that cover this John passage
-							homilies := findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse)
-							
-							// Filter out consecutive duplicates
-							var filteredHomilies []Homily
-							for _, homily := range homilies {
-								isDuplicate := false
-								for _, lastNum := range lastHomilies {
-									if homily.Number == lastNum {
-										isDuplicate = true
-										break
-									}
-								}
-								if !isDuplicate {
-									filteredHomilies = append(filteredHomilies, homily)
-									currentHomilies = append(currentHomilies, homily.Number)
-								}
-							}
-							
-							// Only render if we have non-duplicate homilies
-							if len(filteredHomilies) > 0 {
-								html.WriteString(`<div class="homily-refs-container cross-ref">`)
-								for _, homily := range filteredHomilies {
-									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'john'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on John"></a>`, 
-										homily.Number, homily.Roman, homily.Roman))
-								}
-								html.WriteString(`</div>`)
-							}
+							homilies := findHomiliesForRange("chrysostom", "john", startChap, startVerse, endChap, endVerse)
+							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "john", true, lastHomilies)
+							html.WriteString(renderedHTML)
+							currentHomilies = append(currentHomilies, newHomilies...)
 						}
 					}
 				} else if bookID != "matthew" && bookID != "john" {
@@ -680,33 +853,10 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
 						if err == nil {
 							// Find homilies that cover this Matthew passage
-							homilies := findHomiliesForMatthewRange(startChap, startVerse, endChap, endVerse)
-							
-							// Filter out consecutive duplicates
-							var filteredHomilies []Homily
-							for _, homily := range homilies {
-								isDuplicate := false
-								for _, lastNum := range lastHomilies {
-									if homily.Number == lastNum {
-										isDuplicate = true
-										break
-									}
-								}
-								if !isDuplicate {
-									filteredHomilies = append(filteredHomilies, homily)
-									currentHomilies = append(currentHomilies, homily.Number)
-								}
-							}
-							
-							// Only render if we have non-duplicate homilies
-							if len(filteredHomilies) > 0 {
-								html.WriteString(`<div class="homily-refs-container cross-ref">`)
-								for _, homily := range filteredHomilies {
-									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'matthew'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on Matthew"></a>`, 
-										homily.Number, homily.Roman, homily.Roman))
-								}
-								html.WriteString(`</div>`)
-							}
+							homilies := findHomiliesForRange("chrysostom", "matthew", startChap, startVerse, endChap, endVerse)
+							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "matthew", true, lastHomilies)
+							html.WriteString(renderedHTML)
+							currentHomilies = append(currentHomilies, newHomilies...)
 						}
 					}
 					
@@ -716,35 +866,45 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
 						if err == nil {
 							// Find homilies that cover this John passage
-							homilies := findHomiliesForJohnRange(startChap, startVerse, endChap, endVerse)
-							
-							// Filter out consecutive duplicates
-							var filteredHomilies []Homily
-							for _, homily := range homilies {
-								isDuplicate := false
-								for _, lastNum := range lastHomilies {
-									if homily.Number == lastNum {
-										isDuplicate = true
-										break
-									}
-								}
-								if !isDuplicate {
-									filteredHomilies = append(filteredHomilies, homily)
-									currentHomilies = append(currentHomilies, homily.Number)
-								}
-							}
-							
-							// Only render if we have non-duplicate homilies
-							if len(filteredHomilies) > 0 {
-								html.WriteString(`<div class="homily-refs-container cross-ref">`)
-								for _, homily := range filteredHomilies {
-									html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', 'john'); return false;" class="homily-ref cross-ref" data-full-text="John Chrysostom, Homily %s on John"></a>`, 
-										homily.Number, homily.Roman, homily.Roman))
-								}
-								html.WriteString(`</div>`)
-							}
+							homilies := findHomiliesForRange("chrysostom", "john", startChap, startVerse, endChap, endVerse)
+							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "john", true, lastHomilies)
+							html.WriteString(renderedHTML)
+							currentHomilies = append(currentHomilies, newHomilies...)
 						}
 					}
+				}
+			}
+		}
+		
+		// Add Cyril's commentary for Luke
+		if bookID == "luke" && cyrilHomilyMap != nil {
+			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
+			if cyrilHomilies, ok := cyrilHomilyMap[verseKey]; ok {
+				// Filter out consecutive duplicates
+				var filteredCyrilHomilies []Homily
+				for _, homily := range cyrilHomilies {
+					isDuplicate := false
+					for _, lastNum := range lastHomilies {
+						// Use negative numbers to distinguish Cyril's homilies from Chrysostom's
+						if homily.Number == -lastNum {
+							isDuplicate = true
+							break
+						}
+					}
+					if !isDuplicate {
+						filteredCyrilHomilies = append(filteredCyrilHomilies, homily)
+						currentHomilies = append(currentHomilies, -homily.Number) // Store as negative to distinguish
+					}
+				}
+				
+				// Render Cyril's homilies
+				if len(filteredCyrilHomilies) > 0 {
+					html.WriteString(`<div class="homily-refs-container cyril">`)
+					for _, homily := range filteredCyrilHomilies {
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', 'luke'); return false;" class="homily-ref cyril" data-full-text="Cyril of Alexandria, Sermon %s on Luke"></a>`, 
+							homily.Number, homily.Roman, homily.Roman))
+					}
+					html.WriteString(`</div>`)
 				}
 			}
 		}
@@ -764,6 +924,73 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 	
 	html.WriteString("</div>")
 	return html.String()
+}
+
+// renderHomilyRefs generates HTML for homily references
+func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, lastHomilies []int) (string, []int) {
+	var html strings.Builder
+	var currentHomilies []int
+	
+	// Filter out consecutive duplicates
+	var filteredHomilies []Homily
+	for _, homily := range homilies {
+		isDuplicate := false
+		for _, lastNum := range lastHomilies {
+			// For Cyril, use negative numbers to distinguish from Chrysostom
+			compareNum := homily.Number
+			if author == "cyril" {
+				compareNum = -homily.Number
+			}
+			if compareNum == lastNum {
+				isDuplicate = true
+				break
+			}
+		}
+		if !isDuplicate {
+			filteredHomilies = append(filteredHomilies, homily)
+			if author == "cyril" {
+				currentHomilies = append(currentHomilies, -homily.Number)
+			} else {
+				currentHomilies = append(currentHomilies, homily.Number)
+			}
+		}
+	}
+	
+	// Only render if we have non-duplicate homilies
+	if len(filteredHomilies) > 0 {
+		className := "homily-refs-container"
+		refClass := "homily-ref"
+		if isCrossRef {
+			className += " cross-ref"
+			refClass += " cross-ref"
+		}
+		if author == "cyril" {
+			className += " cyril"
+			refClass += " cyril"
+		}
+		
+		html.WriteString(fmt.Sprintf(`<div class="%s">`, className))
+		for _, homily := range filteredHomilies {
+			var onclick, fullText string
+			if author == "cyril" {
+				onclick = fmt.Sprintf(`loadCyrilHomily(%d, '%s', '%s')`, homily.Number, homily.Roman, book)
+				fullText = fmt.Sprintf("Cyril of Alexandria, Sermon %s on Luke", homily.Roman)
+			} else {
+				onclick = fmt.Sprintf(`loadHomily(%d, '%s', '%s')`, homily.Number, homily.Roman, book)
+				bookTitle := "Matthew"
+				if book == "john" {
+					bookTitle = "John"
+				}
+				fullText = fmt.Sprintf("John Chrysostom, Homily %s on %s", homily.Roman, bookTitle)
+			}
+			
+			html.WriteString(fmt.Sprintf(`<a href="#" onclick="%s; return false;" class="%s" data-full-text="%s"></a>`,
+				onclick, refClass, fullText))
+		}
+		html.WriteString(`</div>`)
+	}
+	
+	return html.String(), currentHomilies
 }
 
 func contains(slice []int, val int) bool {
@@ -921,7 +1148,7 @@ func loadVerseText(gospel string, verseRef string) string {
 }
 
 func homilyHandler(w http.ResponseWriter, r *http.Request) {
-	// Parse URL: /homily/chrysostom/matthew/1
+	// Parse URL: /homily/chrysostom/matthew/1 or /homily/cyril/luke/1
 	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/homily/"), "/")
 	if len(parts) != 3 {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
@@ -932,8 +1159,16 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	book := parts[1]
 	homilyNumStr := parts[2]
 	
-	if author != "chrysostom" || (book != "matthew" && book != "john") {
+	if author == "chrysostom" && (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
+		return
+	}
+	if author == "cyril" && book != "luke" {
+		http.Error(w, "Homily not found", http.StatusNotFound)
+		return
+	}
+	if author != "chrysostom" && author != "cyril" {
+		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
 	
@@ -946,15 +1181,29 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	// Convert to roman numeral
 	roman := intToRoman(homilyNum)
 	
-	// Extract homily text from XML
-	homilyText, verseRef, err := extractHomilyFromXML(book, homilyNum)
-	if err != nil {
-		log.Printf("Error extracting %s homily %d: %v", book, homilyNum, err)
-		homilyText = "Error loading homily text."
+	var homilyText, verseRef string
+	var authorName string
+	
+	if author == "chrysostom" {
+		// Extract homily text from XML
+		homilyText, verseRef, err = extractHomilyFromXML(book, homilyNum)
+		if err != nil {
+			log.Printf("Error extracting %s homily %d: %v", book, homilyNum, err)
+			homilyText = "Error loading homily text."
+		}
+		authorName = "John Chrysostom"
+	} else if author == "cyril" {
+		// Extract sermon text from HTML
+		homilyText, verseRef, err = extractCyrilSermonFromHTML(homilyNum)
+		if err != nil {
+			log.Printf("Error extracting Cyril sermon %d: %v", homilyNum, err)
+			homilyText = "Error loading sermon text."
+		}
+		authorName = "Cyril of Alexandria"
 	}
 	
 	// Clean up verse reference - don't show if it contains "Homily" or is just a title
-	if strings.Contains(verseRef, "Homily") || verseRef == "Introduction" || verseRef == "" {
+	if strings.Contains(verseRef, "Homily") || strings.Contains(verseRef, "Sermon") || verseRef == "Introduction" || verseRef == "" {
 		verseRef = ""
 	}
 	
@@ -966,7 +1215,7 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		HomilyText  template.HTML
 		VerseRef    string
 	}{
-		Author:      "John Chrysostom",
+		Author:      authorName,
 		Book:        strings.Title(book),
 		HomilyNum:   homilyNum,
 		HomilyRoman: roman,
@@ -995,11 +1244,6 @@ func intToRoman(num int) string {
 }
 
 // Footnote represents a footnote with its content
-type Footnote struct {
-	Number   string
-	ID       string
-	Content  string
-}
 
 // FootnoteData represents the structure of footnotes.json
 type FootnoteData struct {
@@ -1014,6 +1258,7 @@ type FootnoteData struct {
 // Global variable to store footnotes
 var matthewFootnotesData map[string]FootnoteData
 var johnFootnotesData map[string]FootnoteData
+var cyrilLukeFootnotesData map[string]FootnoteData
 
 // Load footnotes from JSON file
 func loadFootnotes() error {
@@ -1039,6 +1284,74 @@ func loadFootnotes() error {
 	err = json.Unmarshal(johnData, &johnFootnotesData)
 	if err != nil {
 		return err
+	}
+	
+	// Load Cyril Luke footnotes
+	cyrilData, err := os.ReadFile("../texts/commentaries/cyril/luke/footnotes.json")
+	if err != nil {
+		// Log but don't fail
+		log.Printf("Warning: Could not load Cyril Luke footnotes: %v", err)
+		cyrilLukeFootnotesData = make(map[string]FootnoteData)
+	} else {
+		var cyrilFootnotes map[string]struct {
+			File   string `json:"file"`
+			Number int    `json:"number"`
+			Text   string `json:"text"`
+		}
+		err = json.Unmarshal(cyrilData, &cyrilFootnotes)
+		if err != nil {
+			log.Printf("Warning: Could not parse Cyril Luke footnotes: %v", err)
+			cyrilLukeFootnotesData = make(map[string]FootnoteData)
+		} else {
+			// Convert Cyril footnotes to FootnoteData format
+			cyrilLukeFootnotesData = make(map[string]FootnoteData)
+			// Group footnotes by sermon number
+			sermonFootnotes := make(map[int][]Footnote)
+			for _, fn := range cyrilFootnotes {
+				// Extract sermon number from filename
+				var sermonNum int
+				if _, err := fmt.Sscanf(fn.File, "cyril_on_luke_%d_sermons_", &sermonNum); err == nil {
+					// Map file numbers to actual sermon numbers
+					switch sermonNum {
+					case 1: // File 01 contains sermons 1-11
+						if fn.Number >= 1 && fn.Number <= 50 {
+							// Approximate - need better mapping
+							sermonFootnotes[1] = append(sermonFootnotes[1], Footnote{
+								Number: strconv.Itoa(fn.Number),
+								Content: fn.Text,
+							})
+						}
+					}
+				}
+			}
+			// Convert to FootnoteData format
+			for sermonNum, footnotes := range sermonFootnotes {
+				// Convert []Footnote to the expected structure
+				var convertedFootnotes []struct {
+					OriginalNumber int    `json:"original_number"`
+					DisplayNumber  int    `json:"display_number"`
+					Content        string `json:"content"`
+				}
+				
+				for i, fn := range footnotes {
+					noteNum, _ := strconv.Atoi(fn.Number)
+					convertedFootnotes = append(convertedFootnotes, struct {
+						OriginalNumber int    `json:"original_number"`
+						DisplayNumber  int    `json:"display_number"`
+						Content        string `json:"content"`
+					}{
+						OriginalNumber: noteNum,
+						DisplayNumber:  i + 1,
+						Content:        fn.Content,
+					})
+				}
+				
+				cyrilLukeFootnotesData[strconv.Itoa(sermonNum)] = FootnoteData{
+					RomanNumeral: intToRoman(sermonNum),
+					Footnotes:    convertedFootnotes,
+				}
+			}
+		}
 	}
 	
 	log.Printf("Loaded footnotes for %d Matthew homilies and %d John homilies", 
@@ -1135,11 +1448,11 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	}
 	
 	// Get footnotes from preloaded data
-	var footnotesData map[string]FootnoteData
+	var footnotesData AllFootnotes
 	if book == "matthew" {
-		footnotesData = matthewFootnotesData
+		footnotesData = chrysostomMatthewFootnotes
 	} else if book == "john" {
-		footnotesData = johnFootnotesData
+		footnotesData = chrysostomJohnFootnotes
 	}
 	
 	homilyFootnotes, hasFootnotes := footnotesData[strconv.Itoa(homilyNum)]
@@ -1147,20 +1460,25 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	footnoteMap := make(map[string]int)
 	
 	if hasFootnotes {
-		for _, fn := range homilyFootnotes.Footnotes {
+		for _, fn := range homilyFootnotes {
 			footnotes = append(footnotes, Footnote{
 				Number:  strconv.Itoa(fn.DisplayNumber),
 				Content: fn.Content,
 			})
 			// Map original number to display number
-			footnoteMap[strconv.Itoa(fn.OriginalNumber)] = fn.DisplayNumber
+			footnoteMap[fn.OriginalNumber] = fn.DisplayNumber
 		}
 	}
 	
 	// Replace footnote tags with superscript markers
+	// Process note tags and remove scripRef tags within them
 	notePattern := regexp.MustCompile(`(?s)<note\s+n="([^"]+)"[^>]*>.*?</note>`)
 	text = notePattern.ReplaceAllStringFunc(text, func(match string) string {
-		// Extract note number
+		// First, remove any scripRef tags within this note to prevent orphaned content
+		scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>([^<]*)</scripRef>`)
+		_ = scripRefPattern.ReplaceAllString(match, "") // cleanMatch not used
+		
+		// Extract note number from the original match (not the cleaned one)
 		if m := notePattern.FindStringSubmatch(match); len(m) > 1 {
 			originalNum := m[1]
 			// Use the mapped sequential number
@@ -1189,13 +1507,19 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 				tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
 				tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
 				
-				// Use a unique marker to preserve the class name with hyphen
-				return fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" title="%s">%d</sup>%s`, 
+				// Use data-tooltip instead of title to avoid browser's default tooltip
+				// Note: Using DATATOOLTIPATR placeholder to prevent hyphen replacement issues
+				return fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" DATATOOLTIPATR="%s">%d</sup>%s`, 
 					tooltipContent, newNum, needsSpace)
 			}
 		}
+		// If we can't match/map the footnote, still remove the note tag to avoid displaying raw content
 		return ""
 	})
+	
+	// Remove any remaining scripRef tags that weren't inside notes
+	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>([^<]*)</scripRef>`)
+	text = scripRefPattern.ReplaceAllString(text, "")
 	
 	// Fix footnote placement according to Chicago Manual of Style
 	// Move footnotes after punctuation marks
@@ -1287,11 +1611,6 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	text = regexp.MustCompile(verseFragmentPattern).ReplaceAllString(text, "")
 	
 	// Later we'll remove remaining XML tags but we need to process structured removals first
-	
-	// Remove scripRef tags and their content entirely, not just replace with text
-	// This removes references like "John i. 1" that are redundant with the subtitle
-	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>[^<]+</scripRef>`)
-	text = scripRefPattern.ReplaceAllString(text, "")
 	
 	// Also remove scripCom tags which contain scripture commentary metadata
 	scripComPattern := regexp.MustCompile(`<scripCom[^>]*/>`)
@@ -1442,15 +1761,16 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 		for _, fn := range footnotes {
 			// Store content as data attribute for tooltip access
 			escapedContent := strings.ReplaceAll(fn.Content, `"`, `&quot;`)
-			text += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s. %s</li>`, 
-				fn.Number, escapedContent, fn.Number, fn.Content)
+			text += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s</li>`, 
+				fn.Number, escapedContent, fn.Content)
 		}
 		text += "</ol></div>"
 	}
 	
 	
-	// Final step: Replace our marker with the correct class name
+	// Final step: Replace our markers with the correct values
 	text = strings.ReplaceAll(text, "XXXFOOTNOTEREFXXX", "footnote-ref")
+	text = strings.ReplaceAll(text, "DATATOOLTIPATR", "data-tooltip")
 	
 	// Final cleanup - remove any remaining header text at the beginning after all processing
 	if book == "john" {
@@ -1540,9 +1860,332 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	return text, verseRef, nil
 }
 
+func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
+	// Map sermon numbers to files
+	var filename string
+	var sermonID string
+	
+	// Determine which file contains this sermon
+	if sermonNum >= 1 && sermonNum <= 11 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_01_sermons_01_11.htm"
+		sermonID = fmt.Sprintf("C%d", sermonNum)
+	} else if sermonNum >= 12 && sermonNum <= 25 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_02_sermons_12_25.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 27 && sermonNum <= 38 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_03_sermons_27_38.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 39 && sermonNum <= 46 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_04_sermons_39_46.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 47 && sermonNum <= 56 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_05_sermons_47_56.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 57 && sermonNum <= 65 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_06_sermons_57_65.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 66 && sermonNum <= 80 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_07_sermons_66_80.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 81 && sermonNum <= 88 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_08_sermons_81_88.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 89 && sermonNum <= 98 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_09_sermons_89_98.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 99 && sermonNum <= 109 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_10_sermons_99_109.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 110 && sermonNum <= 123 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_11_sermons_110_123.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 124 && sermonNum <= 134 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_12_sermons_124_134.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 135 && sermonNum <= 145 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_13_sermons_135_145.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else if sermonNum >= 146 && sermonNum <= 156 {
+		filename = "../texts/commentaries/cyril/luke/cyril_on_luke_14_sermons_146_156.htm"
+		sermonID = fmt.Sprintf("SERMON %s", strings.ToUpper(intToRoman(sermonNum)))
+	} else {
+		return "", "", fmt.Errorf("invalid sermon number: %d", sermonNum)
+	}
+	
+	// Read the HTML file
+	content, err := os.ReadFile(filename)
+	if err != nil {
+		return "", "", err
+	}
+	
+	html := string(content)
+	
+	// Get verse reference from homily coverage
+	verseRef := ""
+	if comm, ok := commentaries["cyril-luke"]; ok {
+		if coverage, ok := comm.Coverage[sermonNum]; ok {
+			if coverage.StartChapter == coverage.EndChapter {
+				if coverage.StartVerse == coverage.EndVerse {
+					verseRef = fmt.Sprintf("Luke %d:%d", coverage.StartChapter, coverage.StartVerse)
+				} else {
+					verseRef = fmt.Sprintf("Luke %d:%d-%d", coverage.StartChapter, coverage.StartVerse, coverage.EndVerse)
+				}
+			} else {
+				verseRef = fmt.Sprintf("Luke %d:%d-%d:%d", coverage.StartChapter, coverage.StartVerse, coverage.EndChapter, coverage.EndVerse)
+			}
+		}
+	}
+	
+	// Extract sermon text
+	var sermonText string
+	
+	// For sermons 1-11, look for the sermon heading
+	if sermonNum <= 11 {
+		// Look for the pattern like <A NAME="C1"></A>
+		pattern := fmt.Sprintf(`NAME="%s"`, sermonID)
+		startIdx := strings.Index(html, pattern)
+		if startIdx == -1 {
+			return "", "", fmt.Errorf("sermon %d not found", sermonNum)
+		}
+		// Move to the start of the tag
+		tagStart := strings.LastIndex(html[:startIdx], "<")
+		if tagStart != -1 {
+			startIdx = tagStart
+		}
+		
+		// Find the next sermon or end of content
+		var endIdx int
+		if sermonNum < 11 {
+			nextSermonID := fmt.Sprintf("C%d", sermonNum+1)
+			endPattern := fmt.Sprintf(`NAME="%s"`, nextSermonID)
+			endIdx = strings.Index(html[startIdx:], endPattern)
+		} else {
+			endPattern := `<hr>`
+			endIdx = strings.Index(html[startIdx:], endPattern)
+		}
+		
+		if endIdx == -1 {
+			// Look for end of document or navigation
+			endPattern := `<a href="cyril_on_luke_`
+			endIdx = strings.Index(html[startIdx:], endPattern)
+			if endIdx == -1 {
+				sermonText = html[startIdx:]
+			} else {
+				sermonText = html[startIdx : startIdx+endIdx]
+			}
+		} else {
+			sermonText = html[startIdx : startIdx+endIdx]
+		}
+		log.Printf("Extracted %d characters for sermon %d", len(sermonText), sermonNum)
+	} else {
+		// For later sermons, look for headers like <a name="SERMON XII">
+		pattern := fmt.Sprintf(`<a name="%s"`, sermonID)
+		startIdx := strings.Index(html, pattern)
+		if startIdx == -1 {
+			// Try alternate pattern
+			pattern = fmt.Sprintf(`<h3>.*%s.*</h3>`, sermonID)
+			re := regexp.MustCompile(pattern)
+			match := re.FindStringIndex(html)
+			if match == nil {
+				return "", "", fmt.Errorf("sermon %d not found", sermonNum)
+			}
+			startIdx = match[0]
+		}
+		
+		// Find the next sermon
+		nextPattern := `<h3>.*SERMON.*</h3>`
+		re := regexp.MustCompile(nextPattern)
+		matches := re.FindAllStringIndex(html[startIdx+1:], -1)
+		if len(matches) > 0 {
+			endIdx := matches[0][0]
+			sermonText = html[startIdx : startIdx+1+endIdx]
+		} else {
+			// Look for navigation links at end
+			endPattern := `<a href="cyril_on_luke_`
+			endIdx := strings.Index(html[startIdx:], endPattern)
+			if endIdx == -1 {
+				sermonText = html[startIdx:]
+			} else {
+				sermonText = html[startIdx : startIdx+endIdx]
+			}
+		}
+	}
+	
+	// Use pre-loaded footnotes from JSON instead of parsing HTML
+	// Get footnotes for this sermon
+	homilyFootnotes, hasFootnotes := cyrilLukeFootnotesData[strconv.Itoa(sermonNum)]
+	var footnotes []Footnote
+	footnoteMap := make(map[string]string)
+	
+	// Debug: check what we have for this sermon
+	if sermonNum == 1 {
+		log.Printf("DEBUG: hasFootnotes=%v, sermonNum=%d", hasFootnotes, sermonNum)
+		if hasFootnotes {
+			log.Printf("DEBUG: Found %d footnotes for sermon 1", len(homilyFootnotes.Footnotes))
+		}
+	}
+	
+	if hasFootnotes {
+		for _, fn := range homilyFootnotes.Footnotes {
+			footnotes = append(footnotes, Footnote{
+				Number:  strconv.Itoa(fn.DisplayNumber),
+				Content: fn.Content,
+			})
+			// Map original footnote number to content for lookup
+			footnoteMap[strconv.Itoa(fn.OriginalNumber)] = fn.Content
+		}
+	}
+	
+	// Match any <A HREF="#anything"><SUP>anything</SUP></A> pattern  
+	footnotePattern := regexp.MustCompile(`(?i)<A\s+HREF="#([^"]+)"><SUP>[^<]*</SUP></A>`)
+	
+	// Collect footnotes for endnotes section
+	var collectedFootnotes []Footnote
+	
+	footnoteNum := 1
+	sermonText = footnotePattern.ReplaceAllStringFunc(sermonText, func(match string) string {
+		// Extract the footnote ID from the match
+		hrefMatch := footnotePattern.FindStringSubmatch(match)
+		
+		tooltipContent := ""
+		if len(hrefMatch) > 1 {
+			footnoteID := hrefMatch[1]
+			
+			// Look up content in pre-loaded footnotes
+			// Try sequential lookup for Cyril footnotes (HTML uses #1, #2, #3...)
+			if content, found := footnoteMap[footnoteID]; found {
+				tooltipContent = content
+			} else if hasFootnotes && len(footnotes) > 0 {
+				// If direct lookup fails, try sequential mapping
+				if footnoteIdx, err := strconv.Atoi(footnoteID); err == nil && footnoteIdx > 0 && footnoteIdx <= len(footnotes) {
+					tooltipContent = footnotes[footnoteIdx-1].Content
+				}
+			}
+			
+			// If still no content, add a fallback for debugging
+			if tooltipContent == "" {
+				tooltipContent = fmt.Sprintf("Footnote %s (Sermon %d)", footnoteID, sermonNum)
+			}
+			
+			// Escape for HTML
+			tooltipContent = strings.ReplaceAll(tooltipContent, `"`, `&quot;`)
+			tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
+			tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
+		}
+		
+		// Collect this footnote for endnotes section
+		if tooltipContent != "" && !strings.HasPrefix(tooltipContent, "Footnote ") {
+			// Unescape for display in endnotes
+			displayContent := strings.ReplaceAll(tooltipContent, `&quot;`, `"`)
+			displayContent = strings.ReplaceAll(displayContent, `&lt;`, `<`)
+			displayContent = strings.ReplaceAll(displayContent, `&gt;`, `>`)
+			
+			collectedFootnotes = append(collectedFootnotes, Footnote{
+				Number: strconv.Itoa(footnoteNum),
+				Content: fmt.Sprintf("%d. %s", footnoteNum, displayContent),
+			})
+		}
+		
+		// Return the replacement with sequential number
+		// Use data-tooltip instead of title to avoid browser's default tooltip
+		// Note: Using DATATOOLTIPATR placeholder to prevent hyphen replacement issues
+		replacement := fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" DATATOOLTIPATR="%s">%d</sup>`, tooltipContent, footnoteNum)
+		footnoteNum++
+		return replacement
+	})
+	
+	// Clean up the HTML
+	sermonText = regexp.MustCompile(`<script[^>]*>.*?</script>`).ReplaceAllString(sermonText, "")
+	sermonText = regexp.MustCompile(`<style[^>]*>.*?</style>`).ReplaceAllString(sermonText, "")
+	
+	// Remove editorial content
+	sermonText = regexp.MustCompile(`\[From Mai and Cramer\]`).ReplaceAllString(sermonText, "")
+	sermonText = regexp.MustCompile(`\[From [^\]]+\]`).ReplaceAllString(sermonText, "")
+	
+	// Remove h3 headers that contain editorial patterns
+	sermonText = regexp.MustCompile(`(?is)<h3[^>]*>.*?(SERMON\s+[IVXLCDM]+|From S\. Cyril|From the Syriac).*?</h3>`).ReplaceAllString(sermonText, "")
+	
+	// Remove centered editorial paragraphs (Syriac references and source notes)
+	sermonText = regexp.MustCompile(`(?is)<p align="center">\s*\[?From the Syriac.*?</p>`).ReplaceAllString(sermonText, "")
+	sermonText = regexp.MustCompile(`(?is)<p align="center">\s*From the Syriac.*?</p>`).ReplaceAllString(sermonText, "")
+	sermonText = regexp.MustCompile(`(?is)<p align="center">\s*\[From [^]]+\]</p>`).ReplaceAllString(sermonText, "")
+	
+	// Remove chapter reference notations like "cc. 2:21-24."
+	sermonText = regexp.MustCompile(`(?is)<p>\s*cc?\.\s*\d+:\d+[-\d]*\.\s*</p>`).ReplaceAllString(sermonText, "")
+	
+	// Remove entire blockquotes that contain editorial content
+	sermonText = regexp.MustCompile(`(?is)<blockquote>.*?(SERMON\s+[IVXLCDM]+|From Aubert|From Mai|From the Syriac).*?</blockquote>`).ReplaceAllString(sermonText, "")
+	
+	// Remove any paragraph containing "From S. Cyril's Commentary"
+	sermonText = regexp.MustCompile(`(?is)<p[^>]*>.*?From S\. Cyril's Commentary[^<]*</p>`).ReplaceAllString(sermonText, "")
+	
+	// Remove any paragraph containing "Sermon of S. Cyril" 
+	sermonText = regexp.MustCompile(`(?is)<p[^>]*>.*?Sermon of S\. Cyril[^<]*</p>`).ReplaceAllString(sermonText, "")
+	
+	// Remove standalone sermon number markers
+	sermonText = regexp.MustCompile(`(?i)SERMON\s+[IVXLC]+\.?\s*`).ReplaceAllString(sermonText, "")
+	
+	// Remove page markers
+	sermonText = regexp.MustCompile(`<A NAME="p\d+"><SPAN CLASS=pb>\|\d+</SPAN></A>`).ReplaceAllString(sermonText, "")
+	
+	// Just trim whitespace
+	sermonText = strings.TrimSpace(sermonText)
+	
+	// Clean up any fragments at the beginning that might remain after h3 removal
+	// This specifically targets patterns like: <A NAME="C3"></A></SPAN><sup>16</sup></h3>
+	sermonText = regexp.MustCompile(`(?s)^.*?</h3>\s*`).ReplaceAllString(sermonText, "")
+	
+	// Remove empty paragraphs at the beginning
+	sermonText = regexp.MustCompile(`(?s)^<p[^>]*>\s*</p>\s*`).ReplaceAllString(sermonText, "")
+	
+	sermonText = strings.TrimSpace(sermonText)
+	
+	// Remove footnote definitions at bottom (we've already captured them for tooltips)
+	sermonText = regexp.MustCompile(`<A NAME="\d+"></A>\d+\.\s*<sup>\w+</sup>[^<]*(?:<[^A][^>]*>[^<]*</[^>]+>[^<]*)*`).ReplaceAllString(sermonText, "")
+	
+	// Convert some tags
+	sermonText = strings.ReplaceAll(sermonText, "<i>", "<em>")
+	sermonText = strings.ReplaceAll(sermonText, "</i>", "</em>")
+	sermonText = strings.ReplaceAll(sermonText, "<b>", "<strong>")
+	sermonText = strings.ReplaceAll(sermonText, "</b>", "</strong>")
+	
+	// Replace the placeholders with the actual values (same as Chrysostom)
+	sermonText = strings.ReplaceAll(sermonText, "XXXFOOTNOTEREFXXX", "footnote-ref")
+	sermonText = strings.ReplaceAll(sermonText, "DATATOOLTIPATR", "data-tooltip")
+	
+	// Fix footnote placement according to Chicago Manual of Style
+	// Move footnotes after punctuation marks
+	punctuationPattern := regexp.MustCompile(`(<sup class="footnote-ref"[^>]*>.*?</sup>)([.,;:!?]+)`)
+	sermonText = punctuationPattern.ReplaceAllString(sermonText, "$2$1")
+	
+	// Remove spaces before footnotes ONLY when they follow punctuation
+	sermonText = regexp.MustCompile(`([.,;:!?])\s+(<sup class="footnote-ref")`).ReplaceAllString(sermonText, "$1$2")
+	
+	// Clean up the sermon text
+	sermonText = strings.TrimSpace(sermonText)
+	
+	// Append footnotes section if any exist (same as Chrysostom)
+	if len(collectedFootnotes) > 0 {
+		sermonText += "\n\n<div class='footnotes-section'><hr><h4>Notes</h4><ol class='footnotes'>"
+		for _, fn := range collectedFootnotes {
+			// Store content as data attribute for tooltip access
+			escapedContent := strings.ReplaceAll(fn.Content, `"`, `&quot;`)
+			sermonText += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s</li>`, 
+				fn.Number, escapedContent, fn.Content)
+		}
+		sermonText += "</ol></div>"
+	}
+	
+	log.Printf("After cleaning: %d characters for sermon %d", len(sermonText), sermonNum)
+	if len(sermonText) < 100 {
+		log.Printf("Warning: Sermon %d content is very short: %s", sermonNum, sermonText)
+	}
+	
+	return sermonText, verseRef, nil
+}
 
 func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
-	// Parse URL: /api/homily/chrysostom/matthew/1
+	// Parse URL: /api/homily/chrysostom/matthew/1 or /api/homily/cyril/luke/1
 	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/api/homily/"), "/")
 	if len(parts) != 3 {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
@@ -1553,8 +2196,16 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	book := parts[1]
 	homilyNumStr := parts[2]
 	
-	if author != "chrysostom" || (book != "matthew" && book != "john") {
+	if author == "chrysostom" && (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
+		return
+	}
+	if author == "cyril" && book != "luke" {
+		http.Error(w, "Homily not found", http.StatusNotFound)
+		return
+	}
+	if author != "chrysostom" && author != "cyril" {
+		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
 	
@@ -1564,17 +2215,30 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
-	// Extract homily text from XML
-	homilyText, verseRef, err := extractHomilyFromXML(book, homilyNum)
-	if err != nil {
-		log.Printf("Error extracting homily %d: %v", homilyNum, err)
-		w.Header().Set("Content-Type", "text/html")
-		w.Write([]byte("<p>Error loading homily text.</p>"))
-		return
+	var homilyText, verseRef string
+	
+	if author == "chrysostom" {
+		// Extract homily text from XML
+		homilyText, verseRef, err = extractHomilyFromXML(book, homilyNum)
+		if err != nil {
+			log.Printf("Error extracting homily %d: %v", homilyNum, err)
+			w.Header().Set("Content-Type", "text/html")
+			w.Write([]byte("<p>Error loading homily text.</p>"))
+			return
+		}
+	} else if author == "cyril" {
+		// Extract sermon text from HTML
+		homilyText, verseRef, err = extractCyrilSermonFromHTML(homilyNum)
+		if err != nil {
+			log.Printf("Error extracting Cyril sermon %d: %v", homilyNum, err)
+			w.Header().Set("Content-Type", "text/html")
+			w.Write([]byte("<p>Error loading sermon text.</p>"))
+			return
+		}
 	}
 	
 	// Clean up verse reference
-	if strings.Contains(verseRef, "Homily") || verseRef == "Introduction" || verseRef == "" {
+	if strings.Contains(verseRef, "Homily") || strings.Contains(verseRef, "Sermon") || verseRef == "Introduction" || verseRef == "" {
 		verseRef = ""
 	}
 	
