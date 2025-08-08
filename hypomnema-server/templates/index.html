@@ -101,7 +101,8 @@
                         data-book-id="{{.ID}}"
                         hx-get="/api/chapter/{{.ID}}/1"
                         hx-target="#text-content"
-                        hx-swap="innerHTML">
+                        hx-swap="innerHTML"
+                        hx-push-url="/{{.ID}}/1">
                         {{.Name}}
                     </li>
                     {{end}}
@@ -120,7 +121,7 @@
                         <rect class="sidebar-indicator" x="4" y="4" width="6" height="16" fill="#999" rx="0"></rect>
                     </svg>
                 </button>
-                <h1 id="book-title">Matthew</h1>
+                <h1 id="book-title">{{range .Books}}{{if eq .ID $.CurrentBook}}{{.Name}}{{end}}{{end}}</h1>
                 <div class="chapter-nav">
                     <button id="prevChapter" class="nav-btn nav-icon" 
                             hx-get=""
@@ -141,7 +142,7 @@
                         </svg>
                     </button>
                 </div>
-                <h2 id="chapter-title">Chapter 1</h2>
+                <h2 id="chapter-title">Chapter {{.CurrentChap}}</h2>
             </header>
             
             <div id="text-content" 
@@ -281,10 +282,13 @@
                     '<polyline points="15 18 9 12 15 6"></polyline>' : 
                     '<polyline points="9 18 15 12 9 6"></polyline>';
                 const title = isPrev ? 'Previous Chapter' : 'Next Chapter';
+                const chapter = isPrev ? currentChapter - 1 : currentChapter + 1;
+                const pushUrl = `/${currentBook}/${chapter}`;
                 
                 return `<button id="${id}" class="nav-btn nav-icon"
                         ${disabled ? 'disabled' : ''}
                         ${!disabled ? `hx-get="${url}"` : ''}
+                        ${!disabled ? `hx-push-url="${pushUrl}"` : ''}
                         hx-target="#text-content"
                         hx-swap="innerHTML"
                         title="${title}">
