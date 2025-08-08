@@ -6,7 +6,7 @@
     <title>Hypomnema - Bible Reader</title>
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=66">
+    <link rel="stylesheet" href="/static/styles.css?v=67">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -102,7 +102,8 @@
                         hx-get="/api/chapter/{{.ID}}/1"
                         hx-target="#text-content"
                         hx-swap="innerHTML"
-                        hx-push-url="/{{.ID}}/1">
+                        hx-push-url="/{{.ID}}/1"
+                        hx-indicator="#loading-indicator">
                         {{.Name}}
                     </li>
                     {{end}}
@@ -205,6 +206,12 @@
                 <div class="loading">Loading passages...</div>
             </div>
         </div>
+    </div>
+    
+    <!-- Global loading indicator -->
+    <div id="loading-indicator" class="htmx-indicator">
+        <div class="loading-spinner"></div>
+        <span>Loading...</span>
     </div>
     
     <script>
