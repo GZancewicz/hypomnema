@@ -219,8 +219,6 @@
         
         // Listen for HTMX events to update UI after content loads
         document.addEventListener('htmx:afterSwap', function(event) {
-            console.log('HTMX swap completed for:', event.detail.target);
-            
             // Check if this was a chapter load (the target will be text-content)
             if (event.detail.target.id === 'text-content') {
                 // Get the request path from the event
@@ -235,31 +233,22 @@
                     url = urlObj.pathname;
                 }
                 
-                console.log('Request URL:', url);
                 const match = url.match(/\/api\/chapter\/([^\/]+)\/(\d+)/);
                 
                 if (match) {
                     currentBook = match[1];
                     currentChapter = parseInt(match[2]);
                     
-                    console.log('Chapter loaded:', currentBook, currentChapter);
-                    
-                    // Update chapter title
-                    document.getElementById('chapter-title').textContent = `Chapter ${currentChapter}`;
-                    
-                    // Update active book
+                    // Update active book in sidebar
                     document.querySelectorAll('.book-item').forEach(item => {
                         item.classList.toggle('active', item.getAttribute('data-book-id') === currentBook);
                     });
                     
-                    // Update book title if it's a new book
+                    // Update book title
                     const activeBook = document.querySelector('.book-item.active');
                     if (activeBook) {
                         document.getElementById('book-title').textContent = activeBook.textContent.trim();
                     }
-                    
-                    // Update navigation buttons with new URLs - delay to ensure DOM is ready
-                    setTimeout(updateNavigationButtons, 10);
                     
                     // Auto-close sidebar on mobile
                     if (window.innerWidth <= 700) {
@@ -268,60 +257,6 @@
                 }
             }
         });
-        
-        function updateNavigationButtons() {
-            const maxChapters = bookChapters[currentBook];
-            const prevDisabled = currentChapter <= 1;
-            const nextDisabled = currentChapter >= maxChapters;
-            
-            console.log('Updating navigation buttons:', {currentBook, currentChapter, maxChapters});
-            
-            // Helper function to create navigation button HTML
-            function createNavButton(id, isPrev, url, disabled) {
-                const icon = isPrev ? 
-                    '<polyline points="15 18 9 12 15 6"></polyline>' : 
-                    '<polyline points="9 18 15 12 9 6"></polyline>';
-                const title = isPrev ? 'Previous Chapter' : 'Next Chapter';
-                const chapter = isPrev ? currentChapter - 1 : currentChapter + 1;
-                const pushUrl = `/${currentBook}/${chapter}`;
-                
-                return `<button id="${id}" class="nav-btn nav-icon"
-                        ${disabled ? 'disabled' : ''}
-                        ${!disabled ? `hx-get="${url}"` : ''}
-                        ${!disabled ? `hx-push-url="${pushUrl}"` : ''}
-                        hx-target="#text-content"
-                        hx-swap="innerHTML"
-                        title="${title}">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        ${icon}
-                    </svg>
-                </button>`;
-            }
-            
-            // Replace previous chapter buttons
-            const prevUrl = `/api/chapter/${currentBook}/${currentChapter - 1}`;
-            const prevHtml = createNavButton('prevChapter', true, prevUrl, prevDisabled);
-            const prevBottomHtml = createNavButton('prevChapterBottom', true, prevUrl, prevDisabled);
-            
-            document.getElementById('prevChapter').outerHTML = prevHtml;
-            document.getElementById('prevChapterBottom').outerHTML = prevBottomHtml;
-            
-            // Replace next chapter buttons
-            const nextUrl = `/api/chapter/${currentBook}/${currentChapter + 1}`;
-            const nextHtml = createNavButton('nextChapter', false, nextUrl, nextDisabled);
-            const nextBottomHtml = createNavButton('nextChapterBottom', false, nextUrl, nextDisabled);
-            
-            document.getElementById('nextChapter').outerHTML = nextHtml;
-            document.getElementById('nextChapterBottom').outerHTML = nextBottomHtml;
-            
-            // Process new buttons with HTMX
-            htmx.process(document.getElementById('prevChapter'));
-            htmx.process(document.getElementById('prevChapterBottom'));
-            htmx.process(document.getElementById('nextChapter'));
-            htmx.process(document.getElementById('nextChapterBottom'));
-            
-            console.log('Navigation buttons updated and processed');
-        }
         
         // Track desired sidebar state (what user wants)
         let desiredSidebarOpen = true;
@@ -432,10 +367,8 @@
             }
         });
         
-        // Initialize navigation buttons and handle resize
+        // Initialize on page load
         window.addEventListener('DOMContentLoaded', () => {
-            // Set initial HTMX attributes for navigation buttons
-            updateNavigationButtons();
             handleResize();
         });
         

@@ -527,8 +527,121 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	// Format the text with paragraphs and canon numbers
 	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap)
 	
-	w.Header().Set("Content-Type", "text/html")
-	w.Write([]byte(html))
+	// Check if this is an HTMX request
+	isHTMX := r.Header.Get("HX-Request") == "true"
+	
+	// If it's an HTMX request, add out-of-band swaps
+	if isHTMX {
+		var response strings.Builder
+		
+		// Main content
+		response.WriteString(html)
+		
+		// Out-of-band update for chapter title
+		response.WriteString(fmt.Sprintf(`<h2 id="chapter-title" hx-swap-oob="true">Chapter %d</h2>`, chapter))
+		
+		// Get book display name
+		bookName := bookID // default to ID
+		for _, book := range books {
+			if book.ID == bookID {
+				bookName = book.Name
+				break
+			}
+		}
+		
+		// Out-of-band update for browser title
+		response.WriteString(fmt.Sprintf(`<title hx-swap-oob="true">%s %d - Hypomnema</title>`, bookName, chapter))
+		
+		// Find max chapters for this book
+		maxChapters := 1
+		for _, book := range books {
+			if book.ID == bookID {
+				maxChapters = book.Chapters
+				break
+			}
+		}
+		
+		// Out-of-band update for prev button
+		if chapter > 1 {
+			response.WriteString(fmt.Sprintf(`<button id="prevChapter" class="nav-btn nav-icon" hx-swap-oob="true"
+				hx-get="/api/chapter/%s/%d"
+				hx-push-url="/%s/%d"
+				hx-target="#text-content"
+				hx-swap="innerHTML"
+				title="Previous Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="15 18 9 12 15 6"></polyline>
+				</svg>
+			</button>`, bookID, chapter-1, bookID, chapter-1))
+			
+			response.WriteString(fmt.Sprintf(`<button id="prevChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true"
+				hx-get="/api/chapter/%s/%d"
+				hx-push-url="/%s/%d"
+				hx-target="#text-content"
+				hx-swap="innerHTML"
+				title="Previous Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="15 18 9 12 15 6"></polyline>
+				</svg>
+			</button>`, bookID, chapter-1, bookID, chapter-1))
+		} else {
+			response.WriteString(`<button id="prevChapter" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Previous Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="15 18 9 12 15 6"></polyline>
+				</svg>
+			</button>`)
+			
+			response.WriteString(`<button id="prevChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Previous Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="15 18 9 12 15 6"></polyline>
+				</svg>
+			</button>`)
+		}
+		
+		// Out-of-band update for next button
+		if chapter < maxChapters {
+			response.WriteString(fmt.Sprintf(`<button id="nextChapter" class="nav-btn nav-icon" hx-swap-oob="true"
+				hx-get="/api/chapter/%s/%d"
+				hx-push-url="/%s/%d"
+				hx-target="#text-content"
+				hx-swap="innerHTML"
+				title="Next Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</button>`, bookID, chapter+1, bookID, chapter+1))
+			
+			response.WriteString(fmt.Sprintf(`<button id="nextChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true"
+				hx-get="/api/chapter/%s/%d"
+				hx-push-url="/%s/%d"
+				hx-target="#text-content"
+				hx-swap="innerHTML"
+				title="Next Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</button>`, bookID, chapter+1, bookID, chapter+1))
+		} else {
+			response.WriteString(`<button id="nextChapter" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Next Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</button>`)
+			
+			response.WriteString(`<button id="nextChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Next Chapter">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</button>`)
+		}
+		
+		w.Header().Set("Content-Type", "text/html")
+		w.Write([]byte(response.String()))
+	} else {
+		// Regular response without OOB swaps
+		w.Header().Set("Content-Type", "text/html")
+		w.Write([]byte(html))
+	}
 }
 
 func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily) string {
