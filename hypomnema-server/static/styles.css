@@ -487,8 +487,7 @@ body {
 
 /* Tooltip on hover - shared base styles */
 .homily-ref[data-full-text]:hover::after,
-.canon-num[title]:hover::after,
-sup.footnote-ref[title]:hover::after {
+.canon-num[title]:hover::after {
     content: attr(data-full-text);
     position: absolute;
     background: var(--color-text);
@@ -519,7 +518,8 @@ sup.footnote-ref[title]:hover::after {
     max-width: 400px;
 }
 
-sup.footnote-ref[title]:hover::after {
+/* Footnote tooltips now handled by JavaScript for better positioning */
+/* sup.footnote-ref[title]:hover::after {
     content: attr(title);
     right: 0;
     top: 1.5em;
@@ -528,7 +528,7 @@ sup.footnote-ref[title]:hover::after {
     max-width: 300px;
     min-width: 200px;
     line-height: 1.4;
-}
+} */
 
 /* Content footer */
 .content-footer {
@@ -635,8 +635,31 @@ sup.footnote-ref {
     padding: 0 2px;
 }
 
-sup.footnote-ref[title] {
+sup.footnote-ref[title],
+sup.footnote-ref[data-tooltip] {
     border-bottom: 1px dotted var(--color-text-light);
+}
+
+/* CSS tooltips using data-tooltip attribute to avoid browser default */
+sup.footnote-ref[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 10000;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    max-width: 300px;
+    min-width: 200px;
+    line-height: 1.4;
+    font-weight: normal;
+    white-space: normal;
 }
 
 sup.footnote-ref:hover {

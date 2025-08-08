@@ -6,7 +6,7 @@
     <title>Hypomnema - Bible Reader</title>
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=63">
+    <link rel="stylesheet" href="/static/styles.css?v=66">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -422,6 +422,109 @@
             container.classList.remove('homily-open');
         }
         
+        // Dynamic tooltip positioning for footnotes in homily panel
+        function initializeFootnoteTooltips() {
+            // Remove any existing tooltip
+            const existingTooltip = document.querySelector('.footnote-tooltip-dynamic');
+            if (existingTooltip) {
+                existingTooltip.remove();
+            }
+            
+            // Create a reusable tooltip element
+            const tooltip = document.createElement('div');
+            tooltip.className = 'footnote-tooltip-dynamic';
+            tooltip.style.cssText = `
+                position: fixed;
+                background: #333;
+                color: white;
+                padding: 8px 12px;
+                border-radius: 4px;
+                font-size: 14px;
+                z-index: 10001;
+                pointer-events: none;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                max-width: 300px;
+                min-width: 200px;
+                line-height: 1.4;
+                display: none;
+                font-weight: normal;
+            `;
+            document.body.appendChild(tooltip);
+            
+            // Find all footnote references in the homily panel
+            const footnotes = document.querySelectorAll('#homilyContent sup.footnote-ref[title]');
+            
+            footnotes.forEach(footnote => {
+                // Remove any existing listeners
+                const newFootnote = footnote.cloneNode(true);
+                footnote.parentNode.replaceChild(newFootnote, footnote);
+                
+                newFootnote.addEventListener('mouseenter', function(e) {
+                    const title = this.getAttribute('title');
+                    if (!title) return;
+                    
+                    tooltip.textContent = title;
+                    tooltip.style.display = 'block';
+                    
+                    // Get the position of the footnote and the homily panel
+                    const rect = this.getBoundingClientRect();
+                    const panel = document.getElementById('homilyPanel');
+                    const panelRect = panel.getBoundingClientRect();
+                    
+                    // Initially position below the footnote
+                    let left = rect.left;
+                    let top = rect.bottom + 5;
+                    
+                    // Measure tooltip after content is set
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.top = top + 'px';
+                    const tooltipRect = tooltip.getBoundingClientRect();
+                    
+                    // Keep tooltip within the homily panel bounds
+                    // Check right edge
+                    if (left + tooltipRect.width > panelRect.right - 10) {
+                        left = panelRect.right - tooltipRect.width - 10;
+                    }
+                    
+                    // Check left edge
+                    if (left < panelRect.left + 10) {
+                        left = panelRect.left + 10;
+                    }
+                    
+                    // Check bottom edge
+                    if (top + tooltipRect.height > window.innerHeight - 20) {
+                        // Position above the footnote instead
+                        top = rect.top - tooltipRect.height - 5;
+                    }
+                    
+                    // Check top edge
+                    if (top < 20) {
+                        // Position to the side instead
+                        top = rect.top;
+                        left = rect.left - tooltipRect.width - 10;
+                        
+                        // If that goes off the left edge of panel, position to the right
+                        if (left < panelRect.left + 10) {
+                            left = rect.right + 10;
+                        }
+                    }
+                    
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.top = top + 'px';
+                });
+                
+                newFootnote.addEventListener('mouseleave', function() {
+                    tooltip.style.display = 'none';
+                });
+            });
+        }
+        
+        // Call initializeFootnoteTooltips after homily content is loaded
+        document.addEventListener('htmx:afterSwap', function(event) {
+            if (event.detail.target.id === 'homilyContent') {
+                setTimeout(initializeFootnoteTooltips, 100);
+            }
+        });
         
     </script>
 </body>

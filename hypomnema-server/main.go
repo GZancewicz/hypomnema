@@ -58,6 +58,24 @@ type HomilyRange struct {
 	EndVerse     int    `json:"end_verse"`
 }
 
+// HomilyFootnote represents a single footnote in a homily
+type HomilyFootnote struct {
+	Homily         int    `json:"homily"`
+	OriginalNumber string `json:"original_number"`
+	Content        string `json:"content"`
+	ID             string `json:"id"`
+	DisplayNumber  int    `json:"display_number"`
+}
+
+// AllFootnotes holds all footnotes for all homilies
+type AllFootnotes map[string][]HomilyFootnote
+
+// Footnote represents a footnote for display
+type Footnote struct {
+	Number  string
+	Content string
+}
+
 // Commentary represents a set of homilies/sermons for a book
 type Commentary struct {
 	Author        string
@@ -71,6 +89,8 @@ var (
 	verseToCanon VerseToCanon
 	canonLookup CanonLookup
 	commentaries map[string]*Commentary
+	chrysostomMatthewFootnotes AllFootnotes
+	chrysostomJohnFootnotes    AllFootnotes
 	books = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
@@ -108,6 +128,7 @@ var (
 func init() {
 	// Initialize commentaries map
 	commentaries = make(map[string]*Commentary)
+	// Force rebuild - footnote tooltip positioning fix
 	
 	// Load paragraph data
 	loadParagraphData()
@@ -129,9 +150,12 @@ func init() {
 		"../texts/commentaries/cyril/luke/luke_verse_to_homilies.json",
 		"../texts/commentaries/cyril/luke/homily_coverage.json")
 
-	// Parse templates
+	// Load footnotes
+	loadAllFootnotes()
+
+	// Parse templates from filesystem (not embedded) for development
 	var err error
-	templates, err = template.ParseFS(templateFS, "templates/*.html")
+	templates, err = template.ParseGlob("templates/*.html")
 	if err != nil {
 		log.Fatal("Error parsing templates:", err)
 	}
@@ -232,6 +256,45 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 	}
 	
 	commentaries[key] = commentary
+}
+
+// loadAllFootnotes loads the pre-extracted footnotes for all homilies
+func loadAllFootnotes() {
+	// Load Chrysostom Matthew footnotes
+	matthewFile, err := os.Open("../texts/commentaries/chrysostom/matthew/all_footnotes.json")
+	if err != nil {
+		log.Printf("Could not load Chrysostom Matthew footnotes: %v", err)
+	} else {
+		defer matthewFile.Close()
+		decoder := json.NewDecoder(matthewFile)
+		if err := decoder.Decode(&chrysostomMatthewFootnotes); err != nil {
+			log.Printf("Error decoding Chrysostom Matthew footnotes: %v", err)
+		} else {
+			count := 0
+			for _, footnotes := range chrysostomMatthewFootnotes {
+				count += len(footnotes)
+			}
+			log.Printf("Loaded %d Chrysostom Matthew footnotes across %d homilies", count, len(chrysostomMatthewFootnotes))
+		}
+	}
+	
+	// Load Chrysostom John footnotes
+	johnFile, err := os.Open("../texts/commentaries/chrysostom/john/all_footnotes.json")
+	if err != nil {
+		log.Printf("Could not load Chrysostom John footnotes: %v", err)
+	} else {
+		defer johnFile.Close()
+		decoder := json.NewDecoder(johnFile)
+		if err := decoder.Decode(&chrysostomJohnFootnotes); err != nil {
+			log.Printf("Error decoding Chrysostom John footnotes: %v", err)
+		} else {
+			count := 0
+			for _, footnotes := range chrysostomJohnFootnotes {
+				count += len(footnotes)
+			}
+			log.Printf("Loaded %d Chrysostom John footnotes across %d homilies", count, len(chrysostomJohnFootnotes))
+		}
+	}
 }
 
 // parseVerseRef parses a verse reference like "3.3" or "3.3-6" into chapter and verse numbers
@@ -344,11 +407,20 @@ func main() {
 		port = "8080"
 	}
 
-	fmt.Printf("Server starting on http://localhost:%s\n", port)
+	fmt.Printf("Server starting on http://localhost:%s (Cyril debug v15)\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
+	// Reload templates in development for hot reload - v5
+	// Use absolute path since Air runs from tmp directory
+	tmpl, err := template.ParseGlob("/Users/gregzancewicz/Documents/Other/Projects/hypomnema/hypomnema-server/templates/*.html")
+	if err != nil {
+		log.Printf("Template loading error from filesystem: %v", err)
+		// Fallback to embedded templates
+		tmpl = templates
+	}
+	
 	// Handle direct book/chapter URLs like /matthew/1
 	path := r.URL.Path
 	currentBook := "matthew"
@@ -384,7 +456,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		CurrentChap: currentChap,
 	}
 
-	err := templates.ExecuteTemplate(w, "index.html", data)
+	err = tmpl.ExecuteTemplate(w, "index.html", data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
@@ -992,11 +1064,6 @@ func intToRoman(num int) string {
 }
 
 // Footnote represents a footnote with its content
-type Footnote struct {
-	Number   string
-	ID       string
-	Content  string
-}
 
 // FootnoteData represents the structure of footnotes.json
 type FootnoteData struct {
@@ -1070,7 +1137,6 @@ func loadFootnotes() error {
 						if fn.Number >= 1 && fn.Number <= 50 {
 							// Approximate - need better mapping
 							sermonFootnotes[1] = append(sermonFootnotes[1], Footnote{
-								ID: fmt.Sprintf("footnote_%d", fn.Number),
 								Number: strconv.Itoa(fn.Number),
 								Content: fn.Text,
 							})
@@ -1202,11 +1268,11 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	}
 	
 	// Get footnotes from preloaded data
-	var footnotesData map[string]FootnoteData
+	var footnotesData AllFootnotes
 	if book == "matthew" {
-		footnotesData = matthewFootnotesData
+		footnotesData = chrysostomMatthewFootnotes
 	} else if book == "john" {
-		footnotesData = johnFootnotesData
+		footnotesData = chrysostomJohnFootnotes
 	}
 	
 	homilyFootnotes, hasFootnotes := footnotesData[strconv.Itoa(homilyNum)]
@@ -1214,20 +1280,25 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	footnoteMap := make(map[string]int)
 	
 	if hasFootnotes {
-		for _, fn := range homilyFootnotes.Footnotes {
+		for _, fn := range homilyFootnotes {
 			footnotes = append(footnotes, Footnote{
 				Number:  strconv.Itoa(fn.DisplayNumber),
 				Content: fn.Content,
 			})
 			// Map original number to display number
-			footnoteMap[strconv.Itoa(fn.OriginalNumber)] = fn.DisplayNumber
+			footnoteMap[fn.OriginalNumber] = fn.DisplayNumber
 		}
 	}
 	
 	// Replace footnote tags with superscript markers
+	// Process note tags and remove scripRef tags within them
 	notePattern := regexp.MustCompile(`(?s)<note\s+n="([^"]+)"[^>]*>.*?</note>`)
 	text = notePattern.ReplaceAllStringFunc(text, func(match string) string {
-		// Extract note number
+		// First, remove any scripRef tags within this note to prevent orphaned content
+		scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>([^<]*)</scripRef>`)
+		_ = scripRefPattern.ReplaceAllString(match, "") // cleanMatch not used
+		
+		// Extract note number from the original match (not the cleaned one)
 		if m := notePattern.FindStringSubmatch(match); len(m) > 1 {
 			originalNum := m[1]
 			// Use the mapped sequential number
@@ -1256,13 +1327,19 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 				tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
 				tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
 				
-				// Use a unique marker to preserve the class name with hyphen
-				return fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" title="%s">%d</sup>%s`, 
+				// Use data-tooltip instead of title to avoid browser's default tooltip
+				// Note: Using DATATOOLTIPATR placeholder to prevent hyphen replacement issues
+				return fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" DATATOOLTIPATR="%s">%d</sup>%s`, 
 					tooltipContent, newNum, needsSpace)
 			}
 		}
+		// If we can't match/map the footnote, still remove the note tag to avoid displaying raw content
 		return ""
 	})
+	
+	// Remove any remaining scripRef tags that weren't inside notes
+	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>([^<]*)</scripRef>`)
+	text = scripRefPattern.ReplaceAllString(text, "")
 	
 	// Fix footnote placement according to Chicago Manual of Style
 	// Move footnotes after punctuation marks
@@ -1354,11 +1431,6 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	text = regexp.MustCompile(verseFragmentPattern).ReplaceAllString(text, "")
 	
 	// Later we'll remove remaining XML tags but we need to process structured removals first
-	
-	// Remove scripRef tags and their content entirely, not just replace with text
-	// This removes references like "John i. 1" that are redundant with the subtitle
-	scripRefPattern := regexp.MustCompile(`<scripRef[^>]*>[^<]+</scripRef>`)
-	text = scripRefPattern.ReplaceAllString(text, "")
 	
 	// Also remove scripCom tags which contain scripture commentary metadata
 	scripComPattern := regexp.MustCompile(`<scripCom[^>]*/>`)
@@ -1509,15 +1581,16 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 		for _, fn := range footnotes {
 			// Store content as data attribute for tooltip access
 			escapedContent := strings.ReplaceAll(fn.Content, `"`, `&quot;`)
-			text += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s. %s</li>`, 
-				fn.Number, escapedContent, fn.Number, fn.Content)
+			text += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s</li>`, 
+				fn.Number, escapedContent, fn.Content)
 		}
 		text += "</ol></div>"
 	}
 	
 	
-	// Final step: Replace our marker with the correct class name
+	// Final step: Replace our markers with the correct values
 	text = strings.ReplaceAll(text, "XXXFOOTNOTEREFXXX", "footnote-ref")
+	text = strings.ReplaceAll(text, "DATATOOLTIPATR", "data-tooltip")
 	
 	// Final cleanup - remove any remaining header text at the beginning after all processing
 	if book == "john" {
@@ -1758,53 +1831,69 @@ func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
 		}
 	}
 	
-	// Simple sequential footnote numbering as requested
+	// Use pre-loaded footnotes from JSON instead of parsing HTML
+	// Get footnotes for this sermon
+	homilyFootnotes, hasFootnotes := cyrilLukeFootnotesData[strconv.Itoa(sermonNum)]
+	var footnotes []Footnote
+	footnoteMap := make(map[string]string)
+	
+	// Debug: check what we have for this sermon
+	if sermonNum == 1 {
+		log.Printf("DEBUG: hasFootnotes=%v, sermonNum=%d", hasFootnotes, sermonNum)
+		if hasFootnotes {
+			log.Printf("DEBUG: Found %d footnotes for sermon 1", len(homilyFootnotes.Footnotes))
+		}
+	}
+	
+	if hasFootnotes {
+		for _, fn := range homilyFootnotes.Footnotes {
+			footnotes = append(footnotes, Footnote{
+				Number:  strconv.Itoa(fn.DisplayNumber),
+				Content: fn.Content,
+			})
+			// Map original footnote number to content for lookup
+			footnoteMap[strconv.Itoa(fn.OriginalNumber)] = fn.Content
+		}
+	}
+	
 	// Match any <A HREF="#anything"><SUP>anything</SUP></A> pattern  
 	footnotePattern := regexp.MustCompile(`(?i)<A\s+HREF="#([^"]+)"><SUP>[^<]*</SUP></A>`)
 	
 	footnoteNum := 1
 	sermonText = footnotePattern.ReplaceAllStringFunc(sermonText, func(match string) string {
-		// Extract the footnote ID from the match for tooltip lookup
+		// Extract the footnote ID from the match
 		hrefMatch := footnotePattern.FindStringSubmatch(match)
 		
 		tooltipContent := ""
 		if len(hrefMatch) > 1 {
 			footnoteID := hrefMatch[1]
-			// Try to find footnote content in the HTML
-			footnoteContentPattern := fmt.Sprintf(`<A NAME="%s"></A>%s\.`, footnoteID, footnoteID)
-			idx := strings.Index(html, footnoteContentPattern)
-			if idx != -1 {
-				// Extract content after the pattern
-				start := idx + len(footnoteContentPattern)
-				// Skip &nbsp; if present
-				if strings.HasPrefix(html[start:], "&nbsp;") {
-					start += 6
-				}
-				
-				// Find end of footnote
-				end := start + 500
-				if nextIdx := strings.Index(html[start:], `<A NAME="`); nextIdx > 0 && nextIdx < 500 {
-					end = start + nextIdx
-				}
-				
-				content := html[start:end]
-				// Clean HTML
-				content = regexp.MustCompile(`<[^>]+>`).ReplaceAllString(content, "")
-				content = strings.TrimSpace(content)
-				
-				// Prepare tooltip content
+			
+			// Look up content in pre-loaded footnotes
+			// Try sequential lookup for Cyril footnotes (HTML uses #1, #2, #3...)
+			if content, found := footnoteMap[footnoteID]; found {
 				tooltipContent = content
-				if len(tooltipContent) > 300 {
-					tooltipContent = tooltipContent[:297] + "..."
+			} else if hasFootnotes && len(footnotes) > 0 {
+				// If direct lookup fails, try sequential mapping
+				if footnoteIdx, err := strconv.Atoi(footnoteID); err == nil && footnoteIdx > 0 && footnoteIdx <= len(footnotes) {
+					tooltipContent = footnotes[footnoteIdx-1].Content
 				}
-				tooltipContent = strings.ReplaceAll(tooltipContent, `"`, `&quot;`)
-				tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
-				tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
 			}
+			
+			// If still no content, add a fallback for debugging
+			if tooltipContent == "" {
+				tooltipContent = fmt.Sprintf("Footnote %s (Sermon %d)", footnoteID, sermonNum)
+			}
+			
+			// Escape for HTML
+			tooltipContent = strings.ReplaceAll(tooltipContent, `"`, `&quot;`)
+			tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
+			tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
 		}
 		
 		// Return the replacement with sequential number
-		replacement := fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" title="%s">%d</sup>`, tooltipContent, footnoteNum)
+		// Use data-tooltip instead of title to avoid browser's default tooltip
+		// Note: Using DATATOOLTIPATR placeholder to prevent hyphen replacement issues
+		replacement := fmt.Sprintf(`<sup class="XXXFOOTNOTEREFXXX" DATATOOLTIPATR="%s">%d</sup>`, tooltipContent, footnoteNum)
 		footnoteNum++
 		return replacement
 	})
@@ -1864,8 +1953,9 @@ func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
 	sermonText = strings.ReplaceAll(sermonText, "<b>", "<strong>")
 	sermonText = strings.ReplaceAll(sermonText, "</b>", "</strong>")
 	
-	// Replace the placeholder with the actual class name (same as Chrysostom)
+	// Replace the placeholders with the actual values (same as Chrysostom)
 	sermonText = strings.ReplaceAll(sermonText, "XXXFOOTNOTEREFXXX", "footnote-ref")
+	sermonText = strings.ReplaceAll(sermonText, "DATATOOLTIPATR", "data-tooltip")
 	
 	// Fix footnote placement according to Chicago Manual of Style
 	// Move footnotes after punctuation marks
