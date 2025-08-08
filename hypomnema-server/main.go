@@ -21,9 +21,19 @@ var templateFS embed.FS
 
 // Book represents a Bible book
 type Book struct {
-	ID       string `json:"id"`
-	Name     string `json:"name"`
-	Chapters int    `json:"chapters"`
+	ID           string `json:"id"`
+	Name         string `json:"name"`
+	Chapters     int    `json:"chapters"`
+	ChapterRange []int  `json:"-"` // For template use
+}
+
+// GetChapterRange returns a slice of chapter numbers for iteration
+func (b Book) GetChapterRange() []int {
+	chapters := make([]int, b.Chapters)
+	for i := 0; i < b.Chapters; i++ {
+		chapters[i] = i + 1
+	}
+	return chapters
 }
 
 // ParagraphBreak represents where a new paragraph starts
@@ -668,83 +678,29 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		
-		// Out-of-band update for prev button
-		if chapter > 1 {
-			response.WriteString(fmt.Sprintf(`<button id="prevChapter" class="nav-btn nav-icon" hx-swap-oob="true"
-				hx-get="/api/chapter/%s/%d"
-				hx-push-url="/%s/%d"
-				hx-target="#text-content"
-				hx-swap="innerHTML"
-				hx-indicator="#loading-indicator"
-				title="Previous Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="15 18 9 12 15 6"></polyline>
-				</svg>
-			</button>`, bookID, chapter-1, bookID, chapter-1))
-			
-			response.WriteString(fmt.Sprintf(`<button id="prevChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true"
-				hx-get="/api/chapter/%s/%d"
-				hx-push-url="/%s/%d"
-				hx-target="#text-content"
-				hx-swap="innerHTML"
-				hx-indicator="#loading-indicator"
-				title="Previous Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="15 18 9 12 15 6"></polyline>
-				</svg>
-			</button>`, bookID, chapter-1, bookID, chapter-1))
-		} else {
-			response.WriteString(`<button id="prevChapter" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Previous Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="15 18 9 12 15 6"></polyline>
-				</svg>
-			</button>`)
-			
-			response.WriteString(`<button id="prevChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Previous Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="15 18 9 12 15 6"></polyline>
-				</svg>
-			</button>`)
+		// Generate chapter selector out-of-band updates (both top and bottom)
+		var chapterBoxes strings.Builder
+		for i := 1; i <= maxChapters; i++ {
+			activeClass := ""
+			if i == chapter {
+				activeClass = " active"
+			}
+			chapterBoxes.WriteString(fmt.Sprintf(`
+				<div class="chapter-box%s"
+				     onclick="loadChapterAndScroll('%s', %d)"
+				     style="cursor: pointer;">%d</div>`,
+				activeClass, bookID, i, i))
 		}
 		
-		// Out-of-band update for next button
-		if chapter < maxChapters {
-			response.WriteString(fmt.Sprintf(`<button id="nextChapter" class="nav-btn nav-icon" hx-swap-oob="true"
-				hx-get="/api/chapter/%s/%d"
-				hx-push-url="/%s/%d"
-				hx-target="#text-content"
-				hx-swap="innerHTML"
-				hx-indicator="#loading-indicator"
-				title="Next Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="9 18 15 12 9 6"></polyline>
-				</svg>
-			</button>`, bookID, chapter+1, bookID, chapter+1))
-			
-			response.WriteString(fmt.Sprintf(`<button id="nextChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true"
-				hx-get="/api/chapter/%s/%d"
-				hx-push-url="/%s/%d"
-				hx-target="#text-content"
-				hx-swap="innerHTML"
-				hx-indicator="#loading-indicator"
-				title="Next Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="9 18 15 12 9 6"></polyline>
-				</svg>
-			</button>`, bookID, chapter+1, bookID, chapter+1))
-		} else {
-			response.WriteString(`<button id="nextChapter" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Next Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="9 18 15 12 9 6"></polyline>
-				</svg>
-			</button>`)
-			
-			response.WriteString(`<button id="nextChapterBottom" class="nav-btn nav-icon" hx-swap-oob="true" disabled title="Next Chapter">
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-					<polyline points="9 18 15 12 9 6"></polyline>
-				</svg>
-			</button>`)
-		}
+		// Top chapter selector
+		response.WriteString(`<div id="chapter-selector" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
+		response.WriteString(chapterBoxes.String())
+		response.WriteString(`</div>`)
+		
+		// Bottom chapter selector
+		response.WriteString(`<div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
+		response.WriteString(chapterBoxes.String())
+		response.WriteString(`</div>`)
 		
 		w.Header().Set("Content-Type", "text/html")
 		w.Write([]byte(response.String()))

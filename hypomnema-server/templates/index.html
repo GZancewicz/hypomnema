@@ -7,7 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=69">
+    <link rel="stylesheet" href="/static/styles.css?v=79">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -52,38 +52,6 @@
             }
         }
         
-        /* Navigation icon buttons */
-        .nav-btn.nav-icon {
-            padding: 8px;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: white;
-        }
-        
-        .nav-btn.nav-icon svg {
-            display: block;
-            transition: transform 0.2s ease;
-        }
-        
-        .nav-btn.nav-icon:hover:not(:disabled) svg {
-            transform: scale(1.1);
-        }
-        
-        /* Adjust arrow direction on hover */
-        #prevChapter:hover:not(:disabled) svg,
-        #prevChapterBottom:hover:not(:disabled) svg {
-            transform: translateX(-2px);
-        }
-        
-        #nextChapter:hover:not(:disabled) svg,
-        #nextChapterBottom:hover:not(:disabled) svg {
-            transform: translateX(2px);
-        }
-        
         /* Search container animation */
         .search-container {
             animation: slideDown 0.2s ease-out;
@@ -97,6 +65,63 @@
             to {
                 opacity: 1;
                 transform: translateY(0);
+            }
+        }
+        
+        /* Chapter selector styles */
+        .chapter-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 15px 20px;
+            justify-content: center;
+            max-width: 100%;
+        }
+        
+        .chapter-box {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 14px;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .chapter-box:hover {
+            border-color: #007bff;
+            background: #f0f8ff;
+            transform: scale(1.05);
+        }
+        
+        .chapter-box.active {
+            background: #f5f5f5;
+            color: #7f8c8d;
+            border-color: #7f8c8d;
+            font-weight: bold;
+        }
+        
+        .chapter-box.active:hover {
+            background: #ebebeb;
+            border-color: #6a7576;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 700px) {
+            .chapter-selector {
+                padding: 10px 15px;
+            }
+            
+            .chapter-box {
+                width: 35px;
+                height: 35px;
+                font-size: 13px;
             }
         }
         
@@ -164,7 +189,7 @@
                         data-book-id="{{.ID}}"
                         hx-get="/api/chapter/{{.ID}}/1"
                         hx-target="#text-content"
-                        hx-swap="innerHTML"
+                        hx-swap="innerHTML show:window:top"
                         hx-push-url="/{{.ID}}/1"
                         hx-indicator="#loading-indicator"
                         preload="mousedown">
@@ -187,28 +212,12 @@
                     </svg>
                 </button>
                 <h1 id="book-title">{{range .Books}}{{if eq .ID $.CurrentBook}}{{.Name}}{{end}}{{end}}</h1>
-                <div class="chapter-nav" hx-ext="preload">
-                    <button id="prevChapter" class="nav-btn nav-icon" 
-                            hx-get=""
-                            hx-target="#text-content"
-                            hx-swap="innerHTML"
-                            title="Previous Chapter"
-                            preload="mousedown">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </button>
-                    <button id="nextChapter" class="nav-btn nav-icon" 
-                            hx-get=""
-                            hx-target="#text-content"
-                            hx-swap="innerHTML"
-                            title="Next Chapter"
-                            preload="mousedown">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
+                
+                <!-- Chapter selector -->
+                <div id="chapter-selector" class="chapter-selector" hx-ext="preload">
+                    <!-- Will be populated by server on chapter load -->
                 </div>
+                
                 <h2 id="chapter-title">Chapter {{.CurrentChap}}</h2>
             </header>
             
@@ -220,27 +229,9 @@
             </div>
             
             <footer class="content-footer">
-                <div class="chapter-nav" hx-ext="preload">
-                    <button id="prevChapterBottom" class="nav-btn nav-icon"
-                            hx-get=""
-                            hx-target="#text-content"
-                            hx-swap="innerHTML"
-                            title="Previous Chapter"
-                            preload="mousedown">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </button>
-                    <button id="nextChapterBottom" class="nav-btn nav-icon"
-                            hx-get=""
-                            hx-target="#text-content"
-                            hx-swap="innerHTML"
-                            title="Next Chapter"
-                            preload="mousedown">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
+                <!-- Bottom chapter selector -->
+                <div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload">
+                    <!-- Will be populated by server on chapter load -->
                 </div>
             </footer>
         </main>
@@ -292,10 +283,70 @@
             {{end}}
         };
         
+        // Populate chapter selectors (both top and bottom)
+        function populateChapterSelectors(bookId, currentChap) {
+            const selectors = ['chapter-selector', 'chapter-selector-bottom'];
+            
+            if (!bookChapters[bookId]) return;
+            
+            const maxChapters = bookChapters[bookId];
+            let html = '';
+            
+            for (let i = 1; i <= maxChapters; i++) {
+                const activeClass = i === currentChap ? ' active' : '';
+                html += `<div class="chapter-box${activeClass}"
+                             onclick="loadChapterAndScroll('${bookId}', ${i})"
+                             style="cursor: pointer;">${i}</div>`;
+            }
+            
+            selectors.forEach(selectorId => {
+                const selector = document.getElementById(selectorId);
+                if (selector) {
+                    selector.innerHTML = html;
+                    htmx.process(selector); // Re-process HTMX attributes
+                }
+            });
+        }
+        
+        // Populate on initial load
+        document.addEventListener('DOMContentLoaded', function() {
+            populateChapterSelectors(currentBook, currentChapter);
+        });
+        
+        // Load chapter and scroll to top
+        function loadChapterAndScroll(bookId, chapter) {
+            // Try multiple scroll methods to ensure it works
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            
+            // Also scroll the main content area if it exists
+            const mainContent = document.querySelector('.content');
+            if (mainContent) {
+                mainContent.scrollTop = 0;
+            }
+            
+            // Load the chapter content
+            htmx.ajax('GET', `/api/chapter/${bookId}/${chapter}`, '#text-content');
+            
+            // Update URL
+            history.pushState(null, '', `/${bookId}/${chapter}`);
+            
+            // Close search if open
+            closeSearch();
+            
+            // Force another scroll after a brief delay
+            setTimeout(() => {
+                window.scrollTo(0, 0);
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
+            }, 50);
+        }
+        
         // Listen for HTMX events to update UI after content loads
         document.addEventListener('htmx:afterSwap', function(event) {
             // Check if this was a chapter load (the target will be text-content)
-            if (event.detail.target.id === 'text-content') {
+            if (event.detail.target && event.detail.target.id === 'text-content') {
                 // Clear and hide search when navigating to a chapter
                 closeSearch();
                 // Get the request path from the event
@@ -429,11 +480,6 @@
             // Add active state to About
             event.target.classList.add('active');
             
-            // Hide navigation buttons
-            document.getElementById('prevChapter').style.display = 'none';
-            document.getElementById('nextChapter').style.display = 'none';
-            document.getElementById('prevChapterBottom').style.display = 'none';
-            document.getElementById('nextChapterBottom').style.display = 'none';
             
             // Load about content
             htmx.ajax('GET', '/api/about', '#text-content');
