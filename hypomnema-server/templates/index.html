@@ -54,15 +54,33 @@
         /* Navigation icon buttons */
         .nav-btn.nav-icon {
             padding: 8px;
-            width: 36px;
-            height: 36px;
+            width: 40px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
+            border-radius: 50%;
+            background: white;
         }
         
         .nav-btn.nav-icon svg {
             display: block;
+            transition: transform 0.2s ease;
+        }
+        
+        .nav-btn.nav-icon:hover:not(:disabled) svg {
+            transform: scale(1.1);
+        }
+        
+        /* Adjust arrow direction on hover */
+        #prevChapter:hover:not(:disabled) svg,
+        #prevChapterBottom:hover:not(:disabled) svg {
+            transform: translateX(-2px);
+        }
+        
+        #nextChapter:hover:not(:disabled) svg,
+        #nextChapterBottom:hover:not(:disabled) svg {
+            transform: translateX(2px);
         }
     </style>
 </head>
