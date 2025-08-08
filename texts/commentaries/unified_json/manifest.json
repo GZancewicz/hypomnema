@@ -1,0 +1,29 @@
+{
+  "format_version": "1.0",
+  "description": "Unified commentary format for Hypomnema",
+  "structure": {
+    "number": "Commentary number (integer)",
+    "author": "Author name",
+    "book": "Biblical book",
+    "type": "homily or sermon",
+    "title": "Display title",
+    "verse_reference": "Optional verse reference",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Paragraph text with <em> and <strong> tags"
+      }
+    ],
+    "footnotes": [
+      {
+        "number": "Footnote number",
+        "content": "Footnote text"
+      }
+    ]
+  },
+  "files": [
+    "chrysostom_matthew.json",
+    "chrysostom_john.json",
+    "cyril_luke.json"
+  ]
+}

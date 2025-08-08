@@ -1859,6 +1859,9 @@ func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
 	// Match any <A HREF="#anything"><SUP>anything</SUP></A> pattern  
 	footnotePattern := regexp.MustCompile(`(?i)<A\s+HREF="#([^"]+)"><SUP>[^<]*</SUP></A>`)
 	
+	// Collect footnotes for endnotes section
+	var collectedFootnotes []Footnote
+	
 	footnoteNum := 1
 	sermonText = footnotePattern.ReplaceAllStringFunc(sermonText, func(match string) string {
 		// Extract the footnote ID from the match
@@ -1888,6 +1891,19 @@ func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
 			tooltipContent = strings.ReplaceAll(tooltipContent, `"`, `&quot;`)
 			tooltipContent = strings.ReplaceAll(tooltipContent, `<`, `&lt;`)
 			tooltipContent = strings.ReplaceAll(tooltipContent, `>`, `&gt;`)
+		}
+		
+		// Collect this footnote for endnotes section
+		if tooltipContent != "" && !strings.HasPrefix(tooltipContent, "Footnote ") {
+			// Unescape for display in endnotes
+			displayContent := strings.ReplaceAll(tooltipContent, `&quot;`, `"`)
+			displayContent = strings.ReplaceAll(displayContent, `&lt;`, `<`)
+			displayContent = strings.ReplaceAll(displayContent, `&gt;`, `>`)
+			
+			collectedFootnotes = append(collectedFootnotes, Footnote{
+				Number: strconv.Itoa(footnoteNum),
+				Content: fmt.Sprintf("%d. %s", footnoteNum, displayContent),
+			})
 		}
 		
 		// Return the replacement with sequential number
@@ -1968,8 +1984,17 @@ func extractCyrilSermonFromHTML(sermonNum int) (string, string, error) {
 	// Clean up the sermon text
 	sermonText = strings.TrimSpace(sermonText)
 	
-	// Note: Cyril's sermons don't have extracted footnotes like Chrysostom's homilies
-	// Any footnotes are embedded in the HTML itself
+	// Append footnotes section if any exist (same as Chrysostom)
+	if len(collectedFootnotes) > 0 {
+		sermonText += "\n\n<div class='footnotes-section'><hr><h4>Notes</h4><ol class='footnotes'>"
+		for _, fn := range collectedFootnotes {
+			// Store content as data attribute for tooltip access
+			escapedContent := strings.ReplaceAll(fn.Content, `"`, `&quot;`)
+			sermonText += fmt.Sprintf(`<li id="fn-%s" data-content="%s">%s</li>`, 
+				fn.Number, escapedContent, fn.Content)
+		}
+		sermonText += "</ol></div>"
+	}
 	
 	log.Printf("After cleaning: %d characters for sermon %d", len(sermonText), sermonNum)
 	if len(sermonText) < 100 {
