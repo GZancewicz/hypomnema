@@ -1,58 +1,47 @@
-2:1 And when the day of Pentecost was fully come, they were all with one accord in one place.
-2:2 And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.
-2:3 And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.
-2:4 And they were all filled with the Holy Ghost, and began to speak with other tongues, as the Spirit gave them utterance.
-2:5 And there were dwelling at Jerusalem Jews, devout men, out of every nation under heaven.
-2:6 Now when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language.
-2:7 And they were all amazed and marvelled, saying one to another, Behold, are not all these which speak Galilaeans?
-2:8 And how hear we every man in our own tongue, wherein we were born?
-2:9 Parthians, and Medes, and Elamites, and the dwellers in Mesopotamia, and in Judaea, and Cappadocia, in Pontus, and Asia,
-2:10 Phrygia, and Pamphylia, in Egypt, and in the parts of Libya about Cyrene, and strangers of Rome, Jews and proselytes,
-2:11 Cretes and Arabians, we do hear them speak in our tongues the wonderful works of God.
-2:12 And they were all amazed, and were in doubt, saying one to another, What meaneth this?
-2:13 Others mocking said, These men are full of new wine.
-2:14 But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Judaea, and all
-ye that dwell at Jerusalem, be this known unto you, and hearken to my words:
-2:15 For these are not drunken, as ye suppose, seeing it is
-but
- the third hour of the day.
-2:16 But this is that which was spoken by the prophet Joel;
-2:17 And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh: and your sons and your daughters shall prophesy, and your young men shall see visions, and your old men shall dream dreams:
-2:18 And on my servants and on my handmaidens I will pour out in those days of my Spirit; and they shall prophesy:
-2:19 And I will shew wonders in heaven above, and signs in the earth beneath; blood, and fire, and vapour of smoke:
-2:20 The sun shall be turned into darkness, and the moon into blood, before that great and notable day of the Lord come:
-2:21 And it shall come to pass,
-that whosoever shall call on the name of the Lord shall be saved.
-2:22 Ye men of Israel, hear these words; Jesus of Nazareth, a man approved of God among you by miracles and wonders and signs, which God did by him in the midst of you, as ye yourselves also know:
-2:23 Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:
-2:24 Whom God hath raised up, having loosed the pains of death: because it was not possible that he should be holden of it.
-2:25 For David speaketh concerning him, I foresaw the Lord always before my face, for he is on my right hand, that I should not be moved:
-2:26 Therefore did my heart rejoice, and my tongue was glad; moreover also my flesh shall rest in hope:
-2:27 Because thou wilt not leave my soul in hell, neither wilt thou suffer thine Holy One to see corruption.
-2:28 Thou hast made known to me the ways of life; thou shalt make me full of joy with thy countenance.
-2:29 Men
-and brethren, let me freely speak unto you of the patriarch David, that he is both dead and buried, and his sepulchre is with us unto this day.
+2:1 But I determined this with myself, that I would not come again to you in heaviness.
+2:2 For if I make you sorry, who is he then that maketh me glad, but the same which is made sorry by me?
+2:3 And I wrote this same unto you, lest, when I came, I should have sorrow from them of whom I ought to rejoice; having confidence in you all, that my joy is the joy of you all.
+2:4 For out of much affliction and anguish of heart I wrote unto you with many tears; not that ye should be grieved, but that ye might know the love which I have more abundantly unto you.
+2:5 But if any have caused grief, he hath not grieved me, but in part: that I may not overcharge you all.
+2:6 Sufficient to such a man is this punishment, which was inflicted of many.
+2:7 So that contrariwise ye ought rather to forgive him, and comfort him, lest perhaps such a one should be swallowed up with overmuch sorrow.
+2:8 Wherefore I beseech you that ye would confirm your love toward him.
+2:9 For to this end also did I write, that I might know the proof of you, whether ye be obedient in all things.
+2:10 To whom ye forgive any thing, I forgive also: for if I forgave any thing, to whom I forgave it, for your sakes forgave I it in the person of Christ;
+2:11 Lest Satan should get an advantage of us: for we are not ignorant of his devices.
+2:12 Furthermore, when I came to Troas to preach Christ’s gospel, and a door was opened unto me of the Lord,
+2:13 I had no rest in my spirit, because I found not Titus my brother: but taking my leave of them, I went from thence into Macedonia.
+2:14 Now thanks be unto God, which always causeth us to triumph in Christ, and maketh manifest the savour of his knowledge by us in every place.
+2:15 For we are unto God a sweet savour of Christ, in them that are saved, and in them that perish:
+2:16 To the one we are the savour of death unto death; and to the other the savour of life unto life. And who is sufficient for these things?
+2:17 For we are not as many, which corrupt the word of God: but as of sincerity, but as of God, in the sight of God speak we in Christ.
+2:18 And knowest his will, and approvest the things that are more excellent, being instructed out of the law;
+2:19 And art confident that thou thyself art a guide of the blind, a light of them which are in darkness,
+2:20 An instructor of the foolish, a teacher of babes, which hast the form of knowledge and of the truth in the law.
+2:21 Thou therefore which teachest another, teachest thou not thyself? thou that preachest a man should not steal, dost thou steal?
+2:22 Thou that sayest a man should not commit adultery, dost thou commit adultery? thou that abhorrest idols, dost thou commit sacrilege?
+2:23 Thou that makest thy boast of the law, through breaking the law dishonourest thou God?
+2:24 For the name of God is blasphemed among the Gentiles through you, as it is written.
+2:25 For circumcision verily profiteth, if thou keep the law: but if thou be a breaker of the law, thy circumcision is made uncircumcision.
+2:26 Therefore if the uncircumcision keep the righteousness of the law, shall not his uncircumcision be counted for circumcision?
+2:27 And shall not uncircumcision which is by nature, if it fulfil the law, judge thee, who by the letter and circumcision dost transgress the law?
+2:28 For he is not a Jew, which is one outwardly; neither is that circumcision, which is outward in the flesh:
+2:29 But he is a Jew, which is one inwardly; and circumcision is that of the heart, in the spirit, and not in the letter; whose praise is not of men, but of God.
 2:30 Therefore being a prophet, and knowing that God had sworn with an oath to him, that of the fruit of his loins, according to the flesh, he would raise up Christ to sit on his throne;
 2:31 He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.
 2:32 This Jesus hath God raised up, whereof we all are witnesses.
 2:33 Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear.
-2:34 For David is not ascended into the heavens: but he saith himself, The LORD said unto my Lord, Sit thou on my right hand,
+2:34 For David is not ascended into the heavens: but he saith himself, The Lord said unto my Lord, Sit thou on my right hand,
 2:35 Until I make thy foes thy footstool.
-2:36 Therefore let all the house of Israel know assuredly, that God hath made that same Jesus, whom ye have crucified, both Lord and Christ.
-2:37 Now when they heard
-this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men
-and brethren, what shall we do?
+2:36 Therefore let all the house of Israel know assuredly, that God hath made the same Jesus, whom ye have crucified, both Lord and Christ.
+2:37 Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do?
 2:38 Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.
-2:39 For the promise is unto you, and to your children, and to all that are afar off,
-even as many as the Lord our God shall call.
+2:39 For the promise is unto you, and to your children, and to all that are afar off, even as many as the LORD our God shall call.
 2:40 And with many other words did he testify and exhort, saying, Save yourselves from this untoward generation.
-2:41 Then they that gladly received his word were baptized: and the same day there were added
-unto them about three thousand souls.
+2:41 Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls.
 2:42 And they continued stedfastly in the apostles’ doctrine and fellowship, and in breaking of bread, and in prayers.
 2:43 And fear came upon every soul: and many wonders and signs were done by the apostles.
 2:44 And all that believed were together, and had all things common;
-2:45 And sold their possessions and goods, and parted them to all
-men,
- as every man had need.
+2:45 And sold their possessions and goods, and parted them to all men, as every man had need.
 2:46 And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart,
 2:47 Praising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.
