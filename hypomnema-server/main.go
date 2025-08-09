@@ -807,8 +807,24 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 							bookTitle = "John"
 						}
 						
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on %s"></a>`, 
-							homily.Number, homily.Roman, bookID, homily.Roman, bookTitle))
+						// Get passage reference from coverage data
+						passageRef := ""
+						if comm, ok := commentaries["chrysostom-"+bookID]; ok {
+							if coverage, ok := comm.Coverage[homily.Number]; ok {
+								if coverage.StartChapter == coverage.EndChapter {
+									if coverage.StartVerse == coverage.EndVerse {
+										passageRef = fmt.Sprintf(" (%d:%d)", coverage.StartChapter, coverage.StartVerse)
+									} else {
+										passageRef = fmt.Sprintf(" (%d:%d-%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndVerse)
+									}
+								} else {
+									passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndChapter, coverage.EndVerse)
+								}
+							}
+						}
+						
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on %s%s"></a>`, 
+							homily.Number, homily.Roman, bookID, homily.Roman, bookTitle, passageRef))
 					}
 					html.WriteString(`</div>`)
 				}
@@ -818,58 +834,56 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		// Check for cross-referenced homilies via canon tables
 		if canonNum != "" {
 			if canonData, ok := canonLookup[canonNum]; ok {
-				// When viewing John, show Matthew homilies for parallel passages
-				if bookID == "john" {
-					if matthewRef, ok := canonData["matthew"]; ok {
-						// Parse the Matthew reference
-						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
-						if err == nil {
-							// Find homilies that cover this Matthew passage
-							homilies := findHomiliesForRange("chrysostom", "matthew", startChap, startVerse, endChap, endVerse)
-							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "matthew", true, lastHomilies)
-							html.WriteString(renderedHTML)
-							currentHomilies = append(currentHomilies, newHomilies...)
+				// Get the current book's verse range from the canon
+				currentBookCanonRange := ""
+				if currentBookRef, ok := canonData[bookID]; ok {
+					// Parse and format the current book's range for the tooltip
+					startChap, startVerse, endChap, endVerse, err := parseVerseRef(currentBookRef)
+					if err == nil {
+						if startChap == endChap {
+							if startVerse == endVerse {
+								currentBookCanonRange = fmt.Sprintf("%d:%d", startChap, startVerse)
+							} else {
+								currentBookCanonRange = fmt.Sprintf("%d:%d-%d", startChap, startVerse, endVerse)
+							}
+						} else {
+							currentBookCanonRange = fmt.Sprintf("%d:%d-%d:%d", startChap, startVerse, endChap, endVerse)
 						}
 					}
-				} else if bookID == "matthew" {
-					// When viewing Matthew, show John homilies for parallel passages
-					if johnRef, ok := canonData["john"]; ok {
-						// Parse the John reference
-						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
-						if err == nil {
-							// Find homilies that cover this John passage
-							homilies := findHomiliesForRange("chrysostom", "john", startChap, startVerse, endChap, endVerse)
-							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "john", true, lastHomilies)
-							html.WriteString(renderedHTML)
-							currentHomilies = append(currentHomilies, newHomilies...)
-						}
-					}
-				} else if bookID != "matthew" && bookID != "john" {
-					// For Mark and Luke, show both Matthew and John homilies
-					
-					// First, check for Matthew homilies
-					if matthewRef, ok := canonData["matthew"]; ok {
-						// Parse the Matthew reference
-						startChap, startVerse, endChap, endVerse, err := parseVerseRef(matthewRef)
-						if err == nil {
-							// Find homilies that cover this Matthew passage
-							homilies := findHomiliesForRange("chrysostom", "matthew", startChap, startVerse, endChap, endVerse)
-							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "matthew", true, lastHomilies)
-							html.WriteString(renderedHTML)
-							currentHomilies = append(currentHomilies, newHomilies...)
-						}
+				}
+				
+				// Loop through all books mentioned in this canon
+				for canonBook, canonRef := range canonData {
+					// Skip the current book (don't show self-references)
+					if canonBook == bookID {
+						continue
 					}
 					
-					// Also check for John homilies
-					if johnRef, ok := canonData["john"]; ok {
-						// Parse the John reference
-						startChap, startVerse, endChap, endVerse, err := parseVerseRef(johnRef)
-						if err == nil {
-							// Find homilies that cover this John passage
-							homilies := findHomiliesForRange("chrysostom", "john", startChap, startVerse, endChap, endVerse)
-							renderedHTML, newHomilies := renderHomilyRefs(homilies, "chrysostom", "john", true, lastHomilies)
-							html.WriteString(renderedHTML)
-							currentHomilies = append(currentHomilies, newHomilies...)
+					// Parse the reference for this book
+					startChap, startVerse, endChap, endVerse, err := parseVerseRef(canonRef)
+					if err != nil {
+						continue
+					}
+					
+					// Check all available commentaries for this book
+					for key := range commentaries {
+						// Extract author and book from the key (format: "author-book")
+						parts := strings.Split(key, "-")
+						if len(parts) != 2 {
+							continue
+						}
+						author := parts[0]
+						commBook := parts[1]
+						
+						// Check if this commentary is for the canon's book
+						if commBook == canonBook {
+							// Find homilies that cover this passage
+							homilies := findHomiliesForRange(author, commBook, startChap, startVerse, endChap, endVerse)
+							if len(homilies) > 0 {
+								renderedHTML, newHomilies := renderHomilyRefs(homilies, author, commBook, true, currentBookCanonRange, lastHomilies)
+								html.WriteString(renderedHTML)
+								currentHomilies = append(currentHomilies, newHomilies...)
+							}
 						}
 					}
 				}
@@ -901,8 +915,24 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 				if len(filteredCyrilHomilies) > 0 {
 					html.WriteString(`<div class="homily-refs-container cyril">`)
 					for _, homily := range filteredCyrilHomilies {
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', 'luke'); return false;" class="homily-ref cyril" data-full-text="Cyril of Alexandria, Sermon %s on Luke"></a>`, 
-							homily.Number, homily.Roman, homily.Roman))
+						// Get passage reference from coverage data
+						passageRef := ""
+						if comm, ok := commentaries["cyril-luke"]; ok {
+							if coverage, ok := comm.Coverage[homily.Number]; ok {
+								if coverage.StartChapter == coverage.EndChapter {
+									if coverage.StartVerse == coverage.EndVerse {
+										passageRef = fmt.Sprintf(" (%d:%d)", coverage.StartChapter, coverage.StartVerse)
+									} else {
+										passageRef = fmt.Sprintf(" (%d:%d-%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndVerse)
+									}
+								} else {
+									passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndChapter, coverage.EndVerse)
+								}
+							}
+						}
+						
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', 'luke'); return false;" class="homily-ref cyril" data-full-text="Cyril of Alexandria, Sermon %s on Luke%s"></a>`, 
+							homily.Number, homily.Roman, homily.Roman, passageRef))
 					}
 					html.WriteString(`</div>`)
 				}
@@ -927,7 +957,8 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 }
 
 // renderHomilyRefs generates HTML for homily references
-func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, lastHomilies []int) (string, []int) {
+// If isCrossRef is true and canonVerseRange is provided, it will use that range in the tooltip
+func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, canonVerseRange string, lastHomilies []int) (string, []int) {
 	var html strings.Builder
 	var currentHomilies []int
 	
@@ -972,16 +1003,40 @@ func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, l
 		html.WriteString(fmt.Sprintf(`<div class="%s">`, className))
 		for _, homily := range filteredHomilies {
 			var onclick, fullText string
+			
+			// Determine the verse range to show in the tooltip
+			passageRef := ""
+			if isCrossRef && canonVerseRange != "" {
+				// For cross-references, use the canon's verse range from the current book
+				passageRef = fmt.Sprintf(" (%s)", canonVerseRange)
+			} else {
+				// For direct references, get the homily's actual coverage
+				commKey := fmt.Sprintf("%s-%s", author, book)
+				if comm, ok := commentaries[commKey]; ok {
+					if coverage, ok := comm.Coverage[homily.Number]; ok {
+						if coverage.StartChapter == coverage.EndChapter {
+							if coverage.StartVerse == coverage.EndVerse {
+								passageRef = fmt.Sprintf(" (%d:%d)", coverage.StartChapter, coverage.StartVerse)
+							} else {
+								passageRef = fmt.Sprintf(" (%d:%d-%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndVerse)
+							}
+						} else {
+							passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndChapter, coverage.EndVerse)
+						}
+					}
+				}
+			}
+			
 			if author == "cyril" {
 				onclick = fmt.Sprintf(`loadCyrilHomily(%d, '%s', '%s')`, homily.Number, homily.Roman, book)
-				fullText = fmt.Sprintf("Cyril of Alexandria, Sermon %s on Luke", homily.Roman)
+				fullText = fmt.Sprintf("Cyril of Alexandria, Sermon %s on Luke%s", homily.Roman, passageRef)
 			} else {
 				onclick = fmt.Sprintf(`loadHomily(%d, '%s', '%s')`, homily.Number, homily.Roman, book)
 				bookTitle := "Matthew"
 				if book == "john" {
 					bookTitle = "John"
 				}
-				fullText = fmt.Sprintf("John Chrysostom, Homily %s on %s", homily.Roman, bookTitle)
+				fullText = fmt.Sprintf("John Chrysostom, Homily %s on %s%s", homily.Roman, bookTitle, passageRef)
 			}
 			
 			html.WriteString(fmt.Sprintf(`<a href="#" onclick="%s; return false;" class="%s" data-full-text="%s"></a>`,
