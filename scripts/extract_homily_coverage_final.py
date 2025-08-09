@@ -137,8 +137,8 @@ def extract_from_xml_attributes(xml_path):
     return homilies
 
 def main():
-    xml_path = Path("../texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml")
-    output_path = Path("../texts/commentaries/chrysostom/matthew/homily_coverage.json")
+    xml_path = Path("texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml")
+    output_path = Path("texts/commentaries/chrysostom/matthew/homily_coverage.json")
     
     if not xml_path.exists():
         print(f"XML file not found: {xml_path}")
@@ -162,7 +162,7 @@ def main():
             "end": f"Matthew {data['end_chapter']}:{data['end_verse']}"
         }
     
-    verse_map_path = Path("../texts/commentaries/chrysostom/matthew/matthew_verse_to_homily_clean.json")
+    verse_map_path = Path("texts/commentaries/chrysostom/matthew/matthew_verse_to_homily_clean.json")
     with open(verse_map_path, 'w') as f:
         json.dump(verse_to_homily, f, indent=2)
     

@@ -409,6 +409,7 @@ func main() {
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
+	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
 	
 	// Homily page
@@ -2316,6 +2317,73 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
+}
+
+func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
+	// Parse URL: /api/homilies/chrysostom/matthew or /api/homilies/cyril/luke
+	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/api/homilies/"), "/")
+	if len(parts) != 2 {
+		http.Error(w, "Invalid URL", http.StatusBadRequest)
+		return
+	}
+	
+	author := parts[0]
+	book := parts[1]
+	
+	// Build the commentary key
+	commKey := fmt.Sprintf("%s-%s", author, book)
+	commentary, exists := commentaries[commKey]
+	if !exists {
+		http.Error(w, "Commentary not found", http.StatusNotFound)
+		return
+	}
+	
+	// Generate HTML for all homilies starting from 6 (since first 5 are shown)
+	var html strings.Builder
+	
+	// Determine total count
+	var total int
+	if author == "chrysostom" && book == "matthew" {
+		total = 90
+	} else if author == "chrysostom" && book == "john" {
+		total = 88
+	} else if author == "cyril" && book == "luke" {
+		total = 156
+	} else {
+		http.Error(w, "Unknown commentary", http.StatusNotFound)
+		return
+	}
+	
+	// Generate homily items
+	for i := 6; i <= total; i++ {
+		roman := intToRoman(i)
+		
+		// Get verse range from coverage data
+		passageRef := ""
+		if coverage, ok := commentary.Coverage[i]; ok {
+			if coverage.StartChapter == coverage.EndChapter {
+				if coverage.StartVerse == coverage.EndVerse {
+					passageRef = fmt.Sprintf(" (%d:%d)", coverage.StartChapter, coverage.StartVerse)
+				} else {
+					passageRef = fmt.Sprintf(" (%d:%d-%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndVerse)
+				}
+			} else {
+				passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.StartChapter, coverage.StartVerse, coverage.EndChapter, coverage.EndVerse)
+			}
+		}
+		
+		// Generate the appropriate onclick handler
+		if author == "cyril" {
+			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;">Sermon %s%s</li>`,
+				i, roman, book, roman, passageRef))
+		} else {
+			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadHomily(%d, '%s', '%s'); return false;">Homily %s%s</li>`,
+				i, roman, book, roman, passageRef))
+		}
+	}
+	
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(html.String()))
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
