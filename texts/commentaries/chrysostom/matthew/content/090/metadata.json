@@ -1,0 +1,48 @@
+{
+  "id": 90,
+  "roman": "XC",
+  "title": "Homily XC",
+  "subtitle": "Matthew XC. 27:27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 20
+    },
+    "display": "Matthew 27:27-28:20"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5033,
+  "excerpt": "Homily XC. Matt. XXVIII. 11-14. “Now when they were going, behold, some of the watch came into the city, and declared unto the chief priests all the things that were done.[R.V., “come to pass.”]And when they had assembled with the elders, and had taken counsel, they gave large money unto the soldiers, saying, Say ye, His disciples came by night, and stole Him away while we slept. And if this come to the governor’s ears, we will persuade him, and secure you.”[R.V., “and rid you of care.” The entire passage is in verbal agreement with the received text.—R.] For the sake of these soldiers that earthquake took place, in order to dismay them, and that the testimony might come from them, which accordingly was the result. For the report was thus free from suspicion, as proceeding from the guards themselves. For of the signs some were displayed publicly to the world, others privately to those present on the spot; publicly for the world was the darkness, privately the appearance of the angel, the earthquake. When then they came and showed it (for truth shines forth, being proclaimed by its adversaries), they again gave money, that they might say, as it...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "[R.V., “come to pass.”]",
+    "2": "[R.V., “and rid you of care.” The\nentire passage is in verbal agreement with the received\ntext.—R.]",
+    "3": "Matt.\nxxvii. 64.",
+    "4": "Matt.\nxxviii. 15. [R.V., “was\nspread abroad.” The phrase “among the Jews” is\nomitted, and ἡμρα is added, as in the Vatican ms., and Vulgate.—R.]",
+    "5": "Matt.\nxxviii. 16, 17. [The citation\nis abridged and altered.—R.]",
+    "6": "Matt.\nxxviii. 18. [The citation is\naccurate. R.V., “All authority hath been given,” etc.]",
+    "7": "Matt.\nxxviii. 18, 19. [ον is omitted, as in many mss. R.V., “make disciples of all the nations,\nbaptizing them into,” etc.…“whatsoever I commanded\nyou.”—R.]",
+    "8": "Matt.\nxxviii. 20.",
+    "9": "Jer. i. 6,\n8.",
+    "10": "Exod. iv.\n10, 12.",
+    "11": "Ezek. ii. and iii.",
+    "12": "1 Cor. iv.\n11; 2 Cor. xi. 27; Phil. iv. 12.",
+    "13": "Matt. viii.\n20.",
+    "14": "Acts iii.\n6.",
+    "15": "Matt. xix.\n21.",
+    "16": "Matt. xix.\n27.",
+    "17": "Matt. xix.\n29. [Abridged.]"
+  },
+  "verified": true
+}

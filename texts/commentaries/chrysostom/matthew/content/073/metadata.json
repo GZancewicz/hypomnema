@@ -1,0 +1,60 @@
+{
+  "id": 73,
+  "roman": "LXXIII",
+  "title": "Homily LXXIII",
+  "subtitle": "Matthew LXXIII. 22:1",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 14
+    },
+    "display": "Matthew 22:1-22:14"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5150,
+  "excerpt": "Homily LXXVI. Matt. XXIV. 16-18. “Then let them which be in Judæa flee into the mountains. And let him that is on the housetop not come down to take anything out of his house. Neither let him which is in his field return back to take his clothes.”[In minor details the Greek text agrees with the received against that of our oldest mss. authorities.—R.] Having spoken of the ills that were to overtake the city, and of the trials of the apostles, and that they should remain unsubdued, and should overrun the whole world, He mentions again the Jews’ calamities, showing that when the one should be glorious, having taught the whole world, the others should be in calamity. And see how He relates the war, by the things that seem to be small setting forth how intolerable it was to be. For, “Then,” saith He, “let them which be in Judæa flee into the mountains.” Then, When? When these things should be, “when the abomination of desolation should stand in the holy place.” Whence he seems to me to be speaking of the armies. Flee therefore then, saith He, for thenceforth there is no hope of safety for you....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "[In minor details the Greek text agrees with the\nreceived against that of our oldest mss.\nauthorities.—R.]",
+    "2": "Matt. xxiv.\n19.",
+    "3": "Matt. xxiv.\n20, 21.",
+    "4": "[There is a curious variation in the Greek text\nhere. Our best New Testament mss. reads σαββτ; above the Homily has ἐν\nσαββτ, but here σαββτου, without any\npreposition.—R.]",
+    "5": "Matt. xxiv.\n22. [R.V., “And except\nthose days had been shortened, no flesh would have been saved:\nbut,” etc.]",
+    "6": "[R.V., “to lead astray, if possible, even the\nelect. Behold, I have told you beforehand.”]",
+    "7": "Matt. xxiv.\n23–28. [The citation is\nin verbal agreement with the received text.—R.]",
+    "8": "Matt. xxiv.\n29.",
+    "9": "Matt. iii.\n1. See the comment on that\nplace.",
+    "10": "Matt. xxiv.\n11.",
+    "11": "Matt. xxiv.\n24.",
+    "12": "2 Thess.\nii. 9, 10.",
+    "13": "Matt. xxiv.\n27, 28.",
+    "14": "Matt. xxiv.\n29.",
+    "15": "Job\nxxxviii. 7, LXX. [The LXX. is accurately\ncited. At this point there is a great variation in the readings of the\nmss. of the Homilies, which may be due to the\nvariation from the Hebrew.—R.]",
+    "16": "Matt. xxiv.\n30.",
+    "17": "μετ\nλαμπρο το\nσχματο.",
+    "18": "Matt. xxiv.\n30.",
+    "19": "[So Tischendorf, and R.V. margin.—R.]",
+    "20": "Matt. xxiv.\n31.",
+    "21": "Matt. xxii.\n39.",
+    "22": "1 Thess.\niv. 16.",
+    "23": "διατργειν\n.",
+    "24": "παγκρτια.",
+    "25": "οκεω\nχε.",
+    "26": "1 Cor. ix.\n26.",
+    "27": "Gal. ii.\n2.",
+    "28": "Eccl. i.\n2.",
+    "29": "See On Stat. Hom. III. p. 59, a badge of military\nrank."
+  },
+  "verified": true
+}

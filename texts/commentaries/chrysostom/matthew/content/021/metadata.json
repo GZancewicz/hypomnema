@@ -1,0 +1,60 @@
+{
+  "id": 21,
+  "roman": "XXI",
+  "title": "Homily XXI",
+  "subtitle": "Matthew VI. 24.",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 27
+    },
+    "display": "Matthew 6:24-6:27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3505,
+  "excerpt": "Homily XXI. Matt. VI. 24. “No man can serve two masters, for either he will hate the one and love the other, or else he will hold to one and despise the other.” Seest thou how by degrees He withdraws us from the things that now are, and at greater length introduces what He hath to say, touching voluntary poverty, and casts down the dominion of covetousness? For He was not contented with His former sayings, many and great as they were, but He adds others also, more and more alarming.[“More in number and more terrible.”—R.] For what can be more alarming than what He now saith, if indeed we are for our riches to fall from the service of Christ? or what more to be desired, if indeed, by despising wealth, we shall have our affection towards Him and our charity perfect?[ἀκριβ.] For what I am continually repeating, the same do I now say likewise, namely, that by both kinds He presses the hearer to obey His sayings; both by the profitable, and by the hurtful; much like an excellent physician, pointing out both the disease which is the consequence of neglect, and the good health which results from...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "“More in number and more terrible.”—R.",
+    "2": "[Greek: ἀκριβ].",
+    "3": "Acts iv. 32.",
+    "4": "Job xxxi. 25.",
+    "5": "[Greek: Μ τοινυν περιττ φιλοσφει].",
+    "6": "Phil. iii. 19.",
+    "7": "R.V., more correctly, “Be not anxious,” and so throughout the chapter.—R.",
+    "8": "Greek: τ ψυχ,] “your soul.” [So Chrysostom interprets (see below); but the New Testament passage must refer to physical life. In the latter part of the verse the higher “life” is suggested. But to understand the argument of Chrysostom, [Greek: ψυχ] must be rendered “soul” throughout this passage.—R.",
+    "9": "Matt. vi. 25. [R.V., “Is not the life more than the food,” i.e., the food that sustains it.—R.]",
+    "10": "Matt. vi. 27.",
+    "11": "1 Cor. iii. 7.",
+    "12": "Matt. vi. 26.",
+    "13": "[Greek: δημδη].",
+    "14": "Matt. iv. 4.",
+    "15": "[Greek: ἀλεφοντα].",
+    "16": "Prov. vi. 6–8, LXX. See before, Hom. XVII., 6, note.",
+    "17": "Jer. viii. 7.",
+    "18": "καπηλεουσινἐ[Greek: μπορεονται]: two words which in the New Testament are always used in a bad sense.",
+    "19": "Ps. cxlv. 16.",
+    "20": "Ps. cxlvii. 9.",
+    "21": "Gen. xxviii. 20.",
+    "22": "Acts iv. 4, and ii. 41.",
+    "23": "Matt. vi. 27.",
+    "24": "1 Kings xix. 18; Rom. xi. 4.",
+    "25": "Acts ii. 41, iv. 5.",
+    "26": "See Sulpicius Severus, Dial. i. c. 14. “It is told of a certain holy man that he constantly and entirely abstained from all drink: and that by way of food, he lived upon seven figs only.”",
+    "27": "Luke iii. 14.",
+    "28": "[Greek: ύμ γυμνζομεν], “we are exercising you.”—R.",
+    "29": "So Aristippus: vid. Hor. Serm. 2, 3, 100."
+  },
+  "verified": true
+}

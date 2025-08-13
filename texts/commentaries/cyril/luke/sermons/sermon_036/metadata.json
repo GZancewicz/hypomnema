@@ -1,0 +1,30 @@
+{
+  "id": 36,
+  "roman": "XXXVI",
+  "title": "Sermon XXXVI",
+  "subtitle": "Luke 7:18",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 23
+    },
+    "display": "Luke 7:18-7:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 7:18",
+  "source_file": "cyril_on_luke_04_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

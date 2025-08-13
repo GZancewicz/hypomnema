@@ -1,0 +1,30 @@
+{
+  "id": 21,
+  "roman": "XXI",
+  "title": "Sermon XXI",
+  "subtitle": "Luke 5:33",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 39
+    },
+    "display": "Luke 5:33-5:39"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 5:33",
+  "source_file": "cyril_on_luke_03_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

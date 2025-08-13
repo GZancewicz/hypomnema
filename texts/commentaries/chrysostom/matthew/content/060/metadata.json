@@ -1,0 +1,55 @@
+{
+  "id": 60,
+  "roman": "LX",
+  "title": "Homily LX",
+  "subtitle": "Matthew LX. 17:10",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "display": "Matthew 17:10-17:21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3951,
+  "excerpt": "Homily LXIII. Matt. XIX. 16. “And, behold, one came and said unto Him, Good Master, by doing what, shall I inherit eternal life?” Some indeed accuse this young man, as one dissembling and ill-minded, and coming with a temptation to Jesus, but I, though I would not say he was not fond of money, and under subjection to his wealth, since Christ in fact convicted him of being such a character, yet a dissembler I would by no means call him, both because it is not safe to venture on things uncertain, and especially in blame, and because Mark hath taken away this suspicion; for he saith, that “having come running unto Him, and kneeling to Him, he besought Him,” and that “Jesus beheld him, and loved him.”Mark x. 17–21. But great is the tyranny of wealth, and it is manifest hence; I mean, that though we be virtuous as to the rest, this ruins all besides. With reason hath Paul also affirmed it to be the root of all evils in general. “For the love of money is the root of all evils,”1 Tim. vi. 10. [R.V., “a root of all kinds of evil.”]he saith. Wherefore then doth Christ...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "Mark x.\n17–21.",
+    "2": "1 Tim. vi.\n10. [R.V., “a root of\nall kinds of evil.”]",
+    "3": "Matt. xix.\n17. [This clause is found in\nthe rec. text, but not in the better supported form of the verse, which\nreads, “Why askest thou me concerning that which is good? One\nthere is who is good.” It is probable, but not certain, that\nChrysostom accepted the other form of the text. Comp. note on Homily\nXXVII. 5., p. 186.—R.]",
+    "4": "John iv.\n22.",
+    "5": "John v.\n31.",
+    "6": "Matt. vii.\n11.",
+    "7": "[φησν,\n“one may say,” occurs in the Greek here.—R.]",
+    "8": "Matt. xix.\n20. [R.V. omits “from\nmy youth up.”]",
+    "9": "[An important sentence is omitted here: “But\nthat also was not a little thing which he supposed he lacked, nor did\nhe think that what he had said sufficed for attaining what he\ndesired.”—R.]",
+    "10": "Matt. xix.\n21. [R.V., “If thou\nwouldest,” etc.]",
+    "11": "Matt. xvi.\n24.",
+    "12": "Matt. xix.\n22.",
+    "13": "[R.V., “he was one that had,” etc.]",
+    "14": "Matt. xix.\n23. [The citation is a\ncombination of this verse and Mark x. 23. The influence of Mark’s more\nstriking account is seen throughout the Homily.—R.]",
+    "15": "βελνην.",
+    "16": "[R.V., with the same Greek text, renders, “to\ngo through a needle’s eye.” The variation in the English\nabove seems unnecessary.—R.]",
+    "17": "Matt. xix.\n24.",
+    "18": "Matt. xix.\n26.",
+    "19": "Matt. xix.\n27–29. [The position of\nthe word “lands” is peculiar; “or wife” is not\nfound here, but occurs in Homily LXIV. 1.—R.]",
+    "20": "[The following clause is omitted in the translation:\n“though (or, if) as a whole it seems difficult to\nthem.”—R.]",
+    "21": "[The Greek adds here, κα\nπεριβλλεσθαι\nπλεω, and to possess himself of\nmore.—R.]",
+    "22": "τ λγ\nποησον.",
+    "23": "Mr. Field cites Stobæus, p. 130, 52, of Bion,\nand Diog. Laert. vi. 50, of Diogenes the cynic, noting that both say\nμητρπολι, not ἀκρπολι. See Adnot. p.\n133.",
+    "24": "1 Tim. vi.\n10. [R.V., “a root of\nall kinds of evil.”"
+  },
+  "verified": true
+}

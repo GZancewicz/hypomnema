@@ -1,0 +1,30 @@
+{
+  "id": 52,
+  "roman": "LII",
+  "title": "Sermon LII",
+  "subtitle": "Luke 9:37",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 42
+    },
+    "display": "Luke 9:37-9:42"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 9:37",
+  "source_file": "cyril_on_luke_06_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

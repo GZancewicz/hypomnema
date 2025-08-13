@@ -1,0 +1,30 @@
+{
+  "id": 28,
+  "roman": "XXVIII",
+  "title": "Sermon XXVIII",
+  "subtitle": "Luke 6:27",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 35
+    },
+    "display": "Luke 6:27-6:35"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 6:27",
+  "source_file": "cyril_on_luke_03_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

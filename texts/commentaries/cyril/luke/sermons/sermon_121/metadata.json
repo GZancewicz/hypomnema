@@ -1,0 +1,30 @@
+{
+  "id": 121,
+  "roman": "CXXI",
+  "title": "Sermon CXXI",
+  "subtitle": "Luke 18:18",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 27
+    },
+    "display": "Luke 18:18-18:27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 18:18",
+  "source_file": "cyril_on_luke_13_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

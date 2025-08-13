@@ -1,0 +1,30 @@
+{
+  "id": 49,
+  "roman": "XLIX",
+  "title": "Sermon XLIX",
+  "subtitle": "Luke 9:18",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "display": "Luke 9:18-9:22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 9:18",
+  "source_file": "cyril_on_luke_05_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

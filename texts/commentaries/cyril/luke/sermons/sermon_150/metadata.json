@@ -1,0 +1,30 @@
+{
+  "id": 150,
+  "roman": "CL",
+  "title": "Sermon CL",
+  "subtitle": "Luke 23:13",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 25
+    },
+    "display": "Luke 23:13-23:25"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 23:13",
+  "source_file": "cyril_on_luke_15_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

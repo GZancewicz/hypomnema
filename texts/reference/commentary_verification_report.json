@@ -1,0 +1,23 @@
+{
+  "commentaries": {
+    "chrysostom_matthew": {
+      "expected_homilies": 90,
+      "has_xml": true,
+      "has_coverage_json": true,
+      "has_footnotes": true
+    },
+    "chrysostom_john": {
+      "expected_homilies": 88,
+      "has_xml": true,
+      "has_coverage_json": true,
+      "has_footnotes": true
+    },
+    "cyril_luke": {
+      "expected_sermons": 156,
+      "has_html": true,
+      "has_coverage_json": true,
+      "has_sermons_json": true
+    }
+  },
+  "issues": []
+}

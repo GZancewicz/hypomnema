@@ -1,0 +1,30 @@
+{
+  "id": 109,
+  "roman": "CIX",
+  "title": "Sermon CIX",
+  "subtitle": "Luke 16:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "display": "Luke 16:1-16:13"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 16:1",
+  "source_file": "cyril_on_luke_11_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

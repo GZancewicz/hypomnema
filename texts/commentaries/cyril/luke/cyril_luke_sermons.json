@@ -1,0 +1,1405 @@
+{
+  "commentary": {
+    "author": "Cyril of Alexandria",
+    "book": "luke",
+    "title": "Sermons on Luke",
+    "total_sermons": 155,
+    "sermons": {
+      "1": {
+        "number": 1,
+        "roman": "I",
+        "title": "Luke 2:1",
+        "start_chapter": 2,
+        "start_verse": 1,
+        "end_chapter": 2,
+        "end_verse": 7
+      },
+      "2": {
+        "number": 2,
+        "roman": "II",
+        "title": "Luke 2:8",
+        "start_chapter": 2,
+        "start_verse": 8,
+        "end_chapter": 2,
+        "end_verse": 18
+      },
+      "3": {
+        "number": 3,
+        "roman": "III",
+        "title": "Luke 2:21",
+        "start_chapter": 2,
+        "start_verse": 21,
+        "end_chapter": 2,
+        "end_verse": 24
+      },
+      "4": {
+        "number": 4,
+        "roman": "IV",
+        "title": "Luke 2:25",
+        "start_chapter": 2,
+        "start_verse": 25,
+        "end_chapter": 2,
+        "end_verse": 35
+      },
+      "5": {
+        "number": 5,
+        "roman": "V",
+        "title": "Luke 2:40",
+        "start_chapter": 2,
+        "start_verse": 40,
+        "end_chapter": 2,
+        "end_verse": 52
+      },
+      "6": {
+        "number": 6,
+        "roman": "VI",
+        "title": "Luke 3:1",
+        "start_chapter": 3,
+        "start_verse": 1,
+        "end_chapter": 3,
+        "end_verse": 6
+      },
+      "7": {
+        "number": 7,
+        "roman": "VII",
+        "title": "Luke 3:7",
+        "start_chapter": 3,
+        "start_verse": 7,
+        "end_chapter": 3,
+        "end_verse": 9
+      },
+      "8": {
+        "number": 8,
+        "roman": "VIII",
+        "title": "Luke 3:10",
+        "start_chapter": 3,
+        "start_verse": 10,
+        "end_chapter": 3,
+        "end_verse": 14
+      },
+      "9": {
+        "number": 9,
+        "roman": "IX",
+        "title": "Luke 3:10",
+        "start_chapter": 3,
+        "start_verse": 10,
+        "end_chapter": 3,
+        "end_verse": 14
+      },
+      "10": {
+        "number": 10,
+        "roman": "X",
+        "title": "Luke 3:15",
+        "start_chapter": 3,
+        "start_verse": 15,
+        "end_chapter": 3,
+        "end_verse": 17
+      },
+      "11": {
+        "number": 11,
+        "roman": "XI",
+        "title": "Luke 3:21",
+        "start_chapter": 3,
+        "start_verse": 21,
+        "end_chapter": 3,
+        "end_verse": 23
+      },
+      "12": {
+        "number": 12,
+        "roman": "XII",
+        "title": "Luke 4:1",
+        "start_chapter": 4,
+        "start_verse": 1,
+        "end_chapter": 4,
+        "end_verse": 13
+      },
+      "13": {
+        "number": 13,
+        "roman": "XIII",
+        "title": "Luke 4:14",
+        "start_chapter": 4,
+        "start_verse": 14,
+        "end_chapter": 4,
+        "end_verse": 21
+      },
+      "14": {
+        "number": 14,
+        "roman": "XIV",
+        "title": "Luke 4:22",
+        "start_chapter": 4,
+        "start_verse": 22,
+        "end_chapter": 4,
+        "end_verse": 37
+      },
+      "15": {
+        "number": 15,
+        "roman": "XV",
+        "title": "Luke 4:38",
+        "start_chapter": 4,
+        "start_verse": 38,
+        "end_chapter": 4,
+        "end_verse": 41
+      },
+      "16": {
+        "number": 16,
+        "roman": "XVI",
+        "title": "Luke 4:40",
+        "start_chapter": 4,
+        "start_verse": 40,
+        "end_chapter": 4,
+        "end_verse": 44
+      },
+      "17": {
+        "number": 17,
+        "roman": "XVII",
+        "title": "Luke 5:1",
+        "start_chapter": 5,
+        "start_verse": 1,
+        "end_chapter": 5,
+        "end_verse": 11
+      },
+      "18": {
+        "number": 18,
+        "roman": "XVIII",
+        "title": "Luke 5:12",
+        "start_chapter": 5,
+        "start_verse": 12,
+        "end_chapter": 5,
+        "end_verse": 15
+      },
+      "19": {
+        "number": 19,
+        "roman": "XIX",
+        "title": "Luke 5:12",
+        "start_chapter": 5,
+        "start_verse": 12,
+        "end_chapter": 5,
+        "end_verse": 16
+      },
+      "20": {
+        "number": 20,
+        "roman": "XX",
+        "title": "Luke 5:17",
+        "start_chapter": 5,
+        "start_verse": 17,
+        "end_chapter": 5,
+        "end_verse": 32
+      },
+      "21": {
+        "number": 21,
+        "roman": "XXI",
+        "title": "Luke 5:33",
+        "start_chapter": 5,
+        "start_verse": 33,
+        "end_chapter": 5,
+        "end_verse": 39
+      },
+      "22": {
+        "number": 22,
+        "roman": "XXII",
+        "title": "Luke 6:1",
+        "start_chapter": 6,
+        "start_verse": 1,
+        "end_chapter": 6,
+        "end_verse": 5
+      },
+      "23": {
+        "number": 23,
+        "roman": "XXIII",
+        "title": "Luke 6:6",
+        "start_chapter": 6,
+        "start_verse": 6,
+        "end_chapter": 6,
+        "end_verse": 11
+      },
+      "24": {
+        "number": 24,
+        "roman": "XXIV",
+        "title": "Luke 6:12",
+        "start_chapter": 6,
+        "start_verse": 12,
+        "end_chapter": 6,
+        "end_verse": 16
+      },
+      "25": {
+        "number": 25,
+        "roman": "XXV",
+        "title": "Luke 6:17",
+        "start_chapter": 6,
+        "start_verse": 17,
+        "end_chapter": 6,
+        "end_verse": 19
+      },
+      "27": {
+        "number": 27,
+        "roman": "XXVII",
+        "title": "Luke 6:20",
+        "start_chapter": 6,
+        "start_verse": 20,
+        "end_chapter": 6,
+        "end_verse": 26
+      },
+      "28": {
+        "number": 28,
+        "roman": "XXVIII",
+        "title": "Luke 6:27",
+        "start_chapter": 6,
+        "start_verse": 27,
+        "end_chapter": 6,
+        "end_verse": 35
+      },
+      "29": {
+        "number": 29,
+        "roman": "XXIX",
+        "title": "Luke 6:31",
+        "start_chapter": 6,
+        "start_verse": 31,
+        "end_chapter": 6,
+        "end_verse": 31
+      },
+      "30": {
+        "number": 30,
+        "roman": "XXX",
+        "title": "Luke 6:37",
+        "start_chapter": 6,
+        "start_verse": 37,
+        "end_chapter": 6,
+        "end_verse": 38
+      },
+      "31": {
+        "number": 31,
+        "roman": "XXXI",
+        "title": "Luke 6:39",
+        "start_chapter": 6,
+        "start_verse": 39,
+        "end_chapter": 6,
+        "end_verse": 42
+      },
+      "32": {
+        "number": 32,
+        "roman": "XXXII",
+        "title": "Luke 6:43",
+        "start_chapter": 6,
+        "start_verse": 43,
+        "end_chapter": 6,
+        "end_verse": 45
+      },
+      "33": {
+        "number": 33,
+        "roman": "XXXIII",
+        "title": "Luke 6:46",
+        "start_chapter": 6,
+        "start_verse": 46,
+        "end_chapter": 6,
+        "end_verse": 49
+      },
+      "34": {
+        "number": 34,
+        "roman": "XXXIV",
+        "title": "Luke 7:1",
+        "start_chapter": 7,
+        "start_verse": 1,
+        "end_chapter": 7,
+        "end_verse": 10
+      },
+      "35": {
+        "number": 35,
+        "roman": "XXXV",
+        "title": "Luke 7:11",
+        "start_chapter": 7,
+        "start_verse": 11,
+        "end_chapter": 7,
+        "end_verse": 17
+      },
+      "36": {
+        "number": 36,
+        "roman": "XXXVI",
+        "title": "Luke 7:18",
+        "start_chapter": 7,
+        "start_verse": 18,
+        "end_chapter": 7,
+        "end_verse": 23
+      },
+      "37": {
+        "number": 37,
+        "roman": "XXXVII",
+        "title": "Luke 7:24",
+        "start_chapter": 7,
+        "start_verse": 24,
+        "end_chapter": 7,
+        "end_verse": 28
+      },
+      "38": {
+        "number": 38,
+        "roman": "XXXVIII",
+        "title": "Luke 7:24",
+        "start_chapter": 7,
+        "start_verse": 24,
+        "end_chapter": 7,
+        "end_verse": 28
+      },
+      "39": {
+        "number": 39,
+        "roman": "XXXIX",
+        "title": "Luke 7:31",
+        "start_chapter": 7,
+        "start_verse": 31,
+        "end_chapter": 7,
+        "end_verse": 35
+      },
+      "40": {
+        "number": 40,
+        "roman": "XL",
+        "title": "Luke 7:36",
+        "start_chapter": 7,
+        "start_verse": 36,
+        "end_chapter": 7,
+        "end_verse": 50
+      },
+      "41": {
+        "number": 41,
+        "roman": "XLI",
+        "title": "Luke 8:1",
+        "start_chapter": 8,
+        "start_verse": 1,
+        "end_chapter": 8,
+        "end_verse": 3
+      },
+      "42": {
+        "number": 42,
+        "roman": "XLII",
+        "title": "Luke 8:4",
+        "start_chapter": 8,
+        "start_verse": 4,
+        "end_chapter": 8,
+        "end_verse": 15
+      },
+      "43": {
+        "number": 43,
+        "roman": "XLIII",
+        "title": "Luke 8:16",
+        "start_chapter": 8,
+        "start_verse": 16,
+        "end_chapter": 8,
+        "end_verse": 21
+      },
+      "44": {
+        "number": 44,
+        "roman": "XLIV",
+        "title": "Luke 8:22",
+        "start_chapter": 8,
+        "start_verse": 22,
+        "end_chapter": 8,
+        "end_verse": 25
+      },
+      "45": {
+        "number": 45,
+        "roman": "XLV",
+        "title": "Luke 8:26",
+        "start_chapter": 8,
+        "start_verse": 26,
+        "end_chapter": 8,
+        "end_verse": 39
+      },
+      "46": {
+        "number": 46,
+        "roman": "XLVI",
+        "title": "Luke 8:40",
+        "start_chapter": 8,
+        "start_verse": 40,
+        "end_chapter": 8,
+        "end_verse": 56
+      },
+      "47": {
+        "number": 47,
+        "roman": "XLVII",
+        "title": "Luke 9:1",
+        "start_chapter": 9,
+        "start_verse": 1,
+        "end_chapter": 9,
+        "end_verse": 6
+      },
+      "48": {
+        "number": 48,
+        "roman": "XLVIII",
+        "title": "Luke 9:10",
+        "start_chapter": 9,
+        "start_verse": 10,
+        "end_chapter": 9,
+        "end_verse": 17
+      },
+      "49": {
+        "number": 49,
+        "roman": "XLIX",
+        "title": "Luke 9:18",
+        "start_chapter": 9,
+        "start_verse": 18,
+        "end_chapter": 9,
+        "end_verse": 22
+      },
+      "50": {
+        "number": 50,
+        "roman": "L",
+        "title": "Luke 9:23",
+        "start_chapter": 9,
+        "start_verse": 23,
+        "end_chapter": 9,
+        "end_verse": 27
+      },
+      "51": {
+        "number": 51,
+        "roman": "LI",
+        "title": "Luke 9:28",
+        "start_chapter": 9,
+        "start_verse": 28,
+        "end_chapter": 9,
+        "end_verse": 36
+      },
+      "52": {
+        "number": 52,
+        "roman": "LII",
+        "title": "Luke 9:37",
+        "start_chapter": 9,
+        "start_verse": 37,
+        "end_chapter": 9,
+        "end_verse": 42
+      },
+      "53": {
+        "number": 53,
+        "roman": "LIII",
+        "title": "Luke 9:43",
+        "start_chapter": 9,
+        "start_verse": 43,
+        "end_chapter": 9,
+        "end_verse": 45
+      },
+      "54": {
+        "number": 54,
+        "roman": "LIV",
+        "title": "Luke 9:46",
+        "start_chapter": 9,
+        "start_verse": 46,
+        "end_chapter": 9,
+        "end_verse": 48
+      },
+      "55": {
+        "number": 55,
+        "roman": "LV",
+        "title": "Luke 9:51",
+        "start_chapter": 9,
+        "start_verse": 51,
+        "end_chapter": 9,
+        "end_verse": 56
+      },
+      "56": {
+        "number": 56,
+        "roman": "LVI",
+        "title": "Luke 9:51",
+        "start_chapter": 9,
+        "start_verse": 51,
+        "end_chapter": 9,
+        "end_verse": 56
+      },
+      "57": {
+        "number": 57,
+        "roman": "LVII",
+        "title": "Luke 9:57",
+        "start_chapter": 9,
+        "start_verse": 57,
+        "end_chapter": 9,
+        "end_verse": 62
+      },
+      "58": {
+        "number": 58,
+        "roman": "LVIII",
+        "title": "Luke 10:1",
+        "start_chapter": 10,
+        "start_verse": 1,
+        "end_chapter": 10,
+        "end_verse": 7
+      },
+      "59": {
+        "number": 59,
+        "roman": "LIX",
+        "title": "Luke 10:8",
+        "start_chapter": 10,
+        "start_verse": 8,
+        "end_chapter": 10,
+        "end_verse": 12
+      },
+      "60": {
+        "number": 60,
+        "roman": "LX",
+        "title": "Luke 10:13",
+        "start_chapter": 10,
+        "start_verse": 13,
+        "end_chapter": 10,
+        "end_verse": 15
+      },
+      "61": {
+        "number": 61,
+        "roman": "LXI",
+        "title": "Luke 10:16",
+        "start_chapter": 10,
+        "start_verse": 16,
+        "end_chapter": 10,
+        "end_verse": 16
+      },
+      "62": {
+        "number": 62,
+        "roman": "LXII",
+        "title": "Luke 10:17",
+        "start_chapter": 10,
+        "start_verse": 17,
+        "end_chapter": 10,
+        "end_verse": 20
+      },
+      "63": {
+        "number": 63,
+        "roman": "LXIII",
+        "title": "Luke 10:21",
+        "start_chapter": 10,
+        "start_verse": 21,
+        "end_chapter": 10,
+        "end_verse": 22
+      },
+      "64": {
+        "number": 64,
+        "roman": "LXIV",
+        "title": "Luke 10:21",
+        "start_chapter": 10,
+        "start_verse": 21,
+        "end_chapter": 10,
+        "end_verse": 22
+      },
+      "65": {
+        "number": 65,
+        "roman": "LXV",
+        "title": "Luke 10:21",
+        "start_chapter": 10,
+        "start_verse": 21,
+        "end_chapter": 10,
+        "end_verse": 22
+      },
+      "66": {
+        "number": 66,
+        "roman": "LXVI",
+        "title": "Luke 10:23",
+        "start_chapter": 10,
+        "start_verse": 23,
+        "end_chapter": 10,
+        "end_verse": 24
+      },
+      "67": {
+        "number": 67,
+        "roman": "LXVII",
+        "title": "Luke 10:25",
+        "start_chapter": 10,
+        "start_verse": 25,
+        "end_chapter": 10,
+        "end_verse": 37
+      },
+      "68": {
+        "number": 68,
+        "roman": "LXVIII",
+        "title": "Luke 10:38",
+        "start_chapter": 10,
+        "start_verse": 38,
+        "end_chapter": 10,
+        "end_verse": 42
+      },
+      "69": {
+        "number": 69,
+        "roman": "LXIX",
+        "title": "Luke 11:1",
+        "start_chapter": 11,
+        "start_verse": 1,
+        "end_chapter": 11,
+        "end_verse": 4
+      },
+      "70": {
+        "number": 70,
+        "roman": "LXX",
+        "title": "Luke 11:5",
+        "start_chapter": 11,
+        "start_verse": 5,
+        "end_chapter": 11,
+        "end_verse": 10
+      },
+      "71": {
+        "number": 71,
+        "roman": "LXXI",
+        "title": "Luke 11:11",
+        "start_chapter": 11,
+        "start_verse": 11,
+        "end_chapter": 11,
+        "end_verse": 13
+      },
+      "72": {
+        "number": 72,
+        "roman": "LXXII",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "73": {
+        "number": 73,
+        "roman": "LXXIII",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "74": {
+        "number": 74,
+        "roman": "LXXIV",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "75": {
+        "number": 75,
+        "roman": "LXXV",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "76": {
+        "number": 76,
+        "roman": "LXXVI",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "77": {
+        "number": 77,
+        "roman": "LXXVII",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "78": {
+        "number": 78,
+        "roman": "LXXVIII",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "79": {
+        "number": 79,
+        "roman": "LXXIX",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "80": {
+        "number": 80,
+        "roman": "LXXX",
+        "title": "Luke 11:14",
+        "start_chapter": 11,
+        "start_verse": 14,
+        "end_chapter": 11,
+        "end_verse": 18
+      },
+      "81": {
+        "number": 81,
+        "roman": "LXXXI",
+        "title": "Luke 11:19",
+        "start_chapter": 11,
+        "start_verse": 19,
+        "end_chapter": 11,
+        "end_verse": 28
+      },
+      "82": {
+        "number": 82,
+        "roman": "LXXXII",
+        "title": "Luke 11:29",
+        "start_chapter": 11,
+        "start_verse": 29,
+        "end_chapter": 11,
+        "end_verse": 32
+      },
+      "83": {
+        "number": 83,
+        "roman": "LXXXIII",
+        "title": "Luke 11:33",
+        "start_chapter": 11,
+        "start_verse": 33,
+        "end_chapter": 11,
+        "end_verse": 36
+      },
+      "84": {
+        "number": 84,
+        "roman": "LXXXIV",
+        "title": "Luke 11:37",
+        "start_chapter": 11,
+        "start_verse": 37,
+        "end_chapter": 11,
+        "end_verse": 44
+      },
+      "85": {
+        "number": 85,
+        "roman": "LXXXV",
+        "title": "Luke 11:45",
+        "start_chapter": 11,
+        "start_verse": 45,
+        "end_chapter": 11,
+        "end_verse": 54
+      },
+      "86": {
+        "number": 86,
+        "roman": "LXXXVI",
+        "title": "Luke 12:1",
+        "start_chapter": 12,
+        "start_verse": 1,
+        "end_chapter": 12,
+        "end_verse": 3
+      },
+      "87": {
+        "number": 87,
+        "roman": "LXXXVII",
+        "title": "Luke 12:4",
+        "start_chapter": 12,
+        "start_verse": 4,
+        "end_chapter": 12,
+        "end_verse": 7
+      },
+      "88": {
+        "number": 88,
+        "roman": "LXXXVIII",
+        "title": "Luke 12:8",
+        "start_chapter": 12,
+        "start_verse": 8,
+        "end_chapter": 12,
+        "end_verse": 10
+      },
+      "89": {
+        "number": 89,
+        "roman": "LXXXIX",
+        "title": "Luke 12:13",
+        "start_chapter": 12,
+        "start_verse": 13,
+        "end_chapter": 12,
+        "end_verse": 21
+      },
+      "90": {
+        "number": 90,
+        "roman": "XC",
+        "title": "Luke 12:22",
+        "start_chapter": 12,
+        "start_verse": 22,
+        "end_chapter": 12,
+        "end_verse": 31
+      },
+      "91": {
+        "number": 91,
+        "roman": "XCI",
+        "title": "Luke 12:32",
+        "start_chapter": 12,
+        "start_verse": 32,
+        "end_chapter": 12,
+        "end_verse": 40
+      },
+      "92": {
+        "number": 92,
+        "roman": "XCII",
+        "title": "Luke 12:41",
+        "start_chapter": 12,
+        "start_verse": 41,
+        "end_chapter": 12,
+        "end_verse": 48
+      },
+      "93": {
+        "number": 93,
+        "roman": "XCIII",
+        "title": "Luke 12:49",
+        "start_chapter": 12,
+        "start_verse": 49,
+        "end_chapter": 12,
+        "end_verse": 53
+      },
+      "94": {
+        "number": 94,
+        "roman": "XCIV",
+        "title": "Luke 12:54",
+        "start_chapter": 12,
+        "start_verse": 54,
+        "end_chapter": 12,
+        "end_verse": 59
+      },
+      "95": {
+        "number": 95,
+        "roman": "XCV",
+        "title": "Luke 13:1",
+        "start_chapter": 13,
+        "start_verse": 1,
+        "end_chapter": 13,
+        "end_verse": 5
+      },
+      "96": {
+        "number": 96,
+        "roman": "XCVI",
+        "title": "Luke 13:6",
+        "start_chapter": 13,
+        "start_verse": 6,
+        "end_chapter": 13,
+        "end_verse": 9
+      },
+      "97": {
+        "number": 97,
+        "roman": "XCVII",
+        "title": "Luke 13:6",
+        "start_chapter": 13,
+        "start_verse": 6,
+        "end_chapter": 13,
+        "end_verse": 9
+      },
+      "98": {
+        "number": 98,
+        "roman": "XCVIII",
+        "title": "Luke 13:6",
+        "start_chapter": 13,
+        "start_verse": 6,
+        "end_chapter": 13,
+        "end_verse": 9
+      },
+      "99": {
+        "number": 99,
+        "roman": "XCIX",
+        "title": "Luke 13:22",
+        "start_chapter": 13,
+        "start_verse": 22,
+        "end_chapter": 13,
+        "end_verse": 30
+      },
+      "100": {
+        "number": 100,
+        "roman": "C",
+        "title": "Luke 13:31",
+        "start_chapter": 13,
+        "start_verse": 31,
+        "end_chapter": 13,
+        "end_verse": 35
+      },
+      "101": {
+        "number": 101,
+        "roman": "CI",
+        "title": "Luke 14:1",
+        "start_chapter": 14,
+        "start_verse": 1,
+        "end_chapter": 14,
+        "end_verse": 6
+      },
+      "102": {
+        "number": 102,
+        "roman": "CII",
+        "title": "Luke 14:7",
+        "start_chapter": 14,
+        "start_verse": 7,
+        "end_chapter": 14,
+        "end_verse": 14
+      },
+      "103": {
+        "number": 103,
+        "roman": "CIII",
+        "title": "Luke 14:15",
+        "start_chapter": 14,
+        "start_verse": 15,
+        "end_chapter": 14,
+        "end_verse": 24
+      },
+      "104": {
+        "number": 104,
+        "roman": "CIV",
+        "title": "Luke 14:25",
+        "start_chapter": 14,
+        "start_verse": 25,
+        "end_chapter": 14,
+        "end_verse": 35
+      },
+      "105": {
+        "number": 105,
+        "roman": "CV",
+        "title": "Luke 15:1",
+        "start_chapter": 15,
+        "start_verse": 1,
+        "end_chapter": 15,
+        "end_verse": 10
+      },
+      "106": {
+        "number": 106,
+        "roman": "CVI",
+        "title": "Luke 15:11",
+        "start_chapter": 15,
+        "start_verse": 11,
+        "end_chapter": 15,
+        "end_verse": 32
+      },
+      "107": {
+        "number": 107,
+        "roman": "CVII",
+        "title": "Luke 16:1",
+        "start_chapter": 16,
+        "start_verse": 1,
+        "end_chapter": 16,
+        "end_verse": 13
+      },
+      "108": {
+        "number": 108,
+        "roman": "CVIII",
+        "title": "Luke 16:1",
+        "start_chapter": 16,
+        "start_verse": 1,
+        "end_chapter": 16,
+        "end_verse": 13
+      },
+      "109": {
+        "number": 109,
+        "roman": "CIX",
+        "title": "Luke 16:1",
+        "start_chapter": 16,
+        "start_verse": 1,
+        "end_chapter": 16,
+        "end_verse": 13
+      },
+      "110": {
+        "number": 110,
+        "roman": "CX",
+        "title": "Luke 16:14",
+        "start_chapter": 16,
+        "start_verse": 14,
+        "end_chapter": 16,
+        "end_verse": 18
+      },
+      "111": {
+        "number": 111,
+        "roman": "CXI",
+        "title": "Luke 16:19",
+        "start_chapter": 16,
+        "start_verse": 19,
+        "end_chapter": 16,
+        "end_verse": 31
+      },
+      "112": {
+        "number": 112,
+        "roman": "CXII",
+        "title": "Luke 17:1",
+        "start_chapter": 17,
+        "start_verse": 1,
+        "end_chapter": 17,
+        "end_verse": 4
+      },
+      "113": {
+        "number": 113,
+        "roman": "CXIII",
+        "title": "Luke 17:5",
+        "start_chapter": 17,
+        "start_verse": 5,
+        "end_chapter": 17,
+        "end_verse": 10
+      },
+      "114": {
+        "number": 114,
+        "roman": "CXIV",
+        "title": "Luke 17:11",
+        "start_chapter": 17,
+        "start_verse": 11,
+        "end_chapter": 17,
+        "end_verse": 19
+      },
+      "115": {
+        "number": 115,
+        "roman": "CXV",
+        "title": "Luke 17:20",
+        "start_chapter": 17,
+        "start_verse": 20,
+        "end_chapter": 17,
+        "end_verse": 21
+      },
+      "116": {
+        "number": 116,
+        "roman": "CXVI",
+        "title": "Luke 17:22",
+        "start_chapter": 17,
+        "start_verse": 22,
+        "end_chapter": 17,
+        "end_verse": 37
+      },
+      "117": {
+        "number": 117,
+        "roman": "CXVII",
+        "title": "Luke 18:1",
+        "start_chapter": 18,
+        "start_verse": 1,
+        "end_chapter": 18,
+        "end_verse": 8
+      },
+      "118": {
+        "number": 118,
+        "roman": "CXVIII",
+        "title": "Luke 18:9",
+        "start_chapter": 18,
+        "start_verse": 9,
+        "end_chapter": 18,
+        "end_verse": 14
+      },
+      "119": {
+        "number": 119,
+        "roman": "CXIX",
+        "title": "Luke 18:15",
+        "start_chapter": 18,
+        "start_verse": 15,
+        "end_chapter": 18,
+        "end_verse": 17
+      },
+      "120": {
+        "number": 120,
+        "roman": "CXX",
+        "title": "Luke 18:18",
+        "start_chapter": 18,
+        "start_verse": 18,
+        "end_chapter": 18,
+        "end_verse": 27
+      },
+      "121": {
+        "number": 121,
+        "roman": "CXXI",
+        "title": "Luke 18:18",
+        "start_chapter": 18,
+        "start_verse": 18,
+        "end_chapter": 18,
+        "end_verse": 27
+      },
+      "122": {
+        "number": 122,
+        "roman": "CXXII",
+        "title": "Luke 18:18",
+        "start_chapter": 18,
+        "start_verse": 18,
+        "end_chapter": 18,
+        "end_verse": 27
+      },
+      "123": {
+        "number": 123,
+        "roman": "CXXIII",
+        "title": "Luke 18:18",
+        "start_chapter": 18,
+        "start_verse": 18,
+        "end_chapter": 18,
+        "end_verse": 27
+      },
+      "124": {
+        "number": 124,
+        "roman": "CXXIV",
+        "title": "Luke 18:28",
+        "start_chapter": 18,
+        "start_verse": 28,
+        "end_chapter": 18,
+        "end_verse": 30
+      },
+      "125": {
+        "number": 125,
+        "roman": "CXXV",
+        "title": "Luke 18:31",
+        "start_chapter": 18,
+        "start_verse": 31,
+        "end_chapter": 18,
+        "end_verse": 34
+      },
+      "126": {
+        "number": 126,
+        "roman": "CXXVI",
+        "title": "Luke 18:35",
+        "start_chapter": 18,
+        "start_verse": 35,
+        "end_chapter": 18,
+        "end_verse": 43
+      },
+      "127": {
+        "number": 127,
+        "roman": "CXXVII",
+        "title": "Luke 19:1",
+        "start_chapter": 19,
+        "start_verse": 1,
+        "end_chapter": 19,
+        "end_verse": 10
+      },
+      "128": {
+        "number": 128,
+        "roman": "CXXVIII",
+        "title": "Luke 19:11",
+        "start_chapter": 19,
+        "start_verse": 11,
+        "end_chapter": 19,
+        "end_verse": 28
+      },
+      "129": {
+        "number": 129,
+        "roman": "CXXIX",
+        "title": "Luke 19:29",
+        "start_chapter": 19,
+        "start_verse": 29,
+        "end_chapter": 19,
+        "end_verse": 40
+      },
+      "130": {
+        "number": 130,
+        "roman": "CXXX",
+        "title": "Luke 19:41",
+        "start_chapter": 19,
+        "start_verse": 41,
+        "end_chapter": 19,
+        "end_verse": 48
+      },
+      "131": {
+        "number": 131,
+        "roman": "CXXXI",
+        "title": "Luke 20:1",
+        "start_chapter": 20,
+        "start_verse": 1,
+        "end_chapter": 20,
+        "end_verse": 8
+      },
+      "132": {
+        "number": 132,
+        "roman": "CXXXII",
+        "title": "Luke 20:9",
+        "start_chapter": 20,
+        "start_verse": 9,
+        "end_chapter": 20,
+        "end_verse": 18
+      },
+      "133": {
+        "number": 133,
+        "roman": "CXXXIII",
+        "title": "Luke 20:9",
+        "start_chapter": 20,
+        "start_verse": 9,
+        "end_chapter": 20,
+        "end_verse": 18
+      },
+      "134": {
+        "number": 134,
+        "roman": "CXXXIV",
+        "title": "Luke 20:9",
+        "start_chapter": 20,
+        "start_verse": 9,
+        "end_chapter": 20,
+        "end_verse": 18
+      },
+      "135": {
+        "number": 135,
+        "roman": "CXXXV",
+        "title": "Luke 20:19",
+        "start_chapter": 20,
+        "start_verse": 19,
+        "end_chapter": 20,
+        "end_verse": 26
+      },
+      "136": {
+        "number": 136,
+        "roman": "CXXXVI",
+        "title": "Luke 20:27",
+        "start_chapter": 20,
+        "start_verse": 27,
+        "end_chapter": 20,
+        "end_verse": 40
+      },
+      "137": {
+        "number": 137,
+        "roman": "CXXXVII",
+        "title": "Luke 20:41",
+        "start_chapter": 20,
+        "start_verse": 41,
+        "end_chapter": 20,
+        "end_verse": 44
+      },
+      "138": {
+        "number": 138,
+        "roman": "CXXXVIII",
+        "title": "Luke 20:45",
+        "start_chapter": 20,
+        "start_verse": 45,
+        "end_chapter": 21,
+        "end_verse": 4
+      },
+      "139": {
+        "number": 139,
+        "roman": "CXXXIX",
+        "title": "Luke 21:5",
+        "start_chapter": 21,
+        "start_verse": 5,
+        "end_chapter": 21,
+        "end_verse": 19
+      },
+      "140": {
+        "number": 140,
+        "roman": "CXL",
+        "title": "Luke 21:20",
+        "start_chapter": 21,
+        "start_verse": 20,
+        "end_chapter": 21,
+        "end_verse": 24
+      },
+      "141": {
+        "number": 141,
+        "roman": "CXLI",
+        "title": "Luke 21:25",
+        "start_chapter": 21,
+        "start_verse": 25,
+        "end_chapter": 21,
+        "end_verse": 28
+      },
+      "142": {
+        "number": 142,
+        "roman": "CXLII",
+        "title": "Luke 21:29",
+        "start_chapter": 21,
+        "start_verse": 29,
+        "end_chapter": 21,
+        "end_verse": 38
+      },
+      "143": {
+        "number": 143,
+        "roman": "CXLIII",
+        "title": "Luke 22:1",
+        "start_chapter": 22,
+        "start_verse": 1,
+        "end_chapter": 22,
+        "end_verse": 6
+      },
+      "144": {
+        "number": 144,
+        "roman": "CXLIV",
+        "title": "Luke 22:7",
+        "start_chapter": 22,
+        "start_verse": 7,
+        "end_chapter": 22,
+        "end_verse": 23
+      },
+      "145": {
+        "number": 145,
+        "roman": "CXLV",
+        "title": "Luke 22:24",
+        "start_chapter": 22,
+        "start_verse": 24,
+        "end_chapter": 22,
+        "end_verse": 38
+      },
+      "146": {
+        "number": 146,
+        "roman": "CXLVI",
+        "title": "Luke 22:39",
+        "start_chapter": 22,
+        "start_verse": 39,
+        "end_chapter": 22,
+        "end_verse": 46
+      },
+      "147": {
+        "number": 147,
+        "roman": "CXLVII",
+        "title": "Luke 22:47",
+        "start_chapter": 22,
+        "start_verse": 47,
+        "end_chapter": 22,
+        "end_verse": 53
+      },
+      "148": {
+        "number": 148,
+        "roman": "CXLVIII",
+        "title": "Luke 22:54",
+        "start_chapter": 22,
+        "start_verse": 54,
+        "end_chapter": 22,
+        "end_verse": 62
+      },
+      "149": {
+        "number": 149,
+        "roman": "CXLIX",
+        "title": "Luke 22:63",
+        "start_chapter": 22,
+        "start_verse": 63,
+        "end_chapter": 23,
+        "end_verse": 12
+      },
+      "150": {
+        "number": 150,
+        "roman": "CL",
+        "title": "Luke 23:13",
+        "start_chapter": 23,
+        "start_verse": 13,
+        "end_chapter": 23,
+        "end_verse": 25
+      },
+      "151": {
+        "number": 151,
+        "roman": "CLI",
+        "title": "Luke 23:26",
+        "start_chapter": 23,
+        "start_verse": 26,
+        "end_chapter": 23,
+        "end_verse": 31
+      },
+      "152": {
+        "number": 152,
+        "roman": "CLII",
+        "title": "Luke 23:32",
+        "start_chapter": 23,
+        "start_verse": 32,
+        "end_chapter": 23,
+        "end_verse": 43
+      },
+      "153": {
+        "number": 153,
+        "roman": "CLIII",
+        "title": "Luke 23:44",
+        "start_chapter": 23,
+        "start_verse": 44,
+        "end_chapter": 23,
+        "end_verse": 56
+      },
+      "154": {
+        "number": 154,
+        "roman": "CLIV",
+        "title": "Luke 24:1",
+        "start_chapter": 24,
+        "start_verse": 1,
+        "end_chapter": 24,
+        "end_verse": 12
+      },
+      "155": {
+        "number": 155,
+        "roman": "CLV",
+        "title": "Luke 24:13",
+        "start_chapter": 24,
+        "start_verse": 13,
+        "end_chapter": 24,
+        "end_verse": 35
+      },
+      "156": {
+        "number": 156,
+        "roman": "CLVI",
+        "title": "Luke 24:36",
+        "start_chapter": 24,
+        "start_verse": 36,
+        "end_chapter": 24,
+        "end_verse": 45
+      }
+    }
+  }
+}

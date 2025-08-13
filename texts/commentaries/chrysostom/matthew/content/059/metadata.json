@@ -1,0 +1,57 @@
+{
+  "id": 59,
+  "roman": "LIX",
+  "title": "Homily LIX",
+  "subtitle": "Matthew LIX. 16:28",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 9
+    },
+    "display": "Matthew 16:28-17:9"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5005,
+  "excerpt": "Homily LXII. Matt. XIX. 1. “And it came to pass, that when Jesus had finished these sayings, He departed from Galilee, and came into the coasts of Judæa beyond Jordan.” Having constantly left Judæa on account of the envy of those men, now He frequents it from this time forth, because the passion was to be nigh at hand; He goeth not up, however, unto Jerusalem for a while, but “into the coasts of Judæa.” “And,” when He was come, “great multitudes followed Him, and He healed them.”Matt. xix. 2. For neither in the teaching by words doth He continue always, nor in the wonderful working of signs, but He doeth now one now the other, variously working the salvation of them that were waiting upon Him and following Him, so as by the miracles to appear, in what He said, a Teacher worthy of belief, and by the teaching of His word to increase the profit from the miracles; and this was to lead them by the hand to the knowledge of God. But do thou mark, I pray thee, this too, how the disciples pass over whole multitudes with one word, not declaring by name each of them...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "Matt. xix.\n2.",
+    "2": "Matt. xix.\n3.",
+    "3": "[R.V., “from.”]",
+    "4": "[R.V., “become.”]",
+    "5": "Matt. xix.\n4–6.",
+    "6": "έναγ.",
+    "7": "Matt. xix.\n7. [“How” is\nsubstituted for “why.”]",
+    "8": "[The citation agrees with the briefer reading,\naccepted by Tischendorf; comp. R.V. margin.—R.]",
+    "9": "Matt. xv.\n11.",
+    "10": "Matt. xii.\n12.",
+    "11": "Matt. xv.\n15.",
+    "12": "Matt. xix.\n10. [Compare the more exact\ncitation which follows.—R.]",
+    "13": "Mark x.\n10.",
+    "14": "Matt. xix.\n11.",
+    "15": "Matt. xix.\n12.",
+    "16": "ἀποκψονται,\nwhich may mean this. [R.V. margin, “mutilate\nthemselves.”]",
+    "17": "Gal. v.\n12. [Whatever be the meaning\nof the verb in Galatians, there can be no question that the use here\nmade of the passage is forced.—R.]",
+    "18": "Matt. xix.\n13–15.",
+    "19": "Matt.\nxviii. 3, 4.",
+    "20": "σοβεν.",
+    "21": "μεσασμος.",
+    "22": "1 Cor. xiv.\n20.",
+    "23": "Prov. ix.\n12, LXX.",
+    "24": "1 Sam.\nxxviii. 15.",
+    "25": "1 Sam.\nxxvi. 16.",
+    "26": "Mss., “not to make\nmoney,” and presently, “not to love glory;” but\nSavile’s reading is rightly adopted by Mr. Field, with the Latin\nTranslator."
+  },
+  "verified": true
+}

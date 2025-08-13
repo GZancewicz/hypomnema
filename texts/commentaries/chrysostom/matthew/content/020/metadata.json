@@ -1,0 +1,53 @@
+{
+  "id": 20,
+  "roman": "XX",
+  "title": "Homily XX",
+  "subtitle": "Matthew VI. 16.",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 23
+    },
+    "display": "Matthew 6:16-6:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5358,
+  "excerpt": "Homily XX.[Or Homily XXI. in the Latin versions; see note on Homily XIX., sec. 6, p. 134.—R.] Matt. VI. 16. “And when ye fast, be not as the hypocrites, of a sad countenance. For they disfigure their faces, that they may appear unto men to fast.” Here it were well to sigh aloud, and to wail bitterly: for not only do we imitate the hypocrites, but we have even surpassed them. For I know, yea I know many, not merely fasting and making a display of it, but neglecting to fast, and yet wearing the masks of them that fast, and cloaking themselves with an excuse worse than their sin. For “I do this,” say they, “that I may not offend the many.” What sayest thou? There is a law of God which commands these things, and dost thou talk of offense? And thinkest thou that in keeping it thou art offending, in transgressing it, delivering men from offense? And what can be worse than this folly? Wilt thou not leave off becoming worse than the very hypocrites, and making thine hypocrisy double? And when thou considerest the great excess of this evil, wilt thou not be abashed at the...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Or Homily XXI. in the Latin versions; see note on Homily XIX., sec. 6, p. 134.—R.",
+    "2": "2 Sam. xii. 20.",
+    "3": "Dan. x. 3.",
+    "4": "Literally, “actors.”",
+    "5": "Heb. iv. 13. [R.V., “laid open,” [Greek: τετραχηλισμνα] .—R.]",
+    "6": "Matt. vi. 19. [“upon the earth,” so R.V.—R.]",
+    "7": "[Greek: ἀκτημοσυν].",
+    "8": "Matt. iv. 9, 10.",
+    "9": "[Greek: σ]. The Oxford Version has inadvertently rendered it “rust.”—R.",
+    "10": "[Greek: σ]. The Oxford Version has inadvertently rendered it “rust.”—R.",
+    "11": "Matt. vi. 21. [The correct text of Matt. vi. 21 is rendered, “For where thy treasure is, there will thy heart be also” (R.V.), but Chrysostom varies from this both here and below. The plural form has little authority.—R.]",
+    "12": "Matt. vi. 22. [R.V., “The lamp of the body,” etc.—R.]",
+    "13": "Matt. vi. 22, 23. [In verse 23, “If therefore” is the correct reading, and some mss. of the Homilies have this reading here.—R.]",
+    "14": "In the Greek text, the parenthesis extends to this place.—R.",
+    "15": "These clauses are not parenthetical, but in the Greek define what precedes.—R.",
+    "16": "Matt. xiii. 22.",
+    "17": "[Greek: οχ τυχε].",
+    "18": "[Greek: χυμ].",
+    "19": "[Greek: ἐπηρεα].",
+    "20": "In the Greek text, bracketted by Field, and in the Latin, occurs this clause: “when” [or “for when”] “thou plantest trees in the field, the fruit of which will yield after many ([Greek: μυρα]) years.”—R.",
+    "21": "[Greek: ἀλειν].",
+    "22": "Luke xvi. 24."
+  },
+  "verified": true
+}

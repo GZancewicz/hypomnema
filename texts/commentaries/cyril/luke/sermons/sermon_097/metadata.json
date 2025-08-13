@@ -1,0 +1,30 @@
+{
+  "id": 97,
+  "roman": "XCVII",
+  "title": "Sermon XCVII",
+  "subtitle": "Luke 13:6",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 9
+    },
+    "display": "Luke 13:6-13:9"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 13:6",
+  "source_file": "cyril_on_luke_10_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": 87,
+  "roman": "LXXXVII",
+  "title": "Homily LXXXVII",
+  "subtitle": "Matthew LXXXVII. 26:36",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 50
+    },
+    "display": "Matthew 26:36-26:50"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3693,
+  "excerpt": "Homily LXXXVII. Matt. XXVII. 27-29. “Then the soldiers of the governor took Jesus into the common hall,Greek, “Prætorium;” comp. Mark xv. 16, A.V.—R.]and gathered unto him the whole band of soldiers; and they stripped Him, and put on Him a purple robe; and when they had platted a crown of thorns, they put it on His head, and a reed in His right hand; and they bowed the knee before Him, and mocked Him, saying, Hail, king of the Jews.”[The Greek text, as given by Field, agrees throughout with the received.—R.] As though on some signal the devil then was entering in triumphἐχρευεν.into all. For, be it that Jews pining with envy and jealousy were mad against Him, as to the soldiers, whence was it, and from what sort of cause? Is it not clear that it was the devil who was then entering in fury into the hearts of all? For indeed they made a pleasure of their insults against Him, being a savage and ruthless set. I mean that, when they ought to have been awestruck, when they ought to have wept, which even the people did, this they did not, but, on the contrary, were despiteful, and...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "Greek, “Prætorium;” comp. Mark xv. 16, A.V.—R.]",
+    "2": "[The Greek text, as given by Field, agrees\nthroughout with the received.—R.]",
+    "3": "ἐχρευεν.",
+    "4": "Matt.\nxxvii. 25.",
+    "5": "Matt.\nxxvii. 31. [ἤγαγον for ἀπγαγον.]",
+    "6": "John xix.\n30.",
+    "7": "Ps. lxix.\n21.",
+    "8": "Matt.\nxxvii. 40.",
+    "9": "John xix.\n22.",
+    "10": "Matt.\nxxvii. 42.",
+    "11": "Matt.\nxxvii. 43. [In the citations\nfrom verses 40–43, the exact order is not preserved, but\nthe only textual variation is in the clause, “let Him save\nHim,” which does not occur in the Gospels. “If” is\nread, with the received text, in verse 42.—R.]",
+    "12": "Luke xxiii.\n40.",
+    "13": "Ecclus. i. 22."
+  },
+  "verified": true
+}

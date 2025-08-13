@@ -1,0 +1,30 @@
+{
+  "id": 70,
+  "roman": "LXX",
+  "title": "Sermon LXX",
+  "subtitle": "Luke 11:5",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 10
+    },
+    "display": "Luke 11:5-11:10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 11:5",
+  "source_file": "cyril_on_luke_07_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

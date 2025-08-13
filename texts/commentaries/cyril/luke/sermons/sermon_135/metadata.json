@@ -1,0 +1,30 @@
+{
+  "id": 135,
+  "roman": "CXXXV",
+  "title": "Sermon CXXXV",
+  "subtitle": "Luke 20:19",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 26
+    },
+    "display": "Luke 20:19-20:26"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 20:19",
+  "source_file": "cyril_on_luke_14_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

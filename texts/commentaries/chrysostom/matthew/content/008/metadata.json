@@ -1,0 +1,52 @@
+{
+  "id": 8,
+  "roman": "VIII",
+  "title": "Homily VIII",
+  "subtitle": "Matthew II. 2.",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 15
+    },
+    "display": "Matthew 2:2-2:15"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4004,
+  "excerpt": "Homily VIII. Matt. II. 2. “And when they were come into the house, they saw the young Child with Mary His mother.”[The entire verse is given in Field’s Greek text; the Homily covers verses 11–15.—R.] How then saith Luke, that He was lying in the manger? Because at the birth indeed she presently laid Him there (for, as was not unlikely, in that large assemblage for the taxing, they could find no house; which Luke also signifies, by saying, “Because there was no room, she laid Him” there); but afterwards she took Him up, and held Him on her knees. For no sooner was she arrived at Bethlehem than she brought her pangs to an end,ὠδνα λυσεν. Comp. Acts. ii. 24.that thou mayest thence also learn the whole dispensation, and that these things were not done at random, or by chance, but that they all were in course of accomplishment, according to some Divine foreknowledge, and prophetic order. But what was it that induced them to worship? For neither was the Virgin conspicuous, nor the house distinguished, nor was any other of the things which they saw apt to amaze or attract them. Yet they not only worship, but also...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "The entire verse is given in Field’s Greek text; the Homily covers verses 11–15.—R.",
+    "2": "[Greek: ὠδνα λυσεν]. Comp. Acts. ii. 24.",
+    "3": "[Greek: φιλοσοφαν] .",
+    "4": "Matt. ii. 12.",
+    "5": "Matt. ii. 13.",
+    "6": "[Greek: τ σαρκς].",
+    "7": "1 Sam. vi. 6, LXX.",
+    "8": "[Greek: το δυναμνοι].",
+    "9": "i.e., of Jacob.",
+    "10": "The received mystical interpretation of our Lord’s final entry into Jerusalem represented the ass as the type of the Jewish converts, and the colt, of the Gentile Church. See hereafter, Hom. LXVI., and comp. Origen on St. Matt. t. 16, 15; St. Amb. in Luc. lib. 9, 4–14; St. Just. Mart. Dial. cum. Tryph. c. 53. The interpretation to which St. Chrysostom points of the flight into Egypt, is probably the same with that of St. Hilary on this place. “Joseph is admonished by the angel to take the young child into Egypt: Egypt full of idols, and given to the worship of all kinds of portents for gods. Accordingly, after the persecution by the Jews, and the assent of that profane multitude to His murder, Christ passes over to the nations, sold as they were to the vainest superstitions. He leaves Jewry, and is carried into the world which knows Him not: while Bethlehem, i.e., Judæa, overflows with the blood of martyrs. As to Herod’s rage and his murdering the infants, it is the type of the Jewish people raging against the Christians, under the notion that by the slaughter of the blessed martyrs they may blot out Christ’s name from the faith and profession of all men.” p.613, ed. Ben. Paris, 1693.",
+    "11": "Gen. xlix. 7.",
+    "12": "Gen. ix. 25; Josh. ix. 27; 2 Chron. viii. 7–9.",
+    "13": "Gen. xxvii. 19.",
+    "14": "Gen. xxxiii. 3.",
+    "15": "The reference is to Numb. xxv. 3. But as usual, the LXX. form of the name is cited: [Greek: βεελφεγρ] .—R.",
+    "16": "Amos ix. 7. “The Philistines from Caphtor, and the Syrians from Kir,” Heb. [The LXX. has [Greek: το λλοφλυ] (here rendered “the strangers”) the usual term for designating “the Philistines.” Comp. 1 and 2 Samuel, passim (in LXX.).—R.]",
+    "17": "[Greek: σοφν κα μγων]. The translator has rendered [Greek: μγοι] sometimes by “wise men,” and sometimes by [Greek: τ μν κενων], i.e., those things taught by the heathen philosophers of Egypt.—R.",
+    "18": "Acts xx. 34; 1 Thess. ii. 9.",
+    "19": "Ex. xvi. 3.",
+    "20": "In the works of St. Athanasius.",
+    "21": "Josh. xxiv. 2."
+  },
+  "verified": true
+}

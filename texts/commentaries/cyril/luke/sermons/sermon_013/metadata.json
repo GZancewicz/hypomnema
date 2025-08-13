@@ -1,0 +1,30 @@
+{
+  "id": 13,
+  "roman": "XIII",
+  "title": "Sermon XIII",
+  "subtitle": "Luke 4:14",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 21
+    },
+    "display": "Luke 4:14-4:21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 4:14",
+  "source_file": "cyril_on_luke_02_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

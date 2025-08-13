@@ -1,0 +1,30 @@
+{
+  "id": 62,
+  "roman": "LXII",
+  "title": "Sermon LXII",
+  "subtitle": "Luke 10:17",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 20
+    },
+    "display": "Luke 10:17-10:20"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 10:17",
+  "source_file": "cyril_on_luke_07_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

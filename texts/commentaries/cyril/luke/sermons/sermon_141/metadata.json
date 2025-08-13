@@ -1,0 +1,30 @@
+{
+  "id": 141,
+  "roman": "CXLI",
+  "title": "Sermon CXLI",
+  "subtitle": "Luke 21:25",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 28
+    },
+    "display": "Luke 21:25-21:28"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 21:25",
+  "source_file": "cyril_on_luke_15_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

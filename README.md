@@ -8,7 +8,7 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
 - **Patristic Commentary Integration**:
   - John Chrysostom's 90 homilies on Matthew
   - John Chrysostom's 88 homilies on John
-  - Cyril of Alexandria's 156 sermons on Luke
+  - Cyril of Alexandria's 153 sermons on Luke
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout)
   - Hover tooltips showing commentary references
@@ -18,6 +18,59 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
 - **Responsive Design** with mobile-friendly hamburger menu
 - **Clean Typography** with paragraph-based formatting
 - Live reload during development with Air
+
+## Commentary Metadata Structure
+
+Each commentary (homily/sermon) is stored in a structured folder system with standardized `metadata.json` files. The application reads these metadata files dynamically, allowing new commentaries to be added without code changes.
+
+### Directory Structure
+```
+texts/commentaries/
+├── chrysostom/
+│   ├── matthew/
+│   │   ├── content/
+│   │   │   ├── homily_001/
+│   │   │   │   └── metadata.json
+│   │   │   └── homily_090/
+│   │   │       └── metadata.json
+│   │   └── source/          # Source XML files
+│   └── john/
+│       ├── content/
+│       │   └── homily_001/
+│       │       └── metadata.json
+│       └── source/          # Source XML files
+└── cyril/
+    └── luke/
+        └── sermons/
+            ├── sermon_001/
+            │   └── metadata.json
+            └── sermon_153/
+                └── metadata.json
+```
+
+### Metadata Format
+```json
+{
+  "id": 90,
+  "roman": "XC",
+  "title": "Homily XC",
+  "subtitle": "Matthew XC. 27:27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {"chapter": 27, "verse": 27},
+    "end": {"chapter": 28, "verse": 20},
+    "display": "Matthew 27:27-28:20"
+  },
+  "footnotes": {"1": "text...", "2": "text..."},
+  "has_footnotes": true,
+  "verified": true,
+  "word_count": 5033,
+  "excerpt": "First 200 words..."
+}
+```
 
 ## Getting Started
 
@@ -61,18 +114,30 @@ go run main.go
 hypomnema/
 ├── hypomnema-server/         # Go web server
 │   ├── main.go              # Main server code with all routing
-│   ├── templates/           # HTML templates
-│   ├── static/              # CSS and static files
+│   ├── templates/           # HTML templates (index.html, homily.html)
+│   ├── static/              # CSS (styles.css) and favicon
 │   └── tmp/                 # Air build artifacts (git ignored)
 ├── texts/                   # Biblical texts and reference data
-│   ├── scripture/           # KJV text files organized by book/chapter
+│   ├── scripture/           
+│   │   └── new_testament/
+│   │       ├── english/
+│   │       │   └── kjv/     # KJV text files by book/chapter
+│   │       └── greek/
+│   │           └── tr/      # Textus Receptus
 │   ├── commentaries/        # Patristic commentaries
 │   │   ├── chrysostom/      # John Chrysostom's works
-│   │   │   ├── matthew/     # Homilies on Matthew with footnotes
-│   │   │   └── john/        # Homilies on John with footnotes
+│   │   │   ├── matthew/     
+│   │   │   │   ├── content/ # Homily folders with metadata.json
+│   │   │   │   └── source/  # Source XML files
+│   │   │   └── john/        
+│   │   │       ├── content/ # Homily folders with metadata.json
+│   │   │       └── source/  # Source XML files
 │   │   └── cyril/           # Cyril of Alexandria's works
-│   │       └── luke/        # Sermons on Luke
-│   └── reference/           # Eusebian canons, paragraph divisions
+│   │       └── luke/        
+│   │           └── sermons/ # Sermon folders with metadata.json
+│   └── reference/           
+│       ├── eusebian_canons/ # Canon tables and mappings
+│       └── kjv_paragraphs/  # Paragraph divisions
 ├── scripts/                 # Python utility scripts
 ├── CLAUDE.md               # Development notes and instructions
 └── README.md
@@ -92,7 +157,7 @@ The application integrates complete patristic commentary on the Gospels:
 - **Cross-Gospel Integration** - When reading Mark or Luke, the system automatically shows relevant Matthew and John homilies for parallel passages
 
 ### Cyril of Alexandria
-- **156 Sermons on Luke** covering the entire Gospel of Luke
+- **153 Sermons on Luke** covering the entire Gospel of Luke (manuscript contains only fragments for 154-156)
 - Integrated footnotes and textual notes
 
 ### Features
@@ -103,27 +168,20 @@ The application integrates complete patristic commentary on the Gospels:
 
 ### Data Files
 
-**Chrysostom Commentary:**
+**Commentary Metadata:**
+- `texts/commentaries/chrysostom/matthew/content/homily_*/metadata.json` - Matthew homily metadata with footnotes
+- `texts/commentaries/chrysostom/john/content/homily_*/metadata.json` - John homily metadata with footnotes
+- `texts/commentaries/cyril/luke/sermons/sermon_*/metadata.json` - Luke sermon metadata
 
-*Matthew Homilies:*
-- `texts/commentaries/chrysostom/matthew/chrysostom_matthew_homilies.xml` - Complete homilies in ThML format
-- `texts/commentaries/chrysostom/matthew/footnotes.json` - Extracted footnotes with renumbering
+**Verse Mappings:**
 - `texts/commentaries/chrysostom/matthew/matthew_verse_to_homilies.json` - Verse-to-homily mapping
-- `texts/commentaries/chrysostom/matthew/homily_coverage.json` - Homily passage coverage
-
-*John Homilies:*
-- `texts/commentaries/chrysostom/john/chrysostom_john_homilies.xml` - Complete homilies in ThML format
-- `texts/commentaries/chrysostom/john/footnotes.json` - Extracted footnotes with renumbering
 - `texts/commentaries/chrysostom/john/john_verse_to_homilies.json` - Verse-to-homily mapping
+- `texts/commentaries/cyril/luke/luke_verse_to_sermons.json` - Verse-to-sermon mapping
+
+**Coverage Files:**
+- `texts/commentaries/chrysostom/matthew/homily_coverage.json` - Homily passage coverage
 - `texts/commentaries/chrysostom/john/homily_coverage.json` - Homily passage coverage
-
-**Cyril Commentary:**
-
-*Luke Sermons:*
-- `texts/commentaries/cyril/luke/cyril_on_luke_*.htm` - HTML sermon files (15 files)
-- `texts/commentaries/cyril/luke/luke_verse_to_homilies.json` - Verse-to-sermon mapping
 - `texts/commentaries/cyril/luke/homily_coverage.json` - Sermon passage coverage
-- `texts/commentaries/cyril/luke/footnotes.json` - Extracted footnotes
 
 **Eusebian Canons:**
 - `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries
@@ -136,24 +194,19 @@ The application integrates complete patristic commentary on the Gospels:
 
 #### Text Processing Scripts
 
-**extract_footnotes_to_json.py** - Extracts footnotes from Chrysostom's Matthew homilies ThML XML:
+**generate_unified_metadata.py** - Generates standardized metadata.json files for all commentaries:
 ```bash
-python scripts/extract_footnotes_to_json.py
+python scripts/generate_unified_metadata.py
 ```
 
-**extract_john_footnotes.py** - Extracts footnotes from Chrysostom's John homilies ThML XML:
+**verify_kjv_completeness.py** - Verifies all KJV chapters are present and properly formatted:
 ```bash
-python scripts/extract_john_footnotes.py
+python scripts/verify_kjv_completeness.py
 ```
 
-**split_kjv_into_chapters.py** - Splits combined KJV book files into individual chapter files:
+**verify_commentaries_complete.py** - Verifies all commentary metadata is complete:
 ```bash
-python scripts/split_kjv_into_chapters.py
-```
-
-**check_kjv_completeness.py** - Verifies all KJV chapters are present and properly formatted:
-```bash
-python scripts/check_kjv_completeness.py
+python scripts/verify_commentaries_complete.py
 ```
 
 #### Eusebian Canon Scripts
@@ -170,16 +223,21 @@ python scripts/generate_verse_to_canon_mapping.py
 
 ### Regenerating Data Files
 
+To regenerate commentary metadata structure:
+```bash
+python scripts/generate_unified_metadata.py
+```
+
+This creates/updates all metadata.json files with:
+- Correct verse references from source texts
+- All footnotes included
+- Word counts and excerpts
+- Author and work information
+
 To rebuild Eusebian Canon data:
 ```bash
 python scripts/generate_canon_lookup_from_sql.py
 python scripts/generate_verse_to_canon_mapping.py
-```
-
-To extract Chrysostom footnotes:
-```bash
-python scripts/extract_footnotes_to_json.py
-python scripts/extract_john_footnotes.py
 ```
 
 ## Deployment
