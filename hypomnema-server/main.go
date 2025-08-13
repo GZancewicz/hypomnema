@@ -272,41 +272,8 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 
 // loadAllFootnotes loads the pre-extracted footnotes for all homilies
 func loadAllFootnotes() {
-	// Load Chrysostom Matthew footnotes
-	matthewFile, err := os.Open("../texts/commentaries/chrysostom/matthew/all_footnotes.json")
-	if err != nil {
-		log.Printf("Could not load Chrysostom Matthew footnotes: %v", err)
-	} else {
-		defer matthewFile.Close()
-		decoder := json.NewDecoder(matthewFile)
-		if err := decoder.Decode(&chrysostomMatthewFootnotes); err != nil {
-			log.Printf("Error decoding Chrysostom Matthew footnotes: %v", err)
-		} else {
-			count := 0
-			for _, footnotes := range chrysostomMatthewFootnotes {
-				count += len(footnotes)
-			}
-			log.Printf("Loaded %d Chrysostom Matthew footnotes across %d homilies", count, len(chrysostomMatthewFootnotes))
-		}
-	}
-	
-	// Load Chrysostom John footnotes
-	johnFile, err := os.Open("../texts/commentaries/chrysostom/john/all_footnotes.json")
-	if err != nil {
-		log.Printf("Could not load Chrysostom John footnotes: %v", err)
-	} else {
-		defer johnFile.Close()
-		decoder := json.NewDecoder(johnFile)
-		if err := decoder.Decode(&chrysostomJohnFootnotes); err != nil {
-			log.Printf("Error decoding Chrysostom John footnotes: %v", err)
-		} else {
-			count := 0
-			for _, footnotes := range chrysostomJohnFootnotes {
-				count += len(footnotes)
-			}
-			log.Printf("Loaded %d Chrysostom John footnotes across %d homilies", count, len(chrysostomJohnFootnotes))
-		}
-	}
+	// Footnotes are now loaded from metadata.json files in each homily/sermon folder
+	// This function is kept for compatibility but doesn't need to do anything
 }
 
 // parseVerseRef parses a verse reference like "3.3" or "3.3-6" into chapter and verse numbers
@@ -394,10 +361,8 @@ func findHomiliesForRange(author, book string, startChap, startVerse, endChap, e
 }
 
 func main() {
-	// Load footnotes at startup
-	if err := loadFootnotes(); err != nil {
-		log.Printf("Warning: Failed to load footnotes: %v", err)
-	}
+	// Initialize footnote maps (footnotes are loaded from metadata.json files)
+	loadFootnotes()
 
 	// Serve static files
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
@@ -484,31 +449,32 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
+	// Check if this is a request for all results
+	showAll := r.URL.Query().Get("all") == "true"
+	
 	// Convert to lowercase for case-insensitive search
 	searchTerm := strings.ToLower(query)
 	
-	// Search results HTML
-	var results strings.Builder
-	results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+	// Define search result structure
+	type SearchResult struct {
+		BookID    string
+		BookName  string
+		Chapter   int
+		VerseRef  string
+		VerseText string
+		IsGospel  bool
+	}
 	
-	resultCount := 0
-	maxResults := 20
+	var allResults []SearchResult
+	gospelBooks := map[string]bool{"matthew": true, "mark": true, "luke": true, "john": true}
 	
 	// Search through all books
 	for _, book := range books {
-		if resultCount >= maxResults {
-			break
-		}
-		
 		// Get book directory
 		bookDir := filepath.Join("../texts/scripture/new_testament/english/kjv", book.ID)
 		
 		// Read all chapters for this book
 		for chapter := 1; chapter <= book.Chapters; chapter++ {
-			if resultCount >= maxResults {
-				break
-			}
-			
 			chapterDir := fmt.Sprintf("%02d", chapter)
 			chapterFile := filepath.Join(bookDir, chapterDir, fmt.Sprintf("%s_%02d.txt", book.ID, chapter))
 			
@@ -521,61 +487,106 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 			// Search line by line
 			lines := strings.Split(string(content), "\n")
 			for _, line := range lines {
-				if resultCount >= maxResults {
-					break
-				}
-				
 				// Check if line contains search term
 				if strings.Contains(strings.ToLower(line), searchTerm) {
 					// Parse verse reference
 					parts := strings.SplitN(line, " ", 2)
 					if len(parts) == 2 {
-						verseRef := parts[0]
-						verseText := parts[1]
-						
-						// Highlight search term
-						highlightedText := verseText
-						// Simple highlight - wrap matches in <mark> tags
-						re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
-						highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
-						
-						// Truncate if too long
-						if len(highlightedText) > 200 {
-							highlightedText = highlightedText[:200] + "..."
-						}
-						
-						// Create clickable result
-						results.WriteString(fmt.Sprintf(`
-							<div class="search-result" 
-							     style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
-							     onmouseover="this.style.backgroundColor='#f5f5f5'" 
-							     onmouseout="this.style.backgroundColor=''"
-							     hx-get="/api/chapter/%s/%d"
-							     hx-target="#text-content"
-							     hx-swap="innerHTML"
-							     hx-push-url="/%s/%d"
-							     hx-indicator="#loading-indicator">
-								<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
-								<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
-							</div>
-						`, book.ID, chapter, book.ID, chapter, book.Name, verseRef, highlightedText))
-						
-						resultCount++
+						allResults = append(allResults, SearchResult{
+							BookID:    book.ID,
+							BookName:  book.Name,
+							Chapter:   chapter,
+							VerseRef:  parts[0],
+							VerseText: parts[1],
+							IsGospel:  gospelBooks[book.ID],
+						})
 					}
 				}
 			}
 		}
 	}
 	
-	if resultCount == 0 {
-		results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
-		results.WriteString(html.EscapeString(query))
-		results.WriteString(`"</div>`)
-	} else if resultCount >= maxResults {
-		results.WriteString(fmt.Sprintf(`<div style="padding: 10px; color: #666; text-align: center;">Showing first %d results</div>`, maxResults))
-	}
+	// Build results HTML
+	var results strings.Builder
 	
-	results.WriteString(`</div>`)
+	if showAll {
+		// Return JSON for modal
+		results.WriteString(`<div id="search-modal-content">`)
+		for _, result := range allResults {
+			highlightedText := result.VerseText
+			re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+			highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+			if len(highlightedText) > 200 {
+				highlightedText = highlightedText[:200] + "..."
+			}
+			
+			results.WriteString(fmt.Sprintf(`
+				<div class="search-result-modal" 
+					 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+					 onmouseover="this.style.backgroundColor='#f5f5f5'" 
+					 onmouseout="this.style.backgroundColor=''"
+					 onclick="navigateFromModal('%s', %d); event.stopPropagation();">
+					<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+					<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+				</div>
+			`, result.BookID, result.Chapter, result.BookName, result.VerseRef, highlightedText))
+		}
+		results.WriteString(`</div>`)
+	} else {
+		// Regular search results - show all Gospel results
+		results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+		
+		gospelCount := 0
+		totalCount := len(allResults)
+		
+		// Show all Gospel results first
+		for _, result := range allResults {
+			if result.IsGospel {
+				highlightedText := result.VerseText
+				re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+				highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+				if len(highlightedText) > 200 {
+					highlightedText = highlightedText[:200] + "..."
+				}
+				
+				results.WriteString(fmt.Sprintf(`
+					<div class="search-result" 
+						 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+						 onmouseover="this.style.backgroundColor='#f5f5f5'" 
+						 onmouseout="this.style.backgroundColor=''"
+						 hx-get="/api/chapter/%s/%d"
+						 hx-target="#text-content"
+						 hx-swap="innerHTML"
+						 hx-push-url="/%s/%d"
+						 hx-indicator="#loading-indicator">
+						<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+						<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+					</div>
+				`, result.BookID, result.Chapter, result.BookID, result.Chapter, result.BookName, result.VerseRef, highlightedText))
+				
+				gospelCount++
+			}
+		}
+		
+		// Show message based on results
+		if totalCount == 0 {
+			results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
+			results.WriteString(html.EscapeString(query))
+			results.WriteString(`"</div>`)
+		} else if totalCount > gospelCount {
+			// There are non-Gospel results
+			results.WriteString(fmt.Sprintf(`
+				<div style="padding: 10px; text-align: center; border-top: 1px solid #eee;">
+					<div style="color: #666; margin-bottom: 8px;">Showing %d Gospel results</div>
+					<a href="#" onclick="event.preventDefault(); showAllSearchResults('%s')" style="color: #3498db; text-decoration: none; font-weight: 500;">
+						See all %d results from the New Testament →
+					</a>
+				</div>
+			`, gospelCount, html.EscapeString(query), totalCount))
+		}
+		
+		results.WriteString(`</div>`)
+	}
 	
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(results.String()))
@@ -1319,102 +1330,14 @@ var cyrilLukeFootnotesData map[string]FootnoteData
 
 // Load footnotes from JSON file
 func loadFootnotes() error {
-	// Load Matthew footnotes
-	matthewData, err := os.ReadFile("../texts/commentaries/chrysostom/matthew/footnotes.json")
-	if err != nil {
-		return err
-	}
-	
+	// Footnotes are now loaded from metadata.json files
+	// Initialize empty maps for compatibility
 	matthewFootnotesData = make(map[string]FootnoteData)
-	err = json.Unmarshal(matthewData, &matthewFootnotesData)
-	if err != nil {
-		return err
-	}
-	
-	// Load John footnotes
-	johnData, err := os.ReadFile("../texts/commentaries/chrysostom/john/footnotes.json")
-	if err != nil {
-		return err
-	}
-	
 	johnFootnotesData = make(map[string]FootnoteData)
-	err = json.Unmarshal(johnData, &johnFootnotesData)
-	if err != nil {
-		return err
-	}
-	
-	// Load Cyril Luke footnotes
-	cyrilData, err := os.ReadFile("../texts/commentaries/cyril/luke/footnotes.json")
-	if err != nil {
-		// Log but don't fail
-		log.Printf("Warning: Could not load Cyril Luke footnotes: %v", err)
-		cyrilLukeFootnotesData = make(map[string]FootnoteData)
-	} else {
-		var cyrilFootnotes map[string]struct {
-			File   string `json:"file"`
-			Number int    `json:"number"`
-			Text   string `json:"text"`
-		}
-		err = json.Unmarshal(cyrilData, &cyrilFootnotes)
-		if err != nil {
-			log.Printf("Warning: Could not parse Cyril Luke footnotes: %v", err)
-			cyrilLukeFootnotesData = make(map[string]FootnoteData)
-		} else {
-			// Convert Cyril footnotes to FootnoteData format
-			cyrilLukeFootnotesData = make(map[string]FootnoteData)
-			// Group footnotes by sermon number
-			sermonFootnotes := make(map[int][]Footnote)
-			for _, fn := range cyrilFootnotes {
-				// Extract sermon number from filename
-				var sermonNum int
-				if _, err := fmt.Sscanf(fn.File, "cyril_on_luke_%d_sermons_", &sermonNum); err == nil {
-					// Map file numbers to actual sermon numbers
-					switch sermonNum {
-					case 1: // File 01 contains sermons 1-11
-						if fn.Number >= 1 && fn.Number <= 50 {
-							// Approximate - need better mapping
-							sermonFootnotes[1] = append(sermonFootnotes[1], Footnote{
-								Number: strconv.Itoa(fn.Number),
-								Content: fn.Text,
-							})
-						}
-					}
-				}
-			}
-			// Convert to FootnoteData format
-			for sermonNum, footnotes := range sermonFootnotes {
-				// Convert []Footnote to the expected structure
-				var convertedFootnotes []struct {
-					OriginalNumber int    `json:"original_number"`
-					DisplayNumber  int    `json:"display_number"`
-					Content        string `json:"content"`
-				}
-				
-				for i, fn := range footnotes {
-					noteNum, _ := strconv.Atoi(fn.Number)
-					convertedFootnotes = append(convertedFootnotes, struct {
-						OriginalNumber int    `json:"original_number"`
-						DisplayNumber  int    `json:"display_number"`
-						Content        string `json:"content"`
-					}{
-						OriginalNumber: noteNum,
-						DisplayNumber:  i + 1,
-						Content:        fn.Content,
-					})
-				}
-				
-				cyrilLukeFootnotesData[strconv.Itoa(sermonNum)] = FootnoteData{
-					RomanNumeral: intToRoman(sermonNum),
-					Footnotes:    convertedFootnotes,
-				}
-			}
-		}
-	}
-	
-	log.Printf("Loaded footnotes for %d Matthew homilies and %d John homilies", 
-		len(matthewFootnotesData), len(johnFootnotesData))
+	cyrilLukeFootnotesData = make(map[string]FootnoteData)
 	return nil
 }
+
 
 // extractHomilyFromContent reads from pre-processed content.json files
 func extractHomilyFromContent(book string, homilyNum int) (string, string, error) {
