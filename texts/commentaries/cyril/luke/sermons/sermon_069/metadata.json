@@ -1,0 +1,30 @@
+{
+  "id": 69,
+  "roman": "LXIX",
+  "title": "Sermon LXIX",
+  "subtitle": "Luke 11:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "display": "Luke 11:1-11:4"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 11:1",
+  "source_file": "cyril_on_luke_07_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

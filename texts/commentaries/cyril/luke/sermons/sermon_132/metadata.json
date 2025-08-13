@@ -1,0 +1,30 @@
+{
+  "id": 132,
+  "roman": "CXXXII",
+  "title": "Sermon CXXXII",
+  "subtitle": "Luke 20:9",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 18
+    },
+    "display": "Luke 20:9-20:18"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 20:9",
+  "source_file": "cyril_on_luke_14_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

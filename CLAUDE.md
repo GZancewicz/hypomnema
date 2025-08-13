@@ -15,15 +15,10 @@ go build -o app
 # Run directly without air
 go run main.go
 
-# Python scripts for data processing (Chrysostom)
-python scripts/extract_footnotes_to_json.py  # Matthew footnotes
-python scripts/extract_john_footnotes.py      # John footnotes
-
-# Python scripts for data processing (Cyril)
-python scripts/extract_cyril_luke_data.py     # Luke sermon data
-
-# Utility scripts
-python scripts/verify_kjv_completeness.py
+# Python scripts for data processing
+python scripts/generate_unified_metadata.py   # Generate all commentary metadata
+python scripts/verify_kjv_completeness.py     # Verify KJV completeness
+python scripts/verify_commentaries_complete.py # Verify commentary metadata
 ```
 
 ## Project Structure
@@ -40,15 +35,53 @@ python scripts/verify_kjv_completeness.py
       /greek/tr/       - Textus Receptus
   /commentaries/       - Patristic commentaries
     /chrysostom/       - John Chrysostom's works
-      /matthew/        - Homilies on Matthew + data files
-      /john/           - Homilies on John + data files
+      /matthew/        - Homilies on Matthew
+        /homilies/     - Individual homily folders
+          /homily_001/ - Each contains metadata.json with footnotes
+      /john/           - Homilies on John
+        /homilies/     - Individual homily folders
     /cyril/            - Cyril of Alexandria's works
-      /luke/           - Sermons on Luke (HTML files + data)
+      /luke/           - Sermons on Luke
+        /sermons/      - Individual sermon folders
+          /sermon_001/ - Each contains metadata.json
   /reference/          - Supporting data
     /eusebian_canons/  - Canon tables and mappings
     /kjv_paragraphs/   - Paragraph divisions
 
 /scripts/              - Python utilities for text processing
+  generate_unified_metadata.py - Generate metadata structure for all commentaries
+```
+
+## Commentary Metadata Structure
+
+Each commentary has its own folder with standardized `metadata.json` containing:
+- Scripture references (correct verse ranges)
+- All footnotes for that homily/sermon
+- Word count, excerpt, themes
+- Author and work information
+
+**The application uses metadata.json for verse references** - no longer extracts from XML/HTML.
+
+### metadata.json format:
+```json
+{
+  "id": 90,
+  "roman": "XC",
+  "title": "Homily XC",
+  "subtitle": "Matthew XC. 27:27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {"chapter": 27, "verse": 27},
+    "end": {"chapter": 28, "verse": 20},
+    "display": "Matthew 27:27-28:20"
+  },
+  "footnotes": {"1": "text...", "2": "text..."},
+  "has_footnotes": true,
+  "verified": true
+}
 ```
 
 ## Development Guidelines
@@ -60,7 +93,8 @@ python scripts/verify_kjv_completeness.py
 - **Path handling**: Server expects texts at `../texts/` relative to hypomnema-server
 - **Responsive breakpoint**: 700px for mobile view
 - Never run git commands - user manages git through IDE
-- **NEVER calculate or regenerate data that already exists in JSON files** - always use existing JSON data files for verse-to-homily mappings, canon lookups, and homily coverage
+- **Metadata is authoritative** - always use metadata.json files for verse references, footnotes, and homily info
+- **NEVER calculate or regenerate data that already exists in JSON files** - always use existing JSON data files
 
 ## Important Notes
 - Footnotes are extracted to JSON to avoid XML parsing on each request
@@ -76,21 +110,32 @@ python scripts/verify_kjv_completeness.py
 
 ## Common Tasks
 
+### Adding new commentaries
+1. Create folder structure: `/texts/commentaries/[author]/[book]/[homilies|sermons]/`
+2. Generate metadata using `generate_unified_metadata.py` as template
+3. Each homily/sermon needs a folder with `metadata.json`
+4. No code changes needed - app reads metadata structure
+
 ### Adding new biblical texts
 1. Place files in `/texts/scripture/new_testament/english/kjv/[book]/[chapter]/`
 2. Format: `[book]_[chapter].txt` with verses as `[chapter]:[verse] text`
 
 ### Updating commentary data
-**Chrysostom footnotes:**
-1. Edit the XML source if needed
-2. Run `python scripts/extract_footnotes_to_json.py` (Matthew)
-3. Run `python scripts/extract_john_footnotes.py` (John)
+**Regenerate metadata structure:**
+1. Edit source files (XML/HTML) if needed
+2. Run `python scripts/generate_unified_metadata.py`
+3. This creates/updates all metadata.json files with:
+   - Correct verse references
+   - All footnotes included
+   - Word counts and excerpts
 4. Restart the server
 
-**Cyril sermon data:**
-1. Edit HTML source files if needed
-2. Run `python scripts/extract_cyril_luke_data.py`
-3. Restart the server
+**Available scripts:**
+- `generate_unified_metadata.py` - Generate/update all metadata.json files
+- `verify_kjv_completeness.py` - Verify KJV text completeness
+- `verify_commentaries_complete.py` - Verify commentary metadata
+- `generate_canon_lookup_from_sql.py` - Generate Eusebian canon lookup
+- `generate_verse_to_canon_mapping.py` - Generate verse-to-canon mapping
 
 ### Debugging commentary references
 - Check verse mapping files: `[book]_verse_to_homilies.json` (note plural 's')
@@ -115,7 +160,7 @@ python scripts/verify_kjv_completeness.py
 ## Current Features
 - KJV New Testament with chapter navigation
 - John Chrysostom's 90 homilies on Matthew and 88 homilies on John
-- Cyril of Alexandria's 156 sermons on Luke
+- Cyril of Alexandria's 153 sermons on Luke (manuscript contains only fragments for 154-156)
 - Minimal blue markers in right margin for commentary references
 - Custom hover tooltips showing homily/sermon numbers
 - Split-screen commentary viewing (50/50 layout)

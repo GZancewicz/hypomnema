@@ -1,0 +1,30 @@
+{
+  "id": 105,
+  "roman": "CV",
+  "title": "Sermon CV",
+  "subtitle": "Luke 15:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "display": "Luke 15:1-15:10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 15:1",
+  "source_file": "cyril_on_luke_11_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

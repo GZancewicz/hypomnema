@@ -1,0 +1,58 @@
+{
+  "id": 58,
+  "roman": "LVIII",
+  "title": "Homily LVIII",
+  "subtitle": "Matthew LVIII. 16:24",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 27
+    },
+    "display": "Matthew 16:24-16:27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4942,
+  "excerpt": "Homily LXI. Matt. XVIII. 21. “Then came Peter to Him, and said, Lord, how oft shall my brother sin against me, and I forgive him? till seven times? Jesus saith unto him, I say not unto thee, Until seven times, but, Until seventy times seven.”[R.V. margin, “seventy times and seven.” There is no difference of reading, but one of interpretation. Comp. Augustin, vol. vi., p. 107, Nicene and Post Nicene Fathers. Chrysostom does not indicate which view he accepts.—R.] Peter supposed he was saying something great, wherefore also as aiming at greatness he added, “Until seven times?” For this thing, saith he, which Thou hast commanded to do, how often shall I do? For if he forever sins, but forever when reproved repents, how often dost thou command us to bear with this man? For with regard to that other who repents not, neither acknowledges his own faults, Thou hast set a limit, by saying, “Let him be to thee as the heathen and the publican;” but to this no longer so, but Thou hast commanded to accept him. How often then ought I to bear with him, being told his faults, and repenting? Is it enough for seven times?...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "[R.V. margin, “seventy times and seven.”\nThere is no difference of reading, but one of interpretation. Comp.\nAugustin, vol. vi., p. 107, Nicene and Post Nicene Fathers.\nChrysostom does not indicate which view he accepts.—R.]",
+    "2": "1 Sam. ii.\n5.",
+    "3": "[R.V., “make a reckoning.”]",
+    "4": "[R.V., “wherewith to pay.”]",
+    "5": "Matt.\nxviii. 23–25. [The\ntextual variations are slight.—R.]",
+    "6": "Matt.\nxviii. 28.",
+    "7": "Matt. xix. 25. [Comp. Mark x. 26.]",
+    "8": "Rom. xi.\n33.",
+    "9": "Matt. v.\n22.",
+    "10": "Matt. v.\n28.",
+    "11": "Matt.\nxviii. 3. [Slightly\naltered.]",
+    "12": "[ἐπιτρπων,\n“stewards,” answering here to “overseers,” in\nthe worst sense.—R.]",
+    "13": "Jer. ii.\n12.",
+    "14": "ἐξεβακχεθη.",
+    "15": "[οδ\nγρο occurs here in the Greek, but is ignored by\nthe translator; probably because the thought was implied in\n“husbandry” (γεωργαν).—R.]",
+    "16": "[“The lord of that servant,” according\nto our authorities; the Homily varies.—R.]",
+    "17": "Matt.\nxviii. 26, 27.",
+    "18": "ἕναυλον.",
+    "19": "Matt.\nxviii. 28.",
+    "20": "Matt.\nxviii. 29. [R.V. omits\n“all” in this verse, with the best authorities. Probably\ntaken from verse 26.—R.]",
+    "21": "[R.V., “besoughtest.”]",
+    "22": "Matt.\nxviii. 32. [R.V., “have\nhad mercy on thy fellow servant, even as I had mercy on thee.”\nThe verb is the same in both clauses. “On thy fellow\nservant,” omitted here, is inserted in the comment.—R.]",
+    "23": "Rom. xi.\n29. [Freely cited.]",
+    "24": "Matt.\nxviii. 35. [The best New\nTestament authorities omit “their trespasses,” which was\nreadily introduced from similar passages.—R.]",
+    "25": "Δεσπτη.",
+    "26": "Matt. x.\n25.",
+    "27": "Matt. v.\n45."
+  },
+  "verified": true
+}

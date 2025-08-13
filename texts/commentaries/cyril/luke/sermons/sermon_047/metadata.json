@@ -1,0 +1,30 @@
+{
+  "id": 47,
+  "roman": "XLVII",
+  "title": "Sermon XLVII",
+  "subtitle": "Luke 9:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 6
+    },
+    "display": "Luke 9:1-9:6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 9:1",
+  "source_file": "cyril_on_luke_05_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

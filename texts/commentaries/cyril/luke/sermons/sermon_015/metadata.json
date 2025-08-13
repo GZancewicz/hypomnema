@@ -1,0 +1,30 @@
+{
+  "id": 15,
+  "roman": "XV",
+  "title": "Sermon XV",
+  "subtitle": "Luke 4:38",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 41
+    },
+    "display": "Luke 4:38-4:41"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 4:38",
+  "source_file": "cyril_on_luke_02_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

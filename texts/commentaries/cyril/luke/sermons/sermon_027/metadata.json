@@ -1,0 +1,30 @@
+{
+  "id": 27,
+  "roman": "XXVII",
+  "title": "Sermon XXVII",
+  "subtitle": "Luke 6:20",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 26
+    },
+    "display": "Luke 6:20-6:26"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 6:20",
+  "source_file": "cyril_on_luke_03_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

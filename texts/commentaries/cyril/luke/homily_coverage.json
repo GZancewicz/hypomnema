@@ -1366,32 +1366,5 @@
     "end_chapter": 23,
     "end_verse": 56,
     "title": "Luke 23:44"
-  },
-  "154": {
-    "homily_number": 154,
-    "homily_roman": "CLIV",
-    "start_chapter": 24,
-    "start_verse": 1,
-    "end_chapter": 24,
-    "end_verse": 12,
-    "title": "Luke 24:1"
-  },
-  "155": {
-    "homily_number": 155,
-    "homily_roman": "CLV",
-    "start_chapter": 24,
-    "start_verse": 13,
-    "end_chapter": 24,
-    "end_verse": 35,
-    "title": "Luke 24:13"
-  },
-  "156": {
-    "homily_number": 156,
-    "homily_roman": "CLVI",
-    "start_chapter": 24,
-    "start_verse": 36,
-    "end_chapter": 24,
-    "end_verse": 45,
-    "title": "Luke 24:36"
   }
 }

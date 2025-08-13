@@ -1,0 +1,30 @@
+{
+  "id": 60,
+  "roman": "LX",
+  "title": "Sermon LX",
+  "subtitle": "Luke 10:13",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "display": "Luke 10:13-10:15"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 10:13",
+  "source_file": "cyril_on_luke_06_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

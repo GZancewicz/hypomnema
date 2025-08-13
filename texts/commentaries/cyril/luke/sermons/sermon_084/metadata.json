@@ -1,0 +1,30 @@
+{
+  "id": 84,
+  "roman": "LXXXIV",
+  "title": "Sermon LXXXIV",
+  "subtitle": "Luke 11:37",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "display": "Luke 11:37-11:44"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 11:37",
+  "source_file": "cyril_on_luke_09_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

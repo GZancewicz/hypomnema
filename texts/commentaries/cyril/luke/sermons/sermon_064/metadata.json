@@ -1,0 +1,30 @@
+{
+  "id": 64,
+  "roman": "LXIV",
+  "title": "Sermon LXIV",
+  "subtitle": "Luke 10:21",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "display": "Luke 10:21-10:22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 10:21",
+  "source_file": "cyril_on_luke_07_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

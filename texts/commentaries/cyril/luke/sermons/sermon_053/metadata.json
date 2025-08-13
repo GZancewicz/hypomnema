@@ -1,0 +1,30 @@
+{
+  "id": 53,
+  "roman": "LIII",
+  "title": "Sermon LIII",
+  "subtitle": "Luke 9:43",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "display": "Luke 9:43-9:45"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 9:43",
+  "source_file": "cyril_on_luke_06_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

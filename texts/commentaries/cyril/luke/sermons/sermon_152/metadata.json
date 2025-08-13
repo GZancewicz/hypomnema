@@ -1,0 +1,30 @@
+{
+  "id": 152,
+  "roman": "CLII",
+  "title": "Sermon CLII",
+  "subtitle": "Luke 23:32",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 43
+    },
+    "display": "Luke 23:32-23:43"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 23:32",
+  "source_file": "cyril_on_luke_16_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

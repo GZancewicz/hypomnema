@@ -1,0 +1,30 @@
+{
+  "id": 79,
+  "roman": "LXXIX",
+  "title": "Sermon LXXIX",
+  "subtitle": "Luke 11:14",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "display": "Luke 11:14-11:18"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 11:14",
+  "source_file": "cyril_on_luke_08_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

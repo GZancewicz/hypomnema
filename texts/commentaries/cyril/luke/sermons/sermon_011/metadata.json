@@ -1,0 +1,30 @@
+{
+  "id": 11,
+  "roman": "XI",
+  "title": "Sermon XI",
+  "subtitle": "Luke 3:21",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 23
+    },
+    "display": "Luke 3:21-3:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 3:21",
+  "source_file": "cyril_on_luke_02_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

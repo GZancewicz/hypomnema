@@ -1,0 +1,30 @@
+{
+  "id": 44,
+  "roman": "XLIV",
+  "title": "Sermon XLIV",
+  "subtitle": "Luke 8:22",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 25
+    },
+    "display": "Luke 8:22-8:25"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 8:22",
+  "source_file": "cyril_on_luke_05_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

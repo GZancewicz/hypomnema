@@ -1,0 +1,30 @@
+{
+  "id": 16,
+  "roman": "XVI",
+  "title": "Sermon XVI",
+  "subtitle": "Luke 4:40",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 44
+    },
+    "display": "Luke 4:40-4:44"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 4:40",
+  "source_file": "cyril_on_luke_02_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

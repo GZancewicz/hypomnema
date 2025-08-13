@@ -1,0 +1,30 @@
+{
+  "id": 116,
+  "roman": "CXVI",
+  "title": "Sermon CXVI",
+  "subtitle": "Luke 17:22",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 37
+    },
+    "display": "Luke 17:22-17:37"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 17:22",
+  "source_file": "cyril_on_luke_12_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

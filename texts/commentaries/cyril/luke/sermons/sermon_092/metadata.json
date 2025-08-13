@@ -1,0 +1,30 @@
+{
+  "id": 92,
+  "roman": "XCII",
+  "title": "Sermon XCII",
+  "subtitle": "Luke 12:41",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 48
+    },
+    "display": "Luke 12:41-12:48"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 12:41",
+  "source_file": "cyril_on_luke_10_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

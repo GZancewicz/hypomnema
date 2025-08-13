@@ -1,0 +1,30 @@
+{
+  "id": 12,
+  "roman": "XII",
+  "title": "Sermon XII",
+  "subtitle": "Luke 4:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 13
+    },
+    "display": "Luke 4:1-4:13"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 0,
+  "excerpt": "Commentary on Luke 4:1",
+  "source_file": "cyril_on_luke_02_sermons.htm",
+  "extraction_method": "html",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

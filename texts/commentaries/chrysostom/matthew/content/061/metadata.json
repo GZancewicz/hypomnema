@@ -1,0 +1,61 @@
+{
+  "id": 61,
+  "roman": "LXI",
+  "title": "Homily LXI",
+  "subtitle": "Matthew LXI. 17:22",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 6
+    },
+    "display": "Matthew 17:22-18:6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5322,
+  "excerpt": "Homily LXIV. Matt. XIX. 27. “Then answered Peter and said unto Him, Behold, we have forsaken all, and followed Thee; what shall we have therefore?” All which? O blessed Peter; the rod? the net? the boat? the craft? These things dost thou tell me of, as all? Yea, saith he, but not for display do I say these things, but in order that by this question I may bring in the multitude of the poor. For since the Lord had said, “If thou wilt be perfect, sell that thou hast, and give to the poor, and thou shalt have treasure in Heaven;”Matt. xix. 21.lest any one of the poor should say, What then? if I have no possessions, can I not be perfect? Peter asks, that thou, the poor man, mayest learn, that thou art made in no respect inferior by this: Peter asks, that thou mayest not learn from Peter and doubt (for indeed he was imperfect as yet, and void of the Spirit), but that, having received the declaration from Peter’s Master, thou mayest be confident. For like as we do (we make things our own often when speaking of the concerns of others), so did the apostle,...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "paragraph",
+  "has_footnotes": false,
+  "footnotes": {
+    "1": "Matt. xix.\n21.",
+    "2": "Matt. xix.\n28.",
+    "3": "Jer. xviii.\n7–10.",
+    "4": "Gen. ix.\n2.",
+    "5": "Matt. xix.\n29. [The citation differs\nfrom that in the last Homily. The order here is that of Tischendorf\n(not of R.V. or rec. text): “or wife” occurs here;\n“house” is substituted for\n“houses.”—R.]",
+    "6": "Matt. xii.\n27.",
+    "7": "Matt. xii.\n41.",
+    "8": "2 Tim. ii.\n12.",
+    "9": "Gal. iv.\n51.",
+    "10": "Matt. x.\n39.",
+    "11": "1 Cor. vii.\n15.",
+    "12": "Matt. xix.\n30. [“were” is an\nemendation of the translator. The Greek is that of the rec.\ntext.—R.]",
+    "13": "Matt. viii.\n11, 12.",
+    "14": "Matt. xx.\n1. [This long passage agrees\nclosely with the rec. text. In verses 5, 6, the New Testament narrative is\nabridged, but there are scarcely any other peculiarities.—R.]",
+    "15": "κατ\nλξιν.",
+    "16": "Gal. i.\n15.",
+    "17": "1 Cor. x.\n3, 4, 5.",
+    "18": "Matt. v.\n22.",
+    "19": "ἁγιασμν, comp. 1 Thess. iv. 3. [R.V.,\n“sanctification.”]",
+    "20": "Heb. xii.\n14.",
+    "21": "Matt. viii.\n20.",
+    "22": "᾽Ιωβηλα.",
+    "23": "2 Cor.\nviii. 1, 2, 3.",
+    "24": "Matt. viii.\n20.",
+    "25": "Matt. xi.\n29.",
+    "26": "Matt. xx.\n27, 28.",
+    "27": "John xiii.\n15.",
+    "28": "Ps. xxxix.\n12.",
+    "29": "1 Cor. xi.\n31, 32.",
+    "30": "The part in italics is omitted in two\nmanuscripts."
+  },
+  "verified": true
+}
