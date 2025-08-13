@@ -15,15 +15,10 @@ go build -o app
 # Run directly without air
 go run main.go
 
-# Python scripts for data processing (Chrysostom)
-python scripts/extract_footnotes_to_json.py  # Matthew footnotes
-python scripts/extract_john_footnotes.py      # John footnotes
-
-# Python scripts for data processing (Cyril)
-python scripts/extract_cyril_luke_data.py     # Luke sermon data
-
-# Utility scripts
-python scripts/verify_kjv_completeness.py
+# Python scripts for data processing
+python scripts/generate_unified_metadata.py   # Generate all commentary metadata
+python scripts/verify_kjv_completeness.py     # Verify KJV completeness
+python scripts/verify_commentaries_complete.py # Verify commentary metadata
 ```
 
 ## Project Structure
@@ -135,10 +130,12 @@ Each commentary has its own folder with standardized `metadata.json` containing:
    - Word counts and excerpts
 4. Restart the server
 
-**Legacy scripts (for reference only):**
-- `extract_footnotes_to_json.py` - Old Matthew footnote extraction
-- `extract_john_footnotes.py` - Old John footnote extraction  
-- `extract_cyril_luke_data.py` - Old Cyril sermon extraction
+**Available scripts:**
+- `generate_unified_metadata.py` - Generate/update all metadata.json files
+- `verify_kjv_completeness.py` - Verify KJV text completeness
+- `verify_commentaries_complete.py` - Verify commentary metadata
+- `generate_canon_lookup_from_sql.py` - Generate Eusebian canon lookup
+- `generate_verse_to_canon_mapping.py` - Generate verse-to-canon mapping
 
 ### Debugging commentary references
 - Check verse mapping files: `[book]_verse_to_homilies.json` (note plural 's')
