@@ -12,6 +12,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -1241,8 +1242,8 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	var authorName string
 	
 	if author == "chrysostom" {
-		// Extract homily text from XML
-		homilyText, verseRef, err = extractHomilyFromXML(book, homilyNum)
+		// Extract homily text from pre-processed content files
+		homilyText, verseRef, err = extractHomilyFromContent(book, homilyNum)
 		if err != nil {
 			log.Printf("Error extracting %s homily %d: %v", book, homilyNum, err)
 			homilyText = "Error loading homily text."
@@ -1415,6 +1416,102 @@ func loadFootnotes() error {
 	return nil
 }
 
+// extractHomilyFromContent reads from pre-processed content.json files
+func extractHomilyFromContent(book string, homilyNum int) (string, string, error) {
+	// Read from the new content structure
+	contentPath := fmt.Sprintf("../texts/commentaries/chrysostom/%s/content/%03d/content.json", book, homilyNum)
+	
+	contentData, err := os.ReadFile(contentPath)
+	if err != nil {
+		// Fall back to old XML extraction for compatibility
+		log.Printf("JSON not found for %s homily %d, falling back to XML", book, homilyNum)
+		return extractHomilyFromXML(book, homilyNum)
+	}
+	log.Printf("Loading %s homily %d from JSON", book, homilyNum)
+	
+	var content struct {
+		Title      string `json:"title"`
+		Subtitle   string `json:"subtitle"`
+		Paragraphs []struct {
+			Number int    `json:"number"`
+			Text   string `json:"text"`
+		} `json:"paragraphs"`
+	}
+	
+	if err := json.Unmarshal(contentData, &content); err != nil {
+		return "", "", err
+	}
+	
+	// Load footnotes for this homily
+	metadataPath := fmt.Sprintf("../texts/commentaries/chrysostom/%s/content/%03d/metadata.json", book, homilyNum)
+	metadataData, _ := os.ReadFile(metadataPath)
+	
+	var metadata struct {
+		Footnotes map[string]string `json:"footnotes"`
+	}
+	json.Unmarshal(metadataData, &metadata)
+	
+	// Build HTML from paragraphs with proper footnote formatting
+	var html strings.Builder
+	for _, para := range content.Paragraphs {
+		text := para.Text
+		
+		// Replace <sup>n</sup> with proper footnote formatting
+		if metadata.Footnotes != nil {
+			// Find all <sup>n</sup> tags and replace with proper attributes
+			supPattern := regexp.MustCompile(`<sup>(\d+)</sup>`)
+			text = supPattern.ReplaceAllStringFunc(text, func(match string) string {
+				// Extract the number
+				matches := supPattern.FindStringSubmatch(match)
+				if len(matches) > 1 {
+					num := matches[1]
+					if footnote, ok := metadata.Footnotes[num]; ok {
+						// Escape quotes in tooltip
+						tooltip := strings.ReplaceAll(footnote, `"`, `&quot;`)
+						tooltip = strings.ReplaceAll(tooltip, `<`, `&lt;`)
+						tooltip = strings.ReplaceAll(tooltip, `>`, `&gt;`)
+						return fmt.Sprintf(`<sup class="footnote-ref" data-tooltip="%s">%s</sup>`, tooltip, num)
+					}
+				}
+				return match
+			})
+		}
+		
+		html.WriteString("<p>")
+		html.WriteString(text)
+		html.WriteString("</p>\n")
+	}
+	
+	// Add endnotes section if there are footnotes
+	if len(metadata.Footnotes) > 0 {
+		html.WriteString(`<div class="footnotes">`)
+		html.WriteString(`<h3>Notes</h3>`)
+		html.WriteString(`<ul class="footnotes-list">`)
+		
+		// Sort footnote numbers
+		var footnoteNums []int
+		for numStr := range metadata.Footnotes {
+			if num, err := strconv.Atoi(numStr); err == nil {
+				footnoteNums = append(footnoteNums, num)
+			}
+		}
+		sort.Ints(footnoteNums)
+		
+		// Add each footnote with manual numbering
+		for _, num := range footnoteNums {
+			numStr := strconv.Itoa(num)
+			if footnote, ok := metadata.Footnotes[numStr]; ok {
+				html.WriteString(fmt.Sprintf(`<li id="fn%d"><span class="footnote-number">%d.</span> %s</li>`, num, num, footnote))
+			}
+		}
+		
+		html.WriteString(`</ul>`)
+		html.WriteString(`</div>`)
+	}
+	
+	return html.String(), content.Subtitle, nil
+}
+
 func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 	// Read the XML file
 	xmlPath := fmt.Sprintf("../texts/commentaries/chrysostom/%s/chrysostom_%s_homilies.xml", book, book)
@@ -1456,22 +1553,100 @@ func extractHomilyFromXML(book string, homilyNum int) (string, string, error) {
 			return "", "", fmt.Errorf("John homily %d not found (only %d homilies available)", homilyNum, len(johnHomilies))
 		}
 	} else {
-		// For Matthew, simpler pattern using Roman numerals
+		// For Matthew, try div2 pattern first (homilies 1-39)
 		pattern = fmt.Sprintf(`(?s)<div2[^>]*n="%s"[^>]*>.*?</div2>`, roman)
 		re := regexp.MustCompile(pattern)
 		match = re.FindString(xmlContent)
+		
+		// Debug logging
+		if book == "matthew" && homilyNum >= 87 {
+			log.Printf("DEBUG: Looking for Matthew homily %d (%s)", homilyNum, roman)
+			log.Printf("DEBUG: div2 pattern found: %v", match != "")
+		}
+		
+		// If not found in div2, try the paragraph-based format (homilies 40-90)
+		if match == "" {
+			// For homilies 77-90, the IDs are offset by 4 (e.g., Homily LXXXVII has id iii.LXXXIII)
+			searchID := roman
+			if homilyNum >= 77 && homilyNum <= 90 {
+				searchID = intToRoman(homilyNum - 4)
+				if book == "matthew" && homilyNum >= 87 {
+					log.Printf("DEBUG: Using adjusted searchID: %s for homily %d", searchID, homilyNum)
+				}
+			}
+			
+			// Try pattern with the ID-based search for better accuracy
+			// Find the start position first, then extract content
+			startPattern := fmt.Sprintf("<p[^>]*id=\"iii\\.%s-p1\"[^>]*>", searchID)
+			startRe := regexp.MustCompile(startPattern)
+			startMatch := startRe.FindStringIndex(xmlContent)
+			
+			if startMatch != nil {
+				// Found the start, now find where it ends
+				start := startMatch[0]
+				remaining := xmlContent[start:]
+				
+				// Look for the next homily marker or end of content
+				endPattern := `<p[^>]*id="iii\.[IVXLC]+-p1"[^>]*>`
+				endRe := regexp.MustCompile(endPattern)
+				endMatch := endRe.FindStringIndex(remaining[100:]) // Skip first 100 chars to avoid self-match
+				
+				var end int
+				if endMatch != nil {
+					end = start + 100 + endMatch[0]
+				} else {
+					// No next homily found, take up to 50000 chars or end of content
+					maxLen := 50000
+					if len(remaining) < maxLen {
+						end = start + len(remaining)
+					} else {
+						end = start + maxLen
+					}
+				}
+				
+				match = xmlContent[start:end]
+			}
+			
+			// Debug logging for homilies 87-90
+			if homilyNum >= 87 && homilyNum <= 90 {
+				log.Printf("DEBUG: Homily %d - searchID=%s, pattern found=%v, match length=%d", 
+					homilyNum, searchID, match != "", len(match))
+			}
+			
+			// If still not found, fall back to text-based search
+			if match == "" {
+				// Look for pattern like: <span>Homily XC.</span>
+				// Get content from that point until the next homily or a reasonable boundary
+				altPattern := fmt.Sprintf(`(?s)Homily %s\.</span>.*?(?:(?=Homily [IVXLC]+\.</span>)|(?=<div class="footnotes">)|(?=</body>)|$)`, roman)
+				altRe := regexp.MustCompile(altPattern)
+				allMatches := altRe.FindAllString(xmlContent, -1)
+				
+				// Take the first match that looks like actual homily content
+				for _, m := range allMatches {
+					// Skip if it's too short (probably just a reference)
+					if len(m) > 500 {
+						match = m
+						break
+					}
+				}
+				
+				if match == "" && len(allMatches) > 0 {
+					// If all matches are short, take the longest one
+					match = allMatches[0]
+				}
+			}
+		}
 	}
 	
 	if match == "" {
-		// Try alternative pattern for homilies without div2
-		// Look for "Homily [Roman]." pattern
-		altPattern := fmt.Sprintf(`(?s)Homily %s\.</span></p>.*?(?=Homily [IVX]+\.|</body>)`, roman)
-		altRe := regexp.MustCompile(altPattern)
-		match = altRe.FindString(xmlContent)
-		
-		if match == "" {
-			return "", "", fmt.Errorf("homily %s not found", roman)
-		}
+		return "", "", fmt.Errorf("homily %s not found", roman)
+	}
+	
+	// Safety check: if match is too large, truncate it
+	// (Some homilies might accidentally capture too much)
+	maxLength := 500000 // 500KB should be more than enough for a homily
+	if len(match) > maxLength {
+		match = match[:maxLength]
 	}
 	
 	// Extract verse reference
@@ -2273,9 +2448,37 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	
 	var homilyText, verseRef string
 	
+	// First try to load verse reference from new metadata structure
+	metadataPath := ""
 	if author == "chrysostom" {
-		// Extract homily text from XML
-		homilyText, verseRef, err = extractHomilyFromXML(book, homilyNum)
+		metadataPath = fmt.Sprintf("../texts/commentaries/chrysostom/%s/homilies/homily_%03d/metadata.json", book, homilyNum)
+	} else if author == "cyril" {
+		metadataPath = fmt.Sprintf("../texts/commentaries/cyril/%s/sermons/sermon_%03d/metadata.json", book, homilyNum)
+	}
+	
+	// Try to load metadata for verse reference
+	if metadataPath != "" {
+		if metadataContent, err := os.ReadFile(metadataPath); err == nil {
+			var metadata map[string]interface{}
+			if err := json.Unmarshal(metadataContent, &metadata); err == nil {
+				// Get verse reference from metadata
+				if scriptureRef, ok := metadata["scripture_reference"].(map[string]interface{}); ok {
+					if display, ok := scriptureRef["display"].(string); ok {
+						verseRef = display
+					}
+				}
+			}
+		}
+	}
+	
+	if author == "chrysostom" {
+		// Extract homily text from pre-processed content files
+		var xmlVerseRef string
+		homilyText, xmlVerseRef, err = extractHomilyFromContent(book, homilyNum)
+		// Use metadata verse ref if available, otherwise use extracted
+		if verseRef == "" {
+			verseRef = xmlVerseRef
+		}
 		if err != nil {
 			log.Printf("Error extracting homily %d: %v", homilyNum, err)
 			w.Header().Set("Content-Type", "text/html")
@@ -2284,7 +2487,12 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	} else if author == "cyril" {
 		// Extract sermon text from HTML
-		homilyText, verseRef, err = extractCyrilSermonFromHTML(homilyNum)
+		var htmlVerseRef string
+		homilyText, htmlVerseRef, err = extractCyrilSermonFromHTML(homilyNum)
+		// Use metadata verse ref if available, otherwise use extracted
+		if verseRef == "" {
+			verseRef = htmlVerseRef
+		}
 		if err != nil {
 			log.Printf("Error extracting Cyril sermon %d: %v", homilyNum, err)
 			w.Header().Set("Content-Type", "text/html")
@@ -2348,7 +2556,7 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 	} else if author == "chrysostom" && book == "john" {
 		total = 88
 	} else if author == "cyril" && book == "luke" {
-		total = 156
+		total = 153
 	} else {
 		http.Error(w, "Unknown commentary", http.StatusNotFound)
 		return

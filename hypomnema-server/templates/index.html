@@ -7,7 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=80">
+    <link rel="stylesheet" href="/static/styles.css?v=81">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -361,7 +361,7 @@
                                             <li class="homily-item" onclick="loadCyrilHomily(3, 'III', 'luke'); return false;">Sermon III (1:26-38)</li>
                                             <li class="homily-item" onclick="loadCyrilHomily(4, 'IV', 'luke'); return false;">Sermon IV (1:39-45)</li>
                                             <li class="homily-item" onclick="loadCyrilHomily(5, 'V', 'luke'); return false;">Sermon V (1:26-38)</li>
-                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all 156 sermons...</li>
+                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all 153 sermons...</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -606,7 +606,7 @@
                 list.classList.remove('expanded');
                 
                 // Update button text
-                const total = book === 'matthew' ? 90 : (book === 'john' ? 88 : 156);
+                const total = book === 'matthew' ? 90 : (book === 'john' ? 88 : 153);
                 const type = author === 'cyril' ? 'sermons' : 'homilies';
                 showMoreBtn.textContent = `Show all ${total} ${type}...`;
             } else {
