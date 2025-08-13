@@ -668,6 +668,87 @@
             document.getElementById('search-results').innerHTML = '';
         }
         
+        function showAllSearchResults(query) {
+            // Create modal overlay
+            const modal = document.createElement('div');
+            modal.id = 'search-modal';
+            modal.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 10000; display: flex; align-items: center; justify-content: center;';
+            
+            // Create modal content container
+            const modalContent = document.createElement('div');
+            modalContent.style.cssText = 'background: white; width: 90%; max-width: 800px; max-height: 80vh; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;';
+            
+            // Create modal header
+            const modalHeader = document.createElement('div');
+            modalHeader.style.cssText = 'padding: 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;';
+            modalHeader.innerHTML = `
+                <h3 style="margin: 0;">All results for "${query}"</h3>
+                <button onclick="closeSearchModal()" style="background: none; border: none; font-size: 24px; cursor: pointer; color: #666;">&times;</button>
+            `;
+            
+            // Create modal body
+            const modalBody = document.createElement('div');
+            modalBody.style.cssText = 'overflow-y: auto; padding: 10px;';
+            modalBody.innerHTML = '<div style="text-align: center; padding: 20px;">Loading...</div>';
+            
+            modalContent.appendChild(modalHeader);
+            modalContent.appendChild(modalBody);
+            modal.appendChild(modalContent);
+            document.body.appendChild(modal);
+            
+            // Fetch all results
+            fetch(`/api/search?q=${encodeURIComponent(query)}&all=true`)
+                .then(response => response.text())
+                .then(html => {
+                    modalBody.innerHTML = html;
+                })
+                .catch(error => {
+                    modalBody.innerHTML = '<div style="text-align: center; padding: 20px; color: red;">Error loading results</div>';
+                });
+        }
+        
+        function closeSearchModal() {
+            const modal = document.getElementById('search-modal');
+            if (modal) {
+                modal.remove();
+            }
+        }
+        
+        function navigateFromModal(bookId, chapter) {
+            console.log('Navigating to:', bookId, chapter); // Debug log
+            
+            // Close modal and search
+            closeSearchModal();
+            closeSearch();
+            
+            // Update current state
+            currentBook = bookId;
+            currentChapter = parseInt(chapter);
+            
+            // Navigate using HTMX
+            const url = `/api/chapter/${bookId}/${chapter}`;
+            
+            // Trigger HTMX request
+            htmx.ajax('GET', url, {
+                target: '#text-content',
+                swap: 'innerHTML'
+            }).then(() => {
+                // Update URL after content loads
+                history.pushState(null, '', `/${bookId}/${chapter}`);
+                
+                // Update active book in sidebar
+                document.querySelectorAll('.book-item').forEach(item => {
+                    item.classList.toggle('active', item.getAttribute('data-book-id') === bookId);
+                });
+                
+                // Update book title
+                const activeBook = document.querySelector('.book-item.active');
+                if (activeBook) {
+                    document.getElementById('book-title').textContent = activeBook.textContent.trim();
+                }
+            });
+        }
+        
         function toggleSidebar() {
             const container = document.querySelector('.container');
             const overlay = document.getElementById('sidebarOverlay');

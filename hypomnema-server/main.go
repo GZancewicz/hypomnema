@@ -484,31 +484,32 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
+	// Check if this is a request for all results
+	showAll := r.URL.Query().Get("all") == "true"
+	
 	// Convert to lowercase for case-insensitive search
 	searchTerm := strings.ToLower(query)
 	
-	// Search results HTML
-	var results strings.Builder
-	results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+	// Define search result structure
+	type SearchResult struct {
+		BookID    string
+		BookName  string
+		Chapter   int
+		VerseRef  string
+		VerseText string
+		IsGospel  bool
+	}
 	
-	resultCount := 0
-	maxResults := 20
+	var allResults []SearchResult
+	gospelBooks := map[string]bool{"matthew": true, "mark": true, "luke": true, "john": true}
 	
 	// Search through all books
 	for _, book := range books {
-		if resultCount >= maxResults {
-			break
-		}
-		
 		// Get book directory
 		bookDir := filepath.Join("../texts/scripture/new_testament/english/kjv", book.ID)
 		
 		// Read all chapters for this book
 		for chapter := 1; chapter <= book.Chapters; chapter++ {
-			if resultCount >= maxResults {
-				break
-			}
-			
 			chapterDir := fmt.Sprintf("%02d", chapter)
 			chapterFile := filepath.Join(bookDir, chapterDir, fmt.Sprintf("%s_%02d.txt", book.ID, chapter))
 			
@@ -521,61 +522,106 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 			// Search line by line
 			lines := strings.Split(string(content), "\n")
 			for _, line := range lines {
-				if resultCount >= maxResults {
-					break
-				}
-				
 				// Check if line contains search term
 				if strings.Contains(strings.ToLower(line), searchTerm) {
 					// Parse verse reference
 					parts := strings.SplitN(line, " ", 2)
 					if len(parts) == 2 {
-						verseRef := parts[0]
-						verseText := parts[1]
-						
-						// Highlight search term
-						highlightedText := verseText
-						// Simple highlight - wrap matches in <mark> tags
-						re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
-						highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
-						
-						// Truncate if too long
-						if len(highlightedText) > 200 {
-							highlightedText = highlightedText[:200] + "..."
-						}
-						
-						// Create clickable result
-						results.WriteString(fmt.Sprintf(`
-							<div class="search-result" 
-							     style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
-							     onmouseover="this.style.backgroundColor='#f5f5f5'" 
-							     onmouseout="this.style.backgroundColor=''"
-							     hx-get="/api/chapter/%s/%d"
-							     hx-target="#text-content"
-							     hx-swap="innerHTML"
-							     hx-push-url="/%s/%d"
-							     hx-indicator="#loading-indicator">
-								<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
-								<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
-							</div>
-						`, book.ID, chapter, book.ID, chapter, book.Name, verseRef, highlightedText))
-						
-						resultCount++
+						allResults = append(allResults, SearchResult{
+							BookID:    book.ID,
+							BookName:  book.Name,
+							Chapter:   chapter,
+							VerseRef:  parts[0],
+							VerseText: parts[1],
+							IsGospel:  gospelBooks[book.ID],
+						})
 					}
 				}
 			}
 		}
 	}
 	
-	if resultCount == 0 {
-		results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
-		results.WriteString(html.EscapeString(query))
-		results.WriteString(`"</div>`)
-	} else if resultCount >= maxResults {
-		results.WriteString(fmt.Sprintf(`<div style="padding: 10px; color: #666; text-align: center;">Showing first %d results</div>`, maxResults))
-	}
+	// Build results HTML
+	var results strings.Builder
 	
-	results.WriteString(`</div>`)
+	if showAll {
+		// Return JSON for modal
+		results.WriteString(`<div id="search-modal-content">`)
+		for _, result := range allResults {
+			highlightedText := result.VerseText
+			re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+			highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+			if len(highlightedText) > 200 {
+				highlightedText = highlightedText[:200] + "..."
+			}
+			
+			results.WriteString(fmt.Sprintf(`
+				<div class="search-result-modal" 
+					 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+					 onmouseover="this.style.backgroundColor='#f5f5f5'" 
+					 onmouseout="this.style.backgroundColor=''"
+					 onclick="navigateFromModal('%s', %d); event.stopPropagation();">
+					<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+					<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+				</div>
+			`, result.BookID, result.Chapter, result.BookName, result.VerseRef, highlightedText))
+		}
+		results.WriteString(`</div>`)
+	} else {
+		// Regular search results - show all Gospel results
+		results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
+		
+		gospelCount := 0
+		totalCount := len(allResults)
+		
+		// Show all Gospel results first
+		for _, result := range allResults {
+			if result.IsGospel {
+				highlightedText := result.VerseText
+				re := regexp.MustCompile("(?i)" + regexp.QuoteMeta(query))
+				highlightedText = re.ReplaceAllString(highlightedText, "<mark>$0</mark>")
+				if len(highlightedText) > 200 {
+					highlightedText = highlightedText[:200] + "..."
+				}
+				
+				results.WriteString(fmt.Sprintf(`
+					<div class="search-result" 
+						 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
+						 onmouseover="this.style.backgroundColor='#f5f5f5'" 
+						 onmouseout="this.style.backgroundColor=''"
+						 hx-get="/api/chapter/%s/%d"
+						 hx-target="#text-content"
+						 hx-swap="innerHTML"
+						 hx-push-url="/%s/%d"
+						 hx-indicator="#loading-indicator">
+						<div style="color: #3498db; font-weight: 500; margin-bottom: 4px; pointer-events: none;">%s %s</div>
+						<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
+					</div>
+				`, result.BookID, result.Chapter, result.BookID, result.Chapter, result.BookName, result.VerseRef, highlightedText))
+				
+				gospelCount++
+			}
+		}
+		
+		// Show message based on results
+		if totalCount == 0 {
+			results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
+			results.WriteString(html.EscapeString(query))
+			results.WriteString(`"</div>`)
+		} else if totalCount > gospelCount {
+			// There are non-Gospel results
+			results.WriteString(fmt.Sprintf(`
+				<div style="padding: 10px; text-align: center; border-top: 1px solid #eee;">
+					<div style="color: #666; margin-bottom: 8px;">Showing %d Gospel results</div>
+					<a href="#" onclick="event.preventDefault(); showAllSearchResults('%s')" style="color: #3498db; text-decoration: none; font-weight: 500;">
+						See all %d results from the New Testament →
+					</a>
+				</div>
+			`, gospelCount, html.EscapeString(query), totalCount))
+		}
+		
+		results.WriteString(`</div>`)
+	}
 	
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(results.String()))
