@@ -272,41 +272,8 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 
 // loadAllFootnotes loads the pre-extracted footnotes for all homilies
 func loadAllFootnotes() {
-	// Load Chrysostom Matthew footnotes
-	matthewFile, err := os.Open("../texts/commentaries/chrysostom/matthew/all_footnotes.json")
-	if err != nil {
-		log.Printf("Could not load Chrysostom Matthew footnotes: %v", err)
-	} else {
-		defer matthewFile.Close()
-		decoder := json.NewDecoder(matthewFile)
-		if err := decoder.Decode(&chrysostomMatthewFootnotes); err != nil {
-			log.Printf("Error decoding Chrysostom Matthew footnotes: %v", err)
-		} else {
-			count := 0
-			for _, footnotes := range chrysostomMatthewFootnotes {
-				count += len(footnotes)
-			}
-			log.Printf("Loaded %d Chrysostom Matthew footnotes across %d homilies", count, len(chrysostomMatthewFootnotes))
-		}
-	}
-	
-	// Load Chrysostom John footnotes
-	johnFile, err := os.Open("../texts/commentaries/chrysostom/john/all_footnotes.json")
-	if err != nil {
-		log.Printf("Could not load Chrysostom John footnotes: %v", err)
-	} else {
-		defer johnFile.Close()
-		decoder := json.NewDecoder(johnFile)
-		if err := decoder.Decode(&chrysostomJohnFootnotes); err != nil {
-			log.Printf("Error decoding Chrysostom John footnotes: %v", err)
-		} else {
-			count := 0
-			for _, footnotes := range chrysostomJohnFootnotes {
-				count += len(footnotes)
-			}
-			log.Printf("Loaded %d Chrysostom John footnotes across %d homilies", count, len(chrysostomJohnFootnotes))
-		}
-	}
+	// Footnotes are now loaded from metadata.json files in each homily/sermon folder
+	// This function is kept for compatibility but doesn't need to do anything
 }
 
 // parseVerseRef parses a verse reference like "3.3" or "3.3-6" into chapter and verse numbers
@@ -394,10 +361,8 @@ func findHomiliesForRange(author, book string, startChap, startVerse, endChap, e
 }
 
 func main() {
-	// Load footnotes at startup
-	if err := loadFootnotes(); err != nil {
-		log.Printf("Warning: Failed to load footnotes: %v", err)
-	}
+	// Initialize footnote maps (footnotes are loaded from metadata.json files)
+	loadFootnotes()
 
 	// Serve static files
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
@@ -1365,102 +1330,14 @@ var cyrilLukeFootnotesData map[string]FootnoteData
 
 // Load footnotes from JSON file
 func loadFootnotes() error {
-	// Load Matthew footnotes
-	matthewData, err := os.ReadFile("../texts/commentaries/chrysostom/matthew/footnotes.json")
-	if err != nil {
-		return err
-	}
-	
+	// Footnotes are now loaded from metadata.json files
+	// Initialize empty maps for compatibility
 	matthewFootnotesData = make(map[string]FootnoteData)
-	err = json.Unmarshal(matthewData, &matthewFootnotesData)
-	if err != nil {
-		return err
-	}
-	
-	// Load John footnotes
-	johnData, err := os.ReadFile("../texts/commentaries/chrysostom/john/footnotes.json")
-	if err != nil {
-		return err
-	}
-	
 	johnFootnotesData = make(map[string]FootnoteData)
-	err = json.Unmarshal(johnData, &johnFootnotesData)
-	if err != nil {
-		return err
-	}
-	
-	// Load Cyril Luke footnotes
-	cyrilData, err := os.ReadFile("../texts/commentaries/cyril/luke/footnotes.json")
-	if err != nil {
-		// Log but don't fail
-		log.Printf("Warning: Could not load Cyril Luke footnotes: %v", err)
-		cyrilLukeFootnotesData = make(map[string]FootnoteData)
-	} else {
-		var cyrilFootnotes map[string]struct {
-			File   string `json:"file"`
-			Number int    `json:"number"`
-			Text   string `json:"text"`
-		}
-		err = json.Unmarshal(cyrilData, &cyrilFootnotes)
-		if err != nil {
-			log.Printf("Warning: Could not parse Cyril Luke footnotes: %v", err)
-			cyrilLukeFootnotesData = make(map[string]FootnoteData)
-		} else {
-			// Convert Cyril footnotes to FootnoteData format
-			cyrilLukeFootnotesData = make(map[string]FootnoteData)
-			// Group footnotes by sermon number
-			sermonFootnotes := make(map[int][]Footnote)
-			for _, fn := range cyrilFootnotes {
-				// Extract sermon number from filename
-				var sermonNum int
-				if _, err := fmt.Sscanf(fn.File, "cyril_on_luke_%d_sermons_", &sermonNum); err == nil {
-					// Map file numbers to actual sermon numbers
-					switch sermonNum {
-					case 1: // File 01 contains sermons 1-11
-						if fn.Number >= 1 && fn.Number <= 50 {
-							// Approximate - need better mapping
-							sermonFootnotes[1] = append(sermonFootnotes[1], Footnote{
-								Number: strconv.Itoa(fn.Number),
-								Content: fn.Text,
-							})
-						}
-					}
-				}
-			}
-			// Convert to FootnoteData format
-			for sermonNum, footnotes := range sermonFootnotes {
-				// Convert []Footnote to the expected structure
-				var convertedFootnotes []struct {
-					OriginalNumber int    `json:"original_number"`
-					DisplayNumber  int    `json:"display_number"`
-					Content        string `json:"content"`
-				}
-				
-				for i, fn := range footnotes {
-					noteNum, _ := strconv.Atoi(fn.Number)
-					convertedFootnotes = append(convertedFootnotes, struct {
-						OriginalNumber int    `json:"original_number"`
-						DisplayNumber  int    `json:"display_number"`
-						Content        string `json:"content"`
-					}{
-						OriginalNumber: noteNum,
-						DisplayNumber:  i + 1,
-						Content:        fn.Content,
-					})
-				}
-				
-				cyrilLukeFootnotesData[strconv.Itoa(sermonNum)] = FootnoteData{
-					RomanNumeral: intToRoman(sermonNum),
-					Footnotes:    convertedFootnotes,
-				}
-			}
-		}
-	}
-	
-	log.Printf("Loaded footnotes for %d Matthew homilies and %d John homilies", 
-		len(matthewFootnotesData), len(johnFootnotesData))
+	cyrilLukeFootnotesData = make(map[string]FootnoteData)
 	return nil
 }
+
 
 // extractHomilyFromContent reads from pre-processed content.json files
 func extractHomilyFromContent(book string, homilyNum int) (string, string, error) {
