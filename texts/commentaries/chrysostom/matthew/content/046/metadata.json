@@ -1,0 +1,59 @@
+{
+  "id": 46,
+  "roman": "XLVI",
+  "title": "Homily XLVI",
+  "subtitle": "Matthew 13:24",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 24
+    },
+    "display": "Matthew 13:24"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3451,
+  "excerpt": "Homily XLVI....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[The citation agrees exactly with the Received text; ον is however inserted in verse 30, against nearly all our New Testament authorities. In several minor variations the text differs from that of Tischendorf and other recent editors.—R.]",
+    "2": "Matt. x. 22.",
+    "3": "1 Cor. xvi. 13.",
+    "4": "Matt. xiii. 30.",
+    "5": "Matt. iii. 12.",
+    "6": "[μου is omitted from the text of the Homily.—R.]",
+    "7": "[Matt. xiii. 31. [R.V., “set he before them,” etc.]",
+    "8": "κρυγμα.",
+    "9": "Matt. xiii. 31, 32. [R.V., “is less than all,” “is greater than.”]",
+    "10": "ἐξηπλθη.",
+    "11": "Matt. xiii. 33. [ἔκρυψεν (see Luke xiii. 21) is the reading here, and in the comment. Our best New Testament mss. read ἐνκρυψεν.—R.]",
+    "12": "ἰσχν.",
+    "13": "This sentence is printed in italics, as not appearing in many of the mss. It is evidently a marginal note by some copyist. [It is not found in any of the mss. collated by Field, and was bracketed as doubtful by earlier editors.—R.]",
+    "14": "ἀνηρτσατο.",
+    "15": "John x. 41. [R.V., “sign,” and so elsewhere in this edition of the Homilies. The same term (σημεον) occurs frequently in the present context, and is uniformly rendered “miracle.”—R.]",
+    "16": "Acts xiii. 22.",
+    "17": "Matt. viii. 20.",
+    "18": "Matt. v. 16.",
+    "19": "John xxi. 16.",
+    "20": "Matt. vii. 16.",
+    "21": "Matt. xi. 29.",
+    "22": "Luke x. 7, 8; compare 1 Cor. x. 27. [The two passages are combined.—R.]",
+    "23": "Matt. x. 9.",
+    "24": "ἀναβαλλσθω ε σημεα.",
+    "25": "Acts viii. 10.",
+    "26": "1 Cor. xii. 31.",
+    "27": "Matt. xix. 27.",
+    "28": "Matt. v. 29; compare Mark x. 30, Luke viii. 30."
+  },
+  "verified": true
+}

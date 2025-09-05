@@ -1,0 +1,57 @@
+{
+  "id": 57,
+  "roman": "LVII",
+  "title": "Homily LVII",
+  "subtitle": "Matthew 18:15",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 15
+    },
+    "display": "Matthew 18:15"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2850,
+  "excerpt": "Homily LX....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[The form of the Greek verb here is peculiar to the text of the Homily. R.V., “sin,” for “trespass.”—R.]",
+    "2": "Lit. “reprove” or “convict him.”",
+    "3": "Matt. v. 24. [But the citation is fuller: “If thou art standing by the altar and rememberest that thy brother hath aught against thee, go away, be reconciled,” etc.—R.]",
+    "4": "Matt. vi. 12.",
+    "5": "[Supplied by translator.]",
+    "6": "Or, “Convict him.”",
+    "7": "Matt. xviii. 16. [The words “or three” are omitted in the Homily here, but not below. In both cases the form of the verb is changed.—R.]",
+    "8": "Matt. xviii. 17.",
+    "9": "Matt. v. 39.",
+    "10": "1 Cor. v. 12.",
+    "11": "[Oxford edition, “these,” misprint, since the Greek word is τρε.—R.]",
+    "12": "ἐκστατικτερον.",
+    "13": "Matt. v. 46.",
+    "14": "Matt. xxi. 31.",
+    "15": "Matt. xviii. 18. [R.V., “What things soever,” etc. But the singular pronoun is substituted in the text of the Homily.—R.]",
+    "16": "[A clause is omitted here, “and doth not straightway cut him off.”—R.]",
+    "17": "Matt. xviii. 19, 20.",
+    "18": "μικροψυχα .",
+    "19": "2 Cor. xii. 9. [R.V., “for my power is made perfect in weakness.”]",
+    "20": "πολιτεαν.",
+    "21": "Matt. v. 44.",
+    "22": "Jer. xi. 14.",
+    "23": "ἐπικηρων.",
+    "24": "1 Cor. xiii. 8. [R.V., “Love never faileth.” The Greek word is rendered “love” throughout this part of the Homily.—R.]",
+    "25": "John xv. 13.",
+    "26": "Luke xxiii. 34."
+  },
+  "verified": true
+}

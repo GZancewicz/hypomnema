@@ -1,0 +1,60 @@
+{
+  "id": 45,
+  "roman": "XLV",
+  "title": "Homily XLV",
+  "subtitle": "John 6:41-42",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 42
+    },
+    "display": "John 6:41-42"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3290,
+  "excerpt": "Homily XLVI....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “speaking concerning the Jews.”",
+    "2": "Sav. ἄ κοντα, Ben. τυχόντα",
+    "3": "“The Father,” N.T.",
+    "4": "Ben. “he foretold they shall.”",
+    "5": "ἰ σοστάσιον, al. ἰ σότιμον",
+    "6": "ἐ κ Θεοῦ [παρὰ Θ v. 46].",
+    "7": "i.e. with reference, not to men who are “of God” as being their Cause by creation, but to Himself who is “of God” by His Essence.",
+    "8": "συγκρατεῖ, al. συγκροτεῖ",
+    "9": "Ver. 58 , ὃ ς ἂν φάγῃ, [ὁ τρώγων, G. T.].",
+    "10": "“keep,” N.T.",
+    "11": "“If any man eat,” N.T.",
+    "12": "al. “And observe how He bound the disciples to Himself; for these are they who say, ‘ Thou hast the words of life, whither shall we depart? ’ but here He bringeth in Himself giving, not the Father.”",
+    "13": "al. “‘ The bread which I will give. ’ But the multitudes not so, but contrariwise, ‘ This is a hard saying, ’ wherefore they go back. Yet it was no strange or unusual doctrine, for John,” &c.",
+    "14": "or, “risen.”",
+    "15": "i.e. communicants.",
+    "16": "ἀ νακερασθῶμεν",
+    "17": "ἀ νέφυρε",
+    "18": "ἕ ν π",
+    "19": "al. “is proof of.”",
+    "20": "i.e. by the New Birth.",
+    "21": "ἀ νθηρὰν",
+    "22": "al. “this mystical blood.”",
+    "23": "ἐ χειροτονεῖ",
+    "24": "al. “washed away.”",
+    "25": "al. “is delighted.”",
+    "26": "al. “pouring forth.”",
+    "27": "al. “cooleth.”",
+    "28": "or, “slayings.”",
+    "29": "al. “what is there.”"
+  },
+  "verified": true
+}

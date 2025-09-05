@@ -1,0 +1,50 @@
+{
+  "id": 50,
+  "roman": "L",
+  "title": "Homily L",
+  "subtitle": "John 7:37-38",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 38
+    },
+    "display": "John 7:37-38"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2750,
+  "excerpt": "Homily LI....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "ἐ φόδια",
+    "2": "i.e. not of the Scripture.",
+    "3": "al. “He dwelt desiring,” &c.",
+    "4": "lit. “unspeakable.”",
+    "5": "lit. “the Cross.”",
+    "6": "i.e. after the Crucifixion.",
+    "7": "i.e. before the Crucifixion.",
+    "8": "al. “divine.”",
+    "9": "In Ben. the reading is different, and the sense seems incomplete. “Since then speaking of this grace, the Ev.”",
+    "10": "“as saith the Scripture,” ver. 38",
+    "11": "not verbally quoted.",
+    "12": "ver. 12",
+    "13": "al. “not well ordered.”",
+    "14": "al. “bringing up.”",
+    "15": "al. “disputed.”",
+    "16": "or, “hinder.”",
+    "17": "al. “the heavens.”",
+    "18": "al. “hope of p.”",
+    "19": "or, “display.”"
+  },
+  "verified": true
+}

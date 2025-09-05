@@ -1,0 +1,46 @@
+{
+  "id": 28,
+  "roman": "XXVIII",
+  "title": "Homily XXVIII",
+  "subtitle": "John 3:22",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 22
+    },
+    "display": "John 3:22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3161,
+  "excerpt": "John iii. 22...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "διάθεσιν",
+    "2": "̓ Ιουδαίου τινός. This reading is found in the Complut. and in most of the Greek commentators: the plural in G. T., Vulgate, and Latin writers.",
+    "3": "παρακνίζειν",
+    "4": "Morel. “but he speaks in a manner reservedly.”",
+    "5": "ἐ χαρισάμην",
+    "6": "c. i. 27",
+    "7": "al. “implied.”",
+    "8": "or “affairs.”",
+    "9": "So Savile and mss. Morel.’s reading has the same sense, but is less clear and concise.",
+    "10": "or, “obey.”",
+    "11": "i.e. “if they believed not.”",
+    "12": "al. “vainglory.”",
+    "13": "Ben. “so does it everywhere extend.”",
+    "14": "ἀ ξίαν",
+    "15": "al. “of men.”"
+  },
+  "verified": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": 45,
+  "roman": "XLV",
+  "title": "Homily XLV",
+  "subtitle": "Matthew 13:10",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 10
+    },
+    "display": "Matthew 13:10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2622,
+  "excerpt": "Homily XLV....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[R.V., “Unto you it is given,” omitting “Because.”]",
+    "2": "Mark iv. 10.",
+    "3": "Luke ix. 12.",
+    "4": "Matt. xv. 12.",
+    "5": "Matt. xiii. 11. [R.V., “Unto you it is given,” etc.]",
+    "6": "ἀποκλρωσι.",
+    "7": "Matt. xiii. 12. See Luke viii. 18. [δοκε is inserted from the latter passage, and repeated in the comments.—R.]",
+    "8": "Matt. xiii. 13.",
+    "9": "Matt. xii. 14.",
+    "10": "John ix. 16.",
+    "11": "Matt. xiii. 14. See Is. vi. 9, 10.",
+    "12": "Matt. xiii. 15. [The passage is abridged. R.V., “should turn again ” (so in Isaiah). Chrysostom takes it in this sense, as the context shows.—R.]",
+    "13": "[“turn again.”]",
+    "14": "[τ πιστραφναι.]",
+    "15": "Ezek. xviii. 23. [Freely cited in the first part.—R.]",
+    "16": "Matt. xiii. 16.",
+    "17": "Matt. xiii. 17.",
+    "18": "Matt. xiii. 18.",
+    "19": "Isa. lviii. 7, LXX.",
+    "20": "θμι."
+  },
+  "verified": true
+}

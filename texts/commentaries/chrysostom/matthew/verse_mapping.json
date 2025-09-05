@@ -1,0 +1,608 @@
+{
+  "1:1": [
+    {
+      "id": 2,
+      "roman": "II",
+      "type": "primary"
+    },
+    {
+      "id": 3,
+      "roman": "III",
+      "type": "primary"
+    }
+  ],
+  "1:17": [
+    {
+      "id": 4,
+      "roman": "IV",
+      "type": "primary"
+    }
+  ],
+  "1:22": [
+    {
+      "id": 5,
+      "roman": "V",
+      "type": "primary"
+    }
+  ],
+  "2:1": [
+    {
+      "id": 6,
+      "roman": "VI",
+      "type": "primary"
+    }
+  ],
+  "2:4": [
+    {
+      "id": 7,
+      "roman": "VII",
+      "type": "primary"
+    }
+  ],
+  "2:2": [
+    {
+      "id": 8,
+      "roman": "VIII",
+      "type": "primary"
+    }
+  ],
+  "2:16": [
+    {
+      "id": 9,
+      "roman": "IX",
+      "type": "primary"
+    }
+  ],
+  "3:1": [
+    {
+      "id": 10,
+      "roman": "X",
+      "type": "primary"
+    }
+  ],
+  "3:7": [
+    {
+      "id": 11,
+      "roman": "XI",
+      "type": "primary"
+    }
+  ],
+  "3:13": [
+    {
+      "id": 12,
+      "roman": "XII",
+      "type": "primary"
+    }
+  ],
+  "4:1": [
+    {
+      "id": 13,
+      "roman": "XIII",
+      "type": "primary"
+    }
+  ],
+  "4:12": [
+    {
+      "id": 14,
+      "roman": "XIV",
+      "type": "primary"
+    }
+  ],
+  "5:1": [
+    {
+      "id": 15,
+      "roman": "XV",
+      "type": "primary"
+    }
+  ],
+  "5:17": [
+    {
+      "id": 16,
+      "roman": "XVI",
+      "type": "primary"
+    }
+  ],
+  "5:27": [
+    {
+      "id": 17,
+      "roman": "XVII",
+      "type": "primary"
+    }
+  ],
+  "5:38": [
+    {
+      "id": 18,
+      "roman": "XVIII",
+      "type": "primary"
+    }
+  ],
+  "6:1": [
+    {
+      "id": 19,
+      "roman": "XIX",
+      "type": "primary"
+    }
+  ],
+  "6:16": [
+    {
+      "id": 20,
+      "roman": "XX",
+      "type": "primary"
+    }
+  ],
+  "6:24": [
+    {
+      "id": 21,
+      "roman": "XXI",
+      "type": "primary"
+    }
+  ],
+  "6:28": [
+    {
+      "id": 22,
+      "roman": "XXII",
+      "type": "primary"
+    }
+  ],
+  "7:1": [
+    {
+      "id": 23,
+      "roman": "XXIII",
+      "type": "primary"
+    }
+  ],
+  "7:21": [
+    {
+      "id": 24,
+      "roman": "XXIV",
+      "type": "primary"
+    }
+  ],
+  "7:28": [
+    {
+      "id": 25,
+      "roman": "XXV",
+      "type": "primary"
+    }
+  ],
+  "8:5": [
+    {
+      "id": 26,
+      "roman": "XXVI",
+      "type": "primary"
+    }
+  ],
+  "8:14": [
+    {
+      "id": 27,
+      "roman": "XXVII",
+      "type": "primary"
+    }
+  ],
+  "8:23": [
+    {
+      "id": 28,
+      "roman": "XXVIII",
+      "type": "primary"
+    }
+  ],
+  "9:1": [
+    {
+      "id": 29,
+      "roman": "XXIX",
+      "type": "primary"
+    }
+  ],
+  "9:9": [
+    {
+      "id": 30,
+      "roman": "XXX",
+      "type": "primary"
+    }
+  ],
+  "9:18": [
+    {
+      "id": 31,
+      "roman": "XXXI",
+      "type": "primary"
+    }
+  ],
+  "9:27": [
+    {
+      "id": 32,
+      "roman": "XXXII",
+      "type": "primary"
+    }
+  ],
+  "10:16": [
+    {
+      "id": 33,
+      "roman": "XXXIII",
+      "type": "primary"
+    }
+  ],
+  "10:23": [
+    {
+      "id": 34,
+      "roman": "XXXIV",
+      "type": "primary"
+    }
+  ],
+  "10:34": [
+    {
+      "id": 35,
+      "roman": "XXXV",
+      "type": "primary"
+    }
+  ],
+  "11:1": [
+    {
+      "id": 36,
+      "roman": "XXXVI",
+      "type": "primary"
+    }
+  ],
+  "10:7": [
+    {
+      "id": 37,
+      "roman": "XXXVII",
+      "type": "primary"
+    }
+  ],
+  "11:25": [
+    {
+      "id": 38,
+      "roman": "XXXVIII",
+      "type": "primary"
+    }
+  ],
+  "12:1": [
+    {
+      "id": 39,
+      "roman": "XXXIX",
+      "type": "primary"
+    }
+  ],
+  "12:9": [
+    {
+      "id": 40,
+      "roman": "XL",
+      "type": "primary"
+    }
+  ],
+  "12:25": [
+    {
+      "id": 41,
+      "roman": "XLI",
+      "type": "primary"
+    }
+  ],
+  "12:33": [
+    {
+      "id": 42,
+      "roman": "XLII",
+      "type": "primary"
+    }
+  ],
+  "12:38": [
+    {
+      "id": 43,
+      "roman": "XLIII",
+      "type": "primary"
+    }
+  ],
+  "12:46": [
+    {
+      "id": 44,
+      "roman": "XLIV",
+      "type": "primary"
+    }
+  ],
+  "13:10": [
+    {
+      "id": 45,
+      "roman": "XLV",
+      "type": "primary"
+    }
+  ],
+  "13:24": [
+    {
+      "id": 46,
+      "roman": "XLVI",
+      "type": "primary"
+    }
+  ],
+  "13:34": [
+    {
+      "id": 47,
+      "roman": "XLVII",
+      "type": "primary"
+    }
+  ],
+  "13:53": [
+    {
+      "id": 48,
+      "roman": "XLVIII",
+      "type": "primary"
+    }
+  ],
+  "14:13": [
+    {
+      "id": 49,
+      "roman": "XLIX",
+      "type": "primary"
+    }
+  ],
+  "14:23": [
+    {
+      "id": 50,
+      "roman": "L",
+      "type": "primary"
+    }
+  ],
+  "15:1": [
+    {
+      "id": 51,
+      "roman": "LI",
+      "type": "primary"
+    }
+  ],
+  "15:21": [
+    {
+      "id": 52,
+      "roman": "LII",
+      "type": "primary"
+    }
+  ],
+  "16:24": [
+    {
+      "id": 53,
+      "roman": "LIII",
+      "type": "primary"
+    }
+  ],
+  "16:28": [
+    {
+      "id": 54,
+      "roman": "LIV",
+      "type": "primary"
+    }
+  ],
+  "17:10": [
+    {
+      "id": 55,
+      "roman": "LV",
+      "type": "primary"
+    }
+  ],
+  "18:7": [
+    {
+      "id": 56,
+      "roman": "LVI",
+      "type": "primary"
+    }
+  ],
+  "18:15": [
+    {
+      "id": 57,
+      "roman": "LVII",
+      "type": "primary"
+    }
+  ],
+  "18:21": [
+    {
+      "id": 58,
+      "roman": "LVIII",
+      "type": "primary"
+    }
+  ],
+  "19:1": [
+    {
+      "id": 59,
+      "roman": "LIX",
+      "type": "primary"
+    }
+  ],
+  "19:16": [
+    {
+      "id": 60,
+      "roman": "LX",
+      "type": "primary"
+    }
+  ],
+  "19:27": [
+    {
+      "id": 61,
+      "roman": "LXI",
+      "type": "primary"
+    }
+  ],
+  "20:17": [
+    {
+      "id": 62,
+      "roman": "LXII",
+      "type": "primary"
+    }
+  ],
+  "20:29": [
+    {
+      "id": 63,
+      "roman": "LXIII",
+      "type": "primary"
+    }
+  ],
+  "21:12": [
+    {
+      "id": 64,
+      "roman": "LXIV",
+      "type": "primary"
+    }
+  ],
+  "21:33": [
+    {
+      "id": 65,
+      "roman": "LXV",
+      "type": "primary"
+    }
+  ],
+  "22:1": [
+    {
+      "id": 66,
+      "roman": "LXVI",
+      "type": "primary"
+    }
+  ],
+  "22:15": [
+    {
+      "id": 67,
+      "roman": "LXVII",
+      "type": "primary"
+    }
+  ],
+  "22:34": [
+    {
+      "id": 68,
+      "roman": "LXVIII",
+      "type": "primary"
+    }
+  ],
+  "23:1": [
+    {
+      "id": 69,
+      "roman": "LXIX",
+      "type": "primary"
+    }
+  ],
+  "23:14": [
+    {
+      "id": 70,
+      "roman": "LXX",
+      "type": "primary"
+    }
+  ],
+  "24:1": [
+    {
+      "id": 72,
+      "roman": "LXXII",
+      "type": "primary"
+    }
+  ],
+  "24:16": [
+    {
+      "id": 73,
+      "roman": "LXXIII",
+      "type": "primary"
+    }
+  ],
+  "24:33": [
+    {
+      "id": 74,
+      "roman": "LXXIV",
+      "type": "primary"
+    }
+  ],
+  "25:1": [
+    {
+      "id": 75,
+      "roman": "LXXV",
+      "type": "primary"
+    }
+  ],
+  "26:6": [
+    {
+      "id": 76,
+      "roman": "LXXVI",
+      "type": "primary"
+    }
+  ],
+  "26:17": [
+    {
+      "id": 77,
+      "roman": "LXXVII",
+      "type": "primary"
+    }
+  ],
+  "26:26": [
+    {
+      "id": 78,
+      "roman": "LXXVIII",
+      "type": "primary"
+    }
+  ],
+  "26:36": [
+    {
+      "id": 79,
+      "roman": "LXXIX",
+      "type": "primary"
+    }
+  ],
+  "26:51": [
+    {
+      "id": 80,
+      "roman": "LXXX",
+      "type": "primary"
+    }
+  ],
+  "26:67": [
+    {
+      "id": 81,
+      "roman": "LXXXI",
+      "type": "primary"
+    }
+  ],
+  "27:11": [
+    {
+      "id": 82,
+      "roman": "LXXXII",
+      "type": "primary"
+    }
+  ],
+  "27:27": [
+    {
+      "id": 83,
+      "roman": "LXXXIII",
+      "type": "primary"
+    },
+    {
+      "id": 87,
+      "roman": "LXXXVII",
+      "type": "primary"
+    }
+  ],
+  "27:45": [
+    {
+      "id": 84,
+      "roman": "LXXXIV",
+      "type": "primary"
+    },
+    {
+      "id": 88,
+      "roman": "LXXXVIII",
+      "type": "primary"
+    }
+  ],
+  "27:62": [
+    {
+      "id": 85,
+      "roman": "LXXXV",
+      "type": "primary"
+    },
+    {
+      "id": 89,
+      "roman": "LXXXIX",
+      "type": "primary"
+    }
+  ],
+  "28:11": [
+    {
+      "id": 86,
+      "roman": "LXXXVI",
+      "type": "primary"
+    },
+    {
+      "id": 90,
+      "roman": "XC",
+      "type": "primary"
+    }
+  ]
+}

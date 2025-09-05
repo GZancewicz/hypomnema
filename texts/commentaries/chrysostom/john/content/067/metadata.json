@@ -1,0 +1,52 @@
+{
+  "id": 67,
+  "roman": "LXVII",
+  "title": "Homily LXVII",
+  "subtitle": "John 12:34",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "display": "John 12:34"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2343,
+  "excerpt": "Homily LXVIII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "i.e. temporary.",
+    "2": "“Lest darkness come upon you,” N.T.",
+    "3": "Savile reads κατηγοροῦντες, conject. τηροῦντες, which is the Ben. reading.",
+    "4": "“While ye have light, believe in the light,” N.T.",
+    "5": "i.e. Christ.",
+    "6": "“departed and did hide Himself from them,” N.T.",
+    "7": "“before them,” N.T.",
+    "8": "i.e. that Christ withdrew from the malice of the Jews.",
+    "9": "“Esaias the prophet,” N.T.",
+    "10": "“therefore they,” N.T.",
+    "11": "“said again,” N.T.",
+    "12": "Ver. 40. “He hath blinded their eyes, and hardened their heart: that they should not see with their eyes, nor understand with their heart, and be converted, and I should heal them.” N.T.",
+    "13": "“said Esaias,” N.T.",
+    "14": "Ben. “and if ‘ they could not ’ is put, it is put instead of ‘ they would not. ’ And do not marvel.”",
+    "15": "al. “saith one.”",
+    "16": "al. “the Father’s.”",
+    "17": "παρὰ",
+    "18": "ἀ πένειμε τοῖς ἔθνεσι. The words are found in Deut iv. 19 , LXX., but are there spoken concerning the heavenly bodies.",
+    "19": "al. “being about to destroy Jerusalem even weepeth.”",
+    "20": "al. “which.”",
+    "21": "al. “persons suffering many.”"
+  },
+  "verified": true
+}

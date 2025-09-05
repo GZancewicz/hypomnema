@@ -1,0 +1,62 @@
+{
+  "id": 10,
+  "roman": "X",
+  "title": "Homily X",
+  "subtitle": "John 1:14",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "display": "John 1:14"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1991,
+  "excerpt": "John i. 14...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “let him mark what is clear, &c.”",
+    "2": "al. “very plain.”",
+    "3": "al. “to be contradictory.”",
+    "4": "διακωδωνίσαντες, “having tried by ringing.”",
+    "5": "ἁ πλῶς.",
+    "6": "ἐ κ παρέργου.",
+    "7": "συνέδρια.",
+    "8": "ἀ ποτείνεσθαι.",
+    "9": "μυρία.",
+    "10": "i.e. having come to the assembly.",
+    "11": "ἀ φοσιωσάμενοι.",
+    "12": "al. “for the day.”",
+    "13": "γνήσιος.",
+    "14": "al. “descent.”",
+    "15": "al. “possesses.”",
+    "16": "μετέπεσεν, “fall from what It was into.”",
+    "17": "al. “truly impious.”",
+    "18": "The Docetæ, who maintained that our Lord appeared only to act and suffer in the Flesh, and that His Body was a phantom. Perhaps they are the heretics specially alluded to by St. John, 1 Ep. iv. 2, and 2 Ep. 7.",
+    "19": "οὐσιώθη.",
+    "20": "μεταπεσεῖν.",
+    "21": "Lit, “tabernacling.”",
+    "22": "Lit. “which tabernacles.”",
+    "23": "ἑ νώσει.",
+    "24": "συναφείᾳ.",
+    "25": "ἀ φράστου.",
+    "26": "al. “seek not accurately.”",
+    "27": "al. “ineffable mystery.”",
+    "28": "κατορθώματα.",
+    "29": "al. “let us.”",
+    "30": "παρεγγυάσαντες.",
+    "31": "ἀ ναπέμψωμεν."
+  },
+  "verified": true
+}

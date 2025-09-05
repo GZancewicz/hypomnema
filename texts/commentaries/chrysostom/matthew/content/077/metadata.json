@@ -1,0 +1,62 @@
+{
+  "id": 77,
+  "roman": "LXXVII",
+  "title": "Homily LXXVII",
+  "subtitle": "Matthew 26:17",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 17
+    },
+    "display": "Matthew 26:17"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4830,
+  "excerpt": "Homily LXXXI....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "John xiii. 1.",
+    "2": "[But John does not call it the day before.—R.]",
+    "3": "Luke xxii. 7.",
+    "4": "[The language is somewhat obscure. But it would seem from this passage that Chrysostom believed our Lord ate the passover at the regular time. In Homily LXXXIV., he speaks of the chief priests as neglecting to eat it in their hate against our Lord, explaining in this way the difficulty arising from the statement in John xviii. 28. But in Homily LXXXIII. 3, on the Gospel of John, he presents both views, either that the whole feast is meant, or that our Lord had anticipated the observance of the Paschal supper.—R.]",
+    "5": "Matt. xxi. 3.",
+    "6": "1 Sam. x. 3.",
+    "7": "Matt. xxvi. 20. [R.V., “was sitting at meat with the twelve disciples.” The rec. text omits “disciples,” as does one mss. of the Homilies here. Comp. R.V. margin. Below it is omitted by Chrysostom also.—R.]",
+    "8": "Lit., salt.",
+    "9": "[See note 7, p. 485.]",
+    "10": "Matt. xxvi. 21. [R.V., “were eating.”]",
+    "11": "John xiii. 22. [Freely cited.]",
+    "12": "Matt. xxvi. 22.",
+    "13": "John xiii. 26. [This verse is abridged in the Homily. “To whom, having dipped the sop, I will give it,” is an exact rendering. “He it is” is supplied above.—R.]",
+    "14": "[The words “his hand” are omitted.]",
+    "15": "[R.V., “through;” “that” is omitted.]",
+    "16": "Matt. xxvi. 23, 24. [R.V., “good were it,” etc.]",
+    "17": "[Here “that” is given as in the received text.—R.]",
+    "18": "Matt. xxvi. 25. [R.V., “Rabbi;” but this change of title is first noticed below.—R.]",
+    "19": "Rom. ix. 20. [R.V., “Why didst thou make me thus?”]",
+    "20": "Matt. xxvi. 25.",
+    "21": "[A sentence is omitted here: “On this account, therefore, he also calls Him ‘Rabbi.’”—R.]",
+    "22": "John xiii. 27.",
+    "23": "John xiii. 2. [The Greek text of the citations begins with the words, δεπνου γενομνου, “supper being ended” (A.V.). But the better attested text reads γινομνου, “during supper,” (R.V.). The clause is omitted by the translator, for what reason does not appear.—R ]",
+    "24": "Exod. xii. 11.",
+    "25": "Luke xxii. 15.",
+    "26": "Matt. xxvi. 15.",
+    "27": "Ps. lvii. 4.",
+    "28": "Matt. xxiii. 25, and comp. verse 27.",
+    "29": "Matt. xxv. 42.",
+    "30": "Luke xvi. 26. [Freely cited.]",
+    "31": "Matt. xxv. 41."
+  },
+  "verified": true
+}

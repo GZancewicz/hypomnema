@@ -1,0 +1,63 @@
+{
+  "id": 87,
+  "roman": "LXXXVII",
+  "title": "Homily LXXXVII",
+  "subtitle": "John 21:15",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 15
+    },
+    "display": "John 21:15"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2687,
+  "excerpt": "Homily LXXXVIII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "“My lambs,” N.T.",
+    "2": "lit. “driven away.”",
+    "3": "προστασίαν",
+    "4": "Ver. 16. “He saith to him again the second time, Simon, son of Jonas, lovest thou Me? He saith unto Him, Yea, Lord, Thou knowest that I love Thee. He saith unto him, Feed my sheep.” N.T.",
+    "5": "Ver. 17. “He saith unto him the third time, Simon, son of Jonas, lovest thou Me? Peter was grieved because He said unto him the third time, Lovest thou Me; and he said unto Him, Lord, Thou knowest all things; Thou knowest that I love Thee. Jesus saith unto him, Feed my sheep. ” N.T.",
+    "6": "προστασίαν",
+    "7": "“when thou art old thou shalt stretch forth thy hands, and another shall gird thee,” &c. N.T. and some mss.",
+    "8": "al. “given him.”",
+    "9": "i.e. weakness inseparable from.",
+    "10": "lit. “a perfect man.”",
+    "11": "“saith unto him,” N.T.",
+    "12": "lit. “this man.”",
+    "13": "“at supper, and said, Lord, which is he that betrayeth Thee? Peter seeing him saith.” N.T.",
+    "14": "“to thee? Follow thou Me.” N.T.",
+    "15": "i.e. St. John.",
+    "16": "“said not unto him,” N.T.",
+    "17": "al. “on account of.”",
+    "18": "al. “God.”",
+    "19": "i.e. by his love.",
+    "20": "al. “conceal.”",
+    "21": "“His witnesses of these words.”",
+    "22": "“Holy Spirit which God hath given.” N.T.",
+    "23": "lit. “admired.”",
+    "24": "or, “all other things.”",
+    "25": "i.e. in wronging thee, have not wronged thee, because thou deservest punishment.",
+    "26": "al. “diseases.”",
+    "27": "συρίγγων",
+    "28": "i.e. by the alms.",
+    "29": "al. “undo.”",
+    "30": "lit. “recover breath.”",
+    "31": "lit. “expand ourselves.”",
+    "32": "Sav. and Ben. “everlasting goods.” But mss. omit αἰωνίων"
+  },
+  "verified": true
+}

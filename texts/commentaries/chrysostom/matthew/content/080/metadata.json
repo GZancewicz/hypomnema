@@ -1,0 +1,61 @@
+{
+  "id": 80,
+  "roman": "LXXX",
+  "title": "Homily LXXX",
+  "subtitle": "Matthew 26:51",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 51
+    },
+    "display": "Matthew 26:51"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3657,
+  "excerpt": "Homily LXXXIV....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[R.V., “Or thinkest.”]",
+    "2": "[R.V., “even now.”]",
+    "3": "[The citation is very accurate; the only variation is the omission of μου after πατρα.—R.]",
+    "4": "John xviii. 10.",
+    "5": "Luke xxii. 35–38. [On the renderings of verse 36, see R.V. The text of the Homily admits of either interpretation, but the comment favors the rendering given in the text of the R.V.—R.]",
+    "6": "John xviii. 11.",
+    "7": "Luke xxii. 49.",
+    "8": "Matt. xxvi. 53, 54.",
+    "9": "Matt. xxvi. 38, 39.",
+    "10": "2 Kings xix. 35.",
+    "11": "Matt. xxvi. 55. [R.V., “robber”…“ to seize me”…“ye took me not.”]",
+    "12": "Matt. xxvi. 56.",
+    "13": "Matt. xxvi. 57, 58. [Abridged and altered.]",
+    "14": "John xviii. 15.",
+    "15": "John xviii. 28. [Compare Homily LXXVI. 1, and the note there.—R.]",
+    "16": "συνδριον λοιμν; cf. Ps. i. 1.",
+    "17": "Mark xiv. 56, 59. [The passages are combined.—R.]",
+    "18": "Matt. xxvi. 60, 61. [The citation is very free, not agreeing with any one of the evangelists, according to our authorities; but it seems to combine terms from several passages.—R.]",
+    "19": "See John ii. 19–21.",
+    "20": "Matt. xxvi. 62, 63. [Freely cited; the beginning is from the language of Pilate; chap. xxvii. 13.—R.]",
+    "21": "Matt. xxvi. 63–65. [In verse 63, “the living God” occurs twice, peculiar to this Homily: in verse 64“of heaven” is omitted. In other details the citation agrees with the received text.—R.]",
+    "22": "Acts vii. 59.",
+    "23": "Matt. xxii. 43–46.",
+    "24": "Matt. xxvi. 66.",
+    "25": "John xviii. 30. [R.V., “an evil-doer.”]",
+    "26": "John xi. 48. [Freely paraphrased.]",
+    "27": "John xviii. 31.",
+    "28": "John xix. 21. [The citation is accurate; “it” is supplied by the translator to complete the sense.—R.]",
+    "29": "[The following clause is omitted in the translation: “Much better and stronger art thou than thine antagonist.”—R.]",
+    "30": "Gen. xxxix. 17."
+  },
+  "verified": true
+}

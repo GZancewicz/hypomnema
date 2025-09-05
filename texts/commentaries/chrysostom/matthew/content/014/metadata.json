@@ -1,0 +1,51 @@
+{
+  "id": 14,
+  "roman": "XIV",
+  "title": "Homily XIV",
+  "subtitle": "Matthew 4:12",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "display": "Matthew 4:12"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3473,
+  "excerpt": "Matt. IV. 12....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[το πειρασμο: here including “trials” of every kind.—R.]",
+    "2": "Matt. iv. 14, and Is. ix. 1, 2.",
+    "3": "[R.V., “Toward the sea, Greek, the way of the sea.” The text is cited accurately in the Homily.—R.]",
+    "4": "Matt. iv. 15, 16; see Is. ix. 1, 2.",
+    "5": "John i. 9.",
+    "6": "Luke i. 76.",
+    "7": "Matt. xi. 18, 19. [The citation is from Matthew, not Luke, but the last clause in the R.V. reads: “And wisdom is justified by her works.” Comp. however, the margin and Luke vii. 35.—R.]",
+    "8": "John viii. 13.",
+    "9": "τοσοτων οκονομηθντων .",
+    "10": "Matt. iv. 18, 19.",
+    "11": "John i. 42.",
+    "12": "[“it was natural.”—R.]",
+    "13": "μγιστο τρπο λεα.",
+    "14": "1 Kings xix. 20, 21.",
+    "15": "Matt. viii. 21, 22.",
+    "16": "ἀνεστοιχεου .",
+    "17": "τ πριττον.",
+    "18": "νιφδα σημεων.",
+    "19": "Matt. ix. 28.",
+    "20": "Ps. xcv. 2, LXX."
+  },
+  "verified": true
+}

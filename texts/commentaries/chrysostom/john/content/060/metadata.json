@@ -1,0 +1,58 @@
+{
+  "id": 60,
+  "roman": "LX",
+  "title": "Homily LX",
+  "subtitle": "John 10:22-24",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "display": "John 10:22-24"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4021,
+  "excerpt": "Homily LXI....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "lit. “at the doors.”",
+    "2": "or, “What seek ye.”",
+    "3": "“I told you,” N.T.",
+    "4": "“How can,” &c., N.T.",
+    "5": "“But ye,” &c.",
+    "6": "“as I said unto you.”",
+    "7": "“and I know them.”",
+    "8": "“and they shall never perish.”",
+    "9": "“shall.”",
+    "10": "“My Father,” N.T.",
+    "11": "i.e. of the Father and the Son.",
+    "12": "Ver. 31, 32 , omitted. “Then the Jews took up stones again to stone Him. Jesus answered them, Many good works have I showed you from My Father; for which of those works do ye stone Me? ”",
+    "13": "Ver. 34 , omitted. “Jesus answered them, Is it not written in your Law, I said, Ye are gods?”",
+    "14": "“It called.”",
+    "15": "“And the Scripture cannot be broken: say ye of Him whom the Father hath sanctified and sent into the world, Thou blasphemest,” &c., N.T. The comment looks as if this had been read.",
+    "16": "“that ye may know and believe that the Father is in Me, and I in Him,” N.T.",
+    "17": "Ben. omits, “if He knoweth the Father.”",
+    "18": "“and there He abode,” N.T.",
+    "19": "al. “we.”",
+    "20": "al. “the testimony unworthy.”",
+    "21": "“on Him there,” N.T.",
+    "22": "al. “after the proof of his testimony and,” &c.",
+    "23": "ἄ πλαστος",
+    "24": "al. “bound.”",
+    "25": "σκαμμάτων, “the arena,” hence any severe labor.",
+    "26": "Ben. “you.”",
+    "27": "al. “goes forward.”"
+  },
+  "verified": true
+}

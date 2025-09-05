@@ -1,0 +1,50 @@
+{
+  "id": 16,
+  "roman": "XVI",
+  "title": "Homily XVI",
+  "subtitle": "John 1:28-29",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 29
+    },
+    "display": "John 1:28-29"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3798,
+  "excerpt": "John i. 28, 29...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “how then doth he this? adding and saying.”",
+    "2": "al. “to redeem.”",
+    "3": "ἀ πόφασιν.",
+    "4": "or, “of any other man.”",
+    "5": "χορηγία.",
+    "6": "συνεχῶς.",
+    "7": "ἔ πελκον.",
+    "8": "εὐγνωμονέστερον.",
+    "9": "al. “were thought worthy.”",
+    "10": "σύλληψιν.",
+    "11": "al. “mind.”",
+    "12": "al. “have made room for others.”",
+    "13": "lit. “Greeks.”",
+    "14": "λόγων ὑποθέσει.",
+    "15": "ὑ πόθεσις.",
+    "16": "παρήχθημεν.",
+    "17": "al. “irrational.”",
+    "18": "“uprightly,” E.V.",
+    "19": "al. “to hear.”"
+  },
+  "verified": true
+}

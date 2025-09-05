@@ -1,0 +1,57 @@
+{
+  "id": 23,
+  "roman": "XXIII",
+  "title": "Homily XXIII",
+  "subtitle": "John 2:23",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "display": "John 2:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3051,
+  "excerpt": "John ii. 23...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "εἰς τὸ ὄνομα αὐτοῦ, G. T.",
+    "2": "ἀ κριβέστεροι, al. ἀ σφαλέστεροι.",
+    "3": "πάντα [πάντας, G. T.].",
+    "4": "εὐρίπιστοι.",
+    "5": "μὴ ὁ νόμος ἡμῶν κ.τ.λ. G. T.",
+    "6": "̓ Ιησοῦν, G. T.",
+    "7": "περὶ τὸν Χ.",
+    "8": "Φαρισαίους, G. T.",
+    "9": "στρέφεται.",
+    "10": "ἐ νεργούμενον αὐτὸν.",
+    "11": "μετριάζων.",
+    "12": "al. “of truth.”",
+    "13": "or, “laver.”",
+    "14": "ψυχικὴ, “belonging to the natural life,” opposed in N.T. to πνευματική.",
+    "15": "or, “strike.”",
+    "16": "ἄ νωθεν (“again,” or “from above”).",
+    "17": "lit. “introduces.”",
+    "18": "Ben. transposes the clauses.",
+    "19": "ἰ λιγγιᾷ.",
+    "20": "ψυχικὸς.",
+    "21": "lit. “shook.”",
+    "22": "al. “dreadful darkness.”",
+    "23": "ἐ μπαθῆ.",
+    "24": "λήμης.",
+    "25": "lit. “with.”",
+    "26": "νεῦρα."
+  },
+  "verified": true
+}

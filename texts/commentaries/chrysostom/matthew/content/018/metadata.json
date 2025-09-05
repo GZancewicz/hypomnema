@@ -1,0 +1,59 @@
+{
+  "id": 18,
+  "roman": "XVIII",
+  "title": "Homily XVIII",
+  "subtitle": "Matthew 5:38",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "display": "Matthew 5:38"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4884,
+  "excerpt": "Matt. V. 38, 39, 40....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[R.V. text, “him that is evil.” Chrysostom interprets τ πονηρ, “the evil one.” In verse 40 the R.V. renders “would go to law with thee.”—R.]",
+    "2": "ὁ το δικαου λγο.",
+    "3": "ἀντιφιλοτιμεσθαι .",
+    "4": "Matt. v. 40.",
+    "5": "ὑπερβολν.",
+    "6": "Gen. ii. 25.",
+    "7": "Isa. xx. 2, 3.",
+    "8": "Gen. xxxix. 12.",
+    "9": "συγκροτε.",
+    "10": "Matt. v. 41.",
+    "11": "[παθητ. There is a paranomasia in the original, indicated here by the word “passible.”—R.]",
+    "12": "ἀγγαρεσαι. [R.V. marg., “impress,” a legal act of oppression. The Greek work is of Persian origin, and was transferred into Latin also; see Vulgate, Matt. v. 41.—R.]",
+    "13": "Matt. v. 42.",
+    "14": "Luke vi. 35. “Do good and lend, hoping for nothing again.” [But the R.V. renders “never despairing,” with the margin, “Some ancient authorities read despairing of no man.”—R.]",
+    "15": "ὄμοιοι, Chrys. υο, rec. text. [For the former reading in the New Testament there is no ms. authority.—R.]",
+    "16": "Matt. v. 43–45. [The briefer form of verse 44 is now accepted by critical editors (so Vulgate). The longer reading is from Luke vi. 27, 28. Comp. R.V.—R.]",
+    "17": "νεανικ.",
+    "18": "Matt. v. 45.",
+    "19": "Luke xxiii. 34.",
+    "20": "Rom. viii. 34.",
+    "21": "σε τν νδρα εσονταιἁψδα.",
+    "22": "1 Thess. iv. 13.",
+    "23": "1 Thess. iv. 5.",
+    "24": "τελωνα, rec. text. [But ο θνικο, the reading accepted by Chrysostom, is supported by the best authorities of every class. Comp. R.V.—R.]",
+    "25": "Matt. v. 47.",
+    "26": "Matt. v. 48. [The text of the Homily has γνεσθε, which is probably imperative, but in Matt. v. 48, ἔσεσθε is the undisputed reading: comp. R.V., “Ye therefore shall be perfect,” etc.—R.]",
+    "27": "ἀπονοα.",
+    "28": "ἀγγαρευσθαι. [See note on sec. 3.—R.]"
+  },
+  "verified": true
+}

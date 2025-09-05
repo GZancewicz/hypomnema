@@ -1,0 +1,49 @@
+{
+  "id": 25,
+  "roman": "XXV",
+  "title": "Homily XXV",
+  "subtitle": "John 3:6",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "display": "John 3:6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2722,
+  "excerpt": "John iii. 6...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “precious.”",
+    "2": "τρυφὴν.",
+    "3": "κατασκευὴ.",
+    "4": "or, “begotten.”",
+    "5": "or, “begotten.”",
+    "6": "οὐσίαν.",
+    "7": "or, “from above.”",
+    "8": "φωνὴν.",
+    "9": "or, “spirit.”",
+    "10": "lit “of bloods,” as in c. i. 13.",
+    "11": "τρόποι.",
+    "12": "οὐ λαμβάνετε, G. T.",
+    "13": "or, “begotten.”",
+    "14": "lit. “shouting.”",
+    "15": "lit. “tie the feet of.”",
+    "16": "or, “unpleasing.”",
+    "17": "κράζειν.",
+    "18": "φιλοσοφίαν."
+  },
+  "verified": true
+}

@@ -1,0 +1,38 @@
+{
+  "id": 52,
+  "roman": "LII",
+  "title": "Homily LII",
+  "subtitle": "John 8:20",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "display": "John 8:20"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2765,
+  "excerpt": "Homily LIII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "i.e. at the Crucifixion.",
+    "2": "al. “must have.”",
+    "3": "“do nothing,” N.T.",
+    "4": "φέρων καὶ ἄγων",
+    "5": "i.e. to The Father.",
+    "6": "Savile connects these words with the clause preceding: with this reading it is difficult to see the sense of the clause which follows. The Bened. reading is as rendered above. The reference may be to c. vii. 33, 35",
+    "7": "The Tephillim."
+  },
+  "verified": true
+}

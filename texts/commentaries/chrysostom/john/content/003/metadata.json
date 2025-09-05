@@ -1,0 +1,61 @@
+{
+  "id": 3,
+  "roman": "III",
+  "title": "Homily III",
+  "subtitle": "John 1:1",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "John 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4475,
+  "excerpt": "John i. 1...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "οἰκονομίας.",
+    "2": "αἰῶνος.",
+    "3": "λόγον.",
+    "4": "οὐσία ἐνυπόστατος.",
+    "5": "προελθοῦσα.",
+    "6": "ἀ παθῶς.",
+    "7": "ὑ ποστάσει.",
+    "8": "al. “God with God.”",
+    "9": "χρονικὴ.",
+    "10": "νοητῶν.",
+    "11": "ἀ τοπώτερα.",
+    "12": "φύσέως.",
+    "13": "τὸ αὐτὸ δὴ τοῦτο ἔστιν οὕτως ὡς ἐκείνῃ οὐσίᾳ πρέπον ἦν.",
+    "14": "διάστημα.",
+    "15": "μσον.",
+    "16": "ἀ ναβαλλόμεθα, “put off.”",
+    "17": "LXX. ἔ στιν.",
+    "18": "τὸ, al. ὁ.",
+    "19": "γίνεται.",
+    "20": "Heathens.",
+    "21": "ἄ νωθεν, “a parte ante.”",
+    "22": "ἀ πὸ τοῦ αἰῶνος.",
+    "23": "συνεχῶς.",
+    "24": "συγκροτεῖ, al. συγκρατεῖ.",
+    "25": "λατρεύειν.",
+    "26": "̔ Ελληνικὸν.",
+    "27": "δραπετεύσει.",
+    "28": "ἄ ρχειν χειρῶν ἀδίκων.",
+    "29": "τρόπος.",
+    "30": "τρόπου τὸ εἶδος."
+  },
+  "verified": true
+}

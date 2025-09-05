@@ -1,0 +1,51 @@
+{
+  "id": 70,
+  "roman": "LXX",
+  "title": "Homily LXX",
+  "subtitle": "Matthew 23:14",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 14
+    },
+    "display": "Matthew 23:14"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3872,
+  "excerpt": "Homily LXXIII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[This verse is omitted in the best authorities, and its position varies in the later mss. and versions which give it. In this Homily it is placed before our verse 23. It is well attested in Mark xii. 40, and Luke xx. 47.—R.]",
+    "2": "Matt. xxiii. 13. [See note 1. “Of heaven” is omitted here, but in none of our New Testament authorities.—R.]",
+    "3": "λοιμο.",
+    "4": "Matt. xxiii. 15. [R.V., “a son of hell,” with the margin, “Greek, Gehenna.”]",
+    "5": "[R.V., “have left undone.”]",
+    "6": "Matt. xxiii. 23. [R.V., “to have left the others undone.” “And cummin” is omitted.—R.]",
+    "7": "Matt. xxiii. 25, 26. [The minor textual variations appear in the above English rendering.]",
+    "8": "[Matt. xxiii. 24. R.V., correctly, “strain out the gnat,” etc.]",
+    "9": "[The Oxford edition has “candor,” probably a misprint, since the Greek term is συγγνμην.—R.]",
+    "10": "[The clause, “for this we showed before,” is omitted by the translator.—R.]",
+    "11": "Matt. xxiii. 27.",
+    "12": "Ps. v. 9.",
+    "13": "[πολμιον ντα αυτ κα χθρν.]",
+    "14": "Ps. cxli. 2.",
+    "15": "Jer. xxii. 17, LXX .",
+    "16": "σνισι.",
+    "17": "Gal. iii. 28. [The passage is inexactly cited, the form being altered to correspond with the previous part of the verse. Comp. R.V.—R.]",
+    "18": "Acts xvi. 15. [Two mss. have a reading more exactly agreeing with the New Testament text.—R.]",
+    "19": "Ecclus. xviii. 30.",
+    "20": "Prov. v. 2–4, LXX."
+  },
+  "verified": true
+}

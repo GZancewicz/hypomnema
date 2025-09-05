@@ -1,0 +1,54 @@
+{
+  "id": 20,
+  "roman": "XX",
+  "title": "Homily XX",
+  "subtitle": "Matthew 6:16",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "display": "Matthew 6:16"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5175,
+  "excerpt": "Homily XX.<sup>f1</sup>...",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[Or Homily XXI. in the Latin versions; see note on Homily XIX., sec. 6, p. 134.—R.]",
+    "2": "2 Sam. xii. 20.",
+    "3": "Dan. x. 3.",
+    "4": "Literally, “actors.”",
+    "5": "Heb. iv. 13. [R.V., “laid open,” τετραχηλισμνα .—R.]",
+    "6": "Matt. vi. 19. [“upon the earth,” so R.V.—R.]",
+    "7": "ἀκτημοσυν.",
+    "8": "Matt. iv. 9, 10.",
+    "9": "[σ. The Oxford Version has inadvertently rendered it “rust.”—R.]",
+    "10": "[σ. The Oxford Version has inadvertently rendered it “rust.”—R.]",
+    "11": "Matt. vi. 21. [The correct text of Matt. vi. 21 is rendered, “For where thy treasure is, there will thy heart be also” (R.V.), but Chrysostom varies from this both here and below. The plural form has little authority.—R.]",
+    "12": "Matt. vi. 22. [R.V., “The lamp of the body,” etc.—R.]",
+    "13": "Matt. vi. 22, 23. [In verse 23, “If therefore” is the correct reading, and some mss. of the Homilies have this reading here.—R.]",
+    "14": "[In the Greek text, the parenthesis extends to this place.—R.]",
+    "15": "[These clauses are not parenthetical, but in the Greek define what precedes.—R.]",
+    "16": "Matt. xiii. 22.",
+    "17": "[οχ τυχε.]",
+    "18": "χυμ.",
+    "19": "ἐπηρεα.",
+    "20": "[In the Greek text, bracketted by Field, and in the Latin, occurs this clause: “when” [or “for when”] “thou plantest trees in the field, the fruit of which will yield after many (μυρα) years.”—R.]",
+    "21": "ἀλειν.",
+    "22": "Luke xvi. 24.",
+    "23": "Ezek. xiv. 14."
+  },
+  "verified": true
+}

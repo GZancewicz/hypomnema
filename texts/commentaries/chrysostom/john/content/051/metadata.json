@@ -1,0 +1,46 @@
+{
+  "id": 51,
+  "roman": "LI",
+  "title": "Homily LI",
+  "subtitle": "John 7:45-46",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 46
+    },
+    "display": "John 7:45-46"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3319,
+  "excerpt": "Homily LII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "“Hath any,” N.T.",
+    "2": "“or of the Pharisees,” N.T.",
+    "3": "“this,” N.T.",
+    "4": "al. “your.”",
+    "5": "ᾠ κειοῦντο",
+    "6": "The history of the woman taken in adultery is omitted by St. Chrysostom, and all the Greek commentators.",
+    "7": "S. C. seems to refer to c. vii. 28. “Then cried Jesus in the Temple,” &c.",
+    "8": "i.e. the Pharisees.",
+    "9": "῞ Οπερ φθάσας εἶπε, according to Savile’s conjecture and a Vatican ms. The common reading is εἶπον",
+    "10": "προηγουμένως",
+    "11": "ἐ θελοκακεῖτε",
+    "12": "Ben. “just.”",
+    "13": "Ben. omits “and.”",
+    "14": "αὐθεντίαν",
+    "15": "Sav. “judgest.”"
+  },
+  "verified": true
+}

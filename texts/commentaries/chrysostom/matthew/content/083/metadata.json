@@ -1,0 +1,44 @@
+{
+  "id": 83,
+  "roman": "LXXXIII",
+  "title": "Homily LXXXIII",
+  "subtitle": "Matthew 27:27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 27
+    },
+    "display": "Matthew 27:27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3543,
+  "excerpt": "Homily LXXXVII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Greek, “Prætorium;” comp. Mark xv. 16, A.V.—R.]",
+    "2": "[The Greek text, as given by Field, agrees throughout with the received.—R.]",
+    "3": "ἐχρευεν.",
+    "4": "Matt. xxvii. 25.",
+    "5": "Matt. xxvii. 31. [ἤγαγον for ἀπγαγον.]",
+    "6": "John xix. 30.",
+    "7": "Ps. lxix. 21.",
+    "8": "Matt. xxvii. 40.",
+    "9": "John xix. 22.",
+    "10": "Matt. xxvii. 42.",
+    "11": "Matt. xxvii. 43. [In the citations from verses 40–43, the exact order is not preserved, but the only textual variation is in the clause, “let Him save Him,” which does not occur in the Gospels. “If” is read, with the received text, in verse 42.—R.]",
+    "12": "Luke xxiii. 40.",
+    "13": "Ecclus. i. 22."
+  },
+  "verified": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": 53,
+  "roman": "LIII",
+  "title": "Homily LIII",
+  "subtitle": "John 8:31-32",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 32
+    },
+    "display": "John 8:31-32"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3688,
+  "excerpt": "Homily LIV....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "ἐ πτοῆσθαι",
+    "2": "some omit “openly.”",
+    "3": "Sav. “Gently and by help of the Law He casts them down.”",
+    "4": "or, “forgive.”",
+    "5": "This reading is from a Vatican ms. which has εἰ μὴ. Savile’s is not grammatical. Ben. reads, “Then desiring to show that if they were not slaves, by repudiating that former slavery they were slaves the more, He straightway added.”",
+    "6": "χωρεῖτε",
+    "7": "“seen with,” N.T.",
+    "8": "κατὰ προαίρεσιν",
+    "9": "“a man that hath,” N.T.",
+    "10": "“of God,” N. T",
+    "11": "“because there is no truth in him,” omitted.",
+    "12": "al. “be murderously minded.”",
+    "13": "al. “are murderously minded.”",
+    "14": "i.e. that this assertion of theirs being false is from the devil.",
+    "15": "i.e. cannot understand.",
+    "16": "i.e. that God was their Father.",
+    "17": "i.e. “from God.”",
+    "18": "al. “empty.”",
+    "19": "i.e. at the Kingdom.",
+    "20": "al. “these present things.”"
+  },
+  "verified": true
+}

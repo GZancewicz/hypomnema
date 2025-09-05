@@ -1,0 +1,57 @@
+{
+  "id": 50,
+  "roman": "L",
+  "title": "Homily L",
+  "subtitle": "Matthew 14:23",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 23
+    },
+    "display": "Matthew 14:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3658,
+  "excerpt": "Homily L....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[R.V., “distressed by the waves.”]",
+    "2": "Matt. xiv. 25.",
+    "3": "Matt. xiv. 26. [R.V., “It is an apparition,” but Chrysostom has the indirect form, “saying that it is an apparition.” The Greek term is φντασμα, not πνεμα.—R.]",
+    "4": "Matt. xiv. 27.",
+    "5": "Matt. xiv. 28.",
+    "6": "John xxi. 7.",
+    "7": "[So R.V. margin. The rec. text has ἐλθεν.—R.]",
+    "8": "[R.V. text, with a few of the oldest authorities, omits “boisterous,” ἰσΧυρν, which Chrysostom accepts.—R.]",
+    "9": "Matt. xiv. 29–31.",
+    "10": "John vi. 21. [R.V., “They were willing to receive him into the boat: and straightway the boat was at the land whither they were going.”]",
+    "11": "Compare Acts iv. 13.",
+    "12": "Matt. xiv. 32.",
+    "13": "Matt. viii. 27.",
+    "14": "Matt. xiv. 33.",
+    "15": "Matt. xiv. 34–36. [In verse 34, R.V., following a different reading, as: “to the land, unto Gennesaret.” In verse 36, Chrysostom omits “only,” and reads ἐσθησαν for διεσθησαν .—R.]",
+    "16": "Matt. xxiii. 9.",
+    "17": "Rom. viii. 32.",
+    "18": "Comp. Eph. v. 18.",
+    "19": "Matt. xxv. 42, 45.",
+    "20": "St. Jerome (ad Eustoch. Ep. 108 sec. 30) says, “Let others boast of their money, and coin cast into the treasury of God, Funalibusque aureis dona pendentia, ‘and of their gifts hanging upon golden sconces,’ or perhaps brackets for lamps, on which the Anathemata, or votive offerings, were suspended.” See Bingh. 8, 8, 1.",
+    "21": "Matt. xxvi. 11; John xii. 8.",
+    "22": "Matt. xxvi. 10.",
+    "23": "Matt. xxviii. 20.",
+    "24": "Luke xi. 41.",
+    "25": "Hosea vi. 6; Matt. ix. 18.",
+    "26": "Acts x. 4."
+  },
+  "verified": true
+}

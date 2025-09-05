@@ -1,0 +1,42 @@
+{
+  "id": 76,
+  "roman": "LXXVI",
+  "title": "Homily LXXVI",
+  "subtitle": "Matthew 26:6",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 6
+    },
+    "display": "Matthew 26:6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4252,
+  "excerpt": "Homily LXXX....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "St. Augustin, on St. John, Hom. XLIX. sec. 3, speaks of the identity as doubtful. See also Greswell, vol. ii., Diss. XVII., and vol. iii. Diss. III. It seems that the occasion recorded in Luke vii. 37 must have been different, whether the person were the same or not. St. Chrysostom supposes two unctions at Bethany. See note at the end of “Sermons preached at St. Saviour’s Church, Leeds.” [Augustin discusses the question more fully in his Harmony of the Gospels, see Nicene Fathers, vol. vi. pp. 173, 174. He holds that there were two occasions, one named by Luke, and the other by Matthew, Mark and John, but that Mary was the person anointing on both occasions. This leads to the identification of Mary, the sister of Lazarus, with Mary Magdalene. But there is no proof that Luke refers to the latter. The opinion of Chrysostom seems to be that Matthew, Mark and Luke refer to the same person, and John to another on a different occasion. But to this there are insuperable objections.—R.]",
+    "2": "Lit, an economy.",
+    "3": "Matt. xxvi. 8–13. [The Greek text agrees with the received with the exception of a change of order in the first clause of verse 11. In verse 12, the R.V. renders, “to prepare me for burial,” and in verse 12, “bespoken of” for “be told.”—R.]",
+    "4": "See ix. 13, and xii. 7.",
+    "5": "[A clause is omitted here: “and conquered in wars.”—R.]",
+    "6": "[This accords with the assumed identity with the woman spoken of in Luke vii. But there seems to be no proof that Chrysostom identified the woman with Mary Magdalene. Compare p. 41, Homily VI. 8.—R.]",
+    "7": "Matt. xxvi. 14, 15. [R.V., “Then one of the twelve, who was called Judas Iscariot, went unto the chief priests, and said, What are ye willing to give me,” etc.]",
+    "8": "Luke xxii. 4. [The explanation is untenable. The “captains” (στρατηγο) were not “chiliarchs,” but the officers of the temple guard; comp. Luke xxii. 52, where the same word occurs.",
+    "9": "Matt. xxvi. 15, 16. [R.V., “And they weighed unto him thirty,” etc. to deliver Him unto them. The same word as in verse 15.—R.]",
+    "10": "[The words “their kinsmen” should be inserted here.—R.]",
+    "11": "Ecclus. x. 9."
+  },
+  "verified": true
+}

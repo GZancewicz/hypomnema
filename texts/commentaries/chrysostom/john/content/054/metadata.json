@@ -1,0 +1,47 @@
+{
+  "id": 54,
+  "roman": "LIV",
+  "title": "Homily LIV",
+  "subtitle": "John 8:48-49",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 49
+    },
+    "display": "John 8:48-49"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2537,
+  "excerpt": "Homily LV....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "ἰ ταμὸν",
+    "2": "ἀ κολουθίαν",
+    "3": "“My Father that,” Ben.",
+    "4": "al. “insult.”",
+    "5": "al. “gone forth.”",
+    "6": "“The Son of Man,” N.T.",
+    "7": "c. vi. 39, 40",
+    "8": "i.e. the Jews.",
+    "9": "“It is My Father,” N.T.",
+    "10": "“that He is your God,” N.T.",
+    "11": "i.e. the Father.",
+    "12": "“fifty,” N.T.",
+    "13": "ὡ ς λοιπὸν",
+    "14": "i.e. so that they could not stone Him.",
+    "15": "οἱ τύλοι, a very happy emendation of Mr. Field’s for στῦλοι, “pillars,” of which former editors could make no sense. One ms. gives οἱ τυφλοὶ τοὺς ὀφθαλμοὺς, “ those blind in their eyes,” but the sense even so is not perfect.",
+    "16": "πηροῦνται, a conjecture of Dr. Heyse, for πειρῶνται"
+  },
+  "verified": true
+}

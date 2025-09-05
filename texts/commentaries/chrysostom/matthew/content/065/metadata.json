@@ -1,0 +1,62 @@
+{
+  "id": 65,
+  "roman": "LXV",
+  "title": "Homily LXV",
+  "subtitle": "Matthew 21:33",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 33
+    },
+    "display": "Matthew 21:33"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4872,
+  "excerpt": "Homily LXVIII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[R.V., “another country.”]",
+    "2": "[The Greek text agrees, as a rule, with the received: but a few peculiarities appear: ατοἴσω is inserted from Luke in verse 37, and the beginning of verse 39 is abridged. The Oxford edition adds verses 43, 44, which are not given in the Greek text of the Homily in Migne, but added in Field’s edition.—R.]",
+    "3": "[The verb ἀπεδμησε means “went into another country.” But Chrysostom here speaks of the ἀποδημαν as τν πολλν, thus agreeing with the interpretation of the A.V.—R.]",
+    "4": "Ezek. ii. 5.",
+    "5": "Matt. xxiii. 32.",
+    "6": "Is. i. 15.",
+    "7": "Hosea iv. 2.",
+    "8": "Micah iii. 10.",
+    "9": "Luke xx. 17, 18.",
+    "10": "Ezek. xiii. 10.",
+    "11": "John ix. 16.",
+    "12": "John vii. 12.",
+    "13": "John viii. 48.",
+    "14": "[R.V., “scatter him as dust.” Chrysostom seems to accept verse 44 as part of Matthew’s account; but as he has just cited the parallel passage in Luke (where this occurs), it is not certain that he refers to Matthew’s here.—R.]",
+    "15": "Is. v. 4.",
+    "16": "Jer. ii. 5.",
+    "17": "Micah vi. 3.",
+    "18": "Matt. xxi. 45, 46. [“because of” (δι) is peculiar to this citation.—R.]",
+    "19": "[John vii. 25, 26.]",
+    "20": "Gr. οκονομα, i.e., the verity of the Incarnation.",
+    "21": "Matt. vi. 33. [“first” is omitted; inserted by the Oxford translator against the Greek text.—R.]",
+    "22": "“For all Thy goodness and loving kindness to us, and to all men.” Thanksgiving Prayer. See the Morning Thanksgiving; Const. Apost. viii. 38, and The Eucharistic Prayer, ib. c. 12.",
+    "23": "[Luke ii. 14, as in the received text. But “among men” is the only possible rendering, whichever reading he accepted.—R.]",
+    "24": "Rom. vi. 19. [R.V., “sanctification.”]",
+    "25": "[“by the tongues of those;” there being a contrast in the Greek, which is obscured in the English rendering.—R.]",
+    "26": "ἐρευγομνου .",
+    "27": "Ps. cxl. 3 and v. 9.",
+    "28": "1 Kings xix. 20.",
+    "29": "Matt. viii. 21–22.",
+    "30": "Ecclus. v. 7.",
+    "31": "Matt. vi. 33."
+  },
+  "verified": true
+}

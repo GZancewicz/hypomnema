@@ -1,0 +1,60 @@
+{
+  "id": 13,
+  "roman": "XIII",
+  "title": "Homily XIII",
+  "subtitle": "John 1:16",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "display": "John 1:16"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3402,
+  "excerpt": "John i. 16...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "μεθεκτἡν δωρεὰν.",
+    "2": "al. “little.”",
+    "3": "or, “just so much.”",
+    "4": "lit. “salt.”",
+    "5": "or, “sight,” ἐ κεῖθεν.",
+    "6": "in Orig. “the house of Israel and Judah.”",
+    "7": "in Orig. “their.”",
+    "8": "al. “with black on white colors.”",
+    "9": "or, “from above.”",
+    "10": "ἀ ναστοιχειωθέντες, made up of fresh elements.",
+    "11": "So Morel. Ben. and ms. in Bodleian. Savile reads οὐ πολλὴν.",
+    "12": "μείζονος πολιτείας.",
+    "13": "or, “purify yourselves,” φοιβάσεσθε.",
+    "14": "Perhaps from Deut. xviii. 10.",
+    "15": "al. “sung.”",
+    "16": "Morel. and ms. in Bodleian read the passage thus: “are holy, but the (Holiness) of God is greater than their holiness, and surpassing, as in comparison with us, so also with the powers which are above us.”",
+    "17": "κατορθωμάτων.",
+    "18": "al. “stronger.”",
+    "19": "al. “our.”",
+    "20": "παραχαράτοντας.",
+    "21": "al. “clearly.”",
+    "22": "al. “accused.”",
+    "23": "al. “see.”",
+    "24": "Morel. and ms. in Bodleian, read, “and the adoption through the Spirit, given to us.”",
+    "25": "οἰκονομίας.",
+    "26": "al. “having from a few learned the whole.”",
+    "27": "αὐτὸς αὐτὸ γίγνεται.",
+    "28": "al. “senseless.”",
+    "29": "αἰῶνα."
+  },
+  "verified": true
+}

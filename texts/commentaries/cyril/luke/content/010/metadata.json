@@ -1,0 +1,19 @@
+{
+  "id": 10,
+  "roman": "X",
+  "title": "Sermon X",
+  "subtitle": "",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Commentary on Luke",
+  "scripture_reference": null,
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 94,
+  "excerpt": "3: 15-17. But when the people were in expectation, and all men reasoned in their hearts concerning John, whether he were not the Christ, John answered, and said to them all, I indeed baptize you in wa...",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parse",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

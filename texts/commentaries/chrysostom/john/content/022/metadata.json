@@ -1,0 +1,55 @@
+{
+  "id": 22,
+  "roman": "XXII",
+  "title": "Homily XXII",
+  "subtitle": "John 2:11",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "display": "John 2:11"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3351,
+  "excerpt": "John ii. 11...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "ἀ φορμῆς.",
+    "2": "or “sacred enclosure,” σηκῶ.",
+    "3": "al. “words.”",
+    "4": "Morel. and ms. in Bodl. read the passage thus: κινῶ, πᾶσιν ἀνθρώποις ὁμοίως ἀρμόζοντα, καὶ πᾶσιν ἐπιτήδειον πάθεσιν.",
+    "5": "πολυειδὴς.",
+    "6": "Morel. and ms. in Bodleian read: οὕτω τοῖς θείοις λόγοις προσβάλλωμεν, καὶ οὕτω μετὰ συντετριμμένης σφόδρα τῆς διανοίας κ.τ.λ.",
+    "7": "Morel. and ms. in Bodleian read: τὶ γὰρ ἄτοπον προσκεῖσθαι ἐν Κανᾷ, καὶ μὴ ἀρχὴν εἶναι ταύτην τῶν τοῦ ̓Ιησοῦ σημείων.",
+    "8": "[admired and believed] Morel. and ms.",
+    "9": "ἐ πισύρεσθαι.",
+    "10": "Luke xix. 46 , ὑ μεῖς ἐποιήσατε κ.τ.λ. G. T.",
+    "11": "lit. “called it.”",
+    "12": "Or, “that He did this.” ὅ θεν εἰκὸς δεύτερον τοῦτο γεγενῆσθαι. al. πεποιηκέναι",
+    "13": "or, “adversary of God.”",
+    "14": "or, “base persons,” ἀ γοραίων.",
+    "15": "τὴν πρὸς αὐτὸν συμφωνίαν.",
+    "16": "ἁ πλῶς.",
+    "17": "εὐγνώμονες.",
+    "18": "al. “took to Him.”",
+    "19": "ὕ πουλον.",
+    "20": "al. “were proposed to.”",
+    "21": "Savile, ̔ Ο Θεὸς, “whether He was the One God”; but the article is not found in Ben. Morel. or mss.",
+    "22": "[ὅ ταν ὑψωθῶ] Ben.",
+    "23": "αὐτῇ [γενεᾷ] G. T.",
+    "24": "al. “were drawn away.”"
+  },
+  "verified": true
+}

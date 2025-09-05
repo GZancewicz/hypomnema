@@ -1,0 +1,45 @@
+{
+  "id": 42,
+  "roman": "XLII",
+  "title": "Homily XLII",
+  "subtitle": "Matthew 12:33",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 33
+    },
+    "display": "Matthew 12:33"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3453,
+  "excerpt": "Homily XLII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Matt. vii. 16–18.",
+    "2": "Matt. xii. 34.",
+    "3": "[ο πολ λγο ατ, “it takes not much account.”—R.]",
+    "4": "Matt. xii. 35. [R.V, “The good man…the evil man,” etc.]",
+    "5": "Matt. xii. 36.",
+    "6": "Matt. xii. 37.",
+    "7": "πατν. Bened. from mss. ἀνπτων, “he that kindles:” which seems to agree with the tenor of the sentence better. [There are other various readings: ἅπτωνἄπτων. All can be more readily accounted for, if πατν is accepted as the original form.—R.]",
+    "8": "[Oxford Version: “things;” probably a misprint, the Greek being the same as before.—R.]",
+    "9": "Gen. xxxi. 29.",
+    "10": "See 2 Samuel iii. 23–30, and xx. 9, 10; 1 Kings ii. 5, 6.",
+    "11": "Gen. iii. 13.",
+    "12": "Ps. iv. 4, LXX.",
+    "13": "1 Cor. xi. 31.",
+    "14": "Job. i. 5."
+  },
+  "verified": true
+}

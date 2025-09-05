@@ -1,0 +1,51 @@
+{
+  "id": 36,
+  "roman": "XXXVI",
+  "title": "Homily XXXVI",
+  "subtitle": "John 5:6-7",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 7
+    },
+    "display": "John 5:6-7"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2619,
+  "excerpt": "John v. 6, 7...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “held by.”",
+    "2": "or, “throw him down.”",
+    "3": "lit. “the tragedy.”",
+    "4": "al. “endurance.”",
+    "5": "al. “and go to thine house.”",
+    "6": "ἔ σφιγξε",
+    "7": "i.e. not by real eating, ἁ πλῶς",
+    "8": "The reference seems to be to Luke viii. 55",
+    "9": "φαντασιοκόπος",
+    "10": "Morel. and mss. read, “as He did in the case of the blind men, (Matt. ix. 28 ,) saying, ‘ Believe ye, ’” &c.",
+    "11": "Morel. and ms. in Bodl. read, “for having heard that with authority, and as one commanding, He said to him, ‘ Arise, ’” &c.",
+    "12": "Morel and ms. “who had commanded, ‘ Arise, ’” &c.",
+    "13": "Morel and ms. “accusing, as the Evangelist shows by what follows, saying, ‘ And on the same day was the Sabbath. The Jews therefore said unto him that was cured, It is the Sabbath day, it is not lawful, ’” &c.",
+    "14": "al. “not only disregarded.”",
+    "15": "lit. “theater.”",
+    "16": "see p. 132.",
+    "17": "ἐ ξέκλινεν ἐξένευσεν, G. T. and Mor.",
+    "18": "i.e. that which Jesus did.",
+    "19": "al. “pain.”",
+    "20": "ἐ πᾴδοντος"
+  },
+  "verified": true
+}

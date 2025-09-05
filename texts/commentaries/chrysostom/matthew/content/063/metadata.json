@@ -1,0 +1,50 @@
+{
+  "id": 63,
+  "roman": "LXIII",
+  "title": "Homily LXIII",
+  "subtitle": "Matthew 20:29",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 29
+    },
+    "display": "Matthew 20:29"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4454,
+  "excerpt": "Homily LXVI....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "John iv. 1, and x. 40–42.",
+    "2": "παησαν βου. Claim of access on account of good life.",
+    "3": "Matt. xx. 32, 33.",
+    "4": "The words, “and to show them to be much greater than they are,” are rejected by Montfaucon on the authority of two mss., but defended by Mr. Field. [They are found in all the mss. collated by the latter editor, with one exception.—R.] It seems to be true that our Lord sometimes encouraged faith, and brought out good example, by putting on an action a higher meaning and intention than was at all fully formed in the mind of the doer.",
+    "5": "Matt. xxi. 1–5. [The textual variations are reproduced in the above rendering. The most interesting variation is ἀποστλλει (“he sendeth”), the reading attested in Mark xi. 3. It implies in the latter passage the promise to send back the colt to the owners.—R.]",
+    "6": "Zech. ix. 9.",
+    "7": "Or, “emulating us,” παραζηλοντε .",
+    "8": "[R.V., a hardening.]",
+    "9": "Rom. xi. 25, 26.",
+    "10": "2 Cor. xii. 15.",
+    "11": "Matt. xxi. 10, 11. [The Greek text agrees with that of the received.—R.]",
+    "12": "σεσυρμνη.",
+    "13": "2 Cor. ix. 6.",
+    "14": "[“who are more numerous.”…“and who are they that are neither,” etc.—R.]",
+    "15": "[“who are more numerous.”…“and who are they that are neither,” etc.—R.]",
+    "16": "συλλογισμν .",
+    "17": "ἀγχομνοι.",
+    "18": "[The translation has been altered here to conform to the use of “here” and “there” in the original.—R.]",
+    "19": "Prov. xix. 17."
+  },
+  "verified": true
+}

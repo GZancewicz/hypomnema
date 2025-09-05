@@ -1,0 +1,43 @@
+{
+  "id": 49,
+  "roman": "XLIX",
+  "title": "Homily XLIX",
+  "subtitle": "John 7:25-27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 27
+    },
+    "display": "John 7:25-27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3073,
+  "excerpt": "Homily L....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “perplexity.”",
+    "2": "ἐ ξεκάλυπτον",
+    "3": "“of God,” N.T.",
+    "4": "χυδαίου",
+    "5": "“murmuring such things concerning Him,” N.T.",
+    "6": "“the Pharisees and Chief Priests sent,” N.T.",
+    "7": "or, “sent their s. to be exposed” (ἐ κδότους).",
+    "8": "ἐ νήργει",
+    "9": "τὶ ὑστερῶ ἐγὼ, LXX., thus rendered in margin of E.V.",
+    "10": "i.e. one prediction.",
+    "11": "lit. “Greeks.”",
+    "12": "i.e. in baptism."
+  },
+  "verified": true
+}

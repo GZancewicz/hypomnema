@@ -1,0 +1,56 @@
+{
+  "id": 75,
+  "roman": "LXXV",
+  "title": "Homily LXXV",
+  "subtitle": "John 14:31",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 31
+    },
+    "display": "John 14:31"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2716,
+  "excerpt": "Homily LXXVI....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "from ver. 5",
+    "2": "προαίρεσιν",
+    "3": "al. “a brave darer.”",
+    "4": "al. “to persons present.”",
+    "5": "al. “and it was not even possible to give.”",
+    "6": "al. “having led them away, He saith.”",
+    "7": "ἐ νεργείας",
+    "8": "“He,” N.T.",
+    "9": "“that it may bring forth more fruit,” N.T.",
+    "10": "μέσον",
+    "11": "al. “teaching.”",
+    "12": "Ver. 4. “Abide in Me, and I in you. As,” &c. N.T.",
+    "13": "“so neither can ye, except ye abide in Me.” N.T.",
+    "14": "Ver. 5. “I am the Vine, ye are the branches. He that abideth in Me, and I in him, the same bringeth forth much fruit; for without Me ye can do nothing.” N.T.",
+    "15": "i.e. to the Father and the Son.",
+    "16": "Ver. 6. “If a man abide not in Me, he is cast forth as a branch and is withered; and men gather them, and cast them into the fire, and they are burned.” N.T.",
+    "17": "“If ye abide in Me, and My words,” &c. N.T.",
+    "18": "“If ye love me, keep,” &c. N.T.",
+    "19": "al. “suitably to a man.”",
+    "20": "Ver. 10. “If ye keep,” &c., “ye shall abide in My love; even as,” &c., “and abide in His love.” N.T.",
+    "21": "i.e. the disciples.",
+    "22": "al. “no time for.”",
+    "23": "ἀ λόγοις",
+    "24": "Τοὺς ὀχετοὺς τῶν ἀμαρῶν ἕλκειν. An instance of employment requiring skill and practice. v. Iliad xxi. 257.",
+    "25": "̓ Επωλεῖτο. So Morel. Ben. and mss. Sav. reads ἐ πολεμεῖτο, “was warred against.”"
+  },
+  "verified": true
+}

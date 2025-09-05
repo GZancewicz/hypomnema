@@ -1,0 +1,55 @@
+{
+  "id": 34,
+  "roman": "XXXIV",
+  "title": "Homily XXXIV",
+  "subtitle": "Matthew 10:23",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 23
+    },
+    "display": "Matthew 10:23"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4403,
+  "excerpt": "Matt. X. 23....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Matt. x. 26.",
+    "2": "Matt. x. 10.",
+    "3": "Matt. x. 19, 22.",
+    "4": "Matt. x. 24–26.",
+    "5": "[In the Greek this seems to be a repetition of verse 24, and not a question.—R.]",
+    "6": "γνησιτητα πιδεικνμενο.",
+    "7": "John xv. 15, 14.",
+    "8": "Matt. x. 16.",
+    "9": "[R.V., “proclaim.”]",
+    "10": "Matt. x. 27.",
+    "11": "γυμν τ κεφαλ.",
+    "12": "John xiv. 12.",
+    "13": "υπορττοντο.",
+    "14": "Matt. x. 28.",
+    "15": "[Chrysostom plainly refers this to God, not Satan. Hence the capital letter of the Oxford translator.—R.]",
+    "16": "See received text above, Hom. IX. 4. [The reading here followed is accepted by several others of the Fathers but has no mss. authority. See Tischendorf, in loco. In Homily IX. 4, there is no variation from the Greek text, as now attested.—R.]",
+    "17": "Matt. x. 29, 30.",
+    "18": "Matt. x. 31.",
+    "19": "[R.V., “Every one, therefore, shall confess me (Greek, in me) before men, him (Greek, in him),” etc. See the use made in the Homily of the Greek preposition “in.”—R.]",
+    "20": "Matt. x. 32, 33.",
+    "21": "τ χρν πλεονεκτε, “he is beforehand with his rewarder:” his sufferings, and the sinner’s enjoyment, come respectively first.",
+    "22": "Rom. viii. 24. [“Saved in hope” or “for hope” expresses better, and agrees with the argument in the Homily.—R.]",
+    "23": "διπλασι, “the moulding of it by the informing soul.”",
+    "24": "Ps. xlv. 12, LXX."
+  },
+  "verified": true
+}

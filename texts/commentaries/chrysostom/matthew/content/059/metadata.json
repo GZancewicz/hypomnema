@@ -1,0 +1,57 @@
+{
+  "id": 59,
+  "roman": "LIX",
+  "title": "Homily LIX",
+  "subtitle": "Matthew 19:1",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 1
+    },
+    "display": "Matthew 19:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4882,
+  "excerpt": "Homily LXII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Matt. xix. 2.",
+    "2": "Matt. xix. 3.",
+    "3": "[R.V., “from.”]",
+    "4": "[R.V., “become.”]",
+    "5": "Matt. xix. 4–6.",
+    "6": "έναγ.",
+    "7": "Matt. xix. 7. [“How” is substituted for “why.”]",
+    "8": "[The citation agrees with the briefer reading, accepted by Tischendorf; comp. R.V. margin.—R.]",
+    "9": "Matt. xv. 11.",
+    "10": "Matt. xii. 12.",
+    "11": "Matt. xv. 15.",
+    "12": "Matt. xix. 10. [Compare the more exact citation which follows.—R.]",
+    "13": "Mark x. 10.",
+    "14": "Matt. xix. 11.",
+    "15": "Matt. xix. 12.",
+    "16": "ἀποκψονται, which may mean this. [R.V. margin, “mutilate themselves.”]",
+    "17": "Gal. v. 12. [Whatever be the meaning of the verb in Galatians, there can be no question that the use here made of the passage is forced.—R.]",
+    "18": "Matt. xix. 13–15.",
+    "19": "Matt. xviii. 3, 4.",
+    "20": "σοβεν.",
+    "21": "μεσασμος.",
+    "22": "1 Cor. xiv. 20.",
+    "23": "Prov. ix. 12, LXX.",
+    "24": "1 Sam. xxviii. 15.",
+    "25": "1 Sam. xxvi. 16.",
+    "26": "Mss., “not to make money,” and presently, “not to love glory;” but Savile’s reading is rightly adopted by Mr. Field, with the Latin Translator."
+  },
+  "verified": true
+}

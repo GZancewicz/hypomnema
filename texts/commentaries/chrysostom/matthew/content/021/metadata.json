@@ -1,0 +1,60 @@
+{
+  "id": 21,
+  "roman": "XXI",
+  "title": "Homily XXI",
+  "subtitle": "Matthew 6:24",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "display": "Matthew 6:24"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3308,
+  "excerpt": "Matt. VI. 24....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[“More in number and more terrible.”—R.]",
+    "2": "[ἀκριβ.]",
+    "3": "Acts iv. 32.",
+    "4": "Job xxxi. 25.",
+    "5": "[Μ τοινυν περιττ φιλοσφει.]",
+    "6": "Phil. iii. 19.",
+    "7": "[R.V., more correctly, “Be not anxious,” and so throughout the chapter.—R.]",
+    "8": "τ ψυχ, “your soul.” [So Chrysostom interprets (see below); but the New Testament passage must refer to physical life. In the latter part of the verse the higher “life” is suggested. But to understand the argument of Chrysostom, ψυχ must be rendered “soul” throughout this passage.—R.]",
+    "9": "Matt. vi. 25. [R.V., “Is not the life more than the food,” i.e., the food that sustains it.—R.]",
+    "10": "Matt. vi. 27.",
+    "11": "1 Cor. iii. 7.",
+    "12": "Matt. vi. 26.",
+    "13": "δημδη.",
+    "14": "Matt. iv. 4.",
+    "15": "ἀλεφοντα.",
+    "16": "Prov. vi. 6–8, LXX. See before, Hom. XVII., 6, note.",
+    "17": "Jer. viii. 7.",
+    "18": "καπηλεουσινἐμπορεονται: two words which in the New Testament are always used in a bad sense.",
+    "19": "Ps. cxlv. 16.",
+    "20": "Ps. cxlvii. 9.",
+    "21": "Gen. xxviii. 20.",
+    "22": "Acts iv. 4, and ii. 41.",
+    "23": "Matt. vi. 27.",
+    "24": "1 Kings xix. 18; Rom. xi. 4.",
+    "25": "Acts ii. 41, iv. 5.",
+    "26": "See Sulpicius Severus, Dial. i. c. 14. “It is told of a certain holy man that he constantly and entirely abstained from all drink: and that by way of food, he lived upon seven figs only.”",
+    "27": "Luke iii. 14.",
+    "28": "[ύμ γυμνζομεν, “we are exercising you.”—R.]",
+    "29": "So Aristippus: vid. Hor. Serm. 2, 3, 100."
+  },
+  "verified": true
+}

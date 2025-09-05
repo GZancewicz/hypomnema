@@ -1,0 +1,63 @@
+{
+  "id": 31,
+  "roman": "XXXI",
+  "title": "Homily XXXI",
+  "subtitle": "John 4:13-14",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 14
+    },
+    "display": "John 4:13-14"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3288,
+  "excerpt": "John iv. 13, 14...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “saith the same now.”",
+    "2": "al. “some flourishing.”",
+    "3": "al. “as quenching easily.”",
+    "4": "al. “of God.”",
+    "5": "al. “leads up.”",
+    "6": "or, “to remember.”",
+    "7": "or, “see clearly.”",
+    "8": "al. “things given.”",
+    "9": "κατηχεῖν",
+    "10": "εὐγνώμονος",
+    "11": "al. “readiness.”",
+    "12": "ὁ ἐρχόμενος πρός με, G. T.",
+    "13": "al. “not finite.”",
+    "14": "ἔ λεγχον",
+    "15": "or, “is the work of.”",
+    "16": "οἰκειοῦσθαι",
+    "17": "al. “to be hidden.”",
+    "18": "al. “the thing which.”",
+    "19": "καὶ ὑμ. λέγετε, G. T.",
+    "20": "παρέλκον",
+    "21": "πυκτίον",
+    "22": "al. “this Law was not given.”",
+    "23": "i.e. on the Day of Pentecost.",
+    "24": "al. “the reality of the matters.”",
+    "25": "lit. “nature of sin.”",
+    "26": "al. “the actions,” i.e. of the Gospel.",
+    "27": "Morel. [let us prepare].",
+    "28": "al, “it were meet to be.”",
+    "29": "Morel. “beholding the devil shamed by means of the Divine oracles, and greatly striving.” Below Morel. reads, “run to such a sight.”",
+    "30": "σκάμματα, διαύλους, λαβὰς, terms of the wrestling school. σκάμμα, the place dug out for the exercise, hence the exercise itself. δίαυλος, the double course. λαβὴ, the gripe of the wrestler. Thus of Job, on Stat. Hom. i. 16; of the Three Children, ib. Hom. iv. 8, &c.",
+    "31": "This clause is not found in Ben.",
+    "32": "al. “of the Eternal Goods.”"
+  },
+  "verified": true
+}

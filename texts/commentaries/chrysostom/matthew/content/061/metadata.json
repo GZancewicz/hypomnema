@@ -1,0 +1,61 @@
+{
+  "id": 61,
+  "roman": "LXI",
+  "title": "Homily LXI",
+  "subtitle": "Matthew 19:27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 27
+    },
+    "display": "Matthew 19:27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5146,
+  "excerpt": "Homily LXIV....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Matt. xix. 21.",
+    "2": "Matt. xix. 28.",
+    "3": "Jer. xviii. 7–10.",
+    "4": "Gen. ix. 2.",
+    "5": "Matt. xix. 29. [The citation differs from that in the last Homily. The order here is that of Tischendorf (not of R.V. or rec. text): “or wife” occurs here; “house” is substituted for “houses.”—R.]",
+    "6": "Matt. xii. 27.",
+    "7": "Matt. xii. 41.",
+    "8": "2 Tim. ii. 12.",
+    "9": "Gal. iv. 51.",
+    "10": "Matt. x. 39.",
+    "11": "1 Cor. vii. 15.",
+    "12": "Matt. xix. 30. [“were” is an emendation of the translator. The Greek is that of the rec. text.—R.]",
+    "13": "Matt. viii. 11, 12.",
+    "14": "Matt. xx. 1. [This long passage agrees closely with the rec. text. In verses 5, 6, the New Testament narrative is abridged, but there are scarcely any other peculiarities.—R.]",
+    "15": "κατ λξιν.",
+    "16": "Gal. i. 15.",
+    "17": "1 Cor. x. 3, 4, 5.",
+    "18": "Matt. v. 22.",
+    "19": "ἁγιασμν, comp. 1 Thess. iv. 3. [R.V., “sanctification.”]",
+    "20": "Heb. xii. 14.",
+    "21": "Matt. viii. 20.",
+    "22": "᾽Ιωβηλα.",
+    "23": "2 Cor. viii. 1, 2, 3.",
+    "24": "Matt. viii. 20.",
+    "25": "Matt. xi. 29.",
+    "26": "Matt. xx. 27, 28.",
+    "27": "John xiii. 15.",
+    "28": "Ps. xxxix. 12.",
+    "29": "1 Cor. xi. 31, 32.",
+    "30": "The part in italics is omitted in two manuscripts."
+  },
+  "verified": true
+}

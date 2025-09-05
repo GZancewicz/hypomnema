@@ -1,0 +1,56 @@
+{
+  "id": 44,
+  "roman": "XLIV",
+  "title": "Homily XLIV",
+  "subtitle": "Matthew 12:46",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "display": "Matthew 12:46"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4729,
+  "excerpt": "Homily XLIV....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[In the text here τνε εσν is omitted, but is inserted in the comment. There is no mss. authority for the omission in Matthew. The other variations are slight.—R.]",
+    "2": "ἀπνοιαν.",
+    "3": "“It seems to me that the person bringing the message was not simply doing so on occasion given, but was laying a snare for our Saviour, to see whether he would prefer flesh and blood to His spiritual task. Our Lord therefore did not think scorn to come out, as disavowing mother and brethren, but He speaks as answering one who was laying a snare for Him.…Not, as Marcion and Manichæus say, did He deny His mother, that we should esteem Him born of a phantom, but He preferred the apostles to His kindred.” St. Jer. in loc. “Some pestilent heretics would maintain from this passage, that our Lord had no mother, and do not perceive that it follows, on comparison of an other text” (St. Matt. xxiii. 9), “that neither have His disciples fathers. Because, as He said Himself, “Who is my mother?” so He taught them, saying, “Call no man your father on earth.” St. Aug. in Ps. ix. sec. 31. [He speaks] “not as defrauding His mother of her due honor, but indicates for what kind of maternity the Virgin is pronounced to be blessed. For if he who hears the Word of God and keeps it is His brother, and sister, and mother, and Christ’s mother had both these, evidently this was the maternity in respect of which His mother was to be blessed. For to hear the Word of God and keep it belongs to a pure soul, looking altogether towards God. And since it was no ordinary woman whom God selected to become the mother of Christ, but her who in virtues held a place higher than all women, therefore Christ also willed His mother to be called blessed from this virtue, whereby she was deemed worthy to become a virgin mother.” Quæst. et Resp. ad Orthod. ap. St. Just. Mart. p. 485. Ed. Morell. 1736.",
+    "4": "John vii. 5.",
+    "5": "John vii. 4. φανερ εναι, rec. text, ἐν παησ εναι. [The latter reading is that of all our authorities.—R]",
+    "6": "Matt. xiii. 55, 56. [Comp. Mark vi. 3. But the citation is freely made.—R.]",
+    "7": "Luke xi. 27, 28. [According to many Harmonists this occurred about the same time, probably as His mother was seen approaching.—R.]",
+    "8": "Matt. iii. 7, 9.",
+    "9": "John viii. 39.",
+    "10": "Matt. xiii. 50. [Slightly altered.]",
+    "11": "John ii. 1–11.",
+    "12": "Chap. xiii. 1. [R.V., “On that day,” etc.]",
+    "13": "Matt. xiii. 2. [R.V., “all the multitude stood on the beach.”]",
+    "14": "Matt. xiii. 3.",
+    "15": "Mark iv. 13. [Freely cited.]",
+    "16": "[R.V., “the sower.”]",
+    "17": "Matt. xiii. 4. [R.V., “And as he sowed,” etc.]",
+    "18": "Matt. xiii. 5–9. [The Greek text here differs slightly from that of the New Testament passage, as well as from the accounts of Mark and Luke.—R.]",
+    "19": "Is. v. 4.",
+    "20": "Is. v. 1.",
+    "21": "Ps. lxxx. 8.",
+    "22": "βναυσοι.",
+    "23": "Matt. xiii. 20, 21, 19. [There are some variations in the Greek text, not found in any New Testament mss. In verse 19 ἀληθεα is substituted for βασιλεα.—R.]",
+    "24": "Rom. x. 14.",
+    "25": "πλαδαρν."
+  },
+  "verified": true
+}

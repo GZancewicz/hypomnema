@@ -1,0 +1,62 @@
+{
+  "id": 13,
+  "roman": "XIII",
+  "title": "Homily XIII",
+  "subtitle": "Matthew 4:1",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 1
+    },
+    "display": "Matthew 4:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 5773,
+  "excerpt": "Matt. IV. 1....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Matt. xxvi. 41.",
+    "2": "κατ τν λγον τ οκονομα.",
+    "3": "Mark i. 13.",
+    "4": "[λουντρ, “laver;” here by metonymy for the rite of baptism.—R.]",
+    "5": "[λουντρ, “laver;” here by metonymy for the rite of baptism.—R.]",
+    "6": "Ezek. xvi. 49.",
+    "7": "Isa. v. 11, 12.",
+    "8": "οκονομα, that is, the assumption of humanity. [Justin Martyr and Ignatius so use the term; see reffs. in Sophocles, Greek Lexicon, etc., sub voce.—R.]",
+    "9": "Matt. iv. 2.",
+    "10": "Matt. iv. 3.",
+    "11": "Matt. iv. 4.",
+    "12": "[Here “demons” is the more correct rendering.—R.]",
+    "13": "[Here “demons” is the more correct rendering.—R.]",
+    "14": "Acts xvi. 18.",
+    "15": "[ἐλγξ, “might convince,” “argue over.”—R.]",
+    "16": "Matt. iv. 6.",
+    "17": "Gen. iii. 5.",
+    "18": "Matt. iv. 7.",
+    "19": "Matt. iv. 8–10.",
+    "20": "[Luke iv. 13. The form of the passage is changed by Chrysostom, but the words are identical. The R.V. renders: “And when the devil had completed every temptation.” Chrysostom puts the emphasis on the word “every,” as his argument shows.—R.]",
+    "21": "Luke iv. 13. [In Luke iv. 13, the reading is ἄχρι καιρο, but Chrysostom has ἕω καιρο, apparently accepting the sense given in the R.V. margin: “until a season,” which has much to recommend it.—R.]",
+    "22": "Matt. iv. 11.",
+    "23": "Luke xvi. 22.",
+    "24": "διακωδνισα .",
+    "25": "“Curse God and die,” Job ii. 9.",
+    "26": "[τι τν ο προηκντων.—R.]",
+    "27": "Heb. xii. 6.",
+    "28": "Jerem. v. 8.",
+    "29": "St. Cyril (about A.D. 350) Catech. x. 19, says, “The demons who even to this day are being driven out by the faithful bear witness to Christ.” St. Augustin (A.D. 426), in many places speaks of the like miracle as no unusual thing in his time, particularly at the tombs of the martyrs. De Civ. Dei. x. 22.; xxii. 8; contra. Lit. Petil. ii. 55.",
+    "30": "φιλοτιμαν .",
+    "31": "Luke xix. 40."
+  },
+  "verified": true
+}

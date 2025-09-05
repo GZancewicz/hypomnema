@@ -1,0 +1,55 @@
+{
+  "id": 24,
+  "roman": "XXIV",
+  "title": "Homily XXIV",
+  "subtitle": "Matthew 7:21",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "display": "Matthew 7:21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3189,
+  "excerpt": "Matt. VII. 21....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[ἀγαπητν; probably the sense is rather: “it must suffice them,” etc.—R.]",
+    "2": "Rom. ii. 17, 18. [R.V., “But if thou bearest the name of a Jew,” etc., following the reading ε δ, which is abundantly attested. Chrysostom has ἴδεἀγπη.—R.]",
+    "3": "Mark ix. 38; Luke ix. 49. [“Demons,” so in the New Testament passages.—R.]",
+    "4": "οκονομαν.",
+    "5": "Dan. iii.",
+    "6": "Dan. v.",
+    "7": "Matt. vii. 24. [R.V., “Every one, therefore which beareth these words of mine, and doeth them, shall be likened.” The Greek text in the Homily is identical with that accepted in the R.V.—R.]",
+    "8": "[ερπ, a strait, where the ebb and flow is great and frequent. See Liddell and Scott, Greek Lexicon.—R.]",
+    "9": "Matt. vii. 25.",
+    "10": "τν κοινν δικν πραγματεεσθα σε παρασκευζωνπραγματεεσθαι. [The verb means “to engage in business,” and it is an easy transition to the successful result of trading. The Latin rendering of Montfaucon is: ac tibi providens, ut a communi illa reddenda ratione te expedias —R.]",
+    "11": "γυμνζων.",
+    "12": "Matt. vii. 26. [R.V., “these words.”—R.]",
+    "13": "Gal. vi. 8.",
+    "14": "Acts iv. 16.",
+    "15": "Acts v. 28.",
+    "16": "Acts iv. 20.",
+    "17": "[ἑαυτν δ φνισε, “but obliterates himself.”—R.]",
+    "18": "Matt. xiv. 2; Luke ix. 9. [The verb ἀνελον, which occurs here, is not found in the New Testament accounts of Herod’s language.—R.]",
+    "19": "Luke iii. 10, 14.",
+    "20": "Matt. iii. 7.",
+    "21": "1 Kings xviii. 21, LXX.",
+    "22": "1 Kings xxi. 19, LXX.",
+    "23": "Mark vi. 18.",
+    "24": "Prov. xxviii. 1."
+  },
+  "verified": true
+}

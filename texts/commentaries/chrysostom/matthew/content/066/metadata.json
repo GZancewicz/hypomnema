@@ -1,0 +1,55 @@
+{
+  "id": 66,
+  "roman": "LXVI",
+  "title": "Homily LXVI",
+  "subtitle": "Matthew 22:1",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 1
+    },
+    "display": "Matthew 22:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4613,
+  "excerpt": "Homily LXIX....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[The order here is slightly varied, and “unto them” is omitted. With these exceptions the entire passage is in verbal agreement with the received text.—R.]",
+    "2": "[R.V., “marriage feast.”]",
+    "3": "[Verses 7–14 do not appear in the Greek text of Migne’s edition, but are added in the Oxford translation, and in Field’s Greek text.—R.]",
+    "4": "2 Cor. xi. 2.",
+    "5": "Eph. v. 32.",
+    "6": "ἀπαρλλακτον .",
+    "7": "John iii. 30.",
+    "8": "Matt. xi. 28. [“Refresh” is the rendering of the Greek term answering to “give rest” in the English versions.—R.]",
+    "9": "John vii. 37.",
+    "10": "Gal. ii. 8. [R.V., “wrought for” twice; the Greek verb is the same in both clauses.—R.]",
+    "11": "πση πανδαισα.",
+    "12": "1 Thess. ii. 15. [R.V., “and drove out us.”]",
+    "13": "Matt. xxviii. 19.",
+    "14": "Matt. x. 6.",
+    "15": "Acts i. 8.",
+    "16": "Gal. ii. 8. [Comp. note 7, p. 421.]",
+    "17": "Acts xiii. 46. [Slightly abridged.]",
+    "18": "Or, “repeatedly.”",
+    "19": "Rom. xv. 9.",
+    "20": "Matt. xxii. 13.",
+    "21": "[The clause in italics is not found in the mss. collated by Field, but occurs in the Benedictine edition.—R.]",
+    "22": "φρη κροκωτ.",
+    "23": "ἰσονομ.",
+    "24": "Matt. xi. 12."
+  },
+  "verified": true
+}

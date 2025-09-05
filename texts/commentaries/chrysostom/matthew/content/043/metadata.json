@@ -1,0 +1,54 @@
+{
+  "id": 43,
+  "roman": "XLIII",
+  "title": "Homily XLIII",
+  "subtitle": "Matthew 12:38",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on Matthew",
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "display": "Matthew 12:38"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3799,
+  "excerpt": "Homily XLIII....",
+  "source_file": "chrysostom_matthew_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "[“Unto them” is omitted in the Greek text here, against all our New Testament codices.—R.]",
+    "2": "See Ezek. xvi. 23, etc.",
+    "3": "διορθσαι.",
+    "4": "γυμνζει.",
+    "5": "Matt. xxii. 40.",
+    "6": "Matt. xxvii. 63. [The citation is not exact: at the close a different verb, in a different tense, is given.—R.]",
+    "7": "δκησιν: so Δοκητα was the name of those heretics who denied the reality of our Lord’s incarnation and death.",
+    "8": "Gal. vi. 14. [R.V., “Far be it from me to glory,” etc.]",
+    "9": "John ii. 19.",
+    "10": "Matt. ix. 15.",
+    "11": "[πεσεταιστηθοδεσμδο.",
+    "12": "Is. i. 3.",
+    "13": "Matt. xxiv. 21.",
+    "14": "Heb. vi. 4.",
+    "15": "John v. 14.",
+    "16": "Ezek. xvi. 6, 9, 14, 26.",
+    "17": "Exod. v. 2.",
+    "18": "Ephes. vi. 9.",
+    "19": "Dan. iii. 22.",
+    "20": "Is. xiii. 9.",
+    "21": "ἀποτηγανιζμενοι.",
+    "22": "2 Thess. iii. 1.",
+    "23": "Matt. v. 15; Luke xi. 33."
+  },
+  "verified": true
+}

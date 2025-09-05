@@ -1,0 +1,41 @@
+{
+  "id": 43,
+  "roman": "XLIII",
+  "title": "Homily XLIII",
+  "subtitle": "John 6:26-27",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 27
+    },
+    "display": "John 6:26-27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1892,
+  "excerpt": "Homily XLIV....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "al. “use towards him.”",
+    "2": "al. For He all but saith this in what He directeth against them: “It was not,” &c.",
+    "3": "“shall give,” N.T.",
+    "4": "κατὰ τὸ ῥητὸν",
+    "5": "al. “none.”",
+    "6": "al. “unschooled.”",
+    "7": "al. “fall down.”",
+    "8": "al. “are called by God a way, for there is one broad, and one strait and narrow ; but things to come,” &c.",
+    "9": "al. “ceases.”",
+    "10": "al. “that we may also be able to attain them.”"
+  },
+  "verified": true
+}

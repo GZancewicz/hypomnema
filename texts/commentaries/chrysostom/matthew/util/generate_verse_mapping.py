@@ -1,126 +1,92 @@
 #!/usr/bin/env python3
 """
-Generate verse_mapping.json for Chrysostom Matthew homilies.
-Maps each verse to the homilies that comment on it.
+Generate verse_mapping.json for Chrysostom Matthew commentary.
+Maps individual verses to homilies that comment on them.
 """
 
 import os
+import sys
 import json
 from pathlib import Path
 
 def generate_verse_mapping():
-    """Generate verse to homily mapping."""
+    """Generate verse-to-homily mapping for Matthew."""
     base_dir = Path(__file__).parent.parent
-    
-    # First load coverage data
     coverage_file = base_dir / 'coverage.json'
+    
     if not coverage_file.exists():
-        print("Coverage file not found. Run generate_coverage.py first.")
+        print("Error: coverage.json not found. Run generate_coverage.py first.")
         return
     
     with open(coverage_file, 'r', encoding='utf-8') as f:
         coverage = json.load(f)
     
-    # Build verse to homily mapping
     verse_map = {}
     
     for homily in coverage['homilies']:
         homily_id = homily['id']
-        homily_roman = homily['roman']
+        start_ch = homily['start']['chapter']
+        start_v = homily['start']['verse']
+        end_ch = homily['end']['chapter']
+        end_v = homily['end']['verse']
         
-        for verse_ref in homily.get('verses_covered', []):
-            if verse_ref not in verse_map:
-                verse_map[verse_ref] = []
-            
-            verse_map[verse_ref].append({
-                'id': homily_id,
-                'roman': homily_roman,
-                'type': 'primary'  # Primary coverage
-            })
-    
-    # Add secondary references from scripture_references.json files
-    content_dir = base_dir / 'content'
-    
-    for homily_num in range(1, 91):
-        homily_dir = content_dir / f'{homily_num:03d}'
-        ref_file = homily_dir / 'scripture_references.json'
-        
-        if not ref_file.exists():
-            continue
-        
-        with open(ref_file, 'r', encoding='utf-8') as f:
-            references = json.load(f)
-        
-        # Get homily roman numeral
-        metadata_file = homily_dir / 'metadata.json'
-        if metadata_file.exists():
-            with open(metadata_file, 'r', encoding='utf-8') as f:
-                metadata = json.load(f)
-            roman = metadata.get('roman', '')
+        # Add verses covered
+        if start_ch == end_ch:
+            for v in range(start_v, end_v + 1):
+                verse_ref = f"{start_ch}:{v}"
+                if verse_ref not in verse_map:
+                    verse_map[verse_ref] = []
+                verse_map[verse_ref].append({
+                    'id': homily_id,
+                    'roman': homily['roman'],
+                    'type': 'primary'
+                })
         else:
-            roman = to_roman(homily_num)
-        
-        # Add Matthew references as secondary
-        for ref in references.get('matthew', []):
-            verse_ref = f"{ref['chapter']}:{ref['verse']}"
+            # Handle multi-chapter ranges
+            for v in range(start_v, 100):  # First chapter
+                verse_ref = f"{start_ch}:{v}"
+                if verse_ref not in verse_map:
+                    verse_map[verse_ref] = []
+                verse_map[verse_ref].append({
+                    'id': homily_id,
+                    'roman': homily['roman'],
+                    'type': 'primary'
+                })
             
-            if verse_ref not in verse_map:
-                verse_map[verse_ref] = []
-            
-            # Check if this homily already has primary coverage
-            already_primary = any(
-                h['id'] == homily_num and h['type'] == 'primary' 
-                for h in verse_map[verse_ref]
-            )
-            
-            if not already_primary:
-                # Add as secondary reference
-                existing = [h for h in verse_map[verse_ref] if h['id'] == homily_num]
-                if not existing:
+            # Middle chapters
+            for ch in range(start_ch + 1, end_ch):
+                for v in range(1, 100):
+                    verse_ref = f"{ch}:{v}"
+                    if verse_ref not in verse_map:
+                        verse_map[verse_ref] = []
                     verse_map[verse_ref].append({
-                        'id': homily_num,
-                        'roman': roman,
-                        'type': 'reference'  # Secondary reference
+                        'id': homily_id,
+                        'roman': homily['roman'],
+                        'type': 'primary'
                     })
-    
-    # Sort verse map by chapter and verse
-    sorted_map = {}
-    for verse_ref in sorted(verse_map.keys(), key=lambda x: parse_verse_ref(x)):
-        sorted_map[verse_ref] = sorted(verse_map[verse_ref], key=lambda x: x['id'])
+            
+            # Last chapter
+            for v in range(1, end_v + 1):
+                verse_ref = f"{end_ch}:{v}"
+                if verse_ref not in verse_map:
+                    verse_map[verse_ref] = []
+                verse_map[verse_ref].append({
+                    'id': homily_id,
+                    'roman': homily['roman'],
+                    'type': 'primary'
+                })
     
     # Save verse_mapping.json
-    mapping_file = base_dir / 'verse_mapping.json'
-    with open(mapping_file, 'w', encoding='utf-8') as f:
-        json.dump(sorted_map, f, indent=2, ensure_ascii=False)
+    with open(base_dir / 'verse_mapping.json', 'w', encoding='utf-8') as f:
+        json.dump(verse_map, f, indent=2, ensure_ascii=False)
     
-    print(f"Verse mapping generated for {len(sorted_map)} verses")
-    return sorted_map
-
-def parse_verse_ref(ref):
-    """Parse verse reference for sorting."""
-    parts = ref.split(':')
-    if len(parts) == 2:
-        return (int(parts[0]), int(parts[1]))
-    return (0, 0)
-
-def to_roman(num):
-    """Convert number to Roman numeral."""
-    values = [
-        (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
-        (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')
-    ]
-    result = ''
-    for value, letter in values:
-        count = num // value
-        if count:
-            result += letter * count
-            num -= value * count
-    return result
+    print(f"Generated mapping for {len(verse_map)} verse references")
 
 def main():
-    print("Generating verse mapping for Chrysostom Matthew...")
-    print("-" * 50)
+    print("Generating Chrysostom Matthew Verse Mapping")
+    print("=" * 60)
     generate_verse_mapping()
+    print("\nVerse mapping generation complete!")
 
 if __name__ == "__main__":
     main()

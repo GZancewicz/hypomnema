@@ -1,0 +1,59 @@
+{
+  "id": 35,
+  "roman": "XXXV",
+  "title": "Homily XXXV",
+  "subtitle": "John 4:54",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 54
+    },
+    "display": "John 4:54"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2402,
+  "excerpt": "John iv. 54; v. 1...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "lit. “distracting.”",
+    "2": "lit. “wonder.”",
+    "3": "al. “feasts.”",
+    "4": "προβατικὴ κολυμβήθρα [ἐ πὶ τῇ π. G. T.].",
+    "5": "[ἀ σθενούντων] G. T. and Ben.",
+    "6": "ὑ πογράφει, al. προϋπ",
+    "7": "al. “harm the faith of the hearers.”",
+    "8": "ἀ πὸ κηδείας, Num. v",
+    "9": "lit. “faith of,” al. “the gift of.”",
+    "10": "Morel. and ms. in Bodl. “have more power to lead by the hand than the archetypes.”",
+    "11": "al. “afar.”",
+    "12": "al. “hindrances.”",
+    "13": "ἐ πὶ τῇ ἐνεργείᾳ, al. “at the coming down.”",
+    "14": "λύει",
+    "15": "al. “teach.”",
+    "16": "al. “lay in wait.”",
+    "17": "i.e. the manifest hopelessness of his being able to go down first into the pool.",
+    "18": "ἐ νάρκα",
+    "19": "al. “the kind.”",
+    "20": "al. “worth.”",
+    "21": "Morel and ms. in Bodl. “but hear also the explanation, for this we will now say for love of you. What then,” &c.",
+    "22": "ἀ ργίας",
+    "23": "τρυφᾷν",
+    "24": "Morel. and ms. in Bodl. “therefore I have done that which remained to do, I have encompassed (or clothed) you with labors and toils.”",
+    "25": "al. “thoughtest thou.”",
+    "26": "Some mss. read, “was it then meet to work without toil? yea,” &c.",
+    "27": "i.e. during the abode in Paradise.",
+    "28": "or, “releases.”"
+  },
+  "verified": true
+}
