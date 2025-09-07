@@ -1,6 +1,6 @@
 {
   "commentary": "cyril_luke",
-  "total_homilies": 127,
+  "total_homilies": 139,
   "homilies": [
     {
       "id": 1,
@@ -207,6 +207,162 @@
       },
       "end": {
         "chapter": 25,
+        "verse": 99
+      }
+    },
+    {
+      "id": 26,
+      "roman": "XXVII",
+      "title": "Sermon XXVII",
+      "start": {
+        "chapter": 26,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 26,
+        "verse": 99
+      }
+    },
+    {
+      "id": 27,
+      "roman": "XXVII",
+      "title": "Sermon XXVII",
+      "start": {
+        "chapter": 27,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 27,
+        "verse": 99
+      }
+    },
+    {
+      "id": 29,
+      "roman": "XXIX",
+      "title": "Sermon XXIX",
+      "start": {
+        "chapter": 29,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 29,
+        "verse": 99
+      }
+    },
+    {
+      "id": 30,
+      "roman": "XXXIII",
+      "title": "Sermon XXXIII",
+      "start": {
+        "chapter": 30,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 30,
+        "verse": 99
+      }
+    },
+    {
+      "id": 31,
+      "roman": "XXXIII",
+      "title": "Sermon XXXIII",
+      "start": {
+        "chapter": 31,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 31,
+        "verse": 99
+      }
+    },
+    {
+      "id": 32,
+      "roman": "XXXIII",
+      "title": "Sermon XXXIII",
+      "start": {
+        "chapter": 32,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 32,
+        "verse": 99
+      }
+    },
+    {
+      "id": 33,
+      "roman": "XXXIII",
+      "title": "Sermon XXXIII",
+      "start": {
+        "chapter": 33,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 33,
+        "verse": 99
+      }
+    },
+    {
+      "id": 34,
+      "roman": "XXXIV",
+      "title": "Sermon XXXIV",
+      "start": {
+        "chapter": 34,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 34,
+        "verse": 99
+      }
+    },
+    {
+      "id": 35,
+      "roman": "XXXV",
+      "title": "Sermon XXXV",
+      "start": {
+        "chapter": 35,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 35,
+        "verse": 99
+      }
+    },
+    {
+      "id": 36,
+      "roman": "XXXVI",
+      "title": "Sermon XXXVI",
+      "start": {
+        "chapter": 36,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 36,
+        "verse": 99
+      }
+    },
+    {
+      "id": 37,
+      "roman": "XXXVII",
+      "title": "Sermon XXXVII",
+      "start": {
+        "chapter": 37,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 37,
+        "verse": 99
+      }
+    },
+    {
+      "id": 38,
+      "roman": "XXXVIII",
+      "title": "Sermon XXXVIII",
+      "start": {
+        "chapter": 38,
+        "verse": 1
+      },
+      "end": {
+        "chapter": 38,
         "verse": 99
       }
     },

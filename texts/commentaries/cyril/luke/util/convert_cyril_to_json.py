@@ -307,7 +307,7 @@ def main():
     file_mappings = {
         'cyril_on_luke_01_sermons_01_11.htm': range(1, 12),      # Sermons 1-11
         'cyril_on_luke_02_sermons_12_25.htm': range(12, 26),     # Sermons 12-25
-        'cyril_on_luke_03_sermons_27_38.htm': range(27, 39),     # Sermons 27-38
+        'cyril_on_luke_03_sermons_26_38.htm': range(26, 39),     # Sermons 26-38 (27,29,33-38 available)
         'cyril_on_luke_04_sermons_39_46.htm': range(39, 47),     # Sermons 39-46
         'cyril_on_luke_05_sermons_47_56.htm': range(47, 57),     # Sermons 47-56
         'cyril_on_luke_06_sermons_57_65.htm': range(57, 66),     # Sermons 57-65
