@@ -356,12 +356,14 @@
                                     </h5>
                                     <div class="accordion-content collapsed">
                                         <ul class="homily-list" id="luke-cyril-list">
-                                            <li class="homily-item" onclick="loadCyrilHomily(1, 'I', 'luke'); return false;">Sermon I (1:1-4)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(2, 'II', 'luke'); return false;">Sermon II (1:5-25)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(3, 'III', 'luke'); return false;">Sermon III (1:26-38)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(4, 'IV', 'luke'); return false;">Sermon IV (1:39-45)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(5, 'V', 'luke'); return false;">Sermon V (1:26-38)</li>
-                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all 153 sermons...</li>
+                                            {{range $index, $sermon := .CyrilSermons}}
+                                                {{if lt $index 5}}
+                                            <li class="homily-item" onclick="loadCyrilHomily({{$sermon.ID}}, '{{$sermon.Roman}}', 'luke'); return false;">Sermon {{$sermon.Roman}} {{$sermon.Verses}}</li>
+                                                {{end}}
+                                            {{end}}
+                                            {{if gt (len .CyrilSermons) 5}}
+                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all {{len .CyrilSermons}} sermons...</li>
+                                            {{end}}
                                         </ul>
                                     </div>
                                 </div>

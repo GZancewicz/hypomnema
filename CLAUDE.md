@@ -177,3 +177,6 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 
 ## Workflow Guidelines
 - When fixing an issue do not report issue as resolved until you can curl to the page being worked on and confirm it
+- When troubleshooting, when a hypothesis arises test hypothesis to ensure that it is in fact true.  Don't just start coding based on unvalidated assumptions.
+- When troubleshooting, consider all possible root causes.  Don't just hypothesize one and assume it is actually the root cause or the sole root cause
+- Before reporting that an issue is fixed, the fix(es) should be tested to the extent possible
