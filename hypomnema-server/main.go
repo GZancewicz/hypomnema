@@ -381,6 +381,7 @@ func main() {
 	http.HandleFunc("/api/chapter/", chapterHandler)
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
+	http.HandleFunc("/api/index", indexPageHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
@@ -1774,7 +1775,292 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		</div>
 	</div>
 	`
-	
+
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(html))
+}
+
+func indexPageHandler(w http.ResponseWriter, r *http.Request) {
+	type TableRow struct {
+		Scripture     string
+		Father        string
+		Work          string
+		Section       string
+		Book          string
+		StartChapter  int
+		StartVerse    int
+		EndChapter    int
+		EndVerse      int
+		HomilyID      int
+		Author        string
+	}
+
+	var tableRows []TableRow
+
+	// Find all coverage.json files
+	commentariesPath := "../texts/commentaries"
+	authors := []struct {
+		dir      string
+		fullName string
+		works    map[string]string
+	}{
+		{
+			"chrysostom",
+			"John Chrysostom",
+			map[string]string{
+				"matthew": "Homilies on Matthew",
+				"john":    "Homilies on John",
+			},
+		},
+		{
+			"cyril",
+			"Cyril of Alexandria",
+			map[string]string{
+				"luke": "Sermons on Luke",
+			},
+		},
+	}
+
+	for _, author := range authors {
+		authorPath := filepath.Join(commentariesPath, author.dir)
+		books, err := os.ReadDir(authorPath)
+		if err != nil {
+			continue
+		}
+
+		for _, book := range books {
+			if book.IsDir() {
+				coveragePath := filepath.Join(authorPath, book.Name(), "coverage.json")
+				if _, err := os.Stat(coveragePath); err == nil {
+					// Read coverage file
+					data, err := os.ReadFile(coveragePath)
+					if err != nil {
+						continue
+					}
+
+					var coverage struct {
+						Commentary string `json:"commentary"`
+						Homilies   []struct {
+							ID    int    `json:"id"`
+							Roman string `json:"roman"`
+							Title string `json:"title"`
+							Start struct {
+								Chapter int `json:"chapter"`
+								Verse   int `json:"verse"`
+							} `json:"start"`
+							End struct {
+								Chapter int `json:"chapter"`
+								Verse   int `json:"verse"`
+							} `json:"end"`
+						} `json:"homilies"`
+					}
+
+					if err := json.Unmarshal(data, &coverage); err != nil {
+						continue
+					}
+
+					// Capitalize book name
+					bookName := strings.Title(book.Name())
+					work := author.works[book.Name()]
+
+					// Add each homily/sermon as a row
+					for _, h := range coverage.Homilies {
+						// Format scripture reference
+						var scripture string
+						if h.Start.Chapter == h.End.Chapter {
+							if h.Start.Verse == h.End.Verse {
+								scripture = fmt.Sprintf("%s %d:%d", bookName, h.Start.Chapter, h.Start.Verse)
+							} else {
+								scripture = fmt.Sprintf("%s %d:%d-%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Verse)
+							}
+						} else {
+							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
+						}
+
+						tableRows = append(tableRows, TableRow{
+							Scripture:     scripture,
+							Father:        author.fullName,
+							Work:          work,
+							Section:       h.Title,
+							Book:          bookName,
+							StartChapter:  h.Start.Chapter,
+							StartVerse:    h.Start.Verse,
+							EndChapter:    h.End.Chapter,
+							EndVerse:      h.End.Verse,
+							HomilyID:      h.ID,
+							Author:        author.dir,
+						})
+					}
+				}
+			}
+		}
+	}
+
+	// Sort by Bible book order, then chapter, then verse
+	bookOrder := map[string]int{"Matthew": 1, "Mark": 2, "Luke": 3, "John": 4}
+	sort.Slice(tableRows, func(i, j int) bool {
+		// First sort by book order
+		orderI, okI := bookOrder[tableRows[i].Book]
+		orderJ, okJ := bookOrder[tableRows[j].Book]
+		if okI && okJ && orderI != orderJ {
+			return orderI < orderJ
+		}
+		// Then by start chapter
+		if tableRows[i].StartChapter != tableRows[j].StartChapter {
+			return tableRows[i].StartChapter < tableRows[j].StartChapter
+		}
+		// Then by start verse
+		if tableRows[i].StartVerse != tableRows[j].StartVerse {
+			return tableRows[i].StartVerse < tableRows[j].StartVerse
+		}
+		// Then by end chapter
+		if tableRows[i].EndChapter != tableRows[j].EndChapter {
+			return tableRows[i].EndChapter < tableRows[j].EndChapter
+		}
+		// Finally by end verse
+		return tableRows[i].EndVerse < tableRows[j].EndVerse
+	})
+
+	// Build HTML with collapsible book sections
+	html := `
+	<div class="chapter-text" style="max-width: 900px; margin: 0 auto;">
+		<style>
+			.book-section {
+				margin-bottom: 20px;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.book-header {
+				background: #4a6da0;
+				color: white;
+				padding: 12px 20px;
+				cursor: pointer;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 18px;
+				font-weight: bold;
+			}
+			.book-header:hover {
+				background: #3a5d90;
+			}
+			.book-header .arrow {
+				transition: transform 0.3s;
+			}
+			.book-header.expanded .arrow {
+				transform: rotate(90deg);
+			}
+			.book-content {
+				display: none;
+				overflow-x: auto;
+			}
+			.book-content.expanded {
+				display: block;
+			}
+			.book-table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			.book-table th {
+				background: #f5f5f5;
+				text-align: left;
+				padding: 10px;
+				border: 1px solid #ddd;
+				font-weight: bold;
+			}
+			.book-table td {
+				padding: 10px;
+				border: 1px solid #ddd;
+			}
+		</style>
+		<script>
+			function toggleBook(bookName) {
+				const header = event.currentTarget;
+				const content = header.nextElementSibling;
+				header.classList.toggle('expanded');
+				content.classList.toggle('expanded');
+			}
+		</script>
+	`
+
+	// Group rows by book
+	bookGroups := make(map[string][]TableRow)
+	for _, row := range tableRows {
+		bookGroups[row.Book] = append(bookGroups[row.Book], row)
+	}
+
+	// Sort books in canonical order
+	bookOrderList := []string{"Matthew", "Luke", "John"}
+	for _, bookName := range bookOrderList {
+		rows, exists := bookGroups[bookName]
+		if !exists || len(rows) == 0 {
+			continue
+		}
+
+		// Count unique commentaries for this book
+		commentaryCount := len(rows)
+
+		html += fmt.Sprintf(`
+		<div class="book-section">
+			<div class="book-header" onclick="toggleBook('%s')">
+				<span>%s (%d commentaries)</span>
+				<span class="arrow">▶</span>
+			</div>
+			<div class="book-content" id="book-%s">
+				<table class="book-table">
+					<thead>
+						<tr>
+							<th>Scripture</th>
+							<th>Father</th>
+							<th>Work</th>
+							<th>Section</th>
+						</tr>
+					</thead>
+					<tbody>`, bookName, bookName, commentaryCount, bookName)
+
+		for _, row := range rows {
+			// Determine the homily/sermon link based on author
+			var link string
+			if row.Author == "cyril" {
+				// Cyril sermons use negative IDs in the JavaScript
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(-%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, row.Section, strings.ToLower(row.Book), row.Section)
+			} else {
+				// Chrysostom homilies use positive IDs
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, strings.TrimPrefix(row.Section, "Homily "), strings.ToLower(row.Book), row.Section)
+			}
+
+			html += fmt.Sprintf(`
+						<tr>
+							<td>%s</td>
+							<td>%s</td>
+							<td><i>%s</i></td>
+							<td>%s</td>
+						</tr>`, row.Scripture, row.Father, row.Work, link)
+		}
+
+		html += `
+					</tbody>
+				</table>
+			</div>
+		</div>`
+	}
+
+	html += `
+
+		<div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
+			<h4 style="margin-top: 0;">How to Use</h4>
+			<p style="line-height: 1.6;">
+				This index shows all available patristic commentaries organized by scripture reference.
+				To read a commentary, navigate to the corresponding book in the New Testament section
+				and look for the blue markers in the margin that indicate commentary availability.
+			</p>
+		</div>
+	</div>
+	`
+
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
 }
