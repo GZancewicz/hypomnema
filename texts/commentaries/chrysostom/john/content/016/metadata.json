@@ -1,32 +1,50 @@
 {
-  "homily_number": 16,
+  "id": 16,
+  "roman": "XVI",
   "title": "Homily XVI",
-  "subtitle": "John 1:19",
+  "subtitle": "John 1:28-29",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 1:19"
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 29
+    },
+    "display": "John 1:28-29"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3798,
+  "excerpt": "John i. 28, 29...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "ἐ πτοημένοι.",
-    "2": "al. “these therefore.”",
-    "3": "Morel, “in like manner one may see in Luke, (iii. 16 ,) John saying to those who reasoned concerning him whether he was the Christ, that “One mightier than I cometh,” and by his answer again removing such a suspicion.”",
-    "4": "διακρούεσθαι.",
-    "5": "ἐ τύρευον.",
-    "6": "Morel. and ms. in Bodl. “seest thou how, disguising what they had, they add.”",
-    "7": "ὑ ποσκελίσαι.",
-    "8": "Morel. and ms. in Bodl. “they attempt to involve him in an accusation, compelling him.”",
-    "9": "al. “will ye.”",
-    "10": "τὴν δόξαν τοῦ πέμψαντος αὐτὸν, G. T.",
-    "11": "ἐ ξέστη.",
-    "12": "“is preferred,” E.V.",
-    "13": "Morel. and ms. in Bodl. “for thus Paul speaks of the saints concerning whom he writes, ‘of whom,’ etc.”",
-    "14": "Morel. and ms. in Bodl. “boldly speaking out, (ἀ παυθαδιαζομένους,) say that, &c.”",
-    "15": "Ecclus. x. 12 , LXX. ἀ νθρώπου ἀφισταμένου ἀπὸ τοῦ K. Eng. ver. “when one departeth.”",
-    "16": "παῤῥησίας.",
-    "17": "or, “received them before.”",
-    "18": "al. “pass them on.”",
-    "19": "ἄ θροον.",
-    "20": "ἀ ληθεῖς διαθήκαι.",
-    "21": "διάδοχοι κλήρων."
-  }
+    "1": "al. “how then doth he this? adding and saying.”",
+    "2": "al. “to redeem.”",
+    "3": "ἀ πόφασιν.",
+    "4": "or, “of any other man.”",
+    "5": "χορηγία.",
+    "6": "συνεχῶς.",
+    "7": "ἔ πελκον.",
+    "8": "εὐγνωμονέστερον.",
+    "9": "al. “were thought worthy.”",
+    "10": "σύλληψιν.",
+    "11": "al. “mind.”",
+    "12": "al. “have made room for others.”",
+    "13": "lit. “Greeks.”",
+    "14": "λόγων ὑποθέσει.",
+    "15": "ὑ πόθεσις.",
+    "16": "παρήχθημεν.",
+    "17": "al. “irrational.”",
+    "18": "“uprightly,” E.V.",
+    "19": "al. “to hear.”"
+  },
+  "verified": true
 }

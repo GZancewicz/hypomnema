@@ -2,7 +2,7 @@
   "id": 41,
   "roman": "XLI",
   "title": "Homily XLI",
-  "subtitle": "Matthew XLI. 12:17",
+  "subtitle": "Matthew 12:25",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -10,43 +10,43 @@
     "book": "matthew",
     "start": {
       "chapter": 12,
-      "verse": 17
+      "verse": 25
     },
     "end": {
       "chapter": 12,
-      "verse": 21
+      "verse": 25
     },
-    "display": "Matthew 12:17-12:21"
+    "display": "Matthew 12:25"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3923,
-  "excerpt": "Homily XLI. Matt. XII. 25, 26. “And Jesus knew their thoughts, and said unto them, Every kingdom divided against itself shall be brought to desolation; and every city or house divided against itself, shall not stand: and if Satan cast out Satan, he is divided against himself; how shall then his kingdom stand?” Even before now they had accused Him of this, that “by Beelzebub He casteth out the devils.”Matt. ix. 34. [“Demons,” and so throughout.—R.] But whereas then He did not rebuke them, allowing them both to know His power by His more numerous miracles, and by His teaching to learn His majesty: now, since they continued saying the same, He proceeds also to rebuke them, showing His Godhead by this first, that He made their secrets public; and secondly, by the very act of casting out the devils with ease. And indeed the accusation too was very shameless. Because, as I have said, envy seeks not what to say, but only that it may say somewhat. Yet for all that, not even so did Christ despise them, but defends Himself with the forbearance proper to Him, teaching us to be meek to our enemies; and though they say...",
+  "word_count": 3784,
+  "excerpt": "Homily XLI....",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "paragraph",
-  "has_footnotes": false,
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "Matt. ix.\n34. [“Demons,”\nand so throughout.—R.]",
-    "2": "[Comp. ver\nse 25.]",
+    "1": "Matt. ix. 34. [“Demons,” and so throughout.—R.]",
+    "2": "[Comp. ver se 25.]",
     "3": "See Matt. xii. 3, 5, 7, and Mark ii. 27.",
-    "4": "Matt. xii.\n27.",
-    "5": "εγνειαν,\n“hereditary good feeling.” [Comp. Acts xvii. 11.]",
-    "6": "Matt. xii.\n28. [R.V., “upon\nyou.”]",
-    "7": "Luke xi.\n20.",
+    "4": "Matt. xii. 27.",
+    "5": "εγνειαν, “hereditary good feeling.” [Comp. Acts xvii. 11.]",
+    "6": "Matt. xii. 28. [R.V., “upon you.”]",
+    "7": "Luke xi. 20.",
     "8": "[“upon you,” see note 4.]",
-    "9": "Matt. xii.\n29. [The R.V and A.V. follow\na different reading in the last clause.—R.]",
-    "10": "Matt. xii.\n30.",
-    "11": "Mark ix.\n40; Luke ix. 50. [In Mark\n“us” is better supported.—R.]",
-    "12": "Mark ix. 38\n; Luke ix. 49.",
-    "13": "Matt. xii.\n31. [R.V. “every\nsin,” etc.]",
-    "14": "Matt. xii.\n31, 32. [The Greek text is\nalmost identical with that followed in the R.V.—R.]",
+    "9": "Matt. xii. 29. [The R.V and A.V. follow a different reading in the last clause.—R.]",
+    "10": "Matt. xii. 30.",
+    "11": "Mark ix. 40; Luke ix. 50. [In Mark “us” is better supported.—R.]",
+    "12": "Mark ix. 38 ; Luke ix. 49.",
+    "13": "Matt. xii. 31. [R.V. “every sin,” etc.]",
+    "14": "Matt. xii. 31, 32. [The Greek text is almost identical with that followed in the R.V.—R.]",
     "15": "See 1 Cor. v. and vi.",
     "16": "See 1 Cor. v. and vi.",
-    "17": "ἀποτηγανιζμενο,\n“was broiling.”",
-    "18": "1 Cor. xi.\n31. [The Greek text of 1 Cor. xi. 31 is slightly modified here.—R.]",
-    "19": "Isa. xliii.\n26 [LXX.].",
+    "17": "ἀποτηγανιζμενο, “was broiling.”",
+    "18": "1 Cor. xi. 31. [The Greek text of 1 Cor. xi. 31 is slightly modified here.—R.]",
+    "19": "Isa. xliii. 26 [LXX.].",
     "20": "[This clause is wanting in three mss.—R.]",
-    "21": "Luke xvi.\n9. [R.V., “by means\nof,” with margin, “Greek, out of.”]"
+    "21": "Luke xvi. 9. [R.V., “by means of,” with margin, “Greek, out of.”]"
   },
   "verified": true
 }

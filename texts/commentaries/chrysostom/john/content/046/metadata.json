@@ -1,21 +1,62 @@
 {
-  "homily_number": 46,
+  "id": 46,
+  "roman": "XLVI",
   "title": "Homily XLVI",
-  "subtitle": "John 6:41",
+  "subtitle": "John 6:53-54",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 6:41"
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 54
+    },
+    "display": "John 6:53-54"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 4461,
+  "excerpt": "Homily XLVII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "al. “speaking concerning the Jews.”",
-    "2": "Sav. ἄ κοντα, Ben. τυχόντα",
-    "3": "“The Father,” N.T.",
-    "4": "Ben. “he foretold they shall.”",
-    "5": "ἰ σοστάσιον, al. ἰ σότιμον",
-    "6": "ἐ κ Θεοῦ [παρὰ Θ v. 46].",
-    "7": "i.e. with reference, not to men who are “of God” as being their Cause by creation, but to Himself who is “of God” by His Essence.",
-    "8": "συγκρατεῖ, al. συγκροτεῖ",
-    "9": "Ver. 58 , ὃ ς ἂν φάγῃ, [ὁ τρώγων, G. T.].",
-    "10": "“keep,” N.T."
-  }
+    "1": "“no life,” N.T.",
+    "2": "“eternal life,” N.T.",
+    "3": "al. “but having renounced all these things, and having banished all these things from our minds, let us,” &c.",
+    "4": "Ben. adds, “in a city.”",
+    "5": "al. “we must needs hear with.”",
+    "6": "εἰς τέλος",
+    "7": "“truly,” N.T.",
+    "8": "al. “but what is the, ‘ is true meat ’ ?” &c.",
+    "9": "ἀ νακιρνᾶται",
+    "10": "ἐ νεργείας",
+    "11": "εὐδόκιμον",
+    "12": "Ben. “both because He had said eternal life, and also showing.”",
+    "13": "al. “it was possible.”",
+    "14": "ἀ κολουθίας",
+    "15": "or, “those before.”",
+    "16": "πολιτείας",
+    "17": "ἴ δητε θεωρῆτε, G. T.",
+    "18": "ἀ ποκλήρωσιν",
+    "19": "al. “Christ.”",
+    "20": "or, “anything that is.”",
+    "21": "or, “rest,” ληξιν",
+    "22": "al. “often say.”",
+    "23": "“Him (the Son),” N.T.",
+    "24": "al. “Is not this.”",
+    "25": "διαθεσεως",
+    "26": "al. “for what is to come.”",
+    "27": "προτρεπτικὴ",
+    "28": "γνώμῃ",
+    "29": "ἐ φόδια γέγονε",
+    "30": "al. “vengeance.”",
+    "31": "lit. “throttle.”"
+  },
+  "verified": true
 }

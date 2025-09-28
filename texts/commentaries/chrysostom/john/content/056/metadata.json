@@ -1,27 +1,47 @@
 {
-  "homily_number": 56,
+  "id": 56,
+  "roman": "LVI",
   "title": "Homily LVI",
-  "subtitle": "John 9:1",
+  "subtitle": "John 9:6-7",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 9:1"
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 7
+    },
+    "display": "John 9:6-7"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2831,
+  "excerpt": "Homily LVII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "not in N.T.",
-    "2": "Amaziah, 2 Kings xiv. 6",
-    "3": "i.e. show not the children.",
-    "4": "“the works,” N.T.",
-    "5": "“in Him,” N.T.",
-    "6": "i.e. “that the glory,” &c.",
-    "7": "πηρώματα",
-    "8": "i.e. The Father’s.",
-    "9": "al. “noble birth.”",
-    "10": "τότε",
-    "11": "not verbally quoted.",
-    "12": "διὰ τὸ τῶν ἁμαρτημάτων ἀνενέργητον. Meaning, perhaps, “Because there is no place for the ‘ work ’ of repentance, faith, and obedience in the next world, when any through sin have neglected it in this.”",
-    "13": "om. in some mss.",
-    "14": "δῆμον",
-    "15": "or, “for all these reasons.”",
-    "16": "al. “those [things].”"
-  }
+    "1": "αὐτόθεν",
+    "2": "“is being interpreted,” N.T.",
+    "3": "τὸ ἀθρόον τῆς παρουσίας",
+    "4": "“which before,” N.T.",
+    "5": "“was blind,” N.T. Vulgate, mendicus erat",
+    "6": "lit. “dispensed.”",
+    "7": "τὸ ἀκόμπαστον",
+    "8": "These words occur later, ver. 26. The account of the first examination of the blind man is different; ver. 15. “Then again the Pharisees asked him how he had received his sight.”",
+    "9": "al. “taught.”",
+    "10": "“one of another,” N.T.",
+    "11": "“pluck it out,” N.T.",
+    "12": "κακῶς ἡνωμένων",
+    "13": "al. “often are.”",
+    "14": "“provide,” N.T.",
+    "15": "πολιτείας",
+    "16": "Morel. “from among.”"
+  },
+  "verified": true
 }

@@ -2,7 +2,7 @@
   "id": 42,
   "roman": "XLII",
   "title": "Homily XLII",
-  "subtitle": "Matthew XLII. 12:22",
+  "subtitle": "Matthew 12:33",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -10,36 +10,36 @@
     "book": "matthew",
     "start": {
       "chapter": 12,
-      "verse": 22
+      "verse": 33
     },
     "end": {
       "chapter": 12,
-      "verse": 32
+      "verse": 33
     },
-    "display": "Matthew 12:22-12:32"
+    "display": "Matthew 12:33"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3554,
-  "excerpt": "Homily XLII. Matt. XII. 33. “Either make the tree good, and his fruit good, or else make the tree corrupt, and his fruit corrupt; for the tree is known by his fruit.” Again in another way He shames them, and is not content with His former refutations. But this He doth, not freeing Himself from accusations, (for what went before was quite enough), but as wishing to amend them. Now His meaning is like this: none of you hath either found fault about the persons healed, as not being healed; nor hath said, that it is an evil thing to deliver one from a devil. For though they had been ever so shameless, they could not have said this. Since therefore they brought no charge against the works, but were defaming the Doer of them, He signifies that this accusation is against both the common modes of reasoning, and the congruity of the circumstances. A thing of aggravated shamelessness, not only to interpret maliciously, but also to make up such charges as are contrary to men’s common notions. And see how free He is from contentiousness. For He said not, “Make the tree good, forasmuch as the fruit also is...",
+  "word_count": 3453,
+  "excerpt": "Homily XLII....",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "paragraph",
-  "has_footnotes": false,
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "Matt. vii.\n16–18.",
-    "2": "Matt. xii.\n34.",
-    "3": "[ο πολ\nλγο ατ, “it takes not much\naccount.”—R.]",
-    "4": "Matt. xii.\n35. [R.V, “The good\nman…the evil man,” etc.]",
-    "5": "Matt. xii.\n36.",
-    "6": "Matt. xii.\n37.",
-    "7": "πατν.\nBened. from mss. ἀνπτων, “he that\nkindles:” which seems to agree with the tenor of the sentence\nbetter. [There are other various readings: ἅπτωνἄπτων. All can be more readily accounted\nfor, if πατν is accepted as\nthe original form.—R.]",
-    "8": "[Oxford Version: “things;” probably a\nmisprint, the Greek being the same as before.—R.]",
-    "9": "Gen. xxxi.\n29.",
-    "10": "See 2 Samuel iii. 23–30,\nand xx. 9, 10; 1 Kings ii. 5, 6.",
-    "11": "Gen. iii.\n13.",
-    "12": "Ps. iv.\n4, LXX.",
-    "13": "1 Cor. xi.\n31.",
-    "14": "Job. i.\n5."
+    "1": "Matt. vii. 16–18.",
+    "2": "Matt. xii. 34.",
+    "3": "[ο πολ λγο ατ, “it takes not much account.”—R.]",
+    "4": "Matt. xii. 35. [R.V, “The good man…the evil man,” etc.]",
+    "5": "Matt. xii. 36.",
+    "6": "Matt. xii. 37.",
+    "7": "πατν. Bened. from mss. ἀνπτων, “he that kindles:” which seems to agree with the tenor of the sentence better. [There are other various readings: ἅπτωνἄπτων. All can be more readily accounted for, if πατν is accepted as the original form.—R.]",
+    "8": "[Oxford Version: “things;” probably a misprint, the Greek being the same as before.—R.]",
+    "9": "Gen. xxxi. 29.",
+    "10": "See 2 Samuel iii. 23–30, and xx. 9, 10; 1 Kings ii. 5, 6.",
+    "11": "Gen. iii. 13.",
+    "12": "Ps. iv. 4, LXX.",
+    "13": "1 Cor. xi. 31.",
+    "14": "Job. i. 5."
   },
   "verified": true
 }

@@ -1,22 +1,52 @@
 {
-  "homily_number": 5,
+  "id": 5,
+  "roman": "V",
   "title": "Homily V",
-  "subtitle": "John 1:3",
+  "subtitle": "John 1:6",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 1:3"
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 6
+    },
+    "display": "John 1:6"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1280,
+  "excerpt": "John i. 6...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "i.e. the visible creation.",
-    "2": "ὁ ρατὸν.",
-    "3": "νοητὸν.",
-    "4": "ἐ κκυλίσθη, lit. “been rolled away.”",
-    "5": "γεγονε.",
-    "6": "δημιουργίας.",
-    "7": "ἐ κ περιουσίας.",
-    "8": "αὐτοζωή.",
-    "9": "Sav. and ms. Bodl. προῃρῆσθαι.",
-    "10": "ἐ ξήγησιν.",
-    "11": "ὑ φορμοῦντα, lit. “blockading.”"
-  }
+    "1": "τὰ κατεπείγοντα.",
+    "2": "al. προηγόρευται, “is foretold.”",
+    "3": "Vid. supra, Hom. iv. 3.",
+    "4": "ἀ παραλλαξία vid. supra, Hom. iii. 4 ad fin.",
+    "5": "i.e. to Θεοῦ.",
+    "6": "ἰ λιγγιῶν, “dizzy.”",
+    "7": "[καὶ πρὸς αὐτὸν], perhaps “and with reference to him (the Baptist), Sav. al. καὶ πρὸς σέ.",
+    "8": "περιπίπτειν.",
+    "9": "αὐτοῦ ἣν μαρτυρεῖ περὶ ἐμοῦ G. T.",
+    "10": "δἰ ὑμᾶς (not in G. T.)",
+    "11": "γνήσιος, “genuine.”",
+    "12": "τῶν πολλῶν.",
+    "13": "εὐκολωτέρα.",
+    "14": "ἠ φάνισε.",
+    "15": "Lit. “unapproachable encounter of that light.”",
+    "16": "ἐ πραγματεύσατο.",
+    "17": "ὁ μόφυλοι.",
+    "18": "ὑ φορμοῦν.",
+    "19": "al. “goes on and instills.”",
+    "20": "πολιτεία.",
+    "21": "al. “living worthily of.”"
+  },
+  "verified": true
 }

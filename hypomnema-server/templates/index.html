@@ -291,6 +291,9 @@
                     <li class="book-item" onclick="loadAbout()">
                         About Hypomnema
                     </li>
+                    <li class="book-item" onclick="loadIndex()">
+                        INDEX
+                    </li>
                 </ul>
                 <div class="accordion">
                     <h3 class="accordion-header" onclick="toggleAccordion(this)">
@@ -356,12 +359,14 @@
                                     </h5>
                                     <div class="accordion-content collapsed">
                                         <ul class="homily-list" id="luke-cyril-list">
-                                            <li class="homily-item" onclick="loadCyrilHomily(1, 'I', 'luke'); return false;">Sermon I (1:1-4)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(2, 'II', 'luke'); return false;">Sermon II (1:5-25)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(3, 'III', 'luke'); return false;">Sermon III (1:26-38)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(4, 'IV', 'luke'); return false;">Sermon IV (1:39-45)</li>
-                                            <li class="homily-item" onclick="loadCyrilHomily(5, 'V', 'luke'); return false;">Sermon V (1:26-38)</li>
-                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all 153 sermons...</li>
+                                            {{range $index, $sermon := .CyrilSermons}}
+                                                {{if lt $index 5}}
+                                            <li class="homily-item" onclick="loadCyrilHomily({{$sermon.ID}}, '{{$sermon.Roman}}', 'luke'); return false;">Sermon {{$sermon.Roman}} {{$sermon.Verses}}</li>
+                                                {{end}}
+                                            {{end}}
+                                            {{if gt (len .CyrilSermons) 5}}
+                                            <li class="homily-item show-more" onclick="toggleAllHomilies('luke-cyril-list', 'luke', 'cyril'); return false;">Show all {{len .CyrilSermons}} sermons...</li>
+                                            {{end}}
                                         </ul>
                                     </div>
                                 </div>
@@ -407,27 +412,24 @@
                         <rect class="sidebar-indicator" x="4" y="4" width="6" height="16" fill="#999" rx="0"></rect>
                     </svg>
                 </button>
-                <h1 id="book-title">{{range .Books}}{{if eq .ID $.CurrentBook}}{{.Name}}{{end}}{{end}}</h1>
-                
+                <h1 id="book-title">Commentary Index</h1>
+
                 <!-- Chapter selector -->
                 <div id="chapter-selector" class="chapter-selector" hx-ext="preload">
-                    <!-- Will be populated by server on chapter load -->
+                    <!-- Empty by default, populated only when viewing scripture -->
                 </div>
-                
-                <h2 id="chapter-title">Chapter {{.CurrentChap}}</h2>
+
+                <h2 id="chapter-title"></h2>
             </header>
             
-            <div id="text-content" 
-                 hx-get="/api/chapter/{{.CurrentBook}}/{{.CurrentChap}}"
-                 hx-trigger="load"
-                 hx-swap="innerHTML">
-                <div class="loading">Loading...</div>
+            <div id="text-content">
+                <!-- Content will be loaded here -->
             </div>
             
             <footer class="content-footer">
                 <!-- Bottom chapter selector -->
                 <div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload">
-                    <!-- Will be populated by server on chapter load -->
+                    <!-- Empty by default, populated only when viewing scripture -->
                 </div>
             </footer>
         </main>
@@ -506,7 +508,27 @@
         
         // Populate on initial load
         document.addEventListener('DOMContentLoaded', function() {
-            populateChapterSelectors(currentBook, currentChapter);
+            // Check if we're on the home page
+            const path = window.location.pathname;
+            if (path === '/' || path === '') {
+                // Load the Index page
+                htmx.ajax('GET', '/api/index', '#text-content');
+                // Clear chapter selectors
+                const topSelector = document.getElementById('chapter-selector');
+                const bottomSelector = document.getElementById('chapter-selector-bottom');
+                if (topSelector) topSelector.innerHTML = '';
+                if (bottomSelector) bottomSelector.innerHTML = '';
+            } else {
+                // Load chapter content for book pages
+                populateChapterSelectors(currentBook, currentChapter);
+                // Load the chapter content
+                const bookMatch = path.match(/\/([^\/]+)(?:\/(\d+))?/);
+                if (bookMatch) {
+                    const book = bookMatch[1];
+                    const chapter = bookMatch[2] || '1';
+                    htmx.ajax('GET', `/api/chapter/${book}/${chapter}`, '#text-content');
+                }
+            }
         });
         
         // Load chapter and scroll to top
@@ -803,25 +825,58 @@
             // Update header
             document.getElementById('book-title').textContent = 'About Hypomnema';
             document.getElementById('chapter-title').textContent = '';
-            
+
             // Remove active state from all items
             document.querySelectorAll('.book-item').forEach(item => {
                 item.classList.remove('active');
             });
-            
+
             // Add active state to About
             event.target.classList.add('active');
-            
-            
+
+            // Hide chapter selectors
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
             // Load about content
             htmx.ajax('GET', '/api/about', '#text-content');
-            
+
             // Auto-close sidebar on mobile
             if (window.innerWidth <= 700) {
                 closeSidebarOverlay();
             }
         }
-        
+
+        function loadIndex() {
+            // Update header
+            document.getElementById('book-title').textContent = 'Commentary Index';
+            document.getElementById('chapter-title').textContent = '';
+
+            // Remove active state from all items
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Add active state to Index
+            event.target.classList.add('active');
+
+            // Hide chapter selectors
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            // Load index content
+            htmx.ajax('GET', '/api/index', '#text-content');
+
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
         // Modal functions
         function showCanonModal(canonKey) {
             const modal = document.getElementById('canonModal');

@@ -1,0 +1,608 @@
+{
+  "1": [
+    {
+      "id": 3,
+      "roman": "III"
+    },
+    {
+      "id": 4,
+      "roman": "IV"
+    },
+    {
+      "id": 10,
+      "roman": "X"
+    },
+    {
+      "id": 29,
+      "roman": "XXIX"
+    },
+    {
+      "id": 104,
+      "roman": "CIV"
+    },
+    {
+      "id": 112,
+      "roman": "CXII"
+    },
+    {
+      "id": 123,
+      "roman": "CXXIII"
+    },
+    {
+      "id": 129,
+      "roman": "CXXIX"
+    },
+    {
+      "id": 133,
+      "roman": "CXXXIII"
+    },
+    {
+      "id": 147,
+      "roman": "CXLVII"
+    }
+  ],
+  "2": [
+    {
+      "id": 1,
+      "roman": "I"
+    },
+    {
+      "id": 2,
+      "roman": "II"
+    },
+    {
+      "id": 5,
+      "roman": "V"
+    }
+  ],
+  "3": [
+    {
+      "id": 6,
+      "roman": "VI"
+    },
+    {
+      "id": 7,
+      "roman": "VII"
+    },
+    {
+      "id": 8,
+      "roman": "VIII"
+    },
+    {
+      "id": 11,
+      "roman": "XI"
+    }
+  ],
+  "4": [
+    {
+      "id": 12,
+      "roman": "XII"
+    }
+  ],
+  "5": [
+    {
+      "id": 20,
+      "roman": "XXI"
+    },
+    {
+      "id": 21,
+      "roman": "XXI"
+    }
+  ],
+  "6": [
+    {
+      "id": 22,
+      "roman": "XXII"
+    },
+    {
+      "id": 23,
+      "roman": "XXIII"
+    },
+    {
+      "id": 25,
+      "roman": "XXV"
+    },
+    {
+      "id": 26,
+      "roman": "XXVII"
+    },
+    {
+      "id": 27,
+      "roman": "XXVII"
+    },
+    {
+      "id": 30,
+      "roman": "XXXIII"
+    },
+    {
+      "id": 31,
+      "roman": "XXXIII"
+    },
+    {
+      "id": 32,
+      "roman": "XXXIII"
+    },
+    {
+      "id": 33,
+      "roman": "XXXIII"
+    },
+    {
+      "id": 34,
+      "roman": "XXXIV"
+    }
+  ],
+  "7": [
+    {
+      "id": 35,
+      "roman": "XXXV"
+    },
+    {
+      "id": 36,
+      "roman": "XXXVI"
+    },
+    {
+      "id": 37,
+      "roman": "XXXVII"
+    },
+    {
+      "id": 38,
+      "roman": "XXXVIII"
+    },
+    {
+      "id": 39,
+      "roman": "XXXIX"
+    },
+    {
+      "id": 40,
+      "roman": "XL"
+    }
+  ],
+  "8": [
+    {
+      "id": 41,
+      "roman": "XLI"
+    },
+    {
+      "id": 42,
+      "roman": "XLII"
+    },
+    {
+      "id": 43,
+      "roman": "XLIII"
+    },
+    {
+      "id": 44,
+      "roman": "XLIV"
+    },
+    {
+      "id": 45,
+      "roman": "XLV"
+    },
+    {
+      "id": 46,
+      "roman": "XLVI"
+    }
+  ],
+  "9": [
+    {
+      "id": 47,
+      "roman": "XLVII"
+    },
+    {
+      "id": 48,
+      "roman": "XLVIII"
+    },
+    {
+      "id": 49,
+      "roman": "XLIX"
+    },
+    {
+      "id": 50,
+      "roman": "L"
+    },
+    {
+      "id": 51,
+      "roman": "LI"
+    },
+    {
+      "id": 52,
+      "roman": "LII"
+    },
+    {
+      "id": 53,
+      "roman": "LIII"
+    },
+    {
+      "id": 54,
+      "roman": "LIV"
+    },
+    {
+      "id": 55,
+      "roman": "LV"
+    },
+    {
+      "id": 56,
+      "roman": "LVI"
+    },
+    {
+      "id": 57,
+      "roman": "LVII"
+    },
+    {
+      "id": 58,
+      "roman": "LVIII"
+    },
+    {
+      "id": 59,
+      "roman": "LIX"
+    }
+  ],
+  "10": [
+    {
+      "id": 60,
+      "roman": "LX"
+    },
+    {
+      "id": 61,
+      "roman": "LXI"
+    },
+    {
+      "id": 62,
+      "roman": "LXII"
+    },
+    {
+      "id": 63,
+      "roman": "LXIII"
+    },
+    {
+      "id": 64,
+      "roman": "LXIV"
+    },
+    {
+      "id": 65,
+      "roman": "LXV"
+    },
+    {
+      "id": 66,
+      "roman": "LXVI"
+    },
+    {
+      "id": 67,
+      "roman": "LXVII"
+    },
+    {
+      "id": 68,
+      "roman": "LXVIII"
+    },
+    {
+      "id": 69,
+      "roman": "LXIX"
+    }
+  ],
+  "11": [
+    {
+      "id": 70,
+      "roman": "LXX"
+    },
+    {
+      "id": 71,
+      "roman": "LXXI"
+    },
+    {
+      "id": 72,
+      "roman": "LXXII"
+    },
+    {
+      "id": 73,
+      "roman": "LXXIII"
+    },
+    {
+      "id": 74,
+      "roman": "LXXIV"
+    },
+    {
+      "id": 75,
+      "roman": "LXXV"
+    },
+    {
+      "id": 76,
+      "roman": "LXXVI"
+    },
+    {
+      "id": 77,
+      "roman": "LXXVII"
+    },
+    {
+      "id": 78,
+      "roman": "LXXVIII"
+    },
+    {
+      "id": 79,
+      "roman": "LXXIX"
+    },
+    {
+      "id": 80,
+      "roman": "LXXX"
+    },
+    {
+      "id": 81,
+      "roman": "LXXXI"
+    },
+    {
+      "id": 82,
+      "roman": "LXXXII"
+    },
+    {
+      "id": 83,
+      "roman": "LXXXIII"
+    },
+    {
+      "id": 84,
+      "roman": "LXXXIV"
+    },
+    {
+      "id": 85,
+      "roman": "LXXXV"
+    },
+    {
+      "id": 86,
+      "roman": "LXXXVI"
+    }
+  ],
+  "12": [
+    {
+      "id": 87,
+      "roman": "LXXXVII"
+    },
+    {
+      "id": 88,
+      "roman": "LXXXVIII"
+    },
+    {
+      "id": 89,
+      "roman": "LXXXIX"
+    },
+    {
+      "id": 90,
+      "roman": "XC"
+    },
+    {
+      "id": 91,
+      "roman": "XCI"
+    },
+    {
+      "id": 92,
+      "roman": "XCII"
+    },
+    {
+      "id": 93,
+      "roman": "XCIII"
+    },
+    {
+      "id": 94,
+      "roman": "XCIV"
+    },
+    {
+      "id": 95,
+      "roman": "XCV"
+    }
+  ],
+  "13": [
+    {
+      "id": 96,
+      "roman": "XCVI"
+    },
+    {
+      "id": 99,
+      "roman": "XCIX"
+    },
+    {
+      "id": 100,
+      "roman": "C"
+    }
+  ],
+  "14": [
+    {
+      "id": 101,
+      "roman": "CI"
+    },
+    {
+      "id": 102,
+      "roman": "CII"
+    },
+    {
+      "id": 103,
+      "roman": "CIII"
+    },
+    {
+      "id": 105,
+      "roman": "CV"
+    }
+  ],
+  "15": [
+    {
+      "id": 106,
+      "roman": "CVI"
+    },
+    {
+      "id": 107,
+      "roman": "CVII"
+    }
+  ],
+  "16": [
+    {
+      "id": 108,
+      "roman": "CVIII"
+    },
+    {
+      "id": 109,
+      "roman": "CIX"
+    },
+    {
+      "id": 110,
+      "roman": "CX"
+    },
+    {
+      "id": 111,
+      "roman": "CXI"
+    }
+  ],
+  "17": [
+    {
+      "id": 115,
+      "roman": "CXVII"
+    },
+    {
+      "id": 116,
+      "roman": "CXVII"
+    },
+    {
+      "id": 117,
+      "roman": "CXVII"
+    },
+    {
+      "id": 118,
+      "roman": "CXVIII"
+    }
+  ],
+  "18": [
+    {
+      "id": 119,
+      "roman": "CXIX"
+    },
+    {
+      "id": 120,
+      "roman": "CXX"
+    },
+    {
+      "id": 121,
+      "roman": "CXXI"
+    },
+    {
+      "id": 122,
+      "roman": "CXXII"
+    },
+    {
+      "id": 124,
+      "roman": "CXXIV"
+    },
+    {
+      "id": 125,
+      "roman": "CXXV"
+    },
+    {
+      "id": 126,
+      "roman": "CXXVI"
+    }
+  ],
+  "19": [
+    {
+      "id": 127,
+      "roman": "CXXVII"
+    },
+    {
+      "id": 128,
+      "roman": "CXXVIII"
+    },
+    {
+      "id": 130,
+      "roman": "CXXX"
+    },
+    {
+      "id": 131,
+      "roman": "CXXXI"
+    },
+    {
+      "id": 132,
+      "roman": "CXXXII"
+    }
+  ],
+  "20": [
+    {
+      "id": 134,
+      "roman": "CXXXIV"
+    },
+    {
+      "id": 135,
+      "roman": "CXXXV"
+    },
+    {
+      "id": 136,
+      "roman": "CXXXVI"
+    },
+    {
+      "id": 137,
+      "roman": "CXXXVII"
+    }
+  ],
+  "21": [
+    {
+      "id": 138,
+      "roman": "CXXXVIII"
+    },
+    {
+      "id": 139,
+      "roman": "CXXXIX"
+    },
+    {
+      "id": 140,
+      "roman": "CXL"
+    }
+  ],
+  "22": [
+    {
+      "id": 140,
+      "roman": "CXL"
+    },
+    {
+      "id": 141,
+      "roman": "CXLI"
+    },
+    {
+      "id": 142,
+      "roman": "CXLII"
+    },
+    {
+      "id": 143,
+      "roman": "CXLIII"
+    },
+    {
+      "id": 144,
+      "roman": "CXLIV"
+    },
+    {
+      "id": 145,
+      "roman": "CXLV"
+    },
+    {
+      "id": 146,
+      "roman": "CXLVI"
+    },
+    {
+      "id": 148,
+      "roman": "CXLVIII"
+    },
+    {
+      "id": 149,
+      "roman": "CXLIX"
+    },
+    {
+      "id": 150,
+      "roman": "CL"
+    }
+  ],
+  "23": [
+    {
+      "id": 151,
+      "roman": "CLI"
+    },
+    {
+      "id": 152,
+      "roman": "CLII"
+    },
+    {
+      "id": 153,
+      "roman": "CLIII"
+    }
+  ]
+}

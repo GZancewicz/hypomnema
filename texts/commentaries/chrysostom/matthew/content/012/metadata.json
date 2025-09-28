@@ -2,7 +2,7 @@
   "id": 12,
   "roman": "XII",
   "title": "Homily XII",
-  "subtitle": "Matthew III. 13.",
+  "subtitle": "Matthew 3:13",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,23 +14,23 @@
     },
     "end": {
       "chapter": 3,
-      "verse": 17
+      "verse": 13
     },
-    "display": "Matthew 3:13-3:17"
+    "display": "Matthew 3:13"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 4204,
-  "excerpt": "Homily XII. Matt. III. 13. “Then cometh Jesus from Galilee to Jordan,” etc. With the servants the Lord, with the criminals the Judge, cometh to be baptized. But be not thou troubled; for in these humiliations His exaltation doth most shine forth. For He who vouchsafed to be borne so long in a Virgin’s womb, and to come forth thence with our nature, and to be smitten with rods, and crucified, and to suffer all the rest which He suffered;—why marvellest thou if He vouchsafed also to be baptized, and to come with the rest to His servant. For the amazement lay in that one thing, that being God, He would be made Man; but the rest after this all follows in course of reason. For this cause, let me add, John also by way of anticipation said all that he had said before, that he “was not worthy to unloose the latchet of His shoe;” and all the rest, as for instance, that He is Judge, and rewards every man according to his desert, and that He will bestow His Spirit abundantly on all; in order that when thou shouldest see Him coming to the baptism, thou mightest not...",
+  "word_count": 3962,
+  "excerpt": "Matt. III. 13....",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "div2",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
     "1": "Matt. iii. 14.",
     "2": "John xiii. 7, 8.",
     "3": "Matt. iii. 15. [R.V., “Suffer it (or me) now, for thus it becometh,” etc.—R.]",
     "4": "Matt. iii. 15, 16. [R.V., “from the water,” and “coming” for “lighting.”—R.]",
-    "5": "Is. v. 4. [Chrysostom varies from the LXX., introducing [Greek: με δει], to strengthen his argument.—R.]",
+    "5": "Is. v. 4. [Chrysostom varies from the LXX., introducing με δει, to strengthen his argument.—R.]",
     "6": "Matt. iii. 16.",
     "7": "Acts ii. 2.",
     "8": "1 Cor. xiv. 22.",
@@ -39,15 +39,15 @@
     "11": "2 Cor. ix. 15.",
     "12": "i.e., the Macedonians, who were censured at Constantinople, A.D. 381.",
     "13": "“The contraries:” for whereas the Spirit came to exalt, and make us partakers of the Divine Nature, the heretics would degrade Him to something like our own.",
-    "14": "[Greek: παραδιδναι]; “hand down” would express the sense more clearly.—R.",
-    "15": "The sentence in the Greek is not negative but affirmative: “Then assuredly” both these events occurred.—R.",
+    "14": "[παραδιδναι; “hand down” would express the sense more clearly.—R.]",
+    "15": "[The sentence in the Greek is not negative but affirmative: “Then assuredly” both these events occurred.—R.]",
     "16": "Gen. iii. 19.",
-    "17": "Gen. iv. 12. [The LXX. has [Greek: γ] in both passages. The verbal suggestion of the original may be retained by rendering: “Earth thou art, and unto earth thou shalt return,” and thou “tillest the earth.”—R.]",
-    "18": "Literally, “that we shall hear.”—R.",
+    "17": "Gen. iv. 12. [The LXX. has γ in both passages. The verbal suggestion of the original may be retained by rendering: “Earth thou art, and unto earth thou shalt return,” and thou “tillest the earth.”—R.]",
+    "18": "[Literally, “that we shall hear.”—R.]",
     "19": "Matt. xxv. 30.",
-    "20": "[Greek: δναμι] ",
-    "21": "[Greek: ῞Ελληνε].] “Greeks.” But the ecclesiastical use is correctly given in the translation. In the New Testament, the term was equivalent to “Gentiles,” as opposed to Jews; but was afterwards applied to heathen as opposed to Christians. See Sophocles Greek Lexicon of the Roman and Byzantine periods, sub voce.—R.",
-    "22": "[Greek: ἐπισφγγωμεν], The verb means “to bind tight,” and is variously applied.—R."
+    "20": "[δναμι ]",
+    "21": "[῞Ελληνε.] “Greeks.” But the ecclesiastical use is correctly given in the translation. In the New Testament, the term was equivalent to “Gentiles,” as opposed to Jews; but was afterwards applied to heathen as opposed to Christians. See Sophocles Greek Lexicon of the Roman and Byzantine periods, sub voce.—R.]",
+    "22": "[ἐπισφγγωμεν, The verb means “to bind tight,” and is variously applied.—R.]"
   },
   "verified": true
 }

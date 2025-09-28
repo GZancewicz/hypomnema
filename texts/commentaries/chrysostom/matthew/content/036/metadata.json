@@ -2,7 +2,7 @@
   "id": 36,
   "roman": "XXXVI",
   "title": "Homily XXXVI",
-  "subtitle": "Matthew XI. 1.",
+  "subtitle": "Matthew 11:1",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -13,22 +13,22 @@
       "verse": 1
     },
     "end": {
-      "chapter": 10,
-      "verse": 6
+      "chapter": 11,
+      "verse": 1
     },
-    "display": "Matthew 11:1-10:6"
+    "display": "Matthew 11:1"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 4195,
-  "excerpt": "Homily XXXVI. Matt. XI. 1. “And it came to pass, when Jesus had made an end of commanding His twelve disciples, He departed thence to teach and to preach in their cities.” That is, after He had sent them, He proceeded to withdraw Himself, to give them room and opportunity to do what He had enjoined. For while He was present and healing, no one would be willing to approach them. “Now when John had heard in the prison the works of Jesus,[R.V., “Of the Christ,” as in nearly all authorities, but Chrysostom reads το Ιησο.—R.]he sent two of[R.V., “by his disciples,” but some ancient authorities (Vulgate also) support “two.” Taken from Luke vii. 19.—R.]his disciples, and asked Him, saying, Art thou He that should come,[R.V., “He that cometh.”]or do we look for another?”Matt. xi. 2, 3. But Luke saith, they also told John of the miracles, and then he sent them.Luke vii. 18. However, this contains no matter of difficulty, but of consideration only; for this, among other things, indicates their jealousy towards Him. But what follows is completely among the controverted points. Of what nature then is this? Their saying, “Art Thou He that should come, or do...",
+  "word_count": 3956,
+  "excerpt": "Matt. XI. 1....",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "div2",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "R.V., “Of the Christ,” as in nearly all authorities, but Chrysostom reads [Greek: το Ιησο].—R.",
-    "2": "R.V., “by his disciples,” but some ancient authorities (Vulgate also) support “two.” Taken from Luke vii. 19.—R.",
-    "3": "R.V., “He that cometh.”",
+    "1": "[R.V., “Of the Christ,” as in nearly all authorities, but Chrysostom reads το Ιησο.—R.]",
+    "2": "[R.V., “by his disciples,” but some ancient authorities (Vulgate also) support “two.” Taken from Luke vii. 19.—R.]",
+    "3": "[R.V., “He that cometh.”]",
     "4": "Matt. xi. 2, 3.",
     "5": "Luke vii. 18.",
     "6": "John i. 27.",
@@ -37,7 +37,7 @@
     "9": "John iii. 30.",
     "10": "Matt. iii. 11.",
     "11": "John i. 29. [R.V., “Or, beareth the sin,” etc.]",
-    "12": "[Greek: οκ ν αυτ δξαν περιθηκε].",
+    "12": "[οκ ν αυτ δξαν περιθηκε.]",
     "13": "John iii. 26.",
     "14": "John iii. 25. [R.V., “with a Jew.” So one ms. here. In Homily XXIX. on John, Chrysostom distinctly accepts the singular, as do nearly all Greek mss.—R.]",
     "15": "Matt. ix. 14.",
@@ -59,11 +59,11 @@
     "31": "Ps. xxii. 16.",
     "32": "Ps. xxii. 18.",
     "33": "Ps. lxix. 21.",
-    "34": "[Greek: ε τν δν].",
+    "34": "[ε τν δν.]",
     "35": "1 Cor. xiv. 20.",
-    "36": "Ps. vi. 5 [[Greek: ἅ][Greek: δ]].",
+    "36": "Ps. vi. 5 [ἅδ].",
     "37": "Ps. cvii. 16.",
-    "38": "[Greek: γεννη].",
+    "38": "[γεννη.]",
     "39": "Matt. x. 15.",
     "40": "Deut. vi. 4.",
     "41": "John xv. 22. [R.V., “excuse.”]",
@@ -73,12 +73,12 @@
     "45": "Rom. ii. 12.",
     "46": "Rom. i. 18.",
     "47": "Rom. ii. 8, 9.",
-    "48": "[Greek: γεννη].",
-    "49": "[Greek: φιλοσοφα].",
-    "50": "[Greek: γεννη], and so throughout the paragraph.—R.",
-    "51": "[Greek: σκμματα].",
+    "48": "[γεννη.]",
+    "49": "φιλοσοφα.",
+    "50": "[γεννη, and so throughout the paragraph.—R.]",
+    "51": "σκμματα.",
     "52": "The words in italics, both here and below, are omitted in several mss.",
-    "53": "[Greek: γεννα], and similarly throughout the paragraph.—R."
+    "53": "[γεννα, and similarly throughout the paragraph.—R.]"
   },
   "verified": true
 }

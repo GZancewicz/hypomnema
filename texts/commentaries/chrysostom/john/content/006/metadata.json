@@ -1,29 +1,47 @@
 {
-  "homily_number": 6,
+  "id": 6,
+  "roman": "VI",
   "title": "Homily VI",
-  "subtitle": "John 1:6",
+  "subtitle": "John 1:9",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 1:6"
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "display": "John 1:9"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1895,
+  "excerpt": "John i. 9...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "τὰ κατεπείγοντα.",
-    "2": "al. προηγόρευται, “is foretold.”",
-    "3": "Vid. supra, Hom. iv. 3.",
-    "4": "ἀ παραλλαξία vid. supra, Hom. iii. 4 ad fin.",
-    "5": "i.e. to Θεοῦ.",
-    "6": "ἰ λιγγιῶν, “dizzy.”",
-    "7": "[καὶ πρὸς αὐτὸν], perhaps “and with reference to him (the Baptist), Sav. al. καὶ πρὸς σέ.",
-    "8": "περιπίπτειν.",
-    "9": "αὐτοῦ ἣν μαρτυρεῖ περὶ ἐμοῦ G. T.",
-    "10": "δἰ ὑμᾶς (not in G. T.)",
-    "11": "γνήσιος, “genuine.”",
-    "12": "τῶν πολλῶν.",
-    "13": "εὐκολωτέρα.",
-    "14": "ἠ φάνισε.",
-    "15": "Lit. “unapproachable encounter of that light.”",
-    "16": "ἐ πραγματεύσατο.",
-    "17": "ὁ μόφυλοι.",
-    "18": "ὑ φορμοῦν."
-  }
+    "1": "ὑ φαίνει.",
+    "2": "al. “let us imitate.”",
+    "3": "θεωρημάτων.",
+    "4": "νῦν.",
+    "5": "μετὰ ταῦτα",
+    "6": "ὑ περακοντίσαι.",
+    "7": "al. “holds.”",
+    "8": "πάθη.",
+    "9": "αἰώνων.",
+    "10": "ἀ παύγασμα.",
+    "11": "Hom. ii. 4.",
+    "12": "κατανυγῶμεν.",
+    "13": "Slightly varied from LXX.",
+    "14": "al. “forgiven.”",
+    "15": "ἐ ντεύξεσιν.",
+    "16": "λύσιν τῶν ἡμαρτημένων."
+  },
+  "verified": true
 }

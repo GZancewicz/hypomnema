@@ -1,25 +1,48 @@
 {
-  "homily_number": 20,
+  "id": 20,
+  "roman": "XX",
   "title": "Homily XX",
-  "subtitle": "John 1:43",
+  "subtitle": "John 1:49-50",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 1:43"
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 50
+    },
+    "display": "John 1:49-50"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3213,
+  "excerpt": "John i. 49, 50...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "παντὶ τῷ μεριμνῶντι ἔνεστί περισσόν. In the next sentence Morel. Ben. and most mss. read ὅ θεν καὶ ἔπεισί μοι. Savile ὅ θ. οὐδὲ ἔπ. μ. which seems the better reading.",
-    "2": "μεμερινημένην.",
-    "3": "ἀ κριβὴς.",
-    "4": "or, “rule.”",
-    "5": "al. “this.”",
-    "6": "προοιμίων.",
-    "7": "εὐτονίαν.",
-    "8": "βεβήκοτα.",
-    "9": "ὡ ς ἄνθρωπον ἐξήταζεν. So Morel. and mss. in Bodleian. Savile and the Bened. read ὡ ς ἄνθρωπος, “he enquired as a man.”",
-    "10": "ἄ νωθεν.",
-    "11": "ἐ πιεικείαν.",
-    "12": "One ms. reads, οὐ γὰρ εἴπεν, ἄνωθέν σε οἶδα, καὶ τὸν τρόπον, καὶ τὴν ἐπ.",
-    "13": "ἵ να μάθῃ. Savile conjectures ἵ να μάθῃς, but without authority.",
-    "14": "πρόῤῥησιν."
-  }
+    "1": "Morel. and ms. in Bodleian read the passage thus: πολλοὶ τῶν ἀναγινωσκόντων τὸ ῥητὸν τοῦτο διαποροῦντες φάσι· τί δήποτε Πέτρος κ.τ.λ.",
+    "2": "al. “led forward.”",
+    "3": "Matt. xiii. 24, 25 , slightly varying from G. T.",
+    "4": "The reading is different in G. T.",
+    "5": "al. “and all that took place after His birth.”",
+    "6": "This is the common reading, but the passage ( Luke ii. 51 ) is not so found in G. T.; Morel. and ms. in Bodleian read: τοῦτο καὶ ὁ Λουκᾶς ἡμῖν δείκνυσι λέγων· ἡ δὲ Μαριὰμ συνετήρει τὰ ῥήματα πάντα συμβάλλουσα ἐν τῇ κ.",
+    "7": "i.e. as she spoke at the marriage.",
+    "8": "σφοδρότερον.",
+    "9": "lit. “hanging on the hearing.”",
+    "10": "[and tiresome] Morel.",
+    "11": "ἀ κούοντες τὸν λόγον τοῦ Θεοῦ, G. T.",
+    "12": "or “next to,” μετὰ ; with acc.",
+    "13": "[the Virgin] Morel. and ms.",
+    "14": "Δεσπόσυνοι, Eus. H. E. i. 7.",
+    "15": "al. “relationship.”",
+    "16": "lit. “Greeks.”",
+    "17": "al. “apply.”"
+  },
+  "verified": true
 }

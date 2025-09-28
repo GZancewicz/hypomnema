@@ -1,18 +1,47 @@
 {
-  "homily_number": 55,
+  "id": 55,
+  "roman": "LV",
   "title": "Homily LV",
-  "subtitle": "John 8:48",
+  "subtitle": "John 9:1-2",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 8:48"
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 2
+    },
+    "display": "John 9:1-2"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3328,
+  "excerpt": "Homily LVI....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "ἰ ταμὸν",
-    "2": "ἀ κολουθίαν",
-    "3": "“My Father that,” Ben.",
-    "4": "al. “insult.”",
-    "5": "al. “gone forth.”",
-    "6": "“The Son of Man,” N.T.",
-    "7": "c. vi. 39, 40"
-  }
+    "1": "not in N.T.",
+    "2": "Amaziah, 2 Kings xiv. 6",
+    "3": "i.e. show not the children.",
+    "4": "“the works,” N.T.",
+    "5": "“in Him,” N.T.",
+    "6": "i.e. “that the glory,” &c.",
+    "7": "πηρώματα",
+    "8": "i.e. The Father’s.",
+    "9": "al. “noble birth.”",
+    "10": "τότε",
+    "11": "not verbally quoted.",
+    "12": "διὰ τὸ τῶν ἁμαρτημάτων ἀνενέργητον. Meaning, perhaps, “Because there is no place for the ‘ work ’ of repentance, faith, and obedience in the next world, when any through sin have neglected it in this.”",
+    "13": "om. in some mss.",
+    "14": "δῆμον",
+    "15": "or, “for all these reasons.”",
+    "16": "al. “those [things].”"
+  },
+  "verified": true
 }

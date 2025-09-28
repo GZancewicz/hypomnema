@@ -1,23 +1,38 @@
 {
-  "homily_number": 52,
+  "id": 52,
+  "roman": "LII",
   "title": "Homily LII",
-  "subtitle": "John 7:45",
+  "subtitle": "John 8:20",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 7:45"
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "display": "John 8:20"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2765,
+  "excerpt": "Homily LIII....",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "“Hath any,” N.T.",
-    "2": "“or of the Pharisees,” N.T.",
-    "3": "“this,” N.T.",
-    "4": "al. “your.”",
-    "5": "ᾠ κειοῦντο",
-    "6": "The history of the woman taken in adultery is omitted by St. Chrysostom, and all the Greek commentators.",
-    "7": "S. C. seems to refer to c. vii. 28. “Then cried Jesus in the Temple,” &c.",
-    "8": "i.e. the Pharisees.",
-    "9": "῞ Οπερ φθάσας εἶπε, according to Savile’s conjecture and a Vatican ms. The common reading is εἶπον",
-    "10": "προηγουμένως",
-    "11": "ἐ θελοκακεῖτε",
-    "12": "Ben. “just.”"
-  }
+    "1": "i.e. at the Crucifixion.",
+    "2": "al. “must have.”",
+    "3": "“do nothing,” N.T.",
+    "4": "φέρων καὶ ἄγων",
+    "5": "i.e. to The Father.",
+    "6": "Savile connects these words with the clause preceding: with this reading it is difficult to see the sense of the clause which follows. The Bened. reading is as rendered above. The reference may be to c. vii. 33, 35",
+    "7": "The Tephillim."
+  },
+  "verified": true
 }

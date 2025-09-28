@@ -1,29 +1,49 @@
 {
-  "homily_number": 25,
+  "id": 25,
+  "roman": "XXV",
   "title": "Homily XXV",
-  "subtitle": "John 3:5",
+  "subtitle": "John 3:6",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
-    "display": "John 3:5"
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "display": "John 3:6"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2722,
+  "excerpt": "John iii. 6...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "ἀ ποδίδωσι.",
-    "2": "al. [by you].",
-    "3": "διαξαίνομεν",
-    "4": "lit. “things in heaven.”",
-    "5": "ἀ ψῖδας.",
-    "6": "i.e. unbaptized.",
-    "7": "ἀ πόφασις.",
-    "8": "σύμβολον.",
-    "9": "or, “which is below.”",
-    "10": "al. “this.”",
-    "11": "i.e. submit to the teaching of faith concerning them.",
-    "12": "διεστράφη.",
-    "13": "κατὰ τὰ εἰρημένα. This seems to be the best reading, and is found in Morel. Ben. and mss. Savile reads the passage thus: τὸ σῶμα ; τὰ εἰρημένα λογισμῷ μὲν εὐρεῖν, κ.τ.λ.",
-    "14": "παρὰ.",
-    "15": "ὑ πεκεῖτο στοιχεῖον.",
-    "16": "τὸ πᾶν, i.e. the fabric of the human body.",
-    "17": "i.e. the new man.",
-    "18": "ὁ τελῶν εἰς τὸ σῶμα."
-  }
+    "1": "al. “precious.”",
+    "2": "τρυφὴν.",
+    "3": "κατασκευὴ.",
+    "4": "or, “begotten.”",
+    "5": "or, “begotten.”",
+    "6": "οὐσίαν.",
+    "7": "or, “from above.”",
+    "8": "φωνὴν.",
+    "9": "or, “spirit.”",
+    "10": "lit “of bloods,” as in c. i. 13.",
+    "11": "τρόποι.",
+    "12": "οὐ λαμβάνετε, G. T.",
+    "13": "or, “begotten.”",
+    "14": "lit. “shouting.”",
+    "15": "lit. “tie the feet of.”",
+    "16": "or, “unpleasing.”",
+    "17": "κράζειν.",
+    "18": "φιλοσοφίαν."
+  },
+  "verified": true
 }

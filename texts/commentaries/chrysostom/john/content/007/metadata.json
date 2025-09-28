@@ -1,27 +1,52 @@
 {
-  "homily_number": 7,
+  "id": 7,
+  "roman": "VII",
   "title": "Homily VII",
   "subtitle": "John 1:9",
+  "author": "chrysostom",
+  "author_full": "John Chrysostom",
+  "work": "Homilies on John",
   "scripture_reference": {
-    "book": "John",
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 9
+    },
     "display": "John 1:9"
   },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2283,
+  "excerpt": "John i. 9...",
+  "source_file": "chrysostom_john_homilies.xml",
+  "extraction_method": "thml_div2",
+  "has_footnotes": true,
   "footnotes": {
-    "1": "ὑ φαίνει.",
-    "2": "al. “let us imitate.”",
-    "3": "θεωρημάτων.",
-    "4": "νῦν.",
-    "5": "μετὰ ταῦτα",
-    "6": "ὑ περακοντίσαι.",
-    "7": "al. “holds.”",
-    "8": "πάθη.",
-    "9": "αἰώνων.",
-    "10": "ἀ παύγασμα.",
-    "11": "Hom. ii. 4.",
-    "12": "κατανυγῶμεν.",
-    "13": "Slightly varied from LXX.",
-    "14": "al. “forgiven.”",
-    "15": "ἐ ντεύξεσιν.",
-    "16": "λύσιν τῶν ἡμαρτημένων."
-  }
+    "1": "ἐ θελοκακοῦντες.",
+    "2": "προαιώνιον.",
+    "3": "Paul of Samosata, Bishop of Antioch, denied the Personality of our Lord before His Birth of the Virgin Mary. His opinions were condemned, and himself deposed, at the second Council of Antioch, A.D. 270.",
+    "4": "Zenobia, Queen of Palmyra, who supported Paul against the Catholics after his deposition.",
+    "5": "προστετηκὸς, “melted to.”",
+    "6": "χυδαῖον.",
+    "7": "θαυμαστοὶ.",
+    "8": "οἰκονομήσοντα, lit. “would dispense as He did dispense.”",
+    "9": "μετ̓ ἀδείας.",
+    "10": "al. “for they had both heard His voice, and seen Him, but not in the flesh.”",
+    "11": "i.e. that the power which maintains the universe is a power opposed to the True God. The Gnostics accounted for the existence of evil, by supposing an evil Principle, to which they attributed the creation and support of the material world. The opinions here spoken of were maintained by Basilides, Valentinus, Marcion, Manes, and other supporters of that heresy.",
+    "12": "χαρακτηρίζειν.",
+    "13": "῞Αγις (δίκαις G. T.).",
+    "14": "θολοῖ from θολὸς, “the ink of the cuttle fish.”",
+    "15": "προστετηκέναι.",
+    "16": "γνησίως, perhaps “as befits a rightful heir.”",
+    "17": "al. ἀ μβλυτέραν, “duller.”",
+    "18": "καθάπαξ.",
+    "19": "προσηλώσας.",
+    "20": "ἐ κεῖ.",
+    "21": "Or “with much openness,” i.e. before angels and men."
+  },
+  "verified": true
 }
