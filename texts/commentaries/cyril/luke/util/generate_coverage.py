@@ -9,47 +9,79 @@ import json
 import re
 from pathlib import Path
 
-def extract_verse_from_subtitle(subtitle):
-    """Extract verse range from subtitle like 'Luke 2:8-18' or '2:8-18'"""
-    # Try to match patterns like "2:8-18", "Luke 2:8-18", etc.
-    patterns = [
-        r'(?:Luke\s+)?(\d+):(\d+)-(\d+):(\d+)',  # 2:8-3:5
-        r'(?:Luke\s+)?(\d+):(\d+)-(\d+)',         # 2:8-18
-        r'(?:Luke\s+)?(\d+):(\d+)',               # 2:8
-        r'Luke\s+(\d+)',                          # Luke 12
-        r'^(\d+)$',                               # Just chapter number
-    ]
+def extract_verse_from_content(content_data):
+    """Extract verse range from the actual sermon content"""
+    paragraphs = content_data.get('paragraphs', [])
     
-    for pattern in patterns:
-        match = re.search(pattern, subtitle)
-        if match:
-            groups = match.groups()
-            if len(groups) == 4:  # chapter:verse-chapter:verse
-                return {
-                    "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
-                    "end": {"chapter": int(groups[2]), "verse": int(groups[3])}
-                }
-            elif len(groups) == 3:  # chapter:verse-verse
-                return {
-                    "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
-                    "end": {"chapter": int(groups[0]), "verse": int(groups[2])}
-                }
-            elif len(groups) == 2:  # chapter:verse
-                return {
-                    "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
-                    "end": {"chapter": int(groups[0]), "verse": int(groups[1])}
-                }
-            elif len(groups) == 1:  # chapter only
-                return {
-                    "start": {"chapter": int(groups[0]), "verse": 1},
-                    "end": {"chapter": int(groups[0]), "verse": 99}
-                }
+    # Look in the first few paragraphs for Luke references
+    for para in paragraphs[:5]:
+        # Look for patterns like "Luke ii. 1", "Luke 2:1-7", etc.
+        patterns = [
+            r'Luke\s+([ivxlc]+)\.\s*(\d+)-(\d+)',  # Luke ii. 1-7 (Roman chapter)
+            r'Luke\s+([ivxlc]+)\.\s*(\d+)',        # Luke ii. 1 (Roman chapter)
+            r'Luke\s+(\d+):(\d+)-(\d+):(\d+)',     # Luke 2:1-3:5
+            r'Luke\s+(\d+):(\d+)-(\d+)',           # Luke 2:1-7
+            r'Luke\s+(\d+):(\d+)',                 # Luke 2:1
+            r'^(\d+):(\d+)-(\d+):(\d+)',           # 2:1-3:5
+            r'^(\d+):(\d+)-(\d+)',                 # 2:1-7
+            r'^(\d+):(\d+)',                        # 2:1
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, para, re.IGNORECASE)
+            if match:
+                groups = match.groups()
+                
+                # Handle Roman numerals for chapters
+                if len(groups) >= 1 and re.match(r'^[ivxlc]+$', groups[0], re.IGNORECASE):
+                    chapter = roman_to_arabic(groups[0])
+                    if len(groups) == 3:  # Luke ii. 1-7
+                        return {
+                            "start": {"chapter": chapter, "verse": int(groups[1])},
+                            "end": {"chapter": chapter, "verse": int(groups[2])}
+                        }
+                    elif len(groups) == 2:  # Luke ii. 1
+                        return {
+                            "start": {"chapter": chapter, "verse": int(groups[1])},
+                            "end": {"chapter": chapter, "verse": int(groups[1])}
+                        }
+                # Handle Arabic numerals
+                elif len(groups) == 4:  # chapter:verse-chapter:verse
+                    return {
+                        "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
+                        "end": {"chapter": int(groups[2]), "verse": int(groups[3])}
+                    }
+                elif len(groups) == 3:  # chapter:verse-verse
+                    return {
+                        "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
+                        "end": {"chapter": int(groups[0]), "verse": int(groups[2])}
+                    }
+                elif len(groups) == 2:  # chapter:verse
+                    return {
+                        "start": {"chapter": int(groups[0]), "verse": int(groups[1])},
+                        "end": {"chapter": int(groups[0]), "verse": int(groups[1])}
+                    }
     
-    # Default if no pattern matches
+    # If no pattern found, return a default
     return {
         "start": {"chapter": 1, "verse": 1},
         "end": {"chapter": 1, "verse": 1}
     }
+
+def roman_to_arabic(roman):
+    """Convert Roman numeral to Arabic number"""
+    roman = roman.upper()
+    values = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    total = 0
+    prev_value = 0
+    for char in reversed(roman):
+        value = values.get(char, 0)
+        if value < prev_value:
+            total -= value
+        else:
+            total += value
+        prev_value = value
+    return total
 
 def generate_coverage():
     """Generate coverage data from content files."""
@@ -87,9 +119,8 @@ def generate_coverage():
         else:
             roman = str(sermon_num)
         
-        # Extract scripture reference from subtitle
-        subtitle = content.get('subtitle', '')
-        scripture_ref = extract_verse_from_subtitle(subtitle)
+        # Extract scripture reference from actual content
+        scripture_ref = extract_verse_from_content(content)
         
         sermon_coverage = {
             'id': sermon_num,
