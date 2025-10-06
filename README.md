@@ -1,6 +1,6 @@
 # Hypomnema
 
-A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom and Cyril of Alexandria.
+A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, and Venerable Bede.
 
 ## Features
 
@@ -13,6 +13,8 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
   - John Chrysostom's 90 homilies on Matthew
   - John Chrysostom's 88 homilies on John
   - Cyril of Alexandria's 153 sermons on Luke
+  - Gregory the Great's 40 homilies across all four Gospels
+  - Venerable Bede's 50 homilies across all four Gospels
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout)
   - Hover tooltips showing commentary references
@@ -163,16 +165,25 @@ The application displays Eusebian Canon numbers in the left margin of Gospel tex
 
 ## Patristic Commentary
 
-The application integrates complete patristic commentary on the Gospels:
+The application integrates patristic commentary on the Gospels from multiple Church Fathers:
 
-### John Chrysostom
+### John Chrysostom (c. 347-407)
 - **90 Homilies on Matthew** covering the entire Gospel of Matthew
 - **88 Homilies on John** covering the entire Gospel of John
 - **Cross-Gospel Integration** - When reading Mark or Luke, the system automatically shows relevant Matthew and John homilies for parallel passages
 
-### Cyril of Alexandria
+### Cyril of Alexandria (c. 376-444)
 - **153 Sermons on Luke** covering the entire Gospel of Luke (manuscript contains only fragments for 154-156)
 - Integrated footnotes and textual notes
+
+### Gregory the Great (c. 540-604)
+- **40 Homilies on the Gospels** (Forty Gospel Homilies) covering passages from all four Gospels
+- Spanning Matthew, Mark, Luke, and John
+
+### Venerable Bede (c. 673-735)
+- **50 Homilies on the Gospels** organized in two books covering passages from all four Gospels
+- Book I: 25 homilies (I.1 through I.25)
+- Book II: 25 homilies (II.1 through II.25)
 
 ### Features
 - **Inline References** showing which homilies/sermons discuss each passage

@@ -1,0 +1,606 @@
+{
+    "commentary": "Forty Gospel Homiles",
+    "total_homilies": 40,
+    "homilies": [
+        {
+            "id": 1,
+            "roman": "I",
+            "title": "Homily I",
+            "start": {
+                "book": "matthew",
+                "chapter": 12,
+                "verse": 46
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 12,
+                "verse": 50
+            }
+        },
+        {
+            "id": 2,
+            "roman": "II",
+            "title": "Homily II",
+            "start": {
+                "book": "matthew",
+                "chapter": 4,
+                "verse": 18
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 4,
+                "verse": 22
+            }
+        },
+        {
+            "id": 5,
+            "roman": "V",
+            "title": "Homily V",
+            "start": {
+                "book": "matthew",
+                "chapter": 11,
+                "verse": 2
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 11,
+                "verse": 10
+            }
+        },
+        {
+            "id": 6,
+            "roman": "VI",
+            "title": "Homily VI",
+            "start": {
+                "book": "luke",
+                "chapter": 3,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 3,
+                "verse": 11
+            }
+        },
+        {
+            "id": 7,
+            "roman": "VII",
+            "title": "Homily VII",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 14
+            }
+        },
+        {
+            "id": 8,
+            "roman": "VIII",
+            "title": "Homily VIII",
+            "start": {
+                "book": "matthew",
+                "chapter": 2,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 2,
+                "verse": 12
+            }
+        },
+        {
+            "id": 9,
+            "roman": "IX",
+            "title": "Homily IX",
+            "start": {
+                "book": "matthew",
+                "chapter": 13,
+                "verse": 44
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 13,
+                "verse": 52
+            }
+        },
+        {
+            "id": 10,
+            "roman": "X",
+            "title": "Homily X",
+            "start": {
+                "book": "matthew",
+                "chapter": 25,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 25,
+                "verse": 13
+            }
+        },
+        {
+            "id": 11,
+            "roman": "XI",
+            "title": "Homily XI",
+            "start": {
+                "book": "matthew",
+                "chapter": 20,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 20,
+                "verse": 16
+            }
+        },
+        {
+            "id": 12,
+            "roman": "XII",
+            "title": "Homily XII",
+            "start": {
+                "book": "luke",
+                "chapter": 8,
+                "verse": 4
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 8,
+                "verse": 15
+            }
+        },
+        {
+            "id": 13,
+            "roman": "XIII",
+            "title": "Homily XIII",
+            "start": {
+                "book": "luke",
+                "chapter": 18,
+                "verse": 31
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 18,
+                "verse": 43
+            }
+        },
+        {
+            "id": 14,
+            "roman": "XIV",
+            "title": "Homily XIV",
+            "start": {
+                "book": "matthew",
+                "chapter": 4,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 4,
+                "verse": 11
+            }
+        },
+        {
+            "id": 17,
+            "roman": "XVII",
+            "title": "Homily XVII",
+            "start": {
+                "book": "matthew",
+                "chapter": 10,
+                "verse": 5
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 10,
+                "verse": 8
+            }
+        },
+        {
+            "id": 18,
+            "roman": "XVIII",
+            "title": "Homily XVIII",
+            "start": {
+                "book": "matthew",
+                "chapter": 25,
+                "verse": 14
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 25,
+                "verse": 30
+            }
+        },
+        {
+            "id": 19,
+            "roman": "XIX",
+            "title": "Homily XIX",
+            "start": {
+                "book": "luke",
+                "chapter": 10,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 10,
+                "verse": 7
+            }
+        },
+        {
+            "id": 20,
+            "roman": "XX",
+            "title": "Homily XX",
+            "start": {
+                "book": "luke",
+                "chapter": 12,
+                "verse": 35
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 12,
+                "verse": 40
+            }
+        },
+        {
+            "id": 21,
+            "roman": "XXI",
+            "title": "Homily XXI",
+            "start": {
+                "book": "mark",
+                "chapter": 16,
+                "verse": 1
+            },
+            "end": {
+                "book": "mark",
+                "chapter": 16,
+                "verse": 7
+            }
+        },
+        {
+            "id": 29,
+            "roman": "XXIX",
+            "title": "Homily XXIX",
+            "start": {
+                "book": "mark",
+                "chapter": 16,
+                "verse": 14
+            },
+            "end": {
+                "book": "mark",
+                "chapter": 16,
+                "verse": 20
+            }
+        },
+        {
+            "id": 31,
+            "roman": "XXXI",
+            "title": "Homily XXXI",
+            "start": {
+                "book": "luke",
+                "chapter": 13,
+                "verse": 6
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 13,
+                "verse": 13
+            }
+        },
+        {
+            "id": 32,
+            "roman": "XXXII",
+            "title": "Homily XXXII",
+            "start": {
+                "book": "luke",
+                "chapter": 9,
+                "verse": 23
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 9,
+                "verse": 27
+            }
+        },
+        {
+            "id": 33,
+            "roman": "XXXIII",
+            "title": "Homily XXXIII",
+            "start": {
+                "book": "luke",
+                "chapter": 7,
+                "verse": 36
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 7,
+                "verse": 50
+            }
+        },
+        {
+            "id": 34,
+            "roman": "XXXIV",
+            "title": "Homily XXXIV",
+            "start": {
+                "book": "luke",
+                "chapter": 15,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 15,
+                "verse": 10
+            }
+        },
+        {
+            "id": 36,
+            "roman": "XXXVI",
+            "title": "Homily XXXVI",
+            "start": {
+                "book": "luke",
+                "chapter": 14,
+                "verse": 16
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 14,
+                "verse": 24
+            }
+        },
+        {
+            "id": 37,
+            "roman": "XXXVII",
+            "title": "Homily XXXVII",
+            "start": {
+                "book": "luke",
+                "chapter": 14,
+                "verse": 16
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 14,
+                "verse": 33
+            }
+        },
+        {
+            "id": 38,
+            "roman": "XXXVIII",
+            "title": "Homily XXXVIII",
+            "start": {
+                "book": "matthew",
+                "chapter": 22,
+                "verse": 2
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 22,
+                "verse": 14
+            }
+        },
+        {
+            "id": 40,
+            "roman": "XL",
+            "title": "Homily XL",
+            "start": {
+                "book": "luke",
+                "chapter": 16,
+                "verse": 19
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 16,
+                "verse": 31
+            }
+        },
+        {
+            "id": 39,
+            "roman": "XXXIX",
+            "title": "Homily XXXIX",
+            "start": {
+                "book": "luke",
+                "chapter": 19,
+                "verse": 41
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 19,
+                "verse": 47
+            }
+        },
+        {
+            "id": 35,
+            "roman": "XXXV",
+            "title": "Homily XXXV",
+            "start": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 9
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 19
+            }
+        },
+        {
+            "id": 3,
+            "roman": "III",
+            "title": "Homily III",
+            "start": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 25
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 33
+            }
+        },
+        {
+            "id": 23,
+            "roman": "XXIII",
+            "title": "Homily XXIII",
+            "start": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 13
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 35
+            }
+        },
+        {
+            "id": 4,
+            "roman": "IV",
+            "title": "Homily IV",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 19
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 27
+            }
+        },
+        {
+            "id": 28,
+            "roman": "XXVIII",
+            "title": "Homily XXVIII",
+            "start": {
+                "book": "john",
+                "chapter": 4,
+                "verse": 46
+            },
+            "end": {
+                "book": "john",
+                "chapter": 4,
+                "verse": 53
+            }
+        },
+        {
+            "id": 16,
+            "roman": "XVI",
+            "title": "Homily XVI",
+            "start": {
+                "book": "john",
+                "chapter": 8,
+                "verse": 46
+            },
+            "end": {
+                "book": "john",
+                "chapter": 8,
+                "verse": 59
+            }
+        },
+        {
+            "id": 15,
+            "roman": "XV",
+            "title": "Homily XV",
+            "start": {
+                "book": "john",
+                "chapter": 10,
+                "verse": 11
+            },
+            "end": {
+                "book": "john",
+                "chapter": 10,
+                "verse": 16
+            }
+        },
+        {
+            "id": 30,
+            "roman": "XXX",
+            "title": "Homily XXX",
+            "start": {
+                "book": "john",
+                "chapter": 14,
+                "verse": 23
+            },
+            "end": {
+                "book": "john",
+                "chapter": 14,
+                "verse": 27
+            }
+        },
+        {
+            "id": 27,
+            "roman": "XXVII",
+            "title": "Homily XXVII",
+            "start": {
+                "book": "john",
+                "chapter": 15,
+                "verse": 12
+            },
+            "end": {
+                "book": "john",
+                "chapter": 15,
+                "verse": 16
+            }
+        },
+        {
+            "id": 22,
+            "roman": "XXII",
+            "title": "Homily XXII",
+            "start": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 9
+            }
+        },
+        {
+            "id": 25,
+            "roman": "XXV",
+            "title": "Homily XXV",
+            "start": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 11
+            },
+            "end": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 18
+            }
+        },
+        {
+            "id": 26,
+            "roman": "XXVI",
+            "title": "Homily XXVI",
+            "start": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 19
+            },
+            "end": {
+                "book": "john",
+                "chapter": 20,
+                "verse": 29
+            }
+        },
+        {
+            "id": 24,
+            "roman": "XXIV",
+            "title": "Homily XXIV",
+            "start": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 14
+            }
+        }
+    ]
+}
