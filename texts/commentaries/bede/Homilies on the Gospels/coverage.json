@@ -1,0 +1,756 @@
+{
+    "commentary": "bede_homilies_on_the_gospels_combined",
+    "total_homilies": 50,
+    "homilies": [
+        {
+            "id": 1,
+            "roman": "I.1",
+            "title": "Homily I.1",
+            "start": {
+                "book": "mark",
+                "chapter": 1,
+                "verse": 4
+            },
+            "end": {
+                "book": "mark",
+                "chapter": 1,
+                "verse": 8
+            }
+        },
+        {
+            "id": 2,
+            "roman": "I.2",
+            "title": "Homily I.2",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 15
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 18
+            }
+        },
+        {
+            "id": 3,
+            "roman": "I.3",
+            "title": "Homily I.3",
+            "start": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 26
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 38
+            }
+        },
+        {
+            "id": 4,
+            "roman": "I.4",
+            "title": "Homily I.4",
+            "start": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 39
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 55
+            }
+        },
+        {
+            "id": 9,
+            "roman": "I.9",
+            "title": "Homily I.9",
+            "start": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 19
+            },
+            "end": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 24
+            }
+        },
+        {
+            "id": 5,
+            "roman": "I.5",
+            "title": "Homily I.5",
+            "start": {
+                "book": "matthew",
+                "chapter": 1,
+                "verse": 18
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 1,
+                "verse": 25
+            }
+        },
+        {
+            "id": 6,
+            "roman": "I.6",
+            "title": "Homily I.6",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 14
+            }
+        },
+        {
+            "id": 7,
+            "roman": "I.7",
+            "title": "Homily I.7",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 15
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 20
+            }
+        },
+        {
+            "id": 8,
+            "roman": "I.8",
+            "title": "Homily I.8",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 14
+            }
+        },
+        {
+            "id": 10,
+            "roman": "I.10",
+            "title": "Homily I.10",
+            "start": {
+                "book": "matthew",
+                "chapter": 2,
+                "verse": 13
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 2,
+                "verse": 23
+            }
+        },
+        {
+            "id": 11,
+            "roman": "I.11",
+            "title": "Homily I.11",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 21
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 21
+            }
+        },
+        {
+            "id": 12,
+            "roman": "I.12",
+            "title": "Homily I.12",
+            "start": {
+                "book": "matthew",
+                "chapter": 3,
+                "verse": 13
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 3,
+                "verse": 17
+            }
+        },
+        {
+            "id": 13,
+            "roman": "I.13",
+            "title": "Homily I.13",
+            "start": {
+                "book": "matthew",
+                "chapter": 19,
+                "verse": 27
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 19,
+                "verse": 29
+            }
+        },
+        {
+            "id": 14,
+            "roman": "I.14",
+            "title": "Homily I.14",
+            "start": {
+                "book": "john",
+                "chapter": 2,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 2,
+                "verse": 11
+            }
+        },
+        {
+            "id": 19,
+            "roman": "I.19",
+            "title": "Homily I.19",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 42
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 52
+            }
+        },
+        {
+            "id": 15,
+            "roman": "I.15",
+            "title": "Homily I.15",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 29
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 34
+            }
+        },
+        {
+            "id": 16,
+            "roman": "I.16",
+            "title": "Homily I.16",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 35
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 42
+            }
+        },
+        {
+            "id": 17,
+            "roman": "I.17",
+            "title": "Homily I.17",
+            "start": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 43
+            },
+            "end": {
+                "book": "john",
+                "chapter": 1,
+                "verse": 51
+            }
+        },
+        {
+            "id": 18,
+            "roman": "I.18",
+            "title": "Homily I.18",
+            "start": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 22
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 2,
+                "verse": 35
+            }
+        },
+        {
+            "id": 20,
+            "roman": "I.20",
+            "title": "Homily I.20",
+            "start": {
+                "book": "matthew",
+                "chapter": 16,
+                "verse": 13
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 16,
+                "verse": 19
+            }
+        },
+        {
+            "id": 21,
+            "roman": "I.21",
+            "title": "Homily I.21",
+            "start": {
+                "book": "matthew",
+                "chapter": 9,
+                "verse": 9
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 9,
+                "verse": 13
+            }
+        },
+        {
+            "id": 22,
+            "roman": "I.22",
+            "title": "Homily I.22",
+            "start": {
+                "book": "matthew",
+                "chapter": 15,
+                "verse": 21
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 15,
+                "verse": 28
+            }
+        },
+        {
+            "id": 23,
+            "roman": "I.23",
+            "title": "Homily I.23",
+            "start": {
+                "book": "john",
+                "chapter": 5,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 5,
+                "verse": 18
+            }
+        },
+        {
+            "id": 24,
+            "roman": "I.24",
+            "title": "Homily I.24",
+            "start": {
+                "book": "matthew",
+                "chapter": 16,
+                "verse": 27
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 17,
+                "verse": 9
+            }
+        },
+        {
+            "id": 25,
+            "roman": "I.25",
+            "title": "Homily I.25",
+            "start": {
+                "book": "john",
+                "chapter": 8,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 8,
+                "verse": 12
+            }
+        },
+        {
+            "id": 1,
+            "roman": "II.1",
+            "title": "Homily II.1",
+            "start": {
+                "book": "john",
+                "chapter": 2,
+                "verse": 12
+            },
+            "end": {
+                "book": "john",
+                "chapter": 2,
+                "verse": 22
+            }
+        },
+        {
+            "id": 2,
+            "roman": "II.2",
+            "title": "Homily II.2",
+            "start": {
+                "book": "john",
+                "chapter": 6,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 6,
+                "verse": 4
+            }
+        },
+        {
+            "id": 3,
+            "roman": "II.3",
+            "title": "Homily II.3",
+            "start": {
+                "book": "matthew",
+                "chapter": 21,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 21,
+                "verse": 9
+            }
+        },
+        {
+            "id": 4,
+            "roman": "II.4",
+            "title": "Homily II.4",
+            "start": {
+                "book": "john",
+                "chapter": 11,
+                "verse": 55
+            },
+            "end": {
+                "book": "john",
+                "chapter": 12,
+                "verse": 11
+            }
+        },
+        {
+            "id": 9,
+            "roman": "II.9",
+            "title": "Homily II.9",
+            "start": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 1
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 9
+            }
+        },
+        {
+            "id": 5,
+            "roman": "II.5",
+            "title": "Homily II.5",
+            "start": {
+                "book": "john",
+                "chapter": 13,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 13,
+                "verse": 17
+            }
+        },
+        {
+            "id": 6,
+            "roman": "II.6",
+            "title": "Homily II.6",
+            "start": {
+                "book": "mark",
+                "chapter": 7,
+                "verse": 31
+            },
+            "end": {
+                "book": "mark",
+                "chapter": 7,
+                "verse": 37
+            }
+        },
+        {
+            "id": 7,
+            "roman": "II.7",
+            "title": "Homily II.7",
+            "start": {
+                "book": "matthew",
+                "chapter": 28,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 28,
+                "verse": 10
+            }
+        },
+        {
+            "id": 8,
+            "roman": "II.8",
+            "title": "Homily II.8",
+            "start": {
+                "book": "matthew",
+                "chapter": 28,
+                "verse": 16
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 28,
+                "verse": 20
+            }
+        },
+        {
+            "id": 10,
+            "roman": "II.10",
+            "title": "Homily II.10",
+            "start": {
+                "book": "luke",
+                "chapter": 11,
+                "verse": 9
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 11,
+                "verse": 13
+            }
+        },
+        {
+            "id": 11,
+            "roman": "II.11",
+            "title": "Homily II.11",
+            "start": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 5
+            },
+            "end": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 15
+            }
+        },
+        {
+            "id": 12,
+            "roman": "II.12",
+            "title": "Homily II.12",
+            "start": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 23
+            },
+            "end": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 30
+            }
+        },
+        {
+            "id": 13,
+            "roman": "II.13",
+            "title": "Homily II.13",
+            "start": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 16
+            },
+            "end": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 22
+            }
+        },
+        {
+            "id": 14,
+            "roman": "II.14",
+            "title": "Homily II.14",
+            "start": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 44
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 53
+            }
+        },
+        {
+            "id": 19,
+            "roman": "II.19",
+            "title": "Homily II.19",
+            "start": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 5
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 17
+            }
+        },
+        {
+            "id": 15,
+            "roman": "II.15",
+            "title": "Homily II.15",
+            "start": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 36
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 24,
+                "verse": 47
+            }
+        },
+        {
+            "id": 16,
+            "roman": "II.16",
+            "title": "Homily II.16",
+            "start": {
+                "book": "john",
+                "chapter": 15,
+                "verse": 26
+            },
+            "end": {
+                "book": "john",
+                "chapter": 16,
+                "verse": 4
+            }
+        },
+        {
+            "id": 17,
+            "roman": "II.17",
+            "title": "Homily II.17",
+            "start": {
+                "book": "john",
+                "chapter": 14,
+                "verse": 15
+            },
+            "end": {
+                "book": "john",
+                "chapter": 14,
+                "verse": 21
+            }
+        },
+        {
+            "id": 18,
+            "roman": "II.18",
+            "title": "Homily II.18",
+            "start": {
+                "book": "john",
+                "chapter": 3,
+                "verse": 1
+            },
+            "end": {
+                "book": "john",
+                "chapter": 3,
+                "verse": 16
+            }
+        },
+        {
+            "id": 20,
+            "roman": "II.20",
+            "title": "Homily II.20",
+            "start": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 57
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 1,
+                "verse": 68
+            }
+        },
+        {
+            "id": 21,
+            "roman": "II.21",
+            "title": "Homily II.21",
+            "start": {
+                "book": "matthew",
+                "chapter": 20,
+                "verse": 20
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 20,
+                "verse": 23
+            }
+        },
+        {
+            "id": 22,
+            "roman": "II.22",
+            "title": "Homily II.22",
+            "start": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 15
+            },
+            "end": {
+                "book": "john",
+                "chapter": 21,
+                "verse": 19
+            }
+        },
+        {
+            "id": 23,
+            "roman": "II.23",
+            "title": "Homily II.23",
+            "start": {
+                "book": "matthew",
+                "chapter": 14,
+                "verse": 1
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 14,
+                "verse": 12
+            }
+        },
+        {
+            "id": 24,
+            "roman": "II.24",
+            "title": "Homily II.24",
+            "start": {
+                "book": "john",
+                "chapter": 10,
+                "verse": 22
+            },
+            "end": {
+                "book": "john",
+                "chapter": 10,
+                "verse": 30
+            }
+        },
+        {
+            "id": 25,
+            "roman": "II.25",
+            "title": "Homily II.25",
+            "start": {
+                "book": "luke",
+                "chapter": 6,
+                "verse": 43
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 6,
+                "verse": 48
+            }
+        }
+    ]
+}

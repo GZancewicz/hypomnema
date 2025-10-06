@@ -1992,6 +1992,20 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				"luke": "Sermons on Luke",
 			},
 		},
+		{
+			"gregory_the_great",
+			"Gregory the Great",
+			map[string]string{
+				"Forty Gospel Homilies": "Forty Gospel Homilies",
+			},
+		},
+		{
+			"bede",
+			"Venerable Bede",
+			map[string]string{
+				"Homilies on the Gospels": "Homilies on the Gospels",
+			},
+		},
 	}
 
 	for _, author := range authors {
@@ -2018,12 +2032,14 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							Roman string `json:"roman"`
 							Title string `json:"title"`
 							Start struct {
-								Chapter int `json:"chapter"`
-								Verse   int `json:"verse"`
+								Book    string `json:"book"`
+								Chapter int    `json:"chapter"`
+								Verse   int    `json:"verse"`
 							} `json:"start"`
 							End struct {
-								Chapter int `json:"chapter"`
-								Verse   int `json:"verse"`
+								Book    string `json:"book"`
+								Chapter int    `json:"chapter"`
+								Verse   int    `json:"verse"`
 							} `json:"end"`
 						} `json:"homilies"`
 					}
@@ -2032,12 +2048,21 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 						continue
 					}
 
-					// Capitalize book name
-					bookName := strings.Title(book.Name())
 					work := author.works[book.Name()]
 
 					// Add each homily/sermon as a row
 					for _, h := range coverage.Homilies {
+						// Determine book name from homily data if available, otherwise use directory name
+						var bookNameLower string
+						var bookName string
+						if h.Start.Book != "" {
+							bookNameLower = h.Start.Book
+							bookName = strings.Title(h.Start.Book)
+						} else {
+							bookNameLower = strings.ToLower(book.Name())
+							bookName = strings.Title(book.Name())
+						}
+
 						// Format scripture reference
 						var scripture string
 						if h.Start.Chapter == h.End.Chapter {
@@ -2050,8 +2075,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
 						}
 
-						eusebianIndex := getCanonAndSection(strings.ToLower(book.Name()), h.Start.Chapter, h.Start.Verse)
-						parallels := getParallels(strings.ToLower(book.Name()), h.Start.Chapter, h.Start.Verse)
+						eusebianIndex := getCanonAndSection(bookNameLower, h.Start.Chapter, h.Start.Verse)
+						parallels := getParallels(bookNameLower, h.Start.Chapter, h.Start.Verse)
 
 						tableRows = append(tableRows, TableRow{
 							Scripture:     scripture,
@@ -2170,7 +2195,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Sort books in canonical order
-	bookOrderList := []string{"Matthew", "Luke", "John"}
+	bookOrderList := []string{"Matthew", "Mark", "Luke", "John"}
 	for _, bookName := range bookOrderList {
 		rows, exists := bookGroups[bookName]
 		if !exists || len(rows) == 0 {
@@ -2203,7 +2228,10 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		for _, row := range rows {
 			// Determine the homily/sermon link based on author
 			var link string
-			if row.Author == "cyril" {
+			if row.Author == "gregory_the_great" || row.Author == "bede" {
+				// Gregory the Great and Bede - plain text, no link
+				link = row.Section
+			} else if row.Author == "cyril" {
 				// Cyril sermons use negative IDs in the JavaScript
 				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(-%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
 					row.HomilyID, row.Section, strings.ToLower(row.Book), row.Section)
