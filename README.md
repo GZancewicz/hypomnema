@@ -4,6 +4,10 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
 
 ## Features
 
+- **Commentary Index Home Page** with collapsible sections for each Gospel book
+  - Complete table view of all available commentaries
+  - Direct links to open specific homilies/sermons
+  - Shows scripture coverage for each commentary
 - **Complete KJV New Testament** with chapter-by-chapter navigation
 - **Patristic Commentary Integration**:
   - John Chrysostom's 90 homilies on Matthew
@@ -143,6 +147,16 @@ hypomnema/
 └── README.md
 ```
 
+## Commentary Index
+
+The home page displays a comprehensive index of all available patristic commentaries, organized by Gospel book. Each book section is collapsible and shows:
+- Scripture references for each homily/sermon
+- Church Father attribution
+- Work title (e.g., "Homilies on Matthew")
+- Direct clickable links to open specific commentaries
+
+The index provides a complete overview of the commentary coverage, making it easy to find specific homilies or sermons by scripture reference.
+
 ## Eusebian Canons
 
 The application displays Eusebian Canon numbers in the left margin of Gospel texts. These ancient cross-references show parallel passages across the four Gospels. Hovering over a canon number reveals the specific verse references.
@@ -179,9 +193,9 @@ The application integrates complete patristic commentary on the Gospels:
 - `texts/commentaries/cyril/luke/luke_verse_to_sermons.json` - Verse-to-sermon mapping
 
 **Coverage Files:**
-- `texts/commentaries/chrysostom/matthew/homily_coverage.json` - Homily passage coverage
-- `texts/commentaries/chrysostom/john/homily_coverage.json` - Homily passage coverage
-- `texts/commentaries/cyril/luke/homily_coverage.json` - Sermon passage coverage
+- `texts/commentaries/chrysostom/matthew/coverage.json` - Matthew homily passage coverage
+- `texts/commentaries/chrysostom/john/coverage.json` - John homily passage coverage
+- `texts/commentaries/cyril/luke/coverage.json` - Luke sermon passage coverage
 
 **Eusebian Canons:**
 - `texts/reference/eusebian_canons/verse_to_canon.json` - Maps verses to canon entries

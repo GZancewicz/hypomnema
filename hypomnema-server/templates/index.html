@@ -288,11 +288,14 @@
                 </div>
                 
                 <ul style="margin-bottom: 20px;">
-                    <li class="book-item" onclick="loadAbout()">
+                    <li class="book-item" onclick="loadAbout(event)">
                         About Hypomnema
                     </li>
-                    <li class="book-item" onclick="loadIndex()">
+                    <li class="book-item" onclick="loadIndex(event)">
                         INDEX
+                    </li>
+                    <li class="book-item" onclick="loadHarmony(event)">
+                        HARMONY
                     </li>
                 </ul>
                 <div class="accordion">
@@ -511,13 +514,17 @@
             // Check if we're on the home page
             const path = window.location.pathname;
             if (path === '/' || path === '') {
-                // Load the Index page
-                htmx.ajax('GET', '/api/index', '#text-content');
-                // Clear chapter selectors
-                const topSelector = document.getElementById('chapter-selector');
-                const bottomSelector = document.getElementById('chapter-selector-bottom');
-                if (topSelector) topSelector.innerHTML = '';
-                if (bottomSelector) bottomSelector.innerHTML = '';
+                // Wait for HTMX to be ready then load the Index page
+                function tryLoadIndex() {
+                    if (typeof htmx !== 'undefined') {
+                        console.log('HTMX is ready, loading INDEX...');
+                        loadIndex();
+                    } else {
+                        console.log('Waiting for HTMX...');
+                        setTimeout(tryLoadIndex, 50);
+                    }
+                }
+                tryLoadIndex();
             } else {
                 // Load chapter content for book pages
                 populateChapterSelectors(currentBook, currentChapter);
@@ -821,7 +828,7 @@
         // Listen for viewport changes
         window.addEventListener('resize', handleResize);
         
-        function loadAbout() {
+        function loadAbout(evt) {
             // Update header
             document.getElementById('book-title').textContent = 'About Hypomnema';
             document.getElementById('chapter-title').textContent = '';
@@ -832,7 +839,17 @@
             });
 
             // Add active state to About
-            event.target.classList.add('active');
+            if (evt && evt.target) {
+                // Called from click event
+                evt.target.classList.add('active');
+            } else {
+                // Called programmatically, find and activate the About menu item
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'About Hypomnema') {
+                        item.classList.add('active');
+                    }
+                });
+            }
 
             // Hide chapter selectors
             const topSelector = document.getElementById('chapter-selector');
@@ -849,7 +866,8 @@
             }
         }
 
-        function loadIndex() {
+        function loadIndex(evt) {
+            console.log('loadIndex called');
             // Update header
             document.getElementById('book-title').textContent = 'Commentary Index';
             document.getElementById('chapter-title').textContent = '';
@@ -860,7 +878,17 @@
             });
 
             // Add active state to Index
-            event.target.classList.add('active');
+            if (evt && evt.target) {
+                // Called from click event
+                evt.target.classList.add('active');
+            } else {
+                // Called programmatically, find and activate the INDEX menu item
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'INDEX') {
+                        item.classList.add('active');
+                    }
+                });
+            }
 
             // Hide chapter selectors
             const topSelector = document.getElementById('chapter-selector');
@@ -869,7 +897,50 @@
             if (bottomSelector) bottomSelector.innerHTML = '';
 
             // Load index content
-            htmx.ajax('GET', '/api/index', '#text-content');
+            console.log('About to load /api/index');
+            htmx.ajax('GET', '/api/index', '#text-content').then(() => {
+                console.log('Index content loaded');
+            }).catch(err => {
+                console.error('Error loading index:', err);
+            });
+
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
+        function loadHarmony(evt) {
+            // Update header
+            document.getElementById('book-title').textContent = 'Eusebian Canon Tables';
+            document.getElementById('chapter-title').textContent = '';
+
+            // Remove active state from all items
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Add active state to Harmony
+            if (evt && evt.target) {
+                // Called from click event
+                evt.target.classList.add('active');
+            } else {
+                // Called programmatically, find and activate the HARMONY menu item
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'HARMONY') {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            // Hide chapter selectors
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            // Load harmony content
+            htmx.ajax('GET', '/api/references', '#text-content');
 
             // Auto-close sidebar on mobile
             if (window.innerWidth <= 700) {
