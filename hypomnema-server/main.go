@@ -1935,7 +1935,7 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
 			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, and Venerable Bede</li>
-			<li>Commentary Index showing all 404 available homilies/sermons organized by Gospel book</li>
+			<li>Commentary Index showing all 421 available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Split-screen commentary viewing</li>
 			<li>Responsive design for comfortable reading on any device</li>
