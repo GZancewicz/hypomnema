@@ -1915,16 +1915,30 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		<a href="https://www.ccel.org" target="_blank" style="white-space: nowrap;">Christian Classics Ethereal Library (CCEL)</a>.</p>
 		
 		<p><strong>Chrysostom Homilies on John</strong><br>
-		The homilies of St. John Chrysostom on the Gospel of John are also sourced from the 
+		The homilies of St. John Chrysostom on the Gospel of John are also sourced from the
 		<em>Nicene and Post-Nicene Fathers</em> series, available through CCEL.</p>
-		
+
+		<p><strong>Cyril of Alexandria Sermons on Luke</strong><br>
+		The 153 sermons of St. Cyril of Alexandria on the Gospel of Luke provide extensive
+		patristic commentary on Luke's Gospel.</p>
+
+		<p><strong>Gregory the Great's Forty Gospel Homilies</strong><br>
+		Pope St. Gregory I's 40 homilies covering passages from all four Gospels, delivered
+		in Rome during his papacy (590-604 AD).</p>
+
+		<p><strong>Venerable Bede's Homilies on the Gospels</strong><br>
+		The Venerable Bede's 50 homilies on the Gospels, organized in two books, covering
+		passages from all four Gospels from the early medieval period in England.</p>
+
 		<h3>Features</h3>
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Chrysostom homily references for the Gospels of Matthew and John</li>
+			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, and Venerable Bede</li>
+			<li>Commentary Index showing all 404 available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
-			<li>Responsive design for comfortable reading</li>
+			<li>Split-screen commentary viewing</li>
+			<li>Responsive design for comfortable reading on any device</li>
 		</ul>
 		
 		<h3>Contributing</h3>
