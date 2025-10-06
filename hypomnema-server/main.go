@@ -382,6 +382,7 @@ func main() {
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/index", indexPageHandler)
+	http.HandleFunc("/api/references", referencesHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
@@ -1781,8 +1782,14 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func indexPageHandler(w http.ResponseWriter, r *http.Request) {
+	// Make sure Eusebian Canon data is loaded
+	if verseToCanon == nil {
+		loadVerseToCanon()
+	}
+
 	type TableRow struct {
 		Scripture     string
+		Canon         string
 		Father        string
 		Work          string
 		Section       string
@@ -1877,8 +1884,18 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
 						}
 
+						// Look up Eusebian Canon for the starting verse
+						canon := ""
+						if bookCanons, ok := verseToCanon[strings.ToLower(book.Name())]; ok {
+							verseKey := fmt.Sprintf("%d:%d", h.Start.Chapter, h.Start.Verse)
+							if canonVal, ok := bookCanons[verseKey]; ok {
+								canon = canonVal
+							}
+						}
+
 						tableRows = append(tableRows, TableRow{
 							Scripture:     scripture,
+							Canon:         canon,
 							Father:        author.fullName,
 							Work:          work,
 							Section:       h.Title,
@@ -2012,6 +2029,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					<thead>
 						<tr>
 							<th>Scripture</th>
+							<th>Eusebian Canon</th>
 							<th>Father</th>
 							<th>Work</th>
 							<th>Section</th>
@@ -2035,10 +2053,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			html += fmt.Sprintf(`
 						<tr>
 							<td>%s</td>
+							<td style="text-align: center;">%s</td>
 							<td>%s</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, row.Scripture, row.Father, row.Work, link)
+						</tr>`, row.Scripture, row.Canon, row.Father, row.Work, link)
 		}
 
 		html += `
