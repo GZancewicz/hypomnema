@@ -6,29 +6,12 @@ import (
 	"io/ioutil"
 	"net/http"
 	"sort"
-	"strings"
 )
 
-type HarmonyEntry struct {
-	Canon    string            `json:"canon"`
-	Sections map[string]int    `json:"sections"`
-}
-
-type SectionEntry struct {
-	Section   int    `json:"section"`
-	Reference string `json:"reference"`
-}
-
-func loadSectionData(gospel string) (map[int]string, error) {
-	filepath := fmt.Sprintf("../texts/reference/eusebian_canons/data/%s_sections.json", strings.ToLower(gospel))
-	data, err := ioutil.ReadFile(filepath)
-	if err != nil {
-		return nil, err
-	}
-
-	var sections []SectionEntry
-	if err := json.Unmarshal(data, &sections); err != nil {
-		return nil, err
+func loadSectionDataForHandler(gospel string) (map[int]string, error) {
+	sections, ok := sectionData[gospel]
+	if !ok {
+		return nil, fmt.Errorf("no section data for %s", gospel)
 	}
 
 	sectionMap := make(map[int]string)
@@ -54,10 +37,10 @@ func referencesHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Load section data for each gospel
-	matthewSections, _ := loadSectionData("matthew")
-	markSections, _ := loadSectionData("mark")
-	lukeSections, _ := loadSectionData("luke")
-	johnSections, _ := loadSectionData("john")
+	matthewSections, _ := loadSectionDataForHandler("matthew")
+	markSections, _ := loadSectionDataForHandler("mark")
+	lukeSections, _ := loadSectionDataForHandler("luke")
+	johnSections, _ := loadSectionDataForHandler("john")
 
 	// Build HTML for Gospel Harmony
 	html := `

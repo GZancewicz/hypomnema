@@ -49,6 +49,18 @@ type VerseToCanon map[string]map[string]string
 // CanonLookup holds the canon lookup table with format "I.1": {gospel: verses}
 type CanonLookup map[string]map[string]string
 
+// HarmonyEntry represents an entry in the harmony.json file
+type HarmonyEntry struct {
+	Canon    string         `json:"canon"`
+	Sections map[string]int `json:"sections"`
+}
+
+// SectionEntry represents a section in a book's section file
+type SectionEntry struct {
+	Section   int    `json:"section"`
+	Reference string `json:"reference"`
+}
+
 // Homily represents a Chrysostom homily reference
 type Homily struct {
 	ID      int    `json:"id"`
@@ -105,6 +117,8 @@ type Commentary struct {
 var (
 	verseToCanon VerseToCanon
 	canonLookup CanonLookup
+	harmonyData []HarmonyEntry
+	sectionData map[string][]SectionEntry
 	commentaries map[string]*Commentary
 	chrysostomMatthewFootnotes AllFootnotes
 	chrysostomJohnFootnotes    AllFootnotes
@@ -146,16 +160,22 @@ func init() {
 	// Initialize commentaries map
 	commentaries = make(map[string]*Commentary)
 	// Force rebuild - footnote tooltip positioning fix
-	
+
 	// Load paragraph data
 	loadParagraphData()
-	
+
 	// Load verse-to-canon mapping
 	loadVerseToCanon()
-	
+
 	// Load canon lookup data
 	loadCanonLookup()
-	
+
+	// Load harmony data
+	loadHarmonyData()
+
+	// Load section data
+	loadSectionData()
+
 	// Load all commentaries
 	loadCommentary("chrysostom", "matthew", 
 		"../texts/commentaries/chrysostom/matthew/verse_mapping.json",
@@ -226,6 +246,140 @@ func loadCanonLookup() {
 	}
 }
 
+func loadHarmonyData() {
+	file, err := os.Open("../texts/reference/eusebian_canons/harmony.json")
+	if err != nil {
+		log.Println("Warning: Could not load harmony data:", err)
+		harmonyData = []HarmonyEntry{}
+		return
+	}
+	defer file.Close()
+
+	err = json.NewDecoder(file).Decode(&harmonyData)
+	if err != nil {
+		log.Println("Warning: Could not parse harmony data:", err)
+		harmonyData = []HarmonyEntry{}
+	}
+}
+
+func loadSectionData() {
+	sectionData = make(map[string][]SectionEntry)
+	gospels := []string{"matthew", "mark", "luke", "john"}
+
+	for _, gospel := range gospels {
+		filePath := fmt.Sprintf("../texts/reference/eusebian_canons/data/%s_sections.json", gospel)
+		file, err := os.Open(filePath)
+		if err != nil {
+			log.Printf("Warning: Could not load %s section data: %v", gospel, err)
+			continue
+		}
+
+		var sections []SectionEntry
+		err = json.NewDecoder(file).Decode(&sections)
+		file.Close()
+
+		if err != nil {
+			log.Printf("Warning: Could not parse %s section data: %v", gospel, err)
+			continue
+		}
+
+		sectionData[gospel] = sections
+	}
+}
+
+func getParallels(book string, chapter, verse int) string {
+	sections, ok := sectionData[book]
+	if !ok {
+		return ""
+	}
+
+	verseNum := chapter*1000 + verse
+
+	for _, section := range sections {
+		startChap, startVerse, endChap, endVerse, err := parseVerseRef(section.Reference)
+		if err != nil {
+			continue
+		}
+
+		startNum := startChap*1000 + startVerse
+		endNum := endChap*1000 + endVerse
+
+		if verseNum >= startNum && verseNum <= endNum {
+			sectionNum := section.Section
+
+			for _, harmony := range harmonyData {
+				bookKey := strings.Title(book)
+				if sec, ok := harmony.Sections[bookKey]; ok && sec == sectionNum {
+					var parallels []string
+					gospelAbbr := map[string]string{
+						"Matthew": "Mt",
+						"Mark":    "Mk",
+						"Luke":    "Lk",
+						"John":    "Jn",
+					}
+
+					for _, gospel := range []string{"Matthew", "Mark", "Luke", "John"} {
+						if gospel == bookKey {
+							continue
+						}
+						if secNum, exists := harmony.Sections[gospel]; exists {
+							if secRef, ok := sectionData[strings.ToLower(gospel)]; ok {
+								for _, s := range secRef {
+									if s.Section == secNum {
+										parallels = append(parallels, fmt.Sprintf("%s %s", gospelAbbr[gospel], s.Reference))
+										break
+									}
+								}
+							}
+						}
+					}
+
+					if len(parallels) > 0 {
+						return strings.Join(parallels, "<br>")
+					}
+					return ""
+				}
+			}
+			break
+		}
+	}
+
+	return ""
+}
+
+func getCanonAndSection(book string, chapter, verse int) string {
+	sections, ok := sectionData[book]
+	if !ok {
+		return ""
+	}
+
+	verseNum := chapter*1000 + verse
+
+	for _, section := range sections {
+		startChap, startVerse, endChap, endVerse, err := parseVerseRef(section.Reference)
+		if err != nil {
+			continue
+		}
+
+		startNum := startChap*1000 + startVerse
+		endNum := endChap*1000 + endVerse
+
+		if verseNum >= startNum && verseNum <= endNum {
+			sectionNum := section.Section
+
+			for _, harmony := range harmonyData {
+				bookKey := strings.Title(book)
+				if sec, ok := harmony.Sections[bookKey]; ok && sec == sectionNum {
+					return fmt.Sprintf("%s.%d", harmony.Canon, sectionNum)
+				}
+			}
+			break
+		}
+	}
+
+	return ""
+}
+
 // loadCommentary loads both verse-to-homily mapping and coverage data for a commentary
 func loadCommentary(author, book, homiliesPath, coveragePath string) {
 	key := fmt.Sprintf("%s-%s", author, book)
@@ -286,11 +440,16 @@ func loadAllFootnotes() {
 // parseVerseRef parses a verse reference like "3.3" or "3.3-6" into chapter and verse numbers
 
 func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, err error) {
-	// Handle ranges like "3.3-6" or single verses like "3.3"
+	// Handle ranges like "3:3-6" or "3.3-6" or single verses like "3:3" or "3.3"
 	parts := strings.Split(ref, "-")
-	
-	// Parse start reference
-	startParts := strings.Split(parts[0], ".")
+
+	// Parse start reference - support both : and . separators
+	var startParts []string
+	if strings.Contains(parts[0], ":") {
+		startParts = strings.Split(parts[0], ":")
+	} else {
+		startParts = strings.Split(parts[0], ".")
+	}
 	if len(startParts) != 2 {
 		return 0, 0, 0, 0, fmt.Errorf("invalid verse reference: %s", ref)
 	}
@@ -312,10 +471,15 @@ func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, er
 		return startChap, startVerse, startChap, startVerse, nil
 	}
 	
-	// Parse end reference
-	if strings.Contains(parts[1], ".") {
-		// Full reference like "3.6"
-		endParts := strings.Split(parts[1], ".")
+	// Parse end reference - support both : and . separators
+	if strings.Contains(parts[1], ".") || strings.Contains(parts[1], ":") {
+		// Full reference like "3:6" or "3.6"
+		var endParts []string
+		if strings.Contains(parts[1], ":") {
+			endParts = strings.Split(parts[1], ":")
+		} else {
+			endParts = strings.Split(parts[1], ".")
+		}
 		endChap, err = strconv.Atoi(endParts[0])
 		if err != nil {
 			return 0, 0, 0, 0, err
@@ -1790,6 +1954,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	type TableRow struct {
 		Scripture     string
 		Canon         string
+		EusebianIndex string
+		Parallels     string
 		Father        string
 		Work          string
 		Section       string
@@ -1884,18 +2050,14 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
 						}
 
-						// Look up Eusebian Canon for the starting verse
-						canon := ""
-						if bookCanons, ok := verseToCanon[strings.ToLower(book.Name())]; ok {
-							verseKey := fmt.Sprintf("%d:%d", h.Start.Chapter, h.Start.Verse)
-							if canonVal, ok := bookCanons[verseKey]; ok {
-								canon = canonVal
-							}
-						}
+						eusebianIndex := getCanonAndSection(strings.ToLower(book.Name()), h.Start.Chapter, h.Start.Verse)
+						parallels := getParallels(strings.ToLower(book.Name()), h.Start.Chapter, h.Start.Verse)
 
 						tableRows = append(tableRows, TableRow{
 							Scripture:     scripture,
-							Canon:         canon,
+							Canon:         "",
+							EusebianIndex: eusebianIndex,
+							Parallels:     parallels,
 							Father:        author.fullName,
 							Work:          work,
 							Section:       h.Title,
@@ -2029,7 +2191,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					<thead>
 						<tr>
 							<th>Scripture</th>
-							<th>Eusebian Canon</th>
+							<th>Eusebian</th>
+							<th>Parallel</th>
 							<th>Father</th>
 							<th>Work</th>
 							<th>Section</th>
@@ -2055,9 +2218,10 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							<td>%s</td>
 							<td style="text-align: center;">%s</td>
 							<td>%s</td>
+							<td>%s</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, row.Scripture, row.Canon, row.Father, row.Work, link)
+						</tr>`, row.Scripture, row.EusebianIndex, row.Parallels, row.Father, row.Work, link)
 		}
 
 		html += `
