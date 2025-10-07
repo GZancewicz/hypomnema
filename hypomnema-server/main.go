@@ -1934,11 +1934,15 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		St. Nikolai Velimirovich's daily meditations from the Prologue of Ohrid, featuring
 		homilies on Scripture organized by calendar date (In progress).</p>
 
+		<p><strong>Maximos the Confessor's On the Lord's Prayer</strong><br>
+		St. Maximos the Confessor's treatise on the Lord's Prayer, providing spiritual
+		commentary on both Matthew and Luke's accounts of the Our Father.</p>
+
 		<h3>Features</h3>
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, and Nikolai Velimirovich</li>
+			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirovich, and Maximos the Confessor</li>
 			<li>Commentary Index showing available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Split-screen commentary viewing</li>
@@ -2029,6 +2033,13 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			"Nikolai Velimirovich",
 			map[string]string{
 				"Prologue": "Prologue of Ohrid",
+			},
+		},
+		{
+			"maximos_the_confessor",
+			"Maximos the Confessor",
+			map[string]string{
+				"On the Lord's Prayer": "On the Lord's Prayer",
 			},
 		},
 	}
@@ -2322,8 +2333,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		for _, row := range rows {
 			// Determine the homily/sermon link based on author
 			var link string
-			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" {
-				// Gregory the Great, Bede, and Nikolai - plain text, no link
+			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" || row.Author == "maximos_the_confessor" {
+				// Gregory the Great, Bede, Nikolai, and Maximos - plain text, no link
 				link = row.Section
 			} else if row.Author == "cyril" {
 				// Cyril sermons use negative IDs in the JavaScript
