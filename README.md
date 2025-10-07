@@ -1,6 +1,6 @@
 # Hypomnema
 
-A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, and Venerable Bede.
+A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, and Nikolai Velimirovich.
 
 ## Features
 
@@ -15,6 +15,7 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
   - Cyril of Alexandria's 153 sermons on Luke
   - Gregory the Great's 40 homilies across all four Gospels
   - Venerable Bede's 50 homilies across all four Gospels
+  - Nikolai Velimirovich's daily meditations from the Prologue of Ohrid featuring homilies on Scripture (In progress)
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout)
   - Hover tooltips showing commentary references
@@ -184,6 +185,11 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - **50 Homilies on the Gospels** organized in two books covering passages from all four Gospels
 - Book I: 25 homilies (I.1 through I.25)
 - Book II: 25 homilies (II.1 through II.25)
+
+### Nikolai Velimirovich (1880-1956)
+- **Daily Meditations from the Prologue of Ohrid** featuring homilies on Scripture
+- Organized by calendar date (In progress)
+- Each entry provides spiritual reflection on specific Scripture passages
 
 ### Features
 - **Inline References** showing which homilies/sermons discuss each passage
