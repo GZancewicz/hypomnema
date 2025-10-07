@@ -1930,12 +1930,16 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		The Venerable Bede's 50 homilies on the Gospels, organized in two books, covering
 		passages from all four Gospels from the early medieval period in England.</p>
 
+		<p><strong>Nikolai Velimirovich's Prologue of Ohrid</strong><br>
+		St. Nikolai Velimirovich's daily meditations from the Prologue of Ohrid, featuring
+		homilies on Scripture organized by calendar date (In progress).</p>
+
 		<h3>Features</h3>
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, and Venerable Bede</li>
-			<li>Commentary Index showing all 421 available homilies/sermons organized by Gospel book</li>
+			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, and Nikolai Velimirovich</li>
+			<li>Commentary Index showing available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Split-screen commentary viewing</li>
 			<li>Responsive design for comfortable reading on any device</li>
