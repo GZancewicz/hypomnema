@@ -2020,6 +2020,13 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				"Homilies on the Gospels": "Homilies on the Gospels",
 			},
 		},
+		{
+			"nikolai",
+			"Nikolai Velimirovich",
+			map[string]string{
+				"Prologue": "Prologue of Ohrid",
+			},
+		},
 	}
 
 	for _, author := range authors {
@@ -2077,16 +2084,28 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							bookName = strings.Title(book.Name())
 						}
 
-						// Format scripture reference
+						// Gospel abbreviations for Scripture column
+						gospelAbbr := map[string]string{
+							"Matthew": "Mt",
+							"Mark":    "Mk",
+							"Luke":    "Lk",
+							"John":    "Jn",
+						}
+						bookAbbr := gospelAbbr[bookName]
+						if bookAbbr == "" {
+							bookAbbr = bookName
+						}
+
+						// Format scripture reference with abbreviations
 						var scripture string
 						if h.Start.Chapter == h.End.Chapter {
 							if h.Start.Verse == h.End.Verse {
-								scripture = fmt.Sprintf("%s %d:%d", bookName, h.Start.Chapter, h.Start.Verse)
+								scripture = fmt.Sprintf("%s %d:%d", bookAbbr, h.Start.Chapter, h.Start.Verse)
 							} else {
-								scripture = fmt.Sprintf("%s %d:%d-%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Verse)
+								scripture = fmt.Sprintf("%s %d:%d-%d", bookAbbr, h.Start.Chapter, h.Start.Verse, h.End.Verse)
 							}
 						} else {
-							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookName, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
+							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookAbbr, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
 						}
 
 						eusebianIndex := getCanonAndSection(bookNameLower, h.Start.Chapter, h.Start.Verse)
@@ -2143,6 +2162,24 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	html := `
 	<div class="chapter-text" style="max-width: 900px; margin: 0 auto;">
 		<style>
+			.index-search-box {
+				margin-bottom: 20px;
+				padding: 12px;
+				background: #f9f9f9;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+			}
+			.index-search-box input {
+				width: 100%;
+				padding: 10px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				font-size: 14px;
+			}
+			.index-search-box input:focus {
+				outline: none;
+				border-color: #4a6da0;
+			}
 			.book-section {
 				margin-bottom: 20px;
 				border: 1px solid #ddd;
@@ -2192,12 +2229,51 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				border: 1px solid #ddd;
 			}
 		</style>
+
+		<div class="index-search-box">
+			<input type="text" id="indexSearch" placeholder="Search for anything on this page" onkeyup="filterIndex()">
+		</div>
+
 		<script>
 			function toggleBook(bookName) {
 				const header = event.currentTarget;
 				const content = header.nextElementSibling;
 				header.classList.toggle('expanded');
 				content.classList.toggle('expanded');
+			}
+
+			function filterIndex() {
+				const searchTerm = document.getElementById('indexSearch').value.toLowerCase();
+				const bookSections = document.querySelectorAll('.book-section');
+
+				bookSections.forEach(section => {
+					const rows = section.querySelectorAll('tbody tr');
+					let visibleCount = 0;
+
+					rows.forEach(row => {
+						const text = row.textContent.toLowerCase();
+						if (text.includes(searchTerm)) {
+							row.style.display = '';
+							visibleCount++;
+						} else {
+							row.style.display = 'none';
+						}
+					});
+
+					// Show/hide entire book section based on whether it has visible rows
+					if (visibleCount > 0) {
+						section.style.display = '';
+						// Auto-expand section if search is active and has results
+						if (searchTerm.length > 0) {
+							const header = section.querySelector('.book-header');
+							const content = section.querySelector('.book-content');
+							header.classList.add('expanded');
+							content.classList.add('expanded');
+						}
+					} else {
+						section.style.display = 'none';
+					}
+				});
 			}
 		</script>
 	`
@@ -2242,8 +2318,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		for _, row := range rows {
 			// Determine the homily/sermon link based on author
 			var link string
-			if row.Author == "gregory_the_great" || row.Author == "bede" {
-				// Gregory the Great and Bede - plain text, no link
+			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" {
+				// Gregory the Great, Bede, and Nikolai - plain text, no link
 				link = row.Section
 			} else if row.Author == "cyril" {
 				// Cyril sermons use negative IDs in the JavaScript
@@ -2278,9 +2354,10 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		<div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
 			<h4 style="margin-top: 0;">How to Use</h4>
 			<p style="line-height: 1.6;">
-				This index shows all available patristic commentaries organized by scripture reference.
-				To read a commentary, navigate to the corresponding book in the New Testament section
-				and look for the blue markers in the margin that indicate commentary availability.
+				This page lists available Patristic commentaries organized by Scripture reference.
+				References that are links are available to read online here (they also have blue markers
+				next to passage in Scripture). Search for any Scripture reference, Church Father or
+				available commentary using the search bar at top.
 			</p>
 		</div>
 	</div>
