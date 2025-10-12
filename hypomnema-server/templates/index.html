@@ -268,7 +268,7 @@
 
                 <ul style="margin-bottom: 20px;">
                     <li class="book-item" onclick="loadAbout(event)">
-                        About Hypomnema
+                        About/Donate
                     </li>
                     <li class="book-item" onclick="loadIndex(event)">
                         COMMENTARIES
@@ -773,7 +773,7 @@
         
         function loadAbout(evt) {
             // Update header
-            document.getElementById('book-title').textContent = 'About Hypomnema';
+            document.getElementById('book-title').textContent = 'About/Donate';
             document.getElementById('chapter-title').textContent = '';
 
             // Remove active state from all items
@@ -788,7 +788,7 @@
             } else {
                 // Called programmatically, find and activate the About menu item
                 document.querySelectorAll('.book-item').forEach(item => {
-                    if (item.textContent.trim() === 'About Hypomnema') {
+                    if (item.textContent.trim() === 'About/Donate') {
                         item.classList.add('active');
                     }
                 });

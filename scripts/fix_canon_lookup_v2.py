@@ -2,6 +2,7 @@
 
 import json
 import re
+from pathlib import Path
 from collections import defaultdict
 
 def parse_section_file(file_path, book_name):
@@ -47,18 +48,20 @@ def roman_to_canon_name(canon_num):
 def build_canon_lookup():
     """Build the complete canon lookup from all source files."""
 
-    # File paths
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    data_dir = project_root / 'texts' / 'reference' / 'eusebian_canons' / 'data'
+
     files = {
-        'matthew': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MAT-sections.txt',
-        'mark': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MRK-sections.txt',
-        'luke': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/LUK-sections.txt',
-        'john': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/JHN-sections.txt'
+        'matthew': data_dir / 'MAT-sections.txt',
+        'mark': data_dir / 'MRK-sections.txt',
+        'luke': data_dir / 'LUK-sections.txt',
+        'john': data_dir / 'JHN-sections.txt'
     }
 
-    # Parse all files
     all_sections = {}
     for book, file_path in files.items():
-        sections = parse_section_file(file_path, book)
+        sections = parse_section_file(str(file_path), book)
         all_sections[book] = sections
         print(f"Parsed {len(sections)} sections from {book}")
 
@@ -196,15 +199,17 @@ def build_canon_lookup():
 def main():
     print("Building corrected canon lookup...")
 
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    canon_dir = project_root / 'texts' / 'reference' / 'eusebian_canons'
+
     canon_lookup = build_canon_lookup()
 
-    # Sort the keys naturally (I.1, I.2, ... I.10, ...)
     def natural_sort_key(key):
         parts = key.split('.')
         roman_part = parts[0]
         num_part = int(parts[1])
 
-        # Convert roman to number for sorting
         roman_to_num = {
             "I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8,
             "IX": 9, "X": 10, "XI": 11, "XII": 12, "XIII": 13
@@ -215,25 +220,22 @@ def main():
     sorted_keys = sorted(canon_lookup.keys(), key=natural_sort_key)
     sorted_canon_lookup = {key: canon_lookup[key] for key in sorted_keys}
 
-    # Write the corrected canon lookup
-    output_path = '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/canon_lookup_corrected_v2.json'
+    output_path = canon_dir / 'canon_lookup_corrected_v2.json'
     with open(output_path, 'w') as f:
         json.dump(sorted_canon_lookup, f, indent=2)
 
     print(f"Wrote corrected canon lookup to {output_path}")
     print(f"Total canon entries: {len(sorted_canon_lookup)}")
 
-    # Show some examples
     print("\nFirst few entries:")
     for i, (key, value) in enumerate(sorted_canon_lookup.items()):
         if i >= 10:
             break
         print(f"  {key}: {value}")
 
-    # Compare with current canon_lookup to show differences
     print("\nComparing with existing canon_lookup.json...")
     try:
-        with open('/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/canon_lookup.json', 'r') as f:
+        with open(canon_dir / 'canon_lookup.json', 'r') as f:
             existing_lookup = json.load(f)
 
         print(f"Existing lookup has {len(existing_lookup)} entries")

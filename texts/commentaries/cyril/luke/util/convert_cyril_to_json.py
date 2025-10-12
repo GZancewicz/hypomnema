@@ -299,7 +299,8 @@ def process_html_file(filepath, sermon_ranges):
     return sermons
 
 def main():
-    base_dir = Path('/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/commentaries/cyril/luke')
+    script_dir = Path(__file__).parent
+    base_dir = script_dir.parent
     source_dir = base_dir / 'source'
     content_dir = base_dir / 'content'
     
