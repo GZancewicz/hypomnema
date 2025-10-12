@@ -2,6 +2,8 @@
 
 import json
 import re
+import os
+from pathlib import Path
 from collections import defaultdict
 
 def parse_section_file(file_path, book_name):
@@ -45,26 +47,28 @@ def parse_section_file(file_path, book_name):
 def main():
     print("Validating canon entries against source files...")
 
-    # File paths
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    data_dir = project_root / 'texts' / 'reference' / 'eusebian_canons' / 'data'
+    canon_dir = project_root / 'texts' / 'reference' / 'eusebian_canons'
+
     files = {
-        'matthew': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MAT-sections.txt',
-        'mark': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MRK-sections.txt',
-        'luke': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/LUK-sections.txt',
-        'john': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/JHN-sections.txt'
+        'matthew': data_dir / 'MAT-sections.txt',
+        'mark': data_dir / 'MRK-sections.txt',
+        'luke': data_dir / 'LUK-sections.txt',
+        'john': data_dir / 'JHN-sections.txt'
     }
 
-    # Parse all source files
     source_data = {}
     for book, file_path in files.items():
-        verse_to_canon, canon_to_verses = parse_section_file(file_path, book)
+        verse_to_canon, canon_to_verses = parse_section_file(str(file_path), book)
         source_data[book] = {
             'verse_to_canon': verse_to_canon,
             'canon_to_verses': canon_to_verses
         }
         print(f"Parsed {book}: {len(verse_to_canon)} verse ranges")
 
-    # Load current canon_lookup.json
-    with open('/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/canon_lookup.json', 'r') as f:
+    with open(canon_dir / 'canon_lookup.json', 'r') as f:
         current_lookup = json.load(f)
 
     print(f"Current canon_lookup.json has {len(current_lookup)} entries")
@@ -143,8 +147,7 @@ def main():
                 for book, correct_verse in book_corrections.items():
                     corrected_lookup[canon_key][book] = correct_verse
 
-        # Save corrected version
-        output_path = '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/canon_lookup_corrected_simple.json'
+        output_path = canon_dir / 'canon_lookup_corrected_simple.json'
         with open(output_path, 'w') as f:
             json.dump(corrected_lookup, f, indent=2)
 

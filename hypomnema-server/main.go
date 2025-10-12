@@ -587,13 +587,13 @@ func main() {
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	// Reload templates in development for hot reload - v5
-	// Use absolute path since Air runs from tmp directory
-	tmpl, err := template.ParseGlob("/Users/gregzancewicz/Documents/Other/Projects/hypomnema/hypomnema-server/templates/*.html")
+	tmpl, err := template.ParseGlob("templates/*.html")
 	if err != nil {
-		log.Printf("Template loading error from filesystem: %v", err)
-		// Fallback to embedded templates
-		tmpl = templates
+		wd, _ := os.Getwd()
+		tmpl, err = template.ParseGlob(filepath.Join(wd, "..", "templates", "*.html"))
+		if err != nil {
+			tmpl = templates
+		}
 	}
 	
 	// Handle direct book/chapter URLs like /matthew/1

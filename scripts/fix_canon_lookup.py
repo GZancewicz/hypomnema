@@ -2,6 +2,7 @@
 
 import json
 import re
+from pathlib import Path
 from collections import defaultdict
 
 def parse_section_file(file_path, book_name):
@@ -47,15 +48,17 @@ def roman_to_canon_name(canon_num):
 def build_canon_lookup():
     """Build the complete canon lookup from all source files."""
 
-    # File paths
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    data_dir = project_root / 'texts' / 'reference' / 'eusebian_canons' / 'data'
+
     files = {
-        'matthew': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MAT-sections.txt',
-        'mark': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/MRK-sections.txt',
-        'luke': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/LUK-sections.txt',
-        'john': '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/data/JHN-sections.txt'
+        'matthew': data_dir / 'MAT-sections.txt',
+        'mark': data_dir / 'MRK-sections.txt',
+        'luke': data_dir / 'LUK-sections.txt',
+        'john': data_dir / 'JHN-sections.txt'
     }
 
-    # Parse all files
     all_sections = {}
     for book, file_path in files.items():
         sections = parse_section_file(file_path, book)
@@ -149,11 +152,14 @@ def main():
 
         return (roman_to_num.get(roman_part, 0), num_part)
 
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    canon_dir = project_root / 'texts' / 'reference' / 'eusebian_canons'
+
     sorted_keys = sorted(canon_lookup.keys(), key=natural_sort_key)
     sorted_canon_lookup = {key: canon_lookup[key] for key in sorted_keys}
 
-    # Write the corrected canon lookup
-    output_path = '/Users/gregzancewicz/Documents/Other/Projects/hypomnema/texts/reference/eusebian_canons/canon_lookup_corrected.json'
+    output_path = canon_dir / 'canon_lookup_corrected.json'
     with open(output_path, 'w') as f:
         json.dump(sorted_canon_lookup, f, indent=2)
 
