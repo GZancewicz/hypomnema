@@ -928,9 +928,11 @@
             modalTitle.textContent = `Canon ${canonKey}`;
             modalBody.innerHTML = '<div class="loading">Loading passages...</div>';
             modal.style.display = 'block';
-            
-            // Fetch the verses via HTMX
-            htmx.ajax('GET', `/api/canon/${canonKey}`, '#modalBody');
+
+            htmx.ajax('GET', `/api/canon/${canonKey}`, {
+                target: '#modalBody',
+                swap: 'innerHTML'
+            });
         }
         
         function closeModal(event) {

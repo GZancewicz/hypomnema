@@ -582,7 +582,7 @@ func main() {
 		port = "8080"
 	}
 
-	fmt.Printf("Server starting on http://localhost:%s (Cyril debug v15)\n", port)
+	fmt.Printf("Server starting on http://localhost:%s (Canon X fix v16)\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
@@ -1451,7 +1451,7 @@ func loadVerseText(gospel string, verseRef string) string {
 	
 	chapterStr := fmt.Sprintf("%02d", chapterNum)
 	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", gospel, chapterStr, gospel+"_"+chapterStr+".txt")
-	
+
 	file, err := os.Open(filePath)
 	if err != nil {
 		return ""
@@ -1465,8 +1465,9 @@ func loadVerseText(gospel string, verseRef string) string {
 	
 	// Find the verse
 	lines := strings.Split(string(content), "\n")
+	searchPrefix := chapter + ":" + versePart + " "
 	for _, line := range lines {
-		if strings.HasPrefix(line, chapter+":"+versePart+" ") {
+		if strings.HasPrefix(line, searchPrefix) {
 			// Extract just the text part
 			spaceIndex := strings.Index(line, " ")
 			if spaceIndex != -1 {
@@ -1474,7 +1475,7 @@ func loadVerseText(gospel string, verseRef string) string {
 			}
 		}
 	}
-	
+
 	return ""
 }
 
@@ -2472,7 +2473,13 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 
 			eusebianCell := row.EusebianIndex
 			if row.EusebianIndex != "" {
-				eusebianCell = fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, row.EusebianIndex, row.EusebianIndex)
+				parts := strings.Split(row.EusebianIndex, " / ")
+				var links []string
+				for _, part := range parts {
+					part = strings.TrimSpace(part)
+					links = append(links, fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, part, part))
+				}
+				eusebianCell = strings.Join(links, " / ")
 			}
 
 			html += fmt.Sprintf(`
@@ -2659,6 +2666,17 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 				parallels = getParallels(strings.ToLower(bookName), chapter, verse)
 			}
 
+			eusebianCell := eusebianIndex
+			if eusebianIndex != "" {
+				parts := strings.Split(eusebianIndex, " / ")
+				var links []string
+				for _, part := range parts {
+					part = strings.TrimSpace(part)
+					links = append(links, fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, part, part))
+				}
+				eusebianCell = strings.Join(links, " / ")
+			}
+
 			html += fmt.Sprintf(`
 						<tr>
 							<td>%s %s</td>
@@ -2667,7 +2685,7 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 							<td>John Chrysostom</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianIndex, parallels, work, link)
+						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianCell, parallels, work, link)
 		}
 
 		html += `
