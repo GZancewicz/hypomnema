@@ -156,19 +156,25 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 4. Root Directory: `hypomnema-server`
 5. Build Command: `go build -o app`
 6. Start Command: `./app`
+7. Google Analytics is only in main branch (production), not in staging branch
 
 ## Current Features
 - KJV New Testament with chapter navigation
 - John Chrysostom's 90 homilies on Matthew and 88 homilies on John
 - Cyril of Alexandria's 153 sermons on Luke (manuscript contains only fragments for 154-156)
+- Gregory the Great's 40 homilies across all four Gospels
+- Venerable Bede's 50 homilies across all four Gospels
 - Minimal blue markers in right margin for commentary references
 - Custom hover tooltips showing homily/sermon numbers
 - Split-screen commentary viewing (50/50 layout)
 - Footnotes with hover tooltips (Chrysostom only)
 - Cross-Gospel homily references via Eusebian canons (Matthew and John homilies appear in Mark/Luke)
 - Responsive design with mobile hamburger menu
-- Eusebian canon numbers with parallel passage tooltips
+- Eusebian canon numbers with clickable links showing parallel passages in modal
+- Scripture References page with integrated Eusebian canon links
+- Commentaries page with full commentary index and Eusebian canon links
 - Unified commentary system using common data structures
+- Google Analytics integration (production only via main branch)
 
 ## Server Startup Reminders
 - User should always start/restart server

@@ -22,10 +22,15 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
   - Hover tooltips showing commentary references
   - Smart cross-referencing to parallel Gospel passages
   - Footnotes with hover tooltips
-- **Eusebian Canon System** showing parallel Gospel passages
+- **Eusebian Canon System**
+  - Canon numbers displayed in text with clickable links
+  - Modal showing parallel Gospel passages with full verse text
+  - Integrated on both Commentaries and Scripture References pages
+- **Scripture References Page** showing Eusebian canon cross-references and patristic commentary coverage
 - **Responsive Design** with mobile-friendly hamburger menu
 - **Clean Typography** with paragraph-based formatting
 - Live reload during development with Air
+- **Google Analytics** integration (production only)
 
 ## Commentary Metadata Structure
 
