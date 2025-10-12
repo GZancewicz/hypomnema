@@ -2309,6 +2309,16 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		</style>
 
+		<div style="margin-bottom: 30px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
+			<h4 style="margin-top: 0;">How to Use</h4>
+			<p style="line-height: 1.6;">
+				Passages in Scripture where a complete commentary is available.
+				References that are links are available to read online here (they also have blue markers
+				next to passage in Scripture). Search for any Scripture reference, Church Father or
+				available commentary using the search bar at top.
+			</p>
+		</div>
+
 		<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
 			<h3 style="margin-top: 0; margin-bottom: 15px;">Works Covered</h3>
 			<table style="width: 100%; border-collapse: collapse;">
@@ -2479,16 +2489,6 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	html += `
-
-		<div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
-			<h4 style="margin-top: 0;">How to Use</h4>
-			<p style="line-height: 1.6;">
-				This page lists available Patristic commentaries organized by Scripture reference.
-				References that are links are available to read online here (they also have blue markers
-				next to passage in Scripture). Search for any Scripture reference, Church Father or
-				available commentary using the search bar at top.
-			</p>
-		</div>
 	</div>
 	`
 
@@ -2525,6 +2525,14 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 			.book-table th { background: #f5f5f5; text-align: left; padding: 10px; border: 1px solid #ddd; font-weight: bold; }
 			.book-table td { padding: 10px; border: 1px solid #ddd; }
 		</style>
+
+		<div style="margin-bottom: 30px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
+			<h4 style="margin-top: 0;">How to Use</h4>
+			<p style="line-height: 1.6;">
+				Passages in Scripture referred to in given commentary. Links provided if commentary to read here online.
+				Search for any Scripture reference or homily using the search bar at top.
+			</p>
+		</div>
 
 		<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
 			<h3 style="margin-top: 0; margin-bottom: 15px;">Works Covered</h3>
