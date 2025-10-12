@@ -1,0 +1,30 @@
+{
+  "id": 51,
+  "roman": "LI",
+  "title": "Sermon LI",
+  "subtitle": "Luke 9:27-36",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 36
+    },
+    "display": "Luke 9:27-36"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1774,
+  "excerpt": "9:27-36. But I say unto you truly, there are some of those standing here who shall not taste of death, until they have seen the kingdom of God. And there were after these things about eight days, and He took Peter, and John, and James, and went up to the mountain to pray. And while He was praying, the look of His countenance was altered, and His raiment was white, shining like lightning: and behold! two men talked with Him, who were Moses and Elijah: who having appeared in glory, spake of His departure, that He was about to accomplish at Jerusalem. But Peter and they that were with him were heavy with sleep: but having roused themselves, they both saw His glory, and the two men that stood with Him. And it came to pass, that when they were separating from Him, Peter said unto Jesus, Master, it is good for us to be here: and let us make three tabernacles, one for Thee: and one for Moses: and one for Elijah: not knowing what he said. While he spake these things, there came a cloud, and overshadowed them; and they feared as they entered the cloud. And there...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 127,
+  "roman": "CXXVII",
+  "title": "Sermon CXXVII",
+  "subtitle": "Luke 19:1-10",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 10
+    },
+    "display": "Luke 19:1-10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1614,
+  "excerpt": "19:1-10. [The first half of this Sermon has not survived in the Syriac. The following fragments are from Mai, p. 385. and Cramer, p. 137.] 19:2. Behold a man named Zacchaeus. Zacchaeus was chief of the publicans, a man entirely abandoned to covetousness, and whose sole object was the increase of his gains: for such was the practice of the publicans, though Paul calls it \"idolatry,\" possibly as being fit only for those who have no knowledge of God. And as they shamelessly made open profession of this vice, the Lord very justly joined them with the harlots, thus saying to the chiefs of the Jews, \"The harlots and the publicans go before you into the kingdom of God.\" But Zacchaeus continued not among their number, but was counted worthy of mercy at Christ's hands: for He it is Who calls near those who are afar off, and gives light to those who are in darkness. But come then, and let us see what was the manner of Zacchaeus' conversion. He desired to see Jesus, and climbed therefore into a sycamore tree, and so a seed of salvation sprang up within him. And Christ saw this with the eyes of...",
+  "source_file": "cyril_on_luke_12_sermons_124_134.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

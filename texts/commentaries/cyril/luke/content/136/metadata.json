@@ -1,0 +1,30 @@
+{
+  "id": 136,
+  "roman": "CXXXVI",
+  "title": "Sermon CXXXVI",
+  "subtitle": "Luke 20:27-38",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 38
+    },
+    "display": "Luke 20:27-38"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1897,
+  "excerpt": "20:27-38. And certain Sadducees drew near, who say there is no resurrection; and they asked Him, saying, Teacher, Moses wrote to us, that if any man's brother die having a wife, and he die without children, that his brother shall take his wife, and raise up seed to his brother. There were therefore seven brethren, and the first took a wife, and died without children. And the second and the third took her; and in like manner also the seven: and they died, and left no children. And afterwards the woman died also. Therefore at the resurrection whose wife of them will she be? for the seven had her to wife. And Jesus said to them, The children of this world marry, and are married: but they who have been accounted worthy to attain to that world, and the resurrection from the dead, neither marry nor are married; for neither can they die any more; for they are equal with the angels, and are the children of God, in that they are the children of the resurrection. But that the dead rise, even Moses indicated at the bush, saying, The Lord the God of Abraham, and the God of Isaac,...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

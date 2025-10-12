@@ -1,0 +1,30 @@
+{
+  "id": 107,
+  "roman": "CVII",
+  "title": "Sermon CVII",
+  "subtitle": "Luke 15:11-32",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 32
+    },
+    "display": "Luke 15:11-32"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2566,
+  "excerpt": "15:11-32. And He said, A certain man had two sons: and the younger of them said to his father, Father, give me the portion of your goods that comes to me. And he divided unto them his substance. And not many days after, the younger son gathered every thing together, and journeyed into a far country, and there scattered his goods by riotous living. And when he had spent all, there arose a mighty famine in that land, and he began to be in want. And he went and joined himself to a citizen of that country, who sent him into his fields to feed swine. And he desired to fill his belly with the husks which the swine were eating: and no man gave unto him. And when he came to himself he said, How many hired servants of my father have bread in abundance, and 1 perish here with hunger. I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before you, and am no more 'worthy to be called your son: make me as one of your hired servants. And he arose and went to his father....",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

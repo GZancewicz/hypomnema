@@ -1,0 +1,40 @@
+{
+  "id": 2,
+  "roman": "II",
+  "title": "Sermon II",
+  "subtitle": "Luke 2:8-18",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 18
+    },
+    "display": "Luke 2:8-18"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1902,
+  "excerpt": "2:8-18. And there were shepherds in that country, watching and keeping guard by night over their flock: and the angel of the, Lord came unto them, and the glory of God shone upon them, and they were sore afraid. And the angel said unto them, Fear not: for lo! I bring unto you good tidings of great joy, which, shall be to all the people: that there is born unto you to-day, in the city of David a Saviour, Who is Christ the Lord. And this is your sign; ye shall find a babe wrapped in swaddling-clothes, and laid in a manger. And suddenly there was with the angel a multitude of the heavenly hosts, praising God and saying, Glory to God in the highest, and on earth peace, and among men good will. And it came to pass that when the angels had gone from them unto heaven, the shepherds said unto one another, Let us go even unto Bethlehem, and see this thing which hath come to pass, which the Lord hath made known unto us. And they came with haste, and found Mary and Joseph, and the babe laid in the manger. And when they had seen,...",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "Mai more correctly perhaps reads \u03c4\u1fc6\u03c2 \u1f00\u03bd\u1f77\u03b1\u03c2 \u03ba\u1f73\u03bd\u03c4\u03c1\u03bf\u03bd.",
+    "2": "The Peschito has also this reading, though manifestly wrong.",
+    "3": "The passage which follows occurs also in MS. 12, 154, with no variae lectiones: as does also the subsequent explanation of Is. viii. 3.",
+    "4": "The Syriac translator has here misinterpreted S. Cyril, who does not say that our Lord was free from the emotions natural to bodies, but\n\u03ba\u03b9\u03bd\u1f75\u03bc\u03b1\u03c4\u03bf\u03c2 \u03ba\u03b1\u1f76 \u1fe5\u03bf\u03c0\u1fc6\u03c2 \u03c4\u1fc6\u03c2 \u1f21\u03bc\u1fb6\u03c2 \u1f00\u03c0\u03bf\u03c6\u03b5\u03c1\u03bf\u1f7b\u03c3\u03b7\u03c2 \u1f10\u03c6\u0315 \u1f01 \u03bc\u1f74 \u03b8\u1f73\u03bc\u03b9\u03c2, that is, from\nthat corruption of our nature which suggests sin to us, and inclines us to seek it. (James i. 14.) S. Cyril's main argument here is used by him\nwith great force in his treatise De Incarnat. Dom. c. xi., wherein he shews, that our Lord took the flesh holy and perfectly pure, \"to convict sin of injustice, and to\ndestroy the power of death. For as long as sin sentenced only the guilty to death, no interference with it was possible, seeing that it had justice on its side. But when it subjected to the same punishment Him Who was innocent, and guiltless, and worthy of crowns of honour and hymns of praise, being convicted of injustice, it was by necessary consequence stripped of its power.\"",
+    "5": "This reading is supported by several MSS., two Scholia, and S. Augustine; but   is    rejected    by\nSt. Paul, Heb. i. 6.",
+    "6": "Mai  reads \u1f21 \u1f00\u03bb\u1f75\u03b8\u03b5\u03b9\u03b1, 'the reality.'",
+    "7": "The Fathers constantly refer this name, Maher-shalal-hash-baz, to our Lord, and explain it of the overthrow of Satan. Another instance of S. Cyril's use of it will be found in his 17th Paschal Homily, as follows: The prophetess is the holy Virgin: and the name given to the child suiteth not man, but God: for, saith He, call His name. Spoil quickly:   hastily plunder.     For at\nHis birth the heavenly and supernatural infant, while yet in swaddling bands and on His mother's bosom, because of His human nature, stripped forthwith Satan of his goods by His ineffable might as God: for the Magi came from the East to worship Him, &c.",
+    "8": "Several passages referred by Mai to this homily are not found in the Syriac, as was to be expected, the Catenists having made use not only of the Commentary, but also of S. Cyril's other works, especially the Julian books, besides the possibility of interpolations, and passages erroneously ascribed to him. The first omitted extract from B. is to shew that the shepherds typified the pastors of the Church, as also Christ the chief shepherd, Who came to seek the lost flock: while Bethlehem, the house of bread, His birthplace, is the Church, \"where daily the mystical bread of life is sacrificed.\" The second passage (from what MS. is uncertain) gives a physical interpretation of the butter which the Emmanuel ate, unworthy of Cyril, and at variance with the spiritual interpretation of the prophecy given above. Thirdly, there are a series of extracts from I. taken chiefly from the Commentary on Isaiah. Conf. Vol. II. 134. 200. (Ed. Aub.)    And, lastly, an extract\nfrom B., to the effect that probably it was an archangel who brought the message, accompanied by his usual attendants. The first passage is remarkable, both as speaking of a daily communion, and for its application of the word\n\u1f31\u03b5\u03c1\u03bf\u03c5\u03c1\u03b3\u03b5\u1fd6\u03c4\u03b1\u03b9\nto the \"mystical bread of life.\" The Fathers generally use this word in the same manner as St. Paul, Rom. xv. 16., for the discharge of any religious duty, and in this sense it will be found to occur more than once in the course of the Commentary. Other examples may be seen in Suicer's Thesaurus under\n\u1f31\u03b5\u03c1\u03bf\u03c5\u03c1\u03b3\u1f73\u03c9, and the only instance he gives of its application to the Lord's supper is from Zonaras, a writer of the twelfth century. It occurs, however, in Philostorgii Hist. Eccl. ix. 4., and is there referred by Valesius to the Lord's supper, but this interpretation is far from certain. For the historian is speaking of the heretic Eunomius, who, he says, retired to a small estate situated on the seashore near Chalcedon,\n\u03bf\u1f50\u03b4\u1f72 \u1f31\u03b5\u03c1\u03bf\u03c5\u03c1\u03b3\u1f77\u03b1\u03c2 \u1f10\u03be \u03bf\u1f57 \u03c4\u1fc6\u03c2 \u039a\u03c5\u03b6\u1f77\u03ba\u03bf\u03c5 \u03bc\u03b5\u03c4\u1f73\u03c3\u03c4\u03b7 \u03bf\u1f50 \u03bc\u1f72\u03bd \u03bf\u1f56\u03bd \u1f10\u03c2 \u1f45\u03c3\u03bf\u03bd \u1f10\u03bd\u03b5\u03b2\u1f77\u03c9 \u03c7\u03c1\u1f79\u03bd\u03bf\u03bd \u1f25\u03c8\u03b1\u03c4\u03bf.\nThis Valesius translates by \"ne saera quidem mysteria unquam celebravit;\" but it rather means, that \"he entirely abstained from all the duties of his sacred office.\" In support of his rendering Valesius quotes from Eusebius' Life of Constantine,\nLib. IV. ... where, however, as Wernsdorf shews, by a comparison with other passages of Eusebius, that historian, in his usual rhetorical style, thus described the prayers for the safety of the Emperor, and the Church militant, which, as in our service, preceded the celebration of the Eucharist.   The probability, therefore,\nis, that  this   extract is incorrectly referred to S. Cyril.",
+    "9": "The original Greek of both the third and fourth Sermons has been preserved in the Imperial Library at Paris; and that of the fourth only at Trinity College, Cambridge. The former has been printed by Aubert in his collected edition of S. Cyril's Works, Vol. V. part ii. p. 385., where the two Sermons are incorporated into one."
+  },
+  "verified": true
+}

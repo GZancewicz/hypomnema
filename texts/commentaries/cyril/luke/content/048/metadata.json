@@ -1,0 +1,30 @@
+{
+  "id": 48,
+  "roman": "XLVIII",
+  "title": "Sermon XLVIII",
+  "subtitle": "Luke 9:12-17",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 17
+    },
+    "display": "Luke 9:12-17"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2312,
+  "excerpt": "9:12-17. And the day began to decline: and the twelve drew near, and said unto Him, Send the multitudes away, and let them go into the villages, and fields round about, and lodge, and find victuals: for we are here in a desert place. But He said unto them, Give ye them to eat. But they said, We have no more than five loaves and two fishes: unless we go and buy food for all this people. But they were about five thousand men. And He said to His disciples, Make them sit down in companies of fifty each. And they did so, and made them all sit down. And when He had taken the five loaves and the two fishes, He looked up to heaven and blessed them, and brake, and gave to His disciples to set before the multitudes. And they did eat, and were all filled: and that which remained over unto them was taken up, even twelve baskets of fragments. THE Jews, in my opinion, have not a single argument thai can serve before the tribunal of God as a defence for their disobedience: for their opposition had no appearance of reason on its side. And...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

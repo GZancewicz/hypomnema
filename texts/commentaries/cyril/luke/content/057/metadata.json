@@ -1,0 +1,30 @@
+{
+  "id": 57,
+  "roman": "LVII",
+  "title": "Sermon LVII",
+  "subtitle": "Luke 9:57-58",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 58
+    },
+    "display": "Luke 9:57-58"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1774,
+  "excerpt": "9:57-58. And as they were going in the way, a certain man said unto Him, I will follow Thee whithersoever Thou goest. And Jesus said unto Him: The foxes have holes, and the birds of heaven a place, to lodge in: but the Son of man hath not where to lay His head. TO covet the gifts that come from above from God is in very deed a state of mind worthy of being attained to, and that wins for us all good. But though the Lord of all be a bountiful Giver, yet giveth He not simply to all men without distinction, but to such rather as are worthy of His bounty. For just as those invested with the glory of royalty bestow their honours, and the various offices of state, not upon rough and ignorant men, who have nothing in them worthy of admiration, but crown those rather, who have hereditary nobility, and have been proved by trial worthy of receiving them, and likely to be successful in the discharge of their duties; so also God, Who knoweth all things, bestoweth not a share in His bounties upon souls careless and pleasure seeking, but upon such as are...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

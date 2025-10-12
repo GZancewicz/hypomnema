@@ -1,0 +1,30 @@
+{
+  "id": 149,
+  "roman": "CXLIX",
+  "title": "Sermon CXLIX",
+  "subtitle": "Luke 22:54-62",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 62
+    },
+    "display": "Luke 22:54-62"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1842,
+  "excerpt": "22:54-62. And they took Him, and led Him away, and brought Him into the high priest's house: and Peter followed afar off. And when they had kindled a fire in the midst of the court, and were set down together, Peter sat down among them: and a certain maid beholding him as he sat at the light, looked earnestly at him and said, this man also was with Him. But he denied Him, saying, Woman, 1 know Him not. And after a little while another saw him, and said, You also are one of them. And Peter said, Man, I am not. And about the space of an hour after, another confidently affirmed, saying, Of a truth this man also was with Him: for he is a Galilaean. But Peter said, Man, I know not what you say. And immediately while he was yet speaking the cock crew. And the Lord turned, and looked upon Peter: and Peter remembered the word of the Lord that He had said to him, To-day before the cock crow you shall deny Me thrice. And he went out and wept bitterly. OUR, Lord Jesus Christ, to make us careful in whatever holy occupations we...",
+  "source_file": "cyril_on_luke_14_sermons_146_156.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

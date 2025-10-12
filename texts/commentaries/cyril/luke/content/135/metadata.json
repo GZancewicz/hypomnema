@@ -1,0 +1,30 @@
+{
+  "id": 135,
+  "roman": "CXXXV",
+  "title": "Sermon CXXXV",
+  "subtitle": "Luke 20:19-26",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 26
+    },
+    "display": "Luke 20:19-26"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1835,
+  "excerpt": "20:19-26. And the chief priests and scribes sought that same hour to lay hands upon Him; and they feared the people: for they knew that He had spoken this parable concerning them. And having watched for an opportunity, they sent to Him spies, making pretence of being just men, to find occasion against Him in His speech, that they might deliver Him to the rule and authority of the governor. And they asked Him, saying, Teacher, we know that You speak and teach rightly, and don't discriminate in favour of important persons, but teach the way of God in truth. Is it lawful for us to give tribute to Caesar, or not? But He perceived their wickedness, and said to them, Show me a denarius. And they showed one to Him. And He said, Whose is the image upon it and superscription? And they said, Caesar's. And He said to them, Give therefore to Caesar the things which are Caesar's, and to God the things which are God's. And they could not blame the word before the people; and they wondered at His answer, and were silent. AGAIN is the gang of the Pharisees inflamed with unbridled rage: they draw...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

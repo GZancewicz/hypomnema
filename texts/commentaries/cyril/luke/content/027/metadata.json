@@ -1,0 +1,30 @@
+{
+  "id": 27,
+  "roman": "XXVII",
+  "title": "Sermon XXVII",
+  "subtitle": "Luke 6:20",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 20
+    },
+    "display": "Luke 6:20"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 759,
+  "excerpt": "6:20. Blessed are ye poor: for yours is the kingdom of God. And so the most wise Paul manifestly guides us into the best doctrines, where he says, \"Let your disposition be free from the love of money, being contented with what it has:\" and to this he has added, that \"having nourishment and the means of shelter, we will be therewith content.\" For it was necessary, absolutely necessary, for those whose business it would be to proclaim the saving message of the Gospel to have a mind careless about wealth, and occupied solely with the desire of better things. The argument, however, does not affect all whose means are abundant, but those only whose desire is set upon riches: and who are these? All to whom our Saviour's words apply: \"Store not up for yourselves treasures upon the earth.\" 6:21. Blessed are ye that hunger now; for ye shall be filled. 6:21. Blessed are ye that hunger now; for ye shall be filled. In Matthew, however, again He says; \"Blessed are they that hunger and thirst after righteousness: for they shall be filled:\" but here He simply says, that \"those that hunger shall be filled.\" We say, therefore, that...",
+  "source_file": "cyril_on_luke_03_sermons_26_38.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

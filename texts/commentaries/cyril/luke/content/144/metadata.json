@@ -1,0 +1,30 @@
+{
+  "id": 144,
+  "roman": "CXLIV",
+  "title": "Sermon CXLIV",
+  "subtitle": "Luke 22:31-34",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 34
+    },
+    "display": "Luke 22:31-34"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1756,
+  "excerpt": "22:31-34. Simeon, Simeon, behold Satan has asked for you, that he may sift you like wheat; but I have prayed for you that your faith fail not: and do you also hereafter when converted strengthen your brethren. And he said to Him, Lord, I am ready to go with you both to prison and to death. But He said, I tell you, Peter, that the cock shall not crow to-day until you have thrice denied that You know Me. THE prophet Isaiah bids those who embrace a life of piety towards Christ to go to the proclamations of the Gospel, saying, \"You who thirst, go to the waters.\" But these waters are not the material waters of earth, but rather are divine and spiritual, poured forth for us by Christ Himself. For He is the river of peace, and the torrent of pleasure, and the fountain of life. And so we have heard Himself plainly saying, \"Whosoever thirsts, let him come to Me and drink.\" Come therefore, that here also we may delight ourselves in the sacred and divine streams which now from Him: for what says He to Peter? \"Simeon, Simeon, behold Satan has asked for you to sift...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

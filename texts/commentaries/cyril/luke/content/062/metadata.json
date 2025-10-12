@@ -1,0 +1,30 @@
+{
+  "id": 62,
+  "roman": "LXII",
+  "title": "Sermon LXII",
+  "subtitle": "Luke 10:4-7",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 7
+    },
+    "display": "Luke 10:4-7"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1959,
+  "excerpt": "10:4-7. Carry neither purse, nor scrip, nor shoes; and ask not the peace of any one by the way. And into whatsoever house ye enter, first say, Peace to this house. And if there be there one f5 worthy of peace, your peace shall rest upon him; but if not, it shall return to you. And in that house remain, eating and drinking of their things: for the labourer is worthy of his hire. Change not from house to house. THE prudent and skilful bee visits the flowers in every field and meadow, and gathering the dew that has settled upon them, so makes sweet honey. And Solomon leads us to imitate her conduct, saying, \"Draw near to the bee, and learn how industrious she is, and how excellent is her workmanship. She is beloved, therefore, and praised by every man, and her labours kings and private persons employ for their health.\" Come, therefore, and let us also, wandering, as it were, around some intellectual meadow, gather the dew let fall by the Holy Ghost upon the divine message of the Gospel, that so being enriched in mind we may bring forth the spiritual honey, even the word profitable and...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

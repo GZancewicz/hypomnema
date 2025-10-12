@@ -1,0 +1,30 @@
+{
+  "id": 64,
+  "roman": "LXIV",
+  "title": "Sermon LXIV",
+  "subtitle": "Luke 10:17-20",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 20
+    },
+    "display": "Luke 10:17-20"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1970,
+  "excerpt": "10:17-20. And the seventy returned with joy, saying, Lord, even the devils are subject unto us in Thy Name. And He said unto them, I beheld Satan as lightning fall from heaven. Behold I have given you the authority to tread upon serpents and scorpions, and upon all the power of the enemy, and nothing shall hurt you. But in this rejoice not, that the spirits are subject unto you; but rejoice that your names are written in heaven. IT is somewhere said by one of the holy prophets, \"Will the Lord God do anything without revealing the teaching thereof to His servants the prophets?\" For the God of all made known to the holy prophets those things which were hereafter to take place, in order that they might previously declare them, that so they might not be disbelieved, when in due time what had been foretold arrived at its fulfilment. And those who will may see that what we have now affirmed is true, even from the present lessons. \"For the seventy\" it says, \"returned with joy, saying, Lord, even the devils are subject to us in Thy Name.\" For first of all the twelve disciples had been appointed,...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

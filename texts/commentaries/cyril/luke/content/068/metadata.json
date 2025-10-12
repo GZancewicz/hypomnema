@@ -1,0 +1,30 @@
+{
+  "id": 68,
+  "roman": "LXVIII",
+  "title": "Sermon LXVIII",
+  "subtitle": "Luke 10:25-37",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 37
+    },
+    "display": "Luke 10:25-37"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2117,
+  "excerpt": "10:25-37. And see, a certain lawyer stood up, tempting Him, and saying, Teacher, what shall I do to inherit eternal life? And He said to Him, What is written in the law? how do you read? And he answered and said, That you shall love the Lord your God from all your heart, and from all your soul, and with all your strength, and with all your mind: and your neighbour as yourself. And He said to him, You have answered rightly: this do, and you shall live. But he, wanting to justify himself said to Jesus; And who is my neighbour? And Jesus answered, and said; A certain man went down from Jerusalem to Jericho, and fell among thieves, who, when they had stripped and beaten him, went away, leaving him half dead. And by chance there came down a certain priest that way: and when he saw him, he passed him by. And in like manner also a Levite, when he came to the place, and saw him, passed him by. But a certain Samaritan, as he journeyed, came to him; and when he saw him, he felt pity: and he went to him, and bound up his...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

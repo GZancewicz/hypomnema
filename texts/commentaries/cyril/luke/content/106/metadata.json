@@ -1,0 +1,30 @@
+{
+  "id": 106,
+  "roman": "CVI",
+  "title": "Sermon CVI",
+  "subtitle": "Luke 15:1-10",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "display": "Luke 15:1-10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2432,
+  "excerpt": "15:1-10. Now all the publicans and sinners used to draw near unto Him to hear Him. And the Pharisees and Scribes murmured, saying, This man receives sinners, and eats with them. And He spoke this parable unto them, saying, What man of you having a hundred sheep, and having lost one of them, does not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it. And when he has found it, he lays it on his shoulders, rejoicing. And when he has come home, he calls together his friends and his neighbours, saying unto them, Rejoice with me: for I have found my sheep which was lost. I say unto you, that likewise there shall be joy in heaven over one sinner that repents, more than over ninety and nine just persons who need no repentance. Or what woman having ten drachms, if she lose one of them, does not light a lamp, and sweep the house, and search diligently till she find it. And when she has found it, she calls her friends and her neighbours together, saying, Rejoice with me: for I have found the drachm which I had...",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

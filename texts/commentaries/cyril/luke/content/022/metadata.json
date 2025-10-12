@@ -1,0 +1,30 @@
+{
+  "id": 22,
+  "roman": "XXII",
+  "title": "Sermon XXII",
+  "subtitle": "Luke 6:2",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "display": "Luke 6:2"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 304,
+  "excerpt": "\"And no man puts now wine into old skins.\" The heart of the Jews then is an old skin, and therefore cannot hold the new wine: for this is the saving commandment of the Gospel, making glad the heart of man. But Christ hath filled us with these great blessings, by bountifully endowing us with spiritual gifts, and opening the pathway wide unto all virtue. |91 6:2. Why do ye that which is not lawful to do on the sabbaths? 6:2. Why do ye that which is not lawful to do on the sabbaths? 6:3. And Jesus answered and said unto them, Have ye not even read what David did ...? 6:3. And Jesus answered and said unto them, Have ye not even read what David did ...? Now even though David thus acted contrary to what tho law approves, yet he is rightly and justly esteemed by us as |92 worthy of all admiration: for he was in truth a saint and prophet. Since, therefore, the law of Moses expressly commands, \"Judge just judgment, and regard not the person in judgment;\" how, saith He, condemn ye My disciples, while ye still admire as a saint and prophet the blessed...",
+  "source_file": "cyril_on_luke_02_sermons_12_25.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

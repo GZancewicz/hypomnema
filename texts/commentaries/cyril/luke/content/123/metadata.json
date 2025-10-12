@@ -1,0 +1,30 @@
+{
+  "id": 123,
+  "roman": "CXXIII",
+  "title": "Sermon CXXIII",
+  "subtitle": "Luke 1:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Luke 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1949,
+  "excerpt": "THE SAME SUBJECT CONTINUED. I PERCEIVE you assembled here with great earnestness and zeal; and, as I suppose, you have come to exact a debt. I then, for my part, acknowledge that I promised at our last meeting to complete what was wanting to my discourse: and I have come to pay it as unto children, praying Christ, our common Saviour, to impart to my mind His divine light, and give utterance to my tongue, that I may benefit both you and myself. For Paul has somewhere written, \"The husbandman who labours must first eat of the fruits.\" Let me then bring back to your remembrance first of all what has already been considered, and then we will proceed to what remains. The blessed Evangelist therefore said, \"And a certain ruler asked Him, saying, Good Teacher, what shall I do to inherit eternal life? And He said unto him, Why do you call Me good? No-one is good, but one, God:\" and so on with the rest of the lesson. Now we have already explained what is the meaning of this passage in the Gospel, and enough has been said to you upon that point: for we showed both that...",
+  "source_file": "cyril_on_luke_11_sermons_110_123.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

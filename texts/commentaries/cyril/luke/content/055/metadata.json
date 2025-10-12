@@ -1,0 +1,30 @@
+{
+  "id": 55,
+  "roman": "LV",
+  "title": "Sermon LV",
+  "subtitle": "Luke 9:49-50",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 50
+    },
+    "display": "Luke 9:49-50"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1730,
+  "excerpt": "9:49-50. And John answered and said: Teacher, we saw one casting out devils in Thy Name, and we forbade him because he followeth not with us. But Jesus said unto him: Forbid him not: for he is not against you. For whosoever is not against you, is on your part. PAUL requires us to \"prove every thing,\" and says, \"Be wise money-changers.\" But an exact and scrupulous knowledge of each particular matter we can obtain from no other source than from divinely-inspired Scripture. For David in the Psalms, addressing as it were Christ, the Saviour of all, declares; \"Thy law is a lamp to my feet, and a light unto my paths.\" And Solomon also writes, that \"the commandment of the law is a lamp and a light.\" For just as this sensible light that is in the world, by falling on our bodily eyes, dispels the darkness; so also the law of God, when admitted into the mind and heart of man, illuminates it thoroughly, and does not suffer it to fall against the stumblingblocks of ignorance, nor be caught in the wickednesses of sin. And this I say from admiration of the skilfulness here also displayed in the...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 89,
+  "roman": "LXXXIX",
+  "title": "Sermon LXXXIX",
+  "subtitle": "Luke 12:13-21",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 21
+    },
+    "display": "Luke 12:13-21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2108,
+  "excerpt": "12:13-21. And one of the multitude said unto Him, Teacher, bid my brother divide with me the inheritance. But He said unto him, Man, who made Me a judge or a divider over you? And He said unto them, Take heed, and keep yourselves from all greediness: for a man's life is not from his possessions by reason of his having a superfluity. And He spoke a parable unto them, saying, The land of a certain rich man brought forth unto him plentifully. And he thought within himself, saying, What shall I do, because I have not where to gather my fruits? And he said, This will I do: I will pull down my storehouses, and build greater: and there will I gather all my crops and my goods. And I will say to myself, Self you have many goods laid up for many years; take your ease, eat, drink, enjoy thyself But God said unto him, You fool, this night they demand of you your soul. But whose shall those things be which you have provided? So is he that lays up treasures for himself, and is not rich toward God. PAUL, as a wise man, recommends constancy in...",
+  "source_file": "cyril_on_luke_09_sermons_89_98.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 140,
+  "roman": "CXL",
+  "title": "Sermon CXL",
+  "subtitle": "Luke 21:37-22:6",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 6
+    },
+    "display": "Luke 21:37-22:6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1815,
+  "excerpt": "This Exposition is fit to be read on the Thursday of the Mystery. f4 21:37-22:6. And by day He was teaching in the temple, and at night He went out and abode in the mount called of Olives: and all the people came early to Him in the temple to hear Him. And the feast of unleavened bread drew near, which is called the Passover, and the chief priests and scribes sought how they might kill Him: for they feared the people. But Satan entered into Judah, surnamed Iscariot, who was of the number of the twelve, and He went and spoke to the chief priests and captains, how he might deliver Him to them. And they were glad, and covenanted to give him money: and he promised, and sought a fitting season when he could deliver Him to them without the multitude. THE throng of the Jews, together with their ruler, stood up against the glory of Christ, and contended with the Lord of all. But any one may perceive that it was against their own souls that they prepared their snare, for they dug for themselves pitfalls of destruction, and, as the Psalmist says, \"The heathen are taken...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

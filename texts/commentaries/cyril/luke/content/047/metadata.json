@@ -1,0 +1,30 @@
+{
+  "id": 47,
+  "roman": "XLVII",
+  "title": "Sermon XLVII",
+  "subtitle": "Luke 9:1-5",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "display": "Luke 9:1-5"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3152,
+  "excerpt": "9:1-5. And when He had called the twelve Apostles, He gave them power and authority over all the devils, and to heal sicknesses. And He sent them to preach the kingdom of God, and to heal the sick. And He said unto them, Take nothing for the way: no staff: no scrip: neither bread nor money: nor shall ye have two coats. And into whatsoever house ye enter, there abide, and thence depart. And whosoever will not receive you, when ye depart from that city, shake off the dust from your feet for their testimony. IT is a true saying, that the fruit of good deeds is honourable. For those who wish to lead lives pure and undefiled as far as is possible for men, Christ will adorn with His gifts, and grant them an abundant recompense for all their saintly deeds, and make them partakers of His glory. For it is impossible that He should ever lie who says: \"As I live, saith the Lord, those who honour Me, I will honour.\" As a plain and clear proof of this, I take the glorious and noble company of the holy Apostles. Behold them highly distinguished, and crowned with more...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

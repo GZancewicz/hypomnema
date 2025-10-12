@@ -1,0 +1,30 @@
+{
+  "id": 60,
+  "roman": "LX",
+  "title": "Sermon LX",
+  "subtitle": "Luke 10:1-3",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 3
+    },
+    "display": "Luke 10:1-3"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1588,
+  "excerpt": "10:1-3. After these things the Lord appointed seventy others, and sent them two and two before His face, unto every city and place, whither He was about to enter. And He said unto them, The harvest indeed is great, but the labourers few. Pray therefore the Lord of the harvest to send forth labourers into the harvest. THE Holy Ghost by the mouth of the holy prophets commanded the ministers of the saving word of the gospel, saying, \"Sound the trumpet on the new moon: on the solemn day of your feast.\" And to the new moon we may compare the time of our Saviour's coming. For a new world arose for us, in which all things have become new, as the very wise Paul assures us in his writings. For he says, \"The former things have passed away: behold, all things have become new.\" By the new moon therefore, and solemn feast, we understand the time of the incarnation of the Only-begotten, when a trumpet sounded loudly and clearly, even that which proclaimed the saving message of the gospel. For is not that a time which invites us to keep festival, when we were justified by faith, and washed...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

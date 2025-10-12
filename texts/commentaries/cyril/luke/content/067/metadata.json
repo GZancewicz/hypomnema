@@ -1,0 +1,30 @@
+{
+  "id": 67,
+  "roman": "LXVII",
+  "title": "Sermon LXVII",
+  "subtitle": "Luke 10:23-34",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 34
+    },
+    "display": "Luke 10:23-34"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2007,
+  "excerpt": "10:23-34. And He turned to the disciples when they were alone, and said, Blessed are the eyes which see the things that you see. For I say to you, that many prophets and kings have desired to see the things which you see, and have not seen them; and to hear the things which you hear, and have not heard them. THE shows which the world offers (in its games and theatres) lead men often to the sight of things unprofitable, or rather, to what constantly does them great injury. For the frequenters of such places either give themselves up to the admiration of dancers, and yielding to the soft langour they produce, are dissolved in effeminate emotions; or they extol the declaimers of cold sentiments; or delight themselves in the sounds and vibrations of pipes and harps. But vain and altogether unprofitable are such things, and able to lead the mind of man astray from all good. But us, who practise a virtuous course of life, and are earnest in upright deeds, Christ gathers in His holy courts, that delighting ourselves in singing His praise, we may again be made happy by His sacred words and doctrines, which invite...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 36,
+  "roman": "XXXVI",
+  "title": "Sermon XXXVI",
+  "subtitle": "Luke 7:11",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 11
+    },
+    "display": "Luke 7:11"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1073,
+  "excerpt": "7:11. And it came to pass the day after, He was going to a city called Nair, and His disciples were going with Him,...f19 Observe here too, I pray you, the accuracy of the expression: for the divine Evangelist not only says, that the dead man sat up, but lest any one should by false arguments attack the miracle, saying,' What wonder! if by means of some artifice or other the body was set upright! for it is not as yet clearly proved to be alive, or delivered from the bonds of death:'----for this reason he very skilfully notes down two proofs one after the other, sufficient to produce the conviction that he did in very truth arise and was restored. \"For he began, he says, to speak\"----but an inanimate body cannot speak----\"And He gave him to his mother:\"----but assuredly the woman would not have taken her son back to her house if he had boon dead, and had breathed his last. Those persons therefore who were restored to life by the power of Christ, we take as a pledge of the hope prepared for us of a resurrection of the dead: and these were, this young man, and Lazarus...",
+  "source_file": "cyril_on_luke_03_sermons_26_38.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

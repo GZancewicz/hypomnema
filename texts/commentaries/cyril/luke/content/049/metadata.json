@@ -1,0 +1,30 @@
+{
+  "id": 49,
+  "roman": "XLIX",
+  "title": "Sermon XLIX",
+  "subtitle": "Luke 9:18-22",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "display": "Luke 9:18-22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2737,
+  "excerpt": "9:18-22. And it came to pass that as He was alone, praying, His disciples were with Him: and He asked them, saying, Whom do the multitudes say of Me that I am? And they answered and said, Some, indeed, John the Baptist: and others, Elijah: and others, that some prophet of those in old time has risen again. And He said unto them; But whom do ye say that I am? And Peter answered and said, The Christ of God. And He charged and commanded them to tell this to no man, saying, The Son of man is about to suffer many things, and to be rejected of the elders, and chief priests, and scribes: and be slain, and rise again the third day. WELL may we call out to those who would search the sacred Scriptures, \"Arouse ye, and awake.\" For it is a thing impossible to perceive the exact meaning of the mystery of Christ, if we use for this end a debauched mind, and an understanding drowned, so to speak, in sleep. Need rather is there of a wakeful mind, and a penetrating eye; for the subject is one difficult to comprehend in the highest degree. And...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

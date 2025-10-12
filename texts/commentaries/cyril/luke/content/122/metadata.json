@@ -1,0 +1,30 @@
+{
+  "id": 122,
+  "roman": "CXXII",
+  "title": "Sermon CXXII",
+  "subtitle": "Luke 18:18-27",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 27
+    },
+    "display": "Luke 18:18-27"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1543,
+  "excerpt": "18:18-27. And a certain ruler asked Him, saying, Good Teacher, what shall I do to inherit eternal life? And Jesus said unto him, Why do you call Me good? No-one is good, but one, God. You know the commandments: You shall not kill; you shall not commit adultery; you shall not steal; you shall not bear witness falsely; honour your father and your mother. And he said, All these have I kept from my youth. And when Jesus heard these things, He said unto him; You still lack one thing: sell all that you have, and distribute to the poor, and you shall have treasure in heaven: and come, follow Me. And when he heard this, he was very sorrowful: for he was very rich. And Jesus seeing it said, How hardly shall they that have gold enter into the kingdom of God! For it is easier for a camel to enter in through the eye of a needle, than for a rich man to enter the kingdom of God. And they that heard it said, And who can live? And He said, The things which are impossible with men, are possible with God. THOSE who believe that the Word,...",
+  "source_file": "cyril_on_luke_11_sermons_110_123.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

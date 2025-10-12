@@ -1,0 +1,30 @@
+{
+  "id": 65,
+  "roman": "LXV",
+  "title": "Sermon LXV",
+  "subtitle": "Luke 10:21",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "display": "Luke 10:21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3494,
+  "excerpt": "10:21. In that same hour, Jesus rejoiced in the Holy Ghost, and said, I thank Thee, O Father, Lord of the heaven and the earth, that Thou hast hid these things from the wise and prudent, and revealed them unto babes. Even so, Father; for so it was good in Thy sight. ONE of the holy prophets has said; \"Whoever thirst, come ye to the waters.\" For he sends us to the writings of the holy Evangelists as to fountains of water. For just as \"waters are pleasant to the thirsty soul,\" as Scripture saith, so to the mind that loveth instruction is the life-giving knowledge of the mysteries of our Saviour. Let us, therefore, draw from the sacred springs the living and life-giving waters, even those that are rational and spiritual. Let us take our fill: and weary not in thy drinking: for in these things more than enough is still for edification: and greediness is great praise. What then it was the Saviour said:----That fountain which came down from heaven, That river of delight,----we learn from what has here been read to us. \"In that same hour, Jesus rejoiced in the Holy Ghost, and said,\"----Whosoever then loveth instruction,...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

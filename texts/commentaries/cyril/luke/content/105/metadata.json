@@ -1,0 +1,30 @@
+{
+  "id": 105,
+  "roman": "CV",
+  "title": "Sermon CV",
+  "subtitle": "Luke 14:25-35",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 35
+    },
+    "display": "Luke 14:25-35"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1951,
+  "excerpt": "14:25-35. And great multitudes went with Him: and He turned and said unto them; Whosoever cometh unto Me, and hates not his father and his mother, and his wife, and his children, and his brethren, and his sisters: yes, and his own self also, he cannot be My disciple. And whosoever does not bear his cross, and come after Me, cannot be My disciple. For which of you, that wishes to build a tower, sits not down first, and counts the cost, to see whether he have sufficient to finish it? Lest when he has laid the foundation, and is not able to finish it, all that behold it begin to mock him, saying, This man began to build, and was not able to finish. Or what king going to make war with another king, sits not down first and consider, whether he be able with ten thousand to meet him that comes against him with twenty thousand? And if he be not, while the other is yet afar off, he sends ambasssadors, and asks conditions of peace. So therefore every one of you that forsakes not all his possessions, cannot be My disciple. Halt therefore is good: but if...",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

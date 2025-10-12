@@ -1,0 +1,30 @@
+{
+  "id": 12,
+  "roman": "XII",
+  "title": "Sermon XII",
+  "subtitle": "Luke 4:1-2",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "display": "Luke 4:1-2"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 12641,
+  "excerpt": "4:1-2. But Jesus being full of the Holy Ghost, returned from the Jordan, and continued in the Spirit in the wilderness forty days, being tempted of the Devil. And he ate nothing during those days; and when they were accomplished He hungered. THE blessed prophets, when speaking of the Only-begotten Word of God,----of Him Who is equal unto God in glory, and the sharer of His throne, and radiant in perfect equality unto Him,----lead us to the persuasion that He was manifested as a Saviour and Deliverer for those upon earth, by saying, \"Arise, O Lord, help me.\" He arose therefore and helped, having taken the form of a slave, and being made in the likeness of men: for so did He as one of us set Himself as an avenger in our stead, against that murderous and rebellious serpent, who had brought sin upon us, and thereby had caused corruption and death to reign over the dwellers upon earth, that we by His means, and in Him, might gain the victory, whereas of old we were vanquished, and fallen in Adam. Come therefore and let us praise the Lord, and sing psalms unto God our Saviour: let us trample...",
+  "source_file": "cyril_on_luke_02_sermons_12_25.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

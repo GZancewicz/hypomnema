@@ -1,0 +1,30 @@
+{
+  "id": 82,
+  "roman": "LXXXII",
+  "title": "Sermon LXXXII",
+  "subtitle": "Luke 11:29-36",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 36
+    },
+    "display": "Luke 11:29-36"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1507,
+  "excerpt": "11:29-36. And when the multitudes were gathered together, He began to say; This generation is an evil generation. It seeks a sign: and a sign shall not be given it, except the sign of Jonah. f1 * * * * * * THE request originated in malice, and therefore was not granted them, according to the text, \"The wicked shall seek Me, and shall not find Me.\" * * * * * * * * and which He spoke to the divine Moses; the rod was changed into a serpent. And what thing is this? some one, forsooth, may say; or what is the truth it hints at? And this certainly we must examine: for I say that of all that is contained in the sacred Scriptures, there is nothing which is not useful for edification. When Israel then had dwelt for a lengthened period in Egypt, and been brought up in the customs of its inhabitants, he wandered far from God, and became like one that had fallen from His hand, and been made a serpent, by which is meant one naturally of a thoroughly wicked disposition. But inasmuch as God again took hold of him, he was restored...",
+  "source_file": "cyril_on_luke_08_sermons_81_88.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 108,
+  "roman": "CVIII",
+  "title": "Sermon CVIII",
+  "subtitle": "Luke 16:1-9",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 9
+    },
+    "display": "Luke 16:1-9"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1726,
+  "excerpt": "16:1-9. And He said unto His disciples, There was a certain rich man, who had a steward, and they accused him of scattering his goods. And he called him, and said unto him, What is this that I hear of you? Give up the account of your stewardship: for you can be no longer steward. And the steward said within himself What shall I do, for my lord takes away from me the stewardship? I cannot dig: and to beg I am ashamed. I am resolved what to do, that when I am removed from the stewardship, they may receive me into their houses. So he called each one of his lord's debtors, and said unto the first; How much do you owe unto my lord? And he said, A hundred baths of oil. And he said unto him, Take your writing, and sit down, and write fifty quickly. And afterwards he spoke to the second, And how much do you owe? And he said, A hundred cors f2 of wheat. And he said unto him, Take your writing, and write eighty. And the lord praised the unjust steward, because he had done wisely: for the children of this world...",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

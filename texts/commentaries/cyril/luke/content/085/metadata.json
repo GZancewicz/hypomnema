@@ -1,0 +1,30 @@
+{
+  "id": 85,
+  "roman": "LXXXV",
+  "title": "Sermon LXXXV",
+  "subtitle": "Luke 11:45-48",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "display": "Luke 11:45-48"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1736,
+  "excerpt": "11:45-48. Then answered one of the lawyers, and said unto Him, Teacher, in saying these things you reproach us also. And He said, Also unto you, lawyers, woe! for you burden men with burdens heavy and grievous to be borne; and you yourselves touch not the burdens with one of your fingers. Woe unto you! for you build the sepulchres of the prophets, and your fathers killed them. Therefore you bear witness, and approve of the deeds of your fathers: for they indeed killed them, and you build their sepulchres. REPROOF is ever, so to speak, a thing difficult for any man to bear: but it is not without profit to the soberminded: for it leads them to the duty of performing those things which make them worthy of honour, and lovers of virtuous pursuits. But those who run into wickedness with all eagerness, and whose heart is set against admonition, are hurried into greater sins by the very things that should have made them more soberminded, and are only hardened by the words of those who try to benefit them. And, as an example of this state of mind, behold those who among the Jews were called lawyers. For...",
+  "source_file": "cyril_on_luke_08_sermons_81_88.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

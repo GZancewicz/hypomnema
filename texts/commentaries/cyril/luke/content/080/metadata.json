@@ -1,0 +1,30 @@
+{
+  "id": 80,
+  "roman": "LXXX",
+  "title": "Sermon LXXX",
+  "subtitle": "Luke 11:14-18",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "display": "Luke 11:14-18"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1629,
+  "excerpt": "11:14-18. And He was casting out a dumb devil: and it came to pass, when the devil was gone out, the dumb spoke. And the multitudes wondered: but some of them said, He casts out devils through Beelzebub, the prince of the devils: and others tempting, sought of Him a sign from heaven. But He, knowing their thoughts, said to them; Every kingdom divided against itself is laid desolate: and a house against a house falls. And if Satan also be divided against himself how shall his kingdom stand? Because you say that 1 cast out devils through Beelzebub. \"I HAVE been very jealous for the Lord,\" as Scripture says; and I too would say, fixing an accurate attention upon the lessons from the Gospel set before us, that the frantic tongue of Israel was bold and unbridled in insult, tyrannized over by harsh and unrestrainable wrath, and vanquished by unappeasable envy. For consider how, so to speak, they were even gnashing their teeth at Christ, the Saviour of all, because He made the multitudes wonder by His many divine and astonishing miracles; and because the very devils cried out at His ineffable and godlike power and authority. And this,...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

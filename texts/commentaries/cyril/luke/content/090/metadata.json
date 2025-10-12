@@ -1,0 +1,30 @@
+{
+  "id": 90,
+  "roman": "XC",
+  "title": "Sermon XC",
+  "subtitle": "Luke 12:22-31",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 31
+    },
+    "display": "Luke 12:22-31"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1743,
+  "excerpt": "12:22-31. And He said unto His disciples; Therefore I say unto you, Be not anxious for your life, what you shall eat: nor for your body, what you shall put on. For the life is more than meat, and the body than raiment. Consider the ravens, that they sow not nor reap: which have neither closet nor store, and God feeds them: how much more are you better than the birds! And which of you by being anxious can add to his stature one cubit? If you then be not able to do even that which is least, why are you anxious about any thing else? Consider the lilies how they grow: they toil not, neither do they spin: but I say unto you, that even Solomon in all his glory was not arrayed like one of these. If then God so clothe the grass, which is today in the field, and tomorrow is cast into the oven, how much more will He you, O you of little faith? And seek not what you shall eat, nor what you shall drink, neither let your mind be unsettled: for all these things the nations of the world seek after: but your...",
+  "source_file": "cyril_on_luke_09_sermons_89_98.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

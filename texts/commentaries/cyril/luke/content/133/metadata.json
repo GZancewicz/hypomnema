@@ -1,0 +1,30 @@
+{
+  "id": 133,
+  "roman": "CXXXIII",
+  "title": "Sermon CXXXIII",
+  "subtitle": "Luke 1:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Luke 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2009,
+  "excerpt": "THE SAME SUBJECT CONTINUED. YOU have again assembled, I suppose, to be taught; and I praise your conduct, and count your willingness worthy of all admiration: for it is written, that \"wisdom is better than stones of costly price; and all precious things are not comparable to her.\" For the wisdom that comes from above, from God, is an incomparable blessing; and when we attain to it by means of the holy Scripture, inspired of God, and gain the divine light to dwell in our minds, we then advance without wandering to whatsoever is useful for our spiritual profit. Come therefore, and let us now also scrupulously examine the meaning of the Evangelic lessons which have already been read to us. At our previous meeting then the discourse which we addressed to you was upon the ignorance of the Pharisees, and their utter madness, and base attacks. For they drew near to Christ, the Saviour of us all, saying, \"By what authority do You do these things, and who gave You this authority?\" For what had Christ done? He had cast out of the temple those who were selling sheep and oxen, turtle doves and pigeons; and overturned the tables...",
+  "source_file": "cyril_on_luke_12_sermons_124_134.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

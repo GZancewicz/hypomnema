@@ -1,0 +1,30 @@
+{
+  "id": 109,
+  "roman": "CIX",
+  "title": "Sermon CIX",
+  "subtitle": "Luke 16:10-13",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "display": "Luke 16:10-13"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2206,
+  "excerpt": "16:10-13. He that is faithful in little, is faithful also in much; and he that is unjust in little, is unjust also in much. If therefore you have not been faithful in the unrighteous mammon, who will give you the true? And if you have not been faithful in that which is another's, who will give you, that which is your own? No servant can serve two lords: for either he will hate the one, and love the other: or he will honour the one, and despise the other. You cannot serve God and mammon. THE most distinguished and experienced teachers, when they wish to fix any important doctrine deep in the minds of their disciples, omit no kind of reasoning able to throw light upon the chief object of their thoughts; at one time weaving arguments together, at another employing apposite examples, and so gathering from every quarter whatever is serviceable for their use. And this we find Christ also, Who is the Giver unto us of all wisdom, doing in many places. For oftentimes He repeats the very same arguments upon the subject, whatever it may be, that the mind of those who hear may be led on...",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": 6,
+  "roman": "VI",
+  "title": "Sermon VI",
+  "subtitle": "Luke 3:1-6",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "display": "Luke 3:1-6"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 726,
+  "excerpt": "3:1-6. As it is written in the book of the words of Isaiah the prophet. The blessed Isaiah was not ignorant of the scope of John's preachings, but of old, even long before the time, bearing witness of it, he called Christ Lord and God: but John he styled His minister and servant, and said that he was a lamp advancing before the true light, the morning star heralding the sun, foreshowing the coming of the day that was about to shed its rays upon us: and that he was a voice, not a word, forerunning Jesus, as the voice docs the word.f36 3:4 Prepare ye the ways of the Lord, make His paths straight, 3:4 Prepare ye the ways of the Lord, make His paths straight, John, being chosen for the Apostleship, was also the last of the holy prophets: for which reason, as the Lord was not yet come, he says, Prepare ye the way of the Lord. And what is the meaning of \"Prepare ye the way of the Lord?\" It is put for, Make ready for the reception of whatever Christ may wish to enact: withdraw your hearts from the shadow of the law: cease from...",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "This fragment is referred by two of Mai's MSS. to Chrysostom as well as Cyril, and by Corderius to Cyril and Basil.",
+    "2": "The name Joshua, as a corruption of the Jews, (certainly after the time of Josephus, but prior to Jerome,   who   once   mentions   it;\ncf. Com. in Os. I. 1.,) ought to be everywhere rejected; but the \u039d\u0391\u0393\u0397 of the LXX. is an error of the copyists for\n\u039d\u0391\u0393\u039d. The Masorites have twice punctuated the name correctly in the case of Jeshua, the son of Jozadak.   (Ez. ii. 2., iii. 2.)",
+    "3": "The style of this comment, so unlike Cyril's, and the extraordinary conclusion, both suggest caution in attributing to him the latter part of\nthis extract.",
+    "4": "The next extract is from the Commentary on Isaiah, Op. ii. 506, and is therefore omitted."
+  },
+  "verified": true
+}

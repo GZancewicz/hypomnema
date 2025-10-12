@@ -1,0 +1,30 @@
+{
+  "id": 125,
+  "roman": "CXXV",
+  "title": "Sermon CXXV",
+  "subtitle": "Luke 18:31-34",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 34
+    },
+    "display": "Luke 18:31-34"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1796,
+  "excerpt": "18:31-34. And He took the twelve, and said to them, Behold, we go up to Jerusalem, and all those things shall be accomplished which are written in the prophets about the Son of man. For He shall be delivered up to the heathen, and shall be mocked, and shamefully entreated, and spit upon. And when they have scourged Him, they shall put Him to death: and on the third day He shall rise again. And they understood none of these things, and this word was hid from them, and they knew not what was said. THE blessed prophet David has spoken one of those things which are of great importance for our benefit, especially as it refers to what is of constant occurrence, so to speak, to men's minds. \"For I was prepared, he says, and was not troubled.\" For whatever happens unexpectedly, whenever it is of a serious character, exposes even courageous persons to agitation and alarm, and sometimes to unendurable terrors. But when it has been mentioned before that it will happen, its attack is easily averted. And this, I think, is the meaning of, \"I was prepared, and was not troubled.\" For this reason the divinely-inspired Scripture...",
+  "source_file": "cyril_on_luke_12_sermons_124_134.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

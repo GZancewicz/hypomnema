@@ -1,0 +1,30 @@
+{
+  "id": 152,
+  "roman": "CLII",
+  "title": "Sermon CLII",
+  "subtitle": "Luke 23:24-31",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 31
+    },
+    "display": "Luke 23:24-31"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2171,
+  "excerpt": "23:24-31. And Pilate gave sentence that their request should be done. And he released him who for sedition and murder was cast into prison, for whom they asked: but he delivered Jesus to their will. And as they led Him away, they laid hold upon Simon, a Cyrenian, coming out of the country; and on him they laid the cross to carry it after Jesus. And there followed Him a great company of people, and of women, who bewailed and lamented Him. And Jesus turned Himself to them, and said, Daughters of Jerusalem, weep not for Me, but weep for yourselves and your children. For behold the days come, in which they shall say, Blessed are the barren, and the wombs that never bare, and the paps that never gave nurture. Then shall they begin to say to the mountains, Fall upon us: and to the hills, Cover us. For if they do these things in a green tree, what shall be done in the dry? \"THE fear of God is an abomination to evildoers:\" and the saying is true; for the sacred Scripture cannot lie. For the desire to live in an upright and holy manner is altogether alien...",
+  "source_file": "cyril_on_luke_14_sermons_146_156.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

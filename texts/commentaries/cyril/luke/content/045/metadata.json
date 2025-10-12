@@ -1,0 +1,30 @@
+{
+  "id": 45,
+  "roman": "XLV",
+  "title": "Sermon XLV",
+  "subtitle": "Luke 8:40-48",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 48
+    },
+    "display": "Luke 8:40-48"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3066,
+  "excerpt": "8:40-48. And when Jesus returned, the multitude received Him; for they were all waiting for Him. And behold there came a man named Jairus, and he was a ruler of the synagogue: and he fell down at Jesus' feet, and besought Him to come to his house; for he had an only daughter, about twelve years old, and she was dying. And as He went, the multitudes thronged Him. A woman who had had an issue of blood twelve years, and had spent all her substance upon physicians, and could be healed of none, came near behind Him, and touched the hem of His garment: and immediately her issue of blood staunched. And Jesus said, Who touched Me? And when all denied, Peter and they that were with him said, Master, the multitudes press and throng Thee. But Jesus said, Some one touched Me; for I know that power has gone forth from Me. And when the woman saw that she was not hid from Him, she came trembling, and fell down before Him, and declared before all the people, for what cause she had touched Him, and that she was healed immediately. And He said unto her, My daughter,...",
+  "source_file": "cyril_on_luke_04_sermons_39_46.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

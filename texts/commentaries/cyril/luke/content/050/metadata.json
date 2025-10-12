@@ -1,0 +1,30 @@
+{
+  "id": 50,
+  "roman": "L",
+  "title": "Sermon L",
+  "subtitle": "Luke 9:23-26",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 26
+    },
+    "display": "Luke 9:23-26"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2150,
+  "excerpt": "9:23-26. And He said to them all, Whosoever will come after Me, let him deny himself, and take up his cross every day, and come after Me. For whosoever will save his life shall lose it, and whosoever will lose his life for My sake shall save it. For what is a man profited, who hath gained the whole world, but hath lost himself, or fallen short? For whosoever shall be ashamed of Me, and of My words, of him shall the Son of man be ashamed when He shall come in His glory, and in His Father's, and of His holy angels. f6 MIGHTY generals encourage their trained warriors to deeds of courage, not only by promising them the honours of victory, but even by telling them that the very fact of suffering brings them glory, and gains for them all praise. For it is impossible for those who would win fame in battle not sometimes to have to endure wounds also from their opponents. But their suffering is not without its reward, for they are praised as those who bravely assaulted the enemy; and the very wound bears witness to the courage and valour of their mind. And...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}
