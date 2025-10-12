@@ -113,6 +113,15 @@ type Commentary struct {
 	Coverage      map[int]HomilyRange
 }
 
+// ScriptureReference represents a scripture reference from the index
+type ScriptureReference struct {
+	ID        int    `json:"id"`
+	Book      string `json:"book"`
+	Reference string `json:"reference"`
+	Homily    int    `json:"homily"`
+	Section   string `json:"section"`
+}
+
 // Global data
 var (
 	verseToCanon VerseToCanon
@@ -122,6 +131,7 @@ var (
 	commentaries map[string]*Commentary
 	chrysostomMatthewFootnotes AllFootnotes
 	chrysostomJohnFootnotes    AllFootnotes
+	scriptureReferences map[string][]ScriptureReference
 	books = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
@@ -367,11 +377,20 @@ func getCanonAndSection(book string, chapter, verse int) string {
 		if verseNum >= startNum && verseNum <= endNum {
 			sectionNum := section.Section
 
+			seen := make(map[string]bool)
+			var canons []string
 			for _, harmony := range harmonyData {
 				bookKey := strings.Title(book)
 				if sec, ok := harmony.Sections[bookKey]; ok && sec == sectionNum {
-					return fmt.Sprintf("%s.%d", harmony.Canon, sectionNum)
+					canonStr := fmt.Sprintf("%s.%d", harmony.Canon, sectionNum)
+					if !seen[canonStr] {
+						seen[canonStr] = true
+						canons = append(canons, canonStr)
+					}
 				}
+			}
+			if len(canons) > 0 {
+				return strings.Join(canons, " / ")
 			}
 			break
 		}
@@ -535,6 +554,9 @@ func main() {
 	// Initialize footnote maps (footnotes are loaded from metadata.json files)
 	loadFootnotes()
 
+	// Load scripture references
+	loadScriptureReferences()
+
 	// Serve static files
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
 
@@ -547,6 +569,7 @@ func main() {
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/index", indexPageHandler)
 	http.HandleFunc("/api/references", referencesHandler)
+	http.HandleFunc("/api/scripture-references", scriptureReferencesHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
@@ -559,7 +582,7 @@ func main() {
 		port = "8080"
 	}
 
-	fmt.Printf("Server starting on http://localhost:%s (Cyril debug v15)\n", port)
+	fmt.Printf("Server starting on http://localhost:%s (Canon X fix v16)\n", port)
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
@@ -1354,25 +1377,27 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
-	gospelAbbr := map[string]string{
-		"matthew": "Mt",
-		"mark": "Mk", 
-		"luke": "Lk",
-		"john": "Jn",
-	}
-	
 	var html strings.Builder
 	html.WriteString("<div class='canon-passages'>")
-	
-	// Order: Mt, Mk, Lk, Jn
-	gospelOrder := []string{"matthew", "mark", "luke", "john"}
+
+	// Order: Matthew, Mark, Luke, John
+	gospelOrder := []string{"Matthew", "Mark", "Luke", "John"}
 	for _, gospel := range gospelOrder {
 		if verses, ok := passages[gospel]; ok {
+			// Extract just the chapter.verse part from "section - chapter.verse"
+			verseRef := verses
+			if dashIdx := strings.Index(verses, " - "); dashIdx != -1 {
+				verseRef = verses[dashIdx+3:]
+			}
+
+			// Convert chapter.verse format to chapter:verse
+			verseRef = strings.ReplaceAll(verseRef, ".", ":")
+
 			html.WriteString(fmt.Sprintf("<div class='passage'>"))
-			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospelAbbr[gospel], verses))
-			
+			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospel, verseRef))
+
 			// Load the actual verse text
-			verseText := loadVerseText(gospel, verses)
+			verseText := loadVerseText(strings.ToLower(gospel), verses)
 			if verseText != "" {
 				html.WriteString(fmt.Sprintf("<p class='verse-text'>%s</p>", verseText))
 			} else {
@@ -1389,16 +1414,23 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func loadVerseText(gospel string, verseRef string) string {
-	// Parse verse reference like "3.3" or "1.19-22"
-	// For now, we'll implement a basic version that loads the first verse
-	// This could be expanded to handle ranges properly
-	
+	// Parse verse reference like "8 - 3.3" or "1 - 1.1-16"
+	// Format is: section_number - chapter.verse_range
+
+	// Split on " - " to get the chapter.verse part
+	dashParts := strings.Split(verseRef, " - ")
+	if len(dashParts) != 2 {
+		return ""
+	}
+
+	chapterVerse := dashParts[1]
+
 	// Extract chapter and verse
-	parts := strings.Split(verseRef, ".")
+	parts := strings.Split(chapterVerse, ".")
 	if len(parts) != 2 {
 		return ""
 	}
-	
+
 	chapter := parts[0]
 	versePart := parts[1]
 	
@@ -1419,7 +1451,7 @@ func loadVerseText(gospel string, verseRef string) string {
 	
 	chapterStr := fmt.Sprintf("%02d", chapterNum)
 	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", gospel, chapterStr, gospel+"_"+chapterStr+".txt")
-	
+
 	file, err := os.Open(filePath)
 	if err != nil {
 		return ""
@@ -1433,8 +1465,9 @@ func loadVerseText(gospel string, verseRef string) string {
 	
 	// Find the verse
 	lines := strings.Split(string(content), "\n")
+	searchPrefix := chapter + ":" + versePart + " "
 	for _, line := range lines {
-		if strings.HasPrefix(line, chapter+":"+versePart+" ") {
+		if strings.HasPrefix(line, searchPrefix) {
 			// Extract just the text part
 			spaceIndex := strings.Index(line, " ")
 			if spaceIndex != -1 {
@@ -1442,7 +1475,7 @@ func loadVerseText(gospel string, verseRef string) string {
 			}
 		}
 	}
-	
+
 	return ""
 }
 
@@ -1572,6 +1605,38 @@ func loadFootnotes() error {
 	johnFootnotesData = make(map[string]FootnoteData)
 	cyrilLukeFootnotesData = make(map[string]FootnoteData)
 	return nil
+}
+
+func loadScriptureReferences() {
+	scriptureReferences = make(map[string][]ScriptureReference)
+
+	// Load Matthew references
+	matthewFile := "../texts/commentaries/chrysostom/matthew/references.json"
+	if data, err := os.ReadFile(matthewFile); err == nil {
+		var refs []ScriptureReference
+		if err := json.Unmarshal(data, &refs); err == nil {
+			scriptureReferences["matthew"] = refs
+			log.Printf("Loaded %d scripture references for Matthew", len(refs))
+		} else {
+			log.Printf("Warning: Could not parse Matthew scripture references: %v", err)
+		}
+	} else {
+		log.Printf("Warning: Could not load Matthew scripture references: %v", err)
+	}
+
+	// Load John references
+	johnFile := "../texts/commentaries/chrysostom/john/references.json"
+	if data, err := os.ReadFile(johnFile); err == nil {
+		var refs []ScriptureReference
+		if err := json.Unmarshal(data, &refs); err == nil {
+			scriptureReferences["john"] = refs
+			log.Printf("Loaded %d scripture references for John", len(refs))
+		} else {
+			log.Printf("Warning: Could not parse John scripture references: %v", err)
+		}
+	} else {
+		log.Printf("Warning: Could not load John scripture references: %v", err)
+	}
 }
 
 
@@ -2245,6 +2310,66 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		</style>
 
+		<div style="margin-bottom: 30px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
+			<h4 style="margin-top: 0;">How to Use</h4>
+			<p style="line-height: 1.6;">
+				Passages in Scripture where a complete commentary is available.
+				References that are links are available to read online here (they also have blue markers
+				next to passage in Scripture). Search for any Scripture reference, Church Father or
+				available commentary using the search bar at top.
+			</p>
+		</div>
+
+		<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
+			<h3 style="margin-top: 0; margin-bottom: 15px;">Works Covered</h3>
+			<table style="width: 100%; border-collapse: collapse;">
+				<thead>
+					<tr>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Father</th>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;"></th>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Work</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">John Chrysostom</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 347–407</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on Matthew</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"></td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"></td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on John</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Cyril of Alexandria</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 376–444</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Sermons on Luke</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Gregory the Great</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 540–604</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Forty Gospel Homilies</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Maximos the Confessor</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 580–662</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>On the Lord's Prayer</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Venerable Bede</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 673–735</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on the Gospels</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Nikolai Velimirović</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">1880–1956</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Prologue of Ohrid</em> (in progress)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
 		<div class="index-search-box">
 			<input type="text" id="indexSearch" placeholder="Search for anything on this page" onkeyup="filterIndex()">
 		</div>
@@ -2346,6 +2471,17 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					row.HomilyID, strings.TrimPrefix(row.Section, "Homily "), strings.ToLower(row.Book), row.Section)
 			}
 
+			eusebianCell := row.EusebianIndex
+			if row.EusebianIndex != "" {
+				parts := strings.Split(row.EusebianIndex, " / ")
+				var links []string
+				for _, part := range parts {
+					part = strings.TrimSpace(part)
+					links = append(links, fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, part, part))
+				}
+				eusebianCell = strings.Join(links, " / ")
+			}
+
 			html += fmt.Sprintf(`
 						<tr>
 							<td>%s</td>
@@ -2354,7 +2490,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							<td>%s</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, row.Scripture, row.EusebianIndex, row.Parallels, row.Father, row.Work, link)
+						</tr>`, row.Scripture, eusebianCell, row.Parallels, row.Father, row.Work, link)
 		}
 
 		html += `
@@ -2365,19 +2501,202 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	html += `
-
-		<div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
-			<h4 style="margin-top: 0;">How to Use</h4>
-			<p style="line-height: 1.6;">
-				This page lists available Patristic commentaries organized by Scripture reference.
-				References that are links are available to read online here (they also have blue markers
-				next to passage in Scripture). Search for any Scripture reference, Church Father or
-				available commentary using the search bar at top.
-			</p>
-		</div>
 	</div>
 	`
 
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(html))
+}
+
+func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
+	// Group references by book (only gospels)
+	bookMap := make(map[string][]ScriptureReference)
+
+	for _, refs := range scriptureReferences {
+		for _, ref := range refs {
+			if ref.Book == "Matthew" || ref.Book == "Mark" || ref.Book == "Luke" || ref.Book == "John" {
+				bookMap[ref.Book] = append(bookMap[ref.Book], ref)
+			}
+		}
+	}
+
+	html := `
+	<div class="chapter-text" style="max-width: 900px; margin: 0 auto;">
+		<style>
+			.index-search-box { margin-bottom: 20px; padding: 12px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; }
+			.index-search-box input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+			.index-search-box input:focus { outline: none; border-color: #4a6da0; }
+			.book-section { margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+			.book-header { background: #4a6da0; color: white; padding: 12px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 18px; font-weight: bold; }
+			.book-header:hover { background: #3a5d90; }
+			.book-header .arrow { transition: transform 0.3s; }
+			.book-header.expanded .arrow { transform: rotate(90deg); }
+			.book-content { display: none; overflow-x: auto; }
+			.book-content.expanded { display: block; }
+			.book-table { width: 100%; border-collapse: collapse; }
+			.book-table th { background: #f5f5f5; text-align: left; padding: 10px; border: 1px solid #ddd; font-weight: bold; }
+			.book-table td { padding: 10px; border: 1px solid #ddd; }
+		</style>
+
+		<div style="margin-bottom: 30px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
+			<h4 style="margin-top: 0;">How to Use</h4>
+			<p style="line-height: 1.6;">
+				Passages in Scripture referred to in given commentary. Links provided if commentary to read here online.
+				Search for any Scripture reference or homily using the search bar at top.
+			</p>
+		</div>
+
+		<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
+			<h3 style="margin-top: 0; margin-bottom: 15px;">Works Covered</h3>
+			<table style="width: 100%; border-collapse: collapse;">
+				<thead>
+					<tr>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Father</th>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;"></th>
+						<th style="text-align: left; padding: 8px; border-bottom: 2px solid #ddd;">Work</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">John Chrysostom</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 347–407</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on Matthew</em></td>
+					</tr>
+					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"></td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"></td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on John</em></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="index-search-box">
+			<input type="text" id="indexSearch" placeholder="Search for any verse or homily" onkeyup="filterIndex()">
+		</div>
+
+		<script>
+			function toggleBook(bookName) {
+				const header = event.currentTarget;
+				const content = header.nextElementSibling;
+				header.classList.toggle('expanded');
+				content.classList.toggle('expanded');
+			}
+
+			function filterIndex() {
+				const searchTerm = document.getElementById('indexSearch').value.toLowerCase();
+				const bookSections = document.querySelectorAll('.book-section');
+				bookSections.forEach(section => {
+					const rows = section.querySelectorAll('tbody tr');
+					let visibleCount = 0;
+					rows.forEach(row => {
+						const text = row.textContent.toLowerCase();
+						if (text.includes(searchTerm)) {
+							row.style.display = '';
+							visibleCount++;
+						} else {
+							row.style.display = 'none';
+						}
+					});
+					if (visibleCount > 0 && searchTerm) {
+						section.querySelector('.book-content').classList.add('expanded');
+						section.querySelector('.book-header').classList.add('expanded');
+					}
+				});
+			}
+		</script>
+	`
+
+	bookOrderList := []string{"Matthew", "Mark", "Luke", "John"}
+	for _, bookName := range bookOrderList {
+		refs, exists := bookMap[bookName]
+		if !exists || len(refs) == 0 {
+			continue
+		}
+
+		seen := make(map[string]bool)
+		uniqueRefs := []ScriptureReference{}
+		for _, ref := range refs {
+			key := fmt.Sprintf("%s|%s|%d", ref.Reference, ref.Book, ref.Homily)
+			if !seen[key] {
+				seen[key] = true
+				uniqueRefs = append(uniqueRefs, ref)
+			}
+		}
+
+		html += fmt.Sprintf(`
+		<div class="book-section">
+			<div class="book-header" onclick="toggleBook('%s')">
+				<span>%s (%d references)</span>
+				<span class="arrow">▶</span>
+			</div>
+			<div class="book-content" id="book-%s">
+				<table class="book-table">
+					<thead>
+						<tr>
+							<th>Scripture</th>
+							<th style="text-align: center;">Eusebian</th>
+							<th>Parallel</th>
+							<th>Father</th>
+							<th>Work</th>
+							<th>Section</th>
+						</tr>
+					</thead>
+					<tbody>`, bookName, bookName, len(uniqueRefs), bookName)
+
+		bookAbbrev := map[string]string{"Matthew": "Mt", "Mark": "Mk", "Luke": "Lk", "John": "Jn"}
+
+		for _, ref := range uniqueRefs {
+			work := "Homilies on Matthew"
+			bookLower := "matthew"
+			if strings.Contains(strings.ToLower(ref.Section), "john") {
+				work = "Homilies on John"
+				bookLower = "john"
+			}
+
+			link := fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+				ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
+
+			var eusebianIndex, parallels string
+			parts := strings.Split(ref.Reference, ":")
+			if len(parts) == 2 {
+				chapter, _ := strconv.Atoi(parts[0])
+				verse, _ := strconv.Atoi(parts[1])
+				eusebianIndex = getCanonAndSection(strings.ToLower(bookName), chapter, verse)
+				parallels = getParallels(strings.ToLower(bookName), chapter, verse)
+			}
+
+			eusebianCell := eusebianIndex
+			if eusebianIndex != "" {
+				parts := strings.Split(eusebianIndex, " / ")
+				var links []string
+				for _, part := range parts {
+					part = strings.TrimSpace(part)
+					links = append(links, fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, part, part))
+				}
+				eusebianCell = strings.Join(links, " / ")
+			}
+
+			html += fmt.Sprintf(`
+						<tr>
+							<td>%s %s</td>
+							<td style="text-align: center;">%s</td>
+							<td>%s</td>
+							<td>John Chrysostom</td>
+							<td><i>%s</i></td>
+							<td>%s</td>
+						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianCell, parallels, work, link)
+		}
+
+		html += `
+					</tbody>
+				</table>
+			</div>
+		</div>
+		`
+	}
+
+	html += `</div>`
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
 }

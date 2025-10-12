@@ -1,0 +1,40 @@
+{
+  "fathers": [
+    {
+      "name": "John Chrysostom",
+      "birth": 347,
+      "death": 407,
+      "display": "c. 347–407"
+    },
+    {
+      "name": "Cyril of Alexandria",
+      "birth": 376,
+      "death": 444,
+      "display": "c. 376–444"
+    },
+    {
+      "name": "Gregory the Great",
+      "birth": 540,
+      "death": 604,
+      "display": "c. 540–604"
+    },
+    {
+      "name": "Venerable Bede",
+      "birth": 673,
+      "death": 735,
+      "display": "c. 673–735"
+    },
+    {
+      "name": "Maximos the Confessor",
+      "birth": 580,
+      "death": 662,
+      "display": "c. 580–662"
+    },
+    {
+      "name": "Nikolai Velimirović",
+      "birth": 1880,
+      "death": 1956,
+      "display": "1880–1956"
+    }
+  ]
+}

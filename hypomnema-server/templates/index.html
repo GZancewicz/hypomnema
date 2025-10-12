@@ -264,8 +264,11 @@
                     <li class="book-item" onclick="loadIndex(event)">
                         COMMENTARIES
                     </li>
+                    <li class="book-item" onclick="loadScriptureReferences(event)">
+                        SCRIPTURE REFERENCES
+                    </li>
                     <li class="book-item" onclick="loadHarmony(event)">
-                        HARMONY
+                        EUSEBIAN
                     </li>
                 </ul>
                 <div class="accordion">
@@ -338,10 +341,12 @@
             <header class="content-header">
                 <button id="sidebarToggle" class="sidebar-toggle" onclick="toggleSidebar()" title="Toggle sidebar">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <!-- Main white rectangle -->
                         <rect class="sidebar-rect" x="4" y="4" width="16" height="16" fill="white" stroke="#ddd" stroke-width="1" rx="2"></rect>
-                        <!-- Left darker grey indicator -->
                         <rect class="sidebar-indicator" x="4" y="4" width="6" height="16" fill="#999" rx="0"></rect>
+                        <line class="sidebar-indicator" x1="5" y1="6.5" x2="9" y2="6.5" stroke="#ddd" stroke-width="0.8"></line>
+                        <line class="sidebar-indicator" x1="5" y1="8.5" x2="9" y2="8.5" stroke="#ddd" stroke-width="0.8"></line>
+                        <line class="sidebar-indicator" x1="5" y1="10.5" x2="9" y2="10.5" stroke="#ddd" stroke-width="0.8"></line>
+                        <line class="sidebar-indicator" x1="5" y1="12.5" x2="8" y2="12.5" stroke="#ddd" stroke-width="0.8"></line>
                     </svg>
                 </button>
                 <h1 id="book-title">Commentary Index</h1>
@@ -857,9 +862,9 @@
                 // Called from click event
                 evt.target.classList.add('active');
             } else {
-                // Called programmatically, find and activate the HARMONY menu item
+                // Called programmatically, find and activate the EUSEBIAN menu item
                 document.querySelectorAll('.book-item').forEach(item => {
-                    if (item.textContent.trim() === 'HARMONY') {
+                    if (item.textContent.trim() === 'EUSEBIAN') {
                         item.classList.add('active');
                     }
                 });
@@ -880,6 +885,42 @@
             }
         }
 
+        function loadScriptureReferences(evt) {
+            // Update header
+            document.getElementById('book-title').textContent = 'Scripture References';
+            document.getElementById('chapter-title').textContent = '';
+
+            // Remove active state from all items
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Add active state to Scripture References
+            if (evt && evt.target) {
+                evt.target.classList.add('active');
+            } else {
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'SCRIPTURE REFERENCES') {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            // Hide chapter selectors
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            // Load scripture references content
+            htmx.ajax('GET', '/api/scripture-references', '#text-content');
+
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
         // Modal functions
         function showCanonModal(canonKey) {
             const modal = document.getElementById('canonModal');
@@ -889,9 +930,11 @@
             modalTitle.textContent = `Canon ${canonKey}`;
             modalBody.innerHTML = '<div class="loading">Loading passages...</div>';
             modal.style.display = 'block';
-            
-            // Fetch the verses via HTMX
-            htmx.ajax('GET', `/api/canon/${canonKey}`, '#modalBody');
+
+            htmx.ajax('GET', `/api/canon/${canonKey}`, {
+                target: '#modalBody',
+                swap: 'innerHTML'
+            });
         }
         
         function closeModal(event) {
