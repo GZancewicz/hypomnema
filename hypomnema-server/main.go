@@ -1354,25 +1354,27 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
-	gospelAbbr := map[string]string{
-		"matthew": "Mt",
-		"mark": "Mk", 
-		"luke": "Lk",
-		"john": "Jn",
-	}
-	
 	var html strings.Builder
 	html.WriteString("<div class='canon-passages'>")
-	
-	// Order: Mt, Mk, Lk, Jn
-	gospelOrder := []string{"matthew", "mark", "luke", "john"}
+
+	// Order: Matthew, Mark, Luke, John
+	gospelOrder := []string{"Matthew", "Mark", "Luke", "John"}
 	for _, gospel := range gospelOrder {
 		if verses, ok := passages[gospel]; ok {
+			// Extract just the chapter.verse part from "section - chapter.verse"
+			verseRef := verses
+			if dashIdx := strings.Index(verses, " - "); dashIdx != -1 {
+				verseRef = verses[dashIdx+3:]
+			}
+
+			// Convert chapter.verse format to chapter:verse
+			verseRef = strings.ReplaceAll(verseRef, ".", ":")
+
 			html.WriteString(fmt.Sprintf("<div class='passage'>"))
-			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospelAbbr[gospel], verses))
-			
+			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospel, verseRef))
+
 			// Load the actual verse text
-			verseText := loadVerseText(gospel, verses)
+			verseText := loadVerseText(strings.ToLower(gospel), verses)
 			if verseText != "" {
 				html.WriteString(fmt.Sprintf("<p class='verse-text'>%s</p>", verseText))
 			} else {
@@ -1389,16 +1391,23 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func loadVerseText(gospel string, verseRef string) string {
-	// Parse verse reference like "3.3" or "1.19-22"
-	// For now, we'll implement a basic version that loads the first verse
-	// This could be expanded to handle ranges properly
-	
+	// Parse verse reference like "8 - 3.3" or "1 - 1.1-16"
+	// Format is: section_number - chapter.verse_range
+
+	// Split on " - " to get the chapter.verse part
+	dashParts := strings.Split(verseRef, " - ")
+	if len(dashParts) != 2 {
+		return ""
+	}
+
+	chapterVerse := dashParts[1]
+
 	// Extract chapter and verse
-	parts := strings.Split(verseRef, ".")
+	parts := strings.Split(chapterVerse, ".")
 	if len(parts) != 2 {
 		return ""
 	}
-	
+
 	chapter := parts[0]
 	versePart := parts[1]
 	
