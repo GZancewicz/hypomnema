@@ -2460,9 +2460,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				// Gregory the Great, Bede, Nikolai, and Maximos - plain text, no link
 				link = row.Section
 			} else if row.Author == "cyril" {
-				// Cyril sermons use negative IDs in the JavaScript
-				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(-%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					row.HomilyID, row.Section, strings.ToLower(row.Book), row.Section)
+				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, strings.TrimPrefix(row.Section, "Sermon "), strings.ToLower(row.Book), row.Section)
 			} else {
 				// Chrysostom homilies use positive IDs
 				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
@@ -2647,13 +2646,24 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 		for _, ref := range uniqueRefs {
 			work := "Homilies on Matthew"
 			bookLower := "matthew"
-			if strings.Contains(strings.ToLower(ref.Section), "john") {
+			father := "John Chrysostom"
+			var link string
+
+			if strings.Contains(strings.ToLower(ref.Section), "sermon") {
+				work = "Sermons on Luke"
+				bookLower = "luke"
+				father = "Cyril of Alexandria"
+				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Sermon "), bookLower, ref.Section)
+			} else if strings.Contains(strings.ToLower(ref.Section), "john") {
 				work = "Homilies on John"
 				bookLower = "john"
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
+			} else {
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
 			}
-
-			link := fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-				ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
 
 			var eusebianIndex, parallels string
 			parts := strings.Split(ref.Reference, ":")
@@ -2680,10 +2690,10 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 							<td>%s %s</td>
 							<td style="text-align: center;">%s</td>
 							<td>%s</td>
-							<td>John Chrysostom</td>
+							<td>%s</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianCell, parallels, work, link)
+						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianCell, parallels, father, work, link)
 		}
 
 		html += `
