@@ -264,6 +264,9 @@
                     <li class="book-item" onclick="loadIndex(event)">
                         COMMENTARIES
                     </li>
+                    <li class="book-item" onclick="loadScriptureReferences(event)">
+                        SCRIPTURE REFERENCES
+                    </li>
                     <li class="book-item" onclick="loadHarmony(event)">
                         EUSEBIAN
                     </li>
@@ -873,6 +876,42 @@
 
             // Load harmony content
             htmx.ajax('GET', '/api/references', '#text-content');
+
+            // Auto-close sidebar on mobile
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
+        function loadScriptureReferences(evt) {
+            // Update header
+            document.getElementById('book-title').textContent = 'Scripture References';
+            document.getElementById('chapter-title').textContent = '';
+
+            // Remove active state from all items
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Add active state to Scripture References
+            if (evt && evt.target) {
+                evt.target.classList.add('active');
+            } else {
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'SCRIPTURE REFERENCES') {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            // Hide chapter selectors
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            // Load scripture references content
+            htmx.ajax('GET', '/api/scripture-references', '#text-content');
 
             // Auto-close sidebar on mobile
             if (window.innerWidth <= 700) {
