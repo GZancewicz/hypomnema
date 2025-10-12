@@ -2470,6 +2470,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					row.HomilyID, strings.TrimPrefix(row.Section, "Homily "), strings.ToLower(row.Book), row.Section)
 			}
 
+			eusebianCell := row.EusebianIndex
+			if row.EusebianIndex != "" {
+				eusebianCell = fmt.Sprintf(`<span onclick="showCanonModal('%s')" style="cursor: pointer; color: #4a6da0;">%s</span>`, row.EusebianIndex, row.EusebianIndex)
+			}
+
 			html += fmt.Sprintf(`
 						<tr>
 							<td>%s</td>
@@ -2478,7 +2483,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							<td>%s</td>
 							<td><i>%s</i></td>
 							<td>%s</td>
-						</tr>`, row.Scripture, row.EusebianIndex, row.Parallels, row.Father, row.Work, link)
+						</tr>`, row.Scripture, eusebianCell, row.Parallels, row.Father, row.Work, link)
 		}
 
 		html += `
