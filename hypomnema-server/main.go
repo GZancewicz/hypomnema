@@ -377,11 +377,20 @@ func getCanonAndSection(book string, chapter, verse int) string {
 		if verseNum >= startNum && verseNum <= endNum {
 			sectionNum := section.Section
 
+			seen := make(map[string]bool)
+			var canons []string
 			for _, harmony := range harmonyData {
 				bookKey := strings.Title(book)
 				if sec, ok := harmony.Sections[bookKey]; ok && sec == sectionNum {
-					return fmt.Sprintf("%s.%d", harmony.Canon, sectionNum)
+					canonStr := fmt.Sprintf("%s.%d", harmony.Canon, sectionNum)
+					if !seen[canonStr] {
+						seen[canonStr] = true
+						canons = append(canons, canonStr)
+					}
 				}
+			}
+			if len(canons) > 0 {
+				return strings.Join(canons, " / ")
 			}
 			break
 		}
@@ -2585,6 +2594,16 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 			continue
 		}
 
+		seen := make(map[string]bool)
+		uniqueRefs := []ScriptureReference{}
+		for _, ref := range refs {
+			key := fmt.Sprintf("%s|%s|%d", ref.Reference, ref.Book, ref.Homily)
+			if !seen[key] {
+				seen[key] = true
+				uniqueRefs = append(uniqueRefs, ref)
+			}
+		}
+
 		html += fmt.Sprintf(`
 		<div class="book-section">
 			<div class="book-header" onclick="toggleBook('%s')">
@@ -2596,14 +2615,18 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 					<thead>
 						<tr>
 							<th>Scripture</th>
+							<th style="text-align: center;">Eusebian</th>
+							<th>Parallel</th>
 							<th>Father</th>
 							<th>Work</th>
 							<th>Section</th>
 						</tr>
 					</thead>
-					<tbody>`, bookName, bookName, len(refs), bookName)
+					<tbody>`, bookName, bookName, len(uniqueRefs), bookName)
 
-		for _, ref := range refs {
+		bookAbbrev := map[string]string{"Matthew": "Mt", "Mark": "Mk", "Luke": "Lk", "John": "Jn"}
+
+		for _, ref := range uniqueRefs {
 			work := "Homilies on Matthew"
 			bookLower := "matthew"
 			if strings.Contains(strings.ToLower(ref.Section), "john") {
@@ -2614,13 +2637,24 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 			link := fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
 				ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
 
+			var eusebianIndex, parallels string
+			parts := strings.Split(ref.Reference, ":")
+			if len(parts) == 2 {
+				chapter, _ := strconv.Atoi(parts[0])
+				verse, _ := strconv.Atoi(parts[1])
+				eusebianIndex = getCanonAndSection(strings.ToLower(bookName), chapter, verse)
+				parallels = getParallels(strings.ToLower(bookName), chapter, verse)
+			}
+
 			html += fmt.Sprintf(`
 						<tr>
 							<td>%s %s</td>
+							<td style="text-align: center;">%s</td>
+							<td>%s</td>
 							<td>John Chrysostom</td>
+							<td><i>%s</i></td>
 							<td>%s</td>
-							<td>%s</td>
-						</tr>`, bookName, ref.Reference, work, link)
+						</tr>`, bookAbbrev[bookName], ref.Reference, eusebianIndex, parallels, work, link)
 		}
 
 		html += `
