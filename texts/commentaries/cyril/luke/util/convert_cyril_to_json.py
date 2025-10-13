@@ -247,7 +247,11 @@ def extract_sermon_content_robust(html_content, sermon_id):
             text = str(current)
             text = extract_footnote_refs(text)
             soup_p = BeautifulSoup(text, 'html.parser')
-            clean = clean_text(soup_p.get_text())
+            # Get text but preserve <sup> tags
+            clean = str(soup_p)
+            # Remove outer <p> tags
+            clean = re.sub(r'^<p[^>]*>|</p>$', '', clean)
+            clean = clean_text(clean)
             
             # Skip metadata, page markers, navigation, and footnote markers
             if clean and not any([
@@ -269,7 +273,11 @@ def extract_sermon_content_robust(html_content, sermon_id):
                 text = str(elem)
                 text = extract_footnote_refs(text)
                 soup_elem = BeautifulSoup(text, 'html.parser')
-                clean = clean_text(soup_elem.get_text())
+                # Get text but preserve <sup> tags
+                clean = str(soup_elem)
+                # Remove outer <p> tags
+                clean = re.sub(r'^<p[^>]*>|</p>$', '', clean)
+                clean = clean_text(clean)
                 if clean and not clean.startswith(('[From', 'From the Syriac')):
                     # Add scripture quotes with special formatting if needed
                     paragraphs.append(clean)
