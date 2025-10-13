@@ -1,0 +1,30 @@
+{
+  "id": 63,
+  "roman": "LXIII",
+  "title": "Sermon LXIII",
+  "subtitle": "Luke 10:16",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "display": "Luke 10:16"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1468,
+  "excerpt": "10:16 He that heareth you, heareth Me: and he that rejecteth you, rejecteth Me: and whosoever rejecteth Me, rejecteth Him That sent Me f10. THOSE who adorn thrones of earthly royalty, and possess supreme authority, when they wish to render fitting men illustrious with this world's dignities, send them in the missives on which the decree commanding their appointment is inscribed, a declaration of their praiseworthiness. And this we find that Christ did. For consider how great was the authority He gave the holy apostles, and in what manner He declared them to be praiseworthy, and adorned with the highest honours. For let us search the sacred Scripture, even the treasure of the written words of the Gospel: let us there see the greatness of the authority given unto them. \"He that heareth you,\" He says, \"heareth Me: and he that rejecteth you, rejecteth Me: and he that rejecteth Me, rejecteth Him That sent Me.\" O what great honour! What incomparable dignities! O what a gift worthy of God! Though but men, the children of earth, He clothes them with a godlike glory; He entrusts to them His words, that they may be condemned who in ought resist, or venture...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

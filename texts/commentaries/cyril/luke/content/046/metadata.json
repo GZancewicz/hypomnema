@@ -1,0 +1,30 @@
+{
+  "id": 46,
+  "roman": "XLVI",
+  "title": "Sermon XLVI",
+  "subtitle": "Luke 8:49-56",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "display": "Luke 8:49-56"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 3336,
+  "excerpt": "8:49-56. And while He is speaking, there cometh one from the ruler of the synagogue's house, saying, Thy daughter is dead: trouble no more the Teacher. But when Jesus heard it, He answered and said, Fear not: believe only, and she shall live. And when He came unto the house, He suffered no one to go in with Him, save Peter, and James, and John, and the father and the mother of the maiden. And all wept and bewailed her. But He said, Weep not: for the damsel is not dead, but sleepeth. And they laughed at Him, knowing that she was dead. But He made them all go out, and took her by the hand, and called, saying, Maid, arise. And her spirit returned, and she arose immediately: and He commanded to give her somewhat to eat. And her parents were astonished. And He commanded them to tell no one what was done. O COME, all ye who love the glory of the Saviour, and thereby weave crowns for your heads, come once again, that we may rejoice in Him, and as we extol Him with endless praises, let us say in the words of the prophet Isaiah: \"O...",
+  "source_file": "cyril_on_luke_04_sermons_39_46.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

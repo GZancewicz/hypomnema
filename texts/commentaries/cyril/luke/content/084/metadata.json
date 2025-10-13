@@ -1,0 +1,30 @@
+{
+  "id": 84,
+  "roman": "LXXXIV",
+  "title": "Sermon LXXXIV",
+  "subtitle": "Luke 11:42-44",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "display": "Luke 11:42-44"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1729,
+  "excerpt": "11:42-44. But woe unto you, Pharisees! who tithe mint and rue and all herbs, and pass over judgment and the love of God. But these things ought you to have done, and not to leave the other undone. Woe unto you, Pharisees! for you love the uppermost seat in the synagogues, and greetings in the markets. Woe unto you! for you are as those graves which appear not, and the men that walk over them know it not. THOSE who are exact observers of the sacred commandments do not venture in any way whatsoever to offend the God of all. For they feel the truth of what is written, \"That whosoever shall keep the whole law, but shall offend in one particular, becomes guilty of all. For He Who said, You shall not commit adultery, said also, You shall not kill. If then you do not commit adultery, but yet kill, you are become a transgressor of the law.\" The transgression therefore of one commandment transgresses the law, that is, proves the man to be without the law. But when any one disregards those commandments, which especially are important above the rest, what words will he find able to save...",
+  "source_file": "cyril_on_luke_08_sermons_81_88.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

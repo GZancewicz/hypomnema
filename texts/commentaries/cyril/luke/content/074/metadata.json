@@ -1,0 +1,30 @@
+{
+  "id": 74,
+  "roman": "LXXIV",
+  "title": "Sermon LXXIV",
+  "subtitle": "Luke 11:2",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "display": "Luke 11:2"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1257,
+  "excerpt": "11:2 Upon \" Your will be done; as in heaven, so on earth.\" THE prophet David made his supplications to Christ the Saviour of all, saying, \"Lead me to Your truth, and teach me that You are God my Saviour.\" For all those are taught of God who are in Christ by faith; and among these are we. Of Him, therefore, let us ask the explanation of His words: for whosoever would understand correctly and without error what He wishes to teach, are in need of divine light: but He is the Giver of all wisdom, and sheds His light upon the mind and heart of those that ask Him. For again the Psalmist said, \"Open mine eyes, and I shall see Your wonders out of Your law.\" Let us, therefore, examine this part also of the prayer: for it will profit us in no slight degree to the salvation of the soul. Why then did He command the saints to say to God the Father in heaven, \"Your will be done; as in heaven, so in earth?\" Worthy of the saints, and full of all praise is this petition also. For for them to ask that the good-will of...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

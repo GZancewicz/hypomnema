@@ -1,0 +1,30 @@
+{
+  "id": 129,
+  "roman": "CXXIX",
+  "title": "Sermon CXXIX",
+  "subtitle": "Luke 1:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Luke 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2048,
+  "excerpt": "THE SAME SUBJECT CONTINUED. MEN who are in debt run away from their creditors, because they know them to be importunate. But not so with me; for I have come to pay my debt, and to fulfil what I promised: and I rather pursue after my creditors than am pursued by them. What therefore is that which I promised, or what is the debt? At our last meeting then, a long parable having been read to us, we completed our exposition only of a certain portion of it, and reserved the remainder for this our holy meeting. And the parable was as follows; \"A certain nobleman went into a far country to receive for himself a kingdom, and to return. And when he had called ten of his servants, he gave them ten minas, and said to them, Traffic until I come. But his citizens hated him, and sent an embassy after him, saying, We will not have this man to reign over us.\" And moreover to this He added, that when the nobleman returned after he had received the kingdom, he demanded of those servants to whom he had distributed the talents an account of their trafficking. Now in...",
+  "source_file": "cyril_on_luke_12_sermons_124_134.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

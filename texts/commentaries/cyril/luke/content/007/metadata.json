@@ -1,0 +1,32 @@
+{
+  "id": 7,
+  "roman": "VII",
+  "title": "Sermon VII",
+  "subtitle": "Luke 3:7-9",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 9
+    },
+    "display": "Luke 3:7-9"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 881,
+  "excerpt": "3:7-9. The Baptist therefore said to the multitudes that came to he baptized of him, Generation of vipers, who hath warned you to flee from the coming wrath? WE affirm therefore that the blessed Baptist, as being full of the Holy Ghost, was not ignorant of the daring acts that Jewish wickedness would venture against Christ. For he foreknew that they would both disbelieve in Him, and wagging their envenomed tongue, would pour forth railings and accusations against Him: accusing Him at one time of being born of fornication; at another, as one who wrought His miracles by the help of Beelzebub, prince of the devils: and again, as one that had a devil, and was no whit better than a Samaritan. Having this therefore in view, he calls even those of them who repent wicked, and reproves them because, though they had the law speaking unto them the mystery of Christ, and the predictions of the prophets relating thereunto, they nevertheless had become dull of hearing, and unready for faith in Christ the Saviour of all. \"For who hath warned you to flee from the coining wrath?\" Was it not the inspired Scripture, which tells the happiness of those...",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "S. Cyril, whose habit it is to dwell at great length upon practical subjects, as will be seen afterwards in the Sermons from the Syriac, has exhausted two homilies upon John Baptist's lessons; but as they\ncontained no doctrinal statements, nothing has been preserved in the Syriac, and by the Catenists only one extract: and even this in Cramer is referred to Origen."
+  },
+  "verified": true
+}

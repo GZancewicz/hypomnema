@@ -1,0 +1,30 @@
+{
+  "id": 42,
+  "roman": "XLII",
+  "title": "Sermon XLII",
+  "subtitle": "Luke 8:19-21",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 21
+    },
+    "display": "Luke 8:19-21"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2203,
+  "excerpt": "8:19-21. And there came to Him His mother, and His brethren, and were not able to speak with Him because of the multitude. Bui it was told Him, Thy mother, and Thy brethren stand without, wishing to see Thee. But He answered and said unto them, My mother and My brethren are these who hear the word of God and do it. ONCE again let the words of praise in the book of Psalms be quoted by us; \"What shall I render unto the Lord for all He hath rendered unto me?\" For what can we offer Him that is equal to His love towards us? Shall we choose for our guidance the commands of the law, and honour Him with sacrifices of blood? Does He feel pleasure in the slaughter of bullocks and goats? No certainly: for they are an abomination unto Him. For by one of His holy prophets He even plainly declared to those who were rendering Him the legal service, \"I hate, I abominate your feast days: nor will I smell at your festivals: because though ye bring Me whole burnt offerings and sacrifices, I will not accept them; nor regard your displays for salvation.\" What...",
+  "source_file": "cyril_on_luke_04_sermons_39_46.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

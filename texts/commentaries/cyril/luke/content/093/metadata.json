@@ -1,0 +1,30 @@
+{
+  "id": 93,
+  "roman": "XCIII",
+  "title": "Sermon XCIII",
+  "subtitle": "Luke 12:41-48",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 48
+    },
+    "display": "Luke 12:41-48"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2301,
+  "excerpt": "12:41-48. And Peter said, Lord do You speak this parable unto us, or also unto all? And the Lord said, Who then is the faithful and wise steward, whom his lord shall set over his household, to give the portion of food in its season? Blessed is that servant, whom his lord at his coming shall find so doing. Of a truth I say unto you, that he will appoint him over all that he has. But if that servant say in his heart, My lord delays his coming, and begin to beat the men servants and female servants, and to eat and drink, and be drunken: the lord of that servant shall come in a day that he expects not, and at an hour of which he is not aware, and will cut him asunder, and give him a portion with the unbelievers. And that servant who knew his lord's will, and did it not, neither prepared according to his will, shall be beaten with many stripes. But He who knew it not, and did things worthy of stripes, shall be beaten with few stripes. For unto whomsoever much is given, of him shall be much required: and to...",
+  "source_file": "cyril_on_luke_09_sermons_89_98.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 59,
+  "roman": "LIX",
+  "title": "Sermon LIX",
+  "subtitle": "Luke 9:61-62",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 61
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 62
+    },
+    "display": "Luke 9:61-62"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1331,
+  "excerpt": "9:61-62. And another also said, I will follow Thee, Lord; but first let me bid farewell to the members of my house. But Jesus said to him, No man who putteth his hand to the plough, and looketh back, is fit for the kingdom of God. OF zeal in virtuous pursuits we say, that it is worthy of all praise. But those who have attained to this state of mind |269 must be strong in purpose, and not feebly disposed towards the mark that is set before them. Rather they must plainly possess an unwavering and inflexible mind: for so, starting impetuously as from the barriers of the race-course, they will reach the goal, and gain the victory, and twine around their hair the conqueror's crown. And to this heartiness of purpose the Saviour of all encouraged us, as being a quality worth the gaining, where He says, \"Who of you wishing to build a tower, sitteth not down first and counteth whether he have sufficient to finish it; lest, saith He, having laid the foundation, and not being able to finish it, the passers by say, This man began to build, and was not able to finish.\" One who...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

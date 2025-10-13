@@ -1,0 +1,35 @@
+{
+  "id": 5,
+  "roman": "V",
+  "title": "Sermon V",
+  "subtitle": "Luke 2:40-52",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 52
+    },
+    "display": "Luke 2:40-52"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 989,
+  "excerpt": "2:40-52. And the Child grew, and waxed strong in spirit, being filled with wisdom, and the grace of God was upon Him. And again; But Jesus increased in stature and wisdom and grace with God and men. TO say that the child grew, and waxed strong in spirit, being filled with wisdom, and the grace of God was upon Him, must be taken as referring to His human nature. And examine, I pray you, closely the profoundness of the dispensation: the Word endures to be born in human fashion, although in His divine nature He has no beginning nor is subject to time: He Who as God is all perfect, submits to bodily growth: the Incorporeal has limbs that advance to the ripeness of manhood: He is filled with wisdom Who is Himself all wisdom. And what say we to this? Behold by these things Him Who was in the form of the Father made like unto us: the Rich in poverty: the High in humiliation: Him said to \"receive,\" Whose is the fulness as God. So thoroughly did God the Word empty Himself! For what things are written of Him as a man shew the manner of the emptying....",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "32.\u00a0From the Syriac: Ms. 12,151.",
+    "2": "That is, \"the human soul:\" for our Lord, being perfect man, had a human soul as well as a fleshly body, as we are taught in the Athanasian Creed, in opposition to the Apollinarian heresy \"Of a\nreasonable soul and human flesh subsisting.\" And this human soul was capable of increasing in wisdom. This extract apparently is collected from what precedes.",
+    "3": "The style of the short extract that follows is entirely unlike Cyril's. Mai says, that the Catenae ascribe it to Origen as well as Cyril.",
+    "4": "Mai's next extract upon v. 52. may serve as an instance of the manner in which the Catenists joined with the utmost neatness passages from various works. It commences with S. Cyril's Commentary on John i. 14, Op. iv. 96: after which there follow a few lines, which may possibly be from the Commentary on Luke: and finally, we have the 28th assertion of the Thesaurus, Op. v. pt. i. 253. The doctrine of these extracts is nearly identical, all affirming that our Lord's increase in wisdom and stature and grace cannot be said of\nHim considered as the Word, but either must be understood of the increase of admiration on the part of all who beheld Him, and daily witnessed a fuller manifestation of His glory: or, as the two latter extracts teach, it refers to the human nature. As I have not been able to find the second extract in S. Cyril's collected works,, I give it entire: \"And observe, that that which increases in any thing is different from that in which it is said to increase. If therefore He is said to increase in wisdom, it was not the wisdom that increased, but the human nature that increased in it. For as the Godhead day by day unveiled and manifested Itself in Him, He ever became an object of greater admiration to those that saw Him.\""
+  },
+  "verified": true
+}

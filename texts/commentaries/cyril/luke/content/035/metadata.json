@@ -1,0 +1,30 @@
+{
+  "id": 35,
+  "roman": "XXXV",
+  "title": "Sermon XXXV",
+  "subtitle": "Luke 7:1-10",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 10
+    },
+    "display": "Luke 7:1-10"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1850,
+  "excerpt": "7:1-10. And when He had ended all His words in the hearing of the people, He entered into Capernaum. And a certain centurion's servant who was dear unto him was sick, and near to die. And when he heard of Jesus, he sent unto Him elders of the Jews, beseeching Him to come and save his servant. And when they came unto Jesus, they besought Him earnestly, saying, that he is worthy that Thou shouldst grant this unto him: for he loveth our nation, and hath also built us himself a synagogue. And Jesus went with them. And when He was now not far distant from the house, the centurion sent his friends unto Him, saying unto Him, Lord, trouble not Thyself; for I am not sufficient that Thou shouldest enter under my roof: therefore neither thought I myself worthy to come unto Thee: but speak only with a word, and my child f17 will be healed. For I also am a man set under authority, having under me soldiers; and I say to this one, Go, and he goeth: and to another, Come, and he cometh: and to my servant, Do this, and he doeth it. And when Jesus...",
+  "source_file": "cyril_on_luke_03_sermons_26_38.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

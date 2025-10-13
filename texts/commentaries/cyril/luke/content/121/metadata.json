@@ -1,0 +1,30 @@
+{
+  "id": 121,
+  "roman": "CXXI",
+  "title": "Sermon CXXI",
+  "subtitle": "Luke 18:15-17",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 17
+    },
+    "display": "Luke 18:15-17"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1382,
+  "excerpt": "18:15-17. And they brought also unto Him infants, that He should touch them: but when the disciples saw them, they rebuked them. But Jesus called them and said, Suffer little children to come unto Me, and hinder them not; for of such is the kingdom of God. Verily I say unto you, that whosoever shall not receive the kingdom of God as a little child, shall not enter therein. EVERY manner of benefit does Christ weave for us, and opens wide the pathways of salvation. For His purpose is to save the dwellers upon earth, and produce in them a knowledge of the pursuits of piety, and make them skilful in all virtue, that they may be acceptable, being filled with spiritual fruitfulness. Let us see therefore what benefit He begets in us by what has just been read. For you have heard the holy Evangelist saying, \"That they brought unto Him infants that He should touch them: and when the disciples prevented them, He took them and said, Suffer them to come unto Me, and hinder them not: for of such is the kingdom of God.\" It was their mothers who brought the babes, desiring His blessing, and begging...",
+  "source_file": "cyril_on_luke_11_sermons_110_123.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

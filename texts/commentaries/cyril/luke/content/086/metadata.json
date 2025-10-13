@@ -1,0 +1,30 @@
+{
+  "id": 86,
+  "roman": "LXXXVI",
+  "title": "Sermon LXXXVI",
+  "subtitle": "Luke 11:52",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 52
+    },
+    "display": "Luke 11:52"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1800,
+  "excerpt": "11:52 ... 12:1-3. Woe unto you, lawyers: for you have taken away the key of knowledge: you entered not in, and those that are entering in you hindered. And as He came out from thence, the scribes and Pharisees began to urge Him vehemently, and to put Him to silences about many things, lying in wait to catch something out of his mouth. Meanwhile many myriads of the people having assembled, so that they trod one upon another, He began to say unto His disciples first of all, Beware in yourselves of the leaven of the Pharisees, which is hypocrisy. For there is nothing covered, that shall not be revealed: neither hid, that shall not be known. All things whatsoever you have spoken in darkness, shall be heard in the light: and that which you have spoken in the ear in chambers, shall be proclaimed upon the housetops. THOSE who search the sacred Scriptures, and know the Lord's will, if they are virtuous men, and anxious for the people's good, and skilled in leading them aright unto every thing that is admirable, shall be rewarded with every blessing, if they discharge their duties with earnestness. And of this the Saviour...",
+  "source_file": "cyril_on_luke_08_sermons_81_88.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

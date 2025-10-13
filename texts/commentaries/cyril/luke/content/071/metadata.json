@@ -1,0 +1,30 @@
+{
+  "id": 71,
+  "roman": "LXXI",
+  "title": "Sermon LXXI",
+  "subtitle": "Luke 11:2",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "display": "Luke 11:2"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1472,
+  "excerpt": "11:2. Upon, \"Our Father, Who art in heaven\" OUR Lord Jesus Christ counted the insatiate desire of learning as worthy of all praise, thus saying: \"Blessed are they that hunger and thirst after righteousness, for they shall be satisfied.\" For it is right constantly to hunger and thirst after those things, by means of which a man becomes a warm lover of saintly glories, and earnest in every good work. And to all who are thus minded, Christ reveals the way by which they can accomplish their desire. But serviceable is it above all things besides for the religious to salvation, that they know how to pray, and offer not supplications displeasing to Almighty God. For as the wise Paul wrote to us, \"We know not what to pray for as we ought.\" Let us therefore draw near to Christ, the Giver of wisdom, and say, \"Teach us to pray.\" Let us be like the holy apostles, who above all other things asked of Him this profitable and saving lesson. Now at our last meeting we heard the gospel read, which says of Christ, the Saviour of us all, that \"it came to pass, that as He was in a...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

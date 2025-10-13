@@ -1,0 +1,30 @@
+{
+  "id": 137,
+  "roman": "CXXXVII",
+  "title": "Sermon CXXXVII",
+  "subtitle": "Luke 20:41-47",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 47
+    },
+    "display": "Luke 20:41-47"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1818,
+  "excerpt": "20:41-47. And He said to them. How say they of Christ that He is David's Son? For David himself says in the book of Psalms, The Lord said to my Lord, Sit You on My right hand until I place Your enemies as a footstool under Your feet. David therefore calls Him Lord; and how is He his Son? And in the hearing of all the people, He said to His disciples, Beware of the scribes, who desire to walk in stoles, and love greetings in the marketplaces, and the foremost seats in the synagogues, and the highest part of the couches at feasts: who devour widows' houses, and in pretence prolong their prayers: these shall receive more abundant condemnation. THOSE who love instruction and are fond of hearing receive with joy the profitable word of God, and store it up in the treasure-house of their heart as the seed of life. And what is. the result of their so doing? The divine light rises upon them, and they gain a correct and unerring knowledge of the sacred doctrines. And this quickens them to life, as the Son Himself teaches us, where He says to God the Father in heaven,...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

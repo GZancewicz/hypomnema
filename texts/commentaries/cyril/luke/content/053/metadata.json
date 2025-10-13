@@ -1,0 +1,30 @@
+{
+  "id": 53,
+  "roman": "LIII",
+  "title": "Sermon LIII",
+  "subtitle": "Luke 9:43-45",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "display": "Luke 9:43-45"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1731,
+  "excerpt": "9:43-45. And while every one wondered at all things which He did, He said unto His disciples, Lay ye these words to your ears: For the Son of man is about to be delivered up into the hands of men. But they knew not this saying, and it was hid from them that they should not understand it: and they feared to ask Him of this saying. PROFOUND in very deed is the mystery of godliness, according to the expression of the wise Paul: but God the Father reveals it to such as are worthy of receiving it. For the Saviour Himself also, when speaking to the Jews, said, \"Murmur not among yourselves: no man can come unto Me, unless the Father Who sent Me draw him.\" When then the blessed Peter had been counted worthy of a grace thus glorious and wonderful, being in the neighbourhood of Caesarea Philippi, he made a correct and faultless confession of faith in him, saying, \"Thou art the Christ, the Son of the living God.\" And what was the reward of which he was thought worthy? It was to hear Christ say, \"Blessed art thou, Simeon, son of Jonah: for flesh and blood...",
+  "source_file": "cyril_on_luke_05_sermons_47_56.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

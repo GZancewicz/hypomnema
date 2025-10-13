@@ -1,0 +1,30 @@
+{
+  "id": 58,
+  "roman": "LVIII",
+  "title": "Sermon LVIII",
+  "subtitle": "Luke 9:59-60",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 59
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 60
+    },
+    "display": "Luke 9:59-60"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2086,
+  "excerpt": "9:59-60. And He said unto another, Follow Me: but he said, Lord, suffer me to go first and bury my father. And Jesus said to him, Let the dead bury their dead: but go thou and preach the kingdom of God. IN Christ we have the head and teacher of every virtue. For \"we are taught of God,\" as the prophet declares, and moreover the wise Paul bears witness saying: \"God, Who in manifold parts and manifold manners spake in old time to the fathers by the prophets, hath in these last days spoken unto us by the Son.\" And what spake He by the Son? Plainly the gospel message of salvation, by means of which we are successfully guided into every kind of virtue, and advance in the praiseworthy and admirable pathway of the better life, so that by following His footsteps we gain the treasure of His gifts. The manner, then, in which we follow Him, and are counted worthy of those perfect and surpassing honours which were first bestowed upon the apostles, the lesson just laid before us clearly teaches us. \"For He said, it tells us, unto another, Follow Me.\" Now the first point to consider...",
+  "source_file": "cyril_on_luke_06_sermons_57_65.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

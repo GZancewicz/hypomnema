@@ -1,0 +1,30 @@
+{
+  "id": 73,
+  "roman": "LXXIII",
+  "title": "Sermon LXXIII",
+  "subtitle": "Luke 11:2",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 2
+    },
+    "display": "Luke 11:2"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1362,
+  "excerpt": "11:2. Upon \"Your kingdom come.\" THOSE who love riches, and whose mind is set on wealth and gain, gather by every means in their power the wished for object, and there is no labour they will not undertake. But their pursuit ends in no happy issue: \"For what,\" as the Saviour says, \"is a man profited, if he gain the whole world, but lose himself?\" But those who love the Word of salvation, and unrol the divine Scripture as a treasure, and carefully search out the things therein concealed, find the life-giving knowledge which leads them on to every virtuous pursuit, and makes them perfect in the knowledge of the doctrines of truth. Let us search therefore into the sense of the passage set before us. And our object is intelligently to see what the Saviour commanded. For we must, He said, when we pray say, \"Your kingdom come.\" Nevertheless He reigns over all with God the Father: nor can any addition be made to His kingly glory, either as accruing to Him from without, or as given Him by another. Nor did it gather by the course of time, but, so to speak, sprang up with Him without a...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

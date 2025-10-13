@@ -1,0 +1,30 @@
+{
+  "id": 118,
+  "roman": "CXVIII",
+  "title": "Sermon CXVIII",
+  "subtitle": "Luke 17:31-37",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 37
+    },
+    "display": "Luke 17:31-37"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2072,
+  "excerpt": "17:31-37. In that day, he who is upon the housetop, and his goods in the house, let him not go down to carry them away: and he who is in the field, let him in like manner not return back. Remember Lot's wife. Whosoever shall seek to save his life shall lose it: and whosoever shall lose it, shall save it alive. 1 tell you, in that night there shall be two men in one bed: the one shall be taken, and the other left. Two women shall be grinding at a mill together; the one shall be taken, and the other left. And they answer and say unto Him, Where, Lord? And He said unto them, Where the body is, there will also the eagles be gathered. THE sacred Scripture has some where said, \"Prepare your works for your departure, and make yourself ready for the field.\" Now by our departure I imagine is meant our going from this world, and removal hence. For this time must of course overtake every one: for, as the Psalmist says, \"What man is there that shall live and not see death, and that can save his soul from the hand of hell?\"...",
+  "source_file": "cyril_on_luke_11_sermons_110_123.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": 66,
+  "roman": "LXVI",
+  "title": "Sermon LXVI",
+  "subtitle": "Luke 10:22",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "display": "Luke 10:22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1673,
+  "excerpt": "10:22. Every thing has been delivered to Me by My Father; and no one knows Who the Son is but the Father; and Who the Father is but the Son; and to whomsoever the Son will reveal Him. OUR Lord Jesus Christ again reveals to us His glory, and the dignity of His godlike majesty, and the skilful method of the dispensation in the flesh; and plainly shows how great is the benefit which the dwellers upon earth derive from it. Let us ask of Him wisdom: let us seek understanding, that we may be able to perceive the exact meaning of His words. For it is He \"Who reveals deep things out of darkness, and brings to light those things that are hidden; and gives wisdom to the blind, and makes the brightness of the truth shine forth upon those that love Him. And among these are we: for lo! you have again come, as being, so to speak, thirsty, and the church is full of men loving to hear; and all are true worshippers, and searchers into the doctrines of piety. Come therefore, and let us approach the Saviour's words, opening wide the eye of the mind. And...",
+  "source_file": "cyril_on_luke_07_sermons_66_80.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

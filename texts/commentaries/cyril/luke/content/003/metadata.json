@@ -1,0 +1,42 @@
+{
+  "id": 3,
+  "roman": "III",
+  "title": "Sermon III",
+  "subtitle": "Luke 1:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Luke 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1743,
+  "excerpt": "VERY numerous indeed is the assembly, and earnest the hearer:----for we see the Church full:----but the teacher is but poor. He nevertheless Who giveth to man a mouth and tongue, will further supply us with good ideas.f17 For He somewhere says Himself, \"Open thy mouth wide, and I will fill it.\" Since therefore ye have all come together eagerly on the occasion of this joyous festival f18 of our Lord, let us with cheerful torches brightly celebrate the feast, and apply ourselves to the consideration of what was divinely fulfilled, as it were, this day, gathering for ourselves from every quarter whatsoever may confirm us in faith and piety. But recently we saw the Immanuel lying as a babe in the manger, and wrapped in human fashion in swaddling bands, but extolled as God in hymns by the host of the holy angels. For they proclaimed to the shepherds His birth, God the Father having granted to the inhabitants of heaven as a special privilege to be the first to preach Him. And to-day too we have seen Him obedient to the laws of Moses, or rather we have seen Him Who as God is the Legislator, subject to His...",
+  "source_file": "cyril_on_luke_01_sermons_01_11.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": true,
+  "footnotes": {
+    "1": "The original Greek of both the third and fourth Sermons has been preserved in the Imperial Library at Paris; and that of the fourth only at Trinity College, Cambridge. The former has been printed by Aubert in his collected edition of S. Cyril's Works, Vol. V. part ii. p. 385., where the two Sermons are incorporated into one.",
+    "2": "From this it appears that these homilies were delivered extemporaneously, which accounts for a certain amount of repetition in them, especially of favorite texts.",
+    "3": "The feast of circumcision.",
+    "4": "I have not noticed the many verbal discrepancies between him and Aubert, as the Catenists naturally had to make many slight alterations in forming their extracts into a connected discourse.",
+    "5": "This passage, as far as \"the plan of salvation,\" Mai for the present omits, but afterwards gives it in so different a form, and with such additions, that I think it better to append a separate translation. \"Again He paid the half shekel to the collectors of the tribute, although not bound to pay, as being in very truth the Son: but He paid as being made under the law. For He must verily act fully according   to   the   dispensation\nwhich He had undertaken for our sakes. And we shall find Him, moreover, even in the payment of the half shekel marked out as a Saviour and\nRedeemer (?).\nFor the half shekel was a coin stamped with the royal image: and it was paid according to the law for two persons. Behold therefore again Christ represented in the half shekel. For being the image of the Father, the impress of His substance, the coin that came from heaven, He offered Himself as the ransom for the two people, the Jews, I mean, and the Gentiles.\" This fanciful style of interpretation seldom appears in the Syriac, and is equally rejected in the present case by Aubert's MS.",
+    "6": "This passage exists among the Syriac fragments, and is important in so far establishing the accuracy of Aubert's text, as it agrees with it in omitting an interpolation of the Catenist, found in Mai.",
+    "7": "So Justin Martyr's Dial. with Trypho. (p. 201. ed. F. Sylburgii, Heidelb. 1793.) \"The ordinance of circumcision, which commanded infants to be circumcised on the eighth day only, was a type of the true circumcision from error and\nwickedness by means of the resurrection from the dead of our Lord Jesus Christ on the first day of the week. For the first day of the week, while remaining the first of all the days, is, nevertheless, in its relation to the whole circle of the week, called the eighth, and yet continues to be the first.\" So again, p. 288. \"The ark, in which were eight persons, symbolizes by that number the eighth day, on which Christ arose from the dead.\"",
+    "8": "The next two or three paragraphs are not found in Aubert, but as they are in Mai's same MS. E, which contains most of the foregoing, and as it is possible that the Copyist of\nAubert's MS. in reducing two Sermons into one, made large omissions to avoid the too great length, I have received them into the\ntext.",
+    "9": "Mai's next extract is from the 15th book of the De Ador. Spir. l. 553 and is omitted.",
+    "10": "Aubert begins again here. The passage is also in the Aurea Catena, upon Luke ii. 24.",
+    "11": "A passage follows in Mai, either from E. or H., going over ground already traversed, and probably only a summary gathered from S. Cyril. It is valuable, nevertheless, as shewing how little idea the ancients had\nof the immaculate conception of the blessed Virgin Mary: for it testifies that all women, except the Virgin,\n(\u03b1\u1f31 \u1f04\u03bb\u03bb\u03b1\u03b9 \u03b3\u03c5\u03bd\u03b1\u1fd6\u03ba\u03b5\u03c2,) conceived in sin,\n(\u1f10\u03bd \u1f00\u03bd\u03bf\u03bc\u1f77\u03b1\u03b9\u03c2.)"
+  },
+  "verified": true
+}

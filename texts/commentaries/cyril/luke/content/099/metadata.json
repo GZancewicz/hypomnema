@@ -1,0 +1,30 @@
+{
+  "id": 99,
+  "roman": "XCIX",
+  "title": "Sermon XCIX",
+  "subtitle": "Luke 13:22-30",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 30
+    },
+    "display": "Luke 13:22-30"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2044,
+  "excerpt": "13:22-30. And He went about among the cities and villages teaching; and journeyed towards Jerusalem. And one said unto Him, Lord, are they few that be saved? And He said unto them; Strive to enter in at the strait door: for many, I say unto you, will seek to enter in, and shall not be able, directly that the master of the house arises, and shuts the door: and you begin to stand outside, and to knock at the door, saying, Lord, open to us; and He shall answer and say unto you, I know you not whence you are. Then you will begin to say, We have eaten and drunk in Your presence, and You have taught in our streets: and He will say, I tell you, I know you not, whence you are; depart from me, all you workers of iniquity. There shall be weeping and gnashing of teeth, when you shall see Abraham, and Isaac, and Jacob, and all the prophets, in the kingdom of God, and you yourselves cast out. And they shall come from the east, and from the west, and from the north, and from the south, and shall sit down to meat in...",
+  "source_file": "cyril_on_luke_10_sermons_99_109.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

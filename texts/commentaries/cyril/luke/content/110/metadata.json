@@ -1,0 +1,30 @@
+{
+  "id": 110,
+  "roman": "CX",
+  "title": "Sermon CX",
+  "subtitle": "Luke 16:14-17",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 17
+    },
+    "display": "Luke 16:14-17"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2725,
+  "excerpt": "16:14-17. And the Pharisees, who were lovers of money, heard all these things, and they derided Him. And He said unto them, You are they who justify yourselves before men, but God knows your hearts: for that which is high among men, is an abomination before God. The law and the prophets until John: thenceforth the kingdom of God is preached, and every one takes it by force. And it is easier for heaven and earth to pass away, than for one point of the law to fall. THE love of money, my brethren, is a most wicked passion, and not easy to abandon. For when Satan has planted this malady in a man's soul, he next proceeds to blind him, nor does he permit him to listen to the words of exhortation, lest there be found for us a way of healing, able to save from misery those who are ensnared thereby. And observe again, I pray, how true my words upon this subject are from the instance even of the Pharisees. For they were lovers of riches, and enamoured of gain, and regarded a bare sufficiency with contempt. For even, so to speak, throughout the whole of the...",
+  "source_file": "cyril_on_luke_11_sermons_110_123.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

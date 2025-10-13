@@ -1,0 +1,30 @@
+{
+  "id": 142,
+  "roman": "CXLII",
+  "title": "Sermon CXLII",
+  "subtitle": "Luke 22:17-22",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 22
+    },
+    "display": "Luke 22:17-22"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2566,
+  "excerpt": "22:17-22. And He took a cup, and gave thanks, and said, Take this, and divide it with one another: for I say to you, that I will not drink henceforth of the fruit of the vine, until the kingdom of God is fulfilled. And He took bread, and gave thanks, and broke it, and gave to them, saying, This is My body, which is given for you: do this in remembrance of Me. In like manner also the cup, after He had supped, saying, This cup is the new testament in My blood, which is shed for you. But, behold! the hand of him that betrays Me is with Me at the table. And the Son of man indeed goes, according to that which was determined: but woe to that man by whom He is betrayed! TO be made partakers of Christ, both intellectually and by our senses, fills us with every blessing. For He dwells in us, first, by the Holy Spirit, and we are His abode, according to that which was said of old by one of the holy prophets. \"For I will dwell in them, He says,. and lead them: and I will be to them a...",
+  "source_file": "cyril_on_luke_13_sermons_135_145.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

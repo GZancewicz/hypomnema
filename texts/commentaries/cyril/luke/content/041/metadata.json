@@ -1,0 +1,30 @@
+{
+  "id": 41,
+  "roman": "XLI",
+  "title": "Sermon XLI",
+  "subtitle": "Luke 8:4-8",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 8
+    },
+    "display": "Luke 8:4-8"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 2537,
+  "excerpt": "8:4-8. And when a large multitude was gathered together, and some of every city were come to Him, He spake by a parable. The Sower went out to sow his seed; and as he sowed, some fell by the way side, and was trampled upon, and the birds of heaven devoured it. And other fell upon the rock, and, when it had sprung up, it withered away because it had no moisture. And other fell among the thorns, and the thorns grew up with it, and choked it. And other fell upon the good ground, and it grew up, and brought forth fruit a hundredfold. While saying these things He cried out, He that hath ears to hear let him hear. The blessed prophets have spoken to us in manifold ways respecting Christ the Saviour of us all. For some proclaimed Him as a Light that was to come: and others as One of royal rank and greatness. For one of them even says, \"Blessed is he who hath seed in Zion, and kinsmen in Jerusalem: for lo! her just king shall reign, and princes shall bear rule with judgment. And That Man shall be One That hideth His words.\"...",
+  "source_file": "cyril_on_luke_04_sermons_39_46.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

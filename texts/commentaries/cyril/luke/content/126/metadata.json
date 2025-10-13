@@ -1,0 +1,30 @@
+{
+  "id": 126,
+  "roman": "CXXVI",
+  "title": "Sermon CXXVI",
+  "subtitle": "Luke 18:35-43",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 43
+    },
+    "display": "Luke 18:35-43"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1532,
+  "excerpt": "18:35-43. And it came to pass, that as He drew near to Jericho, a certain blind man sat by the way side begging: and hearing a multitude passing by, he asked what it meant. And they told him that Jesus of Nazareth passes by. And he cried, saying, Jesus, Son of David, have mercy upon me. And they who went before rebuked him that he should hold his peace. But he cried out so much the more, Son of David, have mercy upon me. And Jesus stood still, and commanded that they should bring him to Him. And when he drew near, He asked him. What do you want me to do for you? And he said, Lord, that I may receive my sight. And Jesus said to him, Receive your sight: your faith has made you live. And immediately he received his sight, and followed Him, glorifying God. And all the people when they saw it gave glory to God. WHOSOEVER are yet without understanding, and accept not the faith in Christ, may justly have that said to them which was spoken by the voice of David, \"Come and see the works of God, the miracles that He has...",
+  "source_file": "cyril_on_luke_12_sermons_124_134.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

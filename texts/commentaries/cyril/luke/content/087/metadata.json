@@ -1,0 +1,30 @@
+{
+  "id": 87,
+  "roman": "LXXXVII",
+  "title": "Sermon LXXXVII",
+  "subtitle": "Luke 12:4-7",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 7
+    },
+    "display": "Luke 12:4-7"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1731,
+  "excerpt": "THIS HOMILY IS FIT TO BE READ IN A TIME OF STRUGGLE AND PERSECUTION FOR FAITH IN GOD. 12:4-7. And I say unto you, My friends, Fear not them that kill the body, and afterwards have nothing more to do. But I will show you Whom you shall fear: fear Him Who after He has killed has power to cast into hell: yea, I say unto you, fear Him. Are not five sparrows sold for two halfpence; and not one of them is forgotten before God. But even the hairs of your head are all numbered. Fear not: you are of more value than many sparrows. PATIENCE, and an enduring and courageous mind, form the impenetrable armour of the saints: for they render them approved and resplendent with the praises of piety. For one also of the holy apostles thus spake, at one time; \"In patience possess you your souls:\" at another; \"You have need of patience, that by doing the will of God, you may receive the promise.\" By such manly virtues we become famous, and praiseworthy, and renowned among men everywhere, and worthy of honours and the blessings that are prepared for the saints: even those which \"eye...",
+  "source_file": "cyril_on_luke_08_sermons_81_88.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}

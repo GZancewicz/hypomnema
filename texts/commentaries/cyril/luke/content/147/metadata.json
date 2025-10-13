@@ -1,0 +1,30 @@
+{
+  "id": 147,
+  "roman": "CXLVII",
+  "title": "Sermon CXLVII",
+  "subtitle": "Luke 1:1",
+  "author": "cyril",
+  "author_full": "Cyril of Alexandria",
+  "work": "Sermons on Luke",
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Luke 1:1"
+  },
+  "themes": [],
+  "date_delivered": null,
+  "word_count": 1896,
+  "excerpt": "UPON THE SAME SUBJECT. ONCE again I am come to pay you what I promised, and to add a fitting conclusion to my discourse concerning Christ. For on all occasions it is dangerous to be guilty of untruth; but when any thing of the kind is committed in those things which are important for our edification, well may we then fear lest we bring down upon us condemnation from on high, and also become an object of general ridicule. We said therefore at our last meeting, that Christ the Saviour of all was with the holy disciples upon the mount of Olives, while that many-headed serpent, even Satan, was preparing for Him the snare of death; and the chiefs of the Jewish synagogue and the disciple that betrayed Him were, so to speak, leaving nothing undone to gain possession of His person, and had already gathered those who were to seize Him, and who consisted of a band of the soldiers of Pilate, and a multitude of wicked officers. Just therefore as the attempt was about to be made, He was sorrowful, and admonished the disciples to act in like manner suitably to the season, saying, \"Watch and pray, that...",
+  "source_file": "cyril_on_luke_14_sermons_146_156.htm",
+  "extraction_method": "html_parsing",
+  "has_footnotes": false,
+  "footnotes": {},
+  "verified": true
+}
