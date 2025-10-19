@@ -1995,19 +1995,23 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		The Venerable Bede's 50 homilies on the Gospels, organized in two books, covering
 		passages from all four Gospels from the early medieval period in England.</p>
 
-		<p><strong>Nikolai Velimirovich's Prologue of Ohrid</strong><br>
-		St. Nikolai Velimirovich's daily meditations from the Prologue of Ohrid, featuring
-		homilies on Scripture organized by calendar date (In progress).</p>
+		<p><strong>Nikolai Velimirović's Prologue of Ohrid</strong><br>
+		St. Nikolai Velimirović's daily meditations from the Prologue of Ohrid, featuring
+		homilies on Scripture organized by calendar date.</p>
 
 		<p><strong>Maximos the Confessor's On the Lord's Prayer</strong><br>
 		St. Maximos the Confessor's treatise on the Lord's Prayer, providing spiritual
 		commentary on both Matthew and Luke's accounts of the Our Father.</p>
 
+		<p><strong>Theophylact's Explanations of the Holy Gospel</strong><br>
+		Blessed Theophylact of Ohrid's verse-by-verse commentary on the Gospels,
+		combining patristic wisdom with accessible explanation (In progress).</p>
+
 		<h3>Features</h3>
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirovich, and Maximos the Confessor</li>
+			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirović, Maximos the Confessor, and Theophylact of Ohrid</li>
 			<li>Commentary Index showing available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Split-screen commentary viewing</li>
@@ -2093,7 +2097,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		},
 		{
 			"nikolai",
-			"Nikolai Velimirovich",
+			"Nikolai Velimirović",
 			map[string]string{
 				"Prologue": "Prologue of Ohrid",
 			},
@@ -2103,6 +2107,14 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			"Maximos the Confessor",
 			map[string]string{
 				"On the Lord's Prayer": "On the Lord's Prayer",
+			},
+		},
+		{
+			"theophylact",
+			"Theophylact of Ohrid",
+			map[string]string{
+				"matthew": "Explanation of the Holy Gospel According to Matthew",
+				"luke":    "Explanation of the Holy Gospel According to Luke",
 			},
 		},
 	}
@@ -2360,9 +2372,14 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Homilies on the Gospels</em></td>
 					</tr>
 					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Theophylact of Ohrid</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 1055–1107</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Explanations of the Holy Gospel</em> (in progress)</td>
+					</tr>
+					<tr>
 						<td style="padding: 8px; border-bottom: 1px solid #eee;">Nikolai Velimirović</td>
 						<td style="padding: 8px; border-bottom: 1px solid #eee;">1880–1956</td>
-						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Prologue of Ohrid</em> (in progress)</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Prologue of Ohrid</em></td>
 					</tr>
 				</tbody>
 			</table>
@@ -2456,8 +2473,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		for _, row := range rows {
 			// Determine the homily/sermon link based on author
 			var link string
-			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" || row.Author == "maximos_the_confessor" {
-				// Gregory the Great, Bede, Nikolai, and Maximos - plain text, no link
+			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" || row.Author == "maximos_the_confessor" || row.Author == "theophylact" {
+				// Gregory the Great, Bede, Nikolai, Maximos, and Theophylact - plain text, no link
 				link = row.Section
 			} else if row.Author == "cyril" {
 				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
