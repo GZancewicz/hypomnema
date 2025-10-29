@@ -74,10 +74,12 @@ type VerseToHomily map[string][]Homily
 
 // HomilyRange represents the coverage of a homily
 type HomilyRange struct {
-	ID     int    `json:"id"`
-	Roman  string `json:"roman"`
-	Title  string `json:"title"`
-	Start  struct {
+	ID    int    `json:"id"`
+	Roman string `json:"roman"`
+	Title string `json:"title"`
+	Date  string `json:"date"`
+	Saint string `json:"saint"`
+	Start struct {
 		Chapter int `json:"chapter"`
 		Verse   int `json:"verse"`
 	} `json:"start"`
@@ -124,15 +126,15 @@ type ScriptureReference struct {
 
 // Global data
 var (
-	verseToCanon VerseToCanon
-	canonLookup CanonLookup
-	harmonyData []HarmonyEntry
-	sectionData map[string][]SectionEntry
-	commentaries map[string]*Commentary
+	verseToCanon               VerseToCanon
+	canonLookup                CanonLookup
+	harmonyData                []HarmonyEntry
+	sectionData                map[string][]SectionEntry
+	commentaries               map[string]*Commentary
 	chrysostomMatthewFootnotes AllFootnotes
 	chrysostomJohnFootnotes    AllFootnotes
-	scriptureReferences map[string][]ScriptureReference
-	books = []Book{
+	scriptureReferences        map[string][]ScriptureReference
+	books                      = []Book{
 		{ID: "matthew", Name: "Matthew", Chapters: 28},
 		{ID: "mark", Name: "Mark", Chapters: 16},
 		{ID: "luke", Name: "Luke", Chapters: 24},
@@ -187,7 +189,7 @@ func init() {
 	loadSectionData()
 
 	// Load all commentaries
-	loadCommentary("chrysostom", "matthew", 
+	loadCommentary("chrysostom", "matthew",
 		"../texts/commentaries/chrysostom/matthew/verse_mapping.json",
 		"../texts/commentaries/chrysostom/matthew/coverage.json")
 	loadCommentary("chrysostom", "john",
@@ -196,6 +198,9 @@ func init() {
 	loadCommentary("cyril", "luke",
 		"../texts/commentaries/cyril/luke/verse_mapping.json",
 		"../texts/commentaries/cyril/luke/coverage.json")
+	loadCommentary("synaxarion", "matthew",
+		"../texts/commentaries/synaxarion/verse_mapping.json",
+		"../texts/commentaries/synaxarion/coverage.json")
 
 	// Load footnotes
 	loadAllFootnotes()
@@ -406,7 +411,7 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 		Author: author,
 		Book:   book,
 	}
-	
+
 	// Load verse-to-homily mapping
 	file, err := os.Open(homiliesPath)
 	if err != nil {
@@ -420,7 +425,7 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 			commentary.VerseToHomily = make(VerseToHomily)
 		}
 	}
-	
+
 	// Load coverage data
 	file2, err := os.Open(coveragePath)
 	if err != nil {
@@ -429,9 +434,9 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 	} else {
 		defer file2.Close()
 		var coverageData struct {
-			Commentary    string         `json:"commentary"`
-			TotalHomilies int            `json:"total_homilies"`
-			Homilies      []HomilyRange  `json:"homilies"`
+			Commentary    string        `json:"commentary"`
+			TotalHomilies int           `json:"total_homilies"`
+			Homilies      []HomilyRange `json:"homilies"`
 		}
 		err = json.NewDecoder(file2).Decode(&coverageData)
 		if err != nil {
@@ -446,7 +451,7 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 			log.Printf("Loaded %s %s coverage for %d homilies/sermons", author, book, len(commentary.Coverage))
 		}
 	}
-	
+
 	commentaries[key] = commentary
 }
 
@@ -472,24 +477,24 @@ func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, er
 	if len(startParts) != 2 {
 		return 0, 0, 0, 0, fmt.Errorf("invalid verse reference: %s", ref)
 	}
-	
+
 	startChap, err = strconv.Atoi(startParts[0])
 	if err != nil {
 		return 0, 0, 0, 0, err
 	}
-	
+
 	// Remove any letter suffixes from verse number (e.g., "23B" -> "23")
 	startVerseStr := strings.TrimRight(startParts[1], "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 	startVerse, err = strconv.Atoi(startVerseStr)
 	if err != nil {
 		return 0, 0, 0, 0, err
 	}
-	
+
 	// If no range, end is same as start
 	if len(parts) == 1 {
 		return startChap, startVerse, startChap, startVerse, nil
 	}
-	
+
 	// Parse end reference - support both : and . separators
 	if strings.Contains(parts[1], ".") || strings.Contains(parts[1], ":") {
 		// Full reference like "3:6" or "3.6"
@@ -519,7 +524,7 @@ func parseVerseRef(ref string) (startChap, startVerse, endChap, endVerse int, er
 			return 0, 0, 0, 0, err
 		}
 	}
-	
+
 	return startChap, startVerse, endChap, endVerse, nil
 }
 
@@ -530,23 +535,23 @@ func findHomiliesForRange(author, book string, startChap, startVerse, endChap, e
 	if !ok {
 		return nil
 	}
-	
+
 	var result []Homily
 	for _, hr := range commentary.Coverage {
 		// Check if the homily range overlaps with the requested range
 		if (hr.Start.Chapter < endChap || (hr.Start.Chapter == endChap && hr.Start.Verse <= endVerse)) &&
-		   (hr.End.Chapter > startChap || (hr.End.Chapter == startChap && hr.End.Verse >= startVerse)) {
+			(hr.End.Chapter > startChap || (hr.End.Chapter == startChap && hr.End.Verse >= startVerse)) {
 			// Simple passage format - we'll format it properly when displaying
 			passage := fmt.Sprintf("%d:%d-%d:%d", hr.Start.Chapter, hr.Start.Verse, hr.End.Chapter, hr.End.Verse)
-			
+
 			result = append(result, Homily{
-				ID:     hr.ID,
-				Roman:  hr.Roman,
+				ID:      hr.ID,
+				Roman:   hr.Roman,
 				Passage: passage,
 			})
 		}
 	}
-	
+
 	return result
 }
 
@@ -573,7 +578,7 @@ func main() {
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
-	
+
 	// Homily page
 	http.HandleFunc("/homily/", homilyHandler)
 
@@ -595,12 +600,12 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 			tmpl = templates
 		}
 	}
-	
+
 	// Handle direct book/chapter URLs like /matthew/1
 	path := r.URL.Path
 	currentBook := "matthew"
 	currentChap := 1
-	
+
 	if path != "/" {
 		parts := strings.Split(strings.Trim(path, "/"), "/")
 		if len(parts) >= 1 {
@@ -611,7 +616,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 					break
 				}
 			}
-			
+
 			// Get chapter if provided
 			if len(parts) >= 2 {
 				if chap, err := strconv.Atoi(parts[1]); err == nil {
@@ -620,14 +625,14 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	
+
 	// Get available Cyril sermons
 	cyrilSermons := []struct {
 		ID     int
 		Roman  string
 		Verses string
 	}{}
-	
+
 	// Scan the Cyril content directory for available sermons
 	contentDir := "../texts/commentaries/cyril/luke/content"
 	files, err := os.ReadDir(contentDir)
@@ -653,7 +658,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 							}
 						}
 					}
-					
+
 					cyrilSermons = append(cyrilSermons, struct {
 						ID     int
 						Roman  string
@@ -667,12 +672,12 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	
+
 	// Sort by ID
 	sort.Slice(cyrilSermons, func(i, j int) bool {
 		return cyrilSermons[i].ID < cyrilSermons[j].ID
 	})
-	
+
 	data := struct {
 		Books        []Book
 		CurrentBook  string
@@ -702,13 +707,13 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(""))
 		return
 	}
-	
+
 	// Check if this is a request for all results
 	showAll := r.URL.Query().Get("all") == "true"
-	
+
 	// Convert to lowercase for case-insensitive search
 	searchTerm := strings.ToLower(query)
-	
+
 	// Define search result structure
 	type SearchResult struct {
 		BookID    string
@@ -718,26 +723,26 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 		VerseText string
 		IsGospel  bool
 	}
-	
+
 	var allResults []SearchResult
 	gospelBooks := map[string]bool{"matthew": true, "mark": true, "luke": true, "john": true}
-	
+
 	// Search through all books
 	for _, book := range books {
 		// Get book directory
 		bookDir := filepath.Join("../texts/scripture/new_testament/english/kjv", book.ID)
-		
+
 		// Read all chapters for this book
 		for chapter := 1; chapter <= book.Chapters; chapter++ {
 			chapterDir := fmt.Sprintf("%02d", chapter)
 			chapterFile := filepath.Join(bookDir, chapterDir, fmt.Sprintf("%s_%02d.txt", book.ID, chapter))
-			
+
 			// Read chapter file
 			content, err := os.ReadFile(chapterFile)
 			if err != nil {
 				continue
 			}
-			
+
 			// Search line by line
 			lines := strings.Split(string(content), "\n")
 			for _, line := range lines {
@@ -759,10 +764,10 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	
+
 	// Build results HTML
 	var results strings.Builder
-	
+
 	if showAll {
 		// Return JSON for modal
 		results.WriteString(`<div id="search-modal-content">`)
@@ -773,7 +778,7 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 			if len(highlightedText) > 200 {
 				highlightedText = highlightedText[:200] + "..."
 			}
-			
+
 			results.WriteString(fmt.Sprintf(`
 				<div class="search-result-modal" 
 					 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
@@ -789,10 +794,10 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 	} else {
 		// Regular search results - show all Gospel results
 		results.WriteString(`<div class="search-results-list" style="max-height: 400px; overflow-y: auto; margin-top: 10px;">`)
-		
+
 		gospelCount := 0
 		totalCount := len(allResults)
-		
+
 		// Show all Gospel results first
 		for _, result := range allResults {
 			if result.IsGospel {
@@ -802,7 +807,7 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 				if len(highlightedText) > 200 {
 					highlightedText = highlightedText[:200] + "..."
 				}
-				
+
 				results.WriteString(fmt.Sprintf(`
 					<div class="search-result" 
 						 style="padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; transition: background-color 0.2s;"
@@ -817,11 +822,11 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 						<div style="color: #666; font-size: 0.9em; line-height: 1.4; pointer-events: none;">%s</div>
 					</div>
 				`, result.BookID, result.Chapter, result.BookID, result.Chapter, result.BookName, result.VerseRef, highlightedText))
-				
+
 				gospelCount++
 			}
 		}
-		
+
 		// Show message based on results
 		if totalCount == 0 {
 			results.WriteString(`<div style="padding: 10px; color: #666;">No results found for "`)
@@ -838,10 +843,10 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 				</div>
 			`, gospelCount, html.EscapeString(query), totalCount))
 		}
-		
+
 		results.WriteString(`</div>`)
 	}
-	
+
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(results.String()))
 }
@@ -864,7 +869,7 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	// Read chapter text
 	chapterStr := fmt.Sprintf("%02d", chapter)
 	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", bookID, chapterStr, bookID+"_"+chapterStr+".txt")
-	
+
 	file, err := os.Open(filePath)
 	if err != nil {
 		http.Error(w, "Chapter not found", http.StatusNotFound)
@@ -889,13 +894,17 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Get verse-to-canon mapping for this book
 	bookCanons := verseToCanon[bookID]
-	
+
 	// Get homily mappings
 	var homilyMap map[string][]Homily
 	var cyrilHomilyMap map[string][]Homily
+	var synaxarionHomilyMap map[string][]Homily
 	if bookID == "matthew" {
 		if comm, ok := commentaries["chrysostom-matthew"]; ok {
 			homilyMap = comm.VerseToHomily
+		}
+		if comm, ok := commentaries["synaxarion-matthew"]; ok {
+			synaxarionHomilyMap = comm.VerseToHomily
 		}
 	} else if bookID == "john" {
 		if comm, ok := commentaries["chrysostom-john"]; ok {
@@ -907,23 +916,23 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 			cyrilHomilyMap = comm.VerseToHomily
 		}
 	}
-	
+
 	// Format the text with paragraphs and canon numbers
-	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap)
-	
+	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap, synaxarionHomilyMap)
+
 	// Check if this is an HTMX request
 	isHTMX := r.Header.Get("HX-Request") == "true"
-	
+
 	// If it's an HTMX request, add out-of-band swaps
 	if isHTMX {
 		var response strings.Builder
-		
+
 		// Main content
 		response.WriteString(html)
-		
+
 		// Out-of-band update for chapter title
 		response.WriteString(fmt.Sprintf(`<h2 id="chapter-title" hx-swap-oob="true">Chapter %d</h2>`, chapter))
-		
+
 		// Get book display name
 		bookName := bookID // default to ID
 		for _, book := range books {
@@ -932,10 +941,10 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 				break
 			}
 		}
-		
+
 		// Out-of-band update for browser title
 		response.WriteString(fmt.Sprintf(`<title hx-swap-oob="true">%s %d - Hypomnema</title>`, bookName, chapter))
-		
+
 		// Find max chapters for this book
 		maxChapters := 1
 		for _, book := range books {
@@ -944,7 +953,7 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 				break
 			}
 		}
-		
+
 		// Generate chapter selector out-of-band updates (both top and bottom)
 		var chapterBoxes strings.Builder
 		for i := 1; i <= maxChapters; i++ {
@@ -958,17 +967,17 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 				     style="cursor: pointer;">%d</div>`,
 				activeClass, bookID, i, i))
 		}
-		
+
 		// Top chapter selector
 		response.WriteString(`<div id="chapter-selector" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
 		response.WriteString(chapterBoxes.String())
 		response.WriteString(`</div>`)
-		
+
 		// Bottom chapter selector
 		response.WriteString(`<div id="chapter-selector-bottom" class="chapter-selector" hx-ext="preload" hx-swap-oob="true">`)
 		response.WriteString(chapterBoxes.String())
 		response.WriteString(`</div>`)
-		
+
 		w.Header().Set("Content-Type", "text/html")
 		w.Write([]byte(response.String()))
 	} else {
@@ -978,73 +987,73 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily) string {
+func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily, synaxarionHomilyMap map[string][]Homily) string {
 	lines := strings.Split(strings.TrimSpace(text), "\n")
 	var html strings.Builder
-	
+
 	html.WriteString("<div class='chapter-text'>")
-	
+
 	inParagraph := false
 	isFirstVerse := true
 	lastCanonNum := ""
 	lastHomilies := []int{} // Track homily numbers from previous verse
-	
+
 	for _, line := range lines {
 		// Parse verse number and text - handle "1:1" format
 		colonIndex := strings.Index(line, ":")
 		if colonIndex == -1 {
 			continue
 		}
-		
+
 		// Extract verse number after the colon
 		spaceIndex := strings.Index(line[colonIndex:], " ")
 		if spaceIndex == -1 {
 			continue
 		}
-		
+
 		verseNumStr := line[colonIndex+1 : colonIndex+spaceIndex]
 		verseNum, err := strconv.Atoi(verseNumStr)
 		if err != nil {
 			continue
 		}
 		verseText := line[colonIndex+spaceIndex+1:]
-		
+
 		// Check if this verse starts a new paragraph
 		shouldStartParagraph := isFirstVerse || contains(paragraphBreaks, verseNum)
-		
+
 		if shouldStartParagraph && inParagraph {
 			html.WriteString("</p>")
 			inParagraph = false
 		}
-		
+
 		if shouldStartParagraph {
 			html.WriteString("<p>")
 			inParagraph = true
 		}
-		
+
 		// Check if this verse has a canon number
 		verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
 		canonNum := ""
 		if bookCanons != nil {
 			canonNum = bookCanons[verseKey]
 		}
-		
+
 		// Only show canon number if it's different from the last one (new section)
 		showCanon := canonNum != "" && canonNum != lastCanonNum
 		if canonNum != "" {
 			lastCanonNum = canonNum
 		}
-		
+
 		// Add canon number if needed (before the verse)
 		if showCanon {
 			// canonNum is already in format "I.1", "XIII.3", etc.
 			tooltip := getCanonTooltipFromKey(canonNum, bookID)
 			html.WriteString(fmt.Sprintf(`<span class="canon-num" title="%s" onclick="showCanonModal('%s')">%s</span>`, tooltip, canonNum, canonNum))
 		}
-		
+
 		// Check if this verse has homily references
 		currentHomilies := []int{} // Track homilies for this verse
-		
+
 		if (bookID == "matthew" || bookID == "john") && homilyMap != nil {
 			// Direct homily references
 			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
@@ -1064,7 +1073,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						currentHomilies = append(currentHomilies, homily.ID)
 					}
 				}
-				
+
 				// Only render if we have non-duplicate homilies
 				if len(filteredHomilies) > 0 {
 					html.WriteString(`<div class="homily-refs-container">`)
@@ -1073,7 +1082,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						if bookID == "john" {
 							bookTitle = "John"
 						}
-						
+
 						// Get passage reference from coverage data
 						passageRef := ""
 						if comm, ok := commentaries["chrysostom-"+bookID]; ok {
@@ -1089,15 +1098,15 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 								}
 							}
 						}
-						
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on %s%s"></a>`, 
+
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" class="homily-ref" data-full-text="John Chrysostom, Homily %s on %s%s"></a>`,
 							homily.ID, homily.Roman, bookID, homily.Roman, bookTitle, passageRef))
 					}
 					html.WriteString(`</div>`)
 				}
 			}
-		} 
-		
+		}
+
 		// Check for cross-referenced homilies via canon tables
 		if canonNum != "" {
 			if canonData, ok := canonLookup[canonNum]; ok {
@@ -1118,20 +1127,20 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						}
 					}
 				}
-				
+
 				// Loop through all books mentioned in this canon
 				for canonBook, canonRef := range canonData {
 					// Skip the current book (don't show self-references)
 					if canonBook == bookID {
 						continue
 					}
-					
+
 					// Parse the reference for this book
 					startChap, startVerse, endChap, endVerse, err := parseVerseRef(canonRef)
 					if err != nil {
 						continue
 					}
-					
+
 					// Check all available commentaries for this book
 					for key := range commentaries {
 						// Extract author and book from the key (format: "author-book")
@@ -1141,7 +1150,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						}
 						author := parts[0]
 						commBook := parts[1]
-						
+
 						// Check if this commentary is for the canon's book
 						if commBook == canonBook {
 							// Find homilies that cover this passage
@@ -1156,7 +1165,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 				}
 			}
 		}
-		
+
 		// Add Cyril's commentary for Luke
 		if bookID == "luke" && cyrilHomilyMap != nil {
 			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
@@ -1177,7 +1186,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						currentHomilies = append(currentHomilies, -homily.ID) // Store as negative to distinguish
 					}
 				}
-				
+
 				// Render Cyril's homilies
 				if len(filteredCyrilHomilies) > 0 {
 					html.WriteString(`<div class="homily-refs-container cyril">`)
@@ -1197,28 +1206,78 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 								}
 							}
 						}
-						
-						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', 'luke'); return false;" class="homily-ref cyril" data-full-text="Cyril of Alexandria, Sermon %s on Luke%s"></a>`, 
+
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', 'luke'); return false;" class="homily-ref cyril" data-full-text="Cyril of Alexandria, Sermon %s on Luke%s"></a>`,
 							homily.ID, homily.Roman, homily.Roman, passageRef))
 					}
 					html.WriteString(`</div>`)
 				}
 			}
 		}
-		
+
+		// Add Synaxarion entries
+		if synaxarionHomilyMap != nil {
+			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
+			if synaxarionEntries, ok := synaxarionHomilyMap[verseKey]; ok {
+				var filteredSynaxarionEntries []Homily
+				for _, entry := range synaxarionEntries {
+					isDuplicate := false
+					for _, lastNum := range lastHomilies {
+						if entry.ID*1000 == lastNum {
+							isDuplicate = true
+							break
+						}
+					}
+					if !isDuplicate {
+						filteredSynaxarionEntries = append(filteredSynaxarionEntries, entry)
+						currentHomilies = append(currentHomilies, entry.ID*1000)
+					}
+				}
+
+				if len(filteredSynaxarionEntries) > 0 {
+					html.WriteString(`<div class="homily-refs-container synaxarion">`)
+					for _, entry := range filteredSynaxarionEntries {
+						passageRef := ""
+						saintName := ""
+						dateStr := ""
+						if comm, ok := commentaries["synaxarion-matthew"]; ok {
+							if coverage, ok := comm.Coverage[entry.ID]; ok {
+								if coverage.Start.Chapter == coverage.End.Chapter {
+									if coverage.Start.Verse == coverage.End.Verse {
+										passageRef = fmt.Sprintf(" (%d:%d)", coverage.Start.Chapter, coverage.Start.Verse)
+									} else {
+										passageRef = fmt.Sprintf(" (%d:%d-%d)", coverage.Start.Chapter, coverage.Start.Verse, coverage.End.Verse)
+									}
+								} else {
+									passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.Start.Chapter, coverage.Start.Verse, coverage.End.Chapter, coverage.End.Verse)
+								}
+								saintName = coverage.Saint
+								dateStr = coverage.Date
+							}
+						}
+
+						tooltipText := fmt.Sprintf("Synaxarion: %s (%s)%s", saintName, dateStr, passageRef)
+						html.WriteString(fmt.Sprintf(`<a href="#" onclick="return false;" class="homily-ref synaxarion" data-full-text="%s"></a>`,
+							tooltipText))
+					}
+					html.WriteString(`</div>`)
+				}
+			}
+		}
+
 		// Update lastHomilies for next verse
 		lastHomilies = currentHomilies
-		
+
 		// Add verse with superscript number and ID for anchor links
 		html.WriteString(fmt.Sprintf(`<span class="verse" id="verse-%d"><sup class="verse-num">%d</sup>%s </span>`, verseNum, verseNum, verseText))
-		
+
 		isFirstVerse = false
 	}
-	
+
 	if inParagraph {
 		html.WriteString("</p>")
 	}
-	
+
 	html.WriteString("</div>")
 	return html.String()
 }
@@ -1228,7 +1287,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, canonVerseRange string, lastHomilies []int) (string, []int) {
 	var html strings.Builder
 	var currentHomilies []int
-	
+
 	// Filter out consecutive duplicates
 	var filteredHomilies []Homily
 	for _, homily := range homilies {
@@ -1253,7 +1312,7 @@ func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, c
 			}
 		}
 	}
-	
+
 	// Only render if we have non-duplicate homilies
 	if len(filteredHomilies) > 0 {
 		className := "homily-refs-container"
@@ -1266,11 +1325,11 @@ func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, c
 			className += " cyril"
 			refClass += " cyril"
 		}
-		
+
 		html.WriteString(fmt.Sprintf(`<div class="%s">`, className))
 		for _, homily := range filteredHomilies {
 			var onclick, fullText string
-			
+
 			// Determine the verse range to show in the tooltip
 			passageRef := ""
 			if isCrossRef && canonVerseRange != "" {
@@ -1293,7 +1352,7 @@ func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, c
 					}
 				}
 			}
-			
+
 			if author == "cyril" {
 				onclick = fmt.Sprintf(`loadCyrilHomily(%d, '%s', '%s')`, homily.ID, homily.Roman, book)
 				fullText = fmt.Sprintf("Cyril of Alexandria, Sermon %s on Luke%s", homily.Roman, passageRef)
@@ -1305,13 +1364,13 @@ func renderHomilyRefs(homilies []Homily, author, book string, isCrossRef bool, c
 				}
 				fullText = fmt.Sprintf("John Chrysostom, Homily %s on %s%s", homily.Roman, bookTitle, passageRef)
 			}
-			
+
 			html.WriteString(fmt.Sprintf(`<a href="#" onclick="%s; return false;" class="%s" data-full-text="%s"></a>`,
 				onclick, refClass, fullText))
 		}
 		html.WriteString(`</div>`)
 	}
-	
+
 	return html.String(), currentHomilies
 }
 
@@ -1327,21 +1386,21 @@ func contains(slice []int, val int) bool {
 func getCanonTooltipFromKey(canonKey string, currentBook string) string {
 	gospelAbbr := map[string]string{
 		"matthew": "Mt",
-		"mark": "Mk", 
-		"luke": "Lk",
-		"john": "Jn",
+		"mark":    "Mk",
+		"luke":    "Lk",
+		"john":    "Jn",
 	}
-	
+
 	// canonKey is already in format "I.1", "XIII.3", etc.
 	if passages, ok := canonLookup[canonKey]; ok {
 		// Build list of passages, with current book first
 		var result []string
-		
+
 		// Add current book first if present
 		if verses, ok := passages[currentBook]; ok {
 			result = append(result, fmt.Sprintf("%s %s", gospelAbbr[currentBook], verses))
 		}
-		
+
 		// Then add other gospels in canonical order
 		gospelOrder := []string{"matthew", "mark", "luke", "john"}
 		for _, g := range gospelOrder {
@@ -1352,12 +1411,12 @@ func getCanonTooltipFromKey(canonKey string, currentBook string) string {
 				result = append(result, fmt.Sprintf("%s %s", gospelAbbr[g], verses))
 			}
 		}
-		
+
 		if len(result) > 0 {
 			return strings.Join(result, "; ")
 		}
 	}
-	
+
 	// Fallback - shouldn't happen with complete data
 	return fmt.Sprintf("Canon %s", canonKey)
 }
@@ -1369,14 +1428,14 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Canon key required", http.StatusBadRequest)
 		return
 	}
-	
+
 	// Look up the canon entry
 	passages, ok := canonLookup[canonKey]
 	if !ok {
 		http.Error(w, "Canon not found", http.StatusNotFound)
 		return
 	}
-	
+
 	var html strings.Builder
 	html.WriteString("<div class='canon-passages'>")
 
@@ -1406,9 +1465,9 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 			html.WriteString("</div>")
 		}
 	}
-	
+
 	html.WriteString("</div>")
-	
+
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html.String()))
 }
@@ -1433,22 +1492,22 @@ func loadVerseText(gospel string, verseRef string) string {
 
 	chapter := parts[0]
 	versePart := parts[1]
-	
+
 	// Handle ranges like "19-22" - just take the first verse for now
 	if strings.Contains(versePart, "-") {
 		versePart = strings.Split(versePart, "-")[0]
 	}
-	
+
 	// Remove any letter suffixes like "A", "B"
 	re := regexp.MustCompile(`[A-Z]+$`)
 	versePart = re.ReplaceAllString(versePart, "")
-	
+
 	// Load the chapter file
 	chapterNum, err := strconv.Atoi(chapter)
 	if err != nil {
 		return ""
 	}
-	
+
 	chapterStr := fmt.Sprintf("%02d", chapterNum)
 	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", gospel, chapterStr, gospel+"_"+chapterStr+".txt")
 
@@ -1457,12 +1516,12 @@ func loadVerseText(gospel string, verseRef string) string {
 		return ""
 	}
 	defer file.Close()
-	
+
 	content, err := io.ReadAll(file)
 	if err != nil {
 		return ""
 	}
-	
+
 	// Find the verse
 	lines := strings.Split(string(content), "\n")
 	searchPrefix := chapter + ":" + versePart + " "
@@ -1486,11 +1545,11 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
 		return
 	}
-	
+
 	author := parts[0]
 	book := parts[1]
 	homilyNumStr := parts[2]
-	
+
 	if author == "chrysostom" && (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
@@ -1503,19 +1562,19 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
-	
+
 	homilyNum, err := strconv.Atoi(homilyNumStr)
 	if err != nil {
 		http.Error(w, "Invalid homily number", http.StatusBadRequest)
 		return
 	}
-	
+
 	// Convert to roman numeral
 	roman := intToRoman(homilyNum)
-	
+
 	var homilyText, verseRef string
 	var authorName string
-	
+
 	if author == "chrysostom" {
 		// Extract homily text from pre-processed content files
 		homilyText, verseRef, err = extractHomilyFromContent(author, book, homilyNum)
@@ -1538,12 +1597,12 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		authorName = "Cyril of Alexandria"
 	}
-	
+
 	// Clean up verse reference - don't show if it contains "Homily" or is just a title
 	if strings.Contains(verseRef, "Homily") || strings.Contains(verseRef, "Sermon") || verseRef == "Introduction" || verseRef == "" {
 		verseRef = ""
 	}
-	
+
 	data := struct {
 		Author      string
 		Book        string
@@ -1559,7 +1618,7 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 		HomilyText:  template.HTML(homilyText),
 		VerseRef:    verseRef,
 	}
-	
+
 	err = templates.ExecuteTemplate(w, "homily.html", data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -1569,7 +1628,7 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 func intToRoman(num int) string {
 	values := []int{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}
 	symbols := []string{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}
-	
+
 	result := ""
 	for i := 0; i < len(values); i++ {
 		for num >= values[i] {
@@ -1639,41 +1698,40 @@ func loadScriptureReferences() {
 	}
 }
 
-
 // extractHomilyFromContent reads from pre-processed content.json files
 func extractHomilyFromContent(author, book string, homilyNum int) (string, string, error) {
 	// Read from the new content structure
 	contentPath := fmt.Sprintf("../texts/commentaries/%s/%s/content/%03d/content.json", author, book, homilyNum)
-	
+
 	contentData, err := os.ReadFile(contentPath)
 	if err != nil {
 		return "", "", fmt.Errorf("content not found for %s %s sermon/homily %d: %v", author, book, homilyNum, err)
 	}
 	log.Printf("Loading %s %s homily %d from JSON", author, book, homilyNum)
-	
+
 	var content struct {
 		Title      string   `json:"title"`
 		Subtitle   string   `json:"subtitle"`
 		Paragraphs []string `json:"paragraphs"`
 	}
-	
+
 	if err := json.Unmarshal(contentData, &content); err != nil {
 		return "", "", err
 	}
-	
+
 	// Load footnotes for this homily
 	metadataPath := fmt.Sprintf("../texts/commentaries/%s/%s/content/%03d/metadata.json", author, book, homilyNum)
 	metadataData, _ := os.ReadFile(metadataPath)
-	
+
 	var metadata struct {
 		Footnotes map[string]string `json:"footnotes"`
 	}
 	json.Unmarshal(metadataData, &metadata)
-	
+
 	// Build HTML from paragraphs with proper footnote formatting
 	var html strings.Builder
 	for _, text := range content.Paragraphs {
-		
+
 		// Replace <sup>n</sup> with proper footnote formatting
 		if metadata.Footnotes != nil {
 			// Find all <sup>n</sup> tags and replace with proper attributes
@@ -1694,18 +1752,18 @@ func extractHomilyFromContent(author, book string, homilyNum int) (string, strin
 				return match
 			})
 		}
-		
+
 		html.WriteString("<p>")
 		html.WriteString(text)
 		html.WriteString("</p>\n")
 	}
-	
+
 	// Add endnotes section if there are footnotes
 	if len(metadata.Footnotes) > 0 {
 		html.WriteString(`<div class="footnotes">`)
 		html.WriteString(`<h3>Notes</h3>`)
 		html.WriteString(`<ul class="footnotes-list">`)
-		
+
 		// Sort footnote numbers
 		var footnoteNums []int
 		for numStr := range metadata.Footnotes {
@@ -1714,7 +1772,7 @@ func extractHomilyFromContent(author, book string, homilyNum int) (string, strin
 			}
 		}
 		sort.Ints(footnoteNums)
-		
+
 		// Add each footnote with manual numbering
 		for _, num := range footnoteNums {
 			numStr := strconv.Itoa(num)
@@ -1722,14 +1780,13 @@ func extractHomilyFromContent(author, book string, homilyNum int) (string, strin
 				html.WriteString(fmt.Sprintf(`<li id="fn%d"><span class="footnote-number">%d.</span> %s</li>`, num, num, footnote))
 			}
 		}
-		
+
 		html.WriteString(`</ul>`)
 		html.WriteString(`</div>`)
 	}
-	
+
 	return html.String(), content.Subtitle, nil
 }
-
 
 // Removed extractHomilyFromXML and extractCyrilSermonFromHTML - server now uses only JSON files
 
@@ -1740,11 +1797,11 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
 		return
 	}
-	
+
 	author := parts[0]
 	book := parts[1]
 	homilyNumStr := parts[2]
-	
+
 	if author == "chrysostom" && (book != "matthew" && book != "john") {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
@@ -1757,15 +1814,15 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
-	
+
 	homilyNum, err := strconv.Atoi(homilyNumStr)
 	if err != nil {
 		http.Error(w, "Invalid homily number", http.StatusBadRequest)
 		return
 	}
-	
+
 	var homilyText, verseRef string
-	
+
 	// First try to load verse reference from new metadata structure
 	metadataPath := ""
 	if author == "chrysostom" {
@@ -1773,7 +1830,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	} else if author == "cyril" {
 		metadataPath = fmt.Sprintf("../texts/commentaries/cyril/%s/content/%03d/metadata.json", book, homilyNum)
 	}
-	
+
 	// Try to load metadata for verse reference
 	if metadataPath != "" {
 		if metadataContent, err := os.ReadFile(metadataPath); err == nil {
@@ -1788,7 +1845,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	
+
 	if author == "chrysostom" {
 		// Extract homily text from pre-processed content files
 		var xmlVerseRef string
@@ -1824,12 +1881,12 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-	
+
 	// Clean up verse reference
 	if strings.Contains(verseRef, "Homily") || strings.Contains(verseRef, "Sermon") || verseRef == "Introduction" || verseRef == "" {
 		verseRef = ""
 	}
-	
+
 	// Return just the content HTML
 	var html string
 	if verseRef != "" {
@@ -1846,7 +1903,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 			</div>
 		`, homilyText)
 	}
-	
+
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
 }
@@ -1858,10 +1915,10 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
 		return
 	}
-	
+
 	author := parts[0]
 	book := parts[1]
-	
+
 	// Build the commentary key
 	commKey := fmt.Sprintf("%s-%s", author, book)
 	commentary, exists := commentaries[commKey]
@@ -1869,10 +1926,10 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Commentary not found", http.StatusNotFound)
 		return
 	}
-	
+
 	// Generate HTML for all homilies starting from 6 (since first 5 are shown)
 	var html strings.Builder
-	
+
 	// Determine total count
 	var total int
 	if author == "chrysostom" && book == "matthew" {
@@ -1885,7 +1942,7 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Unknown commentary", http.StatusNotFound)
 		return
 	}
-	
+
 	// For Cyril, get all available sermons dynamically
 	availableSermons := []int{}
 	if author == "cyril" {
@@ -1903,7 +1960,7 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		sort.Ints(availableSermons)
-		
+
 		// Skip first 5 sermons (they're shown initially)
 		if len(availableSermons) > 5 {
 			availableSermons = availableSermons[5:]
@@ -1914,12 +1971,12 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 			availableSermons = append(availableSermons, i)
 		}
 	}
-	
+
 	// Generate HTML for each available sermon
 	for _, i := range availableSermons {
-		
+
 		roman := intToRoman(i)
-		
+
 		// Get verse range from coverage data
 		passageRef := ""
 		if coverage, ok := commentary.Coverage[i]; ok {
@@ -1933,7 +1990,7 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 				passageRef = fmt.Sprintf(" (%d:%d-%d:%d)", coverage.Start.Chapter, coverage.Start.Verse, coverage.End.Chapter, coverage.End.Verse)
 			}
 		}
-		
+
 		// Generate the appropriate onclick handler
 		if author == "cyril" {
 			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;">Sermon %s%s</li>`,
@@ -1943,7 +2000,7 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 				i, roman, book, roman, passageRef))
 		}
 	}
-	
+
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html.String()))
 }
@@ -2117,10 +2174,109 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				"luke":    "Explanation of the Holy Gospel According to Luke",
 			},
 		},
+		{
+			"synaxarion",
+			"",
+			map[string]string{
+				"": "Synaxarion",
+			},
+		},
 	}
 
 	for _, author := range authors {
 		authorPath := filepath.Join(commentariesPath, author.dir)
+
+		coveragePathDirect := filepath.Join(authorPath, "coverage.json")
+		if _, err := os.Stat(coveragePathDirect); err == nil {
+			data, err := os.ReadFile(coveragePathDirect)
+			if err == nil {
+				var coverage struct {
+					Commentary string `json:"commentary"`
+					Homilies   []struct {
+						ID    int    `json:"id"`
+						Roman string `json:"roman"`
+						Title string `json:"title"`
+						Date  string `json:"date"`
+						Saint string `json:"saint"`
+						Start struct {
+							Book    string `json:"book"`
+							Chapter int    `json:"chapter"`
+							Verse   int    `json:"verse"`
+						} `json:"start"`
+						End struct {
+							Book    string `json:"book"`
+							Chapter int    `json:"chapter"`
+							Verse   int    `json:"verse"`
+						} `json:"end"`
+					} `json:"homilies"`
+				}
+
+				if err := json.Unmarshal(data, &coverage); err == nil {
+					work := "Synaxarion"
+					for _, workName := range author.works {
+						work = workName
+						break
+					}
+
+					for _, h := range coverage.Homilies {
+						var bookNameLower string
+						var bookName string
+						if h.Start.Book != "" {
+							bookNameLower = h.Start.Book
+							bookName = strings.Title(h.Start.Book)
+						}
+
+						gospelAbbr := map[string]string{
+							"Matthew": "Mt",
+							"Mark":    "Mk",
+							"Luke":    "Lk",
+							"John":    "Jn",
+						}
+						bookAbbr := gospelAbbr[bookName]
+						if bookAbbr == "" {
+							bookAbbr = bookName
+						}
+
+						var scripture string
+						if h.Start.Chapter == h.End.Chapter {
+							if h.Start.Verse == h.End.Verse {
+								scripture = fmt.Sprintf("%s %d:%d", bookAbbr, h.Start.Chapter, h.Start.Verse)
+							} else {
+								scripture = fmt.Sprintf("%s %d:%d-%d", bookAbbr, h.Start.Chapter, h.Start.Verse, h.End.Verse)
+							}
+						} else {
+							scripture = fmt.Sprintf("%s %d:%d-%d:%d", bookAbbr, h.Start.Chapter, h.Start.Verse, h.End.Chapter, h.End.Verse)
+						}
+
+						eusebianIndex := getCanonAndSection(bookNameLower, h.Start.Chapter, h.Start.Verse)
+						parallels := getParallels(bookNameLower, h.Start.Chapter, h.Start.Verse)
+
+						section := h.Title
+						if author.dir == "synaxarion" && h.Saint != "" && h.Date != "" {
+							section = fmt.Sprintf("%s (%s)", h.Saint, h.Date)
+						}
+
+						tableRows = append(tableRows, TableRow{
+							Scripture:     scripture,
+							Canon:         "",
+							EusebianIndex: eusebianIndex,
+							Parallels:     parallels,
+							Father:        author.fullName,
+							Work:          work,
+							Section:       section,
+							Book:          bookName,
+							StartChapter:  h.Start.Chapter,
+							StartVerse:    h.Start.Verse,
+							EndChapter:    h.End.Chapter,
+							EndVerse:      h.End.Verse,
+							HomilyID:      h.ID,
+							Author:        author.dir,
+						})
+					}
+				}
+			}
+		}
+
 		books, err := os.ReadDir(authorPath)
 		if err != nil {
 			continue
@@ -2142,6 +2298,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							ID    int    `json:"id"`
 							Roman string `json:"roman"`
 							Title string `json:"title"`
+							Date  string `json:"date"`
+							Saint string `json:"saint"`
 							Start struct {
 								Book    string `json:"book"`
 								Chapter int    `json:"chapter"`
@@ -2201,6 +2359,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 						eusebianIndex := getCanonAndSection(bookNameLower, h.Start.Chapter, h.Start.Verse)
 						parallels := getParallels(bookNameLower, h.Start.Chapter, h.Start.Verse)
 
+						section := h.Title
+						if author.dir == "synaxarion" && h.Saint != "" && h.Date != "" {
+							section = fmt.Sprintf("%s (%s)", h.Saint, h.Date)
+						}
+
 						tableRows = append(tableRows, TableRow{
 							Scripture:     scripture,
 							Canon:         "",
@@ -2208,7 +2371,7 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 							Parallels:     parallels,
 							Father:        author.fullName,
 							Work:          work,
-							Section:       h.Title,
+							Section:       section,
 							Book:          bookName,
 							StartChapter:  h.Start.Chapter,
 							StartVerse:    h.Start.Verse,
@@ -2383,6 +2546,9 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					</tr>
 				</tbody>
 			</table>
+			<p style="margin-top: 15px; font-size: 14px; color: #666;">
+				The tables also include references to the <em>Synaxarion</em> when a person who is recognized by the Eastern Orthodox Church as a saint is first mentioned in each a book of Scripture.
+			</p>
 		</div>
 
 		<div class="index-search-box">
@@ -2473,8 +2639,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		for _, row := range rows {
 			// Determine the homily/sermon link based on author
 			var link string
-			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" || row.Author == "maximos_the_confessor" || row.Author == "theophylact" {
-				// Gregory the Great, Bede, Nikolai, Maximos, and Theophylact - plain text, no link
+			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "nikolai" || row.Author == "maximos_the_confessor" || row.Author == "theophylact" || row.Author == "synaxarion" {
+				// Gregory the Great, Bede, Nikolai, Maximos, Theophylact, and Synaxarion - plain text, no link
 				link = row.Section
 			} else if row.Author == "cyril" {
 				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
@@ -2725,5 +2891,3 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
 }
-
-
