@@ -1,0 +1,5 @@
+# Linguist overrides - mark data/text files so they don't dominate language stats
+texts/**/*.json linguist-generated
+texts/**/*.txt linguist-generated
+texts/**/*.xml linguist-generated
+texts/**/*.html linguist-generated
