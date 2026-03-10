@@ -17,6 +17,8 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
   - Venerable Bede's 50 homilies across all four Gospels
   - Nikolai Velimirovich's daily meditations from the Prologue of Ohrid featuring homilies on Scripture (In progress)
   - Maximos the Confessor's treatise On the Lord's Prayer
+  - Synaxarion entries linking saints' lives to Gospel passages
+  - Theophylact of Ohrid's commentary (In progress)
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout)
   - Hover tooltips showing commentary references
@@ -52,13 +54,19 @@ texts/commentaries/
 │       │   └── homily_001/
 │       │       └── metadata.json
 │       └── source/          # Source XML files
-└── cyril/
-    └── luke/
-        └── sermons/
-            ├── sermon_001/
-            │   └── metadata.json
-            └── sermon_153/
-                └── metadata.json
+├── cyril/
+│   └── luke/
+│       └── sermons/
+│           ├── sermon_001/
+│           │   └── metadata.json
+│           └── sermon_153/
+│               └── metadata.json
+├── gregory_the_great/       # 40 Gospel Homilies
+├── bede/                    # 50 Homilies on the Gospels
+├── nikolai/                 # Prologue of Ohrid
+├── maximos_the_confessor/   # On the Lord's Prayer
+├── synaxarion/              # Saints' lives linked to Gospel passages
+└── theophylact/             # Commentary (in progress)
 ```
 
 ### Metadata Format
@@ -138,16 +146,14 @@ hypomnema/
 │   │       └── greek/
 │   │           └── tr/      # Textus Receptus
 │   ├── commentaries/        # Patristic commentaries
-│   │   ├── chrysostom/      # John Chrysostom's works
-│   │   │   ├── matthew/     
-│   │   │   │   ├── content/ # Homily folders with metadata.json
-│   │   │   │   └── source/  # Source XML files
-│   │   │   └── john/        
-│   │   │       ├── content/ # Homily folders with metadata.json
-│   │   │       └── source/  # Source XML files
-│   │   └── cyril/           # Cyril of Alexandria's works
-│   │       └── luke/        
-│   │           └── sermons/ # Sermon folders with metadata.json
+│   │   ├── chrysostom/      # John Chrysostom (Matthew, John)
+│   │   ├── cyril/           # Cyril of Alexandria (Luke)
+│   │   ├── gregory_the_great/ # Gregory the Great (all Gospels)
+│   │   ├── bede/            # Venerable Bede (all Gospels)
+│   │   ├── nikolai/         # Nikolai Velimirovich (Prologue)
+│   │   ├── maximos_the_confessor/ # Maximos (Lord's Prayer)
+│   │   ├── synaxarion/      # Saints' lives
+│   │   └── theophylact/     # Theophylact (in progress)
 │   └── reference/           
 │       ├── eusebian_canons/ # Canon tables and mappings
 │       └── kjv_paragraphs/  # Paragraph divisions
@@ -201,6 +207,13 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - **On the Lord's Prayer** - Spiritual commentary on the Our Father
 - Covers both Matthew 6:9-13 and Luke 11:2-4
 - Deep theological reflection on the Lord's Prayer
+
+### Synaxarion
+- **Saints' lives** linked to specific Gospel passages
+- Entries organized by liturgical date with saint name and scripture reference
+
+### Theophylact of Ohrid (c. 1050-1107)
+- Commentary coverage in progress
 
 ### Features
 - **Inline References** showing which homilies/sermons discuss each passage

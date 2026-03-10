@@ -1,12 +1,14 @@
 # Hypomnema Server
 
-A Go-based Bible reader with live reload for development and easy deployment to Render.
+A Go web server for the Hypomnema biblical text reader with integrated patristic commentary.
 
 ## Features
-- Fast Go server with embedded templates
-- HTMX for dynamic content loading without page refreshes
+- Go server with HTML templates and HTMX for dynamic content loading
 - Paragraph formatting based on Scrivener's Cambridge Paragraph Bible
-- Small gray superscript verse numbers
+- Split-screen commentary viewing (50/50 layout)
+- Eusebian canon cross-references with clickable parallel passage modals
+- Footnotes with hover tooltips
+- Responsive design with mobile hamburger menu
 - Live reload during development with Air
 
 ## Development
@@ -19,33 +21,36 @@ curl -sSfL https://raw.githubusercontent.com/air-verse/air/master/install.sh | s
 2. Run with live reload:
 ```bash
 cd hypomnema-server
-air
+~/go/bin/air
 ```
 
 The server will start on http://localhost:8080 and automatically reload when you make changes.
 
+### Running without Air
+
+```bash
+cd hypomnema-server
+go run main.go
+```
+
 ## Deployment to Render
 
-1. Push to GitHub
-2. Connect your repo to Render
-3. Render will automatically detect Go and use the `render.yaml` config
-4. Your app will be live!
+1. **Root Directory:** `hypomnema-server`
+2. **Build Command:** `go build -o app`
+3. **Start Command:** `./app`
+
+The server automatically uses the PORT environment variable provided by Render.
 
 ## Project Structure
 ```
 hypomnema-server/
-├── main.go           # Main server code
+├── main.go           # Main server code with all routing and logic
 ├── templates/        # HTML templates
-│   └── index.html   # Main page template
-├── static/          # CSS and static files
-│   └── styles.css   # Styling
-├── .air.toml        # Air configuration
-├── go.mod           # Go module file
-└── render.yaml      # Render deployment config
+│   ├── index.html    # Main page template
+│   └── homily.html   # Commentary viewing template
+├── static/           # CSS and static files
+│   └── styles.css    # Styling
+├── .air.toml         # Air configuration
+├── go.mod            # Go module file
+└── render.yaml       # Render deployment config
 ```
-
-## Future Features
-- Greek/Hebrew text on hover
-- Commentary windows
-- Cross-references
-- Search functionality

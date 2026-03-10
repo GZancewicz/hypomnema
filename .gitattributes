@@ -3,3 +3,4 @@ texts/**/*.json linguist-generated
 texts/**/*.txt linguist-generated
 texts/**/*.xml linguist-generated
 texts/**/*.html linguist-generated
+*.html linguist-vendored
