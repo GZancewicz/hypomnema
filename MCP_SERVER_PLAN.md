@@ -34,7 +34,7 @@ plus two file reads. No new data processing is required.
 | Chrysostom, Homilies on Matthew (90) | ✅ | ✅ | ✅ `content/NNN/` |
 | Chrysostom, Homilies on John (88) | ✅ | ✅ | ✅ `content/NNN/` |
 | Cyril of Alexandria, Sermons on Luke (~153) | ✅ | ✅ | ✅ `content/NNN/` |
-| Nikolai Velimirović, Prologue | ✅ | — | ✅ `homilies/` + `homilies.json` (verify shape in Phase 1) |
+| Nikolai Velimirović, Prologue | ✅ | — | ⚠️ text on disk, but **no distribution rights** — served as reference-only |
 | Gregory the Great, Forty Gospel Homilies | ✅ | — | ❌ coverage only |
 | Venerable Bede, Homilies on the Gospels | ✅ | — | ❌ coverage only |
 | Maximos the Confessor, On the Lord's Prayer | ✅ | — | ❌ coverage only |
@@ -43,11 +43,16 @@ plus two file reads. No new data processing is required.
 
 Implication: the server operates in two tiers.
 
-- **Tier 1 (full text):** Chrysostom Matthew/John, Cyril Luke, Nikolai — return
-  excerpts and full text.
-- **Tier 2 (reference only):** Gregory, Bede, Maximos, Theophylact, Synaxarion —
-  return the citation (author, work, homily number/title, verse range) so the
-  client knows the commentary exists, with `text_available: false`.
+- **Tier 1 (full text):** Chrysostom Matthew/John, Cyril Luke — return excerpts
+  and full text.
+- **Tier 2 (reference only):** Gregory, Bede, Maximos, Theophylact, Synaxarion,
+  and Nikolai — return the citation (author, work, homily number/title, verse
+  range) with `text_available: false`. Nikolai is Tier 2 by **licensing**, not
+  data availability: the Prologue text exists on disk but we lack rights to
+  distribute it, so the server must never serve its content. For calendar-dated
+  works (Nikolai Prologue, Synaxarion) the citation includes the `date` on which
+  the entry falls (e.g. "September 1") so a user can look it up in a licensed
+  copy.
 
 Design rules carried over from CLAUDE.md:
 
@@ -126,14 +131,16 @@ Output per match:
   "match_type": "primary | range",
   "word_count": 5573,
   "excerpt": "first ~300 chars…",
-  "text_available": true
+  "text_available": true,
+  "date": "September 1 (calendar-dated works only, omitted otherwise)"
 }
 ```
 
 Lookup order: exact hit in `verse_mapping.json` where present (`match_type:
 "primary"`), then coverage-range containment for everything else (`match_type:
 "range"`), deduplicated by (author, work, id). Tier-2 works appear with
-`text_available: false` and no excerpt.
+`text_available: false` and no excerpt; calendar-dated works (Nikolai Prologue,
+Synaxarion) carry the `date` field, and Synaxarion entries also carry `saint`.
 
 ### 2. `get_commentary_text`
 
@@ -191,8 +198,8 @@ normalization happens once at the tool boundary.
    range shapes: with and without per-entry `book`; tolerate extra fields like the
    Synaxarion's `date`/`saint` and Chrysostom Matthew's `missing_numbers`). Load
    the three `verse_mapping.json` files. Index metadata for Tier-1 works.
-   Inspect Nikolai's `homilies.json` and either wire it into Tier 1 or park it in
-   Tier 2 for now.
+   Hard-code Nikolai as Tier 2 (licensing) — the loader must not register its
+   `homilies/` content even though the files exist.
 3. Unit-test the store against the real `texts/` tree: known verse → expected
    homily IDs (e.g. Matthew 1:1 → Chrysostom homilies I–III per `verse_mapping`).
 
@@ -222,7 +229,8 @@ normalization happens once at the tool boundary.
     pattern as the website).
 12. Source Tier-2 texts (Bede, Gregory, Theophylact, Maximos) into the standard
     `content/NNN/` format — a data project, not a server change; the server picks
-    them up automatically once `content/` exists.
+    them up automatically once `content/` exists. Nikolai stays reference-only
+    unless distribution rights are obtained.
 
 ## Testing checklist
 
@@ -234,6 +242,8 @@ normalization happens once at the tool boundary.
 - [ ] Multi-Gospel works (Gregory, Bede) match only when the requested book
       matches the entry's `book` field.
 - [ ] Tier-2 `get_commentary_text` returns the not-available error, not a crash.
+- [ ] Nikolai text is never returned by any tool, even though `homilies/` exists
+      on disk (licensing guard); its verse-lookup results carry the Prologue date.
 - [ ] Homily with null `scripture_reference` (Chrysostom Matthew I) still reports
       correct `covers` from its `coverage` block.
 - [ ] Paragraph paging: out-of-range indices clamp; slice boundaries correct.
@@ -247,12 +257,14 @@ normalization happens once at the tool boundary.
 - No auth (stdio server runs with the user's local permissions; revisit if/when
   an HTTP deployment happens).
 
-## Open questions
+## Resolved decisions (2026-07-07)
 
-1. Should Tier-2 (reference-only) results be included in `get_commentary_for_verse`
-   by default, or behind an `include_reference_only` flag? Plan default: included,
-   clearly flagged — knowing Bede preached on a verse is useful even without text.
-2. Footnote rendering: inline `[n]` markers with a footnotes appendix, or strip
-   them? Plan default: inline `[n]` + footnotes map in the response.
-3. Nikolai Prologue: commentary or calendar devotional? Decide in Phase 1 whether
-   it belongs in verse-lookup results at all.
+1. **Tier-2 results are included by default** in `get_commentary_for_verse`,
+   flagged with `text_available: false`. No opt-in parameter — knowing Bede
+   preached on a verse is useful even without text.
+2. **Footnotes render as inline `[n]` markers** in paragraph text, with the
+   footnotes map included as an appendix in the `get_commentary_text` response.
+3. **Nikolai Prologue is reference-only for licensing reasons.** The text exists
+   on disk but distribution rights are not held, so no tool may serve its
+   content. Verse-lookup results include the Prologue **date** on which the
+   commentary falls (e.g. "September 1") so users can consult a licensed copy.
