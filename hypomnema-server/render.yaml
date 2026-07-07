@@ -2,7 +2,7 @@ services:
   - type: web
     name: hypomnema
     runtime: go
-    buildCommand: ./copy-texts.sh && go build -o app main.go
+    buildCommand: ./copy-texts.sh && go build -o app .
     startCommand: ./app
     envVars:
       - key: PORT
