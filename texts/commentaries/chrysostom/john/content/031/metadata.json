@@ -59,5 +59,16 @@
     "31": "This clause is not found in Ben.",
     "32": "al. “of the Eternal Goods.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "display": "John 4:13-20"
+  }
 }

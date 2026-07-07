@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 8199,
-  "excerpt": "Matt. VI. 1....",
+  "excerpt": "He roots out in what remains the most tyrannical passion of all, the rage and madness with respect to vainglory, which springs up in them that do right. For at…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -95,5 +95,16 @@
     "67": "Baruc. iii. 35.",
     "68": "τ συνξεω: “of the Holy Communion.” [But see note 1 in Homily V., p. 31, and comp. Homily LXXXVIII. at the close.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 15
+    },
+    "display": "Matthew 6:1-15"
+  }
 }

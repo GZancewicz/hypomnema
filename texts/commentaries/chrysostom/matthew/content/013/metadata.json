@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 5773,
-  "excerpt": "Matt. IV. 1....",
+  "excerpt": "“Then was Jesus led up of the Spirit into the wilderness, to be tempted of the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -58,5 +58,16 @@
     "30": "φιλοτιμαν .",
     "31": "Luke xix. 40."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 11
+    },
+    "display": "Matthew 4:1-11"
+  }
 }

@@ -2,7 +2,7 @@
   "id": 30,
   "roman": "XXX",
   "title": "Sermon XXX",
-  "subtitle": "Luke 6:41",
+  "subtitle": "Luke 6:41-45",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 6,
-      "verse": 41
+      "verse": 45
     },
-    "display": "Luke 6:41"
+    "display": "Luke 6:41-45"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 13723,
-  "excerpt": "6:41. \"And why, saith He, beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?\" Having previously shewn us that the judging others is utterly wicked and dangerous, and the cause of final condemnation:----for \"Judge not, He said, and ye shall not be judged: and condemn not, and ye shall not be condemned.\" He now by conclusive arguments persuades us to avoid the very wish of judging others: and rather to examine our own hearts, and try to free them from the passions that dwell within them, and their frailties, by asking it of God: for He it is Who healeth the broken in heart, and freeth us from the maladies of the soul. For if thou, He says, art thyself sick with maladies more dangerous and severe than those of others, why, neglecting thy own, dost thou find fault with them, and whilst thou hast a beam in thine own eye, commencest a hot accusation against those who have a mote? Tell me by what |117 boldness doest thou this? Deliver thyself first from thy great crimes, and thy rebellious passions, and then thou mayest set him right...",
+  "excerpt": "6:41. \"And why, saith He, beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?\" Having previously shewn us that the judging others is utterly wicked and dangerous, and the cause of final condemnation:----for \"Judge not, He said, and ye shall not be judged: and condemn not, and ye shall not be condemned.\" He now by conclusive arguments persuades us to avoid the very wish of judging others: and rather to examine our own hearts, and try to free them from the passions that dwell within them, and their frailties, by asking it of God: for He it is Who healeth the broken in heart, and freeth us from the maladies of the soul. For if thou, He says, art thyself sick with maladies more dangerous and severe than those of others, why, neglecting thy own, dost thou find fault with them, and whilst thou hast a beam in thine own eye, commencest a hot accusation against those who have a mote? Tell me by what |117 boldness doest thou this? Deliver...",
   "source_file": "cyril_on_luke_03_sermons_26_38.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

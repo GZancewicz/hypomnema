@@ -43,5 +43,16 @@
     "15": "ἐ ντεύξεσιν.",
     "16": "λύσιν τῶν ἡμαρτημένων."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "display": "John 1:9"
+  }
 }

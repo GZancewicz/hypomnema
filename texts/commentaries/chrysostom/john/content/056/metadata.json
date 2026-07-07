@@ -43,5 +43,16 @@
     "15": "πολιτείας",
     "16": "Morel. “from among.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 16
+    },
+    "display": "John 9:6-16"
+  }
 }

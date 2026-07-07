@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3956,
-  "excerpt": "Matt. XI. 1....",
+  "excerpt": "“And it came to pass, when Jesus had made an end of commanding His twelve disciples, He departed thence to teach and to preach in their…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -80,5 +80,16 @@
     "52": "The words in italics, both here and below, are omitted in several mss.",
     "53": "[γεννα, and similarly throughout the paragraph.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 6
+    },
+    "display": "Matthew 11:1-6"
+  }
 }

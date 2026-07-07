@@ -43,5 +43,16 @@
     "15": "οἱ τύλοι, a very happy emendation of Mr. Field’s for στῦλοι, “pillars,” of which former editors could make no sense. One ms. gives οἱ τυφλοὶ τοὺς ὀφθαλμοὺς, “ those blind in their eyes,” but the sense even so is not perfect.",
     "16": "πηροῦνται, a conjecture of Dr. Heyse, for πειρῶνται"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 8,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 59
+    },
+    "display": "John 8:48-59"
+  }
 }

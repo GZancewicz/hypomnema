@@ -2,7 +2,7 @@
   "id": 18,
   "roman": "XVIII",
   "title": "Homily XVIII",
-  "subtitle": "Matthew 5:38",
+  "subtitle": "Matthew 5:38-40",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 5,
-      "verse": 38
+      "verse": 40
     },
-    "display": "Matthew 5:38"
+    "display": "Matthew 5:38-40"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4884,
-  "excerpt": "Matt. V. 38, 39, 40....",
+  "excerpt": "Seest thou that it was not of an eye that He was speaking before, when He made the law to pluck out the offending eye, but of him who by his friendship is…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -55,5 +55,16 @@
     "27": "ἀπονοα.",
     "28": "ἀγγαρευσθαι. [See note on sec. 3.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 48
+    },
+    "display": "Matthew 5:38-48"
+  }
 }

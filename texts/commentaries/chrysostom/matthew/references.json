@@ -24,8 +24,8 @@
     "id": 4,
     "book": "Genesis",
     "reference": "3:9",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 5,
@@ -73,8 +73,8 @@
     "id": 11,
     "book": "Genesis",
     "reference": "4:1",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 12,
@@ -94,8 +94,8 @@
     "id": 14,
     "book": "Genesis",
     "reference": "4:24",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 15,
@@ -115,15 +115,15 @@
     "id": 17,
     "book": "Genesis",
     "reference": "9:2",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 18,
     "book": "Genesis",
     "reference": "9:5",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 19,
@@ -150,8 +150,8 @@
     "id": 22,
     "book": "Genesis",
     "reference": "12:11",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 23,
@@ -192,8 +192,8 @@
     "id": 28,
     "book": "Genesis",
     "reference": "18:20-21",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 29,
@@ -206,15 +206,15 @@
     "id": 30,
     "book": "Genesis",
     "reference": "18:27",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 31,
     "book": "Genesis",
     "reference": "18:27",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 32,
@@ -304,22 +304,22 @@
     "id": 44,
     "book": "Genesis",
     "reference": "39:17",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 45,
     "book": "Genesis",
     "reference": "40:8",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 46,
     "book": "Genesis",
     "reference": "41:32",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 47,
@@ -381,15 +381,15 @@
     "id": 55,
     "book": "Exodus",
     "reference": "4:10",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 56,
     "book": "Exodus",
     "reference": "4:10",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 57,
@@ -402,8 +402,8 @@
     "id": 58,
     "book": "Exodus",
     "reference": "4:12",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 59,
@@ -416,29 +416,29 @@
     "id": 60,
     "book": "Exodus",
     "reference": "5:2",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 61,
     "book": "Exodus",
     "reference": "11:5",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 62,
     "book": "Exodus",
     "reference": "12:11",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 63,
     "book": "Exodus",
     "reference": "12:14",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 64,
@@ -472,29 +472,29 @@
     "id": 68,
     "book": "Exodus",
     "reference": "16:29",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 69,
     "book": "Exodus",
     "reference": "19:8",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 70,
     "book": "Exodus",
     "reference": "19:18",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 71,
     "book": "Exodus",
     "reference": "20:5",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 72,
@@ -507,8 +507,8 @@
     "id": 73,
     "book": "Exodus",
     "reference": "20:21",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 74,
@@ -528,15 +528,15 @@
     "id": 76,
     "book": "Exodus",
     "reference": "22:1",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 77,
     "book": "Exodus",
     "reference": "22:25",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 78,
@@ -584,8 +584,8 @@
     "id": 84,
     "book": "Exodus",
     "reference": "32:32",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 85,
@@ -612,8 +612,8 @@
     "id": 88,
     "book": "Leviticus",
     "reference": "25:35-36",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 89,
@@ -654,8 +654,8 @@
     "id": 94,
     "book": "Numbers",
     "reference": "15:38-39",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 95,
@@ -731,29 +731,29 @@
     "id": 105,
     "book": "Deuteronomy",
     "reference": "6:4",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 106,
     "book": "Deuteronomy",
     "reference": "6:8",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 107,
     "book": "Deuteronomy",
     "reference": "6:11-12",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 108,
     "book": "Deuteronomy",
     "reference": "8:3",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 109,
@@ -773,8 +773,8 @@
     "id": 111,
     "book": "Deuteronomy",
     "reference": "23:19",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 112,
@@ -808,15 +808,15 @@
     "id": 116,
     "book": "Deuteronomy",
     "reference": "32:8",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 117,
     "book": "Deuteronomy",
     "reference": "32:15",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 118,
@@ -864,15 +864,15 @@
     "id": 124,
     "book": "1 Samuel",
     "reference": "2:5",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 125,
     "book": "1 Samuel",
     "reference": "2:25",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 126,
@@ -913,15 +913,15 @@
     "id": 131,
     "book": "1 Samuel",
     "reference": "10:3",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 132,
     "book": "1 Samuel",
     "reference": "13:12",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 133,
@@ -955,8 +955,8 @@
     "id": 137,
     "book": "1 Samuel",
     "reference": "26:16",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 138,
@@ -969,15 +969,15 @@
     "id": 139,
     "book": "1 Samuel",
     "reference": "28:15",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 140,
     "book": "1 Samuel",
     "reference": "28:15",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 141,
@@ -997,8 +997,8 @@
     "id": 143,
     "book": "2 Samuel",
     "reference": "12:7-9",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 144,
@@ -1046,8 +1046,8 @@
     "id": 150,
     "book": "1 Kings",
     "reference": "18:18",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 151,
@@ -1067,8 +1067,8 @@
     "id": 153,
     "book": "1 Kings",
     "reference": "19:20",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 154,
@@ -1123,15 +1123,15 @@
     "id": 161,
     "book": "2 Kings",
     "reference": "13:2",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 162,
     "book": "2 Kings",
     "reference": "13:21",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 163,
@@ -1144,8 +1144,8 @@
     "id": 164,
     "book": "2 Kings",
     "reference": "19:35",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 165,
@@ -1207,8 +1207,8 @@
     "id": 173,
     "book": "2 Chronicles",
     "reference": "24:21",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 174,
@@ -1249,8 +1249,8 @@
     "id": 179,
     "book": "Job",
     "reference": "1:5",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 180,
@@ -1340,8 +1340,8 @@
     "id": 192,
     "book": "Job",
     "reference": "38:7",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 193,
@@ -1368,8 +1368,8 @@
     "id": 196,
     "book": "Psalms",
     "reference": "1:1",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 197,
@@ -1403,8 +1403,8 @@
     "id": 201,
     "book": "Psalms",
     "reference": "4:3",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 202,
@@ -1431,36 +1431,36 @@
     "id": 205,
     "book": "Psalms",
     "reference": "4:15",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 206,
     "book": "Psalms",
     "reference": "5:9",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 207,
     "book": "Psalms",
     "reference": "5:9",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 208,
     "book": "Psalms",
     "reference": "6:2",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 209,
     "book": "Psalms",
     "reference": "6:2",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 210,
@@ -1536,8 +1536,8 @@
     "id": 220,
     "book": "Psalms",
     "reference": "10:7",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 221,
@@ -1557,8 +1557,8 @@
     "id": 223,
     "book": "Psalms",
     "reference": "18:11",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 224,
@@ -1578,15 +1578,15 @@
     "id": 226,
     "book": "Psalms",
     "reference": "22:1",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 227,
     "book": "Psalms",
     "reference": "22:6",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 228,
@@ -1613,15 +1613,15 @@
     "id": 231,
     "book": "Psalms",
     "reference": "23:5",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 232,
     "book": "Psalms",
     "reference": "24:6",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 233,
@@ -1690,8 +1690,8 @@
     "id": 242,
     "book": "Psalms",
     "reference": "39:12",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 243,
@@ -1704,8 +1704,8 @@
     "id": 244,
     "book": "Psalms",
     "reference": "41:2",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 245,
@@ -1830,22 +1830,22 @@
     "id": 262,
     "book": "Psalms",
     "reference": "51:17",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 263,
     "book": "Psalms",
     "reference": "53:1",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 264,
     "book": "Psalms",
     "reference": "57:4",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 265,
@@ -1865,8 +1865,8 @@
     "id": 267,
     "book": "Psalms",
     "reference": "69:21",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 268,
@@ -1956,15 +1956,15 @@
     "id": 280,
     "book": "Psalms",
     "reference": "95:7",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 281,
     "book": "Psalms",
     "reference": "97:2",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 282,
@@ -1977,8 +1977,8 @@
     "id": 283,
     "book": "Psalms",
     "reference": "140:3",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 284,
@@ -1991,8 +1991,8 @@
     "id": 285,
     "book": "Proverbs",
     "reference": "5:2-4",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 286,
@@ -2026,8 +2026,8 @@
     "id": 290,
     "book": "Proverbs",
     "reference": "6:30",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 291,
@@ -2047,22 +2047,22 @@
     "id": 293,
     "book": "Proverbs",
     "reference": "9:12",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 294,
     "book": "Proverbs",
     "reference": "12:28",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 295,
     "book": "Proverbs",
     "reference": "16:5",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 296,
@@ -2082,8 +2082,8 @@
     "id": 298,
     "book": "Proverbs",
     "reference": "19:17",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 299,
@@ -2096,8 +2096,8 @@
     "id": 300,
     "book": "Proverbs",
     "reference": "23:13-14",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 301,
@@ -2117,15 +2117,15 @@
     "id": 303,
     "book": "Ecclesiastes",
     "reference": "1:2",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 304,
     "book": "Ecclesiastes",
     "reference": "2:13",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 305,
@@ -2159,8 +2159,8 @@
     "id": 309,
     "book": "Isaiah",
     "reference": "1:10",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 310,
@@ -2173,8 +2173,8 @@
     "id": 311,
     "book": "Isaiah",
     "reference": "1:15",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 312,
@@ -2208,15 +2208,15 @@
     "id": 316,
     "book": "Isaiah",
     "reference": "3:16",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 317,
     "book": "Isaiah",
     "reference": "3:24",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 318,
@@ -2243,8 +2243,8 @@
     "id": 321,
     "book": "Isaiah",
     "reference": "5:4",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 322,
@@ -2376,8 +2376,8 @@
     "id": 340,
     "book": "Isaiah",
     "reference": "13:21-22",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 341,
@@ -2390,8 +2390,8 @@
     "id": 342,
     "book": "Isaiah",
     "reference": "19:1",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 343,
@@ -2530,8 +2530,8 @@
     "id": 362,
     "book": "Isaiah",
     "reference": "52:14",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 363,
@@ -2572,8 +2572,8 @@
     "id": 368,
     "book": "Isaiah",
     "reference": "53:8",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 369,
@@ -2600,8 +2600,8 @@
     "id": 372,
     "book": "Isaiah",
     "reference": "56:7",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 373,
@@ -2614,8 +2614,8 @@
     "id": 374,
     "book": "Isaiah",
     "reference": "58:6",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 375,
@@ -2642,8 +2642,8 @@
     "id": 378,
     "book": "Isaiah",
     "reference": "58:7",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 379,
@@ -2684,8 +2684,8 @@
     "id": 384,
     "book": "Isaiah",
     "reference": "66:2",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 385,
@@ -2705,15 +2705,15 @@
     "id": 387,
     "book": "Jeremiah",
     "reference": "1:6",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 388,
     "book": "Jeremiah",
     "reference": "1:8",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 389,
@@ -2726,8 +2726,8 @@
     "id": 390,
     "book": "Jeremiah",
     "reference": "2:5",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 391,
@@ -2740,22 +2740,22 @@
     "id": 392,
     "book": "Jeremiah",
     "reference": "2:12",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 393,
     "book": "Jeremiah",
     "reference": "3:7",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 394,
     "book": "Jeremiah",
     "reference": "3:7",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 395,
@@ -2782,15 +2782,15 @@
     "id": 398,
     "book": "Jeremiah",
     "reference": "8:4",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 399,
     "book": "Jeremiah",
     "reference": "8:4",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 400,
@@ -2810,8 +2810,8 @@
     "id": 402,
     "book": "Jeremiah",
     "reference": "11:14",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 403,
@@ -2831,8 +2831,8 @@
     "id": 405,
     "book": "Jeremiah",
     "reference": "15:19",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 406,
@@ -2852,15 +2852,15 @@
     "id": 408,
     "book": "Jeremiah",
     "reference": "18:7-10",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 409,
     "book": "Jeremiah",
     "reference": "22:17",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 410,
@@ -2873,8 +2873,8 @@
     "id": 411,
     "book": "Jeremiah",
     "reference": "30:9",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 412,
@@ -2915,29 +2915,29 @@
     "id": 417,
     "book": "Ezekiel",
     "reference": "2",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 418,
     "book": "Ezekiel",
     "reference": "2:5",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 419,
     "book": "Ezekiel",
     "reference": "2:5",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 420,
     "book": "Ezekiel",
     "reference": "3",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 421,
@@ -2971,8 +2971,8 @@
     "id": 425,
     "book": "Ezekiel",
     "reference": "5:7",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 426,
@@ -2999,8 +2999,8 @@
     "id": 429,
     "book": "Ezekiel",
     "reference": "13:10",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 430,
@@ -3048,8 +3048,8 @@
     "id": 436,
     "book": "Ezekiel",
     "reference": "16:20-21",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 437,
@@ -3090,8 +3090,8 @@
     "id": 442,
     "book": "Ezekiel",
     "reference": "16:51",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 443,
@@ -3104,8 +3104,8 @@
     "id": 444,
     "book": "Ezekiel",
     "reference": "18:23",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 445,
@@ -3125,15 +3125,15 @@
     "id": 447,
     "book": "Ezekiel",
     "reference": "33:8",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 448,
     "book": "Ezekiel",
     "reference": "34:23-24",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 449,
@@ -3146,8 +3146,8 @@
     "id": 450,
     "book": "Ezekiel",
     "reference": "37:24",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 451,
@@ -3223,8 +3223,8 @@
     "id": 461,
     "book": "Daniel",
     "reference": "7:13",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 462,
@@ -3244,22 +3244,22 @@
     "id": 464,
     "book": "Hosea",
     "reference": "3:5",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 465,
     "book": "Hosea",
     "reference": "4:2",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 466,
     "book": "Hosea",
     "reference": "4:2",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 467,
@@ -3300,8 +3300,8 @@
     "id": 472,
     "book": "Hosea",
     "reference": "6:6",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 473,
@@ -3342,8 +3342,8 @@
     "id": 478,
     "book": "Amos",
     "reference": "6:6",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 479,
@@ -3370,22 +3370,22 @@
     "id": 482,
     "book": "Amos",
     "reference": "9:7",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 483,
     "book": "Micah",
     "reference": "1:11",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 484,
     "book": "Micah",
     "reference": "3:10",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 485,
@@ -3419,8 +3419,8 @@
     "id": 489,
     "book": "Micah",
     "reference": "6:3",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 490,
@@ -3461,22 +3461,22 @@
     "id": 495,
     "book": "Zechariah",
     "reference": "9:9",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 496,
     "book": "Zechariah",
     "reference": "13:7",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 497,
     "book": "Malachi",
     "reference": "2:13",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 498,
@@ -3531,8 +3531,8 @@
     "id": 505,
     "book": "Malachi",
     "reference": "4:5-6",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 506,
@@ -3699,8 +3699,8 @@
     "id": 529,
     "book": "Matthew",
     "reference": "3:1",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 530,
@@ -3881,8 +3881,8 @@
     "id": 555,
     "book": "Matthew",
     "reference": "3:12",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 556,
@@ -3993,8 +3993,8 @@
     "id": 571,
     "book": "Matthew",
     "reference": "4:4",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 572,
@@ -4070,8 +4070,8 @@
     "id": 582,
     "book": "Matthew",
     "reference": "4:24",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 583,
@@ -4273,8 +4273,8 @@
     "id": 611,
     "book": "Matthew",
     "reference": "5:20",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 612,
@@ -4308,22 +4308,22 @@
     "id": 616,
     "book": "Matthew",
     "reference": "5:22",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 617,
     "book": "Matthew",
     "reference": "5:22",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 618,
     "book": "Matthew",
     "reference": "5:22",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 619,
@@ -4336,8 +4336,8 @@
     "id": 620,
     "book": "Matthew",
     "reference": "5:24",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 621,
@@ -4385,15 +4385,15 @@
     "id": 627,
     "book": "Matthew",
     "reference": "5:28",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 628,
     "book": "Matthew",
     "reference": "5:28",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 629,
@@ -4483,8 +4483,8 @@
     "id": 641,
     "book": "Matthew",
     "reference": "5:39",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 642,
@@ -4532,8 +4532,8 @@
     "id": 648,
     "book": "Matthew",
     "reference": "5:44",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 649,
@@ -4567,8 +4567,8 @@
     "id": 653,
     "book": "Matthew",
     "reference": "5:45",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 654,
@@ -4581,8 +4581,8 @@
     "id": 655,
     "book": "Matthew",
     "reference": "5:46",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 656,
@@ -4623,8 +4623,8 @@
     "id": 661,
     "book": "Matthew",
     "reference": "6:1",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 662,
@@ -4651,8 +4651,8 @@
     "id": 665,
     "book": "Matthew",
     "reference": "6:3",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 666,
@@ -4756,8 +4756,8 @@
     "id": 680,
     "book": "Matthew",
     "reference": "6:12",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 681,
@@ -4833,8 +4833,8 @@
     "id": 691,
     "book": "Matthew",
     "reference": "6:19",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 692,
@@ -4889,15 +4889,15 @@
     "id": 699,
     "book": "Matthew",
     "reference": "6:24",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 700,
     "book": "Matthew",
     "reference": "6:24",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 701,
@@ -4931,8 +4931,8 @@
     "id": 705,
     "book": "Matthew",
     "reference": "6:26",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 706,
@@ -5008,22 +5008,22 @@
     "id": 716,
     "book": "Matthew",
     "reference": "6:33",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 717,
     "book": "Matthew",
     "reference": "6:33",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 718,
     "book": "Matthew",
     "reference": "6:33",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 719,
@@ -5127,8 +5127,8 @@
     "id": 733,
     "book": "Matthew",
     "reference": "7:11",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 734,
@@ -5218,8 +5218,8 @@
     "id": 746,
     "book": "Matthew",
     "reference": "7:23",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 747,
@@ -5281,8 +5281,8 @@
     "id": 755,
     "book": "Matthew",
     "reference": "8:2",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 756,
@@ -5449,8 +5449,8 @@
     "id": 779,
     "book": "Matthew",
     "reference": "8:11-12",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 780,
@@ -5547,22 +5547,22 @@
     "id": 793,
     "book": "Matthew",
     "reference": "8:20",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 794,
     "book": "Matthew",
     "reference": "8:20",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 795,
     "book": "Matthew",
     "reference": "8:20",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 796,
@@ -5582,15 +5582,15 @@
     "id": 798,
     "book": "Matthew",
     "reference": "8:21-22",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 799,
     "book": "Matthew",
     "reference": "8:22",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 800,
@@ -5617,8 +5617,8 @@
     "id": 803,
     "book": "Matthew",
     "reference": "8:26",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 804,
@@ -5694,8 +5694,8 @@
     "id": 814,
     "book": "Matthew",
     "reference": "9:5",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 815,
@@ -5708,8 +5708,8 @@
     "id": 816,
     "book": "Matthew",
     "reference": "9:6",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 817,
@@ -5757,8 +5757,8 @@
     "id": 823,
     "book": "Matthew",
     "reference": "9:13",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 824,
@@ -5988,8 +5988,8 @@
     "id": 856,
     "book": "Matthew",
     "reference": "10:5",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 857,
@@ -6002,8 +6002,8 @@
     "id": 858,
     "book": "Matthew",
     "reference": "10:6",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 859,
@@ -6121,8 +6121,8 @@
     "id": 875,
     "book": "Matthew",
     "reference": "10:16",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 876,
@@ -6135,8 +6135,8 @@
     "id": 877,
     "book": "Matthew",
     "reference": "10:18",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 878,
@@ -6226,8 +6226,8 @@
     "id": 890,
     "book": "Matthew",
     "reference": "10:25",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 891,
@@ -6324,8 +6324,8 @@
     "id": 904,
     "book": "Matthew",
     "reference": "10:36",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 905,
@@ -6359,8 +6359,8 @@
     "id": 909,
     "book": "Matthew",
     "reference": "10:39",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 910,
@@ -6492,8 +6492,8 @@
     "id": 928,
     "book": "Matthew",
     "reference": "11:12",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 929,
@@ -6520,8 +6520,8 @@
     "id": 932,
     "book": "Matthew",
     "reference": "11:14",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 933,
@@ -6604,8 +6604,8 @@
     "id": 944,
     "book": "Matthew",
     "reference": "11:21-22",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 945,
@@ -6660,8 +6660,8 @@
     "id": 952,
     "book": "Matthew",
     "reference": "11:28",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 953,
@@ -6681,8 +6681,8 @@
     "id": 955,
     "book": "Matthew",
     "reference": "11:29",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 956,
@@ -6786,8 +6786,8 @@
     "id": 970,
     "book": "Matthew",
     "reference": "12:7",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 971,
@@ -6828,8 +6828,8 @@
     "id": 976,
     "book": "Matthew",
     "reference": "12:12",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 977,
@@ -6926,15 +6926,15 @@
     "id": 990,
     "book": "Matthew",
     "reference": "12:27",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 991,
     "book": "Matthew",
     "reference": "12:27",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 992,
@@ -7003,8 +7003,8 @@
     "id": 1001,
     "book": "Matthew",
     "reference": "12:36",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1002,
@@ -7031,22 +7031,22 @@
     "id": 1005,
     "book": "Matthew",
     "reference": "12:39",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1006,
     "book": "Matthew",
     "reference": "12:39",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1007,
     "book": "Matthew",
     "reference": "12:41",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1008,
@@ -7059,8 +7059,8 @@
     "id": 1009,
     "book": "Matthew",
     "reference": "12:41-42",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1010,
@@ -7304,8 +7304,8 @@
     "id": 1044,
     "book": "Matthew",
     "reference": "13:43",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1045,
@@ -7577,8 +7577,8 @@
     "id": 1083,
     "book": "Matthew",
     "reference": "14:29",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1084,
@@ -7668,15 +7668,15 @@
     "id": 1096,
     "book": "Matthew",
     "reference": "15:11",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1097,
     "book": "Matthew",
     "reference": "15:11",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1098,
@@ -7724,8 +7724,8 @@
     "id": 1104,
     "book": "Matthew",
     "reference": "15:15",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1105,
@@ -7892,8 +7892,8 @@
     "id": 1128,
     "book": "Matthew",
     "reference": "16:4",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1129,
@@ -7969,8 +7969,8 @@
     "id": 1139,
     "book": "Matthew",
     "reference": "16:14",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1140,
@@ -8025,15 +8025,15 @@
     "id": 1147,
     "book": "Matthew",
     "reference": "16:19",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1148,
     "book": "Matthew",
     "reference": "16:19",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1149,
@@ -8053,8 +8053,8 @@
     "id": 1151,
     "book": "Matthew",
     "reference": "16:21",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1152,
@@ -8074,36 +8074,36 @@
     "id": 1154,
     "book": "Matthew",
     "reference": "16:22",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1155,
     "book": "Matthew",
     "reference": "16:22",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1156,
     "book": "Matthew",
     "reference": "16:22",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1157,
     "book": "Matthew",
     "reference": "16:22-23",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1158,
     "book": "Matthew",
     "reference": "16:22-23",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1159,
@@ -8116,15 +8116,15 @@
     "id": 1160,
     "book": "Matthew",
     "reference": "16:24",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1161,
     "book": "Matthew",
     "reference": "16:24",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1162,
@@ -8137,148 +8137,148 @@
     "id": 1163,
     "book": "Matthew",
     "reference": "16:25",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1164,
     "book": "Matthew",
     "reference": "16:25",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1165,
     "book": "Matthew",
     "reference": "16:25",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1166,
     "book": "Matthew",
     "reference": "16:26",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1167,
     "book": "Matthew",
     "reference": "16:26",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1168,
     "book": "Matthew",
     "reference": "16:27",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1169,
     "book": "Matthew",
     "reference": "16:28",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1170,
     "book": "Matthew",
     "reference": "16:37",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1171,
     "book": "Matthew",
     "reference": "17:1",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1172,
     "book": "Matthew",
     "reference": "17:2-3",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1173,
     "book": "Matthew",
     "reference": "17:5",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1174,
     "book": "Matthew",
     "reference": "17:6-8",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1175,
     "book": "Matthew",
     "reference": "17:9",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1176,
     "book": "Matthew",
     "reference": "17:10",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1177,
     "book": "Matthew",
     "reference": "17:11",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1178,
     "book": "Matthew",
     "reference": "17:12",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1179,
     "book": "Matthew",
     "reference": "17:12-13",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1180,
     "book": "Matthew",
     "reference": "17:14-16",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1181,
     "book": "Matthew",
     "reference": "17:17",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1182,
     "book": "Matthew",
     "reference": "17:22",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1183,
     "book": "Matthew",
     "reference": "17:22-23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1184,
@@ -8291,8 +8291,8 @@
     "id": 1185,
     "book": "Matthew",
     "reference": "17:23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1186,
@@ -8305,99 +8305,99 @@
     "id": 1187,
     "book": "Matthew",
     "reference": "17:27",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1188,
     "book": "Matthew",
     "reference": "18:1",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1189,
     "book": "Matthew",
     "reference": "18:2-3",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1190,
     "book": "Matthew",
     "reference": "18:3",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1191,
     "book": "Matthew",
     "reference": "18:3",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1192,
     "book": "Matthew",
     "reference": "18:3-4",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1193,
     "book": "Matthew",
     "reference": "18:5",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1194,
     "book": "Matthew",
     "reference": "18:6",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1195,
     "book": "Matthew",
     "reference": "18:7",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1196,
     "book": "Matthew",
     "reference": "18:7",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1197,
     "book": "Matthew",
     "reference": "18:8-9",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1198,
     "book": "Matthew",
     "reference": "18:10",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1199,
     "book": "Matthew",
     "reference": "18:11",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1200,
     "book": "Matthew",
     "reference": "18:12-14",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1201,
@@ -8410,8 +8410,8 @@
     "id": 1202,
     "book": "Matthew",
     "reference": "18:15",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1203,
@@ -8424,8 +8424,8 @@
     "id": 1204,
     "book": "Matthew",
     "reference": "18:16",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1205,
@@ -8438,50 +8438,50 @@
     "id": 1206,
     "book": "Matthew",
     "reference": "18:17",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1207,
     "book": "Matthew",
     "reference": "18:18",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1208,
     "book": "Matthew",
     "reference": "18:19-20",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1209,
     "book": "Matthew",
     "reference": "18:21",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1210,
     "book": "Matthew",
     "reference": "18:23-25",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1211,
     "book": "Matthew",
     "reference": "18:26",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1212,
     "book": "Matthew",
     "reference": "18:26-27",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1213,
@@ -8494,22 +8494,22 @@
     "id": 1214,
     "book": "Matthew",
     "reference": "18:28",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1215,
     "book": "Matthew",
     "reference": "18:28",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1216,
     "book": "Matthew",
     "reference": "18:29",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1217,
@@ -8522,36 +8522,36 @@
     "id": 1218,
     "book": "Matthew",
     "reference": "18:32",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1219,
     "book": "Matthew",
     "reference": "18:35",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1220,
     "book": "Matthew",
     "reference": "19:1",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1221,
     "book": "Matthew",
     "reference": "19:2",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1222,
     "book": "Matthew",
     "reference": "19:3",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1223,
@@ -8564,15 +8564,15 @@
     "id": 1224,
     "book": "Matthew",
     "reference": "19:4-6",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1225,
     "book": "Matthew",
     "reference": "19:7",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1226,
@@ -8592,57 +8592,57 @@
     "id": 1228,
     "book": "Matthew",
     "reference": "19:10",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1229,
     "book": "Matthew",
     "reference": "19:11",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1230,
-    "book": "Matthew",
-    "reference": "19:12",
-    "homily": 59,
-    "section": "Homily LIX"
-  },
-  {
-    "id": 1231,
     "book": "Matthew",
     "reference": "19:12",
     "homily": 62,
     "section": "Homily LXII"
   },
   {
+    "id": 1231,
+    "book": "Matthew",
+    "reference": "19:12",
+    "homily": 65,
+    "section": "Homily LXV"
+  },
+  {
     "id": 1232,
     "book": "Matthew",
     "reference": "19:12",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1233,
     "book": "Matthew",
     "reference": "19:13-15",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1234,
     "book": "Matthew",
     "reference": "19:16",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1235,
     "book": "Matthew",
     "reference": "19:16",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1236,
@@ -8655,71 +8655,71 @@
     "id": 1237,
     "book": "Matthew",
     "reference": "19:17",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1238,
     "book": "Matthew",
     "reference": "19:20",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1239,
     "book": "Matthew",
     "reference": "19:21",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1240,
     "book": "Matthew",
     "reference": "19:21",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1241,
     "book": "Matthew",
     "reference": "19:21",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1242,
     "book": "Matthew",
     "reference": "19:21",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1243,
     "book": "Matthew",
     "reference": "19:21",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1244,
     "book": "Matthew",
     "reference": "19:22",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1245,
     "book": "Matthew",
     "reference": "19:23",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1246,
     "book": "Matthew",
     "reference": "19:24",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1247,
@@ -8732,15 +8732,15 @@
     "id": 1248,
     "book": "Matthew",
     "reference": "19:25",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1249,
     "book": "Matthew",
     "reference": "19:26",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1250,
@@ -8753,22 +8753,22 @@
     "id": 1251,
     "book": "Matthew",
     "reference": "19:27",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1252,
     "book": "Matthew",
     "reference": "19:27",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1253,
     "book": "Matthew",
     "reference": "19:27-29",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1254,
@@ -8781,8 +8781,8 @@
     "id": 1255,
     "book": "Matthew",
     "reference": "19:28",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1256,
@@ -8795,29 +8795,29 @@
     "id": 1257,
     "book": "Matthew",
     "reference": "19:29",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1258,
     "book": "Matthew",
     "reference": "19:29",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1259,
     "book": "Matthew",
     "reference": "19:29",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1260,
     "book": "Matthew",
     "reference": "19:29",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1261,
@@ -8830,64 +8830,64 @@
     "id": 1262,
     "book": "Matthew",
     "reference": "19:30",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1263,
     "book": "Matthew",
     "reference": "20:1",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1264,
     "book": "Matthew",
     "reference": "20:5-6",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1265,
     "book": "Matthew",
     "reference": "20:17-19",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1266,
     "book": "Matthew",
     "reference": "20:20",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1267,
     "book": "Matthew",
     "reference": "20:21",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1268,
     "book": "Matthew",
     "reference": "20:22",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1269,
     "book": "Matthew",
     "reference": "20:22",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1270,
     "book": "Matthew",
     "reference": "20:22",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1271,
@@ -8900,78 +8900,78 @@
     "id": 1272,
     "book": "Matthew",
     "reference": "20:23",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1273,
     "book": "Matthew",
     "reference": "20:23",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1274,
     "book": "Matthew",
     "reference": "20:25",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1275,
     "book": "Matthew",
     "reference": "20:25-27",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1276,
     "book": "Matthew",
     "reference": "20:27",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1277,
     "book": "Matthew",
     "reference": "20:27-28",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 1278,
     "book": "Matthew",
     "reference": "20:28",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1279,
     "book": "Matthew",
     "reference": "20:29-30",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1280,
     "book": "Matthew",
     "reference": "20:32-33",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1281,
     "book": "Matthew",
     "reference": "21:1-5",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1282,
     "book": "Matthew",
     "reference": "21:3",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1283,
@@ -8984,22 +8984,22 @@
     "id": 1284,
     "book": "Matthew",
     "reference": "21:10-11",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1285,
     "book": "Matthew",
     "reference": "21:12-13",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1286,
     "book": "Matthew",
     "reference": "21:14",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1287,
@@ -9012,50 +9012,50 @@
     "id": 1288,
     "book": "Matthew",
     "reference": "21:16",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1289,
     "book": "Matthew",
     "reference": "21:18",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1290,
     "book": "Matthew",
     "reference": "21:19",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1291,
     "book": "Matthew",
     "reference": "21:21-22",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1292,
-    "book": "Matthew",
-    "reference": "21:23",
-    "homily": 64,
-    "section": "Homily LXIV"
-  },
-  {
-    "id": 1293,
     "book": "Matthew",
     "reference": "21:23",
     "homily": 67,
     "section": "Homily LXVII"
   },
   {
+    "id": 1293,
+    "book": "Matthew",
+    "reference": "21:23",
+    "homily": 70,
+    "section": "Homily LXX"
+  },
+  {
     "id": 1294,
     "book": "Matthew",
     "reference": "21:25",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1295,
@@ -9068,22 +9068,22 @@
     "id": 1296,
     "book": "Matthew",
     "reference": "21:26",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1297,
     "book": "Matthew",
     "reference": "21:27",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1298,
     "book": "Matthew",
     "reference": "21:28-31",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1299,
@@ -9096,162 +9096,162 @@
     "id": 1300,
     "book": "Matthew",
     "reference": "21:31",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1301,
     "book": "Matthew",
     "reference": "21:31-32",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1302,
     "book": "Matthew",
     "reference": "21:32",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1303,
     "book": "Matthew",
     "reference": "21:33-44",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1304,
     "book": "Matthew",
     "reference": "21:37",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1305,
     "book": "Matthew",
     "reference": "21:41",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1306,
     "book": "Matthew",
     "reference": "21:44",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1307,
     "book": "Matthew",
     "reference": "21:45-46",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1308,
     "book": "Matthew",
     "reference": "22:1-14",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1309,
     "book": "Matthew",
     "reference": "22:7-14",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1310,
     "book": "Matthew",
     "reference": "22:13",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1311,
     "book": "Matthew",
     "reference": "22:13",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1312,
     "book": "Matthew",
     "reference": "22:15",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1313,
     "book": "Matthew",
     "reference": "22:16-17",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1314,
     "book": "Matthew",
     "reference": "22:17",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1315,
     "book": "Matthew",
     "reference": "22:20-21",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1316,
     "book": "Matthew",
     "reference": "22:22-23",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1317,
     "book": "Matthew",
     "reference": "22:24-28",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1318,
     "book": "Matthew",
     "reference": "22:29",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1319,
     "book": "Matthew",
     "reference": "22:30",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1320,
     "book": "Matthew",
     "reference": "22:31-32",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1321,
     "book": "Matthew",
     "reference": "22:33",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1322,
     "book": "Matthew",
     "reference": "22:34-36",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1323,
@@ -9264,22 +9264,22 @@
     "id": 1324,
     "book": "Matthew",
     "reference": "22:37-39",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1325,
     "book": "Matthew",
     "reference": "22:39",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1326,
     "book": "Matthew",
     "reference": "22:40",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1327,
@@ -9292,15 +9292,15 @@
     "id": 1328,
     "book": "Matthew",
     "reference": "22:42",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1329,
     "book": "Matthew",
     "reference": "22:42",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1330,
@@ -9313,43 +9313,43 @@
     "id": 1331,
     "book": "Matthew",
     "reference": "22:43",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1332,
     "book": "Matthew",
     "reference": "22:43-46",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1333,
     "book": "Matthew",
     "reference": "22:44",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1334,
     "book": "Matthew",
     "reference": "22:44",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1335,
     "book": "Matthew",
     "reference": "22:45",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1336,
     "book": "Matthew",
     "reference": "22:46",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1337,
@@ -9362,8 +9362,8 @@
     "id": 1338,
     "book": "Matthew",
     "reference": "23:1-3",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1339,
@@ -9376,29 +9376,29 @@
     "id": 1340,
     "book": "Matthew",
     "reference": "23:4",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1341,
     "book": "Matthew",
     "reference": "23:5",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1342,
     "book": "Matthew",
     "reference": "23:5",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1343,
     "book": "Matthew",
     "reference": "23:8",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1344,
@@ -9418,43 +9418,43 @@
     "id": 1346,
     "book": "Matthew",
     "reference": "23:9",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1347,
     "book": "Matthew",
     "reference": "23:10",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1348,
     "book": "Matthew",
     "reference": "23:11-12",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 1349,
     "book": "Matthew",
     "reference": "23:13",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1350,
     "book": "Matthew",
     "reference": "23:14",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1351,
     "book": "Matthew",
     "reference": "23:15",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1352,
@@ -9474,15 +9474,15 @@
     "id": 1354,
     "book": "Matthew",
     "reference": "23:23",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1355,
     "book": "Matthew",
     "reference": "23:23",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1356,
@@ -9495,71 +9495,71 @@
     "id": 1357,
     "book": "Matthew",
     "reference": "23:24",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1358,
     "book": "Matthew",
     "reference": "23:25",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1359,
     "book": "Matthew",
     "reference": "23:25-26",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1360,
     "book": "Matthew",
     "reference": "23:27",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1361,
     "book": "Matthew",
     "reference": "23:27",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1362,
     "book": "Matthew",
     "reference": "23:29",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1363,
     "book": "Matthew",
     "reference": "23:32",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1364,
     "book": "Matthew",
     "reference": "23:32",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1365,
     "book": "Matthew",
     "reference": "23:33",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1366,
     "book": "Matthew",
     "reference": "23:33",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1367,
@@ -9572,50 +9572,50 @@
     "id": 1368,
     "book": "Matthew",
     "reference": "23:34",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1369,
     "book": "Matthew",
     "reference": "23:34-36",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1370,
     "book": "Matthew",
     "reference": "23:35",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1371,
     "book": "Matthew",
     "reference": "23:37",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1372,
     "book": "Matthew",
     "reference": "23:38",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1373,
     "book": "Matthew",
     "reference": "23:39",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1374,
     "book": "Matthew",
     "reference": "24:1-2",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1375,
@@ -9628,71 +9628,71 @@
     "id": 1376,
     "book": "Matthew",
     "reference": "24:3",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1377,
     "book": "Matthew",
     "reference": "24:4-6",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1378,
     "book": "Matthew",
     "reference": "24:6",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1379,
     "book": "Matthew",
     "reference": "24:7",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1380,
     "book": "Matthew",
     "reference": "24:8",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1381,
     "book": "Matthew",
     "reference": "24:9",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1382,
     "book": "Matthew",
     "reference": "24:9",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1383,
     "book": "Matthew",
     "reference": "24:9-13",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1384,
     "book": "Matthew",
     "reference": "24:11",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1385,
     "book": "Matthew",
     "reference": "24:11",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1386,
@@ -9705,8 +9705,8 @@
     "id": 1387,
     "book": "Matthew",
     "reference": "24:12",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1388,
@@ -9726,43 +9726,43 @@
     "id": 1390,
     "book": "Matthew",
     "reference": "24:14",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1391,
     "book": "Matthew",
     "reference": "24:14",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1392,
     "book": "Matthew",
     "reference": "24:15",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1393,
     "book": "Matthew",
     "reference": "24:16-18",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1394,
     "book": "Matthew",
     "reference": "24:19",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1395,
     "book": "Matthew",
     "reference": "24:20-21",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1396,
@@ -9775,8 +9775,8 @@
     "id": 1397,
     "book": "Matthew",
     "reference": "24:22",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1398,
@@ -9789,22 +9789,22 @@
     "id": 1399,
     "book": "Matthew",
     "reference": "24:23-28",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1400,
     "book": "Matthew",
     "reference": "24:24",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1401,
     "book": "Matthew",
     "reference": "24:24",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1402,
@@ -9817,8 +9817,8 @@
     "id": 1403,
     "book": "Matthew",
     "reference": "24:27-28",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1404,
@@ -9831,15 +9831,15 @@
     "id": 1405,
     "book": "Matthew",
     "reference": "24:29",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1406,
     "book": "Matthew",
     "reference": "24:29",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1407,
@@ -9852,36 +9852,36 @@
     "id": 1408,
     "book": "Matthew",
     "reference": "24:30",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1409,
     "book": "Matthew",
     "reference": "24:30",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1410,
     "book": "Matthew",
     "reference": "24:31",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 1411,
     "book": "Matthew",
     "reference": "24:33-34",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1412,
     "book": "Matthew",
     "reference": "24:34",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1413,
@@ -9894,99 +9894,99 @@
     "id": 1414,
     "book": "Matthew",
     "reference": "24:35",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1415,
     "book": "Matthew",
     "reference": "24:36",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1416,
     "book": "Matthew",
     "reference": "24:36",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1417,
     "book": "Matthew",
     "reference": "24:38-39",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1418,
     "book": "Matthew",
     "reference": "24:40",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1419,
     "book": "Matthew",
     "reference": "24:40-41",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1420,
     "book": "Matthew",
     "reference": "24:40-42",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1421,
     "book": "Matthew",
     "reference": "24:42",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1422,
     "book": "Matthew",
     "reference": "24:43-44",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1423,
     "book": "Matthew",
     "reference": "24:45",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1424,
     "book": "Matthew",
     "reference": "24:45-47",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1425,
     "book": "Matthew",
     "reference": "24:48-51",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1426,
     "book": "Matthew",
     "reference": "24:50",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1427,
     "book": "Matthew",
     "reference": "25:1-30",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1428,
@@ -9999,57 +9999,57 @@
     "id": 1429,
     "book": "Matthew",
     "reference": "25:12",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1430,
     "book": "Matthew",
     "reference": "25:13",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1431,
     "book": "Matthew",
     "reference": "25:23",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1432,
     "book": "Matthew",
     "reference": "25:23",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1433,
     "book": "Matthew",
     "reference": "25:24-25",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1434,
     "book": "Matthew",
     "reference": "25:26",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1435,
     "book": "Matthew",
     "reference": "25:27",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1436,
     "book": "Matthew",
     "reference": "25:28-29",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1437,
@@ -10062,8 +10062,8 @@
     "id": 1438,
     "book": "Matthew",
     "reference": "25:30",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1439,
@@ -10076,22 +10076,22 @@
     "id": 1440,
     "book": "Matthew",
     "reference": "25:34",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1441,
     "book": "Matthew",
     "reference": "25:34-35",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1442,
     "book": "Matthew",
     "reference": "25:34-40",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1443,
@@ -10104,29 +10104,29 @@
     "id": 1444,
     "book": "Matthew",
     "reference": "25:40",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1445,
     "book": "Matthew",
     "reference": "25:40",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1446,
     "book": "Matthew",
     "reference": "25:41",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1447,
     "book": "Matthew",
     "reference": "25:41",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1448,
@@ -10146,15 +10146,15 @@
     "id": 1450,
     "book": "Matthew",
     "reference": "25:42",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1451,
     "book": "Matthew",
     "reference": "25:42",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1452,
@@ -10174,78 +10174,78 @@
     "id": 1454,
     "book": "Matthew",
     "reference": "25:45",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1455,
     "book": "Matthew",
     "reference": "25:45",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1456,
     "book": "Matthew",
     "reference": "26",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1457,
     "book": "Matthew",
     "reference": "26:1-2",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1458,
     "book": "Matthew",
     "reference": "26:3",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1459,
     "book": "Matthew",
     "reference": "26:3",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1460,
     "book": "Matthew",
     "reference": "26:3-5",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1461,
     "book": "Matthew",
     "reference": "26:4",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1462,
     "book": "Matthew",
     "reference": "26:5",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1463,
     "book": "Matthew",
     "reference": "26:6-7",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1464,
     "book": "Matthew",
     "reference": "26:8-13",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1465,
@@ -10265,204 +10265,204 @@
     "id": 1467,
     "book": "Matthew",
     "reference": "26:11",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1468,
     "book": "Matthew",
     "reference": "26:12",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1469,
     "book": "Matthew",
     "reference": "26:12",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1470,
     "book": "Matthew",
     "reference": "26:14-15",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1471,
     "book": "Matthew",
     "reference": "26:15",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1472,
     "book": "Matthew",
     "reference": "26:15",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1473,
     "book": "Matthew",
     "reference": "26:15-16",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1474,
     "book": "Matthew",
     "reference": "26:17-18",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1475,
     "book": "Matthew",
     "reference": "26:18",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1476,
     "book": "Matthew",
     "reference": "26:20",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1477,
     "book": "Matthew",
     "reference": "26:21",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1478,
     "book": "Matthew",
     "reference": "26:22",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1479,
     "book": "Matthew",
     "reference": "26:23-24",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1480,
     "book": "Matthew",
     "reference": "26:25",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1481,
     "book": "Matthew",
     "reference": "26:25",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1482,
     "book": "Matthew",
     "reference": "26:26-28",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1483,
     "book": "Matthew",
     "reference": "26:27",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1484,
     "book": "Matthew",
     "reference": "26:29",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1485,
     "book": "Matthew",
     "reference": "26:31",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1486,
     "book": "Matthew",
     "reference": "26:32",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1487,
     "book": "Matthew",
     "reference": "26:33",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1488,
     "book": "Matthew",
     "reference": "26:33",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1489,
     "book": "Matthew",
     "reference": "26:34",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1490,
     "book": "Matthew",
     "reference": "26:34-35",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1491,
     "book": "Matthew",
     "reference": "26:35",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1492,
     "book": "Matthew",
     "reference": "26:36",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1493,
     "book": "Matthew",
     "reference": "26:36-38",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1494,
     "book": "Matthew",
     "reference": "26:38",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1495,
     "book": "Matthew",
     "reference": "26:38-39",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1496,
@@ -10475,22 +10475,22 @@
     "id": 1497,
     "book": "Matthew",
     "reference": "26:39",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1498,
     "book": "Matthew",
     "reference": "26:39-41",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1499,
     "book": "Matthew",
     "reference": "26:40",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1500,
@@ -10503,407 +10503,407 @@
     "id": 1501,
     "book": "Matthew",
     "reference": "26:42",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1502,
     "book": "Matthew",
     "reference": "26:43",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1503,
     "book": "Matthew",
     "reference": "26:45",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1504,
     "book": "Matthew",
     "reference": "26:46",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1505,
     "book": "Matthew",
     "reference": "26:47",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1506,
     "book": "Matthew",
     "reference": "26:48",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1507,
     "book": "Matthew",
     "reference": "26:50",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1508,
     "book": "Matthew",
     "reference": "26:51-54",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1509,
     "book": "Matthew",
     "reference": "26:53-54",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1510,
     "book": "Matthew",
     "reference": "26:55",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1511,
     "book": "Matthew",
     "reference": "26:56",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1512,
     "book": "Matthew",
     "reference": "26:57-58",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1513,
     "book": "Matthew",
     "reference": "26:60-61",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1514,
     "book": "Matthew",
     "reference": "26:62-63",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1515,
     "book": "Matthew",
     "reference": "26:63",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1516,
     "book": "Matthew",
     "reference": "26:63-65",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1517,
     "book": "Matthew",
     "reference": "26:64",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1518,
     "book": "Matthew",
     "reference": "26:66",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1519,
     "book": "Matthew",
     "reference": "26:67-68",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1520,
     "book": "Matthew",
     "reference": "26:69-75",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1521,
     "book": "Matthew",
     "reference": "26:74",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1522,
     "book": "Matthew",
     "reference": "26:75",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1523,
     "book": "Matthew",
     "reference": "27:1-2",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1524,
     "book": "Matthew",
     "reference": "27:3-5",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1525,
     "book": "Matthew",
     "reference": "27:5",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1526,
     "book": "Matthew",
     "reference": "27:6-10",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1527,
     "book": "Matthew",
     "reference": "27:7",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1528,
     "book": "Matthew",
     "reference": "27:9",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1529,
     "book": "Matthew",
     "reference": "27:10",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1530,
     "book": "Matthew",
     "reference": "27:11-12",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1531,
     "book": "Matthew",
     "reference": "27:13",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1532,
     "book": "Matthew",
     "reference": "27:19",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1533,
     "book": "Matthew",
     "reference": "27:20",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1534,
     "book": "Matthew",
     "reference": "27:22",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1535,
     "book": "Matthew",
     "reference": "27:22-24",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1536,
     "book": "Matthew",
     "reference": "27:25",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1537,
     "book": "Matthew",
     "reference": "27:25",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1538,
     "book": "Matthew",
     "reference": "27:26",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1539,
     "book": "Matthew",
     "reference": "27:27-29",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1540,
     "book": "Matthew",
     "reference": "27:31",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1541,
     "book": "Matthew",
     "reference": "27:40",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1542,
     "book": "Matthew",
     "reference": "27:40",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1543,
     "book": "Matthew",
     "reference": "27:40-43",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1544,
     "book": "Matthew",
     "reference": "27:42",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1545,
     "book": "Matthew",
     "reference": "27:42",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1546,
     "book": "Matthew",
     "reference": "27:42",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1547,
     "book": "Matthew",
     "reference": "27:42",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1548,
     "book": "Matthew",
     "reference": "27:43",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1549,
     "book": "Matthew",
     "reference": "27:45-48",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1550,
     "book": "Matthew",
     "reference": "27:46",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1551,
     "book": "Matthew",
     "reference": "27:46",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1552,
     "book": "Matthew",
     "reference": "27:48",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1553,
     "book": "Matthew",
     "reference": "27:50",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1554,
     "book": "Matthew",
     "reference": "27:52-53",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1555,
     "book": "Matthew",
     "reference": "27:55-56",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1556,
     "book": "Matthew",
     "reference": "27:57-58",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1557,
     "book": "Matthew",
     "reference": "27:61",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1558,
     "book": "Matthew",
     "reference": "27:62-64",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1559,
@@ -10916,113 +10916,113 @@
     "id": 1560,
     "book": "Matthew",
     "reference": "27:64",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1561,
     "book": "Matthew",
     "reference": "27:64",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1562,
     "book": "Matthew",
     "reference": "27:65-66",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1563,
     "book": "Matthew",
     "reference": "28:1-3",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1564,
     "book": "Matthew",
     "reference": "28:5",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1565,
     "book": "Matthew",
     "reference": "28:6",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1566,
     "book": "Matthew",
     "reference": "28:7",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1567,
     "book": "Matthew",
     "reference": "28:8",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1568,
     "book": "Matthew",
     "reference": "28:9",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1569,
     "book": "Matthew",
     "reference": "28:10",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1570,
     "book": "Matthew",
     "reference": "28:11-14",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1571,
     "book": "Matthew",
     "reference": "28:15",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1572,
     "book": "Matthew",
     "reference": "28:16-17",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1573,
     "book": "Matthew",
     "reference": "28:18",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1574,
     "book": "Matthew",
     "reference": "28:18-19",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1575,
     "book": "Matthew",
     "reference": "28:19",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1576,
@@ -11042,8 +11042,8 @@
     "id": 1578,
     "book": "Matthew",
     "reference": "28:20",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 1579,
@@ -11259,8 +11259,8 @@
     "id": 1609,
     "book": "Mark",
     "reference": "6:18",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1610,
@@ -11357,57 +11357,57 @@
     "id": 1623,
     "book": "Mark",
     "reference": "9:6",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1624,
     "book": "Mark",
     "reference": "9:21",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1625,
     "book": "Mark",
     "reference": "9:22",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1626,
     "book": "Mark",
     "reference": "9:23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1627,
     "book": "Mark",
     "reference": "9:23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1628,
     "book": "Mark",
     "reference": "9:23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1629,
     "book": "Mark",
     "reference": "9:24",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1630,
     "book": "Mark",
     "reference": "9:25",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1631,
@@ -11420,22 +11420,22 @@
     "id": 1632,
     "book": "Mark",
     "reference": "9:32",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1633,
     "book": "Mark",
     "reference": "9:32",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1634,
     "book": "Mark",
     "reference": "9:34",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1635,
@@ -11469,15 +11469,15 @@
     "id": 1639,
     "book": "Mark",
     "reference": "10:10",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 1640,
     "book": "Mark",
     "reference": "10:17-21",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1641,
@@ -11490,15 +11490,15 @@
     "id": 1642,
     "book": "Mark",
     "reference": "10:23",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1643,
     "book": "Mark",
     "reference": "10:26",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 1644,
@@ -11525,50 +11525,50 @@
     "id": 1647,
     "book": "Mark",
     "reference": "10:32",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1648,
     "book": "Mark",
     "reference": "10:35",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1649,
     "book": "Mark",
     "reference": "10:36",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1650,
     "book": "Mark",
     "reference": "10:37",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1651,
     "book": "Mark",
     "reference": "11:3",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1652,
     "book": "Mark",
     "reference": "11:13",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1653,
     "book": "Mark",
     "reference": "12:15",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1654,
@@ -11581,141 +11581,141 @@
     "id": 1655,
     "book": "Mark",
     "reference": "12:34",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1656,
     "book": "Mark",
     "reference": "12:37",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1657,
     "book": "Mark",
     "reference": "12:40",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1658,
     "book": "Mark",
     "reference": "13:3",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1659,
     "book": "Mark",
     "reference": "13:32",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1660,
     "book": "Mark",
     "reference": "13:32",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1661,
     "book": "Mark",
     "reference": "14:27",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1662,
     "book": "Mark",
     "reference": "14:29",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1663,
     "book": "Mark",
     "reference": "14:37",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1664,
     "book": "Mark",
     "reference": "14:56",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1665,
     "book": "Mark",
     "reference": "14:59",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1666,
     "book": "Mark",
     "reference": "14:65",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1667,
     "book": "Mark",
     "reference": "14:68",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1668,
     "book": "Mark",
     "reference": "14:68",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1669,
     "book": "Mark",
     "reference": "14:72",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1670,
     "book": "Mark",
     "reference": "14:72",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1671,
     "book": "Mark",
     "reference": "15:16",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1672,
     "book": "Mark",
     "reference": "15:39",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1673,
     "book": "Mark",
     "reference": "15:44",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1674,
     "book": "Mark",
     "reference": "16:4",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 1675,
@@ -11763,8 +11763,8 @@
     "id": 1681,
     "book": "Luke",
     "reference": "2:14",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1682,
@@ -12064,8 +12064,8 @@
     "id": 1724,
     "book": "Luke",
     "reference": "6:35",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1725,
@@ -12092,15 +12092,15 @@
     "id": 1728,
     "book": "Luke",
     "reference": "6:37",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1729,
     "book": "Luke",
     "reference": "7",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1730,
@@ -12190,8 +12190,8 @@
     "id": 1742,
     "book": "Luke",
     "reference": "7:37",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1743,
@@ -12204,8 +12204,8 @@
     "id": 1744,
     "book": "Luke",
     "reference": "7:47",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1745,
@@ -12351,29 +12351,29 @@
     "id": 1765,
     "book": "Luke",
     "reference": "9:28",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1766,
     "book": "Luke",
     "reference": "9:31",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1767,
     "book": "Luke",
     "reference": "9:32",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1768,
     "book": "Luke",
     "reference": "9:33",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1769,
@@ -12386,8 +12386,8 @@
     "id": 1770,
     "book": "Luke",
     "reference": "9:45",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1771,
@@ -12414,8 +12414,8 @@
     "id": 1774,
     "book": "Luke",
     "reference": "9:54-55",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 1775,
@@ -12463,8 +12463,8 @@
     "id": 1781,
     "book": "Luke",
     "reference": "10:19",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1782,
@@ -12554,15 +12554,15 @@
     "id": 1794,
     "book": "Luke",
     "reference": "11:47-48",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1795,
     "book": "Luke",
     "reference": "12:7",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 1796,
@@ -12582,8 +12582,8 @@
     "id": 1798,
     "book": "Luke",
     "reference": "12:32",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1799,
@@ -12596,8 +12596,8 @@
     "id": 1800,
     "book": "Luke",
     "reference": "12:47",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1801,
@@ -12610,8 +12610,8 @@
     "id": 1802,
     "book": "Luke",
     "reference": "13:4-5",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1803,
@@ -12624,15 +12624,15 @@
     "id": 1804,
     "book": "Luke",
     "reference": "13:23",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1805,
     "book": "Luke",
     "reference": "13:34",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1806,
@@ -12666,8 +12666,8 @@
     "id": 1810,
     "book": "Luke",
     "reference": "15:7",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1811,
@@ -12722,22 +12722,22 @@
     "id": 1818,
     "book": "Luke",
     "reference": "16:24-26",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1819,
     "book": "Luke",
     "reference": "16:26",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1820,
     "book": "Luke",
     "reference": "16:26",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1821,
@@ -12750,8 +12750,8 @@
     "id": 1822,
     "book": "Luke",
     "reference": "17:1",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1823,
@@ -12764,8 +12764,8 @@
     "id": 1824,
     "book": "Luke",
     "reference": "17:34",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1825,
@@ -12820,8 +12820,8 @@
     "id": 1832,
     "book": "Luke",
     "reference": "18:27",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 1833,
@@ -12841,8 +12841,8 @@
     "id": 1835,
     "book": "Luke",
     "reference": "18:31",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1836,
@@ -12855,8 +12855,8 @@
     "id": 1837,
     "book": "Luke",
     "reference": "18:34",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1838,
@@ -12876,8 +12876,8 @@
     "id": 1840,
     "book": "Luke",
     "reference": "19:8",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1841,
@@ -12890,15 +12890,15 @@
     "id": 1842,
     "book": "Luke",
     "reference": "19:10",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 1843,
     "book": "Luke",
     "reference": "19:11",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1844,
@@ -12918,36 +12918,36 @@
     "id": 1846,
     "book": "Luke",
     "reference": "20:13",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1847,
     "book": "Luke",
     "reference": "20:17-18",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1848,
     "book": "Luke",
     "reference": "20:36",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1849,
     "book": "Luke",
     "reference": "20:47",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 1850,
     "book": "Luke",
     "reference": "21:6-7",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 1851,
@@ -12960,43 +12960,43 @@
     "id": 1852,
     "book": "Luke",
     "reference": "22:3",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1853,
     "book": "Luke",
     "reference": "22:4",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1854,
     "book": "Luke",
     "reference": "22:7",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1855,
     "book": "Luke",
     "reference": "22:15",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 1856,
     "book": "Luke",
     "reference": "22:15",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1857,
     "book": "Luke",
     "reference": "22:24",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1858,
@@ -13009,15 +13009,15 @@
     "id": 1859,
     "book": "Luke",
     "reference": "22:31",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1860,
     "book": "Luke",
     "reference": "22:32",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1861,
@@ -13030,64 +13030,64 @@
     "id": 1862,
     "book": "Luke",
     "reference": "22:35-38",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1863,
     "book": "Luke",
     "reference": "22:36",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1864,
     "book": "Luke",
     "reference": "22:48",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 1865,
     "book": "Luke",
     "reference": "22:48",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1866,
     "book": "Luke",
     "reference": "22:49",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1867,
     "book": "Luke",
     "reference": "22:52",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 1868,
     "book": "Luke",
     "reference": "22:61",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1869,
     "book": "Luke",
     "reference": "22:64",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 1870,
     "book": "Luke",
     "reference": "23:24",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1871,
@@ -13100,22 +13100,22 @@
     "id": 1872,
     "book": "Luke",
     "reference": "23:34",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 1873,
     "book": "Luke",
     "reference": "23:34",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1874,
     "book": "Luke",
     "reference": "23:40",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 1875,
@@ -13135,15 +13135,15 @@
     "id": 1877,
     "book": "Luke",
     "reference": "23:47-48",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1878,
     "book": "Luke",
     "reference": "24:7",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1879,
@@ -13177,8 +13177,8 @@
     "id": 1883,
     "book": "John",
     "reference": "1:3",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 1884,
@@ -13226,15 +13226,15 @@
     "id": 1890,
     "book": "John",
     "reference": "1:21",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1891,
     "book": "John",
     "reference": "1:21",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1892,
@@ -13254,8 +13254,8 @@
     "id": 1894,
     "book": "John",
     "reference": "1:27",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1895,
@@ -13282,8 +13282,8 @@
     "id": 1898,
     "book": "John",
     "reference": "1:29",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1899,
@@ -13338,8 +13338,8 @@
     "id": 1906,
     "book": "John",
     "reference": "1:34",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1907,
@@ -13401,22 +13401,22 @@
     "id": 1915,
     "book": "John",
     "reference": "2:16",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1916,
     "book": "John",
     "reference": "2:18",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1917,
     "book": "John",
     "reference": "2:18-19",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1918,
@@ -13429,15 +13429,15 @@
     "id": 1919,
     "book": "John",
     "reference": "2:19",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1920,
     "book": "John",
     "reference": "2:19-21",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 1921,
@@ -13450,8 +13450,8 @@
     "id": 1922,
     "book": "John",
     "reference": "3:20",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 1923,
@@ -13478,8 +13478,8 @@
     "id": 1926,
     "book": "John",
     "reference": "3:30",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1927,
@@ -13492,8 +13492,8 @@
     "id": 1928,
     "book": "John",
     "reference": "4:1",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 1929,
@@ -13506,22 +13506,22 @@
     "id": 1930,
     "book": "John",
     "reference": "4:22",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1931,
     "book": "John",
     "reference": "4:25",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 1932,
     "book": "John",
     "reference": "4:31",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1933,
@@ -13534,8 +13534,8 @@
     "id": 1934,
     "book": "John",
     "reference": "4:35",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1935,
@@ -13555,8 +13555,8 @@
     "id": 1937,
     "book": "John",
     "reference": "4:38",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1938,
@@ -13590,15 +13590,15 @@
     "id": 1942,
     "book": "John",
     "reference": "5:6-8",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1943,
     "book": "John",
     "reference": "5:7",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1944,
@@ -13611,8 +13611,8 @@
     "id": 1945,
     "book": "John",
     "reference": "5:14",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 1946,
@@ -13660,8 +13660,8 @@
     "id": 1952,
     "book": "John",
     "reference": "5:31",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 1953,
@@ -13702,8 +13702,8 @@
     "id": 1958,
     "book": "John",
     "reference": "6:15",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 1959,
@@ -13730,8 +13730,8 @@
     "id": 1962,
     "book": "John",
     "reference": "6:60-61",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1963,
@@ -13744,15 +13744,15 @@
     "id": 1964,
     "book": "John",
     "reference": "6:66",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 1965,
     "book": "John",
     "reference": "6:68-69",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1966,
@@ -13793,15 +13793,15 @@
     "id": 1971,
     "book": "John",
     "reference": "7:12",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1972,
     "book": "John",
     "reference": "7:12",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1973,
@@ -13828,22 +13828,22 @@
     "id": 1976,
     "book": "John",
     "reference": "7:25-26",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1977,
     "book": "John",
     "reference": "7:33-34",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 1978,
     "book": "John",
     "reference": "7:37",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 1979,
@@ -13877,8 +13877,8 @@
     "id": 1983,
     "book": "John",
     "reference": "8:28",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 1984,
@@ -13933,15 +13933,15 @@
     "id": 1991,
     "book": "John",
     "reference": "8:48",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 1992,
     "book": "John",
     "reference": "8:48",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 1993,
@@ -13954,8 +13954,8 @@
     "id": 1994,
     "book": "John",
     "reference": "8:49",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 1995,
@@ -14003,15 +14003,15 @@
     "id": 2001,
     "book": "John",
     "reference": "9:16",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 2002,
     "book": "John",
     "reference": "9:16",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2003,
@@ -14024,8 +14024,8 @@
     "id": 2004,
     "book": "John",
     "reference": "9:16",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2005,
@@ -14045,8 +14045,8 @@
     "id": 2007,
     "book": "John",
     "reference": "10:18",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 2008,
@@ -14066,8 +14066,8 @@
     "id": 2010,
     "book": "John",
     "reference": "10:33",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2011,
@@ -14080,8 +14080,8 @@
     "id": 2012,
     "book": "John",
     "reference": "10:40-42",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 2013,
@@ -14136,8 +14136,8 @@
     "id": 2020,
     "book": "John",
     "reference": "11:34",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2021,
@@ -14178,8 +14178,8 @@
     "id": 2026,
     "book": "John",
     "reference": "11:48",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2027,
@@ -14206,43 +14206,43 @@
     "id": 2030,
     "book": "John",
     "reference": "12:24",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2031,
     "book": "John",
     "reference": "12:24",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2032,
     "book": "John",
     "reference": "12:28-29",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2033,
     "book": "John",
     "reference": "12:47",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2034,
     "book": "John",
     "reference": "13:1",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2035,
     "book": "John",
     "reference": "13:2",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2036,
@@ -14262,36 +14262,36 @@
     "id": 2038,
     "book": "John",
     "reference": "13:15",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2039,
     "book": "John",
     "reference": "13:22",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2040,
     "book": "John",
     "reference": "13:26",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2041,
     "book": "John",
     "reference": "13:27",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2042,
     "book": "John",
     "reference": "13:27",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2043,
@@ -14304,8 +14304,8 @@
     "id": 2044,
     "book": "John",
     "reference": "13:37",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2045,
@@ -14325,8 +14325,8 @@
     "id": 2047,
     "book": "John",
     "reference": "14:15",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2048,
@@ -14353,8 +14353,8 @@
     "id": 2051,
     "book": "John",
     "reference": "15:13",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 2052,
@@ -14430,113 +14430,113 @@
     "id": 2062,
     "book": "John",
     "reference": "18:4",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 2063,
     "book": "John",
     "reference": "18:10",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2064,
     "book": "John",
     "reference": "18:11",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2065,
     "book": "John",
     "reference": "18:15",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2066,
     "book": "John",
     "reference": "18:15",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2067,
     "book": "John",
     "reference": "18:23",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2068,
     "book": "John",
     "reference": "18:28",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2069,
     "book": "John",
     "reference": "18:28",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2070,
     "book": "John",
     "reference": "18:30",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2071,
     "book": "John",
     "reference": "18:31",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2072,
     "book": "John",
     "reference": "18:31",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2073,
     "book": "John",
     "reference": "18:36",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2074,
     "book": "John",
     "reference": "19:11",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2075,
     "book": "John",
     "reference": "19:21",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2076,
     "book": "John",
     "reference": "19:21",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 2077,
     "book": "John",
     "reference": "19:22",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 2078,
@@ -14549,22 +14549,22 @@
     "id": 2079,
     "book": "John",
     "reference": "19:30",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 2080,
     "book": "John",
     "reference": "19:34",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 2081,
     "book": "John",
     "reference": "20:6",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2082,
@@ -14584,8 +14584,8 @@
     "id": 2084,
     "book": "John",
     "reference": "21:15-17",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2085,
@@ -14598,50 +14598,50 @@
     "id": 2086,
     "book": "John",
     "reference": "21:16",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2087,
     "book": "John",
     "reference": "21:16-17",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2088,
     "book": "John",
     "reference": "21:21",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2089,
     "book": "Acts",
     "reference": "1:7",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2090,
     "book": "Acts",
     "reference": "1:7",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2091,
     "book": "Acts",
     "reference": "1:8",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2092,
     "book": "Acts",
     "reference": "1:9",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2093,
@@ -14682,8 +14682,8 @@
     "id": 2098,
     "book": "Acts",
     "reference": "2:29",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2099,
@@ -14724,8 +14724,8 @@
     "id": 2104,
     "book": "Acts",
     "reference": "3:6",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 2105,
@@ -14738,8 +14738,8 @@
     "id": 2106,
     "book": "Acts",
     "reference": "3:12",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2107,
@@ -14794,8 +14794,8 @@
     "id": 2114,
     "book": "Acts",
     "reference": "4:13",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2115,
@@ -14871,8 +14871,8 @@
     "id": 2125,
     "book": "Acts",
     "reference": "5:36-37",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2126,
@@ -14906,8 +14906,8 @@
     "id": 2130,
     "book": "Acts",
     "reference": "7:59",
-    "homily": 80,
-    "section": "Homily LXXX"
+    "homily": 84,
+    "section": "Homily LXXXIV"
   },
   {
     "id": 2131,
@@ -14927,15 +14927,15 @@
     "id": 2133,
     "book": "Acts",
     "reference": "9:4",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 2134,
     "book": "Acts",
     "reference": "9:20",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2135,
@@ -14948,8 +14948,8 @@
     "id": 2136,
     "book": "Acts",
     "reference": "9:40",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2137,
@@ -14962,8 +14962,8 @@
     "id": 2138,
     "book": "Acts",
     "reference": "10:4",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2139,
@@ -14983,8 +14983,8 @@
     "id": 2141,
     "book": "Acts",
     "reference": "10:15",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2142,
@@ -15046,8 +15046,8 @@
     "id": 2150,
     "book": "Acts",
     "reference": "13:46",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2151,
@@ -15074,8 +15074,8 @@
     "id": 2154,
     "book": "Acts",
     "reference": "16:15",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 2155,
@@ -15095,8 +15095,8 @@
     "id": 2157,
     "book": "Acts",
     "reference": "17:7",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2158,
@@ -15123,8 +15123,8 @@
     "id": 2161,
     "book": "Acts",
     "reference": "18:2",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2162,
@@ -15144,8 +15144,8 @@
     "id": 2164,
     "book": "Acts",
     "reference": "20:30",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2165,
@@ -15172,8 +15172,8 @@
     "id": 2168,
     "book": "Acts",
     "reference": "21",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2169,
@@ -15200,8 +15200,8 @@
     "id": 2172,
     "book": "Acts",
     "reference": "21:20",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2173,
@@ -15214,8 +15214,8 @@
     "id": 2174,
     "book": "Acts",
     "reference": "23:6",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2175,
@@ -15228,15 +15228,15 @@
     "id": 2176,
     "book": "Acts",
     "reference": "23:8",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2177,
     "book": "Acts",
     "reference": "26:5",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2178,
@@ -15249,8 +15249,8 @@
     "id": 2179,
     "book": "Romans",
     "reference": "1:25",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2180,
@@ -15263,8 +15263,8 @@
     "id": 2181,
     "book": "Romans",
     "reference": "2:5",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2182,
@@ -15291,29 +15291,29 @@
     "id": 2185,
     "book": "Romans",
     "reference": "2:12",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2186,
     "book": "Romans",
     "reference": "2:12",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2187,
     "book": "Romans",
     "reference": "2:13",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 2188,
     "book": "Romans",
     "reference": "2:13",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 2189,
@@ -15368,8 +15368,8 @@
     "id": 2196,
     "book": "Romans",
     "reference": "5:4",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2197,
@@ -15410,8 +15410,8 @@
     "id": 2202,
     "book": "Romans",
     "reference": "6:19",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 2203,
@@ -15494,8 +15494,8 @@
     "id": 2214,
     "book": "Romans",
     "reference": "8:32",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2215,
@@ -15550,8 +15550,8 @@
     "id": 2222,
     "book": "Romans",
     "reference": "9:20",
-    "homily": 77,
-    "section": "Homily LXXVII"
+    "homily": 81,
+    "section": "Homily LXXXI"
   },
   {
     "id": 2223,
@@ -15634,8 +15634,8 @@
     "id": 2234,
     "book": "Romans",
     "reference": "10:18",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2235,
@@ -15662,8 +15662,8 @@
     "id": 2238,
     "book": "Romans",
     "reference": "11:25-26",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 2239,
@@ -15676,15 +15676,15 @@
     "id": 2240,
     "book": "Romans",
     "reference": "11:29",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 2241,
     "book": "Romans",
     "reference": "11:33",
-    "homily": 58,
-    "section": "Homily LVIII"
+    "homily": 61,
+    "section": "Homily LXI"
   },
   {
     "id": 2242,
@@ -15711,8 +15711,8 @@
     "id": 2245,
     "book": "Romans",
     "reference": "13:7",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2246,
@@ -15732,8 +15732,8 @@
     "id": 2248,
     "book": "Romans",
     "reference": "14:9",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2249,
@@ -15746,15 +15746,15 @@
     "id": 2250,
     "book": "Romans",
     "reference": "15:2-3",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2251,
     "book": "Romans",
     "reference": "15:9",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2252,
@@ -15788,8 +15788,8 @@
     "id": 2256,
     "book": "1 Corinthians",
     "reference": "1:9",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2257,
@@ -15809,8 +15809,8 @@
     "id": 2259,
     "book": "1 Corinthians",
     "reference": "2:10",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2260,
@@ -15851,8 +15851,8 @@
     "id": 2265,
     "book": "1 Corinthians",
     "reference": "3:5",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 2266,
@@ -15907,8 +15907,8 @@
     "id": 2273,
     "book": "1 Corinthians",
     "reference": "4:11",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 2274,
@@ -15949,8 +15949,8 @@
     "id": 2279,
     "book": "1 Corinthians",
     "reference": "5:12",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 2280,
@@ -15963,8 +15963,8 @@
     "id": 2281,
     "book": "1 Corinthians",
     "reference": "6:3",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2282,
@@ -16019,22 +16019,22 @@
     "id": 2289,
     "book": "1 Corinthians",
     "reference": "7:5",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2290,
     "book": "1 Corinthians",
     "reference": "7:10",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2291,
     "book": "1 Corinthians",
     "reference": "7:15",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2292,
@@ -16047,8 +16047,8 @@
     "id": 2293,
     "book": "1 Corinthians",
     "reference": "7:25",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2294,
@@ -16075,8 +16075,8 @@
     "id": 2297,
     "book": "1 Corinthians",
     "reference": "7:30-31",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2298,
@@ -16089,15 +16089,15 @@
     "id": 2299,
     "book": "1 Corinthians",
     "reference": "7:31",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2300,
     "book": "1 Corinthians",
     "reference": "7:31",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2301,
@@ -16117,8 +16117,8 @@
     "id": 2303,
     "book": "1 Corinthians",
     "reference": "7:34-35",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2304,
@@ -16152,8 +16152,8 @@
     "id": 2308,
     "book": "1 Corinthians",
     "reference": "9:26",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 2309,
@@ -16166,8 +16166,8 @@
     "id": 2310,
     "book": "1 Corinthians",
     "reference": "10:3-5",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2311,
@@ -16180,8 +16180,8 @@
     "id": 2312,
     "book": "1 Corinthians",
     "reference": "10:10",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2313,
@@ -16194,15 +16194,15 @@
     "id": 2314,
     "book": "1 Corinthians",
     "reference": "10:12",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 2315,
     "book": "1 Corinthians",
     "reference": "10:24",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2316,
@@ -16236,8 +16236,8 @@
     "id": 2320,
     "book": "1 Corinthians",
     "reference": "11:26",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2321,
@@ -16271,15 +16271,15 @@
     "id": 2325,
     "book": "1 Corinthians",
     "reference": "11:31-32",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2326,
     "book": "1 Corinthians",
     "reference": "12:26",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2327,
@@ -16299,22 +16299,22 @@
     "id": 2329,
     "book": "1 Corinthians",
     "reference": "13:3",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2330,
     "book": "1 Corinthians",
     "reference": "13:4",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2331,
     "book": "1 Corinthians",
     "reference": "13:8",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 2332,
@@ -16341,15 +16341,15 @@
     "id": 2335,
     "book": "1 Corinthians",
     "reference": "14:20",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 2336,
     "book": "1 Corinthians",
     "reference": "14:20",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2337,
@@ -16369,8 +16369,8 @@
     "id": 2339,
     "book": "1 Corinthians",
     "reference": "15:9",
-    "homily": 69,
-    "section": "Homily LXIX"
+    "homily": 72,
+    "section": "Homily LXXII"
   },
   {
     "id": 2340,
@@ -16404,22 +16404,22 @@
     "id": 2344,
     "book": "1 Corinthians",
     "reference": "15:36",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2345,
     "book": "1 Corinthians",
     "reference": "15:41",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2346,
     "book": "1 Corinthians",
     "reference": "15:52",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2347,
@@ -16460,22 +16460,22 @@
     "id": 2352,
     "book": "2 Corinthians",
     "reference": "2:4",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2353,
     "book": "2 Corinthians",
     "reference": "2:7",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2354,
     "book": "2 Corinthians",
     "reference": "2:10-11",
-    "homily": 82,
-    "section": "Homily LXXXII"
+    "homily": 86,
+    "section": "Homily LXXXVI"
   },
   {
     "id": 2355,
@@ -16488,8 +16488,8 @@
     "id": 2356,
     "book": "2 Corinthians",
     "reference": "4:16",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2357,
@@ -16523,8 +16523,8 @@
     "id": 2361,
     "book": "2 Corinthians",
     "reference": "5:20",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2362,
@@ -16544,15 +16544,15 @@
     "id": 2364,
     "book": "2 Corinthians",
     "reference": "7:5",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2365,
     "book": "2 Corinthians",
     "reference": "7:5",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2366,
@@ -16565,8 +16565,8 @@
     "id": 2367,
     "book": "2 Corinthians",
     "reference": "8:1-3",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2368,
@@ -16593,15 +16593,15 @@
     "id": 2371,
     "book": "2 Corinthians",
     "reference": "9:6",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 2372,
     "book": "2 Corinthians",
     "reference": "9:8",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2373,
@@ -16621,8 +16621,8 @@
     "id": 2375,
     "book": "2 Corinthians",
     "reference": "11:2",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2376,
@@ -16635,43 +16635,43 @@
     "id": 2377,
     "book": "2 Corinthians",
     "reference": "11:13",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2378,
     "book": "2 Corinthians",
     "reference": "11:26",
-    "homily": 56,
-    "section": "Homily LVI"
+    "homily": 59,
+    "section": "Homily LIX"
   },
   {
     "id": 2379,
     "book": "2 Corinthians",
     "reference": "11:26",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2380,
     "book": "2 Corinthians",
     "reference": "11:27",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 2381,
     "book": "2 Corinthians",
     "reference": "11:29",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2382,
     "book": "2 Corinthians",
     "reference": "11:29",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2383,
@@ -16698,8 +16698,8 @@
     "id": 2386,
     "book": "2 Corinthians",
     "reference": "12:9",
-    "homily": 57,
-    "section": "Homily LVII"
+    "homily": 60,
+    "section": "Homily LX"
   },
   {
     "id": 2387,
@@ -16719,8 +16719,8 @@
     "id": 2389,
     "book": "2 Corinthians",
     "reference": "12:15",
-    "homily": 63,
-    "section": "Homily LXIII"
+    "homily": 66,
+    "section": "Homily LXVI"
   },
   {
     "id": 2390,
@@ -16733,8 +16733,8 @@
     "id": 2391,
     "book": "Galatians",
     "reference": "1:4-5",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2392,
@@ -16747,43 +16747,43 @@
     "id": 2393,
     "book": "Galatians",
     "reference": "1:15",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2394,
     "book": "Galatians",
     "reference": "1:19",
-    "homily": 84,
-    "section": "Homily LXXXIV"
+    "homily": 88,
+    "section": "Homily LXXXVIII"
   },
   {
     "id": 2395,
     "book": "Galatians",
     "reference": "2:2",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 2396,
     "book": "Galatians",
     "reference": "2:8",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2397,
     "book": "Galatians",
     "reference": "2:8",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2398,
     "book": "Galatians",
     "reference": "2:9",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2399,
@@ -16796,8 +16796,8 @@
     "id": 2400,
     "book": "Galatians",
     "reference": "3:28",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 2401,
@@ -16817,8 +16817,8 @@
     "id": 2403,
     "book": "Galatians",
     "reference": "4:51",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2404,
@@ -16831,22 +16831,22 @@
     "id": 2405,
     "book": "Galatians",
     "reference": "5:12",
-    "homily": 59,
-    "section": "Homily LIX"
+    "homily": 62,
+    "section": "Homily LXII"
   },
   {
     "id": 2406,
     "book": "Galatians",
     "reference": "5:22",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2407,
     "book": "Galatians",
     "reference": "5:24",
-    "homily": 67,
-    "section": "Homily LXVII"
+    "homily": 70,
+    "section": "Homily LXX"
   },
   {
     "id": 2408,
@@ -16866,8 +16866,8 @@
     "id": 2410,
     "book": "Galatians",
     "reference": "6:4",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2411,
@@ -16957,8 +16957,8 @@
     "id": 2423,
     "book": "Ephesians",
     "reference": "5:14",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 2424,
@@ -16971,8 +16971,8 @@
     "id": 2425,
     "book": "Ephesians",
     "reference": "5:32",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2426,
@@ -17034,8 +17034,8 @@
     "id": 2434,
     "book": "Philippians",
     "reference": "1:23-24",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2435,
@@ -17069,8 +17069,8 @@
     "id": 2439,
     "book": "Philippians",
     "reference": "2:30",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2440,
@@ -17111,50 +17111,50 @@
     "id": 2445,
     "book": "Philippians",
     "reference": "4:5-6",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2446,
     "book": "Philippians",
     "reference": "4:5-6",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2447,
     "book": "Philippians",
     "reference": "4:12",
-    "homily": 86,
-    "section": "Homily LXXXVI"
+    "homily": 90,
+    "section": "Homily XC"
   },
   {
     "id": 2448,
     "book": "Colossians",
     "reference": "1:6",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2449,
     "book": "Colossians",
     "reference": "1:23",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2450,
     "book": "Colossians",
     "reference": "1:23",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2451,
     "book": "Colossians",
     "reference": "1:23",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2452,
@@ -17174,8 +17174,8 @@
     "id": 2454,
     "book": "Colossians",
     "reference": "2:3",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2455,
@@ -17202,8 +17202,8 @@
     "id": 2458,
     "book": "Colossians",
     "reference": "3:17",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2459,
@@ -17230,29 +17230,29 @@
     "id": 2462,
     "book": "1 Thessalonians",
     "reference": "2:15",
-    "homily": 66,
-    "section": "Homily LXVI"
+    "homily": 69,
+    "section": "Homily LXIX"
   },
   {
     "id": 2463,
     "book": "1 Thessalonians",
     "reference": "2:19",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2464,
     "book": "1 Thessalonians",
     "reference": "3:8",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2465,
     "book": "1 Thessalonians",
     "reference": "4:3",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2466,
@@ -17279,15 +17279,15 @@
     "id": 2469,
     "book": "1 Thessalonians",
     "reference": "4:16",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 2470,
     "book": "1 Thessalonians",
     "reference": "4:16",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2471,
@@ -17300,15 +17300,15 @@
     "id": 2472,
     "book": "1 Thessalonians",
     "reference": "5:3",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2473,
     "book": "2 Thessalonians",
     "reference": "2:9-10",
-    "homily": 73,
-    "section": "Homily LXXIII"
+    "homily": 76,
+    "section": "Homily LXXVI"
   },
   {
     "id": 2474,
@@ -17412,8 +17412,8 @@
     "id": 2488,
     "book": "1 Timothy",
     "reference": "2:9",
-    "homily": 85,
-    "section": "Homily LXXXV"
+    "homily": 89,
+    "section": "Homily LXXXIX"
   },
   {
     "id": 2489,
@@ -17426,8 +17426,8 @@
     "id": 2490,
     "book": "1 Timothy",
     "reference": "3:6",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2491,
@@ -17454,8 +17454,8 @@
     "id": 2494,
     "book": "1 Timothy",
     "reference": "5:6",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2495,
@@ -17468,22 +17468,22 @@
     "id": 2496,
     "book": "1 Timothy",
     "reference": "5:23",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2497,
     "book": "1 Timothy",
     "reference": "6:6",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2498,
     "book": "1 Timothy",
     "reference": "6:9",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2499,
@@ -17496,29 +17496,29 @@
     "id": 2500,
     "book": "1 Timothy",
     "reference": "6:10",
-    "homily": 68,
-    "section": "Homily LXVIII"
+    "homily": 71,
+    "section": "Homily LXXI"
   },
   {
     "id": 2501,
     "book": "1 Timothy",
     "reference": "6:10",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 2502,
     "book": "1 Timothy",
     "reference": "6:10",
-    "homily": 60,
-    "section": "Homily LX"
+    "homily": 63,
+    "section": "Homily LXIII"
   },
   {
     "id": 2503,
     "book": "1 Timothy",
     "reference": "6:10",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2504,
@@ -17531,8 +17531,8 @@
     "id": 2505,
     "book": "2 Timothy",
     "reference": "2:12",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2506,
@@ -17559,8 +17559,8 @@
     "id": 2509,
     "book": "2 Timothy",
     "reference": "4:8",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2510,
@@ -17608,15 +17608,15 @@
     "id": 2516,
     "book": "Titus",
     "reference": "2:11-12",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2517,
     "book": "Titus",
     "reference": "2:13",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2518,
@@ -17629,15 +17629,15 @@
     "id": 2519,
     "book": "Hebrews",
     "reference": "1:7-8",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2520,
     "book": "Hebrews",
     "reference": "1:13",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2521,
@@ -17657,8 +17657,8 @@
     "id": 2523,
     "book": "Hebrews",
     "reference": "4:13",
-    "homily": 54,
-    "section": "Homily LIV"
+    "homily": 56,
+    "section": "Homily LVI"
   },
   {
     "id": 2524,
@@ -17692,15 +17692,15 @@
     "id": 2528,
     "book": "Hebrews",
     "reference": "10:28-29",
-    "homily": 72,
-    "section": "Homily LXXII"
+    "homily": 75,
+    "section": "Homily LXXV"
   },
   {
     "id": 2529,
     "book": "Hebrews",
     "reference": "10:29",
-    "homily": 78,
-    "section": "Homily LXXVIII"
+    "homily": 82,
+    "section": "Homily LXXXII"
   },
   {
     "id": 2530,
@@ -17720,15 +17720,15 @@
     "id": 2532,
     "book": "Hebrews",
     "reference": "10:37",
-    "homily": 71,
-    "section": "Homily LXXI"
+    "homily": 74,
+    "section": "Homily LXXIV"
   },
   {
     "id": 2533,
     "book": "Hebrews",
     "reference": "10:37",
-    "homily": 74,
-    "section": "Homily LXXIV"
+    "homily": 77,
+    "section": "Homily LXXVII"
   },
   {
     "id": 2534,
@@ -17755,8 +17755,8 @@
     "id": 2537,
     "book": "Hebrews",
     "reference": "12:2",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 2538,
@@ -17769,8 +17769,8 @@
     "id": 2539,
     "book": "Hebrews",
     "reference": "12:12",
-    "homily": 64,
-    "section": "Homily LXIV"
+    "homily": 67,
+    "section": "Homily LXVII"
   },
   {
     "id": 2540,
@@ -17783,8 +17783,8 @@
     "id": 2541,
     "book": "Hebrews",
     "reference": "12:14",
-    "homily": 61,
-    "section": "Homily LXI"
+    "homily": 64,
+    "section": "Homily LXIV"
   },
   {
     "id": 2542,
@@ -17797,15 +17797,15 @@
     "id": 2543,
     "book": "Hebrews",
     "reference": "13:13",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 2544,
     "book": "James",
     "reference": "4:6",
-    "homily": 62,
-    "section": "Homily LXII"
+    "homily": 65,
+    "section": "Homily LXV"
   },
   {
     "id": 2545,
@@ -17832,8 +17832,8 @@
     "id": 2548,
     "book": "James",
     "reference": "5:15",
-    "homily": 55,
-    "section": "Homily LV"
+    "homily": 57,
+    "section": "Homily LVII"
   },
   {
     "id": 2549,
@@ -17853,8 +17853,8 @@
     "id": 2551,
     "book": "1 Peter",
     "reference": "5:13",
-    "homily": 81,
-    "section": "Homily LXXXI"
+    "homily": 85,
+    "section": "Homily LXXXV"
   },
   {
     "id": 2552,
@@ -17923,8 +17923,8 @@
     "id": 2561,
     "book": "Sirach",
     "reference": "1:22",
-    "homily": 83,
-    "section": "Homily LXXXIII"
+    "homily": 87,
+    "section": "Homily LXXXVII"
   },
   {
     "id": 2562,
@@ -17944,8 +17944,8 @@
     "id": 2564,
     "book": "Sirach",
     "reference": "5:7",
-    "homily": 65,
-    "section": "Homily LXV"
+    "homily": 68,
+    "section": "Homily LXVIII"
   },
   {
     "id": 2565,
@@ -17965,8 +17965,8 @@
     "id": 2567,
     "book": "Sirach",
     "reference": "10:9",
-    "homily": 76,
-    "section": "Homily LXXVI"
+    "homily": 80,
+    "section": "Homily LXXX"
   },
   {
     "id": 2568,
@@ -17979,8 +17979,8 @@
     "id": 2569,
     "book": "Sirach",
     "reference": "18:3",
-    "homily": 75,
-    "section": "Homily LXXV"
+    "homily": 78,
+    "section": "Homily LXXVIII"
   },
   {
     "id": 2570,
@@ -18000,29 +18000,29 @@
     "id": 2572,
     "book": "Sirach",
     "reference": "18:30",
-    "homily": 70,
-    "section": "Homily LXX"
+    "homily": 73,
+    "section": "Homily LXXIII"
   },
   {
     "id": 2573,
     "book": "Sirach",
     "reference": "20:4",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 2574,
     "book": "Sirach",
     "reference": "30:7",
-    "homily": 53,
-    "section": "Homily LIII"
+    "homily": 55,
+    "section": "Homily LV"
   },
   {
     "id": 2575,
     "book": "Sirach",
     "reference": "30:20",
-    "homily": 79,
-    "section": "Homily LXXIX"
+    "homily": 83,
+    "section": "Homily LXXXIII"
   },
   {
     "id": 2576,

@@ -2,59 +2,71 @@
   "id": 84,
   "roman": "LXXXIV",
   "title": "Homily LXXXIV",
-  "subtitle": "Matthew 27:45",
+  "subtitle": "Matthew 26:51-54",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
   "scripture_reference": {
     "book": "matthew",
     "start": {
-      "chapter": 27,
-      "verse": 45
+      "chapter": 26,
+      "verse": 51
     },
     "end": {
-      "chapter": 27,
-      "verse": 45
+      "chapter": 26,
+      "verse": 54
     },
-    "display": "Matthew 27:45"
+    "display": "Matthew 26:51-54"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3915,
-  "excerpt": "Homily LXXXVIII....",
+  "word_count": 3657,
+  "excerpt": "“And, behold, one of them which were with Jesus stretched forth his hand, and drew his sword, and struck a servant of the high priest’s, and smote off his…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "[In verse 46, ἔκραξευ is substituted for ἀνεβησεν, and κα επεν for λγων; as indicated above, λιμ is the form given. In other respects the agreement with the received text is exact.—R.]",
-    "2": "Matt. xii. 39.",
-    "3": "John viii. 28.",
-    "4": "Or, “His.”",
-    "5": "Matt. xxvii. 46.",
-    "6": "Ps. xxii. 1.",
-    "7": "Matt. xxvii. 48.",
-    "8": "John xix. 34. [This occurred later, as the next sentence seems to suggest. But in some New Testament mss., the incident is interpolated at this point in Matthew. Chrysostom may have referred to it as belonging to this Gospel. See Tischendorf in loco, Westcott and Hort, vol. ii., Notes on Select Readings.—R.]",
-    "9": "Matt. xxvii. 50. [The word “again” is omitted. R.V., “yielded up His Spirit.”—R.]",
-    "10": "John x. 18.",
-    "11": "Mark xv. 44.",
-    "12": "Mark xv. 39.",
-    "13": "John ii. 16.",
-    "14": "2 Kings xiii. 21",
-    "15": "[The words in italics have no equivalent in the Greek.—R.]",
-    "16": "Matt. xxvii. 42.",
-    "17": "Matt. xxvii. 40.",
-    "18": "Matt. xxvii. 42.",
-    "19": "Matt. xxvii. 52, 53. [Slightly abridged, and with a few minor variations, not appearing in one New Testament mss.—R.]",
-    "20": "Luke xxiii. 47, 48.",
-    "21": "Matt. xxvii. 55, 56. [There are three omissions: ἀπ before μακρθεν, τ Ιησο π τ Γαλιλαα, and ἐν α ν.—R.]",
-    "22": "In Homily V. 4, he maintains her perpetual virginity; “how then, you will say, are James and others called His brethren? In the same way as Joseph himself too was considered the Husband of Mary.” This is at least consistent with the explanation given in the spurious Homilies “on the Annunciation,” Ben. t. ii. p. 797. And “on the women bearing spices” t. ii. p. 159, Appendix, that she was the step-mother of James. Theodoret, on Gal. i. 19, rejects this view and makes them sons of Cleopas by her sister.",
-    "23": "Luke xxii. 48.",
-    "24": "Matt. xxvii. 57, 58. [R.V., “asked for.” The reading ᾔτει is peculiar here.—R.]",
-    "25": "Matt. xxvii. 61. [R.V., “And Mary Magdalene was there,” etc.]",
-    "26": "Acts ix. 4.",
-    "27": "Matt. xxv. 45. [Abridged.]",
-    "28": "τ παρ αυτν.",
-    "29": "σναξιν. [The word is usually applied to Christian assemblies, and in the edition of the Homilies it is sometimes rendered “communion.” But this passage confirms the wider application defended in the notes to Homily V., p. 31.—R.]"
+    "1": "[R.V., “Or thinkest.”]",
+    "2": "[R.V., “even now.”]",
+    "3": "[The citation is very accurate; the only variation is the omission of μου after πατρα.—R.]",
+    "4": "John xviii. 10.",
+    "5": "Luke xxii. 35–38. [On the renderings of verse 36, see R.V. The text of the Homily admits of either interpretation, but the comment favors the rendering given in the text of the R.V.—R.]",
+    "6": "John xviii. 11.",
+    "7": "Luke xxii. 49.",
+    "8": "Matt. xxvi. 53, 54.",
+    "9": "Matt. xxvi. 38, 39.",
+    "10": "2 Kings xix. 35.",
+    "11": "Matt. xxvi. 55. [R.V., “robber”…“ to seize me”…“ye took me not.”]",
+    "12": "Matt. xxvi. 56.",
+    "13": "Matt. xxvi. 57, 58. [Abridged and altered.]",
+    "14": "John xviii. 15.",
+    "15": "John xviii. 28. [Compare Homily LXXVI. 1, and the note there.—R.]",
+    "16": "συνδριον λοιμν; cf. Ps. i. 1.",
+    "17": "Mark xiv. 56, 59. [The passages are combined.—R.]",
+    "18": "Matt. xxvi. 60, 61. [The citation is very free, not agreeing with any one of the evangelists, according to our authorities; but it seems to combine terms from several passages.—R.]",
+    "19": "See John ii. 19–21.",
+    "20": "Matt. xxvi. 62, 63. [Freely cited; the beginning is from the language of Pilate; chap. xxvii. 13.—R.]",
+    "21": "Matt. xxvi. 63–65. [In verse 63, “the living God” occurs twice, peculiar to this Homily: in verse 64“of heaven” is omitted. In other details the citation agrees with the received text.—R.]",
+    "22": "Acts vii. 59.",
+    "23": "Matt. xxii. 43–46.",
+    "24": "Matt. xxvi. 66.",
+    "25": "John xviii. 30. [R.V., “an evil-doer.”]",
+    "26": "John xi. 48. [Freely paraphrased.]",
+    "27": "John xviii. 31.",
+    "28": "John xix. 21. [The citation is accurate; “it” is supplied by the translator to complete the sense.—R.]",
+    "29": "[The following clause is omitted in the translation: “Much better and stronger art thou than thine antagonist.”—R.]",
+    "30": "Gen. xxxix. 17."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 26,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 66
+    },
+    "display": "Matthew 26:51-66"
+  }
 }

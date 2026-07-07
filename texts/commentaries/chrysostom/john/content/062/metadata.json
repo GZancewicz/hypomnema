@@ -84,5 +84,16 @@
     "56": "al. “sanctuary.”",
     "57": "al. “place.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 11,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 40
+    },
+    "display": "John 11:30-40"
+  }
 }

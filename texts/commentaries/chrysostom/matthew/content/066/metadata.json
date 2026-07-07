@@ -2,54 +2,60 @@
   "id": 66,
   "roman": "LXVI",
   "title": "Homily LXVI",
-  "subtitle": "Matthew 22:1",
+  "subtitle": "Matthew 20:29-30",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
   "scripture_reference": {
     "book": "matthew",
     "start": {
-      "chapter": 22,
-      "verse": 1
+      "chapter": 20,
+      "verse": 29
     },
     "end": {
-      "chapter": 22,
-      "verse": 1
+      "chapter": 20,
+      "verse": 30
     },
-    "display": "Matthew 22:1"
+    "display": "Matthew 20:29-30"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 4613,
-  "excerpt": "Homily LXIX....",
+  "word_count": 4454,
+  "excerpt": "“And as they departed from Jericho, great multitudes followed Him. And, behold, two blind men sitting by the wayside, when they heard that Jesus passed by,…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "[The order here is slightly varied, and “unto them” is omitted. With these exceptions the entire passage is in verbal agreement with the received text.—R.]",
-    "2": "[R.V., “marriage feast.”]",
-    "3": "[Verses 7–14 do not appear in the Greek text of Migne’s edition, but are added in the Oxford translation, and in Field’s Greek text.—R.]",
-    "4": "2 Cor. xi. 2.",
-    "5": "Eph. v. 32.",
-    "6": "ἀπαρλλακτον .",
-    "7": "John iii. 30.",
-    "8": "Matt. xi. 28. [“Refresh” is the rendering of the Greek term answering to “give rest” in the English versions.—R.]",
-    "9": "John vii. 37.",
-    "10": "Gal. ii. 8. [R.V., “wrought for” twice; the Greek verb is the same in both clauses.—R.]",
-    "11": "πση πανδαισα.",
-    "12": "1 Thess. ii. 15. [R.V., “and drove out us.”]",
-    "13": "Matt. xxviii. 19.",
-    "14": "Matt. x. 6.",
-    "15": "Acts i. 8.",
-    "16": "Gal. ii. 8. [Comp. note 7, p. 421.]",
-    "17": "Acts xiii. 46. [Slightly abridged.]",
-    "18": "Or, “repeatedly.”",
-    "19": "Rom. xv. 9.",
-    "20": "Matt. xxii. 13.",
-    "21": "[The clause in italics is not found in the mss. collated by Field, but occurs in the Benedictine edition.—R.]",
-    "22": "φρη κροκωτ.",
-    "23": "ἰσονομ.",
-    "24": "Matt. xi. 12."
+    "1": "John iv. 1, and x. 40–42.",
+    "2": "παησαν βου. Claim of access on account of good life.",
+    "3": "Matt. xx. 32, 33.",
+    "4": "The words, “and to show them to be much greater than they are,” are rejected by Montfaucon on the authority of two mss., but defended by Mr. Field. [They are found in all the mss. collated by the latter editor, with one exception.—R.] It seems to be true that our Lord sometimes encouraged faith, and brought out good example, by putting on an action a higher meaning and intention than was at all fully formed in the mind of the doer.",
+    "5": "Matt. xxi. 1–5. [The textual variations are reproduced in the above rendering. The most interesting variation is ἀποστλλει (“he sendeth”), the reading attested in Mark xi. 3. It implies in the latter passage the promise to send back the colt to the owners.—R.]",
+    "6": "Zech. ix. 9.",
+    "7": "Or, “emulating us,” παραζηλοντε .",
+    "8": "[R.V., a hardening.]",
+    "9": "Rom. xi. 25, 26.",
+    "10": "2 Cor. xii. 15.",
+    "11": "Matt. xxi. 10, 11. [The Greek text agrees with that of the received.—R.]",
+    "12": "σεσυρμνη.",
+    "13": "2 Cor. ix. 6.",
+    "14": "[“who are more numerous.”…“and who are they that are neither,” etc.—R.]",
+    "15": "[“who are more numerous.”…“and who are they that are neither,” etc.—R.]",
+    "16": "συλλογισμν .",
+    "17": "ἀγχομνοι.",
+    "18": "[The translation has been altered here to conform to the use of “here” and “there” in the original.—R.]",
+    "19": "Prov. xix. 17."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 20,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 11
+    },
+    "display": "Matthew 20:29-21:11"
+  }
 }

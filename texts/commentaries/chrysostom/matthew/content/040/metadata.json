@@ -2,7 +2,7 @@
   "id": 40,
   "roman": "XL",
   "title": "Homily XL",
-  "subtitle": "Matthew 12:9",
+  "subtitle": "Matthew 12:9-10",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 12,
-      "verse": 9
+      "verse": 10
     },
-    "display": "Matthew 12:9"
+    "display": "Matthew 12:9-10"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4128,
-  "excerpt": "Homily XL....",
+  "excerpt": "“And when He was departed thence, He went into their synagogue: and, behold, a man which had his hand…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -66,5 +66,16 @@
     "38": "Matt. v. 4.",
     "39": "Luke vi. 25."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 24
+    },
+    "display": "Matthew 12:9-24"
+  }
 }

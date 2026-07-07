@@ -2,7 +2,7 @@
   "id": 90,
   "roman": "XC",
   "title": "Homily XC",
-  "subtitle": "Matthew 28:11",
+  "subtitle": "Matthew 28:11-14",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,16 +14,16 @@
     },
     "end": {
       "chapter": 28,
-      "verse": 11
+      "verse": 14
     },
-    "display": "Matthew 28:11"
+    "display": "Matthew 28:11-14"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3491,
-  "excerpt": "Homily XC....",
+  "excerpt": "For the sake of these soldiers that earthquake took place, in order to dismay them, and that the testimony might come from them, which accordingly was the…",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "thml_p_span",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
     "1": "[R.V., “come to pass.”]",
@@ -44,5 +44,16 @@
     "16": "Matt. xix. 27.",
     "17": "Matt. xix. 29. [Abridged.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 28,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 20
+    },
+    "display": "Matthew 28:11-20"
+  }
 }

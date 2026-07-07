@@ -54,5 +54,16 @@
     "26": "Ben. “you.”",
     "27": "al. “goes forward.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 42
+    },
+    "display": "John 10:22-42"
+  }
 }

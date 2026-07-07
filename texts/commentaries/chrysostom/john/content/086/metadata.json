@@ -66,5 +66,16 @@
     "38": "lit. “forward.”",
     "39": "al. “the better things.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 20,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 14
+    },
+    "display": "John 20:24-21:14"
+  }
 }

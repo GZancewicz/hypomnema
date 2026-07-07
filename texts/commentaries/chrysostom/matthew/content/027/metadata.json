@@ -2,7 +2,7 @@
   "id": 27,
   "roman": "XXVII",
   "title": "Homily XXVII",
-  "subtitle": "Matthew 8:14",
+  "subtitle": "Matthew 8:14-15",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 8,
-      "verse": 14
+      "verse": 15
     },
-    "display": "Matthew 8:14"
+    "display": "Matthew 8:14-15"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3972,
-  "excerpt": "Matt. VIII. 14....",
+  "excerpt": "But Mark adds also, “immediately,”meaning to declare the time as well; but this evangelist hath set down only the miracle, without signifying besides the time.…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -63,5 +63,16 @@
     "35": "εδωλον. The classical use of this word is well known: see e.g. Odyss. xi. 602. “A shadow or phantom: not a true substantial soul.”",
     "36": "Alluding to John xii. 2."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 8,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 22
+    },
+    "display": "Matthew 8:14-22"
+  }
 }

@@ -58,5 +58,16 @@
     "30": "al. “vengeance.”",
     "31": "lit. “throttle.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 71
+    },
+    "display": "John 6:53-71"
+  }
 }

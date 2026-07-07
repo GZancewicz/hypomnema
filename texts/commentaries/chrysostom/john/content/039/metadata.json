@@ -66,5 +66,16 @@
     "38": "al. “shall.”",
     "39": "al. “almsgiving and a clear conscience.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "display": "John 5:31-38"
+  }
 }

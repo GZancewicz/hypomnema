@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4403,
-  "excerpt": "Matt. X. 23....",
+  "excerpt": "“But when they persecute you in this city, flee ye into the other; for verily I say unto you, ye shall not have gone over the cities of Israel, till the Son of…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -51,5 +51,16 @@
     "23": "διπλασι, “the moulding of it by the informing soul.”",
     "24": "Ps. xlv. 12, LXX."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 10,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "display": "Matthew 10:23-33"
+  }
 }

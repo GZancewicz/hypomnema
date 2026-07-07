@@ -54,5 +54,16 @@
     "26": "Ben. omits “all things so near their end.”",
     "27": "ἐ ρευγομένων"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 15,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "display": "John 15:11-16:4"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4645,
-  "excerpt": "Matt. I. 1....",
+  "excerpt": "“The book of the generation of Jesus Christ, the Son of David, the Son of…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -71,5 +71,16 @@
     "43": "Acts. xiii. 22; 1 Sam. xiii. 14.",
     "44": "Matt. xi. 29."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 6
+    },
+    "display": "Matthew 1:1-6"
+  }
 }

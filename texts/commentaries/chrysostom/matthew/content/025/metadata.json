@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3663,
-  "excerpt": "Matt. VII. 28....",
+  "excerpt": "Yet was it rather natural for them to grieve at the unpleasantness of His sayings, and to shudder at the loftiness of His injunctions; but now so great was the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -53,5 +53,16 @@
     "25": "Ps. ii. 7.",
     "26": "Isa. xiv. 13, τν στρων το ορανοἐλαχιστοτρον, here ἐσχτον."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 4
+    },
+    "display": "Matthew 7:28-8:4"
+  }
 }

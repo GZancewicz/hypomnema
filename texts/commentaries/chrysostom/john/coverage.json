@@ -38,7 +38,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 1
+        "verse": 2
       }
     },
     {
@@ -51,7 +51,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 3
+        "verse": 5
       }
     },
     {
@@ -64,7 +64,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 6
+        "verse": 8
       }
     },
     {
@@ -90,7 +90,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 9
+        "verse": 10
       }
     },
     {
@@ -116,7 +116,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 11
+        "verse": 13
       }
     },
     {
@@ -168,7 +168,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 16
+        "verse": 17
       }
     },
     {
@@ -194,7 +194,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 19
+        "verse": 27
       }
     },
     {
@@ -207,7 +207,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 29
+        "verse": 34
       }
     },
     {
@@ -220,7 +220,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 37
+        "verse": 40
       }
     },
     {
@@ -246,7 +246,7 @@
       },
       "end": {
         "chapter": 1,
-        "verse": 44
+        "verse": 48
       }
     },
     {
@@ -258,8 +258,8 @@
         "verse": 49
       },
       "end": {
-        "chapter": 1,
-        "verse": 50
+        "chapter": 2,
+        "verse": 4
       }
     },
     {
@@ -272,7 +272,7 @@
       },
       "end": {
         "chapter": 2,
-        "verse": 4
+        "verse": 10
       }
     },
     {
@@ -285,7 +285,7 @@
       },
       "end": {
         "chapter": 2,
-        "verse": 11
+        "verse": 22
       }
     },
     {
@@ -297,8 +297,8 @@
         "verse": 23
       },
       "end": {
-        "chapter": 2,
-        "verse": 23
+        "chapter": 3,
+        "verse": 4
       }
     },
     {
@@ -324,7 +324,7 @@
       },
       "end": {
         "chapter": 3,
-        "verse": 6
+        "verse": 11
       }
     },
     {
@@ -337,7 +337,7 @@
       },
       "end": {
         "chapter": 3,
-        "verse": 13
+        "verse": 16
       }
     },
     {
@@ -350,7 +350,7 @@
       },
       "end": {
         "chapter": 3,
-        "verse": 17
+        "verse": 20
       }
     },
     {
@@ -363,7 +363,7 @@
       },
       "end": {
         "chapter": 3,
-        "verse": 22
+        "verse": 30
       }
     },
     {
@@ -376,7 +376,7 @@
       },
       "end": {
         "chapter": 3,
-        "verse": 31
+        "verse": 34
       }
     },
     {
@@ -388,8 +388,8 @@
         "verse": 35
       },
       "end": {
-        "chapter": 3,
-        "verse": 36
+        "chapter": 4,
+        "verse": 12
       }
     },
     {
@@ -402,7 +402,7 @@
       },
       "end": {
         "chapter": 4,
-        "verse": 14
+        "verse": 20
       }
     },
     {
@@ -415,7 +415,7 @@
       },
       "end": {
         "chapter": 4,
-        "verse": 22
+        "verse": 27
       }
     },
     {
@@ -428,7 +428,7 @@
       },
       "end": {
         "chapter": 4,
-        "verse": 29
+        "verse": 39
       }
     },
     {
@@ -441,7 +441,7 @@
       },
       "end": {
         "chapter": 4,
-        "verse": 43
+        "verse": 53
       }
     },
     {
@@ -453,8 +453,8 @@
         "verse": 54
       },
       "end": {
-        "chapter": 4,
-        "verse": 54
+        "chapter": 5,
+        "verse": 7
       }
     },
     {
@@ -467,7 +467,7 @@
       },
       "end": {
         "chapter": 5,
-        "verse": 7
+        "verse": 13
       }
     },
     {
@@ -480,7 +480,7 @@
       },
       "end": {
         "chapter": 5,
-        "verse": 14
+        "verse": 21
       }
     },
     {
@@ -493,7 +493,7 @@
       },
       "end": {
         "chapter": 5,
-        "verse": 24
+        "verse": 30
       }
     },
     {
@@ -506,7 +506,7 @@
       },
       "end": {
         "chapter": 5,
-        "verse": 32
+        "verse": 38
       }
     },
     {
@@ -519,7 +519,7 @@
       },
       "end": {
         "chapter": 5,
-        "verse": 40
+        "verse": 47
       }
     },
     {
@@ -532,7 +532,7 @@
       },
       "end": {
         "chapter": 6,
-        "verse": 4
+        "verse": 15
       }
     },
     {
@@ -545,7 +545,7 @@
       },
       "end": {
         "chapter": 6,
-        "verse": 18
+        "verse": 25
       }
     },
     {
@@ -571,7 +571,7 @@
       },
       "end": {
         "chapter": 6,
-        "verse": 30
+        "verse": 40
       }
     },
     {
@@ -584,7 +584,7 @@
       },
       "end": {
         "chapter": 6,
-        "verse": 42
+        "verse": 52
       }
     },
     {
@@ -597,7 +597,7 @@
       },
       "end": {
         "chapter": 6,
-        "verse": 54
+        "verse": 71
       }
     },
     {
@@ -610,7 +610,7 @@
       },
       "end": {
         "chapter": 7,
-        "verse": 2
+        "verse": 8
       }
     },
     {
@@ -623,7 +623,7 @@
       },
       "end": {
         "chapter": 7,
-        "verse": 10
+        "verse": 24
       }
     },
     {
@@ -636,7 +636,7 @@
       },
       "end": {
         "chapter": 7,
-        "verse": 27
+        "verse": 35
       }
     },
     {
@@ -649,7 +649,7 @@
       },
       "end": {
         "chapter": 7,
-        "verse": 38
+        "verse": 44
       }
     },
     {
@@ -661,8 +661,8 @@
         "verse": 45
       },
       "end": {
-        "chapter": 7,
-        "verse": 46
+        "chapter": 8,
+        "verse": 19
       }
     },
     {
@@ -675,7 +675,7 @@
       },
       "end": {
         "chapter": 8,
-        "verse": 20
+        "verse": 30
       }
     },
     {
@@ -688,7 +688,7 @@
       },
       "end": {
         "chapter": 8,
-        "verse": 32
+        "verse": 47
       }
     },
     {
@@ -701,7 +701,7 @@
       },
       "end": {
         "chapter": 8,
-        "verse": 49
+        "verse": 59
       }
     },
     {
@@ -714,7 +714,7 @@
       },
       "end": {
         "chapter": 9,
-        "verse": 2
+        "verse": 5
       }
     },
     {
@@ -727,7 +727,7 @@
       },
       "end": {
         "chapter": 9,
-        "verse": 7
+        "verse": 16
       }
     },
     {
@@ -740,7 +740,7 @@
       },
       "end": {
         "chapter": 9,
-        "verse": 18
+        "verse": 34
       }
     },
     {
@@ -752,8 +752,8 @@
         "verse": 34
       },
       "end": {
-        "chapter": 9,
-        "verse": 36
+        "chapter": 10,
+        "verse": 13
       }
     },
     {
@@ -766,7 +766,7 @@
       },
       "end": {
         "chapter": 10,
-        "verse": 15
+        "verse": 21
       }
     },
     {
@@ -779,7 +779,7 @@
       },
       "end": {
         "chapter": 10,
-        "verse": 24
+        "verse": 42
       }
     },
     {
@@ -792,7 +792,7 @@
       },
       "end": {
         "chapter": 11,
-        "verse": 2
+        "verse": 27
       }
     },
     {
@@ -805,7 +805,7 @@
       },
       "end": {
         "chapter": 11,
-        "verse": 31
+        "verse": 40
       }
     },
     {
@@ -818,7 +818,7 @@
       },
       "end": {
         "chapter": 11,
-        "verse": 42
+        "verse": 48
       }
     },
     {
@@ -830,8 +830,8 @@
         "verse": 49
       },
       "end": {
-        "chapter": 11,
-        "verse": 50
+        "chapter": 12,
+        "verse": 8
       }
     },
     {
@@ -844,7 +844,7 @@
       },
       "end": {
         "chapter": 12,
-        "verse": 8
+        "verse": 24
       }
     },
     {
@@ -857,7 +857,7 @@
       },
       "end": {
         "chapter": 12,
-        "verse": 26
+        "verse": 32
       }
     },
     {
@@ -870,7 +870,7 @@
       },
       "end": {
         "chapter": 12,
-        "verse": 34
+        "verse": 41
       }
     },
     {
@@ -883,7 +883,7 @@
       },
       "end": {
         "chapter": 12,
-        "verse": 43
+        "verse": 50
       }
     },
     {
@@ -896,7 +896,19 @@
       },
       "end": {
         "chapter": 13,
-        "verse": 1
+        "verse": 11
+      }
+    },
+    {
+      "id": 70,
+      "roman": "LXX",
+      "start": {
+        "chapter": 13,
+        "verse": 12
+      },
+      "end": {
+        "chapter": 13,
+        "verse": 18
       }
     },
     {
@@ -909,7 +921,7 @@
       },
       "end": {
         "chapter": 13,
-        "verse": 20
+        "verse": 35
       }
     },
     {
@@ -921,8 +933,8 @@
         "verse": 36
       },
       "end": {
-        "chapter": 13,
-        "verse": 36
+        "chapter": 14,
+        "verse": 7
       }
     },
     {
@@ -935,7 +947,7 @@
       },
       "end": {
         "chapter": 14,
-        "verse": 9
+        "verse": 14
       }
     },
     {
@@ -948,7 +960,7 @@
       },
       "end": {
         "chapter": 14,
-        "verse": 17
+        "verse": 31
       }
     },
     {
@@ -960,8 +972,8 @@
         "verse": 31
       },
       "end": {
-        "chapter": 14,
-        "verse": 31
+        "chapter": 15,
+        "verse": 10
       }
     },
     {
@@ -973,8 +985,8 @@
         "verse": 11
       },
       "end": {
-        "chapter": 15,
-        "verse": 12
+        "chapter": 16,
+        "verse": 4
       }
     },
     {
@@ -987,7 +999,7 @@
       },
       "end": {
         "chapter": 16,
-        "verse": 6
+        "verse": 15
       }
     },
     {
@@ -1000,7 +1012,7 @@
       },
       "end": {
         "chapter": 16,
-        "verse": 17
+        "verse": 33
       }
     },
     {
@@ -1013,7 +1025,7 @@
       },
       "end": {
         "chapter": 17,
-        "verse": 1
+        "verse": 5
       }
     },
     {
@@ -1026,7 +1038,7 @@
       },
       "end": {
         "chapter": 17,
-        "verse": 6
+        "verse": 13
       }
     },
     {
@@ -1039,7 +1051,7 @@
       },
       "end": {
         "chapter": 17,
-        "verse": 14
+        "verse": 26
       }
     },
     {
@@ -1052,7 +1064,7 @@
       },
       "end": {
         "chapter": 18,
-        "verse": 1
+        "verse": 37
       }
     },
     {
@@ -1064,8 +1076,8 @@
         "verse": 37
       },
       "end": {
-        "chapter": 18,
-        "verse": 37
+        "chapter": 19,
+        "verse": 15
       }
     },
     {
@@ -1077,8 +1089,8 @@
         "verse": 16
       },
       "end": {
-        "chapter": 19,
-        "verse": 18
+        "chapter": 20,
+        "verse": 9
       }
     },
     {
@@ -1091,7 +1103,7 @@
       },
       "end": {
         "chapter": 20,
-        "verse": 11
+        "verse": 23
       }
     },
     {
@@ -1103,8 +1115,8 @@
         "verse": 24
       },
       "end": {
-        "chapter": 20,
-        "verse": 25
+        "chapter": 21,
+        "verse": 14
       }
     },
     {
@@ -1117,7 +1129,7 @@
       },
       "end": {
         "chapter": 21,
-        "verse": 15
+        "verse": 25
       }
     }
   ]

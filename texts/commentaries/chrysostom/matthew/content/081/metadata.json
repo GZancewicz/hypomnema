@@ -2,7 +2,7 @@
   "id": 81,
   "roman": "LXXXI",
   "title": "Homily LXXXI",
-  "subtitle": "Matthew 26:67",
+  "subtitle": "Matthew 26:17-18",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -10,55 +10,64 @@
     "book": "matthew",
     "start": {
       "chapter": 26,
-      "verse": 67
+      "verse": 17
     },
     "end": {
       "chapter": 26,
-      "verse": 67
+      "verse": 18
     },
-    "display": "Matthew 26:67"
+    "display": "Matthew 26:17-18"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3874,
-  "excerpt": "Homily LXXXV....",
+  "word_count": 4830,
+  "excerpt": "“Now the first day of the feast of unleavened bread the disciples came to Jesus, saying, Where wilt Thou that we prepare for Thee to eat the Passover? And He…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "[R.V. margin, “Or, with rods.”]",
-    "2": "[R.V., “struck thee.” The variety of Greek terms used to express the maltreatment is remarkable, and is indicated in the R.V.—R.]",
-    "3": "[R.V., “struck thee.” The variety of Greek terms used to express the maltreatment is remarkable, and is indicated in the R.V.—R.]",
-    "4": "Isa. lii. 14 [LXX.].",
-    "5": "Luke xxii. 64.",
-    "6": "Mark xiv. 65. [In this passage δολοι does not occur, but ὑπηρται, which has a wider sense.—R.]",
-    "7": "Heb. xiii. 13.",
-    "8": "Heb. xii. 2.",
-    "9": "[The order here is peculiar to this Homily.—R.]",
-    "10": "[ατν is inserted here.—R.]",
-    "11": "[The reading is peculiar (λγει Εκε κα οτο), as indicated in the rendering.—R.]",
-    "12": "Matt. xxvi. 69–75. [In verse 74, καταθεματζειν is read; in verse 75, ατ is omitted. These variations and those noted above are the only peculiarities.—R.]",
-    "13": "Luke xxii. 61.",
-    "14": "Mark xiv. 68, 72. [In both passages in Mark there are textual variations in the mss. The clause in verse 68, telling of the first cock-crowing, is omitted in three of the best mss. But the absence of any parallel statement would account for the omission.—R.]",
-    "15": "1 Pet. v. 13.",
-    "16": "Matt. xxvi. 34.",
-    "17": "Mark xiv. 72.",
-    "18": "Chap. xxvii. 1, 2. [This is not a citation, but a combination of terms occurring in all four accounts.—R.]",
-    "19": "Matt. xxvi. 3. [R.V. omits “had,” and reads “repented himself,” “brought back.”— R.]",
-    "20": "[The words “and elders” are omitted, though Tischendorf cites Chrysostom otherwise.—R.]",
-    "21": "[R.V., “into the sanctuary,” accepting the reading given in the Homily.—R.]",
-    "22": "Matt. xxvii. 3–5. [R.V., “and he went away,” etc.]",
-    "23": "John xix. 21.",
-    "24": "Matt. xxvii. 64. [Abridged.]",
-    "25": "ὁ κορυφαο.",
-    "26": "Matt. xxvii. 5. [See notes on the previous citation of this verse.—R.]",
-    "27": "Matt. xxvii. 6–10. [The only textual peculiarities are, the substitution of κα for δ, at the beginning of verse 7; and the omission of a clause in verse 9, as indicated above.—R.]",
-    "28": "Mal. ii. 13.",
-    "29": "Exod. xxii. 1.",
-    "30": "Luke xiii. 4, 5. [Freely cited.]",
-    "31": "Matt. xxv. 42.",
-    "32": "i.e., the sum of all the congregations in Antioch.",
-    "33": "Matt. xix. 21. [Abridged.]"
+    "1": "John xiii. 1.",
+    "2": "[But John does not call it the day before.—R.]",
+    "3": "Luke xxii. 7.",
+    "4": "[The language is somewhat obscure. But it would seem from this passage that Chrysostom believed our Lord ate the passover at the regular time. In Homily LXXXIV., he speaks of the chief priests as neglecting to eat it in their hate against our Lord, explaining in this way the difficulty arising from the statement in John xviii. 28. But in Homily LXXXIII. 3, on the Gospel of John, he presents both views, either that the whole feast is meant, or that our Lord had anticipated the observance of the Paschal supper.—R.]",
+    "5": "Matt. xxi. 3.",
+    "6": "1 Sam. x. 3.",
+    "7": "Matt. xxvi. 20. [R.V., “was sitting at meat with the twelve disciples.” The rec. text omits “disciples,” as does one mss. of the Homilies here. Comp. R.V. margin. Below it is omitted by Chrysostom also.—R.]",
+    "8": "Lit., salt.",
+    "9": "[See note 7, p. 485.]",
+    "10": "Matt. xxvi. 21. [R.V., “were eating.”]",
+    "11": "John xiii. 22. [Freely cited.]",
+    "12": "Matt. xxvi. 22.",
+    "13": "John xiii. 26. [This verse is abridged in the Homily. “To whom, having dipped the sop, I will give it,” is an exact rendering. “He it is” is supplied above.—R.]",
+    "14": "[The words “his hand” are omitted.]",
+    "15": "[R.V., “through;” “that” is omitted.]",
+    "16": "Matt. xxvi. 23, 24. [R.V., “good were it,” etc.]",
+    "17": "[Here “that” is given as in the received text.—R.]",
+    "18": "Matt. xxvi. 25. [R.V., “Rabbi;” but this change of title is first noticed below.—R.]",
+    "19": "Rom. ix. 20. [R.V., “Why didst thou make me thus?”]",
+    "20": "Matt. xxvi. 25.",
+    "21": "[A sentence is omitted here: “On this account, therefore, he also calls Him ‘Rabbi.’”—R.]",
+    "22": "John xiii. 27.",
+    "23": "John xiii. 2. [The Greek text of the citations begins with the words, δεπνου γενομνου, “supper being ended” (A.V.). But the better attested text reads γινομνου, “during supper,” (R.V.). The clause is omitted by the translator, for what reason does not appear.—R ]",
+    "24": "Exod. xii. 11.",
+    "25": "Luke xxii. 15.",
+    "26": "Matt. xxvi. 15.",
+    "27": "Ps. lvii. 4.",
+    "28": "Matt. xxiii. 25, and comp. verse 27.",
+    "29": "Matt. xxv. 42.",
+    "30": "Luke xvi. 26. [Freely cited.]",
+    "31": "Matt. xxv. 41."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 26,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 25
+    },
+    "display": "Matthew 26:17-25"
+  }
 }

@@ -2,26 +2,26 @@
   "id": 29,
   "roman": "XXIX",
   "title": "Sermon XXIX",
-  "subtitle": "Luke 1:1",
+  "subtitle": "Luke 6:24-40",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
   "scripture_reference": {
     "book": "luke",
     "start": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 6,
+      "verse": 24
     },
     "end": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 6,
+      "verse": 40
     },
-    "display": "Luke 1:1"
+    "display": "Luke 6:24-40"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3152,
-  "excerpt": "(6:24) [From the Syriac. f2 MS.14,551.] * * * * * * * * receive those things that will lead you unto life eternal. For it is written, that \"man doth not live by bread alone, but by every word that goeth forth from the mouth of God.\" All Scripture, indeed, is inspired of God; but this is especially true of the proclamations in the Gospels: for He Who in old time delivered unto the Israelites by the ministry of Moses the law that consisted in types and shadows, the very same having become man spake unto us, as the wise Paul testifies, writing; \"God, Who in divers manners spake in old time to the fathers by the prophets, hath in these last days spoken unto us by His Son:\" and \"we are taught of God:\" for Christ is in truth God and the Son of God. Let us therefore fix our careful attention upon what He says: and scrupulously examine the very depth of His meaning. For \"Woe, He says, unto you rich, in that ye have received your consolation.\" Very fitly is this added to His previous discourse: for having already shewn that poverty for God's sake is...",
+  "excerpt": "(6:24) [From the Syriac. MS.14,551.] * * * * * * * * receive those things that will lead you unto life eternal. For it is written, that \"man doth not live by bread alone, but by every word that goeth forth from the mouth of God.\" All Scripture, indeed, is inspired of God; but this is especially true of the proclamations in the Gospels: for He Who in old time delivered unto the Israelites by the ministry of Moses the law that consisted in types and shadows, the very same having become man spake unto us, as the wise Paul testifies, writing; \"God, Who in divers manners spake in old time to the fathers by the prophets, hath in these last days spoken unto us by His Son:\" and \"we are taught of God:\" for Christ is in truth God and the Son of God. Let us therefore fix our careful attention upon what He says: and scrupulously examine the very depth of His meaning. For \"Woe, He says, unto you rich, in that ye have received your consolation.\" Very fitly is this added to His previous discourse:...",
   "source_file": "cyril_on_luke_03_sermons_26_38.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

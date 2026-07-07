@@ -63,5 +63,16 @@
     "35": "i.e. the objection does not shake my argument.",
     "36": "i.e. non-communicants."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 15
+    },
+    "display": "John 16:4-15"
+  }
 }

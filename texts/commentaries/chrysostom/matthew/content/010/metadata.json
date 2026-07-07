@@ -2,7 +2,7 @@
   "id": 10,
   "roman": "X",
   "title": "Homily X",
-  "subtitle": "Matthew 3:1",
+  "subtitle": "Matthew 3:1-2",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 3,
-      "verse": 1
+      "verse": 2
     },
-    "display": "Matthew 3:1"
+    "display": "Matthew 3:1-2"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4568,
-  "excerpt": "Matt. III. 1, 2....",
+  "excerpt": "“In those days cometh John the Baptist, preaching in the wilderness of Judæa, and saying, Repent ye: for the kingdom of Heaven is at…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -75,5 +75,16 @@
     "47": "[“If we desire (θλωμεν), by putting away, etc.…to pursue this temperate and frugal life.”—R.]",
     "48": "ὑπερτθεται, used as in the word ὑπρθεσιχριν εδτε πρ πντων τ εδτι.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "display": "Matthew 3:1-6"
+  }
 }

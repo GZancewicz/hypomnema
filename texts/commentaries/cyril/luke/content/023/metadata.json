@@ -2,7 +2,7 @@
   "id": 23,
   "roman": "XXIII",
   "title": "Sermon XXIII",
-  "subtitle": "Luke 6:6",
+  "subtitle": "Luke 6:5-16",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -10,18 +10,18 @@
     "book": "luke",
     "start": {
       "chapter": 6,
-      "verse": 6
+      "verse": 5
     },
     "end": {
       "chapter": 6,
-      "verse": 6
+      "verse": 16
     },
-    "display": "Luke 6:6"
+    "display": "Luke 6:5-16"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 2516,
-  "excerpt": "But God said, I require mercy, and not sacrifice: and the acknowledgment of God, and not whole burnt offerings. What is meant by mercy? and what by sacrifice? By mercy then is signified, Justification and grace in Christ: even that which is by faith. For we have been justified, not by the works of the law that we have done, but by His great mercy. And sacrifice means the law of Moses. 6:6. And He was teaching: and there was a man there whose right hand was withered. 6:6. And He was teaching: and there was a man there whose right hand was withered. 6:9. I will ask you something: Is it lawful on the sabbath days to do good, or to do evil? 6:9. I will ask you something: Is it lawful on the sabbath days to do good, or to do evil? Most wise in very deed is this question, and a statement most suitable to meet their folly. For if it be lawful to do good on the sabbath, and nothing prevents the sick being pitied by God, cease thus picking up opportunities for faultfinding against Christ, and bringing down on thy own head the sentence which...",
+  "excerpt": "But God said, I require mercy, and not sacrifice: and the acknowledgment of God, and not whole burnt offerings. What is meant by mercy? and what by sacrifice? By mercy then is signified, Justification and grace in Christ: even that which is by faith. For we have been justified, not by the works of the law that we have done, but by His great mercy. And sacrifice means the law of Moses. 6:6. And He was teaching: and there was a man there whose right hand was withered. 6:9. I will ask you something: Is it lawful on the sabbath days to do good, or to do evil? Most wise in very deed is this question, and a statement most suitable to meet their folly. For if it be lawful to do good on the sabbath, and nothing prevents the sick being pitied by God, cease thus picking up opportunities for faultfinding against Christ, and bringing down on thy own head the sentence which the Father has decreed against those who dishonour the Son: for thou hast heard Him where He says of Him by the voice of...",
   "source_file": "cyril_on_luke_02_sermons_12_25.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

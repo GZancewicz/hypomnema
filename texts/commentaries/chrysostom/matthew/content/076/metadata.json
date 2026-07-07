@@ -2,41 +2,70 @@
   "id": 76,
   "roman": "LXXVI",
   "title": "Homily LXXVI",
-  "subtitle": "Matthew 26:6",
+  "subtitle": "Matthew 24:16-18",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
   "scripture_reference": {
     "book": "matthew",
     "start": {
-      "chapter": 26,
-      "verse": 6
+      "chapter": 24,
+      "verse": 16
     },
     "end": {
-      "chapter": 26,
-      "verse": 6
+      "chapter": 24,
+      "verse": 18
     },
-    "display": "Matthew 26:6"
+    "display": "Matthew 24:16-18"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 4252,
-  "excerpt": "Homily LXXX....",
+  "word_count": 4919,
+  "excerpt": "Having spoken of the ills that were to overtake the city, and of the trials of the apostles, and that they should remain unsubdued, and should overrun the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "St. Augustin, on St. John, Hom. XLIX. sec. 3, speaks of the identity as doubtful. See also Greswell, vol. ii., Diss. XVII., and vol. iii. Diss. III. It seems that the occasion recorded in Luke vii. 37 must have been different, whether the person were the same or not. St. Chrysostom supposes two unctions at Bethany. See note at the end of “Sermons preached at St. Saviour’s Church, Leeds.” [Augustin discusses the question more fully in his Harmony of the Gospels, see Nicene Fathers, vol. vi. pp. 173, 174. He holds that there were two occasions, one named by Luke, and the other by Matthew, Mark and John, but that Mary was the person anointing on both occasions. This leads to the identification of Mary, the sister of Lazarus, with Mary Magdalene. But there is no proof that Luke refers to the latter. The opinion of Chrysostom seems to be that Matthew, Mark and Luke refer to the same person, and John to another on a different occasion. But to this there are insuperable objections.—R.]",
-    "2": "Lit, an economy.",
-    "3": "Matt. xxvi. 8–13. [The Greek text agrees with the received with the exception of a change of order in the first clause of verse 11. In verse 12, the R.V. renders, “to prepare me for burial,” and in verse 12, “bespoken of” for “be told.”—R.]",
-    "4": "See ix. 13, and xii. 7.",
-    "5": "[A clause is omitted here: “and conquered in wars.”—R.]",
-    "6": "[This accords with the assumed identity with the woman spoken of in Luke vii. But there seems to be no proof that Chrysostom identified the woman with Mary Magdalene. Compare p. 41, Homily VI. 8.—R.]",
-    "7": "Matt. xxvi. 14, 15. [R.V., “Then one of the twelve, who was called Judas Iscariot, went unto the chief priests, and said, What are ye willing to give me,” etc.]",
-    "8": "Luke xxii. 4. [The explanation is untenable. The “captains” (στρατηγο) were not “chiliarchs,” but the officers of the temple guard; comp. Luke xxii. 52, where the same word occurs.",
-    "9": "Matt. xxvi. 15, 16. [R.V., “And they weighed unto him thirty,” etc. to deliver Him unto them. The same word as in verse 15.—R.]",
-    "10": "[The words “their kinsmen” should be inserted here.—R.]",
-    "11": "Ecclus. x. 9."
+    "1": "[In minor details the Greek text agrees with the received against that of our oldest mss. authorities.—R.]",
+    "2": "Matt. xxiv. 19.",
+    "3": "Matt. xxiv. 20, 21.",
+    "4": "[There is a curious variation in the Greek text here. Our best New Testament mss. reads σαββτ; above the Homily has ἐν σαββτ, but here σαββτου, without any preposition.—R.]",
+    "5": "Matt. xxiv. 22. [R.V., “And except those days had been shortened, no flesh would have been saved: but,” etc.]",
+    "6": "[R.V., “to lead astray, if possible, even the elect. Behold, I have told you beforehand.”]",
+    "7": "Matt. xxiv. 23–28. [The citation is in verbal agreement with the received text.—R.]",
+    "8": "Matt. xxiv. 29.",
+    "9": "Matt. iii. 1. See the comment on that place.",
+    "10": "Matt. xxiv. 11.",
+    "11": "Matt. xxiv. 24.",
+    "12": "2 Thess. ii. 9, 10.",
+    "13": "Matt. xxiv. 27, 28.",
+    "14": "Matt. xxiv. 29.",
+    "15": "Job xxxviii. 7, LXX. [The LXX. is accurately cited. At this point there is a great variation in the readings of the mss. of the Homilies, which may be due to the variation from the Hebrew.—R.]",
+    "16": "Matt. xxiv. 30.",
+    "17": "μετ λαμπρο το σχματο.",
+    "18": "Matt. xxiv. 30.",
+    "19": "[So Tischendorf, and R.V. margin.—R.]",
+    "20": "Matt. xxiv. 31.",
+    "21": "Matt. xxii. 39.",
+    "22": "1 Thess. iv. 16.",
+    "23": "διατργειν .",
+    "24": "παγκρτια.",
+    "25": "οκεω χε.",
+    "26": "1 Cor. ix. 26.",
+    "27": "Gal. ii. 2.",
+    "28": "Eccl. i. 2.",
+    "29": "See On Stat. Hom. III. p. 59, a badge of military rank."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 24,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 31
+    },
+    "display": "Matthew 24:16-31"
+  }
 }

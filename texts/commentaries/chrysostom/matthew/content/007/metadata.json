@@ -2,7 +2,7 @@
   "id": 7,
   "roman": "VII",
   "title": "Homily VII",
-  "subtitle": "Matthew 2:4",
+  "subtitle": "Matthew 2:4-5",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 2,
-      "verse": 4
+      "verse": 5
     },
-    "display": "Matthew 2:4"
+    "display": "Matthew 2:4-5"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 5508,
-  "excerpt": "Matt. II. 4, 5....",
+  "excerpt": "“And when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born. And they said unto him, in…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -69,5 +69,16 @@
     "41": "1 Cor. vii. 4.",
     "42": "1 Cor. vii. 3. In our copies of the Greek Testament, and in the mss. of St. Chrysostom, here it is, ενοιαν, not τιμν. But Mr. Field writes τιμν, 1. from internal evidence; 2, from comparison of St. Chrysostom’s own Commentary on this place of St. Paul; and accounts for it by supposing that he quoted from memory, as often, and confused the verse with 1 Peter iii. 7. [The text in 1 Cor. vii. 3, according to most of the best Greek and Latin mss., is τν φειλν (R.V., “her duo”). The text and argument of Chrysostom indicate careless citation. The translator’s note was written before New Testament textual criticism had received any attention from more modern English divines.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "display": "Matthew 2:4-11"
+  }
 }

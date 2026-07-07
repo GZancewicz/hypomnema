@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 8535,
-  "excerpt": "Matt. VII. 1....",
+  "excerpt": "What then? Ought we not to blame them that sin? Because Paul also saith this selfsame thing: or rather, there too it is Christ, speaking by Paul, and…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -98,5 +98,16 @@
     "70": "Matt. xxv. 42.",
     "71": "[πλεονεξα.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 20
+    },
+    "display": "Matthew 7:1-20"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 5277,
-  "excerpt": "Homily LI....",
+  "excerpt": "Then; when? when He had wrought His countless miracles; when He had healed the infirm by the touch of the hem of His garment. For even with this intent doth…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -67,5 +67,16 @@
     "39": "1 Tim. vi. 16.",
     "40": "ἀφρονστερον opposed to σωφροσνη."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 20
+    },
+    "display": "Matthew 15:1-20"
+  }
 }

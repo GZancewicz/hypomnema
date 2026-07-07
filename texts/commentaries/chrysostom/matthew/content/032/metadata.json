@@ -2,7 +2,7 @@
   "id": 32,
   "roman": "XXXII",
   "title": "Homily XXXII",
-  "subtitle": "Matthew 9:27",
+  "subtitle": "Matthew 9:27-30",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 9,
-      "verse": 27
+      "verse": 30
     },
-    "display": "Matthew 9:27"
+    "display": "Matthew 9:27-30"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 6920,
-  "excerpt": "Matt. IX. 27-30....",
+  "excerpt": "Wherefore can it be that He puts them off,and they crying out? Here again teaching us utterly to repel the glory that cometh from the multitude. For because…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -99,5 +99,16 @@
     "71": "John xiii. 35.",
     "72": "John xvii. 23, 22."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "display": "Matthew 9:27-10:15"
+  }
 }

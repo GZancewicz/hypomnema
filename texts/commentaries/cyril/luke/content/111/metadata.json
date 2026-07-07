@@ -2,7 +2,7 @@
   "id": 111,
   "roman": "CXI",
   "title": "Sermon CXI",
-  "subtitle": "Luke 16:19-31",
+  "subtitle": "Luke 16:19-21",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 16,
-      "verse": 31
+      "verse": 21
     },
-    "display": "Luke 16:19-31"
+    "display": "Luke 16:19-21"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1804,
-  "excerpt": "16:19-31. But there was a certain rich, man, and he was clothed in purple and fine linen, feasting sumptuously every day. And a certain poor man whose name was Lazarus had been laid at his gate, full of sores; and desiring to satisfy himself with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores. And it came to pass that the poor man died, and the angels carried him to Abraham's bosom. And the rich man also died, and was buried. And in Hades, having lifted up his eyes, being in torment, he saw Abraham afar off, and Lazarus in his bosom. And he cried out and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue: for behold! I am tormented in this flame. But Abraham said, Son, remember that you received your good things in your life time; and Lazarus in like manner his evil things: but now he is comforted here, and you are tormented. And besides all this, between us and you a great gulf is placed, so that those who would pass...",
+  "excerpt": "16:19-31. But there was a certain rich, man, and he was clothed in purple and fine linen, feasting sumptuously every day. And a certain poor man whose name was Lazarus had been laid at his gate, full of sores; and desiring to satisfy himself with the crumbs which fell from the rich man's table: moreover the dogs came and licked his sores. And it came to pass that the poor man died, and the angels carried him to Abraham's bosom. And the rich man also died, and was buried. And in Hades, having lifted up his eyes, being in torment, he saw Abraham afar off, and Lazarus in his bosom. And he cried out and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue: for behold! I am tormented in this flame. But Abraham said, Son, remember that you received your good things in your life time; and Lazarus in like manner his evil things: but now he is comforted here, and you are tormented. And besides all this, between us and you...",
   "source_file": "cyril_on_luke_11_sermons_110_123.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

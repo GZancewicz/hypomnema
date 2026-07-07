@@ -51,5 +51,16 @@
     "23": "lit. “low birth.”",
     "24": "al. “with whom to the Father and the Holy Ghost be glory.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "display": "John 9:34-10:13"
+  }
 }

@@ -2,43 +2,59 @@
   "id": 83,
   "roman": "LXXXIII",
   "title": "Homily LXXXIII",
-  "subtitle": "Matthew 27:27",
+  "subtitle": "Matthew 26:36-38",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
   "scripture_reference": {
     "book": "matthew",
     "start": {
-      "chapter": 27,
-      "verse": 27
+      "chapter": 26,
+      "verse": 36
     },
     "end": {
-      "chapter": 27,
-      "verse": 27
+      "chapter": 26,
+      "verse": 38
     },
-    "display": "Matthew 27:27"
+    "display": "Matthew 26:36-38"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3543,
-  "excerpt": "Homily LXXXVII....",
+  "word_count": 3567,
+  "excerpt": "Because they clung to Him inseparably, therefore He saith, “Tarry ye here, while I go away and pray.” For it was usual with Him to pray apart from them. And…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "Greek, “Prætorium;” comp. Mark xv. 16, A.V.—R.]",
-    "2": "[The Greek text, as given by Field, agrees throughout with the received.—R.]",
-    "3": "ἐχρευεν.",
-    "4": "Matt. xxvii. 25.",
-    "5": "Matt. xxvii. 31. [ἤγαγον for ἀπγαγον.]",
-    "6": "John xix. 30.",
-    "7": "Ps. lxix. 21.",
-    "8": "Matt. xxvii. 40.",
-    "9": "John xix. 22.",
-    "10": "Matt. xxvii. 42.",
-    "11": "Matt. xxvii. 43. [In the citations from verses 40–43, the exact order is not preserved, but the only textual variation is in the clause, “let Him save Him,” which does not occur in the Gospels. “If” is read, with the received text, in verse 42.—R.]",
-    "12": "Luke xxiii. 40.",
-    "13": "Ecclus. i. 22."
+    "1": "[The only variation of text is the substitution of κα for ττε, at the beginning of verse 38. The R.V. renders, “sorrowful and sore troubled,” and “abide” instead of “tarry.”—R.]",
+    "2": "Matt. xxvi. 39–41. [The first part of verse 39 is abridged, and in 40“them” is substituted for “the disciples.” The remainder of the passage is in verbal agreement with the received text.—R.]",
+    "3": "Matt. xxvi. 36.",
+    "4": "Comp. Mark xiv. 37.",
+    "5": "Matt. xxvi. 42. [The word “cup” is omitted as in R.V., but “from me” is retained as in the received text.—R.]",
+    "6": "Matt. xxvi. 43. [R.V., “sleeping;” “again” is omitted.—R.]",
+    "7": "Gen. xli. 32.",
+    "8": "οκονομα.",
+    "9": "Matt. xxvi. 45.",
+    "10": "Matt. xxvi. 46.",
+    "11": "Matt. xxvi. 47.",
+    "12": "Matt. xxvi. 48. [R.V., “take him.”]",
+    "13": "John xviii. 4.",
+    "14": "Matt. xxvi. 50. [The Greek text in the Homily is ἐφ πρει; but there is some authority for ἐφ πρει; which is abundantly attested in the New Testament passage. The latter reading is accepted in the R.V., “Friend, do that for which thou art come.”—R.]",
+    "15": "Luke xxii. 48.",
+    "16": "Ecclus. xx. 4, xxx. 20.",
+    "17": "Eccles. ii. 13.",
+    "18": "Luke xix. 8. [Altered, as in previous citations.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 26,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 50
+    },
+    "display": "Matthew 26:36-50"
+  }
 }

@@ -79,5 +79,16 @@
     "51": "ἐ λεημοσύνη, (lit. “mercifulness,”) whence our alms.",
     "52": "Morel. “sit down in the heavenly bride-chamber.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "display": "John 1:15"
+  }
 }

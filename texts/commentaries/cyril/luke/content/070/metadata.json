@@ -2,7 +2,7 @@
   "id": 70,
   "roman": "LXX",
   "title": "Sermon LXX",
-  "subtitle": "Luke 11:1-4",
+  "subtitle": "Luke 11:1",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 11,
-      "verse": 4
+      "verse": 1
     },
-    "display": "Luke 11:1-4"
+    "display": "Luke 11:1"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1288,
-  "excerpt": "11:1-4. And it came to pass, that as He was in a certain place praying, when He ceased, one of His disciples said to Him, Lord, teach us to pray, as John also taught his disciples. And He said to them, When you pray, say, Our Father, hallowed be Your Name, Your kingdom come, Your will be done, as in heaven, so in earth; give us every day the bread of our necessity; and forgive us our sins, for we also forgive every one that is indebted to us; and bring us not into temptation. O warm and fervent in spirit, now also you have come, and we see God's sacred court full of eager listeners. The purpose doubtless of your assembling is a pious one, and you have met together to be taught; and He Who is the Dispenser of the divine gifts, again satisfies you with those things of which you wish to be accounted worthy, and prepares a spiritual table, crying out and saying, \"Come, eat of My bread, and drink the wine which I have mingled for you:\" and as the Psalmist says, \"Bread strengthens man's heart, and the intellectual wine gladdens it.\" Let us therefore...",
+  "excerpt": "11:1-4. And it came to pass, that as He was in a certain place praying, when He ceased, one of His disciples said to Him, Lord, teach us to pray, as John also taught his disciples. And He said to them, When you pray, say, Our Father, hallowed be Your Name, Your kingdom come, Your will be done, as in heaven, so in earth; give us every day the bread of our necessity; and forgive us our sins, for we also forgive every one that is indebted to us; and bring us not into temptation. O warm and fervent in spirit, now also you have come, and we see God's sacred court full of eager listeners. The purpose doubtless of your assembling is a pious one, and you have met together to be taught; and He Who is the Dispenser of the divine gifts, again satisfies you with those things of which you wish to be accounted worthy, and prepares a spiritual table, crying out and saying, \"Come, eat of My bread, and drink the wine which I have mingled for you:\" and as the Psalmist says, \"Bread strengthens man's...",
   "source_file": "cyril_on_luke_07_sermons_66_80.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

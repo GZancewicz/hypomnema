@@ -52,5 +52,16 @@
     "24": "Τοὺς ὀχετοὺς τῶν ἀμαρῶν ἕλκειν. An instance of employment requiring skill and practice. v. Iliad xxi. 257.",
     "25": "̓ Επωλεῖτο. So Morel. Ben. and mss. Sav. reads ἐ πολεμεῖτο, “was warred against.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 14,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "display": "John 14:31-15:10"
+  }
 }

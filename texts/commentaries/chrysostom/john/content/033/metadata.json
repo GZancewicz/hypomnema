@@ -50,5 +50,16 @@
     "22": "al. “four hundred.”",
     "23": "or, “confess to Thee.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 39
+    },
+    "display": "John 4:28-39"
+  }
 }

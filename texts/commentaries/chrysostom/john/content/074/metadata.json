@@ -61,5 +61,16 @@
     "33": "al. “I cannot master the toils.”",
     "34": "al. “prisons.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 14,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 31
+    },
+    "display": "John 14:15-31"
+  }
 }

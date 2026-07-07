@@ -46,5 +46,16 @@
     "18": "al. “hope of p.”",
     "19": "or, “display.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 44
+    },
+    "display": "John 7:37-44"
+  }
 }

@@ -2,26 +2,26 @@
   "id": 3,
   "roman": "III",
   "title": "Sermon III",
-  "subtitle": "Luke 1:1",
+  "subtitle": "Luke 2:21-24",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
   "scripture_reference": {
     "book": "luke",
     "start": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 2,
+      "verse": 21
     },
     "end": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 2,
+      "verse": 24
     },
-    "display": "Luke 1:1"
+    "display": "Luke 2:21-24"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1743,
-  "excerpt": "VERY numerous indeed is the assembly, and earnest the hearer:----for we see the Church full:----but the teacher is but poor. He nevertheless Who giveth to man a mouth and tongue, will further supply us with good ideas.f17 For He somewhere says Himself, \"Open thy mouth wide, and I will fill it.\" Since therefore ye have all come together eagerly on the occasion of this joyous festival f18 of our Lord, let us with cheerful torches brightly celebrate the feast, and apply ourselves to the consideration of what was divinely fulfilled, as it were, this day, gathering for ourselves from every quarter whatsoever may confirm us in faith and piety. But recently we saw the Immanuel lying as a babe in the manger, and wrapped in human fashion in swaddling bands, but extolled as God in hymns by the host of the holy angels. For they proclaimed to the shepherds His birth, God the Father having granted to the inhabitants of heaven as a special privilege to be the first to preach Him. And to-day too we have seen Him obedient to the laws of Moses, or rather we have seen Him Who as God is the Legislator, subject to His...",
+  "excerpt": "VERY numerous indeed is the assembly, and earnest the hearer:----for we see the Church full:----but the teacher is but poor. He nevertheless Who giveth to man a mouth and tongue, will further supply us with good ideas. For He somewhere says Himself, \"Open thy mouth wide, and I will fill it.\" Since therefore ye have all come together eagerly on the occasion of this joyous festival of our Lord, let us with cheerful torches brightly celebrate the feast, and apply ourselves to the consideration of what was divinely fulfilled, as it were, this day, gathering for ourselves from every quarter whatsoever may confirm us in faith and piety. But recently we saw the Immanuel lying as a babe in the manger, and wrapped in human fashion in swaddling bands, but extolled as God in hymns by the host of the holy angels. For they proclaimed to the shepherds His birth, God the Father having granted to the inhabitants of heaven as a special privilege to be the first to preach Him. And to-day too we have...",
   "source_file": "cyril_on_luke_01_sermons_01_11.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": true,
@@ -36,7 +36,7 @@
     "8": "The next two or three paragraphs are not found in Aubert, but as they are in Mai's same MS. E, which contains most of the foregoing, and as it is possible that the Copyist of\nAubert's MS. in reducing two Sermons into one, made large omissions to avoid the too great length, I have received them into the\ntext.",
     "9": "Mai's next extract is from the 15th book of the De Ador. Spir. l. 553 and is omitted.",
     "10": "Aubert begins again here. The passage is also in the Aurea Catena, upon Luke ii. 24.",
-    "11": "A passage follows in Mai, either from E. or H., going over ground already traversed, and probably only a summary gathered from S. Cyril. It is valuable, nevertheless, as shewing how little idea the ancients had\nof the immaculate conception of the blessed Virgin Mary: for it testifies that all women, except the Virgin,\n(\u03b1\u1f31 \u1f04\u03bb\u03bb\u03b1\u03b9 \u03b3\u03c5\u03bd\u03b1\u1fd6\u03ba\u03b5\u03c2,) conceived in sin,\n(\u1f10\u03bd \u1f00\u03bd\u03bf\u03bc\u1f77\u03b1\u03b9\u03c2.)"
+    "11": "A passage follows in Mai, either from E. or H., going over ground already traversed, and probably only a summary gathered from S. Cyril. It is valuable, nevertheless, as shewing how little idea the ancients had\nof the immaculate conception of the blessed Virgin Mary: for it testifies that all women, except the Virgin,\n(αἱ ἄλλαι γυναῖκες,) conceived in sin,\n(ἐν ἀνομίαις.)"
   },
   "verified": true
 }

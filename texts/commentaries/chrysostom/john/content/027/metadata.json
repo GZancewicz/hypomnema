@@ -55,5 +55,16 @@
     "27": "παρυφέστηκε",
     "28": "κόπτεσθαι"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 20
+    },
+    "display": "John 3:17-20"
+  }
 }

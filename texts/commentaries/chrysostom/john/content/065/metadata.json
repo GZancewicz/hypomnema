@@ -61,5 +61,16 @@
     "33": "or, “about.”",
     "34": "al. “To whom with the Father and the Holy Ghost be glory now and for the endless ages of eternity.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 24
+    },
+    "display": "John 12:8-24"
+  }
 }

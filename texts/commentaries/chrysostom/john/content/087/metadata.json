@@ -59,5 +59,16 @@
     "31": "lit. “expand ourselves.”",
     "32": "Sav. and Ben. “everlasting goods.” But mss. omit αἰωνίων"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 21,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "display": "John 21:15-25"
+  }
 }

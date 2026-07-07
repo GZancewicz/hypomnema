@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"net/http"
 	"sort"
+	"strconv"
+	"strings"
 )
 
 func loadSectionDataForHandler(gospel string) (map[int]string, error) {
@@ -225,6 +227,13 @@ func referencesHandler(w http.ResponseWriter, r *http.Request) {
 		</div>`
 	}
 
+	html += buildGospelParallelTables(harmony, map[string]map[int]string{
+		"Matthew": matthewSections,
+		"Mark":    markSections,
+		"Luke":    lukeSections,
+		"John":    johnSections,
+	})
+
 	// Add statistics
 	totalEntries := len(harmony)
 
@@ -241,4 +250,144 @@ func referencesHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html))
+}
+
+func refChapter(ref string) int {
+	if idx := strings.Index(ref, ":"); idx != -1 {
+		if ch, err := strconv.Atoi(ref[:idx]); err == nil {
+			return ch
+		}
+	}
+	return 1
+}
+
+func parallelCell(gospel string, sect int, ref string) string {
+	return fmt.Sprintf(`<span class="parallel-ref" onclick="loadChapterAndScroll('%s', %d)">(%d) %s</span>`,
+		strings.ToLower(gospel), refChapter(ref), sect, ref)
+}
+
+func buildGospelParallelTables(harmony []HarmonyEntry, sectionMaps map[string]map[int]string) string {
+	gospels := []string{"Matthew", "Mark", "Luke", "John"}
+
+	var sb strings.Builder
+	sb.WriteString(`
+	<h2 style="text-align: center; margin: 50px 0 20px;">PARALLEL PASSAGES BY GOSPEL</h2>
+
+	<p style="text-align: center; color: #666; margin-bottom: 20px;">
+		Each table lists one Gospel in verse order. Find any verse in the first column
+		to see its parallel passages in the other Gospels. Click any reference to open that chapter.
+	</p>
+
+	<style>
+		.parallel-ref { color: #4a6da0; cursor: pointer; display: inline-block; }
+		.parallel-ref:hover { text-decoration: underline; }
+		.parallel-table td { white-space: nowrap; }
+	</style>
+
+	<div class="index-search-box" style="margin-bottom: 20px; padding: 12px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px;">
+		<input type="text" id="parallelSearch" placeholder="Filter by verse (e.g. 5:3)" onkeyup="filterParallels()"
+			style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;">
+	</div>
+
+	<script>
+		function filterParallels() {
+			const searchTerm = document.getElementById('parallelSearch').value.toLowerCase().trim();
+			document.querySelectorAll('.parallel-section').forEach(section => {
+				const rows = section.querySelectorAll('tbody tr');
+				let visibleCount = 0;
+				rows.forEach(row => {
+					const text = row.cells[0].textContent.toLowerCase();
+					if (!searchTerm || text.includes(searchTerm)) {
+						row.style.display = '';
+						visibleCount++;
+					} else {
+						row.style.display = 'none';
+					}
+				});
+				if (visibleCount > 0 && searchTerm) {
+					section.querySelector('.canon-content').classList.add('expanded');
+					section.querySelector('.canon-header').classList.add('expanded');
+				}
+			});
+		}
+	</script>
+	`)
+
+	for _, anchor := range gospels {
+		bySection := make(map[int][]HarmonyEntry)
+		for _, e := range harmony {
+			if s, ok := e.Sections[anchor]; ok && s > 0 {
+				bySection[s] = append(bySection[s], e)
+			}
+		}
+
+		var others []string
+		for _, g := range gospels {
+			if g != anchor {
+				others = append(others, g)
+			}
+		}
+
+		secs := append([]SectionEntry{}, sectionData[strings.ToLower(anchor)]...)
+		sort.Slice(secs, func(i, j int) bool { return secs[i].Section < secs[j].Section })
+
+		sb.WriteString(fmt.Sprintf(`
+		<div class="canon-section parallel-section" id="parallels-%s">
+			<div class="canon-header" onclick="toggleCanon('parallels-%s')">
+				<span>%s (%d sections)</span>
+				<span class="arrow">▶</span>
+			</div>
+			<div class="canon-content">
+				<table class="canon-table parallel-table">
+					<thead>
+						<tr>
+							<th width="25%%">%s</th>`,
+			strings.ToLower(anchor), strings.ToLower(anchor), anchor, len(secs), anchor))
+
+		for _, o := range others {
+			sb.WriteString(fmt.Sprintf(`
+							<th width="25%%">%s</th>`, o))
+		}
+
+		sb.WriteString(`
+						</tr>
+					</thead>
+					<tbody>`)
+
+		for _, se := range secs {
+			cells := make(map[string][]string)
+			seen := make(map[string]bool)
+			for _, e := range bySection[se.Section] {
+				for _, o := range others {
+					if s, ok := e.Sections[o]; ok && s > 0 {
+						if ref, found := sectionMaps[o][s]; found {
+							key := fmt.Sprintf("%s|%d", o, s)
+							if !seen[key] {
+								seen[key] = true
+								cells[o] = append(cells[o], parallelCell(o, s, ref))
+							}
+						}
+					}
+				}
+			}
+
+			sb.WriteString(fmt.Sprintf(`
+						<tr>
+							<td>%s</td>`, parallelCell(anchor, se.Section, se.Reference)))
+			for _, o := range others {
+				sb.WriteString(fmt.Sprintf(`
+							<td>%s</td>`, strings.Join(cells[o], "<br>")))
+			}
+			sb.WriteString(`
+						</tr>`)
+		}
+
+		sb.WriteString(`
+					</tbody>
+				</table>
+			</div>
+		</div>`)
+	}
+
+	return sb.String()
 }

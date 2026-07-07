@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4972,
-  "excerpt": "Homily XLIX....",
+  "excerpt": "See Him on every occasion “departing,” For not by His appearance only, but by His actions He would have this confirmed, because He knew the devil’s craft, and…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -60,5 +60,16 @@
     "32": "1 Tim. ii. 9.",
     "33": "[ῥήτορε.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 14,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 22
+    },
+    "display": "Matthew 14:13-22"
+  }
 }

@@ -2,7 +2,7 @@
   "id": 153,
   "roman": "CLIII",
   "title": "Sermon CLIII",
-  "subtitle": "Luke 23:32-43",
+  "subtitle": "Luke 23:32-24:51",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -13,15 +13,15 @@
       "verse": 32
     },
     "end": {
-      "chapter": 23,
-      "verse": 43
+      "chapter": 24,
+      "verse": 51
     },
-    "display": "Luke 23:32-43"
+    "display": "Luke 23:32-24:51"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 5019,
-  "excerpt": "23:32-43. And there were led also two others, who were malefactors, to be put to death with Him. And when they came to the place which is called a skull, there they crucified Him and the malefactors, one on the right hand and the other on the left. And dividing His garments, they cast lots. And the people stood looking on. And the rulers also derided Him, saying. He saved others; let Him save Himself if This is the Christ the elect of God. And the soldiers also mocked Him, coming to Him, and offering Him vinegar, and saying, If You are the King of the Jews, save Yourself And there was also a writing written over Him, This is the King of the Jews. And one of the malefactors which were hanged blasphemed Him, saying, If You are the Christ, save Yourself and us. But the other answered rebuking him, and said, Do you not fear God, seeing you are in the same condemnation? And we indeed justly; for we receive the due retribution of our deeds: but this man has done nothing that is hateful. And he said, Jesus, remember me when You come in Your kingdom. And...",
+  "excerpt": "23:32-43. And there were led also two others, who were malefactors, to be put to death with Him. And when they came to the place which is called a skull, there they crucified Him and the malefactors, one on the right hand and the other on the left. And dividing His garments, they cast lots. And the people stood looking on. And the rulers also derided Him, saying. He saved others; let Him save Himself if This is the Christ the elect of God. And the soldiers also mocked Him, coming to Him, and offering Him vinegar, and saying, If You are the King of the Jews, save Yourself And there was also a writing written over Him, This is the King of the Jews. And one of the malefactors which were hanged blasphemed Him, saying, If You are the Christ, save Yourself and us. But the other answered rebuking him, and said, Do you not fear God, seeing you are in the same condemnation? And we indeed justly; for we receive the due retribution of our deeds: but this man has done nothing that is hateful. And...",
   "source_file": "cyril_on_luke_14_sermons_146_156.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

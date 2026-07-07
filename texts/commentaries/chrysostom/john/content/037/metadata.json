@@ -65,5 +65,16 @@
     "37": "τῆς οὔσης sub. ὁ δοῦ",
     "38": "i.e. as well as of earthly things."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 21
+    },
+    "display": "John 5:14-21"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3308,
-  "excerpt": "Matt. VI. 24....",
+  "excerpt": "“No man can serve two masters, for either he will hate the one and love the other, or else he will hold to one and despise the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -56,5 +56,16 @@
     "28": "[ύμ γυμνζομεν, “we are exercising you.”—R.]",
     "29": "So Aristippus: vid. Hor. Serm. 2, 3, 100."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 27
+    },
+    "display": "Matthew 6:24-27"
+  }
 }

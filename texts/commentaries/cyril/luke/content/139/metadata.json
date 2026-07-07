@@ -2,7 +2,7 @@
   "id": 139,
   "roman": "CXXXIX",
   "title": "Sermon CXXXIX",
-  "subtitle": "Luke 21:5-13",
+  "subtitle": "Luke 21:5-36",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 21,
-      "verse": 13
+      "verse": 36
     },
-    "display": "Luke 21:5-13"
+    "display": "Luke 21:5-36"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1905,
-  "excerpt": "21:5-13. And as some spoke of the temple, that it was adorned with goodly stones and offerings, He said; As for these things that you behold, the days will come in which there shall not be left here stone upon stone which shall not be thrown down. And they asked Him, saying, Teacher, when therefore shall these things be, and what is the sign when these things are about to happen? But He said, Look! Be not deceived: for many shall come in My name, saying, That I am He: and the time is near. Go you therefore not after them. And when you have heard of wars and commotions, be not troubled: for these things must first happen; but the end is not immediately. Then said He to them, Nation shall rise against nation, and kingdom against kingdom: great earthquakes shall be in all places, and famines, and pestilences: and terrors from, heaven, and there shall be great signs. But before all these things they shall lay their hands upon you, and persecute you, delivering you up to synagogues and prisons, and bringing you before kings and rulers for My name sake: but this shall prove to you a...",
+  "excerpt": "21:5-13. And as some spoke of the temple, that it was adorned with goodly stones and offerings, He said; As for these things that you behold, the days will come in which there shall not be left here stone upon stone which shall not be thrown down. And they asked Him, saying, Teacher, when therefore shall these things be, and what is the sign when these things are about to happen? But He said, Look! Be not deceived: for many shall come in My name, saying, That I am He: and the time is near. Go you therefore not after them. And when you have heard of wars and commotions, be not troubled: for these things must first happen; but the end is not immediately. Then said He to them, Nation shall rise against nation, and kingdom against kingdom: great earthquakes shall be in all places, and famines, and pestilences: and terrors from, heaven, and there shall be great signs. But before all these things they shall lay their hands upon you, and persecute you, delivering you up to synagogues and...",
   "source_file": "cyril_on_luke_13_sermons_135_145.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3473,
-  "excerpt": "Matt. IV. 12....",
+  "excerpt": "“Now when Jesus had heard that John was delivered up, He departed into…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -47,5 +47,16 @@
     "19": "Matt. ix. 28.",
     "20": "Ps. xcv. 2, LXX."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 24
+    },
+    "display": "Matthew 4:12-24"
+  }
 }

@@ -50,5 +50,16 @@
     "22": "σοφίας",
     "23": "ἀ γνώμων"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 47
+    },
+    "display": "John 5:39-47"
+  }
 }

@@ -51,5 +51,16 @@
     "23": "al. “rise up to.”",
     "24": "εὐτελείας"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 17,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "display": "John 17:1-5"
+  }
 }

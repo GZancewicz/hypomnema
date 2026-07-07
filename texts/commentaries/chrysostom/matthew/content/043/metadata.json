@@ -2,7 +2,7 @@
   "id": 43,
   "roman": "XLIII",
   "title": "Homily XLIII",
-  "subtitle": "Matthew 12:38",
+  "subtitle": "Matthew 12:38-39",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 12,
-      "verse": 38
+      "verse": 39
     },
-    "display": "Matthew 12:38"
+    "display": "Matthew 12:38-39"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3799,
-  "excerpt": "Homily XLIII....",
+  "excerpt": "Could then anything be more foolish than these men (not more impious only), who after so many miracles, as though none had been wrought, say, “We would see a…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -50,5 +50,16 @@
     "22": "2 Thess. iii. 1.",
     "23": "Matt. v. 15; Luke xi. 33."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 45
+    },
+    "display": "Matthew 12:38-45"
+  }
 }

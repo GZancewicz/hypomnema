@@ -42,5 +42,16 @@
     "14": "ἀ ξίαν",
     "15": "al. “of men.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 30
+    },
+    "display": "John 3:22-30"
+  }
 }

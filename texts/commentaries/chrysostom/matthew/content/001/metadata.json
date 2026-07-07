@@ -6,11 +6,22 @@
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
-  "scripture_reference": null,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": null,
+      "verse": null
+    },
+    "end": {
+      "chapter": null,
+      "verse": null
+    },
+    "display": null
+  },
   "themes": [],
   "date_delivered": null,
   "word_count": 5573,
-  "excerpt": "Homilies of St. John Chrysostom,...",
+  "excerpt": "It were indeed meet for us not at all to requirethe aid of the written Word, but to exhibit a life so pure, that the grace of the Spirit should be instead of…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -73,5 +84,16 @@
     "56": "[σπουδζωμεν; the verb is rendered “endeavor” in the preceding sentence.—R.]",
     "57": "[Κα γρ.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Matthew 1:1"
+  }
 }

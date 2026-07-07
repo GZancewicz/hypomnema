@@ -16,7 +16,7 @@
 
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=81">
+    <link rel="stylesheet" href="/static/styles.css?v=87">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -952,6 +952,7 @@
         // Close modal with Escape key
         document.addEventListener('keydown', (event) => {
             if (event.key === 'Escape') {
+                closeCommentaryPopover();
                 closeModal();
                 closeHomilyPanel();
             }
@@ -1010,12 +1011,188 @@
             htmx.ajax('GET', `/api/homily/cyril/${book}/${sermonNum}`, '#homilyContent');
         }
         
+        function loadNikolaiHomily(homilyNum, label) {
+            const panel = document.getElementById('homilyPanel');
+            const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
+            const content = document.getElementById('homilyContent');
+            const container = document.querySelector('.container');
+
+            // Update title and author
+            title.textContent = label;
+            author.textContent = 'Nikolai Velimirović';
+
+            // Show loading state
+            content.innerHTML = '<div class="loading">Loading homily...</div>';
+
+            // Show panel
+            panel.classList.add('active');
+            container.classList.add('homily-open');
+
+            // Load homily content
+            htmx.ajax('GET', `/api/homily/nikolai/prologue/${homilyNum}`, '#homilyContent');
+        }
+
         function closeHomilyPanel() {
             const panel = document.getElementById('homilyPanel');
             const container = document.querySelector('.container');
-            
+
             panel.classList.remove('active');
             container.classList.remove('homily-open');
+        }
+
+        function toggleGreekView(btn) {
+            const chapterText = document.querySelector('.chapter-text');
+            if (!chapterText) return;
+            const broken = chapterText.classList.toggle('verse-broken');
+            btn.textContent = broken ? 'Hide Greek' : 'Show Greek';
+        }
+
+        // Verse-level commentary interaction
+        let commentaryPopover = null;
+
+        function openCommentaryRef(ref) {
+            if (ref.type === 'chrysostom') {
+                loadHomily(ref.id, ref.roman, ref.book);
+            } else if (ref.type === 'cyril') {
+                loadCyrilHomily(ref.id, ref.roman, ref.book);
+            } else if (ref.type === 'nikolai') {
+                loadNikolaiHomily(ref.id, ref.label);
+            }
+        }
+
+        function closeCommentaryPopover() {
+            if (commentaryPopover) {
+                commentaryPopover.backdrop.remove();
+                commentaryPopover.el.remove();
+                commentaryPopover = null;
+            }
+        }
+
+        function showCommentaryPopover(refs, x, y) {
+            closeCommentaryPopover();
+            hideCommentaryTooltip();
+
+            const backdrop = document.createElement('div');
+            backdrop.className = 'commentary-popover-backdrop';
+            backdrop.addEventListener('click', closeCommentaryPopover);
+
+            const pop = document.createElement('div');
+            pop.className = 'commentary-popover';
+
+            const header = document.createElement('div');
+            header.className = 'commentary-popover-header';
+            header.textContent = 'Commentary on this verse';
+            pop.appendChild(header);
+
+            const list = document.createElement('div');
+            list.className = 'commentary-popover-list';
+            pop.appendChild(list);
+
+            refs.forEach(ref => {
+                if (ref.type === 'synaxarion') {
+                    const note = document.createElement('div');
+                    note.className = 'commentary-popover-note';
+                    note.textContent = ref.label;
+                    list.appendChild(note);
+                } else {
+                    const item = document.createElement('button');
+                    item.className = 'commentary-popover-item';
+                    const author = document.createElement('span');
+                    author.className = 'ref-author';
+                    author.textContent = ref.author;
+                    const work = document.createElement('span');
+                    work.textContent = ref.label;
+                    item.appendChild(author);
+                    item.appendChild(work);
+                    item.addEventListener('click', () => {
+                        closeCommentaryPopover();
+                        openCommentaryRef(ref);
+                    });
+                    list.appendChild(item);
+                }
+            });
+
+            document.body.appendChild(backdrop);
+            document.body.appendChild(pop);
+
+            if (window.innerWidth > 700) {
+                const rect = pop.getBoundingClientRect();
+                let left = Math.max(10, Math.min(x, window.innerWidth - rect.width - 10));
+                let top = y + 12;
+                if (top + rect.height > window.innerHeight - 10) {
+                    top = Math.max(10, y - rect.height - 12);
+                }
+                pop.style.left = left + 'px';
+                pop.style.top = top + 'px';
+            }
+
+            commentaryPopover = { el: pop, backdrop: backdrop };
+        }
+
+        function getVerseRefs(verseEl) {
+            try {
+                const refs = JSON.parse(verseEl.dataset.refs);
+                return Array.isArray(refs) ? refs : [];
+            } catch (e) {
+                return [];
+            }
+        }
+
+        document.addEventListener('click', (event) => {
+            const verse = event.target.closest('.verse.has-commentary');
+            if (!verse) return;
+            const refs = getVerseRefs(verse);
+            if (!refs.length) return;
+            showCommentaryPopover(refs, event.clientX, event.clientY);
+        });
+
+        const commentaryTooltip = document.createElement('div');
+        commentaryTooltip.className = 'commentary-tooltip';
+
+        function hideCommentaryTooltip() {
+            commentaryTooltip.style.display = 'none';
+        }
+
+        if (window.matchMedia('(hover: hover)').matches) {
+            document.addEventListener('DOMContentLoaded', () => {
+                document.body.appendChild(commentaryTooltip);
+            });
+
+            document.addEventListener('mouseover', (event) => {
+                const verse = event.target.closest('.verse.has-commentary');
+                if (!verse || commentaryPopover) return;
+                const refs = getVerseRefs(verse);
+                if (!refs.length) return;
+
+                commentaryTooltip.innerHTML = '';
+                const authors = [];
+                refs.forEach(ref => {
+                    const author = ref.author || 'Synaxarion';
+                    if (!authors.includes(author)) authors.push(author);
+                });
+                authors.forEach(author => {
+                    const line = document.createElement('div');
+                    line.textContent = author;
+                    commentaryTooltip.appendChild(line);
+                });
+
+                commentaryTooltip.style.display = 'block';
+                const rect = commentaryTooltip.getBoundingClientRect();
+                let left = Math.max(10, Math.min(event.clientX, window.innerWidth - rect.width - 10));
+                let top = event.clientY + 18;
+                if (top + rect.height > window.innerHeight - 10) {
+                    top = event.clientY - rect.height - 12;
+                }
+                commentaryTooltip.style.left = left + 'px';
+                commentaryTooltip.style.top = top + 'px';
+            });
+
+            document.addEventListener('mouseout', (event) => {
+                if (event.target.closest('.verse.has-commentary')) {
+                    hideCommentaryTooltip();
+                }
+            });
         }
         
         // Dynamic tooltip positioning for footnotes in homily panel

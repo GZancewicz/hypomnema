@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 6378,
-  "excerpt": "Matt. III. 7....",
+  "excerpt": "“But when he saw many of the Pharisees and Sadducees come to his baptism, he said unto them, O generation of vipers, who hath warned you to flee from the wrath…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -79,5 +79,16 @@
     "51": "[The first clause stands independently in the Greek text, forming the conclusion of the preceding paragraph. The new exhortation begins, “But I beseech again,” etc.—R.]",
     "52": "στχον."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 12
+    },
+    "display": "Matthew 3:7-12"
+  }
 }

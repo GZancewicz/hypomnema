@@ -56,5 +56,16 @@
     "28": "κἂν μἡ καταβάλῃ. One ms. καταλάβῃ, “if it get it not.”",
     "29": "λιπαίνει"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 13
+    },
+    "display": "John 17:6-13"
+  }
 }

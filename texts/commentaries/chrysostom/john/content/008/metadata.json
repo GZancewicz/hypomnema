@@ -53,5 +53,16 @@
     "25": "ἐ πᾶραι.",
     "26": "ὑ ποσκελίσαι (a gymnastic term like the preceding)."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 11
+    },
+    "display": "John 1:11"
+  }
 }

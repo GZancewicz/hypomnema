@@ -42,5 +42,16 @@
     "14": "αὐθεντίαν",
     "15": "Sav. “judgest.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "display": "John 7:45-8:19"
+  }
 }

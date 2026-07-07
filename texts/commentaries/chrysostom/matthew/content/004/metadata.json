@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 8123,
-  "excerpt": "Matt. I. 17....",
+  "excerpt": "“So all the generations from Abraham to David are fourteen generations, and from David until the carrying away into Babylon are fourteen generations, and from…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -98,5 +98,16 @@
     "70": "[τν φιλοσοφοντων.]",
     "71": "Heb. xi. 38."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 21
+    },
+    "display": "Matthew 1:17-21"
+  }
 }

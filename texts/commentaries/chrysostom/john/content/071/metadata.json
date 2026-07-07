@@ -89,5 +89,16 @@
     "61": "i.e. “certain” foolish ones.",
     "62": "al. “lay hold on.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "display": "John 13:20-35"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3627,
-  "excerpt": "Matt. II. 2....",
+  "excerpt": "How then saith Luke, that He was lying in the manger? Because at the birth indeed she presently laid Him there (for, as was not unlikely, in that large…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -48,5 +48,16 @@
     "20": "In the works of St. Athanasius.",
     "21": "Josh. xxiv. 2."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 15
+    },
+    "display": "Matthew 2:2-15"
+  }
 }

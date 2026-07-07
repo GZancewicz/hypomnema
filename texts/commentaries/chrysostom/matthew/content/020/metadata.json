@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 5175,
-  "excerpt": "Homily XX.<sup>f1</sup>...",
+  "excerpt": "“And when ye fast, be not as the hypocrites, of a sad countenance. For they disfigure their faces, that they may appear unto men to…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -50,5 +50,16 @@
     "22": "Luke xvi. 24.",
     "23": "Ezek. xiv. 14."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 23
+    },
+    "display": "Matthew 6:16-23"
+  }
 }

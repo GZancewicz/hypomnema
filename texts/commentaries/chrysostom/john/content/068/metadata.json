@@ -53,5 +53,16 @@
     "25": "πομπεύουσα",
     "26": "ἀ κηράτους"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 50
+    },
+    "display": "John 12:42-50"
+  }
 }

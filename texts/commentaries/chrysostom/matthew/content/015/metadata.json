@@ -2,7 +2,7 @@
   "id": 15,
   "roman": "XV",
   "title": "Homily XV",
-  "subtitle": "Matthew 5:1",
+  "subtitle": "Matthew 5:1-2",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 5,
-      "verse": 1
+      "verse": 2
     },
-    "display": "Matthew 5:1"
+    "display": "Matthew 5:1-2"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 10183,
-  "excerpt": "Matt. V. 1, 2....",
+  "excerpt": "“And Jesus seeing the multitudes went up into the mountain, and when He was set, His disciples came unto Him. And He opened His mouth, and taught them saying,…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -107,5 +107,16 @@
     "79": "[ὥστε.]",
     "80": "ἀγνωμονεν."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 16
+    },
+    "display": "Matthew 5:1-16"
+  }
 }

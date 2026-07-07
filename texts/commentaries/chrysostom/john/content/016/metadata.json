@@ -46,5 +46,16 @@
     "18": "“uprightly,” E.V.",
     "19": "al. “to hear.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 34
+    },
+    "display": "John 1:28-34"
+  }
 }

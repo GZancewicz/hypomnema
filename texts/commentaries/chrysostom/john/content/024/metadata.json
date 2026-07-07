@@ -68,5 +68,16 @@
     "40": "i.e. unbaptized.",
     "41": "ἀ ποτηγανιζομένῃ."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "display": "John 3:5"
+  }
 }

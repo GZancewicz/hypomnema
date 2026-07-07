@@ -63,5 +63,16 @@
     "35": "or, “do not things like them.”",
     "36": "i.e. “no less than the actions.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 17,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "display": "John 17:14-26"
+  }
 }

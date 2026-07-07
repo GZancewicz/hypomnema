@@ -2,7 +2,7 @@
   "id": 37,
   "roman": "XXXVII",
   "title": "Homily XXXVII",
-  "subtitle": "Matthew 10:7",
+  "subtitle": "Matthew 10:7-9",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 10,
-      "verse": 7
+      "verse": 9
     },
-    "display": "Matthew 10:7"
+    "display": "Matthew 10:7-9"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 6315,
-  "excerpt": "Matt. X. 7, 8, 9....",
+  "excerpt": "For the matter indeed of John’s disciples had been ordered well, and they were gone away assured by the miracles which had just been performed; but there was…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -73,5 +73,16 @@
     "45": "i.e., to tyrants, such as Pisistratus and others.",
     "46": "Gen. xxxix. 12."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 10,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 24
+    },
+    "display": "Matthew 10:7-11:24"
+  }
 }

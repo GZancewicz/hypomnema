@@ -2,7 +2,7 @@
   "id": 1,
   "roman": "I",
   "title": "Sermon I",
-  "subtitle": "Luke 2:1",
+  "subtitle": "Luke 2:1-7",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,22 +14,22 @@
     },
     "end": {
       "chapter": 2,
-      "verse": 1
+      "verse": 7
     },
-    "display": "Luke 2:1"
+    "display": "Luke 2:1-7"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1940,
-  "excerpt": "Luke ii. 1. And it came to pass in those days, &c. Luke ii. 1. And it came to pass in those days, &c. Christ therefore was born in Bethlehem at the time when Augustus Caesar gave orders that the first enrolment should be made. But what necessity was there, some one may perhaps say, for the very wise Evangelist to make special mention of this? Yes, I answer: it was both useful and necessary for him to mark the period when our Saviour was born: for it was said by the voice of the Patriarch: \"The head shall not depart from Judah, nor a governor from his thighs until He come, for Whom it is laid up: and He is the expectation of the Gentiles.\" That we therefore might learn that the Israelites had then no king of the tribe of David, and that their own native governors had failed, with good reason he makes mention of the decrees of Caesar, as now having beneath his sceptre Judaea as well as the rest of the nations: for it was as their ruler that he commanded the census to be made. 2:4. Because he was of the house and lineage...",
+  "excerpt": "Luke ii. 1. And it came to pass in those days, &c. Christ therefore was born in Bethlehem at the time when Augustus Caesar gave orders that the first enrolment should be made. But what necessity was there, some one may perhaps say, for the very wise Evangelist to make special mention of this? Yes, I answer: it was both useful and necessary for him to mark the period when our Saviour was born: for it was said by the voice of the Patriarch: \"The head shall not depart from Judah, nor a governor from his thighs until He come, for Whom it is laid up: and He is the expectation of the Gentiles.\" That we therefore might learn that the Israelites had then no king of the tribe of David, and that their own native governors had failed, with good reason he makes mention of the decrees of Caesar, as now having beneath his sceptre Judaea as well as the rest of the nations: for it was as their ruler that he commanded the census to be made. 2:4. Because he was of the house and lineage of David. The...",
   "source_file": "cyril_on_luke_01_sermons_01_11.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": true,
   "footnotes": {
-    "1": "\u0398\u03b5\u1f78\u03c2 \u03ba\u03b1\u1f76 \u1f51\u03b9\u1f79\u03c2,\nGod the Son; as \u0398\u03b5\u1f78\u03c2 \u03ba\u03b1\u1f76 \u03c0\u03b1\u03c4\u1f75\u03c1\nis used by S. Cyril for God the Father. In the more ancient Syriac MSS. the\nconjunction in these phrases is constantly retained, while in those of a later date the tendency is to omit it.",
-    "2": "Mai translates contrary to the Greek \"Unigenitius Dei.\"----S. Cyril's reading\n\u0398\u03b5\u1f79\u03c2, agrees as usual with the Vatican MS., and is also supported by many of the fathers, and by the Oriental versions.",
-    "3": "Eunomius taught, that the Father and Son are unequal, both in\ndegree and kind, whence his followers were called \u1f00\u03bd\u1f79\u03bc\u03bf\u03b9\u03bf\u03b9. He flourished about A. D. 360, and was a disciple of Aetius. St. Athanasius often refers to him in his treatise against the Arians. For a fuller account of him, cf. Newman's Arians, c. iv. sect. 4.",
-    "4": "For a very full and accurate discussion of the sense in which our   Lord  is  both\n\u03bc\u03bf\u03bd\u03bf\u03b3\u03b5\u03bd\u1f75\u03c2\nand \u03c0\u03c1\u03c9\u03c4\u1f79\u03c4\u03bf\u03ba\u03bf\u03c2, the reader may consult S. Cyril's eighth Paschal Homily."
+    "1": "Θεὸς καὶ ὑιός,\nGod the Son; as Θεὸς καὶ πατήρ\nis used by S. Cyril for God the Father. In the more ancient Syriac MSS. the\nconjunction in these phrases is constantly retained, while in those of a later date the tendency is to omit it.",
+    "2": "Mai translates contrary to the Greek \"Unigenitius Dei.\"----S. Cyril's reading\nΘεός, agrees as usual with the Vatican MS., and is also supported by many of the fathers, and by the Oriental versions.",
+    "3": "Eunomius taught, that the Father and Son are unequal, both in\ndegree and kind, whence his followers were called ἀνόμοιοι. He flourished about A. D. 360, and was a disciple of Aetius. St. Athanasius often refers to him in his treatise against the Arians. For a fuller account of him, cf. Newman's Arians, c. iv. sect. 4.",
+    "4": "For a very full and accurate discussion of the sense in which our   Lord  is  both\nμονογενής\nand πρωτότοκος, the reader may consult S. Cyril's eighth Paschal Homily."
   },
   "verified": true
 }

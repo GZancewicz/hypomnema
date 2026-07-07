@@ -73,5 +73,16 @@
     "45": "al. “offend against.”",
     "46": "al. “escorts.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 24
+    },
+    "display": "John 7:9-24"
+  }
 }

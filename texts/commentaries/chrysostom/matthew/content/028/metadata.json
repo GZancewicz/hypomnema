@@ -2,7 +2,7 @@
   "id": 28,
   "roman": "XXVIII",
   "title": "Homily XXVIII",
-  "subtitle": "Matthew 8:23",
+  "subtitle": "Matthew 8:23-24",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 8,
-      "verse": 23
+      "verse": 24
     },
-    "display": "Matthew 8:23"
+    "display": "Matthew 8:23-24"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4762,
-  "excerpt": "Matt. VIII. 23, 24....",
+  "excerpt": "“And when He was entered into a ship, His disciples followed Him. And, behold, there arose a great tempest in the sea, insomuch that the ship was covered with…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -60,5 +60,16 @@
     "32": "[ου σωψρονζει.]",
     "33": "Perhaps the χπυςσεα χαλει`ων, of which Erasmus says, “Conveniet uti, quoties officium aut munus longe impari munere pensatur Admissus est in *principis, sed excitit ex amicitia Christi.” Adag. 1, Cent. ii. Prov. 1."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 8,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 34
+    },
+    "display": "Matthew 8:23-34"
+  }
 }

@@ -48,5 +48,16 @@
     "20": "πολιτεία.",
     "21": "al. “living worthily of.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 8
+    },
+    "display": "John 1:6-8"
+  }
 }

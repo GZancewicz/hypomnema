@@ -62,5 +62,16 @@
     "34": "This seems to be the meaning of τοῦ μετ̓ ἐκείνων πλυνομένου",
     "35": "the prodigal, Luke xv."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 16,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 33
+    },
+    "display": "John 16:16-33"
+  }
 }

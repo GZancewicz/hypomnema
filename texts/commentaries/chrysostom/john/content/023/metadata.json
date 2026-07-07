@@ -53,5 +53,16 @@
     "25": "lit. “with.”",
     "26": "νεῦρα."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 4
+    },
+    "display": "John 2:23-3:4"
+  }
 }

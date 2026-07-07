@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 6443,
-  "excerpt": "Matt. VIII. 5....",
+  "excerpt": "The leper came unto Him “when He was come down from the mountain,” but this centurion, “when He was entered into Capernaum.” Wherefore then did neither the one…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -76,5 +76,16 @@
     "48": "Matt. xxii. 43; Ps. cx. 1.",
     "49": "Numb. xii. 13, 14."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 8,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 13
+    },
+    "display": "Matthew 8:5-13"
+  }
 }

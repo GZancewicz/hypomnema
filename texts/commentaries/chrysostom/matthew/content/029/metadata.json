@@ -2,7 +2,7 @@
   "id": 29,
   "roman": "XXIX",
   "title": "Homily XXIX",
-  "subtitle": "Matthew 9:1",
+  "subtitle": "Matthew 9:1-2",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 9,
-      "verse": 1
+      "verse": 2
     },
-    "display": "Matthew 9:1"
+    "display": "Matthew 9:1-2"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 2571,
-  "excerpt": "Matt. IX. 1, 2....",
+  "excerpt": "By His own city here he means Capernaum. For that which gave Him birth was Bethlehem; that which brought Him up, Nazareth; that which had Him continually…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -66,5 +66,16 @@
     "38": "Tit. ii. 8.",
     "39": "1 Sam. ii. 30. [“Shall be despised,” according to the form given in the text. But in the LXX. the last verb is not the same as the preceding one.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 8
+    },
+    "display": "Matthew 9:1-8"
+  }
 }

@@ -63,5 +63,16 @@
     "35": "al. “all.”",
     "36": "al. “from.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 53
+    },
+    "display": "John 4:40-53"
+  }
 }

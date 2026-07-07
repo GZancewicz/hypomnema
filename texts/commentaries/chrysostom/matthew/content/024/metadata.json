@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3189,
-  "excerpt": "Matt. VII. 21....",
+  "excerpt": "“Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of Heaven, but he that doeth the will of my Father which is in…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -51,5 +51,16 @@
     "23": "Mark vi. 18.",
     "24": "Prov. xxviii. 1."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 27
+    },
+    "display": "Matthew 7:21-27"
+  }
 }

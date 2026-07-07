@@ -60,5 +60,16 @@
     "32": "ἀ δρανὴς",
     "33": "δραπετεύοντα"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 27
+    },
+    "display": "John 4:21-27"
+  }
 }

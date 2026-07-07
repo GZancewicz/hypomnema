@@ -43,5 +43,16 @@
     "15": "or, “for all these reasons.”",
     "16": "al. “those [things].”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "display": "John 9:1-5"
+  }
 }

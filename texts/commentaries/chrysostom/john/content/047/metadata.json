@@ -51,5 +51,16 @@
     "23": "al. “so also do ye; if rather.”",
     "24": "al. “unbearable.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 7,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 8
+    },
+    "display": "John 7:1-8"
+  }
 }

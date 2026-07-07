@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 10522,
-  "excerpt": "Matt. V. 17....",
+  "excerpt": "“Think not that I am come to destroy the Law or the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -108,5 +108,16 @@
     "80": "2 Cor. iv. 17, xii. 10; Rom. v. 3; Gal. vi. 17; Col. i. 24.",
     "81": "Phil. iii. 13, 14."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 26
+    },
+    "display": "Matthew 5:17-26"
+  }
 }

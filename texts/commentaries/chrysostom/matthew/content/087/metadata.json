@@ -2,7 +2,7 @@
   "id": 87,
   "roman": "LXXXVII",
   "title": "Homily LXXXVII",
-  "subtitle": "Matthew 27:27",
+  "subtitle": "Matthew 27:27-29",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,16 +14,16 @@
     },
     "end": {
       "chapter": 27,
-      "verse": 27
+      "verse": 29
     },
-    "display": "Matthew 27:27"
+    "display": "Matthew 27:27-29"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3543,
-  "excerpt": "Homily LXXXVII....",
+  "excerpt": "As though on some signal the devil then was entering in triumphinto all. For, be it that Jews pining with envy and jealousy were mad against Him, as to the…",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "thml_p_span",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
     "1": "Greek, “Prætorium;” comp. Mark xv. 16, A.V.—R.]",
@@ -40,5 +40,16 @@
     "12": "Luke xxiii. 40.",
     "13": "Ecclus. i. 22."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 27,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 44
+    },
+    "display": "Matthew 27:27-44"
+  }
 }

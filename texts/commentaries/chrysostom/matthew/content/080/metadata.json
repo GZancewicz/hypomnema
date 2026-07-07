@@ -2,7 +2,7 @@
   "id": 80,
   "roman": "LXXX",
   "title": "Homily LXXX",
-  "subtitle": "Matthew 26:51",
+  "subtitle": "Matthew 26:6-7",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -10,52 +10,44 @@
     "book": "matthew",
     "start": {
       "chapter": 26,
-      "verse": 51
+      "verse": 6
     },
     "end": {
       "chapter": 26,
-      "verse": 51
+      "verse": 7
     },
-    "display": "Matthew 26:51"
+    "display": "Matthew 26:6-7"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3657,
-  "excerpt": "Homily LXXXIV....",
+  "word_count": 4252,
+  "excerpt": "“Now when Jesus was in Bethany, in the house of Simon the leper, there came unto Him a woman having an alabaster box of very precious ointment, and poured it…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "[R.V., “Or thinkest.”]",
-    "2": "[R.V., “even now.”]",
-    "3": "[The citation is very accurate; the only variation is the omission of μου after πατρα.—R.]",
-    "4": "John xviii. 10.",
-    "5": "Luke xxii. 35–38. [On the renderings of verse 36, see R.V. The text of the Homily admits of either interpretation, but the comment favors the rendering given in the text of the R.V.—R.]",
-    "6": "John xviii. 11.",
-    "7": "Luke xxii. 49.",
-    "8": "Matt. xxvi. 53, 54.",
-    "9": "Matt. xxvi. 38, 39.",
-    "10": "2 Kings xix. 35.",
-    "11": "Matt. xxvi. 55. [R.V., “robber”…“ to seize me”…“ye took me not.”]",
-    "12": "Matt. xxvi. 56.",
-    "13": "Matt. xxvi. 57, 58. [Abridged and altered.]",
-    "14": "John xviii. 15.",
-    "15": "John xviii. 28. [Compare Homily LXXVI. 1, and the note there.—R.]",
-    "16": "συνδριον λοιμν; cf. Ps. i. 1.",
-    "17": "Mark xiv. 56, 59. [The passages are combined.—R.]",
-    "18": "Matt. xxvi. 60, 61. [The citation is very free, not agreeing with any one of the evangelists, according to our authorities; but it seems to combine terms from several passages.—R.]",
-    "19": "See John ii. 19–21.",
-    "20": "Matt. xxvi. 62, 63. [Freely cited; the beginning is from the language of Pilate; chap. xxvii. 13.—R.]",
-    "21": "Matt. xxvi. 63–65. [In verse 63, “the living God” occurs twice, peculiar to this Homily: in verse 64“of heaven” is omitted. In other details the citation agrees with the received text.—R.]",
-    "22": "Acts vii. 59.",
-    "23": "Matt. xxii. 43–46.",
-    "24": "Matt. xxvi. 66.",
-    "25": "John xviii. 30. [R.V., “an evil-doer.”]",
-    "26": "John xi. 48. [Freely paraphrased.]",
-    "27": "John xviii. 31.",
-    "28": "John xix. 21. [The citation is accurate; “it” is supplied by the translator to complete the sense.—R.]",
-    "29": "[The following clause is omitted in the translation: “Much better and stronger art thou than thine antagonist.”—R.]",
-    "30": "Gen. xxxix. 17."
+    "1": "St. Augustin, on St. John, Hom. XLIX. sec. 3, speaks of the identity as doubtful. See also Greswell, vol. ii., Diss. XVII., and vol. iii. Diss. III. It seems that the occasion recorded in Luke vii. 37 must have been different, whether the person were the same or not. St. Chrysostom supposes two unctions at Bethany. See note at the end of “Sermons preached at St. Saviour’s Church, Leeds.” [Augustin discusses the question more fully in his Harmony of the Gospels, see Nicene Fathers, vol. vi. pp. 173, 174. He holds that there were two occasions, one named by Luke, and the other by Matthew, Mark and John, but that Mary was the person anointing on both occasions. This leads to the identification of Mary, the sister of Lazarus, with Mary Magdalene. But there is no proof that Luke refers to the latter. The opinion of Chrysostom seems to be that Matthew, Mark and Luke refer to the same person, and John to another on a different occasion. But to this there are insuperable objections.—R.]",
+    "2": "Lit, an economy.",
+    "3": "Matt. xxvi. 8–13. [The Greek text agrees with the received with the exception of a change of order in the first clause of verse 11. In verse 12, the R.V. renders, “to prepare me for burial,” and in verse 12, “bespoken of” for “be told.”—R.]",
+    "4": "See ix. 13, and xii. 7.",
+    "5": "[A clause is omitted here: “and conquered in wars.”—R.]",
+    "6": "[This accords with the assumed identity with the woman spoken of in Luke vii. But there seems to be no proof that Chrysostom identified the woman with Mary Magdalene. Compare p. 41, Homily VI. 8.—R.]",
+    "7": "Matt. xxvi. 14, 15. [R.V., “Then one of the twelve, who was called Judas Iscariot, went unto the chief priests, and said, What are ye willing to give me,” etc.]",
+    "8": "Luke xxii. 4. [The explanation is untenable. The “captains” (στρατηγο) were not “chiliarchs,” but the officers of the temple guard; comp. Luke xxii. 52, where the same word occurs.",
+    "9": "Matt. xxvi. 15, 16. [R.V., “And they weighed unto him thirty,” etc. to deliver Him unto them. The same word as in verse 15.—R.]",
+    "10": "[The words “their kinsmen” should be inserted here.—R.]",
+    "11": "Ecclus. x. 9."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 26,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 16
+    },
+    "display": "Matthew 26:6-16"
+  }
 }

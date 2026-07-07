@@ -2,11 +2,22 @@
   "id": 70,
   "roman": "LXX",
   "title": "Homily LXX",
-  "subtitle": "",
+  "subtitle": "John 13:12",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on John",
-  "scripture_reference": null,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "display": "John 13:12"
+  },
   "themes": [],
   "date_delivered": null,
   "word_count": 2693,
@@ -41,5 +52,16 @@
     "24": "ἀ νερμάτιστος",
     "25": "i.e. Benjamin’s."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "display": "John 13:12-18"
+  }
 }

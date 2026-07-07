@@ -86,5 +86,16 @@
     "58": "al. “it darkens.”",
     "59": "al. “without meat.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 27
+    },
+    "display": "John 11:1-27"
+  }
 }

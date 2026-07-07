@@ -51,5 +51,16 @@
     "23": "αὐτῇ [γενεᾷ] G. T.",
     "24": "al. “were drawn away.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "display": "John 2:11-22"
+  }
 }

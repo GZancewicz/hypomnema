@@ -2,7 +2,7 @@
   "id": 38,
   "roman": "XXXVIII",
   "title": "Homily XXXVIII",
-  "subtitle": "Matthew 11:25",
+  "subtitle": "Matthew 11:25-26",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 11,
-      "verse": 25
+      "verse": 26
     },
-    "display": "Matthew 11:25"
+    "display": "Matthew 11:25-26"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3438,
-  "excerpt": "Matt. XI. 25, 26....",
+  "excerpt": "Seest thou, how many ways He leads them on to the faith? First,by His praises of John. For by pointing to him as a great and marvellous one, He proved likewise…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -66,5 +66,16 @@
     "38": "Zech. v. 7, 8.",
     "39": "Phil. ii. 17, 18. [R.V., “and in the same manner also,” etc.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 11,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 30
+    },
+    "display": "Matthew 11:25-30"
+  }
 }

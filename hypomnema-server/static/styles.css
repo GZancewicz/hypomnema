@@ -20,8 +20,8 @@
     --color-sidebar-text: #ecf0f1;
     
     /* Homily reference colors */
-    --color-homily-bg: #e8f3ff;
-    --color-homily-bg-hover: #d8e9ff;
+    --color-homily-bg: #f0f7ff;
+    --color-homily-bg-hover: #e4f0ff;
     --color-homily-border: #b8d9ff;
     --color-homily-border-hover: #a8c9ff;
     
@@ -306,7 +306,7 @@ body {
     color: var(--color-primary);
 }
 
-.canon-num[title] {
+.canon-num[data-tooltip] {
     border-bottom: 1px dotted var(--color-text-lighter);
 }
 
@@ -458,49 +458,188 @@ body {
     padding: var(--spacing-xl);
 }
 
-/* Homily references container */
-.homily-refs-container {
-    position: relative;
-    float: right;
-    clear: right;
-    margin-right: -80px;
-    margin-left: var(--spacing-md);
-    margin-bottom: var(--spacing-xs);
-    width: 40px;
+/* Verses with commentary */
+.verse.has-commentary {
+    border-radius: 3px;
+    padding: 1px 3px;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.verse.has-commentary:hover {
+    background-color: var(--color-homily-bg-hover);
+}
+
+.commentary-legend {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    font-size: var(--font-md);
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-md);
+}
+
+.greek-toggle {
+    font-family: inherit;
+    font-size: var(--font-md);
+    color: var(--color-text-secondary);
+    background: var(--color-background-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--border-radius);
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+
+.greek-toggle:hover {
+    background-color: var(--color-background-hover);
+}
+
+.chapter-text.verse-broken .verse {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.chapter-text .greek-text {
+    display: none;
+}
+
+.chapter-text.verse-broken .greek-text {
+    display: block;
+    font-size: 0.88em;
+    margin-top: 2px;
+}
+
+.commentary-legend::before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: var(--color-homily-bg);
+    border: 1px solid var(--color-homily-border);
+    border-radius: 3px;
+    margin-right: 6px;
+    vertical-align: -1px;
+}
+
+.commentary-tooltip {
+    position: fixed;
+    display: none;
+    background: var(--color-text);
+    color: white;
+    padding: 8px 12px;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    line-height: 1.5;
+    z-index: var(--z-index-tooltip);
+    pointer-events: none;
+    box-shadow: var(--shadow-medium);
+    max-width: 340px;
+}
+
+.commentary-popover-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: var(--z-index-modal);
+    background: transparent;
+}
+
+.commentary-popover {
+    position: fixed;
+    background: var(--color-background-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-heavy);
+    z-index: var(--z-index-modal);
+    min-width: 260px;
+    max-width: 380px;
+    max-height: 60vh;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-xs);
+    overflow: hidden;
 }
 
-/* Homily references in right margin */
-.homily-ref {
+.commentary-popover-list {
+    overflow-y: auto;
+}
+
+.commentary-popover-header {
+    padding: 8px 14px;
     font-size: var(--font-sm);
-    color: var(--color-text-secondary);
-    font-style: normal;
-    text-align: center;
-    white-space: nowrap;
-    line-height: 1.4;
-    padding: 8px 6px;
-    border-left: 2px solid var(--color-homily-border);
-    background-color: var(--color-homily-bg);
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.commentary-popover-item {
     display: block;
-    text-decoration: none;
-    transition: all var(--transition-fast);
-    box-shadow: var(--shadow-light);
-    position: relative;
-    font-weight: 500;
-}
-
-.homily-ref:hover {
+    width: 100%;
+    text-align: left;
+    padding: 10px 14px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--color-border-lighter);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: var(--font-base);
     color: var(--color-text);
-    background-color: var(--color-homily-bg-hover);
-    border-left-color: var(--color-homily-border-hover);
+    transition: background-color var(--transition-fast);
 }
 
-/* Tooltip on hover - shared base styles */
-.homily-ref[data-full-text]:hover::after,
-.canon-num[title]:hover::after {
-    content: attr(data-full-text);
+.commentary-popover-item:last-child {
+    border-bottom: none;
+}
+
+.commentary-popover-item:hover {
+    background-color: var(--color-homily-bg);
+}
+
+.commentary-popover-item .ref-author {
+    display: block;
+    font-size: var(--font-sm);
+    color: var(--color-text-muted);
+}
+
+.commentary-popover-note {
+    padding: 10px 14px;
+    font-size: var(--font-md);
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid var(--color-border-lighter);
+}
+
+.commentary-popover-note:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 700px) {
+    .commentary-popover {
+        left: 0 !important;
+        right: 0;
+        top: auto !important;
+        bottom: 0;
+        width: 100%;
+        max-width: none;
+        border-radius: 12px 12px 0 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    .commentary-popover-backdrop {
+        background: rgba(0, 0, 0, 0.35);
+    }
+
+    .commentary-popover-item {
+        padding: 14px;
+    }
+}
+
+.canon-num[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
     position: absolute;
     background: var(--color-text);
     color: white;
@@ -510,19 +649,6 @@ body {
     z-index: var(--z-index-tooltip);
     pointer-events: none;
     box-shadow: var(--shadow-medium);
-}
-
-/* Tooltip positioning variations */
-.homily-ref[data-full-text]:hover::after {
-    content: attr(data-full-text);
-    right: 100%;
-    top: 0;
-    margin-right: var(--spacing-sm);
-    white-space: nowrap;
-}
-
-.canon-num[title]:hover::after {
-    content: attr(title);
     left: 100%;
     top: -5px;
     margin-left: var(--spacing-sm);
@@ -662,11 +788,6 @@ mark {
 
 .container.homily-open .content-footer {
     padding-right: var(--spacing-xl);
-}
-
-/* Hide homily references when homily panel is open */
-.container.homily-open .homily-refs-container {
-    display: none;
 }
 
 /* Footnotes */
@@ -823,11 +944,6 @@ sup.footnote-ref:hover {
     
     .content-footer {
         padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
-    }
-    
-    /* Keep homily references visible for mobile */
-    .homily-refs-container {
-        margin-right: -30px;
     }
     
     /* Adjust canon numbers for mobile */

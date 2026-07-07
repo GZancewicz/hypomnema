@@ -38,5 +38,16 @@
     "10": "“If ye shall ask anything in My Name, I,” &c., N.T.",
     "11": "lit. “maladies.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 14,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 14
+    },
+    "display": "John 14:8-14"
+  }
 }

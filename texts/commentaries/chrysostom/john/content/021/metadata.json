@@ -58,5 +58,16 @@
     "30": "ἐ νδεία.",
     "31": "φιλοσόφου."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 10
+    },
+    "display": "John 2:4-10"
+  }
 }

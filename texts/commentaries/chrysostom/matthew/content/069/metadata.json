@@ -2,51 +2,65 @@
   "id": 69,
   "roman": "LXIX",
   "title": "Homily LXIX",
-  "subtitle": "Matthew 23:1",
+  "subtitle": "Matthew 22:1-14",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
   "scripture_reference": {
     "book": "matthew",
     "start": {
-      "chapter": 23,
+      "chapter": 22,
       "verse": 1
     },
     "end": {
-      "chapter": 23,
-      "verse": 1
+      "chapter": 22,
+      "verse": 14
     },
-    "display": "Matthew 23:1"
+    "display": "Matthew 22:1-14"
   },
   "themes": [],
   "date_delivered": null,
-  "word_count": 3666,
-  "excerpt": "Homily LXXII....",
+  "word_count": 4613,
+  "excerpt": "Seest thou both in the former parable and in this the difference between the Son and the servants? Seest thou at once the great affinity between both parables,…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
-    "1": "[The Greek text in this clause differs somewhat both from the received and from that followed in the R.V.—R.]",
-    "2": "[κυρου κα κυρου, referring to the two uses of the word in the Old Testament passage cited in Matt. xxii. 44, but not in precise terms.—R.]",
-    "3": "Deut. vi. 4.",
-    "4": "Matt. xxiii. 4. [“For,” as in rec. text.]",
-    "5": "Matt. xxiii. 5.",
-    "6": "Matt. xxiii. 5.",
-    "7": "Deut. vi. 8; so LXX. A.V. “as frontlets between.”",
-    "8": "Numb. xv. 38, 39. [The passage is freely given from the LXX.]",
-    "9": "[R.V., “the chief place.”]",
-    "10": "[With the oldest New Testament mss. the word “Rabbi” is not repeated.—R.]",
-    "11": "This passage has afforded grounds for a conjecture as to the date of the Homily, but the language is too general to prove anything; see Montfaucon’s Preface.",
-    "12": "Matt. xxiii. 8.",
-    "13": "1 Cor. iii. 5.",
-    "14": "Matt. xxiii. 9.",
-    "15": "Matt. xxiii. 10. [The word καθηγητς is rendered “Master” in our English versions, but “guide” is more literal; “the Christ” (R.V.), is preferable, especially in view of the context here.—R.]",
-    "16": "Matt. xxii. 42. [R.V., “the Christ.”]",
-    "17": "Matt. xxiii. 11, 12. [R.V., “humbled,” and “humble.” The A.V. here uses both “abase” and “humble.”—R.]",
-    "18": "Gen. xviii. 27.",
-    "19": "Or, “courts.” [στρατοπδοι; in earlier Greek “camps,” but in Byzantine Greek applied to the suite of the Emperor.—R.]",
-    "20": "Ps. xxii. 6.",
-    "21": "1 Cor. xv. 9."
+    "1": "[The order here is slightly varied, and “unto them” is omitted. With these exceptions the entire passage is in verbal agreement with the received text.—R.]",
+    "2": "[R.V., “marriage feast.”]",
+    "3": "[Verses 7–14 do not appear in the Greek text of Migne’s edition, but are added in the Oxford translation, and in Field’s Greek text.—R.]",
+    "4": "2 Cor. xi. 2.",
+    "5": "Eph. v. 32.",
+    "6": "ἀπαρλλακτον .",
+    "7": "John iii. 30.",
+    "8": "Matt. xi. 28. [“Refresh” is the rendering of the Greek term answering to “give rest” in the English versions.—R.]",
+    "9": "John vii. 37.",
+    "10": "Gal. ii. 8. [R.V., “wrought for” twice; the Greek verb is the same in both clauses.—R.]",
+    "11": "πση πανδαισα.",
+    "12": "1 Thess. ii. 15. [R.V., “and drove out us.”]",
+    "13": "Matt. xxviii. 19.",
+    "14": "Matt. x. 6.",
+    "15": "Acts i. 8.",
+    "16": "Gal. ii. 8. [Comp. note 7, p. 421.]",
+    "17": "Acts xiii. 46. [Slightly abridged.]",
+    "18": "Or, “repeatedly.”",
+    "19": "Rom. xv. 9.",
+    "20": "Matt. xxii. 13.",
+    "21": "[The clause in italics is not found in the mss. collated by Field, but occurs in the Benedictine edition.—R.]",
+    "22": "φρη κροκωτ.",
+    "23": "ἰσονομ.",
+    "24": "Matt. xi. 12."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 22,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 14
+    },
+    "display": "Matthew 22:1-14"
+  }
 }

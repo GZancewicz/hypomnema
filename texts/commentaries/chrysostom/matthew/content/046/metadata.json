@@ -2,7 +2,7 @@
   "id": 46,
   "roman": "XLVI",
   "title": "Homily XLVI",
-  "subtitle": "Matthew 13:24",
+  "subtitle": "Matthew 13:24-30",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 13,
-      "verse": 24
+      "verse": 30
     },
-    "display": "Matthew 13:24"
+    "display": "Matthew 13:24-30"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3451,
-  "excerpt": "Homily XLVI....",
+  "excerpt": "What is the difference between this, and the parable before it? There He speaks of them that have not at all holden with Him, but have started aside, and have…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -55,5 +55,16 @@
     "27": "Matt. xix. 27.",
     "28": "Matt. v. 29; compare Mark x. 30, Luke viii. 30."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 33
+    },
+    "display": "Matthew 13:24-33"
+  }
 }

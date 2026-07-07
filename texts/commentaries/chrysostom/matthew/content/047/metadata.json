@@ -2,7 +2,7 @@
   "id": 47,
   "roman": "XLVII",
   "title": "Homily XLVII",
-  "subtitle": "Matthew 13:34",
+  "subtitle": "Matthew 13:34-35",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 13,
-      "verse": 34
+      "verse": 35
     },
-    "display": "Matthew 13:34"
+    "display": "Matthew 13:34-35"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3262,
-  "excerpt": "Homily XLVII....",
+  "excerpt": "But Mark saith, “As they were able to hear it, He spake the word unto them in…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -73,5 +73,16 @@
     "45": "λογισμος.",
     "46": "[The translator has omitted a clause: “and dares not face him,” κα ντιβλψαι ο τολμ.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 52
+    },
+    "display": "Matthew 13:34-52"
+  }
 }

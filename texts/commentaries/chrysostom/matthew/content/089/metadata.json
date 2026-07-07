@@ -2,7 +2,7 @@
   "id": 89,
   "roman": "LXXXIX",
   "title": "Homily LXXXIX",
-  "subtitle": "Matthew 27:62",
+  "subtitle": "Matthew 27:62-64",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,16 +14,16 @@
     },
     "end": {
       "chapter": 27,
-      "verse": 62
+      "verse": 64
     },
-    "display": "Matthew 27:62"
+    "display": "Matthew 27:62-64"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4070,
-  "excerpt": "Homily LXXXIX....",
+  "excerpt": "Everywhere deceit recoils upon itself, and against its will supports the truth. And observe. It was necessary for it to be believed that He died, and that He…",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "thml_p_span",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
     "1": "[ὅτι is inserted at this point (but not in the subsequent citation). There are no other variations. R.V., “Now on the morrow which is the day after the Preparation, the chief priests and the Pharisees were gathered together,” etc.—R.]",
@@ -52,5 +52,16 @@
     "24": "[The Oxford translator inserts here “hence the jealousies,” but there is no corresponding phrase in the Greek text.—R.]",
     "25": "πτερο."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 27,
+      "verse": 62
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 10
+    },
+    "display": "Matthew 27:62-28:10"
+  }
 }

@@ -2,7 +2,7 @@
   "id": 6,
   "roman": "VI",
   "title": "Homily VI",
-  "subtitle": "Matthew 2:1",
+  "subtitle": "Matthew 2:1-2",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 2,
-      "verse": 1
+      "verse": 2
     },
-    "display": "Matthew 2:1"
+    "display": "Matthew 2:1-2"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 6030,
-  "excerpt": "Matt. II. 1, 2....",
+  "excerpt": "“When Jesus was born in Bethlehem of Judæa in the days of Herod the king, behold, there came wise men from the east to Jerusalem, saying, Where is He that is…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -61,5 +61,16 @@
     "33": "[It is a long step from the troubled mind of Jerusalem to the denunciation of libidinous play-acting. But the protest has not lost its force, since the modern theatre, and too often the modern novel, is open to the same severe criticism. See Homily VII. 7, 8, for another instance of the same method of application.—R.]",
     "34": "2 Cor. ii. 2."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 3
+    },
+    "display": "Matthew 2:1-3"
+  }
 }

@@ -2,26 +2,26 @@
   "id": 112,
   "roman": "CXII",
   "title": "Sermon CXII",
-  "subtitle": "Luke 1:1",
+  "subtitle": "Luke 16:22-17:18",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
   "scripture_reference": {
     "book": "luke",
     "start": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 16,
+      "verse": 22
     },
     "end": {
-      "chapter": 1,
-      "verse": 1
+      "chapter": 17,
+      "verse": 18
     },
-    "display": "Luke 1:1"
+    "display": "Luke 16:22-17:18"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4755,
-  "excerpt": "The same subject continued. THE blessed prophet Isaiah has somewhere introduced those who by faith in Christ have been won unto life, as calling out eagerly, so to speak, unto one another, and saying; \"Come, let us go up unto the mountain of the Lord, and unto the house of the God of Jacob, and they shall teach us His way, and we will walk in it.\" Now by the mountain here we affirm to be meant not any earthly mountain; for to imagine this would be foolish: but rather the church which Christ has rescued for Himself. For it is high and conspicuous to people everywhere, and, so to say, exalted, because there is nothing in it which brings men down to earth. For those who dwell within it care nothing for the things of earth, but rather desire those things that are above: and, as the Psalmist says, \"They are exalted far above the earth;\" as being altogether brave and courageous, and practising uninterrupted endeavours after all things whatsoever which please God. And such we believe you to be; and your earnest desire after instruction is a plain proof thereof. For you have come of course to seek...",
+  "excerpt": "The same subject continued. THE blessed prophet Isaiah has somewhere introduced those who by faith in Christ have been won unto life, as calling out eagerly, so to speak, unto one another, and saying; \"Come, let us go up unto the mountain of the Lord, and unto the house of the God of Jacob, and they shall teach us His way, and we will walk in it.\" Now by the mountain here we affirm to be meant not any earthly mountain; for to imagine this would be foolish: but rather the church which Christ has rescued for Himself. For it is high and conspicuous to people everywhere, and, so to say, exalted, because there is nothing in it which brings men down to earth. For those who dwell within it care nothing for the things of earth, but rather desire those things that are above: and, as the Psalmist says, \"They are exalted far above the earth;\" as being altogether brave and courageous, and practising uninterrupted endeavours after all things whatsoever which please God. And such we believe you to...",
   "source_file": "cyril_on_luke_11_sermons_110_123.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4412,
-  "excerpt": "Matt. IX. 9....",
+  "excerpt": "For when He had performed the miracle, He did not remain, lest, being in sight, He should kindle their jealousy the more; but He indulges them by retiring, and…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -73,5 +73,16 @@
     "45": "[῾Ελλνων; see note on Homily XII. 5, p. 79.—R.]",
     "46": "Ps. xlv. 11."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 17
+    },
+    "display": "Matthew 9:9-17"
+  }
 }

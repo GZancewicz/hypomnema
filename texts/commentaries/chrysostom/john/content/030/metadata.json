@@ -82,5 +82,16 @@
     "54": "al. “live only for the present,” κατὰ τὸ π",
     "55": "al. “incorrupt.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "display": "John 3:35-4:12"
+  }
 }

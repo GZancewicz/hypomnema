@@ -70,5 +70,16 @@
     "42": "al. “putting around.”",
     "43": "οὗ, al. ἧ ς, “which boldness.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "display": "John 13:1-11"
+  }
 }

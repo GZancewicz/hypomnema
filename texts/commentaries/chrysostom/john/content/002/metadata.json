@@ -60,5 +60,16 @@
     "32": "κενοδοξία, lit. “empty glory.”",
     "33": "εὐγενεία, “high birth.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "John 1:1"
+  }
 }

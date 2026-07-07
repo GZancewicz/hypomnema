@@ -44,5 +44,16 @@
     "16": "lit. “Greeks.”",
     "17": "al. “apply.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "display": "John 1:49-2:4"
+  }
 }

@@ -47,5 +47,16 @@
     "19": "al. “pain.”",
     "20": "ἐ πᾴδοντος"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 13
+    },
+    "display": "John 5:6-13"
+  }
 }

@@ -2,7 +2,7 @@
   "id": 50,
   "roman": "L",
   "title": "Homily L",
-  "subtitle": "Matthew 14:23",
+  "subtitle": "Matthew 14:23-24",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 14,
-      "verse": 23
+      "verse": 24
     },
-    "display": "Matthew 14:23"
+    "display": "Matthew 14:23-24"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3658,
-  "excerpt": "Homily L....",
+  "excerpt": "For what purpose doth He go up into the mountain? To teach us, that loneliness and retirement is good, when we are to pray to God. With this view, you see, He…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -53,5 +53,16 @@
     "25": "Hosea vi. 6; Matt. ix. 18.",
     "26": "Acts x. 4."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 14,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 36
+    },
+    "display": "Matthew 14:23-36"
+  }
 }

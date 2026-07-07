@@ -2,7 +2,7 @@
   "id": 17,
   "roman": "XVII",
   "title": "Homily XVII",
-  "subtitle": "Matthew 5:27",
+  "subtitle": "Matthew 5:27-28",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 5,
-      "verse": 27
+      "verse": 28
     },
-    "display": "Matthew 5:27"
+    "display": "Matthew 5:27-28"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 6567,
-  "excerpt": "Matt. V. 27, 28....",
+  "excerpt": "Having now finished the former commandment, and having extended it unto the height of self-denial, He, advancing in course and order, proceeds accordingly unto…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -72,5 +72,16 @@
     "44": "ἐπισρεσθαι .",
     "45": "1 Sam. iii. 13."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 37
+    },
+    "display": "Matthew 5:27-37"
+  }
 }

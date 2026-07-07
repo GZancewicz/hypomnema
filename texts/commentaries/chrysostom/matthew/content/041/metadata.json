@@ -2,7 +2,7 @@
   "id": 41,
   "roman": "XLI",
   "title": "Homily XLI",
-  "subtitle": "Matthew 12:25",
+  "subtitle": "Matthew 12:25-26",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 12,
-      "verse": 25
+      "verse": 26
     },
-    "display": "Matthew 12:25"
+    "display": "Matthew 12:25-26"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3784,
-  "excerpt": "Homily XLI....",
+  "excerpt": "“And Jesus knew their thoughts, and said unto them, Every kingdom divided against itself shall be brought to desolation; and every city or house divided…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -48,5 +48,16 @@
     "20": "[This clause is wanting in three mss.—R.]",
     "21": "Luke xvi. 9. [R.V., “by means of,” with margin, “Greek, out of.”]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "display": "Matthew 12:25-32"
+  }
 }

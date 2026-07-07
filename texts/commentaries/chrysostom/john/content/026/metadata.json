@@ -43,5 +43,16 @@
     "15": "ὑ πόθεσιν.",
     "16": "al. “the hungry.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 16
+    },
+    "display": "John 3:12-16"
+  }
 }

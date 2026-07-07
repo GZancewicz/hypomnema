@@ -37,5 +37,16 @@
     "9": "al. “ceases.”",
     "10": "al. “that we may also be able to attain them.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 27
+    },
+    "display": "John 6:26-27"
+  }
 }

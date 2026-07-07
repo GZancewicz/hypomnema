@@ -62,5 +62,16 @@
     "34": "lit. “fair weather.”",
     "35": "al. “dost thou not confess?”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "display": "John 6:28-40"
+  }
 }

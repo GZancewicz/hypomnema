@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4370,
-  "excerpt": "Matt. IX. 18....",
+  "excerpt": "The deed overtook the words; so that the mouths of the Pharisees were the more stopped. For both he that came was a ruler of the synagogue, and his affliction…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -65,5 +65,16 @@
     "37": "1 Tim. v. 5. [R.V., “hath her hope set on God.” Chrysostom reads κριον, and Augustin followed the same reading.—R.]",
     "38": "ἀποκηρττουσι ."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 25
+    },
+    "display": "Matthew 9:18-25"
+  }
 }

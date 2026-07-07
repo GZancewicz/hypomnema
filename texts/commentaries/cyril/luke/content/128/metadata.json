@@ -2,7 +2,7 @@
   "id": 128,
   "roman": "CXXVIII",
   "title": "Sermon CXXVIII",
-  "subtitle": "Luke 19:11-27",
+  "subtitle": "Luke 19:11-14",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 19,
-      "verse": 27
+      "verse": 14
     },
-    "display": "Luke 19:11-27"
+    "display": "Luke 19:11-14"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 1747,
-  "excerpt": "19:11-27. And as they hear these things, He added and spoke a parable, because He was nigh to Jerusalem, and they thought that the kingdom of God was about immediately to be manifested. He said therefore, A certain nobleman went into a far country, to receive for himself a kingdom, and to return. And when he had called ten of his servants, he gave them ten minas f5, and said to them, Traffic until I come. But his citizens hated him, and sent an embassy after him, saying, We will not have this man to reign over us. And it came to pass that when he had received the kingdom and returned, he commanded them to call to him those servants, to whom he had given the money, that he might know what they had gained by trading. And the first came saying, Lord, your mina has gained ten minas more. And he said to him, Well, you good servant: because you have been faithful in a little, you shall have authority over ten cities. And the second came, saying, Lord, your mina has gained five minas. And he said also to him, And you shall be over five cities....",
+  "excerpt": "19:11-27. And as they hear these things, He added and spoke a parable, because He was nigh to Jerusalem, and they thought that the kingdom of God was about immediately to be manifested. He said therefore, A certain nobleman went into a far country, to receive for himself a kingdom, and to return. And when he had called ten of his servants, he gave them ten minas , and said to them, Traffic until I come. But his citizens hated him, and sent an embassy after him, saying, We will not have this man to reign over us. And it came to pass that when he had received the kingdom and returned, he commanded them to call to him those servants, to whom he had given the money, that he might know what they had gained by trading. And the first came saying, Lord, your mina has gained ten minas more. And he said to him, Well, you good servant: because you have been faithful in a little, you shall have authority over ten cities. And the second came, saying, Lord, your mina has gained five minas. And he...",
   "source_file": "cyril_on_luke_12_sermons_124_134.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

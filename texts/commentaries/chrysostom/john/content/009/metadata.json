@@ -52,5 +52,16 @@
     "24": "ἐ μπαροινοῦντας.",
     "25": "ἰ ταμοὺς."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "display": "John 1:11-13"
+  }
 }

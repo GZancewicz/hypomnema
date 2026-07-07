@@ -60,5 +60,16 @@
     "32": "ἔ ξοδον",
     "33": "ἐ φοδίων"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 18,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 15
+    },
+    "display": "John 18:37-19:15"
+  }
 }

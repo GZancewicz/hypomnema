@@ -2,7 +2,7 @@
   "id": 5,
   "roman": "V",
   "title": "Homily V",
-  "subtitle": "Matthew 1:22",
+  "subtitle": "Matthew 1:22-23",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 1,
-      "verse": 22
+      "verse": 23
     },
-    "display": "Matthew 1:22"
+    "display": "Matthew 1:22-23"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4258,
-  "excerpt": "Matt. I. 22, 23....",
+  "excerpt": "“Now all this was done, that it might be fulfilled which was spoken of the Lord by the Prophet, saying, Behold, a Virgin shall be with child, and shall bring…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -68,5 +68,16 @@
     "40": "Luke xvi. 9. It would seem from this that the saints whom we are to supplicate for their help are those on earth, whom we may assist by our alms. And the examples before tend to confirm this view.",
     "41": "2 Cor. xix. 6."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "display": "Matthew 1:22-25"
+  }
 }

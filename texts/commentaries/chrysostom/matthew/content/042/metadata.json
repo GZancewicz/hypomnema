@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3453,
-  "excerpt": "Homily XLII....",
+  "excerpt": "“Either make the tree good, and his fruit good, or else make the tree corrupt, and his fruit corrupt; for the tree is known by his…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -41,5 +41,16 @@
     "13": "1 Cor. xi. 31.",
     "14": "Job. i. 5."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 37
+    },
+    "display": "Matthew 12:33-37"
+  }
 }

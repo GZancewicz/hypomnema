@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 5336,
-  "excerpt": "Matt. X. 34....",
+  "excerpt": "Again, He sets forth the things that are more painful, and that with great aggravation: and the objection they were sure to meet Him with, He prevents them by…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -72,5 +72,16 @@
     "44": "Gen. xiv. 14. Comp. ep. of Barn. c. 9.",
     "45": "Ecclus. xviii. 16."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 10,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 42
+    },
+    "display": "Matthew 10:34-42"
+  }
 }

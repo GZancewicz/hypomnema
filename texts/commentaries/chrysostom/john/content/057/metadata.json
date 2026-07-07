@@ -72,5 +72,16 @@
     "44": "i.e. in the theater.",
     "45": "al. “or rather, both to us and.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 9,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 34
+    },
+    "display": "John 9:17-34"
+  }
 }

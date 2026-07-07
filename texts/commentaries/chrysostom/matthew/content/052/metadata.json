@@ -2,7 +2,7 @@
   "id": 52,
   "roman": "LII",
   "title": "Homily LII",
-  "subtitle": "Matthew 15:21",
+  "subtitle": "Matthew 15:21-22",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 15,
-      "verse": 21
+      "verse": 22
     },
-    "display": "Matthew 15:21"
+    "display": "Matthew 15:21-22"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 10772,
-  "excerpt": "Homily LII....",
+  "excerpt": "But Mark saith, that “He could not be hid,”though He had entered into the house. And why did He go at all into these parts? When He had set them free from the…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -140,5 +140,21 @@
     "112": "Isaiah xxxv. 10.",
     "113": "1 Cor. ii. 9."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 15,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 23
+    },
+    "display": "Matthew 15:21-16:23"
+  },
+  "contains_fused_homilies": [
+    53,
+    54
+  ],
+  "fused_note": "In the CCEL/NPNF source, the text of Homilies LIII, LIV is fused into this homily."
 }

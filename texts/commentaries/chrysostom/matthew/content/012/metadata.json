@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3962,
-  "excerpt": "Matt. III. 13....",
+  "excerpt": "“Then cometh Jesus from Galilee to Jordan,”…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -49,5 +49,16 @@
     "21": "[῞Ελληνε.] “Greeks.” But the ecclesiastical use is correctly given in the translation. In the New Testament, the term was equivalent to “Gentiles,” as opposed to Jews; but was afterwards applied to heathen as opposed to Christians. See Sophocles Greek Lexicon of the Roman and Byzantine periods, sub voce.—R.]",
     "22": "[ἐπισφγγωμεν, The verb means “to bind tight,” and is variously applied.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 17
+    },
+    "display": "Matthew 3:13-17"
+  }
 }

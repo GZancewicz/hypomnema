@@ -2,7 +2,7 @@
   "id": 88,
   "roman": "LXXXVIII",
   "title": "Homily LXXXVIII",
-  "subtitle": "Matthew 27:45",
+  "subtitle": "Matthew 27:45-48",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,16 +14,16 @@
     },
     "end": {
       "chapter": 27,
-      "verse": 45
+      "verse": 48
     },
-    "display": "Matthew 27:45"
+    "display": "Matthew 27:45-48"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 3915,
-  "excerpt": "Homily LXXXVIII....",
+  "excerpt": "This is the sign which before He had promised to give them when they asked it, saying, “An evil and adulterous generation seeketh after a sign, and there shall…",
   "source_file": "chrysostom_matthew_homilies.xml",
-  "extraction_method": "thml_p_span",
+  "extraction_method": "thml_div2",
   "has_footnotes": true,
   "footnotes": {
     "1": "[In verse 46, ἔκραξευ is substituted for ἀνεβησεν, and κα επεν for λγων; as indicated above, λιμ is the form given. In other respects the agreement with the received text is exact.—R.]",
@@ -56,5 +56,16 @@
     "28": "τ παρ αυτν.",
     "29": "σναξιν. [The word is usually applied to Christian assemblies, and in the edition of the Homilies it is sometimes rendered “communion.” But this passage confirms the wider application defended in the notes to Homily V., p. 31.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 27,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 61
+    },
+    "display": "Matthew 27:45-61"
+  }
 }

@@ -74,5 +74,16 @@
     "46": "al. “ill-minded,” or, “ungrateful.”",
     "47": "“is yours,” N.T."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 20,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 23
+    },
+    "display": "John 20:10-23"
+  }
 }

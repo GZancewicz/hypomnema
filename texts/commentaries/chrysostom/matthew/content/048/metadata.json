@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4351,
-  "excerpt": "Homily XLVIII....",
+  "excerpt": "“And it came to pass, that, when Jesus had finished these parables, He departed…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -64,5 +64,16 @@
     "36": "συσστου.",
     "37": "1 Cor. x. 31."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 11
+    },
+    "display": "Matthew 13:53-14:11"
+  }
 }

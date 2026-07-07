@@ -55,5 +55,16 @@
     "27": "i.e. during the abode in Paradise.",
     "28": "or, “releases.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 4,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 7
+    },
+    "display": "John 4:54-5:7"
+  }
 }

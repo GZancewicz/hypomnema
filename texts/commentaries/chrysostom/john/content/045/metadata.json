@@ -56,5 +56,16 @@
     "28": "or, “slayings.”",
     "29": "al. “what is there.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 52
+    },
+    "display": "John 6:41-52"
+  }
 }

@@ -80,5 +80,16 @@
     "52": "“whosoever shall,” &c., N.T.",
     "53": "Sav. conj. “evil speaking.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 18,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 37
+    },
+    "display": "John 18:1-37"
+  }
 }

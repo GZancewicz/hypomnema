@@ -2,7 +2,7 @@
   "id": 96,
   "roman": "XCVI",
   "title": "Sermon XCVI",
-  "subtitle": "Luke 13:6-9",
+  "subtitle": "Luke 13:6-21",
   "author": "cyril",
   "author_full": "Cyril of Alexandria",
   "work": "Sermons on Luke",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 13,
-      "verse": 9
+      "verse": 21
     },
-    "display": "Luke 13:6-9"
+    "display": "Luke 13:6-21"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 5433,
-  "excerpt": "13:6-9. And He spoke this parable. A certain man had a fig-tree planted in his vineyard, and he came and sought fruit thereon, but found none. Then said he unto the dresser of his vineyard, Lo, three years indeed I come seeking fruit on this fig-tree, and find none. Out it down therefore: why does it make the ground also barren? But he answered and said unto him, Lord, let it alone this year also: until I dig around it, and dung it: and if it bear fruit in the coming [year, well], and if not, you shall cut it down. THE Psalmist shows the surpassing gentleness of Christ, the Saviour of us all, in these words; \"Lord, what is man, that You art mindful of him, or the son of man, that You visit him?\" For man upon earth, as far as his bodily nature is concerned, is dust and ashes: but he has been honoured by God, by having been made in His image and likeness: not in his bodily shape, that is, but rather because he is capable of being just and good, and fitted for all virtue. The Creator therefore takes care of him, as being...",
+  "excerpt": "13:6-9. And He spoke this parable. A certain man had a fig-tree planted in his vineyard, and he came and sought fruit thereon, but found none. Then said he unto the dresser of his vineyard, Lo, three years indeed I come seeking fruit on this fig-tree, and find none. Out it down therefore: why does it make the ground also barren? But he answered and said unto him, Lord, let it alone this year also: until I dig around it, and dung it: and if it bear fruit in the coming [year, well], and if not, you shall cut it down. THE Psalmist shows the surpassing gentleness of Christ, the Saviour of us all, in these words; \"Lord, what is man, that You art mindful of him, or the son of man, that You visit him?\" For man upon earth, as far as his bodily nature is concerned, is dust and ashes: but he has been honoured by God, by having been made in His image and likeness: not in his bodily shape, that is, but rather because he is capable of being just and good, and fitted for all virtue. The Creator...",
   "source_file": "cyril_on_luke_09_sermons_89_98.htm",
   "extraction_method": "html_parsing",
   "has_footnotes": false,

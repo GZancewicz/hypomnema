@@ -58,5 +58,16 @@
     "30": "al. “passions.”",
     "31": "al. “union with Him.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "display": "John 1:18"
+  }
 }

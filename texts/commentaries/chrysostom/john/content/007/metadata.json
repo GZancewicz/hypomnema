@@ -48,5 +48,16 @@
     "20": "ἐ κεῖ.",
     "21": "Or “with much openness,” i.e. before angels and men."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 10
+    },
+    "display": "John 1:9-10"
+  }
 }

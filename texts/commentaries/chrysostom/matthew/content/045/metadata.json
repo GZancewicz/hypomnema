@@ -2,7 +2,7 @@
   "id": 45,
   "roman": "XLV",
   "title": "Homily XLV",
-  "subtitle": "Matthew 13:10",
+  "subtitle": "Matthew 13:10-11",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 13,
-      "verse": 10
+      "verse": 11
     },
-    "display": "Matthew 13:10"
+    "display": "Matthew 13:10-11"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 2622,
-  "excerpt": "Homily XLV....",
+  "excerpt": "We have good cause to admire the disciples, how, longing as they do to learn, they know when they ought to ask. For they do it not before all: and this Matthew…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -47,5 +47,16 @@
     "19": "Isa. lviii. 7, LXX.",
     "20": "θμι."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 13,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 23
+    },
+    "display": "Matthew 13:10-23"
+  }
 }

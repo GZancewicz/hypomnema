@@ -41,5 +41,16 @@
     "13": "ἀ πολογήσομαι",
     "14": "εὐδοκίμησιν"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 34
+    },
+    "display": "John 3:31-34"
+  }
 }

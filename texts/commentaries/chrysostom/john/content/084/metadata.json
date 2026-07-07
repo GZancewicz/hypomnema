@@ -84,5 +84,16 @@
     "56": "καλὰ",
     "57": "ἐ πιτύχωμεν without any conjunction preceding. Sav. conject. ἐ πιτευξόμεθα"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 19,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 9
+    },
+    "display": "John 19:16-20:9"
+  }
 }

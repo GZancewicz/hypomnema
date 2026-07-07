@@ -2,7 +2,7 @@
   "id": 22,
   "roman": "XXII",
   "title": "Homily XXII",
-  "subtitle": "Matthew 6:28",
+  "subtitle": "Matthew 6:28-29",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 6,
-      "verse": 28
+      "verse": 29
     },
-    "display": "Matthew 6:28"
+    "display": "Matthew 6:28-29"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 5341,
-  "excerpt": "Matt. VI. 28, 29....",
+  "excerpt": "“Consider the lilies of the field, how they grow; they toil not, neither do they spin. And yet I say unto you, That even Solomon in all his glory was not…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -64,5 +64,16 @@
     "36": "Rom. x. 12. κα π πντα is omitted in our present copies. Mr. Field refers to Rom. iii. 22; “unto all and upon all them that believe.” [There is no authority for κα π παντα in Rom. x. 12, and in iii. 22the weight of authority is against the phrase (see R.V. in loco); but Chrysostom undoubtedly accepted the longer reading in the latter passage, and seems to have combined the two in the present instance.—R.]",
     "37": "2 Cor. viii. 9. [The citation is not accurate, probably the variation is intentional.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 34
+    },
+    "display": "Matthew 6:28-34"
+  }
 }

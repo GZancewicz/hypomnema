@@ -53,5 +53,16 @@
     "25": "al. “as one the graven image of stone, so thou,” &c.",
     "26": "i.e. in itself."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 11,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "display": "John 11:49-12:8"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 3008,
-  "excerpt": "Matt. XII. 1....",
+  "excerpt": "But Luke saith, “On a double Sabbath.” Now what is a double Sabbath? When the cessation from toil is twofold, both that of the regular Sabbath, and that of…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -58,5 +58,16 @@
     "30": "Rom. v. 10.",
     "31": "[’Ανωτρω; but “before” agrees better with English usage in public address.—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "display": "Matthew 12:1-8"
+  }
 }

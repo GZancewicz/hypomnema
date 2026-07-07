@@ -79,5 +79,16 @@
     "51": "τότε",
     "52": "ἕ πεται"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 5,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 30
+    },
+    "display": "John 5:23-30"
+  }
 }

@@ -21,7 +21,7 @@
   "themes": [],
   "date_delivered": null,
   "word_count": 4957,
-  "excerpt": "Matt. I. 1....",
+  "excerpt": "“The book of the generation of Jesus Christ, the Son of David, the Son of…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -65,5 +65,16 @@
     "37": "[2 Cor. vii. 11 is here cited, but in abridged form. All the mss. and editions of Chrysostom, except the Benedictine, give the briefer reading, but in Migne’s edition, αλλ φβον, λλ πιπθησιν (“yea, what fear, yea, what vehement desire”) are supplied in brackets. In the New Testament passage there is no variation in text, so far as these phrases are concerned. Like most patristic authors, this great Homilist was quite free in his method of citing Scripture.—R.]",
     "38": "[Literally, “will condemn himself.”—R.]"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "display": "Matthew 1:1"
+  }
 }

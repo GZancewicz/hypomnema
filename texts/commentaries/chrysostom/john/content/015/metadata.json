@@ -48,5 +48,16 @@
     "20": "ἀ ληθεῖς διαθήκαι.",
     "21": "διάδοχοι κλήρων."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 1,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 27
+    },
+    "display": "John 1:19-27"
+  }
 }

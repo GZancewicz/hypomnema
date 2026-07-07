@@ -60,5 +60,16 @@
     "32": "al. “no pains, but rather neither to have nor to desire them.”",
     "33": "Ben. omits “but by plundering, and taking more than their due.”"
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 25
+    },
+    "display": "John 6:16-25"
+  }
 }

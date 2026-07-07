@@ -45,5 +45,16 @@
     "17": "κράζειν.",
     "18": "φιλοσοφίαν."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 11
+    },
+    "display": "John 3:6-11"
+  }
 }

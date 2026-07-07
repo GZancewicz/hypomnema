@@ -2,7 +2,7 @@
   "id": 44,
   "roman": "XLIV",
   "title": "Homily XLIV",
-  "subtitle": "Matthew 12:46",
+  "subtitle": "Matthew 12:46-49",
   "author": "chrysostom",
   "author_full": "John Chrysostom",
   "work": "Homilies on Matthew",
@@ -14,14 +14,14 @@
     },
     "end": {
       "chapter": 12,
-      "verse": 46
+      "verse": 49
     },
-    "display": "Matthew 12:46"
+    "display": "Matthew 12:46-49"
   },
   "themes": [],
   "date_delivered": null,
   "word_count": 4729,
-  "excerpt": "Homily XLIV....",
+  "excerpt": "That which I was lately saying, that when virtue is wanting all things are vain, this is now also pointed out very abundantly. For I indeed was saying, that…",
   "source_file": "chrysostom_matthew_homilies.xml",
   "extraction_method": "thml_div2",
   "has_footnotes": true,
@@ -52,5 +52,16 @@
     "24": "Rom. x. 14.",
     "25": "πλαδαρν."
   },
-  "verified": true
+  "verified": true,
+  "coverage": {
+    "start": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 9
+    },
+    "display": "Matthew 12:46-13:9"
+  }
 }
