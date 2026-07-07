@@ -16,7 +16,7 @@
 
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=87">
+    <link rel="stylesheet" href="/static/styles.css?v=88">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -1095,6 +1095,18 @@
                     note.className = 'commentary-popover-note';
                     note.textContent = ref.label;
                     list.appendChild(note);
+                } else if (ref.type === 'unavailable') {
+                    const item = document.createElement('div');
+                    item.className = 'commentary-popover-unavailable';
+                    const author = document.createElement('span');
+                    author.className = 'ref-author';
+                    author.textContent = ref.author;
+                    const work = document.createElement('span');
+                    work.className = 'ref-work';
+                    work.textContent = ref.label;
+                    item.appendChild(author);
+                    item.appendChild(work);
+                    list.appendChild(item);
                 } else {
                     const item = document.createElement('button');
                     item.className = 'commentary-popover-item';

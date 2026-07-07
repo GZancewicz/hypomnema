@@ -603,6 +603,28 @@ body {
     color: var(--color-text-muted);
 }
 
+.commentary-popover-unavailable {
+    display: block;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--color-border-lighter);
+    font-size: var(--font-base);
+    color: var(--color-text);
+}
+
+.commentary-popover-unavailable:last-child {
+    border-bottom: none;
+}
+
+.commentary-popover-unavailable .ref-author {
+    display: block;
+    font-size: var(--font-sm);
+    color: var(--color-text-muted);
+}
+
+.commentary-popover-unavailable .ref-work {
+    font-style: italic;
+}
+
 .commentary-popover-note {
     padding: 10px 14px;
     font-size: var(--font-md);
@@ -633,7 +655,8 @@ body {
         background: rgba(0, 0, 0, 0.35);
     }
 
-    .commentary-popover-item {
+    .commentary-popover-item,
+    .commentary-popover-unavailable {
         padding: 14px;
     }
 }

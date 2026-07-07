@@ -81,8 +81,11 @@ hypomnema/
 - **MCP SDK:** `github.com/modelcontextprotocol/go-sdk` (official). Fallback if it
   proves awkward: `github.com/mark3labs/mcp-go` (widely used community SDK).
   Decide during Phase 1 spike; the tool-handler code is nearly identical either way.
-- **Transport:** stdio (this is all Claude Desktop / Claude Code need). The SDK
-  makes streamable-HTTP a drop-in swap later if a hosted version is wanted.
+- **Transport:** both, selected by flag/env. **Streamable HTTP** is the primary
+  transport because the server deploys to Render (see Deployment section);
+  **stdio** is kept for local development and for users who clone the repo and
+  run the binary directly. The tool handlers are transport-agnostic — only
+  `main.go` differs.
 - **Data path:** default `../texts` relative to the binary (same convention as the
   web server), overridable with `HYPOMNEMA_TEXTS_DIR` env var so the binary can be
   installed anywhere.
@@ -172,7 +175,7 @@ No input. Returns one entry per (author, work): author slug, full name, work
 title, count of homilies/sermons, books covered, and `text_available`. Lets a
 client discover coverage before querying.
 
-### Deferred (Phase 4 candidates)
+### Deferred (Phase 5 candidates)
 
 - `get_verse_text(book, chapter, verse)` — KJV text from
   `texts/scripture/new_testament/english/kjv/`. Trivial and useful.
@@ -221,16 +224,98 @@ normalization happens once at the tool boundary.
    (the `XXXFOOTNOTEREFXXX` placeholder convention from the web server — decide
    whether to strip markers or render `[n]`).
 
-### Phase 4 — Optional extensions
+### Phase 4 — Render deployment
 
-10. `get_verse_text` (KJV) and `get_parallel_passages` (Eusebian canons).
-11. Streamable-HTTP transport + Render deployment if a hosted public server is
-    wanted (new Render service, Root Directory `hypomnema-mcp`, same build/start
-    pattern as the website).
-12. Source Tier-2 texts (Bede, Gregory, Theophylact, Maximos) into the standard
+10. Add the streamable-HTTP transport path in `main.go` (serve on `PORT`, MCP
+    endpoint at `/mcp`, plus a `/healthz` endpoint for Render health checks).
+11. Create the Render service and deploy per the Deployment section below.
+12. Verify from a remote client: `claude mcp add --transport http hypomnema
+    https://<service>.onrender.com/mcp`, then repeat the Phase 3 end-to-end
+    checks against the hosted server.
+
+### Phase 5 — Optional extensions
+
+13. `get_verse_text` (KJV) and `get_parallel_passages` (Eusebian canons).
+14. Source Tier-2 texts (Bede, Gregory, Theophylact, Maximos) into the standard
     `content/NNN/` format — a data project, not a server change; the server picks
     them up automatically once `content/` exists. Nikolai stays reference-only
     unless distribution rights are obtained.
+
+## Deployment (Render)
+
+The MCP server deploys to Render as a **second web service** on this repo,
+side by side with the existing website. It follows the same conventions as the
+`hypomnema-server` service documented in CLAUDE.md.
+
+### Service configuration
+
+| Setting | Value |
+|---|---|
+| Service type | Web Service |
+| Root Directory | `hypomnema-mcp` |
+| Build Command | `go build -o app` |
+| Start Command | `./app` |
+| Health Check Path | `/healthz` |
+| Branch | `main` (staging branch for pre-production testing, same flow as the website) |
+
+Notes:
+
+- **Port:** Render injects `PORT`; the server reads it and defaults to 8080
+  locally (same convention as the website). When `PORT` is set the binary starts
+  in streamable-HTTP mode automatically; with no `PORT` and a TTY it defaults to
+  stdio, so one binary serves both use cases.
+- **Data path:** Render clones the full repo even with Root Directory set to
+  `hypomnema-mcp`, so `../texts` resolves exactly as it does for the website
+  today. `HYPOMNEMA_TEXTS_DIR` remains available as an override.
+- **Statelessness:** run the streamable-HTTP transport in stateless mode (no
+  server-side session affinity). All data is read-only and in-memory, so
+  restarts, redeploys, and Render's free-tier spin-down are harmless — cold
+  start is just re-reading the JSON indexes (fast).
+- **Transport endpoint:** `/mcp` via streamable HTTP. No SSE-only legacy
+  endpoint — current MCP clients (Claude Code, Claude Desktop via connectors,
+  the API's MCP connector) all speak streamable HTTP.
+- **TLS:** "streamable HTTP" is the MCP transport's name, not the URL scheme.
+  Clients always connect over **HTTPS** (`https://<service>.onrender.com/mcp`);
+  Render terminates TLS at its edge and forwards to the binary, which listens
+  on plain HTTP on `PORT` — standard for services behind a TLS-terminating
+  proxy, and the same setup as the existing website.
+
+### Authentication
+
+The texts are public domain, so v1 ships **unauthenticated** — same exposure as
+the website itself. Guardrails to include anyway:
+
+- Modest rate limiting (per-IP token bucket in middleware) so a misbehaving
+  client can't hammer the service.
+- Response size caps already exist at the tool layer (paragraph paging).
+
+If abuse or cost becomes an issue, add a static bearer token check
+(`Authorization: Bearer <token>`, token in a Render environment variable) —
+MCP clients pass custom headers, so this needs no protocol work. Full OAuth is
+out of scope unless the server is ever listed in a public MCP directory that
+requires it.
+
+### Client configuration (hosted)
+
+```bash
+# Claude Code
+claude mcp add --transport http hypomnema https://<service>.onrender.com/mcp
+```
+
+Claude Desktop: add as a remote connector (Settings → Connectors → Add custom
+connector) pointing at the same URL. Document both in `hypomnema-mcp/README.md`
+alongside the local-stdio instructions.
+
+### Deployment checklist
+
+1. All `texts/` JSON committed to the deploy branch (coverage, mappings,
+   metadata, content).
+2. `hypomnema-mcp/go.mod` and `go.sum` committed.
+3. `/healthz` returns 200 and the MCP initialize handshake succeeds against the
+   Render URL (`curl -X POST https://<service>.onrender.com/mcp` with an
+   `initialize` payload).
+4. Verse-lookup smoke test from a real client against production.
+5. Confirm the Nikolai licensing guard holds in production (no text served).
 
 ## Testing checklist
 

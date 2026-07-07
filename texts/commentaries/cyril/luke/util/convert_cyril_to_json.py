@@ -243,7 +243,7 @@ def extract_sermon_content_robust(html_content, sermon_id):
                     pass
         
         # Process content paragraphs
-        if current.name == 'p' and not current.find_parent('blockquote'):
+        if current.name == 'p':
             text = str(current)
             text = extract_footnote_refs(text)
             soup_p = BeautifulSoup(text, 'html.parser')
@@ -265,9 +265,10 @@ def extract_sermon_content_robust(html_content, sermon_id):
                 clean.startswith('c.'),
                 re.match(r'^MS\.\s*\d+', clean)
             ]):
-                paragraphs.append(clean)
+                if not paragraphs or paragraphs[-1] != clean:
+                    paragraphs.append(clean)
         
-        elif current.name == 'blockquote' and not current.find_parent('blockquote'):
+        elif current.name == 'blockquote':
             # Process blockquotes (often contain scripture quotes)
             for elem in current.find_all(['p']):
                 text = str(elem)
@@ -280,7 +281,8 @@ def extract_sermon_content_robust(html_content, sermon_id):
                 clean = clean_text(clean)
                 if clean and not clean.startswith(('[From', 'From the Syriac')):
                     # Add scripture quotes with special formatting if needed
-                    paragraphs.append(clean)
+                    if not paragraphs or paragraphs[-1] != clean:
+                        paragraphs.append(clean)
     
     if not paragraphs:
         return None

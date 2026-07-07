@@ -127,6 +127,13 @@ type Commentary struct {
 	Coverage      map[int]HomilyRange
 }
 
+// UnavailableWork represents a commentary listed in the index without readable text
+type UnavailableWork struct {
+	Author string
+	Work   string
+	Ranges []HomilyRange
+}
+
 // ScriptureReference represents a scripture reference from the index
 type ScriptureReference struct {
 	ID        int    `json:"id"`
@@ -143,6 +150,7 @@ var (
 	harmonyData                []HarmonyEntry
 	sectionData                map[string][]SectionEntry
 	commentaries               map[string]*Commentary
+	unavailableWorks           []UnavailableWork
 	chrysostomMatthewFootnotes AllFootnotes
 	chrysostomJohnFootnotes    AllFootnotes
 	scriptureReferences        map[string][]ScriptureReference
@@ -216,6 +224,16 @@ func init() {
 	loadCommentary("nikolai", "prologue",
 		"",
 		"../texts/commentaries/nikolai/Prologue/coverage.json")
+
+	// Load coverage for commentaries without readable text
+	loadUnavailableWork("Gregory the Great", "Forty Gospel Homilies",
+		"../texts/commentaries/gregory_the_great/Forty Gospel Homilies/coverage.json", "")
+	loadUnavailableWork("Maximos the Confessor", "On the Lord's Prayer",
+		"../texts/commentaries/maximos_the_confessor/On the Lord's Prayer/coverage.json", "")
+	loadUnavailableWork("Venerable Bede", "Homilies on the Gospels",
+		"../texts/commentaries/bede/Homilies on the Gospels/coverage.json", "")
+	loadUnavailableWork("Theophylact of Ohrid", "Explanation of the Holy Gospel According to Matthew",
+		"../texts/commentaries/theophylact/matthew/coverage.json", "matthew")
 
 	// Load footnotes
 	loadAllFootnotes()
@@ -488,6 +506,35 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 	}
 
 	commentaries[key] = commentary
+}
+
+func loadUnavailableWork(author, work, coveragePath, defaultBook string) {
+	data, err := os.ReadFile(coveragePath)
+	if err != nil {
+		log.Printf("Warning: Could not load coverage for %s - %s: %v", author, work, err)
+		return
+	}
+
+	var coverageData struct {
+		Homilies []HomilyRange `json:"homilies"`
+	}
+	if err := json.Unmarshal(data, &coverageData); err != nil {
+		log.Printf("Warning: Could not parse coverage for %s - %s: %v", author, work, err)
+		return
+	}
+
+	ranges := coverageData.Homilies
+	for i := range ranges {
+		if ranges[i].Start.Book == "" {
+			ranges[i].Start.Book = defaultBook
+		}
+		if ranges[i].End.Book == "" {
+			ranges[i].End.Book = defaultBook
+		}
+	}
+
+	unavailableWorks = append(unavailableWorks, UnavailableWork{Author: author, Work: work, Ranges: ranges})
+	log.Printf("Loaded %s - %s coverage for %d sections (text unavailable)", author, work, len(ranges))
 }
 
 func stripCanonSectionPrefix(ref string) string {
@@ -1231,6 +1278,28 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 					Author: "Nikolai Velimirović",
 					Label:  fmt.Sprintf("Prologue, %s%s", coverage.Title, formatCoverageRef(coverage)),
 				})
+			}
+		}
+
+		// Add commentaries listed in the index without readable text
+		if len(verseRefs) > 0 {
+			for _, uw := range unavailableWorks {
+				for _, c := range uw.Ranges {
+					if c.Start.Book != bookID || !coverageContains(c, chapter, verseNum) {
+						continue
+					}
+					label := uw.Work
+					if c.Title != "" {
+						label = fmt.Sprintf("%s, %s", uw.Work, c.Title)
+					}
+					verseRefs = append(verseRefs, VerseRef{
+						Type:   "unavailable",
+						ID:     c.ID,
+						Book:   bookID,
+						Author: uw.Author,
+						Label:  label + formatCoverageRef(c),
+					})
+				}
 			}
 		}
 
