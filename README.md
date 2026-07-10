@@ -206,29 +206,47 @@ The application displays Eusebian Canon numbers in the left margin of Gospel tex
 The application integrates patristic commentary on the Gospels from multiple Church Fathers:
 
 ### John Chrysostom (c. 347-407)
+
+*Archbishop of Constantinople renowned for his eloquent preaching and his advocacy for the poor. His epithet "Chrysostom" — "golden-mouthed" in Greek — reflects his extraordinary gift for oratory. Venerated in both East and West, he is also remembered for the Divine Liturgy attributed to him, which remains central to Orthodox worship.*
+
 - **90 Homilies on Matthew** covering the entire Gospel of Matthew
 - **88 Homilies on John** covering the entire Gospel of John
 - **Cross-Gospel Integration** - When reading Mark or Luke, the system automatically shows relevant Matthew and John homilies for parallel passages
 
 ### Cyril of Alexandria (c. 376-444)
+
+*Pope (Patriarch) of Alexandria and a leading theological voice in the early Christological controversies. He led the Council of Ephesus (431) in opposing Nestorius, defending the unity of Christ and the title Theotokos ("God-bearer") for Mary. His vast body of writing earned him the honorific "Seal of all the Fathers," and his Christology remains foundational to Orthodox tradition.*
+
 - **153 Sermons on Luke** covering the entire Gospel of Luke (manuscript contains only fragments for 154-156)
 - Integrated footnotes and textual notes
 
 ### Gregory the Great (c. 540-604)
+
+*Pope of Rome (590-604), remembered for his prolific writings and administrative leadership. He authored the Pastoral Rule, long the standard manual for Western clergy, and the Dialogues; he sent Augustine to evangelize England and is traditionally associated with Gregorian chant. In the Orthodox Church he is known as Gregory the Dialogist.*
+
 - **40 Homilies on the Gospels** (Forty Gospel Homilies) covering passages from all four Gospels
 - Spanning Matthew, Mark, Luke, and John
 
 ### Venerable Bede (c. 673-735)
+
+*A monk of the Northumbrian monasteries of Wearmouth-Jarrow, where he spent his life in scholarship. He is best known for his Ecclesiastical History of the English People, which earned him the title "Father of English History." A prolific scholar, he also produced numerous biblical commentaries and theological works, making him one of the most learned figures of the early medieval West.*
+
 - **50 Homilies on the Gospels** organized in two books covering passages from all four Gospels
 - Book I: 25 homilies (I.1 through I.25)
 - Book II: 25 homilies (II.1 through II.25)
 
 ### Nikolai Velimirovich (1880-1956)
+
+*A Serbian Orthodox bishop (of Žiča and later Ohrid), called "Serbia's New Chrysostom" for his preaching and writing. Imprisoned by the Nazis at Dachau during World War II, he later taught at Orthodox seminaries in America. His Prologue of Ohrid, a collection of daily spiritual reflections, remains widely read; he was canonized in 2003.*
+
 - **Daily Meditations from the Prologue of Ohrid** featuring homilies on Scripture
 - Organized by calendar date (In progress)
 - Each entry provides spiritual reflection on specific Scripture passages
 
 ### Maximos the Confessor (c. 580-662)
+
+*A Byzantine monk and theologian, the Church's foremost defender against Monothelitism — the claim that Christ possessed only one will. For his witness he suffered mutilation, his tongue and right hand cut off, hence the title "Confessor." He was vindicated at the Sixth Ecumenical Council, and his spiritual and theological writings remain deeply influential in Orthodox thought.*
+
 - **On the Lord's Prayer** - Spiritual commentary on the Our Father
 - Covers both Matthew 6:9-13 and Luke 11:2-4
 - Deep theological reflection on the Lord's Prayer
@@ -238,6 +256,9 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - Entries organized by liturgical date with saint name and scripture reference
 
 ### Theophylact of Ohrid (c. 1050-1107)
+
+*A Byzantine biblical scholar who served as archbishop of Ohrid for some twenty-five years. He is best known for his lucid commentaries on the Gospels, Acts, and Epistles — drawn largely from Chrysostom and long treasured in the Orthodox tradition. He is venerated as a saint, commemorated on December 31.*
+
 - Commentary coverage in progress
 
 ### Features
