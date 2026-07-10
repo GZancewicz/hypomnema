@@ -1,0 +1,258 @@
+openapi: 3.1.0
+info:
+  title: Hypomnema API
+  version: "1.0.0"
+  description: >
+    Read-only JSON API over the Hypomnema patristic-commentary dataset.
+    Given a Bible reference, find which Church Fathers commented on that verse;
+    given a commentary ID, retrieve the commentary text the app renders.
+    Public-domain data. Served under hypomnema.online/api.
+servers:
+  - url: /
+    description: This server (same origin as these docs)
+
+paths:
+  /api/v1/coverage:
+    get:
+      operationId: getCoverage
+      summary: Commentary coverage for a verse
+      description: >
+        Return every patristic commentary that covers the given verse.
+        Provide book/chapter/verse, or a single free-form `ref`.
+        `book` accepts full names, directory slugs, and common abbreviations
+        (Matthew / matthew / Mt / Matt; John / Jn; 1 Corinthians / 1 Cor / 1Co).
+      parameters:
+        - name: book
+          in: query
+          required: false
+          schema: { type: string }
+          example: John
+          description: Book name or abbreviation. Required unless `ref` is given.
+        - name: chapter
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1 }
+          example: 3
+        - name: verse
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1 }
+          example: 16
+        - name: ref
+          in: query
+          required: false
+          schema: { type: string }
+          example: John 3:16
+          description: Free-form reference, parsed into book/chapter/verse. Explicit params win if both are supplied.
+        - name: include_text
+          in: query
+          required: false
+          schema: { type: boolean, default: true }
+          description: >
+            When true (default), each text-available result carries the full
+            commentary under `text`. Set false for citations only.
+      responses:
+        "200":
+          description: Coverage results (possibly empty for a valid book with no Fathers).
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CoverageResponse"
+              examples:
+                john316:
+                  summary: John 3:16
+                  value:
+                    query: { book: john, book_display: John, chapter: 3, verse: 16 }
+                    count: 2
+                    results:
+                      - commentary_id: chrysostom/john/28
+                        author: chrysostom
+                        author_full: John Chrysostom
+                        work: Homilies on John
+                        work_slug: john
+                        id: 28
+                        roman: XXVIII
+                        title: Homily XXVIII
+                        covers: John 3:12-21
+                        match_type: primary
+                        text_available: true
+                      - commentary_id: gregory_the_great/forty-gospel-homilies/12
+                        author: gregory_the_great
+                        author_full: Gregory the Great
+                        work: Forty Gospel Homilies
+                        work_slug: forty-gospel-homilies
+                        id: 12
+                        roman: XII
+                        title: Homily XII
+                        covers: "John 3:1-15"
+                        match_type: range
+                        text_available: false
+        "400":
+          description: Unknown or missing book / bad parameters.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
+
+  /api/v1/commentary/{author}/{work}/{id}:
+    get:
+      operationId: getCommentary
+      summary: Retrieve a commentary
+      description: >
+        Return the commentary the app renders. The path is exactly the
+        `commentary_id` from /v1/coverage (e.g. chrysostom/matthew/26).
+        JSON paragraphs by default; `format=html` returns the app fragment.
+      parameters:
+        - name: author
+          in: path
+          required: true
+          schema: { type: string }
+          example: chrysostom
+        - name: work
+          in: path
+          required: true
+          schema: { type: string }
+          example: matthew
+          description: Work slug as returned by /v1/coverage.
+        - name: id
+          in: path
+          required: true
+          schema: { type: integer, minimum: 1 }
+          example: 26
+        - name: format
+          in: query
+          required: false
+          schema: { type: string, enum: [json, html], default: json }
+        - name: paragraph_start
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1 }
+          description: 1-based start of a paragraph slice (paging long homilies).
+        - name: paragraph_end
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1 }
+      responses:
+        "200":
+          description: The commentary.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Commentary" }
+            text/html:
+              schema:
+                type: string
+                description: The <div class="chapter-text">…</div> fragment when format=html.
+        "404":
+          description: >
+            Not found, or a Tier-2 / Nikolai work whose full text is not
+            distributed. In the text-unavailable case the body carries a citation.
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/TextUnavailable" }
+
+components:
+  schemas:
+    CoverageResponse:
+      type: object
+      required: [query, count, results]
+      properties:
+        query:
+          type: object
+          properties:
+            book: { type: string, example: john }
+            book_display: { type: string, example: John }
+            chapter: { type: integer, example: 3 }
+            verse: { type: integer, example: 16 }
+        count: { type: integer, example: 2 }
+        results:
+          type: array
+          items: { $ref: "#/components/schemas/CoverageResult" }
+
+    CoverageResult:
+      type: object
+      required: [commentary_id, author, author_full, work, id, roman, title, covers, match_type, text_available]
+      properties:
+        commentary_id:
+          type: string
+          example: chrysostom/john/28
+          description: Canonical ID; feed straight into /v1/commentary/{author}/{work}/{id}.
+        author: { type: string, example: chrysostom }
+        author_full: { type: string, example: John Chrysostom }
+        work: { type: string, example: Homilies on John }
+        work_slug: { type: string, example: john }
+        id: { type: integer, example: 28 }
+        roman: { type: string, example: XXVIII }
+        title: { type: string, example: Homily XXVIII }
+        covers: { type: string, example: John 3:12-21 }
+        match_type:
+          type: string
+          enum: [primary, range]
+          description: primary = exact verse-mapping hit; range = coverage-range containment.
+        text_available:
+          type: boolean
+          description: false for Tier-2 works and Nikolai (licensing).
+        date:
+          type: string
+          description: Calendar-dated works only (Nikolai Prologue, Synaxarion).
+          example: September 1
+        saint:
+          type: string
+          description: Synaxarion entries only.
+        text:
+          allOf:
+            - $ref: "#/components/schemas/EmbeddedText"
+          description: Full commentary; present only when text_available and include_text=true.
+
+    EmbeddedText:
+      type: object
+      required: [paragraphs, total_paragraphs]
+      properties:
+        subtitle: { type: string, example: "Matthew 8:5" }
+        paragraphs:
+          type: array
+          items: { type: string }
+          description: Paragraph HTML, identical to what the app renders.
+        total_paragraphs: { type: integer, example: 59 }
+        footnotes:
+          type: object
+          additionalProperties: { type: string }
+
+    Commentary:
+      type: object
+      required: [commentary_id, author, author_full, work, id, roman, title, paragraphs, total_paragraphs, text_available]
+      properties:
+        commentary_id: { type: string, example: chrysostom/matthew/26 }
+        author: { type: string, example: chrysostom }
+        author_full: { type: string, example: John Chrysostom }
+        work: { type: string, example: Homilies on Matthew }
+        id: { type: integer, example: 26 }
+        roman: { type: string, example: XXVI }
+        title: { type: string, example: Homily XXVI }
+        subtitle: { type: string, example: "Matthew 8:5" }
+        covers: { type: string, example: "Matthew 8:5-13" }
+        paragraphs:
+          type: array
+          items: { type: string }
+          description: Paragraph HTML, identical to what the app renders.
+        total_paragraphs: { type: integer, example: 42 }
+        footnotes:
+          type: object
+          additionalProperties: { type: string }
+          description: Footnote number → text (numbering starts at 1).
+        text_available: { type: boolean, example: true }
+
+    TextUnavailable:
+      type: object
+      required: [error, message]
+      properties:
+        error: { type: string, example: text_not_available }
+        message:
+          type: string
+          example: Full text for Forty Gospel Homilies is not included in this dataset; only the citation is available.
+        citation: { $ref: "#/components/schemas/CoverageResult" }
+
+    Error:
+      type: object
+      required: [error, message]
+      properties:
+        error: { type: string, example: unknown_book }
+        message: { type: string, example: "Unknown book 'Genesys'. Valid books: Matthew, Mark, Luke, John, …" }

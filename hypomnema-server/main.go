@@ -15,6 +15,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/hypomnema/server/apiv1"
 )
 
 //go:embed templates/*
@@ -640,6 +642,10 @@ func main() {
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
+
+	// Public JSON API (served at hypomnema.online/api/v1)
+	apiv1.Init()
+	http.Handle("/api/v1/", http.StripPrefix("/api/v1", apiv1.Handler()))
 
 	// Homily page
 	http.HandleFunc("/homily/", homilyHandler)
