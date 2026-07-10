@@ -29,10 +29,34 @@ A biblical text reader featuring the King James Version (KJV) New Testament with
   - Modal showing parallel Gospel passages with full verse text
   - Integrated on both Commentaries and Scripture References pages
 - **Scripture References Page** showing Eusebian canon cross-references and patristic commentary coverage
+- **JSON REST API** (`/api/v1`) for programmatic commentary lookup and retrieval, with interactive Swagger docs at `/api/v1/docs`
 - **Responsive Design** with mobile-friendly hamburger menu
 - **Clean Typography** with paragraph-based formatting
 - Live reload during development with Air
 - **Google Analytics** integration (production only)
+
+## Technology & Design Choices
+
+Hypomnema is built as a **Go server that renders HTML, with [HTMX](https://htmx.org)
+on the front end** — deliberately not a JavaScript single-page application. The
+Go backend renders both full pages and small HTML fragments; HTMX requests those
+fragments (e.g. `/api/chapter/...`, `/api/homily/...`) and swaps them into the
+page via attributes like `hx-get` and `hx-target`, with no client-side framework
+or build step.
+
+**Why Go:**
+- Compiles to a single self-contained binary with no runtime dependencies — trivial to deploy (one `app` on Render, no Node runtime, no package install at boot).
+- Fast startup and low memory; the standard library's HTTP server handles everything, so there are few third-party dependencies to track or patch.
+- Naturally suited to what this app does: read text/JSON data files from disk and serve HTML and JSON. The same binary now also serves the `/api/v1` JSON API.
+
+**Why HTMX (instead of React/Vue/etc.):**
+- This is a **read-mostly text reader** — content-heavy, interaction-light. Server-rendered HTML is the natural fit; a heavy SPA would add complexity without a matching payoff.
+- Dynamic behavior (loading chapters, opening the split-screen commentary panel, live search) is achieved by swapping server-rendered fragments, so the **server stays the single source of truth for rendering** — no duplicated view logic between a backend and a JS frontend.
+- No build pipeline, bundler, or `node_modules` — HTMX is a single `<script>` tag. This keeps the toolchain small and the project easy to run, reason about, and hand off.
+
+The net effect is a small, fast, low-dependency stack: one Go binary renders the
+pages, HTMX makes them feel dynamic, and the same server exposes a JSON API — all
+without a separate frontend project.
 
 ## Commentary Metadata Structure
 
@@ -135,6 +159,7 @@ go run main.go
 hypomnema/
 ├── hypomnema-server/         # Go web server
 │   ├── main.go              # Main server code with all routing
+│   ├── apiv1/               # JSON REST API package (mounted at /api/v1)
 │   ├── templates/           # HTML templates (index.html, homily.html)
 │   ├── static/              # CSS (styles.css) and favicon
 │   └── tmp/                 # Air build artifacts (git ignored)
@@ -243,6 +268,76 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - `texts/reference/eusebian_canons/canon_lookup.json` - Maps canon entries to parallel passages
 - `texts/reference/eusebian_canons/eusebian-canons.db` - SQLite database with source data
 
+## REST API
+
+A read-only JSON API exposes the commentary dataset for programmatic use. It is
+**served by the same binary as the website** — mounted at `/api/v1`, so no
+separate service is needed.
+
+- **Production:** `https://hypomnema.online/api/v1`
+- **Local:** `http://localhost:8080/api/v1`
+- **Interactive docs (Swagger UI):** `/api/v1/docs`
+- **OpenAPI spec:** `/api/v1/openapi.yaml`
+
+The API lives in the `hypomnema-server/apiv1/` package (`apiv1.Init()` +
+`apiv1.Handler()`), mounted in `main.go` via
+`http.Handle("/api/v1/", http.StripPrefix("/api/v1", apiv1.Handler()))`. It reads
+the same `texts/commentaries/` data as the website; no separate data store.
+
+### Endpoints
+
+#### `GET /api/v1/coverage`
+
+Return every commentary that covers a given verse.
+
+| Query param | Notes |
+|---|---|
+| `book` | Full name, directory slug, or abbreviation (`Matthew`, `matthew`, `Mt`, `Matt`; `John`, `Jn`; `1 Corinthians`, `1 Cor`, `1Co`). Required unless `ref` is given. |
+| `chapter`, `verse` | Positive integers. |
+| `ref` | Free-form reference parsed into book/chapter/verse, e.g. `?ref=John 3:16`. Explicit params win if both are supplied. |
+| `include_text` | Default `true` — each text-available result embeds the full commentary under `text`. Set `false` for citations only. |
+
+```bash
+curl "http://localhost:8080/api/v1/coverage?book=John&chapter=3&verse=16"
+curl "http://localhost:8080/api/v1/coverage?ref=Mt+8:5"
+curl "http://localhost:8080/api/v1/coverage?ref=John+3:16&include_text=false"
+```
+
+Each result carries a `commentary_id` (`{author}/{work}/{id}`), the covered range,
+`match_type` (`primary` = exact verse-mapping hit, `range` = coverage containment),
+and `text_available`. Calendar-dated works (Synaxarion) also carry `date`/`saint`.
+
+#### `GET /api/v1/commentary/{author}/{work}/{id}`
+
+Return a single commentary — the path is exactly the `commentary_id` from
+`/api/v1/coverage`.
+
+| Query param | Notes |
+|---|---|
+| `format` | `json` (default) returns paragraphs + footnotes; `html` returns the app's rendered fragment. |
+| `paragraph_start`, `paragraph_end` | 1-based inclusive slice for paging long homilies (clamps to bounds). |
+
+```bash
+curl "http://localhost:8080/api/v1/commentary/chrysostom/matthew/26"
+curl "http://localhost:8080/api/v1/commentary/chrysostom/matthew/26?format=html"
+curl "http://localhost:8080/api/v1/commentary/chrysostom/matthew/26?paragraph_start=1&paragraph_end=3"
+```
+
+### Text availability
+
+Works with distributable full text (Chrysostom on Matthew/John, Cyril on Luke)
+return `text_available: true` and full paragraphs. Works held as coverage-only
+(Gregory, Bede, Maximos, Theophylact, Synaxarion, and Nikolai — the last for
+licensing) return `text_available: false`; requesting their text yields
+`404 text_not_available` with a citation.
+
+### Errors
+
+Errors are JSON `{ "error": "<code>", "message": "..." }` with appropriate status
+codes: `400` (unknown/missing book, bad reference) and `404` (no such commentary,
+or text not distributed). A valid New Testament book with no patristic coverage
+returns `200` with an empty `results` array.
+
 ## Development
 
 ### Python Scripts
@@ -306,6 +401,10 @@ The application is configured for deployment on Render.com.
 3. **Start Command:** `./app`
 
 The server automatically uses the PORT environment variable provided by Render.
+
+The JSON REST API (`/api/v1`) ships as part of this same service — the OpenAPI
+spec and Swagger docs are embedded in the binary (`go:embed`), so no additional
+Render configuration, domain, or service is required.
 
 ### Manual Deployment
 

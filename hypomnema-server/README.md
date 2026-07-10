@@ -9,6 +9,7 @@ A Go web server for the Hypomnema biblical text reader with integrated patristic
 - Eusebian canon cross-references with clickable parallel passage modals
 - Footnotes with hover tooltips
 - Responsive design with mobile hamburger menu
+- JSON REST API at `/api/v1` (package `apiv1/`, Swagger docs at `/api/v1/docs`) — see the root README for endpoint details
 - Live reload during development with Air
 
 ## Development
@@ -45,6 +46,7 @@ The server automatically uses the PORT environment variable provided by Render.
 ```
 hypomnema-server/
 ├── main.go           # Main server code with all routing and logic
+├── apiv1/            # JSON REST API package (mounted at /api/v1)
 ├── templates/        # HTML templates
 │   ├── index.html    # Main page template
 │   └── homily.html   # Commentary viewing template
