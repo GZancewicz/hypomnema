@@ -51,16 +51,24 @@ PG/
     ├── CLEANUP.md                ← OCR cleanup status/checklist
     ├── lemmata_index.json        ← per-chapter lemma + verse-coverage index
     ├── ΚΑΤΑ_ΜΑΤΘΑΙΟΝ/
-    │   ├── ΤΑ_ΚΕΦΑΛΑΙΑ.txt        ← titloi list (front matter)
+    │   ├── ΤΑ_ΚΕΦΑΛΑΙΑ.txt              ← titloi list (front matter)
     │   └── ΕΡΜΗΝΕΙΑ/
-    │       ├── ΠΡΟΟΙΜΙΟΝ.txt      ← prologue
-    │       └── ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt … ΚΕΦΑΛΑΙΟΝ_28_ΚΗʹ.txt
-    ├── ΚΑΤΑ_ΜΑΡΚΟΝ/  (ΒΙΟΣ + ΤΑ_ΚΕΦΑΛΑΙΑ + ΕΡΜΗΝΕΙΑ/ 16 kephalaia)
-    ├── ΚΑΤΑ_ΛΟΥΚΑΝ/  (ΤΑ_ΚΕΦΑΛΑΙΑ + ΕΡΜΗΝΕΙΑ/ 24 kephalaia)
-    └── ΚΑΤΑ_ΙΩΑΝΝΗΝ/ (ΒΙΟΣ + ΕΡΜΗΝΕΙΑ/ 21 kephalaia; ch1–7 from PG_123, ch8–21 from PG_124)
+    │       ├── ΠΡΟΟΙΜΙΟΝ.txt            ← prologue
+    │       └── ΚΕΦΑΛΑΙΟΝ_01_Αʹ/         ← each chapter is a FOLDER
+    │           ├── ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt  ← full chapter text (kept, source of truth)
+    │           ├── 00_ΑΡΧΗ.txt          ← chapter header + titlos (pre-first-lemma)
+    │           ├── ΛΗΜΜΑ_01_1.1/        ← one SUBFOLDER per lemma
+    │           │   └── ΛΗΜΜΑ_01_1.1.txt ← the Greek lemma + its exposition (.en.md added here later)
+    │           └── ΛΗΜΜΑ_02_1.1/ …      (ΛΗΜΜΑ_NN_<chapter>.<verse>)
+    ├── ΚΑΤΑ_ΜΑΡΚΟΝ/  (ΒΙΟΣ + ΤΑ_ΚΕΦΑΛΑΙΑ + ΕΡΜΗΝΕΙΑ/ 16 chapter folders)
+    ├── ΚΑΤΑ_ΛΟΥΚΑΝ/  (ΤΑ_ΚΕΦΑΛΑΙΑ + ΕΡΜΗΝΕΙΑ/ 24 chapter folders)
+    └── ΚΑΤΑ_ΙΩΑΝΝΗΝ/ (ΒΙΟΣ + ΕΡΜΗΝΕΙΑ/ 21 chapter folders; ch1–7 from PG_123, ch8–21 from PG_124)
 ```
-- Filenames keep **Greek numerals** (`ΚΕΦΑΛΑΙΟΝ_05_Εʹ`), with a zero-padded index for sort order.
+- **Each kephalaion is a folder**; inside it the full chapter `.txt` is kept, plus `00_ΑΡΧΗ.txt` and one **`ΛΗΜΜΑ_NN_ch.verse/` subfolder per lemma** holding the Greek. Total: **5,028 lemma folders**.
+- A **lemma** = a scripture snippet Theophylact quotes (`«…»`) then expounds — *not* 1:1 with verses (he splits some verses into several lemmata, e.g. 5:1 → two). The verse in the folder name is the verse it draws from; verse tags are monotonic per chapter.
+- Filenames keep **Greek numerals** (`ΚΕΦΑΛΑΙΟΝ_05_Εʹ`, `ΛΗΜΜΑ`= *lemma*), with zero-padded indices for sort order.
 - **John spans both volumes:** chapters 1–7 come from `PG_123.txt`, chapters 8–21 from `PG_124.txt` (stopping before the Pauline epistles).
+- **Reconstruction:** `00_ΑΡΧΗ.txt` + the lemma files in sequence == the kept chapter `.txt`, byte-for-byte (asserted on every split; 0 failures across all 89).
 
 ---
 
@@ -74,8 +82,9 @@ PG/
    - fixed front-matter header typos
    - conservative body pass: 65 high-frequency **non-word** corrections (`Ιερὶ`→`Περὶ`, `Ἰλσοῦ`→`Ἰησοῦ`, `Χριστου`→`Χριστοῦ`) — Greek-token count unchanged.
    - Broad auto-correction was **deliberately not done**: the OCR is ~99% accurate and edit-distance analysis showed most near-neighbors are valid inflections/minimal pairs (`οἶνον`/`οἶκον`, `κακὸν`/`καλὸν`), so a blind pass would inject errors. Long tail left for a lexicon/human pass — see `sectioned/CLEANUP.md`.
-4. **Isolated lemmata + computed verse coverage** by matching each chapter against the **Textus Receptus** (not the unreliable `«»` marks): **3,694 lemmata, 97.8% of TR verses located** (`sectioned/lemmata_index.json`). See §5 of the translate skill.
-5. **Wrote the translation methodology** as a reusable skill (see below). Translation itself has **not started** — pilot pending on Matthew Εʹ.
+4. **Isolated lemmata + computed verse coverage** by matching each chapter against the **Textus Receptus**: **97.8% of TR verses located** (`sectioned/lemmata_index.json`, a per-chapter verse-coverage summary).
+5. **Split each chapter into per-lemma folders** (`split_lemmata_to_files.py`): boundaries at Theophylact's `«` marks (his own divisions), gap-filled where a verse's `«` was OCR-dropped; each lemma tagged with its verse via a forward-window cursor (monotonic, never jumps backward). **5,028 lemma folders**, byte-perfect reconstruction, 0 untagged. This is the working structure for translation.
+6. **Wrote the translation methodology** as a reusable skill (see below). Translation itself has **not started** — pilot pending on Matthew Εʹ.
 
 ---
 
@@ -89,17 +98,18 @@ All idempotent and re-runnable; paths resolve to `sectioned/` automatically.
 | `strip_pg_noise.py [--apply]` | remove inline Latin/orphan/running-head noise (dry-run by default) |
 | `fix_pg_headers.py [--apply]` | normalize chapter headers from filenames |
 | `fix_pg_body_conservative.py [--apply]` | apply the curated non-word body corrections |
-| `segment_lemmata.py` | match chapters vs. Textus Receptus → regenerate `lemmata_index.json` |
+| `segment_lemmata.py` | match chapters vs. Textus Receptus → `lemmata_index.json` (verse-coverage summary) |
+| `split_lemmata_to_files.py [names] [--apply]` | split chapters into per-lemma folders (`«` + gap-fill; forward-window verse tags). Byte-perfect (asserts reconstruction). |
 
-Rerun `segment_lemmata.py` after any edit to the Greek to refresh the lemma/verse index.
+**Note:** the chapters are now **per-lemma folders**, not flat `.txt`. The scripts that scan/edit whole chapters (`scan_/strip_/fix_`, `segment_lemmata`) predate this and read flat `ΚΕΦΑΛΑΙΟΝ_*.txt`; their cleanup work is already done. To re-run them you'd first reconstruct flat chapters from each folder's kept `.txt`.
 
 ## 6. Key reference files
 - **`sectioned/MANIFEST.json`** — per-chapter source file, start line, page, boundary confidence.
 - **`sectioned/CLEANUP.md`** — OCR cleanup status; what's done and the remaining (manual) long tail.
-- **`sectioned/lemmata_index.json`** — per chapter: `verses_covered`, `range`, and `lemmata` (`{verse, char, score, preview}`).
-- **`.claude/skills/translate-theophylact/SKILL.md`** — the binding translation methodology (formal-equivalence, italic supplied words, translate-his-Greek-not-the-English-Bible, footnote ambiguity, sibling `.en.md` output, two-pass verification). `translation-methodology.md` here is a pointer to it.
+- **`sectioned/lemmata_index.json`** — per chapter: `verses_covered`, `range` (verse-coverage summary; the physical per-lemma folders are the working structure).
+- **`.claude/skills/translate-theophylact/SKILL.md`** — the binding translation methodology (formal-equivalence, italic supplied words, translate-his-Greek-not-the-English-Bible, footnote ambiguity, two-pass verification). `translation-methodology.md` here is a pointer to it.
 
 ## 7. Status & next step
-- ✅ Corpus fetched, sectioned (89 chapters), structurally cleaned, lemma/verse indexed.
+- ✅ Corpus fetched, sectioned, structurally cleaned, lemma/verse indexed, **split into 5,028 per-lemma folders** (integrity-verified, verse-tagged).
 - ◐ Body-text OCR: conservative pass done; long tail remains (non-blocking).
-- ☐ **Translation: not started.** Next action = the **Matthew Εʹ (Beatitudes) pilot** under the `translate-theophylact` skill, then scale.
+- ☐ **Translation: not started.** Next action = the **Matthew Εʹ (Beatitudes) pilot** under the `translate-theophylact` skill (add a `.en.md` inside each lemma folder), then scale.
