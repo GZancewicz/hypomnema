@@ -1033,6 +1033,25 @@
             htmx.ajax('GET', `/api/homily/nikolai/prologue/${homilyNum}`, '#homilyContent');
         }
 
+        function loadTheophylactCommentary(num, label, book) {
+            if (!book) book = 'matthew';
+            const panel = document.getElementById('homilyPanel');
+            const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
+            const content = document.getElementById('homilyContent');
+            const container = document.querySelector('.container');
+
+            title.textContent = label || 'Commentary';
+            author.textContent = 'Theophylact of Ohrid';
+
+            content.innerHTML = '<div class="loading">Loading commentary...</div>';
+
+            panel.classList.add('active');
+            container.classList.add('homily-open');
+
+            htmx.ajax('GET', `/api/homily/theophylact/${book}/${num}`, '#homilyContent');
+        }
+
         function closeHomilyPanel() {
             const panel = document.getElementById('homilyPanel');
             const container = document.querySelector('.container');
@@ -1058,6 +1077,8 @@
                 loadCyrilHomily(ref.id, ref.roman, ref.book);
             } else if (ref.type === 'nikolai') {
                 loadNikolaiHomily(ref.id, ref.label);
+            } else if (ref.type === 'theophylact') {
+                loadTheophylactCommentary(ref.id, ref.label, ref.book);
             }
         }
 

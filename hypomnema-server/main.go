@@ -234,8 +234,9 @@ func init() {
 		"../texts/commentaries/maximos_the_confessor/On the Lord's Prayer/coverage.json", "")
 	loadUnavailableWork("Venerable Bede", "Homilies on the Gospels",
 		"../texts/commentaries/bede/Homilies on the Gospels/coverage.json", "")
-	loadUnavailableWork("Theophylact of Ohrid", "Explanation of the Holy Gospel According to Matthew",
-		"../texts/commentaries/theophylact/matthew/coverage.json", "matthew")
+	loadCommentary("theophylact", "matthew",
+		"../texts/commentaries/theophylact/matthew/verse_mapping.json",
+		"../texts/commentaries/theophylact/matthew/coverage.json")
 
 	// Load footnotes
 	loadAllFootnotes()
@@ -967,12 +968,16 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	var homilyMap map[string][]Homily
 	var cyrilHomilyMap map[string][]Homily
 	var synaxarionHomilyMap map[string][]Homily
+	var theophylactHomilyMap map[string][]Homily
 	if bookID == "matthew" {
 		if comm, ok := commentaries["chrysostom-matthew"]; ok {
 			homilyMap = comm.VerseToHomily
 		}
 		if comm, ok := commentaries["synaxarion-matthew"]; ok {
 			synaxarionHomilyMap = comm.VerseToHomily
+		}
+		if comm, ok := commentaries["theophylact-matthew"]; ok {
+			theophylactHomilyMap = comm.VerseToHomily
 		}
 	} else if bookID == "john" {
 		if comm, ok := commentaries["chrysostom-john"]; ok {
@@ -987,7 +992,7 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Format the text with paragraphs and canon numbers
 	greekVerses := loadGreekChapterVerses(bookID, chapter)
-	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap, synaxarionHomilyMap, greekVerses)
+	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap, synaxarionHomilyMap, theophylactHomilyMap, greekVerses)
 
 	// Check if this is an HTMX request
 	isHTMX := r.Header.Get("HX-Request") == "true"
@@ -1118,7 +1123,7 @@ func coveringHomilyIDs(coverage map[int]HomilyRange, chapter, verse int) []int {
 	return ids
 }
 
-func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily, synaxarionHomilyMap map[string][]Homily, greekVerses map[int]string) string {
+func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily, synaxarionHomilyMap map[string][]Homily, theophylactHomilyMap map[string][]Homily, greekVerses map[int]string) string {
 	lines := strings.Split(strings.TrimSpace(text), "\n")
 	var html strings.Builder
 
@@ -1230,6 +1235,35 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						Book:   "luke",
 						Author: "Cyril of Alexandria",
 						Label:  fmt.Sprintf("Sermon %s on Luke%s", homily.Roman, passageRef),
+					})
+				}
+			}
+		}
+
+		// Add Theophylact's commentary for Matthew (reader unit = lemma)
+		if bookID == "matthew" && theophylactHomilyMap != nil {
+			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
+			if lemmata, ok := theophylactHomilyMap[verseKey]; ok {
+				for _, lemma := range lemmata {
+					ns := lemma.ID + 700000
+					if contains(lastHomilies, ns) {
+						continue
+					}
+					currentHomilies = append(currentHomilies, ns)
+
+					label := "Theophylact"
+					if comm, ok := commentaries["theophylact-matthew"]; ok {
+						if coverage, ok := comm.Coverage[lemma.ID]; ok && coverage.Title != "" {
+							label = fmt.Sprintf("Theophylact on %s", coverage.Title)
+						}
+					}
+
+					verseRefs = append(verseRefs, VerseRef{
+						Type:   "theophylact",
+						ID:     lemma.ID,
+						Book:   "matthew",
+						Author: "Theophylact of Ohrid",
+						Label:  label,
 					})
 				}
 			}
@@ -1923,7 +1957,11 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
 	}
-	if author != "chrysostom" && author != "cyril" && author != "nikolai" {
+	if author == "theophylact" && book != "matthew" {
+		http.Error(w, "Commentary not found", http.StatusNotFound)
+		return
+	}
+	if author != "chrysostom" && author != "cyril" && author != "nikolai" && author != "theophylact" {
 		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
@@ -1942,6 +1980,8 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		metadataPath = fmt.Sprintf("../texts/commentaries/chrysostom/%s/content/%03d/metadata.json", book, homilyNum)
 	} else if author == "cyril" {
 		metadataPath = fmt.Sprintf("../texts/commentaries/cyril/%s/content/%03d/metadata.json", book, homilyNum)
+	} else if author == "theophylact" {
+		metadataPath = fmt.Sprintf("../texts/commentaries/theophylact/%s/content/%03d/metadata.json", book, homilyNum)
 	}
 
 	// Try to load metadata for verse reference
@@ -1991,6 +2031,18 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 			} else {
 				w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Error loading sermon text.</p></div>"))
 			}
+			return
+		}
+	} else if author == "theophylact" {
+		var tVerseRef string
+		homilyText, tVerseRef, err = extractHomilyFromContent(author, book, homilyNum)
+		if verseRef == "" {
+			verseRef = tVerseRef
+		}
+		if err != nil {
+			log.Printf("Error extracting Theophylact commentary %d: %v", homilyNum, err)
+			w.Header().Set("Content-Type", "text/html")
+			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Commentary not available.</p></div>"))
 			return
 		}
 	} else if author == "nikolai" {

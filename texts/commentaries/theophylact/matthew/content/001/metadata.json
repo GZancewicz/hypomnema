@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "title": "Matthew 1:1",
+  "author": "theophylact",
+  "author_full": "Theophylact of Ohrid",
+  "work": "Explanation of the Holy Gospel According to Matthew",
+  "scripture_reference": { "book": "matthew", "start": { "chapter": 1, "verse": 1 }, "end": { "chapter": 1, "verse": 1 }, "display": "Matthew 1:1" },
+  "footnotes": {
+    "1": "Greek ὅρασις ἣν εἶδεν Ἡσαΐας — the opening formula of the prophet Isaiah (cf. Isaiah 1:1).",
+    "2": "Greek ὁ λόγος ὁ γενόμενος πρὸς Ἰσαΐαν (\"the word that came to Isaiah\"). The \"word that came to…\" formula normally names Jeremiah or Hosea, not Isaiah; this second \"Isaiah\" is likely a textual or scribal slip.",
+    "3": "Theophylact's fixed antithesis νοητῶς (\"intellectually, with the mind\") vs. αἰσθητῶς (\"perceptibly, by the senses\"): the prophets saw only in the mind, whereas Matthew was with Christ bodily."
+  },
+  "has_footnotes": true,
+  "verified": true,
+  "source": "PG/sectioned/ΚΑΤΑ_ΜΑΤΘΑΙΟΝ/ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_01_Αʹ/ΛΗΜΜΑ_01_1.1"
+}
