@@ -33,3 +33,4 @@ hypomnema-server/tmp
 
 # Large source PDFs (Patrologia Graeca scans) - OCR .txt is tracked instead
 texts/commentaries/theophylact/PG/*.pdf
+texts/commentaries/theophylact/PG/matthew.html
