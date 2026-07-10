@@ -1,6 +1,8 @@
 # Hypomnema
 
-A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirovich, and Maximos the Confessor.
+**Hypomnema** (ὑπόμνημα) is a Greek word meaning "reminder," "note," "commentary," or "memorandum." In ancient times, a *hypomnema* was a notebook or commentary where readers would record their thoughts, interpretations, and cross-references while studying texts. This application embodies that tradition by providing integrated commentary and cross-references alongside the biblical text.
+
+A biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, and Maximos the Confessor.
 
 ## Features
 
