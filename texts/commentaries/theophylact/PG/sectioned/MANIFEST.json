@@ -1,0 +1,838 @@
+{
+  "source": "Migne Patrologia Graeca 123-124, Theophylact of Ohrid, Gospel commentaries (CGPG OCR)",
+  "gospels": {
+    "ΚΑΤΑ_ΜΑΤΘΑΙΟΝ": {
+      "front_matter": [
+        "ΤΑ_ΚΕΦΑΛΑΙΑ",
+        "ΠΡΟΟΙΜΙΟΝ"
+      ],
+      "chapters": [
+        {
+          "ch": 1,
+          "greek": "Αʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 217,
+          "page": 79,
+          "confidence": "high"
+        },
+        {
+          "ch": 2,
+          "greek": "Βʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_02_Βʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 587,
+          "page": 86,
+          "confidence": "high"
+        },
+        {
+          "ch": 3,
+          "greek": "Γʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_03_Γʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 912,
+          "page": 91,
+          "confidence": "high"
+        },
+        {
+          "ch": 4,
+          "greek": "Δʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_04_Δʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 1124,
+          "page": 95,
+          "confidence": "high"
+        },
+        {
+          "ch": 5,
+          "greek": "Εʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_05_Εʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 1332,
+          "page": 98,
+          "confidence": "high"
+        },
+        {
+          "ch": 6,
+          "greek": "Ϛʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_06_Ϛʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 1770,
+          "page": 106,
+          "confidence": "high"
+        },
+        {
+          "ch": 7,
+          "greek": "Ζʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_07_Ζʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 2025,
+          "page": 110,
+          "confidence": "high"
+        },
+        {
+          "ch": 8,
+          "greek": "Ηʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_08_Ηʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 2218,
+          "page": 114,
+          "confidence": "high"
+        },
+        {
+          "ch": 9,
+          "greek": "Θʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_09_Θʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 2442,
+          "page": 118,
+          "confidence": "high"
+        },
+        {
+          "ch": 10,
+          "greek": "Ιʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_10_Ιʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 2689,
+          "page": 122,
+          "confidence": "high"
+        },
+        {
+          "ch": 11,
+          "greek": "ΙΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_11_ΙΑʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 3033,
+          "page": 129,
+          "confidence": "high"
+        },
+        {
+          "ch": 12,
+          "greek": "ΙΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_12_ΙΒʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 3312,
+          "page": 135,
+          "confidence": "high"
+        },
+        {
+          "ch": 13,
+          "greek": "ΙΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_13_ΙΓʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 3742,
+          "page": 144,
+          "confidence": "high"
+        },
+        {
+          "ch": 14,
+          "greek": "ΙΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_14_ΙΔʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 4237,
+          "page": 152,
+          "confidence": "high"
+        },
+        {
+          "ch": 15,
+          "greek": "ΙΕʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_15_ΙΕʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 4533,
+          "page": 157,
+          "confidence": "high"
+        },
+        {
+          "ch": 16,
+          "greek": "ΙϚʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_16_ΙϚʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 4832,
+          "page": 162,
+          "confidence": "high"
+        },
+        {
+          "ch": 17,
+          "greek": "ΙΖʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_17_ΙΖʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 5135,
+          "page": 168,
+          "confidence": "high"
+        },
+        {
+          "ch": 18,
+          "greek": "ΙΗʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_18_ΙΗʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 5447,
+          "page": 173,
+          "confidence": "high"
+        },
+        {
+          "ch": 19,
+          "greek": "ΙΘʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_19_ΙΘʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 5774,
+          "page": 179,
+          "confidence": "high"
+        },
+        {
+          "ch": 20,
+          "greek": "Κʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_20_Κʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 6078,
+          "page": 185,
+          "confidence": "high"
+        },
+        {
+          "ch": 21,
+          "greek": "ΚΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_21_ΚΑʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 6313,
+          "page": 189,
+          "confidence": "medium"
+        },
+        {
+          "ch": 22,
+          "greek": "ΚΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_22_ΚΒʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 6750,
+          "page": 197,
+          "confidence": "high"
+        },
+        {
+          "ch": 23,
+          "greek": "ΚΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_23_ΚΓʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 7108,
+          "page": 203,
+          "confidence": "high"
+        },
+        {
+          "ch": 24,
+          "greek": "ΚΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_24_ΚΔʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 7465,
+          "page": 209,
+          "confidence": "high"
+        },
+        {
+          "ch": 25,
+          "greek": "ΚΕʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_25_ΚΕʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 7880,
+          "page": 217,
+          "confidence": "high"
+        },
+        {
+          "ch": 26,
+          "greek": "ΚϚʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_26_ΚϚʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 8226,
+          "page": 223,
+          "confidence": "high"
+        },
+        {
+          "ch": 27,
+          "greek": "ΚΖʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_27_ΚΖʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 8891,
+          "page": 234,
+          "confidence": "high"
+        },
+        {
+          "ch": 28,
+          "greek": "ΚΗʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_28_ΚΗʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 9428,
+          "page": 244,
+          "confidence": "medium"
+        }
+      ]
+    },
+    "ΚΑΤΑ_ΜΑΡΚΟΝ": {
+      "front_matter": [
+        "ΒΙΟΣ",
+        "ΤΑ_ΚΕΦΑΛΑΙΑ",
+        "ΠΡΟΟΙΜΙΟΝ"
+      ],
+      "chapters": [
+        {
+          "ch": 1,
+          "greek": "Αʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 9865,
+          "page": 252,
+          "confidence": "medium"
+        },
+        {
+          "ch": 2,
+          "greek": "Βʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_02_Βʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 10241,
+          "page": 260,
+          "confidence": "high"
+        },
+        {
+          "ch": 3,
+          "greek": "Γʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_03_Γʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 10507,
+          "page": 265,
+          "confidence": "high"
+        },
+        {
+          "ch": 4,
+          "greek": "Δʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_04_Δʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 10736,
+          "page": 269,
+          "confidence": "high"
+        },
+        {
+          "ch": 5,
+          "greek": "Εʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_05_Εʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 11021,
+          "page": 274,
+          "confidence": "high"
+        },
+        {
+          "ch": 6,
+          "greek": "Ϛʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_06_Ϛʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 11240,
+          "page": 278,
+          "confidence": "high"
+        },
+        {
+          "ch": 7,
+          "greek": "Ζʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_07_Ζʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 11610,
+          "page": 285,
+          "confidence": "high"
+        },
+        {
+          "ch": 8,
+          "greek": "Ηʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_08_Ηʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 11832,
+          "page": 289,
+          "confidence": "high"
+        },
+        {
+          "ch": 9,
+          "greek": "Θʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_09_Θʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 12146,
+          "page": 295,
+          "confidence": "high"
+        },
+        {
+          "ch": 10,
+          "greek": "Ιʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_10_Ιʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 12564,
+          "page": 302,
+          "confidence": "high"
+        },
+        {
+          "ch": 11,
+          "greek": "ΙΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_11_ΙΑʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 13008,
+          "page": 310,
+          "confidence": "high"
+        },
+        {
+          "ch": 12,
+          "greek": "ΙΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_12_ΙΒʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 13286,
+          "page": 316,
+          "confidence": "high"
+        },
+        {
+          "ch": 13,
+          "greek": "ΙΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_13_ΙΓʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 13619,
+          "page": 322,
+          "confidence": "high"
+        },
+        {
+          "ch": 14,
+          "greek": "ΙΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_14_ΙΔʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 13924,
+          "page": 327,
+          "confidence": "high"
+        },
+        {
+          "ch": 15,
+          "greek": "ΙΕʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_15_ΙΕʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 14465,
+          "page": 337,
+          "confidence": "high"
+        },
+        {
+          "ch": 16,
+          "greek": "ΙϚʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_16_ΙϚʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 14801,
+          "page": 343,
+          "confidence": "high"
+        }
+      ]
+    },
+    "ΚΑΤΑ_ΛΟΥΚΑΝ": {
+      "front_matter": [
+        "ΤΑ_ΚΕΦΑΛΑΙΑ"
+      ],
+      "chapters": [
+        {
+          "ch": 1,
+          "greek": "Αʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 15231,
+          "page": 352,
+          "confidence": "high"
+        },
+        {
+          "ch": 2,
+          "greek": "Βʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_02_Βʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 16052,
+          "page": 366,
+          "confidence": "high"
+        },
+        {
+          "ch": 3,
+          "greek": "Γʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_03_Γʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 16463,
+          "page": 373,
+          "confidence": "medium"
+        },
+        {
+          "ch": 4,
+          "greek": "Δʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_04_Δʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 16742,
+          "page": 378,
+          "confidence": "high"
+        },
+        {
+          "ch": 5,
+          "greek": "Εʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_05_Εʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 17091,
+          "page": 384,
+          "confidence": "high"
+        },
+        {
+          "ch": 6,
+          "greek": "Ϛʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_06_Ϛʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 17411,
+          "page": 389,
+          "confidence": "high"
+        },
+        {
+          "ch": 7,
+          "greek": "Ζʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_07_Ζʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 17783,
+          "page": 395,
+          "confidence": "high"
+        },
+        {
+          "ch": 8,
+          "greek": "Ηʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_08_Ηʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 18156,
+          "page": 403,
+          "confidence": "high"
+        },
+        {
+          "ch": 9,
+          "greek": "Θʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_09_Θʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 18655,
+          "page": 412,
+          "confidence": "high"
+        },
+        {
+          "ch": 10,
+          "greek": "Ιʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_10_Ιʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 19248,
+          "page": 422,
+          "confidence": "high"
+        },
+        {
+          "ch": 11,
+          "greek": "ΙΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_11_ΙΑʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 19868,
+          "page": 432,
+          "confidence": "high"
+        },
+        {
+          "ch": 12,
+          "greek": "ΙΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_12_ΙΒʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 20512,
+          "page": 443,
+          "confidence": "high"
+        },
+        {
+          "ch": 13,
+          "greek": "ΙΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_13_ΙΓʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 21530,
+          "page": 460,
+          "confidence": "high"
+        },
+        {
+          "ch": 14,
+          "greek": "ΙΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_14_ΙΔʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 22054,
+          "page": 469,
+          "confidence": "high"
+        },
+        {
+          "ch": 15,
+          "greek": "ΙΕʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_15_ΙΕʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 22584,
+          "page": 478,
+          "confidence": "high"
+        },
+        {
+          "ch": 16,
+          "greek": "ΙϚʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_16_ΙϚʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 23070,
+          "page": 487,
+          "confidence": "high"
+        },
+        {
+          "ch": 17,
+          "greek": "ΙΖʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_17_ΙΖʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 23622,
+          "page": 496,
+          "confidence": "high"
+        },
+        {
+          "ch": 18,
+          "greek": "ΙΗʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_18_ΙΗʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 24123,
+          "page": 505,
+          "confidence": "high"
+        },
+        {
+          "ch": 19,
+          "greek": "ΙΘʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_19_ΙΘʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 24703,
+          "page": 515,
+          "confidence": "high"
+        },
+        {
+          "ch": 20,
+          "greek": "Κʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_20_Κʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 25278,
+          "page": 524,
+          "confidence": "high"
+        },
+        {
+          "ch": 21,
+          "greek": "ΚΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_21_ΚΑʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 25563,
+          "page": 529,
+          "confidence": "high"
+        },
+        {
+          "ch": 22,
+          "greek": "ΚΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_22_ΚΒʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 25941,
+          "page": 536,
+          "confidence": "high"
+        },
+        {
+          "ch": 23,
+          "greek": "ΚΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_23_ΚΓʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 26787,
+          "page": 550,
+          "confidence": "high"
+        },
+        {
+          "ch": 24,
+          "greek": "ΚΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_24_ΚΔʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 27346,
+          "page": 560,
+          "confidence": "high"
+        }
+      ]
+    },
+    "ΚΑΤΑ_ΙΩΑΝΝΗΝ": {
+      "front_matter": [
+        "ΒΙΟΣ",
+        "ΠΡΟΟΙΜΙΟΝ"
+      ],
+      "chapters": [
+        {
+          "ch": 1,
+          "greek": "Αʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_01_Αʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 28062,
+          "page": 573,
+          "confidence": "high"
+        },
+        {
+          "ch": 2,
+          "greek": "Βʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_02_Βʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 29533,
+          "page": 599,
+          "confidence": "high"
+        },
+        {
+          "ch": 3,
+          "greek": "Γʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_03_Γʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 29922,
+          "page": 606,
+          "confidence": "high"
+        },
+        {
+          "ch": 4,
+          "greek": "Δʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_04_Δʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 30645,
+          "page": 618,
+          "confidence": "high"
+        },
+        {
+          "ch": 5,
+          "greek": "Εʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_05_Εʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 31547,
+          "page": 634,
+          "confidence": "high"
+        },
+        {
+          "ch": 6,
+          "greek": "Ϛʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_06_Ϛʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 32281,
+          "page": 646,
+          "confidence": "high"
+        },
+        {
+          "ch": 7,
+          "greek": "Ζʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_07_Ζʹ.txt",
+          "src": "PG_123.txt",
+          "start_line": 33355,
+          "page": 665,
+          "confidence": "high"
+        },
+        {
+          "ch": 8,
+          "greek": "Ηʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_08_Ηʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 2,
+          "page": 10,
+          "confidence": "high"
+        },
+        {
+          "ch": 9,
+          "greek": "Θʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_09_Θʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 897,
+          "page": 25,
+          "confidence": "high"
+        },
+        {
+          "ch": 10,
+          "greek": "Ιʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_10_Ιʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 1605,
+          "page": 37,
+          "confidence": "high"
+        },
+        {
+          "ch": 11,
+          "greek": "ΙΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_11_ΙΑʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 2236,
+          "page": 48,
+          "confidence": "high"
+        },
+        {
+          "ch": 12,
+          "greek": "ΙΒʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_12_ΙΒʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 3023,
+          "page": 62,
+          "confidence": "high"
+        },
+        {
+          "ch": 13,
+          "greek": "ΙΓʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_13_ΙΓʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 3915,
+          "page": 77,
+          "confidence": "high"
+        },
+        {
+          "ch": 14,
+          "greek": "ΙΔʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_14_ΙΔʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 4625,
+          "page": 90,
+          "confidence": "high"
+        },
+        {
+          "ch": 15,
+          "greek": "ΙΕʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_15_ΙΕʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 5327,
+          "page": 102,
+          "confidence": "high"
+        },
+        {
+          "ch": 16,
+          "greek": "ΙϚʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_16_ΙϚʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 5724,
+          "page": 109,
+          "confidence": "high"
+        },
+        {
+          "ch": 17,
+          "greek": "ΙΖʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_17_ΙΖʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 6233,
+          "page": 117,
+          "confidence": "medium"
+        },
+        {
+          "ch": 18,
+          "greek": "ΙΗʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_18_ΙΗʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 6726,
+          "page": 126,
+          "confidence": "high"
+        },
+        {
+          "ch": 19,
+          "greek": "ΙΘʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_19_ΙΘʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 7332,
+          "page": 136,
+          "confidence": "high"
+        },
+        {
+          "ch": 20,
+          "greek": "Κʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_20_Κʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 8059,
+          "page": 149,
+          "confidence": "high"
+        },
+        {
+          "ch": 21,
+          "greek": "ΚΑʹ",
+          "file": "ΕΡΜΗΝΕΙΑ/ΚΕΦΑΛΑΙΟΝ_21_ΚΑʹ.txt",
+          "src": "PG_124.txt",
+          "start_line": 8534,
+          "page": 157,
+          "confidence": "high"
+        }
+      ]
+    }
+  }
+}
