@@ -207,6 +207,97 @@
             font-style: italic;
         }
         
+        /* Synaxarion browse page */
+        .synaxarion-page .synax-search-wrap {
+            margin-bottom: 24px;
+        }
+        .synaxarion-page .synax-search {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px 14px;
+            font-size: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: inherit;
+        }
+        .synaxarion-page .synax-search:focus {
+            outline: none;
+            border-color: #2185d0;
+        }
+        .synaxarion-page .synax-search-count {
+            margin-top: 6px;
+            font-size: 13px;
+            color: #999;
+            min-height: 16px;
+        }
+        .synaxarion-page .synax-month {
+            border-bottom: 1px solid #e5e5e5;
+        }
+        .synaxarion-page .synax-month-header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 14px 4px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: left;
+            font-family: inherit;
+        }
+        .synaxarion-page .synax-month-header:hover {
+            color: #2185d0;
+        }
+        .synaxarion-page .synax-caret {
+            display: inline-block;
+            font-size: 12px;
+            color: #999;
+            transition: transform 0.2s ease;
+        }
+        .synaxarion-page .synax-month-header.open .synax-caret {
+            transform: rotate(90deg);
+        }
+        .synaxarion-page .synax-month-name {
+            flex: 1;
+        }
+        .synaxarion-page .synax-month-count {
+            font-size: 13px;
+            font-weight: 400;
+            color: #999;
+        }
+        .synaxarion-page .synax-month-body {
+            padding: 4px 0 16px 22px;
+        }
+        .synaxarion-page .synax-day {
+            margin-bottom: 14px;
+        }
+        .synaxarion-page .synax-day-label {
+            font-weight: 600;
+            color: #34495e;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .synaxarion-page .synax-saints {
+            list-style: none;
+            margin: 0;
+            padding: 0 0 0 12px;
+        }
+        .synaxarion-page .synax-saints li {
+            margin: 3px 0;
+        }
+        .synaxarion-page .synax-saints a {
+            color: #2185d0;
+            text-decoration: none;
+            cursor: pointer;
+            line-height: 1.4;
+        }
+        .synaxarion-page .synax-saints a:hover {
+            text-decoration: underline;
+        }
+
         /* Homily list styles */
         .homily-list {
             list-style: none;
@@ -275,6 +366,9 @@
                     </li>
                     <li class="book-item" onclick="loadHarmony(event)">
                         EUSEBIAN
+                    </li>
+                    <li class="book-item" onclick="loadSynaxarion(event)">
+                        SYNAXARION
                     </li>
                 </ul>
                 <div class="accordion">
@@ -888,6 +982,95 @@
             // Auto-close sidebar on mobile
             if (window.innerWidth <= 700) {
                 closeSidebarOverlay();
+            }
+        }
+
+        function loadSynaxarion(evt) {
+            document.getElementById('book-title').textContent = 'Synaxarion';
+            document.getElementById('chapter-title').textContent = '';
+
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            if (evt && evt.target) {
+                evt.target.classList.add('active');
+            } else {
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'SYNAXARION') {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            htmx.ajax('GET', '/api/synaxarion', '#text-content');
+
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
+        function toggleSynaxMonth(header) {
+            const body = header.nextElementSibling;
+            const open = body.hasAttribute('hidden');
+            if (open) {
+                body.removeAttribute('hidden');
+            } else {
+                body.setAttribute('hidden', '');
+            }
+            header.classList.toggle('open', open);
+        }
+
+        function filterSynaxarion(query) {
+            const page = document.querySelector('.synaxarion-page');
+            if (!page) return;
+            const q = query.trim().toLowerCase();
+            let matchCount = 0;
+
+            page.querySelectorAll('.synax-month').forEach(month => {
+                const body = month.querySelector('.synax-month-body');
+                const header = month.querySelector('.synax-month-header');
+                let monthHasMatch = false;
+
+                month.querySelectorAll('.synax-day').forEach(day => {
+                    let dayHasMatch = false;
+                    day.querySelectorAll('.synax-saints li').forEach(li => {
+                        const show = q === '' || li.textContent.toLowerCase().includes(q);
+                        li.style.display = show ? '' : 'none';
+                        if (show && q !== '') { dayHasMatch = true; matchCount++; }
+                    });
+                    if (q === '') {
+                        day.style.display = '';
+                    } else {
+                        day.style.display = dayHasMatch ? '' : 'none';
+                        if (dayHasMatch) monthHasMatch = true;
+                    }
+                });
+
+                if (q === '') {
+                    month.style.display = '';
+                    body.setAttribute('hidden', '');
+                    header.classList.remove('open');
+                } else if (monthHasMatch) {
+                    month.style.display = '';
+                    body.removeAttribute('hidden');
+                    header.classList.add('open');
+                } else {
+                    month.style.display = 'none';
+                    body.setAttribute('hidden', '');
+                    header.classList.remove('open');
+                }
+            });
+
+            const countEl = document.getElementById('synax-search-count');
+            if (countEl) {
+                countEl.textContent = q === '' ? '' :
+                    (matchCount + (matchCount === 1 ? ' Life found' : ' Lives found'));
             }
         }
 

@@ -830,6 +830,21 @@
           "verse": 1
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Life of Ignatius of Antioch",
+      "saint": "The PriestMartyr Ignatios the God-Bearer",
+      "date": "December 20",
+      "mmdd": "12-20",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 18,
+          "verse": 2
+        }
+      ]
     }
   ]
 }

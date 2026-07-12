@@ -674,6 +674,7 @@ func main() {
 	http.HandleFunc("/api/chapter/", chapterHandler)
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
+	http.HandleFunc("/api/synaxarion", synaxarionHandler)
 	http.HandleFunc("/api/index", indexPageHandler)
 	http.HandleFunc("/api/references", referencesHandler)
 	http.HandleFunc("/api/scripture-references", scriptureReferencesHandler)
@@ -2269,6 +2270,118 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html.String()))
+}
+
+func synaxarionHandler(w http.ResponseWriter, r *http.Request) {
+	calendarRoot := "../synaxarion/calendar"
+
+	type comm struct {
+		Title string
+		Index int
+	}
+	type day struct {
+		MMDD  string
+		Label string
+		Comms []comm
+	}
+	type month struct {
+		Num   int
+		Name  string
+		Days  []day
+		Count int
+	}
+
+	monthDirs, err := os.ReadDir(calendarRoot)
+	if err != nil {
+		http.Error(w, "Synaxarion calendar unavailable", http.StatusInternalServerError)
+		return
+	}
+
+	var months []month
+	for _, md := range monthDirs {
+		if !md.IsDir() {
+			continue
+		}
+		parts := strings.SplitN(md.Name(), "-", 2)
+		if len(parts) != 2 {
+			continue
+		}
+		num, err := strconv.Atoi(parts[0])
+		if err != nil {
+			continue
+		}
+		m := month{Num: num, Name: parts[1]}
+
+		dayDirs, err := os.ReadDir(filepath.Join(calendarRoot, md.Name()))
+		if err != nil {
+			continue
+		}
+		for _, dd := range dayDirs {
+			if !dd.IsDir() {
+				continue
+			}
+			mmdd := dd.Name()
+			data, err := os.ReadFile(filepath.Join(calendarRoot, md.Name(), mmdd, "commemorations.json"))
+			if err != nil {
+				continue
+			}
+			var parsed struct {
+				Commemorations []struct {
+					Title string `json:"title"`
+				} `json:"commemorations"`
+			}
+			if json.Unmarshal(data, &parsed) != nil || len(parsed.Commemorations) == 0 {
+				continue
+			}
+			d := day{MMDD: mmdd}
+			dparts := strings.SplitN(mmdd, "-", 2)
+			if len(dparts) == 2 {
+				if dnum, err := strconv.Atoi(dparts[1]); err == nil {
+					d.Label = fmt.Sprintf("%s %d", m.Name, dnum)
+				}
+			}
+			if d.Label == "" {
+				d.Label = mmdd
+			}
+			for i, c := range parsed.Commemorations {
+				d.Comms = append(d.Comms, comm{Title: c.Title, Index: i})
+			}
+			m.Count += len(d.Comms)
+			m.Days = append(m.Days, d)
+		}
+		sort.Slice(m.Days, func(i, j int) bool { return m.Days[i].MMDD < m.Days[j].MMDD })
+		months = append(months, m)
+	}
+	ecclRank := func(num int) int { return (num - 9 + 12) % 12 }
+	sort.Slice(months, func(i, j int) bool { return ecclRank(months[i].Num) < ecclRank(months[j].Num) })
+
+	var b strings.Builder
+	b.WriteString(`<div class="chapter-text synaxarion-page" style="max-width: 760px; margin: 0 auto;">`)
+	b.WriteString(`<h2 style="text-align: center; margin-bottom: 8px;">Synaxarion</h2>`)
+	b.WriteString(`<p style="text-align: center; color: #666; font-style: italic; margin-bottom: 20px;">Daily Lives of the Saints. Dates follow the old-style (Julian) calendar. Select a month, then a saint to read the Life.</p>`)
+	b.WriteString(`<div class="synax-search-wrap"><input type="search" id="synax-search" class="synax-search" placeholder="Search for a saint or Life&hellip;" autocomplete="off" oninput="filterSynaxarion(this.value)"><div id="synax-search-count" class="synax-search-count"></div></div>`)
+
+	for _, m := range months {
+		b.WriteString(`<div class="synax-month">`)
+		b.WriteString(fmt.Sprintf(`<button type="button" class="synax-month-header" onclick="toggleSynaxMonth(this)"><span class="synax-caret">&#9656;</span><span class="synax-month-name">%s</span><span class="synax-month-count">%d</span></button>`,
+			html.EscapeString(m.Name), m.Count))
+		b.WriteString(`<div class="synax-month-body" hidden>`)
+		for _, d := range m.Days {
+			b.WriteString(`<div class="synax-day">`)
+			b.WriteString(fmt.Sprintf(`<div class="synax-day-label">%s</div>`, html.EscapeString(d.Label)))
+			b.WriteString(`<ul class="synax-saints">`)
+			for _, c := range d.Comms {
+				b.WriteString(fmt.Sprintf(`<li><a href="#" onclick="loadLife('%s',%d,this.textContent);return false;">%s</a></li>`,
+					html.EscapeString(d.MMDD), c.Index, html.EscapeString(c.Title)))
+			}
+			b.WriteString(`</ul></div>`)
+		}
+		b.WriteString(`</div></div>`)
+	}
+	b.WriteString(`</div>`)
+
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(b.String()))
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
