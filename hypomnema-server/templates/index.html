@@ -1079,7 +1079,27 @@
                 loadNikolaiHomily(ref.id, ref.label);
             } else if (ref.type === 'theophylact') {
                 loadTheophylactCommentary(ref.id, ref.label, ref.book);
+            } else if (ref.type === 'synaxarion') {
+                loadLife(ref.mmdd, ref.index || 0, ref.label);
             }
+        }
+
+        function loadLife(mmdd, index, label) {
+            const panel = document.getElementById('homilyPanel');
+            const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
+            const content = document.getElementById('homilyContent');
+            const container = document.querySelector('.container');
+
+            title.textContent = label || 'Life';
+            author.textContent = 'Synaxarion';
+
+            content.innerHTML = '<div class="loading">Loading...</div>';
+
+            panel.classList.add('active');
+            container.classList.add('homily-open');
+
+            htmx.ajax('GET', `/api/life/${mmdd}/${index}`, '#homilyContent');
         }
 
         function closeCommentaryPopover() {
@@ -1112,10 +1132,20 @@
 
             refs.forEach(ref => {
                 if (ref.type === 'synaxarion') {
-                    const note = document.createElement('div');
-                    note.className = 'commentary-popover-note';
-                    note.textContent = ref.label;
-                    list.appendChild(note);
+                    const item = document.createElement('button');
+                    item.className = 'commentary-popover-item';
+                    const author = document.createElement('span');
+                    author.className = 'ref-author';
+                    author.textContent = ref.author || 'Synaxarion';
+                    const work = document.createElement('span');
+                    work.textContent = ref.label;
+                    item.appendChild(author);
+                    item.appendChild(work);
+                    item.addEventListener('click', () => {
+                        closeCommentaryPopover();
+                        openCommentaryRef(ref);
+                    });
+                    list.appendChild(item);
                 } else if (ref.type === 'unavailable') {
                     const item = document.createElement('div');
                     item.className = 'commentary-popover-unavailable';

@@ -101,6 +101,26 @@ type VerseRef struct {
 	Book   string `json:"book"`
 	Author string `json:"author"`
 	Label  string `json:"label"`
+	MMDD   string `json:"mmdd,omitempty"`
+	Index  int    `json:"index,omitempty"`
+}
+
+// SynaxarionVerse is a single verse a Synaxarion Life is attached to
+type SynaxarionVerse struct {
+	Book    string `json:"book"`
+	Chapter int    `json:"chapter"`
+	Verse   int    `json:"verse"`
+}
+
+// SynaxarionLife is a Life of a saint attached to specific verses across any book
+type SynaxarionLife struct {
+	ID                 int               `json:"id"`
+	Title              string            `json:"title"`
+	Saint              string            `json:"saint"`
+	Date               string            `json:"date"`
+	MMDD               string            `json:"mmdd"`
+	CommemorationIndex int               `json:"commemoration_index"`
+	Verses             []SynaxarionVerse `json:"verses"`
 }
 
 // HomilyFootnote represents a single footnote in a homily
@@ -153,6 +173,7 @@ var (
 	sectionData                map[string][]SectionEntry
 	commentaries               map[string]*Commentary
 	unavailableWorks           []UnavailableWork
+	synaxarionLives            []SynaxarionLife
 	chrysostomMatthewFootnotes AllFootnotes
 	chrysostomJohnFootnotes    AllFootnotes
 	scriptureReferences        map[string][]ScriptureReference
@@ -220,9 +241,7 @@ func init() {
 	loadCommentary("cyril", "luke",
 		"../texts/commentaries/cyril/luke/verse_mapping.json",
 		"../texts/commentaries/cyril/luke/coverage.json")
-	loadCommentary("synaxarion", "matthew",
-		"../texts/commentaries/synaxarion/verse_mapping.json",
-		"../texts/commentaries/synaxarion/coverage.json")
+	loadSynaxarion("../texts/commentaries/synaxarion/coverage.json")
 	loadCommentary("nikolai", "prologue",
 		"",
 		"../texts/commentaries/nikolai/Prologue/coverage.json")
@@ -512,6 +531,23 @@ func loadCommentary(author, book, homiliesPath, coveragePath string) {
 	commentaries[key] = commentary
 }
 
+func loadSynaxarion(coveragePath string) {
+	data, err := os.ReadFile(coveragePath)
+	if err != nil {
+		log.Printf("Warning: Could not load synaxarion coverage: %v", err)
+		return
+	}
+	var parsed struct {
+		Lives []SynaxarionLife `json:"lives"`
+	}
+	if err := json.Unmarshal(data, &parsed); err != nil {
+		log.Printf("Warning: Could not parse synaxarion coverage: %v", err)
+		return
+	}
+	synaxarionLives = parsed.Lives
+	log.Printf("Loaded synaxarion: %d lives", len(synaxarionLives))
+}
+
 func loadUnavailableWork(author, work, coveragePath, defaultBook string) {
 	data, err := os.ReadFile(coveragePath)
 	if err != nil {
@@ -642,6 +678,7 @@ func main() {
 	http.HandleFunc("/api/references", referencesHandler)
 	http.HandleFunc("/api/scripture-references", scriptureReferencesHandler)
 	http.HandleFunc("/api/homily/", homilyAPIHandler)
+	http.HandleFunc("/api/life/", lifeAPIHandler)
 	http.HandleFunc("/api/homilies/", homiliesListHandler)
 	http.HandleFunc("/api/search", searchHandler)
 
@@ -968,14 +1005,10 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 	// Get homily mappings
 	var homilyMap map[string][]Homily
 	var cyrilHomilyMap map[string][]Homily
-	var synaxarionHomilyMap map[string][]Homily
 	var theophylactHomilyMap map[string][]Homily
 	if bookID == "matthew" {
 		if comm, ok := commentaries["chrysostom-matthew"]; ok {
 			homilyMap = comm.VerseToHomily
-		}
-		if comm, ok := commentaries["synaxarion-matthew"]; ok {
-			synaxarionHomilyMap = comm.VerseToHomily
 		}
 		if comm, ok := commentaries["theophylact-matthew"]; ok {
 			theophylactHomilyMap = comm.VerseToHomily
@@ -993,7 +1026,7 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Format the text with paragraphs and canon numbers
 	greekVerses := loadGreekChapterVerses(bookID, chapter)
-	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap, synaxarionHomilyMap, theophylactHomilyMap, greekVerses)
+	html := formatChapterHTML(string(content), chapterParagraphs, bookCanons, chapter, bookID, homilyMap, cyrilHomilyMap, theophylactHomilyMap, greekVerses)
 
 	// Check if this is an HTMX request
 	isHTMX := r.Header.Get("HX-Request") == "true"
@@ -1124,7 +1157,7 @@ func coveringHomilyIDs(coverage map[int]HomilyRange, chapter, verse int) []int {
 	return ids
 }
 
-func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily, synaxarionHomilyMap map[string][]Homily, theophylactHomilyMap map[string][]Homily, greekVerses map[int]string) string {
+func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string]string, chapter int, bookID string, homilyMap map[string][]Homily, cyrilHomilyMap map[string][]Homily, theophylactHomilyMap map[string][]Homily, greekVerses map[int]string) string {
 	lines := strings.Split(strings.TrimSpace(text), "\n")
 	var html strings.Builder
 
@@ -1270,33 +1303,25 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 			}
 		}
 
-		// Add Synaxarion entries
-		if synaxarionHomilyMap != nil {
-			verseKey := fmt.Sprintf("%d:%d", chapter, verseNum)
-			if synaxarionEntries, ok := synaxarionHomilyMap[verseKey]; ok {
-				for _, entry := range synaxarionEntries {
-					if contains(lastHomilies, entry.ID*1000) {
-						continue
-					}
-					currentHomilies = append(currentHomilies, entry.ID*1000)
-
-					passageRef := ""
-					saintName := ""
-					dateStr := ""
-					if comm, ok := commentaries["synaxarion-matthew"]; ok {
-						if coverage, ok := comm.Coverage[entry.ID]; ok {
-							passageRef = formatCoverageRef(coverage)
-							saintName = coverage.Saint
-							dateStr = coverage.Date
-						}
-					}
-
-					verseRefs = append(verseRefs, VerseRef{
-						Type:  "synaxarion",
-						ID:    entry.ID,
-						Label: fmt.Sprintf("Synaxarion: %s (%s)%s", saintName, dateStr, passageRef),
-					})
+		// Add Synaxarion Lives (attached to specific verses across any book)
+		for _, life := range synaxarionLives {
+			for _, v := range life.Verses {
+				if v.Book != bookID || v.Chapter != chapter || v.Verse != verseNum {
+					continue
 				}
+				label := life.Title
+				if life.Date != "" {
+					label = fmt.Sprintf("%s (%s)", life.Title, life.Date)
+				}
+				verseRefs = append(verseRefs, VerseRef{
+					Type:   "synaxarion",
+					ID:     life.ID,
+					Author: "Synaxarion",
+					Label:  label,
+					MMDD:   life.MMDD,
+					Index:  life.CommemorationIndex,
+				})
+				break
 			}
 		}
 
@@ -1354,6 +1379,10 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		}
 
 		if len(verseRefs) > 0 {
+			// Synaxarion Lives are listed last (popover and tooltip share this order)
+			sort.SliceStable(verseRefs, func(i, j int) bool {
+				return verseRefs[i].Type != "synaxarion" && verseRefs[j].Type == "synaxarion"
+			})
 			refsJSON, err := json.Marshal(verseRefs)
 			if err != nil {
 				refsJSON = []byte("[]")
@@ -1934,6 +1963,65 @@ func extractNikolaiHomily(homilyNum int) (string, string, error) {
 	return sb.String(), verseRef, nil
 }
 
+func lifeAPIHandler(w http.ResponseWriter, r *http.Request) {
+	// Parse URL: /api/life/06-29/0  (mmdd / commemoration index)
+	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/api/life/"), "/")
+	if len(parts) != 2 {
+		http.Error(w, "Invalid URL", http.StatusBadRequest)
+		return
+	}
+	mmdd := parts[0]
+	index, err := strconv.Atoi(parts[1])
+	if err != nil || len(mmdd) != 5 || mmdd[2] != '-' {
+		http.Error(w, "Invalid life reference", http.StatusBadRequest)
+		return
+	}
+
+	monthNames := []string{"January", "February", "March", "April", "May", "June",
+		"July", "August", "September", "October", "November", "December"}
+	monthNum, err := strconv.Atoi(mmdd[:2])
+	if err != nil || monthNum < 1 || monthNum > 12 {
+		http.Error(w, "Invalid month", http.StatusBadRequest)
+		return
+	}
+	monthFolder := fmt.Sprintf("%02d-%s", monthNum, monthNames[monthNum-1])
+	path := fmt.Sprintf("../synaxarion/calendar/%s/%s/commemorations.json", monthFolder, mmdd)
+
+	w.Header().Set("Content-Type", "text/html")
+
+	data, err := os.ReadFile(path)
+	if err != nil {
+		w.Write([]byte(`<div class="chapter-text"><p style="text-align: center; color: #666;">Life not available.</p></div>`))
+		return
+	}
+
+	var day struct {
+		Commemorations []struct {
+			Title string `json:"title"`
+			Text  string `json:"text"`
+		} `json:"commemorations"`
+	}
+	if err := json.Unmarshal(data, &day); err != nil || index < 0 || index >= len(day.Commemorations) {
+		w.Write([]byte(`<div class="chapter-text"><p style="text-align: center; color: #666;">Life not available.</p></div>`))
+		return
+	}
+
+	c := day.Commemorations[index]
+	var b strings.Builder
+	b.WriteString(`<div class="chapter-text">`)
+	b.WriteString(fmt.Sprintf(`<p class="homily-verse-ref">%s</p>`, template.HTMLEscapeString(c.Title)))
+	for _, para := range strings.Split(c.Text, "\n") {
+		para = strings.TrimSpace(para)
+		if para == "" {
+			continue
+		}
+		b.WriteString("<p>" + template.HTMLEscapeString(para) + "</p>")
+	}
+	b.WriteString(`<p class="life-attribution" style="margin-top:2em;font-size:0.8em;font-style:italic;color:#777;">Translated from Russian Orthodox Clergyman's Handbook by Priest Stephen Janos, Copyright &copy; 1996-2001. Reprinted here under Creative Commons license.</p>`)
+	b.WriteString("</div>")
+	w.Write([]byte(b.String()))
+}
+
 func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 	// Parse URL: /api/homily/chrysostom/matthew/1 or /api/homily/cyril/luke/1
 	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/api/homily/"), "/")
@@ -2248,6 +2336,13 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		combining patristic wisdom with accessible explanation (In progress).
 		The English translation was made from the Greek text of Migne's
 		<em>Patrologia Graeca</em> (PG) using Claude Opus 4.8.</p>
+
+		<p><strong>Synaxarion (Daily Lives of the Saints)</strong><br>
+		The daily commemorations and Lives of the Saints are drawn from the
+		Orthodox calendar of Holy Trinity Russian Orthodox Church. The English
+		translations by Fr. S. Janos are used under a
+		<a href="https://www.ponomar.net/legal.html" target="_blank">Creative Commons by-sa</a>
+		license.</p>
 
 		<h3>Features</h3>
 		<ul>
