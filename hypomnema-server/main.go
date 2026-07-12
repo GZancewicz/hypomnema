@@ -2244,7 +2244,9 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 
 		<p><strong>Theophylact's Explanations of the Holy Gospel</strong><br>
 		Blessed Theophylact of Ohrid's verse-by-verse commentary on the Gospels,
-		combining patristic wisdom with accessible explanation (In progress).</p>
+		combining patristic wisdom with accessible explanation (In progress).
+		The English translation was made from the Greek text of Migne's
+		<em>Patrologia Graeca</em> (PG) using Claude Opus 4.8.</p>
 
 		<h3>Features</h3>
 		<ul>
