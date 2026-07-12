@@ -19,7 +19,7 @@ The hypomnema app is a biblical text reader featuring the King James Version (KJ
   - Venerable Bede's 50 homilies across all four Gospels
   - Nikolai Velimirovich's daily meditations from the Prologue of Ohrid featuring homilies on Scripture (In progress)
   - Maximos the Confessor's treatise On the Lord's Prayer
-  - Synaxarion entries linking saints' lives to Gospel passages
+  - Synaxarion entries linking saints' lives to New Testament passages (Sept 1 – Oct 5, in progress)
   - Theophylact of Ohrid's commentary (In progress)
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout)
@@ -254,8 +254,9 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - Deep theological reflection on the Lord's Prayer
 
 ### Synaxarion
-- **Saints' lives** linked to specific Gospel passages
+- **Saints' lives** linked to specific New Testament passages
 - Entries organized by liturgical date with saint name and scripture reference
+- **Coverage (in progress):** calendar days **September 1 through October 5** (old calendar) have been incorporated so far; work is ongoing to extend coverage through the remaining days
 
 ### Theophylact of Ohrid (c. 1050-1107)
 
