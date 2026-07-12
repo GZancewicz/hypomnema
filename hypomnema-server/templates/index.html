@@ -16,7 +16,7 @@
 
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=88">
+    <link rel="stylesheet" href="/static/styles.css?v=89">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -590,10 +590,7 @@
             
             // Update URL
             history.pushState(null, '', `/${bookId}/${chapter}`);
-            
-            // Close search if open
-            closeSearch();
-            
+
             // Force another scroll after a brief delay
             setTimeout(() => {
                 window.scrollTo(0, 0);
@@ -606,8 +603,6 @@
         document.addEventListener('htmx:afterSwap', function(event) {
             // Check if this was a chapter load (the target will be text-content)
             if (event.detail.target && event.detail.target.id === 'text-content') {
-                // Clear and hide search when navigating to a chapter
-                closeSearch();
                 // Get the request path from the event
                 let url = '';
                 if (event.detail.requestConfig && event.detail.requestConfig.path) {
@@ -780,10 +775,9 @@
         function navigateFromModal(bookId, chapter) {
             console.log('Navigating to:', bookId, chapter); // Debug log
             
-            // Close modal and search
+            // Close modal but leave the search panel open
             closeSearchModal();
-            closeSearch();
-            
+
             // Update current state
             currentBook = bookId;
             currentChapter = parseInt(chapter);
@@ -1130,6 +1124,20 @@
             if (!event || event.target === document.getElementById('canonModal') || event.target.classList.contains('modal-close')) {
                 document.getElementById('canonModal').style.display = 'none';
             }
+        }
+
+        function goToCanonPassage(bookId, chapter, verse) {
+            document.getElementById('canonModal').style.display = 'none';
+
+            htmx.ajax('GET', `/api/chapter/${bookId}/${chapter}`, '#text-content').then(() => {
+                history.pushState(null, '', `/${bookId}/${chapter}`);
+                const el = document.getElementById('verse-' + verse);
+                if (el) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    el.classList.add('verse-highlight');
+                    setTimeout(() => el.classList.remove('verse-highlight'), 2000);
+                }
+            });
         }
         
         // Close modal with Escape key

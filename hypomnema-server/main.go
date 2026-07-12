@@ -1491,7 +1491,14 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 			// Convert chapter.verse format to chapter:verse
 			verseRef = strings.ReplaceAll(verseRef, ".", ":")
 
-			html.WriteString(fmt.Sprintf("<div class='passage'>"))
+			bookID := strings.ToLower(gospel)
+			targetChapter, targetVerse := parseCanonTarget(verses)
+
+			if targetChapter > 0 && targetVerse > 0 {
+				html.WriteString(fmt.Sprintf("<div class='passage passage-clickable' onclick=\"goToCanonPassage('%s', %d, %d)\">", bookID, targetChapter, targetVerse))
+			} else {
+				html.WriteString("<div class='passage'>")
+			}
 			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospel, verseRef))
 
 			// Load the actual verse text
@@ -1509,6 +1516,37 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "text/html")
 	w.Write([]byte(html.String()))
+}
+
+func parseCanonTarget(verseRef string) (int, int) {
+	dashParts := strings.Split(verseRef, " - ")
+	if len(dashParts) != 2 {
+		return 0, 0
+	}
+
+	parts := strings.Split(dashParts[1], ".")
+	if len(parts) != 2 {
+		return 0, 0
+	}
+
+	chapter, err := strconv.Atoi(parts[0])
+	if err != nil {
+		return 0, 0
+	}
+
+	versePart := parts[1]
+	if strings.Contains(versePart, "-") {
+		versePart = strings.Split(versePart, "-")[0]
+	}
+	re := regexp.MustCompile(`[A-Z]+$`)
+	versePart = re.ReplaceAllString(versePart, "")
+
+	verse, err := strconv.Atoi(versePart)
+	if err != nil {
+		return 0, 0
+	}
+
+	return chapter, verse
 }
 
 func loadVerseText(gospel string, verseRef string) string {
