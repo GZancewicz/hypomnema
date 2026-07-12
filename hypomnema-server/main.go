@@ -234,9 +234,10 @@ func init() {
 		"../texts/commentaries/maximos_the_confessor/On the Lord's Prayer/coverage.json", "")
 	loadUnavailableWork("Venerable Bede", "Homilies on the Gospels",
 		"../texts/commentaries/bede/Homilies on the Gospels/coverage.json", "")
-	loadCommentary("theophylact", "matthew",
-		"../texts/commentaries/theophylact/matthew/verse_mapping.json",
-		"../texts/commentaries/theophylact/matthew/coverage.json")
+	// Theophylact reader markers temporarily disabled
+	// loadCommentary("theophylact", "matthew",
+	// 	"../texts/commentaries/theophylact/matthew/verse_mapping.json",
+	// 	"../texts/commentaries/theophylact/matthew/coverage.json")
 
 	// Load footnotes
 	loadAllFootnotes()
