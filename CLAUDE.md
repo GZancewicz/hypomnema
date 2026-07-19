@@ -84,6 +84,9 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 }
 ```
 
+## Communication Style
+- Be concise. Default to the shortest answer that fully addresses the request; lead with the answer, skip preamble/recaps, and expand only when asked.
+
 ## Development Guidelines
 - Server runs on http://localhost:8080
 - Uses HTMX for dynamic content loading
