@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_2.1",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 2:1"
+  },
+  "lemma_quote": "Ἰδοὺ Μάγοι ἀπὸ Ἀνατολῶν παρεγένοντο εἰς Ἱεροσόλυμα",
+  "lemma_quote_en": "Behold, Magi from the East arrived in Jerusalem",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.1",
+  "folder_suffix_agrees": true,
+  "notes": "Expounds the arrival-of-the-Magi clause, the tail of Matt. 2:1."
+}

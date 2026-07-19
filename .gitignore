@@ -26,10 +26,16 @@ dist-ssr
 
 texts/scripture/old_testament/greek
 
-.claude
+.claude/*
+!.claude/skills/
+!.claude/agents/
 
 # Air build artifacts
 hypomnema-server/tmp
+
+# Python bytecode cache
+__pycache__/
+*.pyc
 
 # Large source PDFs (Patrologia Graeca scans) - OCR .txt is tracked instead
 texts/commentaries/theophylact/PG/*.pdf

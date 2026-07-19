@@ -1,0 +1,39 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_2.1",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 2:1"
+  },
+  "lemma_quote": "Ἐν ἡμέραις Ἡρώδου",
+  "lemma_quote_en": "In the days of Herod",
+  "cross_references": [
+    {
+      "book": "genesis",
+      "chapter": 49,
+      "verse": 10,
+      "note": "Theophylact alludes to Jacob's prophecy (rulers failing from Judah)"
+    }
+  ],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.1",
+  "folder_suffix_agrees": true,
+  "notes": "Expounds «ἐν ἡμέραις Ἡρώδου» within Matt. 2:1."
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_2.20",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 45,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 2:20"
+  },
+  "lemma_quote": "Τεθνήκασι γὰρ οἱ ζητοῦντες τὴν ψυχὴν τοῦ παιδίου",
+  "lemma_quote_en": "For they have died who were seeking the life of the child",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.20",
+  "folder_suffix_agrees": true,
+  "notes": "Tail of Matt. 2:20. Comment turns on ψυχή = 'soul' (anti-Apollinaris); the person 'Apollinaris' is not a scripture cross-reference."
+}

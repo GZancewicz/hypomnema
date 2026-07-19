@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_2.1",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 2:1"
+  },
+  "lemma_quote": "Ἀπὸ Ἀνατολῶν",
+  "lemma_quote_en": "From the East",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.1",
+  "folder_suffix_agrees": true,
+  "notes": "Re-quotes the sub-phrase «ἀπὸ Ἀνατολῶν» already within lemma 4's quote, to comment on it separately; still Matt. 2:1."
+}

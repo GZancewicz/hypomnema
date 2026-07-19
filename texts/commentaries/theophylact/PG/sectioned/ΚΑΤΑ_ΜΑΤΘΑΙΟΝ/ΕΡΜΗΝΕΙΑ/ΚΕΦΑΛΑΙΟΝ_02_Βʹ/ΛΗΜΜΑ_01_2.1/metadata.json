@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_2.1",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 2:1"
+  },
+  "lemma_quote": "Τοῦ δὲ Ἰησοῦ γεννηθέντος ἐν Βηθλεὲμ τῆς Ἰουδαίας",
+  "lemma_quote_en": "And Jesus having been born in Bethlehem of Judea",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.1",
+  "folder_suffix_agrees": true,
+  "notes": "Matt. 2:1 is long and split phrase-by-phrase across lemmata 1–5; this one expounds the opening genitive-absolute clause. OCR «ἸουΚαίας» = Ἰουδαίας."
+}

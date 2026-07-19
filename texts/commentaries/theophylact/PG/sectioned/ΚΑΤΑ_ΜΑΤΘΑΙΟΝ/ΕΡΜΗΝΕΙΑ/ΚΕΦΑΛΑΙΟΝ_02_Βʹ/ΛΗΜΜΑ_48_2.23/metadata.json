@@ -1,0 +1,38 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_2.23",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 48,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 2:23"
+  },
+  "lemma_quote": "Καὶ ἐλθὼν κατῴκησεν εἰς πόλιν λεγομένην Ναζαρέτ",
+  "lemma_quote_en": "And having come, he dwelt in a city called Nazareth",
+  "cross_references": [
+    {
+      "book": "luke",
+      "chapter": 2,
+      "note": "harmonization: Luke's presentation and return to Nazareth (Luke 2:22-39)"
+    }
+  ],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.23",
+  "folder_suffix_agrees": true,
+  "notes": "First half of Matt. 2:23. Theophylact harmonizes with Luke's infancy narrative (a genuine cross-reference)."
+}

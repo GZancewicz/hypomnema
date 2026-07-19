@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_2.23",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 49,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 2:23"
+  },
+  "lemma_quote": "Ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν, ὅτι Ναζωραῖος κληθήσεται",
+  "lemma_quote_en": "So that there might be fulfilled the thing spoken through the prophets, that 'He shall be called a Nazarene'",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.23",
+  "folder_suffix_agrees": true,
+  "notes": "Second half of Matt. 2:23. OCR «κὐρίσκεται» = εὑρίσκεται. The 'Nazarene' prophecy is unlocatable in extant prophets, as Theophylact notes."
+}

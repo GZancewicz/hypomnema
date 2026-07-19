@@ -1,0 +1,36 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_2.21",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 46,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 21
+      },
+      {
+        "chapter": 2,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 2:21-22"
+  },
+  "lemma_quote": "Ὁ δὲ ἐγερθεὶς παρέλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ, καὶ ἦλθεν εἰς γῆν Ἰσραήλ. Ἀκούσας […ὅτι Ἀρχέλαος βασιλεύει τῆς Ἰουδαίας ἀντὶ…] Ἡρώδου τοῦ πατρὸς αὐτοῦ, ἐφοβήθη ἐκεῖ ἀπελθεῖν",
+  "lemma_quote_en": "But he, having arisen, took the child and his mother, and came into the land of Israel. And having heard [that Archelaus was reigning over Judaea in place of] Herod his father, he was afraid to go away thither",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": true,
+  "notes": "RANGE 2:21–22: quote spans all of 2:21 plus the first half of 2:22. OCR gap «ΑΡΠΤΙi.» reconstructed as the Archelaus clause of 2:22 (flagged [?] in en.md). Folder suffix 2.21 names only the start verse."
+}

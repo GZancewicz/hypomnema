@@ -1,0 +1,32 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_2.21",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 47,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 2:22"
+  },
+  "lemma_quote": "Χρηματισθεὶς δὲ κατ᾽ ὄναρ, ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας",
+  "lemma_quote_en": "But having been warned in a dream, he withdrew into the parts of Galilee",
+  "cross_references": [],
+  "coverage_source": "en.md+greek_pat",
+  "confidence": "high",
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": false,
+  "notes": "MISMATCH: quote = second half of Matt. 2:22, but folder is tagged 2.21. Folder-name verse is WRONG; coverage corrected to 2:22 from Greek+TR (en.md header agrees)."
+}
