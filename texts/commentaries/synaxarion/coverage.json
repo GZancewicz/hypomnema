@@ -143,6 +143,11 @@
           "book": "2timothy",
           "chapter": 1,
           "verse": 16
+        },
+        {
+          "book": "2timothy",
+          "chapter": 4,
+          "verse": 19
         }
       ]
     },
@@ -1018,6 +1023,321 @@
           "book": "luke",
           "chapter": 1,
           "verse": 27
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Lives of the Holy Disciples from the Seventy: Archippus, Philemon and Apphia",
+      "saint": "The Holy Disciples from the Seventy: Archippos, Philemon and Apthea (2nd Comm. 22 November)",
+      "date": "February 19",
+      "mmdd": "02-19",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        },
+        {
+          "book": "philemon",
+          "chapter": 1,
+          "verse": 1
+        },
+        {
+          "book": "philemon",
+          "chapter": 1,
+          "verse": 2
+        },
+        {
+          "book": "colossians",
+          "chapter": 4,
+          "verse": 17
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Life of the Holy Disciple Philemon and his spouse Apphia",
+      "saint": "The Holy Disciple Philemon and his spouse Apphia",
+      "date": "November 22",
+      "mmdd": "11-22",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "philemon",
+          "chapter": 1,
+          "verse": 1
+        },
+        {
+          "book": "philemon",
+          "chapter": 1,
+          "verse": 2
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Life of the Holy Disciple Onesimus",
+      "saint": "The Disciple from the 70 Onysimos",
+      "date": "February 15",
+      "mmdd": "02-15",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        },
+        {
+          "book": "philemon",
+          "chapter": 1,
+          "verse": 10
+        },
+        {
+          "book": "colossians",
+          "chapter": 4,
+          "verse": 9
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Life of the Holy PriestMartyr Clement, Pope of Rome",
+      "saint": "The PriestMartyr Clement, Pope of Rome",
+      "date": "November 25",
+      "mmdd": "11-25",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "philippians",
+          "chapter": 4,
+          "verse": 3
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Life of the Holy Apostle Andrew the First-Called",
+      "saint": "The Holy Apostle Andrew the First-Called (Pervozvyannii)",
+      "date": "November 30",
+      "mmdd": "11-30",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 10,
+          "verse": 2
+        },
+        {
+          "book": "mark",
+          "chapter": 3,
+          "verse": 18
+        },
+        {
+          "book": "luke",
+          "chapter": 6,
+          "verse": 14
+        },
+        {
+          "book": "acts",
+          "chapter": 1,
+          "verse": 13
+        },
+        {
+          "book": "john",
+          "chapter": 1,
+          "verse": 36
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "The Sobor of the Seventy Disciples",
+      "saint": "The Sobor (Assemblage) of the Seventy Disciples (\"Apostles\")",
+      "date": "January 4",
+      "mmdd": "01-04",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Lives of the Holy Disciples from the Seventy: Sosthenes, Apollos, Cephas, Tychicus, Epaphroditus, Caesarius, Onesiphorus",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Tykhikos, Epaphrodites, Caesarius, Onysiphoros",
+      "date": "December 8",
+      "mmdd": "12-08",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Life of the Holy Disciple Sosthenes",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Caesarius and Epaphrodites",
+      "date": "March 30",
+      "mmdd": "03-30",
+      "commemoration_index": 1,
+      "verses": [
+        {
+          "book": "acts",
+          "chapter": 18,
+          "verse": 17
+        },
+        {
+          "book": "1corinthians",
+          "chapter": 1,
+          "verse": 1
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Life of the Holy Disciple Apollos",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Caesarius and Epaphrodites",
+      "date": "March 30",
+      "mmdd": "03-30",
+      "commemoration_index": 1,
+      "verses": [
+        {
+          "book": "acts",
+          "chapter": 18,
+          "verse": 24
+        },
+        {
+          "book": "acts",
+          "chapter": 19,
+          "verse": 1
+        },
+        {
+          "book": "1corinthians",
+          "chapter": 1,
+          "verse": 12
+        },
+        {
+          "book": "1corinthians",
+          "chapter": 3,
+          "verse": 6
+        },
+        {
+          "book": "1corinthians",
+          "chapter": 16,
+          "verse": 12
+        },
+        {
+          "book": "titus",
+          "chapter": 3,
+          "verse": 13
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Life of the Holy Disciple Cephas",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Caesarius and Epaphrodites",
+      "date": "March 30",
+      "mmdd": "03-30",
+      "commemoration_index": 1,
+      "verses": [
+        {
+          "book": "1corinthians",
+          "chapter": 15,
+          "verse": 5
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Life of the Holy Disciple Epaphroditus",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Caesarius and Epaphrodites",
+      "date": "March 30",
+      "mmdd": "03-30",
+      "commemoration_index": 1,
+      "verses": [
+        {
+          "book": "philippians",
+          "chapter": 2,
+          "verse": 25
+        },
+        {
+          "book": "philippians",
+          "chapter": 4,
+          "verse": 18
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Life of the Holy Disciple Tychicus",
+      "saint": "The Holy Disciples from the 70: Sosthenes, Apollos, Cephas, Tykhikos, Epaphrodites, Caesarius, Onysiphoros",
+      "date": "December 8",
+      "mmdd": "12-08",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "acts",
+          "chapter": 20,
+          "verse": 4
+        },
+        {
+          "book": "ephesians",
+          "chapter": 6,
+          "verse": 21
+        },
+        {
+          "book": "colossians",
+          "chapter": 4,
+          "verse": 7
+        },
+        {
+          "book": "2timothy",
+          "chapter": 4,
+          "verse": 12
+        },
+        {
+          "book": "titus",
+          "chapter": 3,
+          "verse": 12
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "The Conception by Saint Anna of the Most Holy Theotokos",
+      "saint": "The Conception by Saint Anna, of \"Whence is Conceived the Holy Mother of God",
+      "date": "December 9",
+      "mmdd": "12-09",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 27
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Life of the Holy PriestMartyr Ignatius the God-Bearer",
+      "saint": "The PriestMartyr Ignatios the God-Bearer",
+      "date": "December 20",
+      "mmdd": "12-20",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 18,
+          "verse": 2
         }
       ]
     }
