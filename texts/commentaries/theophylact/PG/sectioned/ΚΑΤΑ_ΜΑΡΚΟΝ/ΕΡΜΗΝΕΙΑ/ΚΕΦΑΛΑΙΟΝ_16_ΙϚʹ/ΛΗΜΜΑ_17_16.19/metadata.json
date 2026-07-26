@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_16.19",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 17,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 19
+      }
+    ],
+    "display": "Mark 16:19"
+  },
+  "lemma_quote": "Κύριος μετὰ τὸ λαλῆσαι αὐτοῖς, ἀν ελήφθη εἰς τὸν οὐρανὸν, καὶ ἐκάθισεν ἐκ δεξιῶν τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.847,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

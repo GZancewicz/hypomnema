@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_7.5",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 7:5"
+  },
+  "lemma_quote": "Ὑποκριτὰ, ἔκβαλε πρῶτον τὴν δοκὸν ἐκ τοῦ ὁτθαὶ μοῦ σοῦ, καὶ τότε διαβλέψεις ἐκβαλεῖν τὸ κάρφος ἐκ ποῦ ὁφθαλμοῦ τοῦ ἀδελφοῦ σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.948,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

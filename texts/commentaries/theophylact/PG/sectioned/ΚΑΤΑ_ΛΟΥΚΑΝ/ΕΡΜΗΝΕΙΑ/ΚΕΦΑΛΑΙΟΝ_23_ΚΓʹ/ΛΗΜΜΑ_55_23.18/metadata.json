@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 55,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 23:42"
+  },
+  "lemma_quote": "Δήσας τὸν ἰσχυρὸν τὰ σκεύη αὐτοῦ διαρπάσει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.221,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

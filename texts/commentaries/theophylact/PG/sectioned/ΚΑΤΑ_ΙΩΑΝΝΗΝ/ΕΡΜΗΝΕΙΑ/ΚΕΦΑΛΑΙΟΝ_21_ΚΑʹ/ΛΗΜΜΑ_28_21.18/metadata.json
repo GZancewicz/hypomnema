@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_21.18",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 17
+      }
+    ],
+    "display": "John 21:17"
+  },
+  "lemma_quote": "Κύριε, σὺ πάντα οἶδας,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

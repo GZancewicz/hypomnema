@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_1.3",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 4
+      }
+    ],
+    "display": "John 1:4"
+  },
+  "lemma_quote": "Ζωὴ ΚΧν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.797,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

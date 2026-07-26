@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_2.7",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 7
+      }
+    ],
+    "display": "Luke 2:7"
+  },
+  "lemma_quote": "ἔτεκε τὸν Υἱὸν αὐτῆς τὸν πρωτότοκον, καὶ ἐσπαργάνωσεν αὐτὸν καὶ ἀνέκλινεν αὐτὸν ἐν τῇ φάτνῃ· διότι οὐκ ἠν αὐτοῖς τόπος ἐν τῷ καταλύματι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

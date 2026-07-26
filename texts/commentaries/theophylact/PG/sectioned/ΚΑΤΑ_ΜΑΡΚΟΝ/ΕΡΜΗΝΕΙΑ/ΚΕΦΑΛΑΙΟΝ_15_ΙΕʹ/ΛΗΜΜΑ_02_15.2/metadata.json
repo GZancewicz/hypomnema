@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_15.2",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 2
+      }
+    ],
+    "display": "Mark 15:2"
+  },
+  "lemma_quote": "ἐπηρώτησεν αὐτὸν ὁ Πιλάτος· Σὺ εἶ ὁ βασιλεὺς ῶν Ἰουδαίων; Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτῷ· Σὺ λίγεις · καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.857,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

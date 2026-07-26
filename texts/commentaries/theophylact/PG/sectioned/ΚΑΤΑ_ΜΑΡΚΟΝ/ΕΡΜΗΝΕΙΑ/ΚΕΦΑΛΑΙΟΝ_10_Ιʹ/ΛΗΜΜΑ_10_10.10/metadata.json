@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 10,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 32
+      }
+    ],
+    "display": "Mark 10:32"
+  },
+  "lemma_quote": "«Ἡσαν δὲ ἐν τῇ ὁδῷ ἀναβαίνοντες εἰς Ἱεροσάλυμα, καὶ ἦν προάγων αὐτοὺς ὁ Ἰησοῦς, καὶ ἐθαμβοῦντο, καὶ ἀκολουθοῦντες ἐφοβοῦντο· καὶ παραλαβὼν πάλιν τοὺς δώδεκα, ἤρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.844,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

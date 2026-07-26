@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_4.10",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 19,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 9
+      }
+    ],
+    "display": "John 4:9"
+  },
+  "lemma_quote": "Πῶς σὺ Ἰουδαῖος ὢν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.396,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_23.22",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 19,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 23:22"
+  },
+  "lemma_quote": "ὀμόσας ἐν τῷ οὐρανῷ, ὁμνύει ἐν τῷ θρόνῳ τοῦ Θεοῦ, καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

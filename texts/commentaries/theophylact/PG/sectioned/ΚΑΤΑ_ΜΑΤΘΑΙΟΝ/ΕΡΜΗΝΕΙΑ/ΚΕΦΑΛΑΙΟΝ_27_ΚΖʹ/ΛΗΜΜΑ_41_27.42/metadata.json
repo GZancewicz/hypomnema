@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_27.42",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 41,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 42
+      }
+    ],
+    "display": "Matthew 27:42"
+  },
+  "lemma_quote": "Ἄλλους ἔσωσεν, ἐαυτὸν οὐ δύναται σῶσαι; Εἰ βασιλεὺς Ἰσραήλἐστ., καταβάτω νῦν ἀπὸ τοῦ σταυροῦ, καὶ πιστεύσομεν ἐπ´ αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.942,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

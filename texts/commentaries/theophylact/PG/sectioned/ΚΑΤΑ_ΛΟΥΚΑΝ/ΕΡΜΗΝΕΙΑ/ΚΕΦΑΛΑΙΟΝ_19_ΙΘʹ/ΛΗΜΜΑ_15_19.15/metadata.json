@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_19.15",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 15
+      }
+    ],
+    "display": "Luke 19:15"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο ἐν τῷ ἐπανελθεῖν αὐτὸν λαβόντα τὴν βασιλείαν, εἶπε φωνηθῆναι αὐτῷ τοὺς δούλους τούτους, οἷς ἔδωκε τὸ ἀργύριον, ἵνα γνῷ τίς τί διεπραγματεύσατο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.961,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

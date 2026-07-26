@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_12.21",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 20
+      }
+    ],
+    "display": "Luke 12:20"
+  },
+  "lemma_quote": "«οὐκ αὐτός τις ἕκαστος ἑαυτῷ ὁριστὴς τῆς ζωῆς, Ὅρα δὲ καὶ τὴν λέξιν τοῦ, Ἀπαιτοῦσιν. Ὥσπερ γάρ τινες ἀπηνεῖς φορολόγοι, φοβεροὶ ἄγγελοι τὴν ψυχήν σου ἀπαιτοῦσιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.459,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

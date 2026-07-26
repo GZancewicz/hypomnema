@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_110_11.47",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 110,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 48
+      }
+    ],
+    "display": "John 11:48"
+  },
+  "lemma_quote": "Συνήγαγον οὖν οἱ ἀρχιερεῖς, καὶ οἱ Φαρισαῖοι συνέδρον· καὶ ἔλεγον· Τί ποιοῦμεν, ὅτι οὗτος ὁ ἄνθρωπος πολλὰ σημεῖα ποιεῖ; Ἐὰν ἀφῶμεν αὐτὸν οὖτω, πάντες πιστεύσουσιν εἰς αὐτόν· καὶ ἐλεύσου. ται οἱ Ῥωμαῖοι, καὶ ἀροῦσιν ἡμῶν καὶ τὸν τόπον καὶ τὸ ἔθνος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.705,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

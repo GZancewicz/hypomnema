@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_5.26",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 25
+      }
+    ],
+    "display": "John 5:25"
+  },
+  "lemma_quote": "Καὶ νῦν ἔστιν, ἄτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ Υἱοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.646,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

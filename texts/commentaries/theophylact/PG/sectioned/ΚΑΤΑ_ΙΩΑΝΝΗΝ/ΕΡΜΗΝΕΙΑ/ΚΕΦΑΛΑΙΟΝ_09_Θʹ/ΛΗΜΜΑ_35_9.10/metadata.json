@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_9.10",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 35,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 9
+      }
+    ],
+    "display": "John 9:9"
+  },
+  "lemma_quote": "Ἃνθρωπός τις Ἰησοῦς λεγόμενος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.318,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

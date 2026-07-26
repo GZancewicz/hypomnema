@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_7.19",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 36,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 20
+      }
+    ],
+    "display": "John 7:20"
+  },
+  "lemma_quote": "Δαιιάντον ἔχεις,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.423,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

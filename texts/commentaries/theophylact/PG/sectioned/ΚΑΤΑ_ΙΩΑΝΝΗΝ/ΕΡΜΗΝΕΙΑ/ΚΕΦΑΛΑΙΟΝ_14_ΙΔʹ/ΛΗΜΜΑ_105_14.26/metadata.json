@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_14.26",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 26
+      }
+    ],
+    "display": "John 14:26"
+  },
+  "lemma_quote": "Παράκλητος τὸ Πνεῦμα τὸ ἅγιον, ὃ πέμψει ὁ Πατὴρ ἐν τῷ ὁνόματί μου, ἐκεῖνος ὑμᾶς διδάξει πάντα, καὶ ὑπομνήσει ὑμᾶς πάντα ἃ εἶπον ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

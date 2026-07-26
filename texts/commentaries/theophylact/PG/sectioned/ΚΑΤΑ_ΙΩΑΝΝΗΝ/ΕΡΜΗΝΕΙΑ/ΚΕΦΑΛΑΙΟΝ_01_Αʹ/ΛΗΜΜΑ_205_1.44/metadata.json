@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_205_1.44",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 205,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 45
+      }
+    ],
+    "display": "John 1:45"
+  },
+  "lemma_quote": "Ἢν δὲ ὁ Φίλιππος ἐκ τῆς πόλεως Ἀνβρέου καὶ Πέτρου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.722,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

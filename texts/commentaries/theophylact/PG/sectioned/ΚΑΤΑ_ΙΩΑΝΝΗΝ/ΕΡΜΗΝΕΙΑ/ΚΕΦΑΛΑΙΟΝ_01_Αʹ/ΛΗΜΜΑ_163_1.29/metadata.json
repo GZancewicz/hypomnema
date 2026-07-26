@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_163_1.29",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 163,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 30
+      }
+    ],
+    "display": "John 1:30"
+  },
+  "lemma_quote": "Ἡρμοσάμην γὰρ, φησὶν ὁ Παῦλος, ὑμᾶς ἐνὶ ἀνδρὶ παραστῆσαι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

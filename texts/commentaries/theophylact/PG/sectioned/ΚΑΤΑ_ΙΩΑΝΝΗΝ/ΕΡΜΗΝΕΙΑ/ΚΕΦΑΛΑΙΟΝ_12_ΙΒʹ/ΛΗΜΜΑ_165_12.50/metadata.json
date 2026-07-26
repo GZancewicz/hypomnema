@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_165_12.50",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 165,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 49
+      }
+    ],
+    "display": "John 12:49"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ἡ ζωή;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.244,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

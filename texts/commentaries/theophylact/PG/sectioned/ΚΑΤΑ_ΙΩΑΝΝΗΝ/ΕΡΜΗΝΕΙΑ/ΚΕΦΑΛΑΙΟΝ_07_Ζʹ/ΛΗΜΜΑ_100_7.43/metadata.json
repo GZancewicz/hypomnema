@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_100_7.43",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 100,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 40
+      }
+    ],
+    "display": "John 7:40"
+  },
+  "lemma_quote": "Οὗτός ἐστιν ὁ προφήτης,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.414,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

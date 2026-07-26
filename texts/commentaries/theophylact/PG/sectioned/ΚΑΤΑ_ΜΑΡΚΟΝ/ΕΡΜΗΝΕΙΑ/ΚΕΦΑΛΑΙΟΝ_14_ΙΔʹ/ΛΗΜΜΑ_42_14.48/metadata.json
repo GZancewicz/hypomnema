@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_14.48",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 42,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 49
+      }
+    ],
+    "display": "Mark 14:49"
+  },
+  "lemma_quote": "ἀποκριθεὶς ὁ Ἰησοῦς εἶπεν αὐτοῖς· Ὡς ἐπὶ λῃστὴν ἐξήλθετε μετὰ μαχαιρῶν καὶ ξύλων συλλαβεῖν με· καθ´ ἡμέραν ἤμην πρὸς ὑμᾶς ἐν τῷ ἱερῷ διδάσκων, καὶ οὐκ ἐκρατήσατέ με, ἀλλ´ ἵνα πληρωθῶσιν αἱ Γραφαί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.774,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.48",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

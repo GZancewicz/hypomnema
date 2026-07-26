@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_16.3",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 1
+      }
+    ],
+    "display": "John 16:1"
+  },
+  "lemma_quote": "ἵνα μὴ σκανδαλισθῆτε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.792,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

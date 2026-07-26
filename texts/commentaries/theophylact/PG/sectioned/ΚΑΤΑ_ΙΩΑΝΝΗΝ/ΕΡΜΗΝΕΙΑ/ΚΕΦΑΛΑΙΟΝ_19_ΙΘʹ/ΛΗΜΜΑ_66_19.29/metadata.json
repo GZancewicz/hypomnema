@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_66_19.29",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 66,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 28
+      }
+    ],
+    "display": "John 19:28"
+  },
+  "lemma_quote": "« λέγουσα. Ποτισθεὶς οὖν εἶπε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.193,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_83_8.38",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 83,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 38
+      }
+    ],
+    "display": "John 8:38"
+  },
+  "lemma_quote": "ἑώρακα παρὰ τῷ Πατρί μου, λαλῶ· καὶ ὑμεῖς οὖν ὃ ἑωράκατε παρὰ τῷ πατρὶ ὑμῶν ποιεῖτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.996,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_119_7.51",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 119,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 48
+      }
+    ],
+    "display": "John 7:48"
+  },
+  "lemma_quote": "Μή τις τῶν ἀρχόντων ἐπίστεισεν εἰς αὐτόν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.734,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.51",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

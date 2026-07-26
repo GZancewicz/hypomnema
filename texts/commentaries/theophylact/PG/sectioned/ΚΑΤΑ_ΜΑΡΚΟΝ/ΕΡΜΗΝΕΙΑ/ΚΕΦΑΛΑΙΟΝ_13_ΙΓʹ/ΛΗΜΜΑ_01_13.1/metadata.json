@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_13.1",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 1,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 1
+      }
+    ],
+    "display": "Mark 13:1"
+  },
+  "lemma_quote": "«Καὶ ἐκπορευομένου αὐτοῦ ἐκ τοῦ ἱεροῦ, λέγει αὐτῷ εἷς τῶν μαθητῶν αὐτοῦ· Διδάσκαλε, ἴδε ποταποὶ λίθοι, καὶ ποταπαὶ οἰκοδομαί. Καὶ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

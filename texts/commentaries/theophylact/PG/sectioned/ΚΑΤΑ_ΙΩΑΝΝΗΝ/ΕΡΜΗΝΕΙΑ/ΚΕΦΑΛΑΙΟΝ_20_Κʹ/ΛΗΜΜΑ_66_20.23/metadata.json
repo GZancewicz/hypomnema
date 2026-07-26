@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_66_20.23",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 66,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 20
+      }
+    ],
+    "display": "John 20:20"
+  },
+  "lemma_quote": "Ἐχάρησαν δὲ ἰδόντες τὸν Κύριον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.533,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

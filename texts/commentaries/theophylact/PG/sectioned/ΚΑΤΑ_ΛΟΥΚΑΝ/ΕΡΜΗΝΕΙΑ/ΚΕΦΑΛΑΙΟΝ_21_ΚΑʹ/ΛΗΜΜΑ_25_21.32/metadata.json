@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_21.32",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 25,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 21:32"
+  },
+  "lemma_quote": "παρέλθῃ ἡ γενεὰ αὕτη, ἕως ἂν πάντα γένηται Ὁ αὐ ρανὸς, καὶ ἡ γῆ παρελεύσονται, οἱ δὲ λόγοι μου οὐ μὴ παρέλθωσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.666,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

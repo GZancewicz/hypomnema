@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_8.31",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 31
+      }
+    ],
+    "display": "Matthew 8:31"
+  },
+  "lemma_quote": "δαίμονες παρεκάλουν αὐτὸν, λέγοντες · Εἰ ἐκβάλλεις ἡμᾶς, ἐπίτρεύον ἡμῖν ἀπελθεῖν εἰς τὴν ἀγάλην τῶν χοίρων Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.9,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

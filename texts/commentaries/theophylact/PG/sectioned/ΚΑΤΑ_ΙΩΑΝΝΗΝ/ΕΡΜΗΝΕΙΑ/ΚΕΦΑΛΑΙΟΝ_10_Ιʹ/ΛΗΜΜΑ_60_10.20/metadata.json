@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_10.20",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 60,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 21
+      }
+    ],
+    "display": "John 10:21"
+  },
+  "lemma_quote": "ἔλεγον, φησὶ, Ταῦτα Κτὰ ῥήματα οὐκ ἔστι δαιμονιζομένου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.636,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

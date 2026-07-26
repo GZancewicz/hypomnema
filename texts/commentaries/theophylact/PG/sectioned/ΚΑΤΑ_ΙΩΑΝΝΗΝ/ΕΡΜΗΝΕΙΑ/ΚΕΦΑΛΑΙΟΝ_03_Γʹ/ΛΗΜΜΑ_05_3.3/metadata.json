@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 4
+      }
+    ],
+    "display": "John 3:4"
+  },
+  "lemma_quote": "«Αέγει πρὸς αὐτὸν ὁ Νικόδημος, Πῶς δύναται ἄνθρωπος γεννηθῆναι, γέρων ὤν; Μὴ δύναται εἰς τὴν κοιλίαν τῆς μητρὸς αὐτοῦ δεύτερον εἰσελθεῖν. καὶ γεννηθῆναι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.959,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_17.8",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 39,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 7
+      }
+    ],
+    "display": "John 17:7"
+  },
+  "lemma_quote": "Νῦν ἔγνωκα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

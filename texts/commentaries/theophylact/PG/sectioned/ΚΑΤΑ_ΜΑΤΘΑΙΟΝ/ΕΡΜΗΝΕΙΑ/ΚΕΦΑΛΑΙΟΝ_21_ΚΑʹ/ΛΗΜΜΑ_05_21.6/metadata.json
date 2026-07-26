@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_21.6",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 21:6"
+  },
+  "lemma_quote": "«Πορευθέντες δὲ οἱ μαθηταὶ, καὶ ποιήσαντες καθὼς προσέταξεν αὐτοῖς ὁ Ἰησοῦς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

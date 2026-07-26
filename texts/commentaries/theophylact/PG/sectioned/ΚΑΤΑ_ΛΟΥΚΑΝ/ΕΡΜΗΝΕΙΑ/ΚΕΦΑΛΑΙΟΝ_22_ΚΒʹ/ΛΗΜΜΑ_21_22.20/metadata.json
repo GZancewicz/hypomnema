@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_22.20",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 22:18"
+  },
+  "lemma_quote": "Οὐ μὴ πίω αὐτὸ, ἕως ὅτου ἡ βασιλεία τοῦ Θεοῦ ἕλθῃ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.715,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

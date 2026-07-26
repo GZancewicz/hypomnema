@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_7.5",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 10,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 2
+      }
+    ],
+    "display": "John 7:2"
+  },
+  "lemma_quote": "Ἡν ἄὲ ἐγγὺς ἡ ἑορτὴ τῶν ἱρυδαίων ἡ Σκηνοπηγία;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.893,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

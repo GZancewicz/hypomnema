@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_24.36",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 36
+      }
+    ],
+    "display": "Matthew 24:36"
+  },
+  "lemma_quote": "ἡμέρας ἐκείνης καὶ τῆς ὥράς οὐδεὶς οἶδεν, οὐδὲ οἱ ἄγγελοι τῶν οὐρανῶν, εἰ μὴ ῤ Πατήρ μου μόνος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

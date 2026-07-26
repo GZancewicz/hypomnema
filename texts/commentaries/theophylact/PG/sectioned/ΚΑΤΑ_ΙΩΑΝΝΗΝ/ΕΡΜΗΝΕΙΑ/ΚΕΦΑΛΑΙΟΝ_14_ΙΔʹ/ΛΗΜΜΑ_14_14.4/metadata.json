@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_14.4",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 14,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 6
+      }
+    ],
+    "display": "John 14:6"
+  },
+  "lemma_quote": "Οὐδεὶς γὰρ, φησί, δύναται ἐλθεῖν πρός με, ἐὰν μὴ ὁ Πατὴρ ἑλκύσῃ αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.231,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "14.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

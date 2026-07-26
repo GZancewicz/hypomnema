@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 24
+      }
+    ],
+    "display": "Luke 15:24"
+  },
+  "lemma_quote": "οὗτος νεκρὸς ἦν, καὶ ἀνέζησε, καὶ ἀπολωλὼς ἦν, καὶ εὐρέθη. Καὶ ἤρξαντο εὐφραίκεισθαι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.832,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

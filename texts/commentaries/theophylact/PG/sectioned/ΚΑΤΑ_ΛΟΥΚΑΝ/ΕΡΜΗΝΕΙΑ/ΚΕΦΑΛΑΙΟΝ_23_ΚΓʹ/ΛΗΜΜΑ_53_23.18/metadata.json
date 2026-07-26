@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 53,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 23:42"
+  },
+  "lemma_quote": "ἀπὸ παντὸς γὰρ, φσησί, ξύλου ταῆ ἐν τῷ παραδείσῳ βρώσει φαγεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.245,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

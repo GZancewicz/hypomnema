@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_3.26",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 46,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 28
+      }
+    ],
+    "display": "John 3:28"
+  },
+  "lemma_quote": "«Δὐτοὶ ὑμεῖς μαρτυρεῖτε ἐμοὶ, ὅτι εἰπον· Οὐκ εἰμὶ ἐγὼ ὁ Χριστὸς, ἀλλ´ ὅτι ἀπεσταλμένος εἰμὶ ἔμπροσθεν ἐκείνου. Ὁ ἔχων τὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.889,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

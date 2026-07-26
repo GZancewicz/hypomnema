@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_83_4.34",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 83,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 34
+      }
+    ],
+    "display": "John 4:34"
+  },
+  "lemma_quote": "Λέγει αὐτοῖς ὁ Ἱησοῦς· Ἐμὸν βρῶμά ἐστιν, ἵνα ποιῶ τὸ θέλημα τοῦ πέμψαντός με καὶ τελειώσω αὐτοῦ τὸ ἔργον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

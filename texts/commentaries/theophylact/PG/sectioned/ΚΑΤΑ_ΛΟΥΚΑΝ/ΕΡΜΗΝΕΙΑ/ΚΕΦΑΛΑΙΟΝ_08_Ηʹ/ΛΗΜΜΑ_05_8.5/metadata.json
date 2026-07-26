@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_8.5",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 5,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 8:5"
+  },
+  "lemma_quote": "Ἐξῆλθεν ὁ σπείρων τοῦ σπεῖραι τὸν σπόρον αὐτοῦ. Καὶ ἐν τῷ σπείρειν αὐτὸν, ὃ μὲν ἔπεσε παρὰ τὴν δλν καὶ κατεπατήθη, καὶ τὰ πετεινὰ τοῦ οὐρανοῦ κατέφαγεν αὐτό· κα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.972,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

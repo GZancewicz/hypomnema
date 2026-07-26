@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_8.37",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 47
+      }
+    ],
+    "display": "John 8:47"
+  },
+  "lemma_quote": "Πάντες γὰρ ἤμαρτον, καὶ ῥστεροῦνται τῆς δόξης τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.422,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

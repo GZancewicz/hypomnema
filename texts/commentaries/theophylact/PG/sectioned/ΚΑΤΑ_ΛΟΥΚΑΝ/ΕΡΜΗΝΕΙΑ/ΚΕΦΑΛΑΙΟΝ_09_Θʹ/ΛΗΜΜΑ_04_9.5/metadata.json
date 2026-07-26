@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_9.5",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 9:5"
+  },
+  "lemma_quote": "δέξωνται ὑμᾶς, ἑξερχόμενοι ἀπὸ τῆς πόλεως ἐκείνης, καὶ τὸν κονιορτὸν ἀπὸ τῶν ποδῶν ὑμῶν ἀποτινάξατε εἰς μαρτύριον ἐπ´ αὐτούς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.941,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_177_1.36",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 177,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 37
+      }
+    ],
+    "display": "John 1:37"
+  },
+  "lemma_quote": "ἐμβλέψας τῷ Ἰησοῦ περιπατοῦντι, λέγει· Ἔε ὁ ἀμνὸς τοῦ Θεοῦ. Καὶ ἕκουσαν αὐτοῦ οἱ δύο μαθηταὶ λαλοῦντος, καὶ ἠκολούθησαν τῷ Ἰησοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.707,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

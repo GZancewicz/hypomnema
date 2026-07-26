@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_18.6",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 11,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 3
+      }
+    ],
+    "display": "John 18:3"
+  },
+  "lemma_quote": "μετὰ λαμπάδων",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.377,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_9.17",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 59,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 19
+      }
+    ],
+    "display": "John 9:19"
+  },
+  "lemma_quote": "«Πῶς οὖν ρτι βλέπει; « Ὁρᾷς, ὅτι ὡς ψευδομένων αὐτῶν τὸ πρότερον, φημὶ δὴ, τὸ τυφλὸν εἶναι τὸν παῖδα, σημεῖον προφέρουσι τοῦτο, τὸ ὕστερον αὐτὸν βλέπειν. Ἢ γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.228,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

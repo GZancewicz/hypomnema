@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_14.30",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 29,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 32
+      }
+    ],
+    "display": "Mark 14:32"
+  },
+  "lemma_quote": "«Καὶ ἔρχονται εἰς χιωρίον οὗ τὸ ὄνομα Γηθσεμανῆς καὶ λέγει τοῖς μα ηταῖς αὐτοῦ· Καθίσατε ὧδε ἕως προσεύξωμαι. Καὶ παραλαμβάνει τὸν Πέτρον καὶ Ἰάκωθον, καὶ Ἰωάνν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.714,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_5.41",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 54,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 5:41"
+  },
+  "lemma_quote": "Καὶ ὅστις σε ἀγγαρεύσει μλιον ἐν, ὕπαγε μετ´ αὐτοῦ δύο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.899,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

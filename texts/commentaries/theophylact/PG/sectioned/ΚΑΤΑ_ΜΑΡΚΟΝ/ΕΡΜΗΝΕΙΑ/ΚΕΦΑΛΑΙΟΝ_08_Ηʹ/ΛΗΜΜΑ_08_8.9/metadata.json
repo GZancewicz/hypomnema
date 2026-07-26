@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_8.9",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 8,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 9
+      }
+    ],
+    "display": "Mark 8:9"
+  },
+  "lemma_quote": "φαγόντες ὡς τετρακισχίλιοι, καὶ ἀπέλυσαν αὐτούς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.616,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

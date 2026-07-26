@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_13.5",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 16,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 3
+      }
+    ],
+    "display": "John 13:3"
+  },
+  "lemma_quote": "καὶ πάλιν πρὸς Θεὸν ὑπάγει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.39,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

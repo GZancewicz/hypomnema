@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_2.6",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 6
+      }
+    ],
+    "display": "Luke 2:6"
+  },
+  "lemma_quote": "ἐγένετο δὲ ἐν τῷ εἶναι αὐτοὺς ἐκεῖ, ἐπλήθησαν αἱ ἡμέραι τοῦ τεκεῖν αὐτήν· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

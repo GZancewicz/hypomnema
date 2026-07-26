@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_18.2",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 2
+      }
+    ],
+    "display": "John 18:2"
+  },
+  "lemma_quote": "Ἡδει δὲ ὁ Ἱούδας τὸν τόπον, διότι ἐκεῖ πολλάκις εννήχθη ὁ Ἰησοῦς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.727,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

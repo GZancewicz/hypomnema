@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_4.17",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 4:17"
+  },
+  "lemma_quote": "ἐπεδόθη αὐτῷ βιβλίον Ἡσαῖου τοῦ προφήτου· καὶ ἐἀναπτύξας τὸ βιβλίον, εὖρε τὸν τόπον οὗ ἦν γεγραμμένον· Πνεῦμα Κυρίου ἐπ´ ἐμὲ, οὖ ἕνεκεν ἔχρισέ με, εὐαγγελίσασθα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.799,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

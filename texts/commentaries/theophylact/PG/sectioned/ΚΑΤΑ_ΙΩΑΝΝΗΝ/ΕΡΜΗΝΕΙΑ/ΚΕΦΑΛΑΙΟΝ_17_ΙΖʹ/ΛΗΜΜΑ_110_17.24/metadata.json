@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_110_17.24",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 110,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 24
+      }
+    ],
+    "display": "John 17:24"
+  },
+  "lemma_quote": "καθὼς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.19,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_91_1.14",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 91,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 14
+      }
+    ],
+    "display": "John 1:14"
+  },
+  "lemma_quote": "ὡς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

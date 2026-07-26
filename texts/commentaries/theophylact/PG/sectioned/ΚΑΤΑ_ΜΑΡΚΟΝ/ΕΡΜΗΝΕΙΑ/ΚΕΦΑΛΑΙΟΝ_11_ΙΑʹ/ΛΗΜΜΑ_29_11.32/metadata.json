@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_11.32",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 29,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 32
+      }
+    ],
+    "display": "Mark 11:32"
+  },
+  "lemma_quote": "εἴπωμεν, ἀξ ἀνθρώπων, ἐφοβοῦντο τὸν λαόν. Ἄπαντες Κγὰρ εἷχον τὸν Ἰωάννην, ὅτι ὄντως προφήτης ἦν Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.935,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_22.40",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 42,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 22:37"
+  },
+  "lemma_quote": "καὶ ἐν ὅλῃ τῇ διανοίᾳ σου·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.775,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

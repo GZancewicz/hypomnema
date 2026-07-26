@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_14.10",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 14:10"
+  },
+  "lemma_quote": "κληθῇς, πορευθεὶς ἀνάπεσον εἰς τὸν ἔσχατον τόπον, ἵνα ὅταν ἔλθῃ ὁ κεκληκώς σε, εἴπῃ σοι· Φίλε, προσανάβηθι ἀνώτερον· τότε ἔσται σοι δόξα ἐνώπιον τῶν συνανακειμέ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

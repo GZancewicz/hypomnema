@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 36,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 42
+      }
+    ],
+    "display": "Matthew 25:42"
+  },
+  "lemma_quote": "Ἐπείνασα γὰρ, καὶ οὐκ ἐδώκατέ μοι φαγεῖν· ἐδίησα, καὶ οὐκ ἐποτίσατέ με·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.927,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_5.48",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 61,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 48
+      }
+    ],
+    "display": "Matthew 5:48"
+  },
+  "lemma_quote": "Ἔσεσθε οὖν ὑμεῖς τέλειοι, ὥσπερ ὁ Πατὴρ ὑμων ὁ ἐν τοῖς οὐρανοῖς τέλειός ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.922,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.48",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

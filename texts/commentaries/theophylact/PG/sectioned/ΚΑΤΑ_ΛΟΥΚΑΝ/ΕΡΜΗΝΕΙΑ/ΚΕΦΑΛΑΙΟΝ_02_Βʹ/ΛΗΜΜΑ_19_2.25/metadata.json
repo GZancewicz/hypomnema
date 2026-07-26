@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_2.25",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 2:25"
+  },
+  "lemma_quote": "«Καὶ ἱδοὺ ἦν ἄνθρωπος ἐν Ἰερουσαλὴμ. ὡ ἤνοιὰα ἀυμεών· καὶ ὁ ἄνθρωπος οὐτος, δίκαιος καὶ εὐλαβὴς προσδεχόμενος παράκλησιν τοῦ Ἰσραήλ· καὶ Πνεῦμτ ἅγιον ἦν ἐπ´ αὐτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.839,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

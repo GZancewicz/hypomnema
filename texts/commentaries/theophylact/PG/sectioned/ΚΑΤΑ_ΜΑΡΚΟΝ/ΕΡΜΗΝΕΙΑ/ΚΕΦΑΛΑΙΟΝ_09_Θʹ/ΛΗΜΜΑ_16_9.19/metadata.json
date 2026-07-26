@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_9.19",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 38
+      }
+    ],
+    "display": "Mark 9:38"
+  },
+  "lemma_quote": "Ὁ μὴ ὤν μετ´ ἐμοῦρ κατ´ ἐμοῦ ἐστι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.201,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

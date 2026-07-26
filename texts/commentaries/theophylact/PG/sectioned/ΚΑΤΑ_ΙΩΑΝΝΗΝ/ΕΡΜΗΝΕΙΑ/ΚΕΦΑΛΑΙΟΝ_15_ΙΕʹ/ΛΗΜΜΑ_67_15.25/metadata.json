@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_67_15.25",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 67,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 24
+      }
+    ],
+    "display": "John 15:24"
+  },
+  "lemma_quote": "Νῦν δὲ καὶ ἑωράκασι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.424,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

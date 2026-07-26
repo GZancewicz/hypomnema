@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_7.31",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 26,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 31
+      }
+    ],
+    "display": "Luke 7:31"
+  },
+  "lemma_quote": "«Εἶπε δὲ ὁ Κύριος· Τίνι οὗν ὁμοιώσω τοὺς ἀνθρώπους τῆς γενεᾶς ταύτης; καὶ τίνι εἰσὶν ὅμοιοι· Ὁμοιοί εἰσι παιδίοις τοῖς ἐν ἀγορᾷ καθημένοις, καὶ προσφωνοῦσιν ἀλλ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.757,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

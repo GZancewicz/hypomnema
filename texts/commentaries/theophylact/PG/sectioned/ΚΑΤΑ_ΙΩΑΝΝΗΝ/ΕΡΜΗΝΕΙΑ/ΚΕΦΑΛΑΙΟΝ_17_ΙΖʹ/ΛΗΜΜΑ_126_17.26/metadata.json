@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_126_17.26",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 126,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 26
+      }
+    ],
+    "display": "John 17:26"
+  },
+  "lemma_quote": "ὁδηγήσει αὐτοὺς εἰς πᾶσαν τὴν ἀλήειαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.302,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_17.20",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 17:32"
+  },
+  "lemma_quote": "Μνημονεύετε τῆς γυναικὸς Λώτ. Ὀς ἐὰν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.92,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_9.4",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 4
+      }
+    ],
+    "display": "Mark 9:4"
+  },
+  "lemma_quote": "«Καὶ ὥφθη αὐτοῖς Ἠλίας σὺν Μωϋσεῖ. Καὶ ἦσαν συλλαλοῦντες τῷ Ἰησοῦ. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.863,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

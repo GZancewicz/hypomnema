@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_137_8.56",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 137,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 56
+      }
+    ],
+    "display": "John 8:56"
+  },
+  "lemma_quote": "«Ἀβραὰμ ὁ πατὴρ ὑμῶν ἠγαλλιάσατο, ἵνα ἴδη τὴν ἡμέραν τὴν ἐμήν· καὶ εἰδε, καὶ ἐχάρη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.56",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

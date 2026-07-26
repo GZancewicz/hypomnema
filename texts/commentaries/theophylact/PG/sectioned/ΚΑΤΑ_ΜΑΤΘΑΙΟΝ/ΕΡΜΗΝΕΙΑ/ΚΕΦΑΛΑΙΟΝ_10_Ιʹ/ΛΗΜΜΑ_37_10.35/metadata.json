@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_10.35",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 37,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 10:35"
+  },
+  "lemma_quote": "ἦλθον βαλεῖν εἰρήνην, ἀλλὰ μάχαιραν Ἡλθον γὰρ διχάσαι ἄνθρωπον κατὰ τοῦ πατρὸς αὐτοῦ καὶ θυγατέρα κατὰ τῆς μητρὸς αὐτῆς· καὶ νύμφην κατὰ τῆς πενθερᾶς αὐτῆς· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.918,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

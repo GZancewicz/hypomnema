@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_27.57",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 61,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 57
+      }
+    ],
+    "display": "Matthew 27:57"
+  },
+  "lemma_quote": "Ὁψίας δὲ γενομένης, ἦλθεν ἄνθρωπος πλούσιος ἀπὸ Ἀριμαθαίας, τοὔνομα Ἰωσὴφ, ὃς καὶ αὐτὸς ἐμαθήτευσε τῷ Ἰησοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.57",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

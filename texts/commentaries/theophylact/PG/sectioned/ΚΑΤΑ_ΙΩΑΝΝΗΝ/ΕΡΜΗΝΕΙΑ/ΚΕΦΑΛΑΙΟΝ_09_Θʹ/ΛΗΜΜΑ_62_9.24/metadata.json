@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_9.24",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 24
+      }
+    ],
+    "display": "John 9:24"
+  },
+  "lemma_quote": "«Ἐφώνησαν οὖν ἐκ δευτέρου τὸν ἄνθρωπον, ὃς ἦν τυφλὸς, καὶ εἰπον αὐτῷ· Δὸς δόξαν τῷ Θεῶ· Ἐμεῖς οἴδαμεν ὅτι ὁ ἄνθρωπος οὐτος ἀμαρτωλός. ἐστιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.976,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

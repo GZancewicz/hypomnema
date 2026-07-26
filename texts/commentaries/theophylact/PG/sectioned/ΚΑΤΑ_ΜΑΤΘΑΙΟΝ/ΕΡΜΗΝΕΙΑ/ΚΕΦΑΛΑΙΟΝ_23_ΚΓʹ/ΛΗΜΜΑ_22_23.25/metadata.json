@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_23.25",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 23:26"
+  },
+  "lemma_quote": "Οὐαὶ ὑμῖν, Γραμματεῖς καὶ Φαρισαῖοι ὑποκριταὶς ὅτι καθαρίζετε τὸ ἕξωθεν τοῦ ποτηρίου καὶ τῆς παροψδος, ἔσωθεν δὲ γέμουσιν ἐξ ἀρπαγῆς καὶ ἀδικίας. δαρισαῖε τυφλὲ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸς ἐκτὸς αὐτῶν καθαρόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.766,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

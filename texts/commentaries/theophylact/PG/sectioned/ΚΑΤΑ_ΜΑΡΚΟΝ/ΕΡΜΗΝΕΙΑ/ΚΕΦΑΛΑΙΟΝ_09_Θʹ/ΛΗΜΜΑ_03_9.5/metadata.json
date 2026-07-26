@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_9.5",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 9:5"
+  },
+  "lemma_quote": "ἀποκριθεὶς ὁ Πέτρος λέγει τῷ Ἰησοῦ· Ῥαββί, καλόν ἐστιν´ ἡμᾶς ὡδε αἶναι. καὶ ποιήσωμεν σκηνὰς τρεῖς, σοὶ μίαν, καὶ Μωσῇ μίαν, καὶ Ἡλίᾳ μίαν. Οὐ γὰρ ᾔδει τί λαλήσ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.85,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

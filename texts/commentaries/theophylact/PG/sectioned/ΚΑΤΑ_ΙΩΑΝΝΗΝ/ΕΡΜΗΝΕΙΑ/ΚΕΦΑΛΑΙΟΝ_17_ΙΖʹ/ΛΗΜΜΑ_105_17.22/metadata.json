@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_17.22",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 23
+      }
+    ],
+    "display": "John 17:23"
+  },
+  "lemma_quote": "Ἐγὼ ἐν αὐτοῖς, καὶ σὺ ἐν ἐμοί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

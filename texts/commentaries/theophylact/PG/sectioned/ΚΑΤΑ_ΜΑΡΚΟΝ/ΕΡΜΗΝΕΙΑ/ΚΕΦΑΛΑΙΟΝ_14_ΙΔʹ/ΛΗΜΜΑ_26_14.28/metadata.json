@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_14.28",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 26,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 28
+      }
+    ],
+    "display": "Mark 14:28"
+  },
+  "lemma_quote": "ἐγερθῆναί με, προάξω ὑμᾶς εἰς τὴν Γαλιλαίαν. Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.877,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

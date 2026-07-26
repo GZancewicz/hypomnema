@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_149_1.27",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 149,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 28
+      }
+    ],
+    "display": "John 1:28"
+  },
+  "lemma_quote": "«Ταῦτα ἐν Βηθανίᾳ ἐγένετο περαν τοῦ Ἰορδάνου, Κπου ἦν Ἰωάννης βαπτίζων. Τίνος ἕνεκεν εἶπεν, ἄτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.874,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

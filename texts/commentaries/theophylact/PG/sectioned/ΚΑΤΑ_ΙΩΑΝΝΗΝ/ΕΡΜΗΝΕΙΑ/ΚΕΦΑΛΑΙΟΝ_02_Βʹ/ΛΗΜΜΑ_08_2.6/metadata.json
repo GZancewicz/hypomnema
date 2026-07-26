@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_2.6",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 6
+      }
+    ],
+    "display": "John 2:6"
+  },
+  "lemma_quote": "ὑδρίαι λίθιναι Ζξ κείμεναι κατὰ τὸν καθαρισμὸν τῶν Ἰουδαίων χωροῦσαι ἀνὰ μετρητὰς δύο ἢ τρεῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

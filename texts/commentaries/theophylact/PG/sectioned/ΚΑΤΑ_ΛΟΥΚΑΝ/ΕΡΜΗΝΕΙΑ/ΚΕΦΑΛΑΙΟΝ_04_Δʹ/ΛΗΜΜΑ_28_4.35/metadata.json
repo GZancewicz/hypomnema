@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_4.35",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 4:35"
+  },
+  "lemma_quote": "ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς, λέγων· Φιμώθητι καὶ ἔξελθε ἐξ αὐτοῦ· καὶ ῥίψαν αὐτὸν τὸ δαιμόνιον εἰς τὸ μέσον, ἐξῆλθεν ἀπ´ αὐτοῦ, μηδὲν βλάψαν αὐτόν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

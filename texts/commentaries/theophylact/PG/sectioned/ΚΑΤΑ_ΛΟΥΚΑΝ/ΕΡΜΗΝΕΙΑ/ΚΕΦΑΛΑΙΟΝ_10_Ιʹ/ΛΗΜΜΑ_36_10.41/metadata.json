@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_10.41",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 36,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 10:42"
+  },
+  "lemma_quote": "Ἀποκριθεὶς δὲ εἶπεν αὐτῇ ὁ Ἰησοῦς· Μάρθα, Μάρθα, μεριμνᾷς, καὶ τυρβάζῃ περὶ πολλά. Ἔνὸς δέ ἐστι χρεία. Μαρία δὲ τὴν ἀγαθὴν μερίδα ἐξελέξατο, ἦτις οὐκ ἀφαιρεθήσεται ἀπ´ αὐτῆς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.749,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

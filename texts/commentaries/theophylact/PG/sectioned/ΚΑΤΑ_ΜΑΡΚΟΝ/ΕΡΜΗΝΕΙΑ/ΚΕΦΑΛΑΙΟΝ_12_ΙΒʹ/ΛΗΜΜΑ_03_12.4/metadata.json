@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_12.4",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 4
+      }
+    ],
+    "display": "Mark 12:4"
+  },
+  "lemma_quote": "πάλιν ἀπέστειλε πρὸς αὐτοὺς ἄλλον δοῦλον, κἀκεῖνον λιθοβολήσαντες ἐκεφαλαίωσαν, καὶ ἀπέστειλαν ἠτιμημένον. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.932,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

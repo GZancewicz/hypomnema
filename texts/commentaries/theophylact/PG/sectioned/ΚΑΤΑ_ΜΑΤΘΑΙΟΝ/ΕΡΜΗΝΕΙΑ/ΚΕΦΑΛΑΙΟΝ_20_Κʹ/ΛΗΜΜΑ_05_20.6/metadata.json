@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_20.6",
+  "gospel": "matthew",
+  "chapter": 20,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 20:6"
+  },
+  "lemma_quote": "ἑνδεκἀτην ὥραν ἐξελθὼν, εὖρεν ἄλλους ἐστῶτας ἀργοῦς· καὶ λέγει αὐτοῖς· Τί ὧδε ἐστήκατε ὅλην τὴν ἡμέραν ἀργοί;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.971,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

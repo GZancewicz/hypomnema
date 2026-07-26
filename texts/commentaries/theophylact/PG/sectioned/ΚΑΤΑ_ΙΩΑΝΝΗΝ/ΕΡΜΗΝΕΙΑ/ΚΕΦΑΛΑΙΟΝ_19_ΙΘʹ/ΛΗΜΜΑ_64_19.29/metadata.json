@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_19.29",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 64,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 28
+      }
+    ],
+    "display": "John 19:28"
+  },
+  "lemma_quote": "Λέγει οὖν· Διψῶ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.373,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

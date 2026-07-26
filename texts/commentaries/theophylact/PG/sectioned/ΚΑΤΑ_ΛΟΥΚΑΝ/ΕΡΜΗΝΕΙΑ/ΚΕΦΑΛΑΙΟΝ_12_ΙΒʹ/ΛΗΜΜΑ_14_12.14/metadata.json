@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_12.14",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 16
+      }
+    ],
+    "display": "Luke 12:16"
+  },
+  "lemma_quote": "«Επεδὲ παραβολὴν πρὸς αὐτοὺς λέγων· Ἀνθρώπου τινὸς πλουσίου εὐφόρησεν ἡ χώρα, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.977,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

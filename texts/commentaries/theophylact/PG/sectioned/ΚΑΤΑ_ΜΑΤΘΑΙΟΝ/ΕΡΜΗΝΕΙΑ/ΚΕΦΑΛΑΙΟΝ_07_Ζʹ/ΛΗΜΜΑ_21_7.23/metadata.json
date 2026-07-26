@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_7.23",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 7:24"
+  },
+  "lemma_quote": "«λέγεται ἐνταῦθα. Πᾶς οὖν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "7.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

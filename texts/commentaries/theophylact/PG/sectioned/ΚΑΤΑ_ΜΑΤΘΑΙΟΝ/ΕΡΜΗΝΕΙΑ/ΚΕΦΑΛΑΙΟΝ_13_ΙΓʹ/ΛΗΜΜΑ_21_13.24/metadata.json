@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 38
+      }
+    ],
+    "display": "Matthew 13:38"
+  },
+  "lemma_quote": "«Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς. Ὁ σπείρων τὸ καλὸν σπέρμα ἑστὶν ὁ Υἱὸς τοῦ ἀνθρώπου· ὁ δὲ εἰειν οἷ υἱοὶ τῇς βασιλείας. Τὰ δὲ ζιζάνια, εἰσὶν οἱ υἱοὶ τοῦ πονηροῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.711,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

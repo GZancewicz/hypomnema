@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_192_1.42",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 192,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 43
+      }
+    ],
+    "display": "John 1:43"
+  },
+  "lemma_quote": "Χριστός·· καὶ ἥγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν. Ἐμβλέψας Σὲ αὐτῷ ὁ Ἰησοῦς, εἶπε· Σὺ εἶ Σίμων ὁ υἱὸς Ἰωνᾶ, οὐ κληθήσῃ Κηφᾶς, ὃ ἐρμηνεύεται, Πέτρος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.975,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

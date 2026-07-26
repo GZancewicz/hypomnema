@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_3.26",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 26
+      }
+    ],
+    "display": "John 3:26"
+  },
+  "lemma_quote": "Υαββὶ, ὃς ἦν μετὰ σοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.95,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

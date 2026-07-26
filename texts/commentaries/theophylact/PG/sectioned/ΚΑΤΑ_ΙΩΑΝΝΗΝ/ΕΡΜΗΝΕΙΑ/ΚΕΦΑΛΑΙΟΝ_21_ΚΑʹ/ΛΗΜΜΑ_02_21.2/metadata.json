@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_21.2",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 2
+      }
+    ],
+    "display": "John 21:2"
+  },
+  "lemma_quote": "Σίμων Πέτρος, καὶ Θωμᾶς ὁ λεγόμενος Δίδυμος, καὶ Ναθαναὴλ ὁ ἀπὸ Κανᾶ τῆς Γαλιλαίας, καὶ οἱ τοῦ Ζεβεδαίου, καὶ ἄλλοι ἐκ τῶν μαθητῶν αὐτοῦ δύο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.939,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

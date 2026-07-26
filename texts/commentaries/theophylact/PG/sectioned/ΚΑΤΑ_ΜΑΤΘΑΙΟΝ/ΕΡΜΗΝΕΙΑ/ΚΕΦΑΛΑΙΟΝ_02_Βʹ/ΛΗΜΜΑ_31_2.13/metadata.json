@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_2.13",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 31,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 2:13"
+  },
+  "lemma_quote": "Καὶ ἴσθι ἐκεῖ, ἕως ἂν εἴπω σοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.465,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

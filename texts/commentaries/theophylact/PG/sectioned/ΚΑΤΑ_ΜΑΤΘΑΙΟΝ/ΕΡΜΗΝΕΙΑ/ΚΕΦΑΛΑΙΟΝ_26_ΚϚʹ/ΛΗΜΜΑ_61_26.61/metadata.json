@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_26.61",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 61,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 71
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 71
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 71
+      }
+    ],
+    "display": "Matthew 26:71"
+  },
+  "lemma_quote": "Ἐξελθόντα δὲ αὐτὸν εἰς τὸν πυλῶνα, εἶδεν αὐτὸν ἄλλη, καὶ λένει τοῖς ἐκεῖ· Καὶ οὗτος ἦν μετὰ Ἰησοῦ τοῦ Ναζωραίου · καὶ κτάλιν ἠρνήσατο μεθ´ ὅρκου, ὅτι Οὐκ αῖδα τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.809,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.61",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

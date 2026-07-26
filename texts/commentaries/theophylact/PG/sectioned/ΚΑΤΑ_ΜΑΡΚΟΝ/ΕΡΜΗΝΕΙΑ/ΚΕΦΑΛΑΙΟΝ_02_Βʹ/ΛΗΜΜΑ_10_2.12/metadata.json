@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_2.12",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 10,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 2:5"
+  },
+  "lemma_quote": "Ἀφέωνταί σοι αἱ ἀμαρτίαι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.501,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

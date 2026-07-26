@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_18.7",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 7
+      }
+    ],
+    "display": "Luke 18:7"
+  },
+  "lemma_quote": "ποιήσῃ τὴν ἐκδίκησιν τῶν ἐκλεκτῶν αὐτοῦ τῶν βοώντων πρὸς αὐτὸν ἡμέρας καὶ νυκτὸς, καὶ μακροθυμῶν ἐπ´ αὐτοῖς; λέγω ὑμῖν, ὅτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.925,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_1.18",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 1:18"
+  },
+  "lemma_quote": "Πρὶν ἢ συνελθεῖν αὐτοὺς, εὐρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεὔματος ἀγίου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.7,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

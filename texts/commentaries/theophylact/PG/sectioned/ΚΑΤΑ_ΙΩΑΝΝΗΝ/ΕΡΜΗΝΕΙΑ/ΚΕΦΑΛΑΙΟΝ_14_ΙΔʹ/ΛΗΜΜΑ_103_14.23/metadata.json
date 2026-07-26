@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_14.23",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 103,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 22
+      }
+    ],
+    "display": "John 14:22"
+  },
+  "lemma_quote": "μέλλεις ἐμφανίζειν σεαυτὸν ἡμῖν, καὶ οὐχὶ τὸ κόσμῳ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.717,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

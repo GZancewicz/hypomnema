@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_5.10",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 5:10"
+  },
+  "lemma_quote": "Ὁμοίως δὲ καὶ Ἰάκωβον, καὶ Ἰωάννην υἱοὺς Ζεβεδαίου, οἶ ἦσαν κοινωνοὶ τῷ Σίμωνι· καὶ εἷπε πρὸς τὸν Σίμωνα ὁ Ἰησοῦς · Μὴ φοβοῦ, ἀπὸ τοῦ νῦν ἀνθρώπους ἔσῃ ζωγρῶν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

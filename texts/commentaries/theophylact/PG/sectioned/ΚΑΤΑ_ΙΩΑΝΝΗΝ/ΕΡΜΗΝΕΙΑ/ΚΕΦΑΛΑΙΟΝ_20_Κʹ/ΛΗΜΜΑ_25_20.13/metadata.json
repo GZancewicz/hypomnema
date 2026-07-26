@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_20.13",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 25,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 8
+      }
+    ],
+    "display": "John 20:8"
+  },
+  "lemma_quote": "εἶδε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.37,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

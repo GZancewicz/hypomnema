@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_1.15",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 15
+      }
+    ],
+    "display": "John 1:15"
+  },
+  "lemma_quote": "Ὁ ἀπίσω μου ἐρχόμενος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.601,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_18.33",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 28
+      }
+    ],
+    "display": "John 18:28"
+  },
+  "lemma_quote": "ἵνα φάγωσι τὸ Πάσχα;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.421,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

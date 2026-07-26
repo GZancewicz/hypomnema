@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_24.24",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 24:21"
+  },
+  "lemma_quote": "Ἔλλρυς Κσωσεν Σαυτὸν οὐ δύναται σῶσαι·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "24.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

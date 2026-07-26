@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_13.3",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 13:4"
+  },
+  "lemma_quote": "Ἰδοὺ ἐξῆλθεν ὁ σπείρων τοῦ σπεῖραι τὸν σπόρον αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.549,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

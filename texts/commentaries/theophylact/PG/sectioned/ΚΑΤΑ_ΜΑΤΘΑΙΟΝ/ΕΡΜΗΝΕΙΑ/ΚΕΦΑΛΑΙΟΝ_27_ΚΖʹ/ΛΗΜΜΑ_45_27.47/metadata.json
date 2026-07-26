@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_27.47",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 45,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 47
+      }
+    ],
+    "display": "Matthew 27:47"
+  },
+  "lemma_quote": "Τινὲς δὲ τῶν ἐκεῖ ἑστώτων ἀκούσαντες, ἔλεγον, ὅτι Ἡλίαν φωνεῖ οὗτος· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.47",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

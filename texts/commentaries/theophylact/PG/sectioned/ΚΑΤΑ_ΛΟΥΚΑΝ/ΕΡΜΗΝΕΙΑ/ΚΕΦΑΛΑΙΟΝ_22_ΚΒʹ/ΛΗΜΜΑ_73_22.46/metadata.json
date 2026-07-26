@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_22.46",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 73,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 28
+      }
+    ],
+    "display": "Luke 22:28"
+  },
+  "lemma_quote": "Πᾶσαν χαρὰν ἡγήσασθε, ὅταν πειρασμοῖς περιπέσητε ποικίλοις;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.381,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_3.11",
+  "gospel": "matthew",
+  "chapter": 3,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 3,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 3:11"
+  },
+  "lemma_quote": "Οὐ οὐκ εἰμὶ ἱκανὸς τὰ ὑποδήματα βαστάσαι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.455,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

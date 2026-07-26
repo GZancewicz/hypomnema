@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_4.13",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 13
+      }
+    ],
+    "display": "John 4:13"
+  },
+  "lemma_quote": "Ἀπεκρίθῃ Ἰησοῦς, καὶ εἶπεν αὐτῇ· Πᾶς ὁ πίνων ἐκ οῦ ὕδατος τούτου, διψήσει πάλιν· ὃς δ´ ἂν πίῃ ἐκ οῦ ὕδατος, οὗ ἐγὼ δώσω αὐτῷ, οὐ μὴ διψήσῃ εἰς τὸν αἰῶνα· ἀλλὰ τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.723,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_17.1",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 17:1"
+  },
+  "lemma_quote": "Μετὰ δὲ τοὺς λόγους τούτους ἐγένοντο ὡσεὶ ἡμέραι ὀκτὼ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.311,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

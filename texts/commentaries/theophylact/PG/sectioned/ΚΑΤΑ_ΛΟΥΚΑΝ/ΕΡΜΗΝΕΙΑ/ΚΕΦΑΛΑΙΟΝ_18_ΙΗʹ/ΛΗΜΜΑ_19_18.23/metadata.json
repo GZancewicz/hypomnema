@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_18.23",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 19
+      }
+    ],
+    "display": "Luke 18:19"
+  },
+  "lemma_quote": "Οὐδεὶς ἀγαθὸς, εἰ μὴ εἴς ὁ Θόι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.603,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

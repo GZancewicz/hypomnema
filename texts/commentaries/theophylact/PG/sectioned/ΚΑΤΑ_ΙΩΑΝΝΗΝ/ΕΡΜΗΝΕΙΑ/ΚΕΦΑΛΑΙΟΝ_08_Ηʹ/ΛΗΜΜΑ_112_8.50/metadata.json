@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_112_8.50",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 112,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 49
+      }
+    ],
+    "display": "John 8:49"
+  },
+  "lemma_quote": "Ἔγὼ, φησὶ, δαιμόνιον οὐκ ἔχω, ἀλλὰ τιμῶ τὸν Πατέρα μου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.84,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

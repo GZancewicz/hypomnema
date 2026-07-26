@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_22.28",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 28
+      }
+    ],
+    "display": "Matthew 22:28"
+  },
+  "lemma_quote": "ἀναστάσει, τίνος τῶν ἐπτὰ ἔσται γυνής Πάντες γὰρ ἔσχον αὐτήν. κ Ἐπιστομισθέντων τῶν Φαρισαίων σὺν τοῖς Ἡρωδιανοῖς, πάλιν οἱ Σαδδουκαῖοι πειράζουσιν. Αἷρεσις δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.741,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

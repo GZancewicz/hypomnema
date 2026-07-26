@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_26.28",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 26:26"
+  },
+  "lemma_quote": "Τοῦτο ἔστιν τὸ σῶμά μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.957,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

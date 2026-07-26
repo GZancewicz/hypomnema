@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_7.20",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 20
+      }
+    ],
+    "display": "Luke 7:20"
+  },
+  "lemma_quote": "Παραγενόμενοι δὲ πρὸς αὐτὸν οἱ ἄνδρες, εἶπον· Ἰωάννης ὁ Ἐαπτιστής ἀπέσταλκεν ἡμᾶς πρός σε, λέγων· Σὺ εἶ ὁ ἐρχόμενος, ἢ ἄλλον προσδοκῶμεν; Ἐν αὐτῇ δὲ τῆ ῶρᾳ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.853,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

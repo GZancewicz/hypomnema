@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_15.3",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 6,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 1
+      }
+    ],
+    "display": "John 15:1"
+  },
+  "lemma_quote": "ὑμεῖς δὲ τὰ κλήματα, ὁ δέ Πατὴρ μοῦ ἐστιν ὁ γεωργός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.369,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

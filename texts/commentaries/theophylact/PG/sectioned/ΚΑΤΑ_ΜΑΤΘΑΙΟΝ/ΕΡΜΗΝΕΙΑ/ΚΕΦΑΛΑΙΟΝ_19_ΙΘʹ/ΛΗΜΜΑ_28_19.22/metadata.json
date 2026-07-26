@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_19.22",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 19:24"
+  },
+  "lemma_quote": "Ὁ δὲ Ἰησοῦς εἶπε τοῖς μαθηταῖς αὐτοῦ· Ἀμὴν λέγω ὑμῖν ὅτι πλούσιος δυσκόλως εἰσελεύσς ται εἰς τὴν βασιλείαν τῶν οὐρανῶν. Πάλιν δὲ λέγω ὑμῖν, εὐκοπώτερόν ἐστι κάμηλον διὰ τρυπήματος ῥαφίδος διελθεῖν, ἢ πλούσιον εἰς τὴν βασιλείαν τοῦ Θεοῦ εἰς κλθεῖν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.766,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

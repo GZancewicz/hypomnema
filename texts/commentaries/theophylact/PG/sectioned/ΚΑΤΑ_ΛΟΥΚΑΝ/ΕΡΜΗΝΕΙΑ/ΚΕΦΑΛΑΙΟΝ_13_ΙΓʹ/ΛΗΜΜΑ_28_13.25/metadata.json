@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_13.25",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 13:35"
+  },
+  "lemma_quote": "ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος· Ἀμὴν λέγω ὑμῖν, οὐ μή με ἴδητε ἤδη, ἄχρις ἂν εἴπητε· Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.88,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

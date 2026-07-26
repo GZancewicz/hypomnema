@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_91_5.47",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 91,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 43
+      }
+    ],
+    "display": "John 5:43"
+  },
+  "lemma_quote": "Εγὼ μὲν, φησὶν, ἐλήλυθα ἑν τῷ ὀνόματι τοῦ Πατρός μου",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.674,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

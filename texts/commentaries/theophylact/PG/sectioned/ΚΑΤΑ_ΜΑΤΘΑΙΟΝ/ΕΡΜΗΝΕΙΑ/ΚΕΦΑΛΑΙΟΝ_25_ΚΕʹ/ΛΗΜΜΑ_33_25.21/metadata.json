@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 38
+      }
+    ],
+    "display": "Matthew 25:38"
+  },
+  "lemma_quote": "εἴδομεν ξένον, καὶ συνηγάγομεν; ἢ γυμνὸν, καὶ περισβάλομεν; Πότε δέ σε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.874,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

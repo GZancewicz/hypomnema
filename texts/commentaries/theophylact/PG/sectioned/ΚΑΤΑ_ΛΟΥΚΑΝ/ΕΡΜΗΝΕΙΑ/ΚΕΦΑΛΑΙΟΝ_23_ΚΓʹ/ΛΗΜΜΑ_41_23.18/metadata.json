@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 41,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 34
+      }
+    ],
+    "display": "Luke 23:34"
+  },
+  "lemma_quote": "Πάτερ, ἄφες αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.47,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

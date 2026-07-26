@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_1.40",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 35,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 40
+      }
+    ],
+    "display": "Mark 1:40"
+  },
+  "lemma_quote": "«Καὶ ἔρχεται πρὸς αὐτὸν λεπρὸς, παρακαλῶν αὐτὸν, καὶ γονυπετῶν αὐτὸν, καὶ λέγων αὐτῷ, ὅτι Ἐὰν θέλῃς, δύνασαί με καθαρίσαι· ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

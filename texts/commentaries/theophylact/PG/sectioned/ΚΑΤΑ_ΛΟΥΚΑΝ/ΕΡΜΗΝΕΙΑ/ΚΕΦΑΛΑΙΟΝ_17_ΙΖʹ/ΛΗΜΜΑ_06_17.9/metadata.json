@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_17.9",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 17:10"
+  },
+  "lemma_quote": "Οὐαί μοι, ἐὰν μὴ εὐαχγελίζωμαι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.208,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

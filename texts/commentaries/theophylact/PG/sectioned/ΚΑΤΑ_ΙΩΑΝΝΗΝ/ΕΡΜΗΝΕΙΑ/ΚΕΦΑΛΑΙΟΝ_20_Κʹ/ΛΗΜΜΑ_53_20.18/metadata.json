@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_20.18",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 17
+      }
+    ],
+    "display": "John 20:17"
+  },
+  "lemma_quote": "«Μή μου ἅπτου· « εἰτα ὥσπερ τινὸς ἐρωτήσαντος· Διατί; Διότι, φησί, οὐκ ἔτι τοιοῦτον ἔσται μοι τὸ σῶμα, οἰον τῇ ἐν γῇ πολιτείᾳ οἰκεῖον εἶναι, ἀλλὰ τῷ οὐρανῳ καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.177,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "20.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

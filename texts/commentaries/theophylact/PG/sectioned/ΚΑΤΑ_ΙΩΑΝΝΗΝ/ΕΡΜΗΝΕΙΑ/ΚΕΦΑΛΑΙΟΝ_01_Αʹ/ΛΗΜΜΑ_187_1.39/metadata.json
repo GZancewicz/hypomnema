@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_187_1.39",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 187,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 39
+      }
+    ],
+    "display": "John 1:39"
+  },
+  "lemma_quote": "Οὐκ ἔχει ποῦ τὴν κεφαλὴν κλῖναι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.258,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_7.29",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 29
+      }
+    ],
+    "display": "Mark 7:29"
+  },
+  "lemma_quote": "εἰπεν αὐτῇ· Διὰ τοῦτον τὸν λόγον, ὕπαγε, ἐξελήλυθε τὸ δαιμόνιον ἐκ τῆς θυγατράς σου. Καὶ ἀπαλθοῦσα εἰς τὸν οἶκον αὐτῆς, εὗρε τὸ δαιμόνιον ἐξεληλυθὸς. καὶ τὴν θυγατέρα βεβλημένην ἐπὶ τῆς κλίνης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.752,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

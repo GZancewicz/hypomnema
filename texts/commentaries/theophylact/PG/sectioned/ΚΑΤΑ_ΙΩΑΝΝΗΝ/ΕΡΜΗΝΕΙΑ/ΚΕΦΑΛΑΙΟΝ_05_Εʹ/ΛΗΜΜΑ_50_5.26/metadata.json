@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_5.26",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 50,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 26
+      }
+    ],
+    "display": "John 5:26"
+  },
+  "lemma_quote": "Ὥσπερ γὰρ, φησὶν, ὁ Πατὴρ ζωὴν ἔχει ἐν ἑαυτῷ, οὕτως ἔδωκε καὶ τῷ Υἱῷ ἔωὴν ἔχειν ἐν ἑαυτῷ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.975,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

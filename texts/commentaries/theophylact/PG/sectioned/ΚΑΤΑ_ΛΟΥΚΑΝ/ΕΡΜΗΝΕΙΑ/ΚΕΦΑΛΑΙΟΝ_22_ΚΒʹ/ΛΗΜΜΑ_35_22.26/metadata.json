@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_22.26",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 35,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 26
+      }
+    ],
+    "display": "Luke 22:26"
+  },
+  "lemma_quote": "Ὑμεῖς δὲ οὐχ οὕτως· ἀλλ´ ὁ μείζων ἐν ὑμῖν, γενέσθω ὡς ὁ νεώτερος, καὶ ὁ ἡγούμενος ὡς ὁ διακονῶν. Τίς γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.908,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_12.4",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 4
+      }
+    ],
+    "display": "Luke 12:4"
+  },
+  "lemma_quote": "«Λέγω δὲ ὑμῖν τοῖς φίλοις μου, μὴ φοβηθῆτε ἀπὸ τῶν ἀποκτεινόντων τὸ σῶμα, καὶ μετὰ ταῦτα μὴ ἐχόντων περισσότερόν τι ποιῆσαι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.942,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

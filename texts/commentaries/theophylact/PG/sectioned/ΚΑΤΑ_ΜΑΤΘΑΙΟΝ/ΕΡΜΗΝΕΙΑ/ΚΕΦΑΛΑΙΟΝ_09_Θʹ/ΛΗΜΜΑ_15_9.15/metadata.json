@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_9.15",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 15
+      }
+    ],
+    "display": "Matthew 9:15"
+  },
+  "lemma_quote": "Εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· Μὴ δύνανται οἱ υἱοὶ τοῦ νυμφῶνος πενθεῖν, ἐφ´ ὅσον μετ´ αὐτῶν ἐστιν ὁ νυμφίος; Ἔλεύσονται δὲ ἡμέραι ὅταν ἀπαρθῇ ἀπ´ αὐτῶν ὁ νυμφίος, καὶ τότε νηστεύσουσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.947,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

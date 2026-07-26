@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_6.26",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 39,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 26
+      }
+    ],
+    "display": "John 6:26"
+  },
+  "lemma_quote": "Ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς, καὶ εἶπεν· Ἀμὴν, ἀμὴν λέγω ὑμῖν, ζητεῖτέ με, οὐχ ὅτι εἴδετε σημεῖα, ἀλλ´ ὄτι ἐφάγετε ἐκ τῶν ἄρτων, καὶ ἐχορτάσθητε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

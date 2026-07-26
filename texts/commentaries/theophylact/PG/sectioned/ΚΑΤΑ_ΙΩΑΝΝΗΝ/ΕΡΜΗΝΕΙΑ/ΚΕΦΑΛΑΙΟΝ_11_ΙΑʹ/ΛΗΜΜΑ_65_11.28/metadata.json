@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_11.28",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 28
+      }
+    ],
+    "display": "John 11:28"
+  },
+  "lemma_quote": "Ὁ διδάσκαλος",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_16.15",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 13,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 16:15"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς· Πορευθέντες εἰς τὸν κόσμον ἅπαντα, κηρύξατε τὸ Εὐαγγέλιον πάσῃ τῇ κτίσει. Ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

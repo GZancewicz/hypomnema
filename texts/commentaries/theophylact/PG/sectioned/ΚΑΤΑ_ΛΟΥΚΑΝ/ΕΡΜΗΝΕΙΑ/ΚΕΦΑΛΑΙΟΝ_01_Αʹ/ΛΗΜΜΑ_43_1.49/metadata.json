@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_1.49",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 43,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 48
+      }
+    ],
+    "display": "Luke 1:48"
+  },
+  "lemma_quote": "ἐποίησε μετ´ ἐμοῦ μεγαλεῖα ὁ Θεός. Δυνατὸν δὲ ὡνόμασεν αὐτὸν, ἵνα μηδεὶς ἀπιστήσῃ τοῖς λεγομένοις, λογισάμενος ὅτι οὐκ ἀδύνα. τός ἐστι ταῦτα ποιῆσαι ὁ Κύριος. Ἄ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.3,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

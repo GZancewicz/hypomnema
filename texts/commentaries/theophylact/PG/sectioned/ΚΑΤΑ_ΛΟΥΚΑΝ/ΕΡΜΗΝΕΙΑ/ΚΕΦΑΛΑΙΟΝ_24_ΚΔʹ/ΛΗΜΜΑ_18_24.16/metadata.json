@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_24.16",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 24:17"
+  },
+  "lemma_quote": "ὀφθαλμοὶ αὐτῶν ἐκρατοῦντο, τοῦ μὴ ἐπιγνῶναι αὐτόν. Εἰπε δὲ πρὸς αὐτούς· Τίνες οἱ λόγοι οὗτοι, οὓς ἀντιβάλλετε πρὸς ἀλλήλους περιπατοῦντες, καὶ ἐστὲ σκυθρωποίς α",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.783,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

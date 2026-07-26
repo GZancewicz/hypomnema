@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_7.46",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 46
+      }
+    ],
+    "display": "Luke 7:46"
+  },
+  "lemma_quote": "Ἐλαίῳ τὴν κεφαλήν μου οὐκ ἤλειψας, αὕτη δὲ μύρῳ ἤλειψέ μου τοὺς πόδας. Οὗ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_4.17",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 4:19"
+  },
+  "lemma_quote": "«δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς ἁλιεῖς ἀνθρώπων. Οἱ δὲ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.922,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

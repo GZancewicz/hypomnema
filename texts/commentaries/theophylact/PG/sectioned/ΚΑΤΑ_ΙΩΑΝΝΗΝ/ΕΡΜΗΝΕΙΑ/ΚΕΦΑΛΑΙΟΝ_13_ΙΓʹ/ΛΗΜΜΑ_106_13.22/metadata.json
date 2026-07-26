@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_106_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 106,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "John 13:35"
+  },
+  "lemma_quote": "Οὐκ οἶδα ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.168,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

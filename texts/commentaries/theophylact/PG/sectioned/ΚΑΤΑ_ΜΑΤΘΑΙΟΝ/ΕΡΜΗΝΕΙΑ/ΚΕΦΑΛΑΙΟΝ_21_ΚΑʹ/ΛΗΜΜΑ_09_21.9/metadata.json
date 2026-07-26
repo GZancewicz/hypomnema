@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_21.9",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 21:9"
+  },
+  "lemma_quote": "Ἐγὼ γάρ εἰμι ἡ ὁδὸς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.211,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

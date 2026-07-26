@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_8.14",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 14,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 14
+      }
+    ],
+    "display": "John 8:14"
+  },
+  "lemma_quote": "«Κἂν οὖν ἐγὼ ἐμαυτῷ μαρτυρῶ, ἡ μαρτυρία μου ἀληθής ἐστι, διότι οἶδα, ὅτι τοῦ Θεοῦ εἰμι Υiὸς, καὶ οὐκ ἄνθρωπος ψιλὸς, ἀλλ´ ἄνωθεν ἐρχόμενος καὶ Θεός. Πῶς οὖν ψευ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.346,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

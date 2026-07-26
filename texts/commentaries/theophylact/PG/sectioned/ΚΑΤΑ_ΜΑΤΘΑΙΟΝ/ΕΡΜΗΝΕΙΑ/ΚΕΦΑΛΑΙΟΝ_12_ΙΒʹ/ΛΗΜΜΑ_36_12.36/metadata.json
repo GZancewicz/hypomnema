@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_12.36",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 36,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 36
+      }
+    ],
+    "display": "Matthew 12:36"
+  },
+  "lemma_quote": "ἀργὸν ὃ ἐὰν λαλήσωσιν οἱ ἄνθρωποι, ἀποδώσουσι περὶ αὐτοῦ λόγον ἐν ἡμέρᾳ κρίσεως· ἐκ γὰρ τῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.805,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

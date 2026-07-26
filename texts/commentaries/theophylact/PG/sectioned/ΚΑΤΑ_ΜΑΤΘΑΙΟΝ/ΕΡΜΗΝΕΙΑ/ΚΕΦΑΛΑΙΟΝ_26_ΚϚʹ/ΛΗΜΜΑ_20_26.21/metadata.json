@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_26.21",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 26:21"
+  },
+  "lemma_quote": "ἐσθιόντων αὐτῶν, εἶπεν· Ἀμὴν λέγω ῥμῖν, ὅτι εἴς ἐξ ὑμῶν παραδώσει με. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

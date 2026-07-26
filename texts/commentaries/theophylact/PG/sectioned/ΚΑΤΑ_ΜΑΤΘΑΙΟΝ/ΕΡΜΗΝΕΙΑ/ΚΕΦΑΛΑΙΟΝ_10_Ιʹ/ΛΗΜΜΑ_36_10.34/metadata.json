@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_10.34",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 36,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 10:33"
+  },
+  "lemma_quote": "Οὐκ οἷδα ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.21,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

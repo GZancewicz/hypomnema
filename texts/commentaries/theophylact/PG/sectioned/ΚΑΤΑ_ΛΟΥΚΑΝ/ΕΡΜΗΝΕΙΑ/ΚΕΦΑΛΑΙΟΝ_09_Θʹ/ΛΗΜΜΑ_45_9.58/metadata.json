@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_9.58",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 45,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 58
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 58
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 58
+      }
+    ],
+    "display": "Luke 9:58"
+  },
+  "lemma_quote": "«Οὕτος ὁ προσελθὼν τῷ Ἰησοῦ, καὶ βτησάμενος ἵνα ἀκολουθῇ αὐτῷ, μετὰ πονηρᾶς γνώμης προσῆλθεν. Ἐπεὶ γὰρ εἶδε τὸν Κύριον πολὺν ὄχλον ἐπαγόμενον, ἐνόμισεν, ὅτι ἀπὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.239,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.58",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 40,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 43
+      }
+    ],
+    "display": "Matthew 21:43"
+  },
+  "lemma_quote": "τοῦτο λέγω ὑμῖν ὅτι ἀρθήσεται ἀφ´ ὑμῶν ἡ βασιλεία τοῦ Θεοῦ, καὶ δοθήσεται ἕθνει ποιοῦντι τοὺς καρποὺς αὐτῆς. Καὶ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

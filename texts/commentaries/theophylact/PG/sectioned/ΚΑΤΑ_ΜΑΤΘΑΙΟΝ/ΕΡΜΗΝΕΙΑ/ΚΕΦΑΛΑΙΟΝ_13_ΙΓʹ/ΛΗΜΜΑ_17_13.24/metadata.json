@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 13:32"
+  },
+  "lemma_quote": "Ἄλλην παραβολὴν παρέθηκεν αὐτοῖς λέγων· Ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν κόκκῳ σινάπαως, ὃν λαβών ἄνθρωπος ἔσπειρεθ ἐν τῷ ἀγρῷ αὐτοῦ· ὃ μικρότερον μέν ἐστιν πάντων τῶν σπερμάτων. Ὅταν δὲ αὐξηθῇ, μεῖζον πάντων τῶν λαχάνων ἐστὶ, καὶ γίνεται δένδρον, ὥστε ἐλθεῖν τὰ ττσεινὰ τοῦ οὐρανοῦ καὶ κατασκηνοῦν ἐν τοῖς κλάδοις αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.823,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_124_11.53",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 124,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 49
+      }
+    ],
+    "display": "John 11:49"
+  },
+  "lemma_quote": "Καὶ ἄλλα πρόβατα ἔχω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.221,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.53",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

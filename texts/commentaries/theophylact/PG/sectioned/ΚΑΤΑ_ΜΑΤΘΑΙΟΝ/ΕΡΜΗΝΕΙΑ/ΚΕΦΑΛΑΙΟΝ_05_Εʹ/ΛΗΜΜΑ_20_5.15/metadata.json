@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_5.15",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 5:16"
+  },
+  "lemma_quote": "Οθτω λαμψάτω τὸ φῶς ὑμῶν, ἔμπροσθεν τῶν ἀιύθρώπων, ὅπως ἴδωσιν ὑμῶν τὰ καλὰ ἔργα, καὶ δοξάσωσι τὸν Πατέρα ὑμῶν τὸν ἐν τοῖς οὐρανοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.95,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

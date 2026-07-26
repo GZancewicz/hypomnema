@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_15.16",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 45,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 16
+      }
+    ],
+    "display": "John 15:16"
+  },
+  "lemma_quote": "«ἵνα ὑμεῖς ὑπἁητειντουτέστιν, Ἵνα σὐξηθῆτε, καὶ πλατυνθῆτε, καὶ ἀ-βῆσε καὶ ἐκταθῆτε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.338,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

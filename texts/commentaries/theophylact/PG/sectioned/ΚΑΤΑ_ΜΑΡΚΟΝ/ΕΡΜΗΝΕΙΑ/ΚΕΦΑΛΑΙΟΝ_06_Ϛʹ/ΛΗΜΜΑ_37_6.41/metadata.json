@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_6.41",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 37,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 41
+      }
+    ],
+    "display": "Mark 6:41"
+  },
+  "lemma_quote": "«Καὶ λαβὼν τοὺς πέντε ἄρτους καὶ τοὺς δόο Ἀχθύας, ἀναβλέψας εἰς τὸν οὐρανὸν, εὐλόγησε· κὰὶ κατέκλασε τοὺς ἄρτους, καὶ ἐδίδου τοῖς μαθηταῖς αὐτοῦ, ἵνα παραθῶσιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.819,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

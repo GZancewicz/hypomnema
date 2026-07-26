@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_21.1",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 1,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 1
+      }
+    ],
+    "display": "John 21:1"
+  },
+  "lemma_quote": "«Μετὰ ταῦτα ἐφανέρωσεν ἑαυτὸν πάλιν ὁ Ἰησοῦς ἐπὶ τῆς θαλάσσης τῆς Τιβεριάδος· ἐφανέρωσε δὲ οὕτως· Ἦσαν ὁμοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.87,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

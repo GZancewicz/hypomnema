@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 43,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 45
+      }
+    ],
+    "display": "Matthew 21:45"
+  },
+  "lemma_quote": "«Καὶ ἀκούσαντες οἱ ἀρχιερεῖς καὶ οἱ Φαρισαῖοι τὰς παραβολὰς αὐτοῦ, ἔγνωσαν ὅτι περὶ αὐτῶν λέγει· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

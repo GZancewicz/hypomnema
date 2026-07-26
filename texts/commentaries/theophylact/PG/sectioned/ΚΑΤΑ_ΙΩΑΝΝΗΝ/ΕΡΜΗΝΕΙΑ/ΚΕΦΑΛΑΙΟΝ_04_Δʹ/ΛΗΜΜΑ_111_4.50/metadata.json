@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_111_4.50",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 111,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 48
+      }
+    ],
+    "display": "John 4:48"
+  },
+  "lemma_quote": "«Πορεύου, ὁ υἱός σουζῇν Ἀμέλει τοῦ μὲν παιδὸς τὸν πυρετὸν, τοῦ πατρὸς δὲ τὴν ἀπιστίαν ἰάσατο. Γίνωσκε δὲ, ὡς ἄλλο τέρας, καὶ ἄλλο σημεῖον. Τέρας μὲν γὰρ τὸ παρὰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.239,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

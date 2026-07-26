@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_19.7",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 19:8"
+  },
+  "lemma_quote": "ἰδόντες πάντες διεγόγγυζον λέγοντες, ὅτι, Παρὰ ἀμαρτωλῷ ἀνδρὶ εἰσῆλθε καταλῦσαι. Σταθεὶς δὲ Ζακχαῖος εἶπε πρὸς Κύριον· Ἰδοὺ τὰ ἡμίση τῶν ὑπαρχόντων μου, Κύριε, δίδωμη πτωχοῖς, καὶ εἴ τινός τι ἐσυκοφάντησα, ἀποδίδωμι τετραπλοῦν. Εἶπε δὲ πρὸς αὐτὸν ὁ Ἰησοῦς, ὅτι Σήμερον σωτηρία τῷ οἴκῳ τούτῳ ἐγένετο, καδότι καὶ αὐτὸς υἱὸς Ἀβραάμ ἐστιν· ἦλθε γὰρ ὁ Υἱὸς τοῦ ἀνθρῶπου ζητῆσαι, καὶ σῶσαι τὸ ἀπολωπός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.554,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

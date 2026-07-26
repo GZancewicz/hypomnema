@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_23.1",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 23:1"
+  },
+  "lemma_quote": "«Καὶ ἀναστὰν ἅπαν τὸ πλῆθος αὐτῶν, ἤγαγον αὐτὸν ἐπὶ τὸν Πιλάτον. Ἥρξαντο δὲ κατηγορεῖν αλτοῦ λέγοντες· Τοῦτον εὕρομεν διαστρέφοντα τὸ ἔθνος, καὶ κωλύοντο Καίσαρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.705,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

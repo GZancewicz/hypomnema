@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_175_1.34",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 175,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 34
+      }
+    ],
+    "display": "John 1:34"
+  },
+  "lemma_quote": "Κἀγὼ ἑώοακα, καὶ μεμαρτύρηκα, ὅτι αὐτός ἐστιν ὁ Υἱὸς τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.735,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

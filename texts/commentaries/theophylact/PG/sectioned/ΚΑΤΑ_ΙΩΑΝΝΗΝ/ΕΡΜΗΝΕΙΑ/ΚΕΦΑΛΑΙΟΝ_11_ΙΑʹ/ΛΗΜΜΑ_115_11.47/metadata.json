@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_115_11.47",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 115,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 43
+      }
+    ],
+    "display": "John 11:43"
+  },
+  "lemma_quote": "Λάζαρε, δεῦρο ἔξω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.628,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

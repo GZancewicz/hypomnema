@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_18.2",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 2,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 2
+      }
+    ],
+    "display": "Luke 18:2"
+  },
+  "lemma_quote": "λέγων· κριτής τις ἦν ἔν τινι πόλει τὸν Θεὸν μὴ φοβούμενος, καὶ ἄνθρωπον μὴ ἐντρεπόμενος. Χήρα δέ τις ἦν ἐν ἐκείνῃ τῇ πόλει, καὶ ἤρχετο πρὸς αὐτὸν λέγουσα, Ἐκδίκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.795,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

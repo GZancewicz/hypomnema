@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_18.6",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 18:6"
+  },
+  "lemma_quote": "σκανδαλίσῃ ἕνα τῶν μικρῶν τούτων τῶν πιστευόντων εἰς ἐμὲ, συμφέρει αὐτῷ, ἵνα κρεμασθῇ μύλος ὀνικὸς περὶ τὸν τράχηλον αὐτοῦ, καὶ καταποντισθῇ ἐν τῷ πελάγει τῆς θαλάσσης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.964,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

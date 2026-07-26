@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_15.24",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 64,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 24
+      }
+    ],
+    "display": "John 15:24"
+  },
+  "lemma_quote": "ἐποίησα ἐν αὐτοῖς, ἅ οὐδεὶς ἄλλος πεποίηκεν, ἀμαρτίαν οὐκ εἶχον. Νῦν δὲ καὶ ἑωράκασι, καὶ μεμισήκασι, καὶ ἐμέ, καὶ τὸν Πατέρα μου, ἀλλ´ ἵνα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.929,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

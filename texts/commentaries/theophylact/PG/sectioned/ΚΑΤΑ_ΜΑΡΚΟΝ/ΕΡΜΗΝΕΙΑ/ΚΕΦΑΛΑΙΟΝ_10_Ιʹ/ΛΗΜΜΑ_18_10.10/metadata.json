@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 18,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 45
+      }
+    ],
+    "display": "Mark 10:45"
+  },
+  "lemma_quote": "γενέσθαι πρῶτος, ἔσται πάντων δοῦλος Καὶ γὰρ ὁ Υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι, ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.846,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_11.41",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 41
+      }
+    ],
+    "display": "Luke 11:41"
+  },
+  "lemma_quote": "ἐνόντα θότε ἐλεημοσύνην, καὶ ἱδοὺ πάντα καθαρὰ ὑμῖν ἐστιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.651,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_113_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 113,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 37
+      }
+    ],
+    "display": "John 13:37"
+  },
+  "lemma_quote": "Μείζονα ταύτης ἀγάπην οὐδεὶς ἔχει, ἢ ἵνα τις τὴν ψυχὴν αὐτοῦ θῇ ὑπὲρ τοῦ φίλουαὐτοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.231,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

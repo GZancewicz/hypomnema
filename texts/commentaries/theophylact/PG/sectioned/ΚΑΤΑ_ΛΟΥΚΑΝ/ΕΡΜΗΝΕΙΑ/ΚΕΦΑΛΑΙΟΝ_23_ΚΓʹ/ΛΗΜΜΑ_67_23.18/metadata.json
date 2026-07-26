@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_67_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 67,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 54
+      }
+    ],
+    "display": "Luke 23:54"
+  },
+  "lemma_quote": "ἡμέρα ἦν Παρασκευὴ, καὶ Σάββατον ἐπέικωσκς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.838,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

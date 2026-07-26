@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_24.43",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 57,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 24:44"
+  },
+  "lemma_quote": "λαβὼν ἐνώπιον αὐτῶν ἕφαγεν, Εἶπε δὲ αὐτοῖς· Οὗτοι οἱ λόγοι οὓς ἐλάλησα πρὸς ὑμᾶς ἔτι ὢν σὺν ὑμῖν, ὅτι δεῖ πληρωθῆναι πάντα τὰ γεγραμμένα ἐν τῷ νόμῳ Μωσέως, καὶ προφήταις, καὶ ἕαλμοῖς περὶ ἐμοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.857,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

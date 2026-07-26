@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_17.5",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 17:5"
+  },
+  "lemma_quote": "Ἔτι αὐτοῦ λαλοῦντος, ἰδοὺ νεφέλη φωτεινὴ ἐπεσκίασεν αὐτοὺς, καὶ ἰδοὺ φωνὴ ἐκ τῆς νεφέλης, λέγουσα· Οὗτός ἐστιν ὁ Υἱός μου ὁ ἀγαπητὸς ἑν ᾠ μὐδόκησα, αὐτοῦ ἀκούετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.971,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

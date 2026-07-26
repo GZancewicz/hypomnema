@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_11.12",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 11:12"
+  },
+  "lemma_quote": "«Ἀπὸ δὲ τῶν ἡμερῶν Ἰωάννου τοῦ Βαπτιστοῦ ἕως ἄρτι ἡ βασιλεία τῶν οὐρανῶν βιάζεται, καὶ οἱ βιασταὶ ἀρπάζουσιν αὐτήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

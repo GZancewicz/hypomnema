@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_123_11.53",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 123,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 49
+      }
+    ],
+    "display": "John 11:49"
+  },
+  "lemma_quote": "Ὑμεῖς γὰρ, τησὶν, οὐκ οἴδατε οὐδέν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.542,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.53",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

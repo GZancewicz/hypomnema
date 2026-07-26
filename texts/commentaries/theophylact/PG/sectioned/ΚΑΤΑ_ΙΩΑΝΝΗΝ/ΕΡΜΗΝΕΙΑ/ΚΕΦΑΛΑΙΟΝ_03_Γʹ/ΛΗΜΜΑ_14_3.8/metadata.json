@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_3.8",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 14,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 7
+      }
+    ],
+    "display": "John 3:7"
+  },
+  "lemma_quote": "Μὴ θαυμάσῃς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.455,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

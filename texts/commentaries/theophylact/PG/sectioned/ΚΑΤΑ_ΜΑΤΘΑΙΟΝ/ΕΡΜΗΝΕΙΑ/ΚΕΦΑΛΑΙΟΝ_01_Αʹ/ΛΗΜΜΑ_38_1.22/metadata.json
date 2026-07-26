@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_1.22",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 38,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 1:23"
+  },
+  "lemma_quote": "Ἰδοὺ ἡ Παρθένος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.364,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

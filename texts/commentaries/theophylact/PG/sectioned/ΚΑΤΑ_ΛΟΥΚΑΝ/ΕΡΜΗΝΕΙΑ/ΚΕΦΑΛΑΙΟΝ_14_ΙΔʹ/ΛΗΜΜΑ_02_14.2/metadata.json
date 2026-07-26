@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_14.2",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 2,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 3
+      }
+    ],
+    "display": "Luke 14:3"
+  },
+  "lemma_quote": "ἄνθρωπός τις ἦν ὑδρωπικὸς ἔμπροσθεν αὐτοῦ Καὶ ἀποκριθεὶς ὁ Ἱησοῦς εἶπε πρὸς τοὺς δαρισαίους καὶ νομικοὺς, λέγων· Εἰ ἔξεστι θεραπεύειν ἐν Σαββάτῳ; Οἱ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.731,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

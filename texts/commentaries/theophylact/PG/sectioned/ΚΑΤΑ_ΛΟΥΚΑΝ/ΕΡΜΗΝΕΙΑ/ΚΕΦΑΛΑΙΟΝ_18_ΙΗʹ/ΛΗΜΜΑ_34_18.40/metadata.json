@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_18.40",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 40
+      }
+    ],
+    "display": "Luke 18:40"
+  },
+  "lemma_quote": "Σταθείς δὲ ὁ Ἰησοῦς, ἐκέλευσεν αὐτὸν ἀχθῆναι πρὸς αὐτόν. Ἐγγίσαντος δὲ αὐτοῦ, ἐπηρώτησεν αὐτὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.978,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

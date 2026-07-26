@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_17.15",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 16
+      }
+    ],
+    "display": "John 17:16"
+  },
+  "lemma_quote": "καθὼς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.19,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

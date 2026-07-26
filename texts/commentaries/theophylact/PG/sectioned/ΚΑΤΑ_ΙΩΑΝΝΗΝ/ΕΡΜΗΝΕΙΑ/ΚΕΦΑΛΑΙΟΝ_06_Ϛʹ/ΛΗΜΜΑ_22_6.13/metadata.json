@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_6.13",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 22,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 10
+      }
+    ],
+    "display": "John 6:10"
+  },
+  "lemma_quote": "Ἦν δὲ χόρτος",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

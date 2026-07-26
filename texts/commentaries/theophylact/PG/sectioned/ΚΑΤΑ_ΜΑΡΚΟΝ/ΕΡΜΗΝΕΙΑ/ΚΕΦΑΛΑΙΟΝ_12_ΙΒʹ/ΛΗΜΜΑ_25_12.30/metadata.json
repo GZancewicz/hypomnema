@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_12.30",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 25,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 30
+      }
+    ],
+    "display": "Mark 12:30"
+  },
+  "lemma_quote": "ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου. Αὔτη πρώτη ἐντολή· κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_8.15",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 15,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 16
+      }
+    ],
+    "display": "John 8:16"
+  },
+  "lemma_quote": "Ὑμεῖς κατὰ τὴν σάρκα κρίνετε, ἐγὼ κρίνω οὐδένα. Καὶ ἐὰν κρίνω δὲ ἐγὼ, ἡ κρίσις ἡ ἐμὴ εληθής ἐστιν, ὅτι μόνος οὐκ εἰμὶ, ἀλλ´ ἐγὼ, καὶ ὁ πέμψας με Πατήρ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.764,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

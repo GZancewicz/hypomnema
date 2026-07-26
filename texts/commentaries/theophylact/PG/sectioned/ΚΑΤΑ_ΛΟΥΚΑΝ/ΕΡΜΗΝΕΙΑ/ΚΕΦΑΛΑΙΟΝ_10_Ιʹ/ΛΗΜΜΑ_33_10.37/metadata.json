@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_10.37",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 10:38"
+  },
+  "lemma_quote": "«Ἐνένετο δὲ ἐν τῶ πορεύεσθαι αὐτοὺς, καὶ αὐτος εἰσῆλθεν εἰς κώμην τινὰ, γυνὴ δέ τις, ὀνόματι Μάρθα, ὑπεδέξατο αὐτὸν εἰς τὸν οἶκον αὐτῆς. Καὶ τῇδε ἦν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.928,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_7.5",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 6,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 3
+      }
+    ],
+    "display": "John 7:3"
+  },
+  "lemma_quote": "«ἱ μαθηταί σου, τουτέστιν, οἱ ὄχλοι οἱ ἀκολουθοῦντές σοι, θεωρήσωσιν ἃ ποιεῖς. Οὐ γὰρ περὶ τῶν δώδεκά φησιν, ἀλλὰ περὶ τῶν ἄλλως ἐπομένων αὐτῷ. Ἑγκαλοῦσι δὲ αὐτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.361,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_22.20",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 22:18"
+  },
+  "lemma_quote": "Οτινες συνεφάγομεν καὶ συνεπίομεν αὐτῷ μετὰ τὴν ἀνάστασιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.318,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

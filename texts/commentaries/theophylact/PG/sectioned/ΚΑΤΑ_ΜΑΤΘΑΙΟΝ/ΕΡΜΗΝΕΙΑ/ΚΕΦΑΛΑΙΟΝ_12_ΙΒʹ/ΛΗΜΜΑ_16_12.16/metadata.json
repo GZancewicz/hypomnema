@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_12.16",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 12:16"
+  },
+  "lemma_quote": "ἐπετίμησεν αὐτοῖς ἐαμὴ φανερὸν αὐτὸν ποιήσωσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.911,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

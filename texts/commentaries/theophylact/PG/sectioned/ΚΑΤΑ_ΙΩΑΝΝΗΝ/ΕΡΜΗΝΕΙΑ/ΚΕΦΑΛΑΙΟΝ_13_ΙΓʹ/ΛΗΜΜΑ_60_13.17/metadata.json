@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_13.17",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 60,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 18
+      }
+    ],
+    "display": "John 13:18"
+  },
+  "lemma_quote": "Ὁ ἐσθίων ἄρτον μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.21,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_7.10",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 10
+      }
+    ],
+    "display": "John 7:10"
+  },
+  "lemma_quote": "ἀνέβησαν οἱ ἀδελφοὶ αὐτοῦ, τότε καὶ αὐτὸς ἀνέβη εἰς τὴν ἑορτὴν, οὐ φανερῶς, ἀλλ´ ὡς ἐν κρυπτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_9.30",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 73,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 30
+      }
+    ],
+    "display": "John 9:30"
+  },
+  "lemma_quote": "Ἀπεκρίθη ὁ ἄνθρωπος, καὶ εἶπεν αὐτοῖς· Ἐν γὰρ τούτῳ θαυμαστόν ἐστιν, ὅτι ὑμεῖς οὐκ οἱδατε πόθεν ἐστί, καὶ ἀνέῳξέ μου τοὺς ὁφθαλμούς, Οδα μεν δέ, ὅτι ἁμαρτωλῶν ὁ Θεὸς οὐκ ἀκούει· ἀλλ´ ἐάν τις θεοσεβὴς ᾗ, καὶ τὸ θέλημα αὐτοῦ ποιῇ, τούτου ὰνούει. Ἐκ τοῦ αἰῶνος οὐκ ἠκούσθη, ὅτι ἤνοιξέ τις δφθαλμοὺς τυφλοῦ γεγεννημένου. Εἰ μὴ ἦν οὗτος παρὰ Θεοῦ, οὐκ ἠδύνατο ποιεῖν οὐδέν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.587,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

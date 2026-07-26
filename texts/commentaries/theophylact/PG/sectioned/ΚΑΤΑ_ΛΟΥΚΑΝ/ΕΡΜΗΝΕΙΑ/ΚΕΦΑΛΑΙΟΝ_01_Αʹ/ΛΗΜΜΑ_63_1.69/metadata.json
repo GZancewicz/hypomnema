@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_1.69",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 63,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 76
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 76
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 76
+      }
+    ],
+    "display": "Luke 1:76"
+  },
+  "lemma_quote": "«Καὶ σὐ, παιδίον, προφήτης Υὐίστου κληθήσῃ· προπορεύσῃ γὰρ πρὸ προσώπου Κυρίου, ἑτοιμάσαι ὁδοὺς αὐτοῦ, τοῦ δοῦναι γνῶσιν σοοτηρίας τῷ λαῷ αὐτοῦ, ἐν ἀφέσει ἀμαρτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.796,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.69",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

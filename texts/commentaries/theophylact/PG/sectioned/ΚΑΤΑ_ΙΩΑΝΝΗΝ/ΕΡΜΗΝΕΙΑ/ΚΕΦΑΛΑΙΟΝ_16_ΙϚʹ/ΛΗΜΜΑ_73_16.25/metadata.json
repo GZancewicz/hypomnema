@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_16.25",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 73,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 25
+      }
+    ],
+    "display": "John 16:25"
+  },
+  "lemma_quote": "Ταῦτα ἐν παροιμίαις λελάληκα ὑμῖν, ἀλ ἔρχεται ὥρα, ὅτε οὐκ ἔτι ἐν παροιμίαις, ἀλλὰ τοῤῥησίᾳ περὶ τοῦ Πατρὸς ἀναγγελῶ ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.838,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

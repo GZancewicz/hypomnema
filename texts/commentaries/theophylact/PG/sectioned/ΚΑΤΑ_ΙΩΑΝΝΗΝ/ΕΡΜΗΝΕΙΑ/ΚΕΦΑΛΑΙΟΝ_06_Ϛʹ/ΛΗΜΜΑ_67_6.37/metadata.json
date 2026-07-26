@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_67_6.37",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 67,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 40
+      }
+    ],
+    "display": "John 6:40"
+  },
+  "lemma_quote": "« Ούδὲν γὰρ ἄλλο λέγει, ἢ ὅπερ εἶπεν ἀνωτέρω. Τὸ μὲν γὰρ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.164,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

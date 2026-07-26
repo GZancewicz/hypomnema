@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_126_8.55",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 126,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 54
+      }
+    ],
+    "display": "John 8:54"
+  },
+  "lemma_quote": "Ἐὰν ἐγὼ δοξάζω ἐμαυτὸν, ἡ δόξα μου οὐδέν ἐστιν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.737,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.55",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

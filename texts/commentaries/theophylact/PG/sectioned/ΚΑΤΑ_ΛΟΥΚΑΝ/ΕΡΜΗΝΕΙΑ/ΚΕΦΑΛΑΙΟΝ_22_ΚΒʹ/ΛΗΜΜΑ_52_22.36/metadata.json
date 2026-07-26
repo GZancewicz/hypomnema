@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_22.36",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 52,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 22:36"
+  },
+  "lemma_quote": "Εἶπεν οὖν αὐτοῖς · Ἀλλὰ νῦν ὁ ἔχων βαλάντιον, ἀράτω ὁμοίως καὶ πήραν· καὶ ὁ μὴ ἔχων, πωλησάτω τὸ ἱμάτιαν αὐτοῦ, καὶ ἀγορασάτω μάχαιραν. Λέγω γὰρ ὑμῖν, ὅτι ἔτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.781,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

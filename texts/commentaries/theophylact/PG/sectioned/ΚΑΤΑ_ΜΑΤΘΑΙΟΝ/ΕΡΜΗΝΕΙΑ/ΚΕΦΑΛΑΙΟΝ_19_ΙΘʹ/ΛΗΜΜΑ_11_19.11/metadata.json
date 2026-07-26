@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_19.11",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 19:11"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς· Οὐ πάντες χωροῦσι τὸν λόγον τοῦτον, ἀλλ´ οἷς δέδοται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_4.2",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 2,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 3
+      }
+    ],
+    "display": "Luke 4:3"
+  },
+  "lemma_quote": "ἡμέρας τεσσαράκοντα πειραζόμενος ὑπὸ ποῦ διαβόλου· καὶ οὐκ Κφαγεν οὐδὲν ἐν ταῖς ἡμέραις ἐκείναις· καὶ συντελεσθεισῶν αὐτῶν, ὧστερον ἐπείνασει · καὶ εἶπεν αὐτῷ ὁ διάβολος· Εἰ υἱὸς εἶ τοῦ Θεοῦ, εἰπὲ τῷ λίθῳ τούτῳ, ἵνα γένηται ἄρτος· καὶ ἀπκρίθη Ἰησοῦς πρὸς αὐτὸν, λέγων· Γέγραπται, ὅτι σέ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.623,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

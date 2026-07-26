@@ -1,0 +1,39 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_12.1",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 29
+      },
+      {
+        "chapter": 11,
+        "verse": 30
+      }
+    ],
+    "display": "Matthew 11:29–30"
+  },
+  "lemma_quote": "Ἔρατε τὸν ζυγόν μου ἐφ´ ὑμᾶς, καὶ μάθετε ἀπ´ ἐμοῦ ὅτι πρᾶός εἰμι καὶ ταπεινὸς τῇ καρδίᾳ, καὶ εὐρήσετε ἀνάπαυσιν ταίς ψυχαῖς ὑμῶν. Ὁ γὰρ ζυγός μου χρηστὸς, καὶ τὸ φορτίον μου ἐλαφρόν ὰστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "12.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

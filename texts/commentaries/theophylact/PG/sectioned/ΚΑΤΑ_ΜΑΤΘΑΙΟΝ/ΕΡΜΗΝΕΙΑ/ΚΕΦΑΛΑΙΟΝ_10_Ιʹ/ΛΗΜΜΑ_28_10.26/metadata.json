@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_10.26",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 10:26"
+  },
+  "lemma_quote": "φοβηθῆτε αὐτοὺς, οὐδὲν γάρ ἑστι κεκαλυμμένον ὃ οὐκ κποκαλυφθήσεται, καὶ κρυπτὸν ὃ οὐ γνωσθήσεται· Παραμυθεῖσθε, φησὶν, ἀπὸ τῶν ἐμῶν· εἰ γὰρ ἐμὲ ἄρχοντα τῶν δαιμ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.762,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

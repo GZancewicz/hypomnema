@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_10.25",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 73,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 26
+      }
+    ],
+    "display": "John 10:26"
+  },
+  "lemma_quote": "Οὐ πιστεύετέ μοι, ὅτι οὐκ ἐστὲ ἐκ τῶν προβάτων τῶν ἐμῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.576,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

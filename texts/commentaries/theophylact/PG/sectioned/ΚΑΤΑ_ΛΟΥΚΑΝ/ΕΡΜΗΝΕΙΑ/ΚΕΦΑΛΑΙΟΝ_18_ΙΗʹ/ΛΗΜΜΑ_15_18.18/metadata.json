@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_18.18",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 18:18"
+  },
+  "lemma_quote": "«Καὶ ἐπηρώτησέ τις αὐτὸν ἄρχων, λέγων· Δισάακαλε ἀναθὲ τί ποιήσας ζωὴν αἰώνιον κληρονομήσω; Εἴπε δὲ αὐτῷ ὁ Ἰησοῦς· Τί με λάγεις ἀγαθόν; Οὐδεὶς ἀγαθὸς, εἰ μὴ εἷς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.698,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

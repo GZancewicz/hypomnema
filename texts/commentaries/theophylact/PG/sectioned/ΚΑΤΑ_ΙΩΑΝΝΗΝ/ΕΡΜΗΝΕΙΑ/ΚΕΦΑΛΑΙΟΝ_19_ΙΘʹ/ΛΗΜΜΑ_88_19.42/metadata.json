@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_19.42",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 41
+      }
+    ],
+    "display": "John 19:41"
+  },
+  "lemma_quote": "πρόσθεσις",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

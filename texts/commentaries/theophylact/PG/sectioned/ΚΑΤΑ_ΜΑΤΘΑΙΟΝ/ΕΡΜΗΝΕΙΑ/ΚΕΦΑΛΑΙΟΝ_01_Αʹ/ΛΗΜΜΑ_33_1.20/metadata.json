@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_1.20",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 1:21"
+  },
+  "lemma_quote": "Πέξεται δὲ υἱόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "1.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

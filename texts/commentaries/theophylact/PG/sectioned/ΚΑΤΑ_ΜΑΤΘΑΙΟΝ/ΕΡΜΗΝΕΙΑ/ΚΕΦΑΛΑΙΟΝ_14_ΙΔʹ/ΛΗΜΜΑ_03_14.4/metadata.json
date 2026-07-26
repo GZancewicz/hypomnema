@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_14.4",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 14:4"
+  },
+  "lemma_quote": "Ἔλεγε γὰρ αὐτῷ ὁ Ἰωάννης, Οὐκ ἔξεστί σοι ἔχειν αὐτὴν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

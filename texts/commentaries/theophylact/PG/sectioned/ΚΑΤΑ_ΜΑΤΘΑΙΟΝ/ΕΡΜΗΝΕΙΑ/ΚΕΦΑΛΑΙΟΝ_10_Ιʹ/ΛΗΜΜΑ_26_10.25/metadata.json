@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_10.25",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 25
+      }
+    ],
+    "display": "Matthew 10:25"
+  },
+  "lemma_quote": "ἀρκετὸν τῷ μαθητῇ Τνα γένηται ὡς ὁ διδάσκαλος αὐτοῦ, καὶ ὁ δοῦλος ὡς ὁ κύριος αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.605,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

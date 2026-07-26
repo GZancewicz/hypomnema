@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_18.15",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 18:24"
+  },
+  "lemma_quote": "«Ἀρξαμένου δὲ αὐτοῦ συναίρειν, προσηνέχθη αὐτῷ εἷς ὀφειλέτης μυρίων ταλάντων· μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

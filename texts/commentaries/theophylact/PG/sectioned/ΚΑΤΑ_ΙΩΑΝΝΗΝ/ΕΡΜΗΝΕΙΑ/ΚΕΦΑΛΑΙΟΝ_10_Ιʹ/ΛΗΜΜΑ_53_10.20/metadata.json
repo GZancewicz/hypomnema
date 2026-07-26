@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_10.20",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 21
+      }
+    ],
+    "display": "John 10:21"
+  },
+  "lemma_quote": "Ἔλεγον δὲ πολλοὶ ἐξ αὐτῶν, στι Δαίμονιον ἔχει καὶ μαίνεται· τί αὐτοῦ ἀκούεσε· ἀλλὰ ἔλεγον· Ταῦτα τὰ ῥήματα οὐκ ἔστι δαιμονιζομένου. ΛΙὴ δαιμόνιον δύναται τυφλῶν ὁφθαλμοὺς ἀνοίγειν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.779,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

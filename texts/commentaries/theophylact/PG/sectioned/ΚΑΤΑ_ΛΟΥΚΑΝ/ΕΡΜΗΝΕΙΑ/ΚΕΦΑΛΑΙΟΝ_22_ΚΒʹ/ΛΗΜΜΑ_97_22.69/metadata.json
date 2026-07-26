@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_97_22.69",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 97,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 70
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 70
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 70
+      }
+    ],
+    "display": "Luke 22:70"
+  },
+  "lemma_quote": "ἔσται ὁ Υἱὸς τοῦ ἀνθρώπου καθήμενος ἐκ δεξιῶν τῆς δυνάμεως τοῦ Θεοῦ. Εἰπον γοῦν πάντες· Χὺ οὐν εε ὁ Υἱς τοῦ Θεοῦ; Ο δὲ πρὸς αὐτοὺς ἔφη· Υμεῖ λέγετε ὅτι ἐγώ εἰμι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.749,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.69",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_4.8",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 5,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 4:8"
+  },
+  "lemma_quote": "ἀποκριθεὶς εἰπεν αὐτῷ ὁ Ἰησοῦς· Ὕπαγε ὀπίσω μου, Σατανᾶ· γέγραπται γάρ· Προσκυνήσεις Κύριον τὸν Θεόν σου, καὶ αὐτῷ μόνῳ λατρεύσεις. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

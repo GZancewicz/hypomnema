@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_108_9.41",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 108,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 39
+      }
+    ],
+    "display": "John 9:39"
+  },
+  "lemma_quote": "τυφλοὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.276,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

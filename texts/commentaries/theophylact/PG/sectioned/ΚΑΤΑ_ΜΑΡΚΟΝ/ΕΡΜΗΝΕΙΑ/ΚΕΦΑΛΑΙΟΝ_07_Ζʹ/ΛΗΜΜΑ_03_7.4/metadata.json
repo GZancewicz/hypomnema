@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_7.4",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 7:5"
+  },
+  "lemma_quote": "ἀγορᾶε, ἐὰν μὴ βαπτίσωνται, οὐκ ἐσθίουσι· καὶ ἄλλε πολλά ἐστιν ἃ παρελαβον κρατεῖν, βαπδισμοὺς ποτηρίων καὶ ξαστῶν καὶ χαλκείων καὶ κλινῶν. Ἔπειτα ἐπεριατῶσιν αὐτὸν οἱ δαρισαῖοι καὶ οἱ Γραμματεῖς, Διατί οἱ μαθηταί σου οὐ περιπατοῦσι κατὰ τὴν παράδοσιν τῶν πρεσβυτέρων, ἀλλ´ ἀνίπτοις χεροὶν ἐσθίουσι τὸν ἄρτονς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.626,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

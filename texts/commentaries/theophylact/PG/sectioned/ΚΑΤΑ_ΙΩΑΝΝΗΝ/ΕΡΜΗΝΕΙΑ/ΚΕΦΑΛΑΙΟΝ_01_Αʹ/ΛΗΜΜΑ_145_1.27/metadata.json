@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_145_1.27",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 145,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 26
+      }
+    ],
+    "display": "John 1:26"
+  },
+  "lemma_quote": "Μέσος δὲ ὑμῶν ἔστηκεν, ὃν ὑμεῖς οὐκ οἴδατε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.764,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

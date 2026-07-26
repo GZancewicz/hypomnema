@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_100_17.20",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 100,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 21
+      }
+    ],
+    "display": "John 17:21"
+  },
+  "lemma_quote": "καθὼς σὺ, Πάτερ, ἐν ἐμοὶ, κἀγὼ ἐν σοί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.491,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

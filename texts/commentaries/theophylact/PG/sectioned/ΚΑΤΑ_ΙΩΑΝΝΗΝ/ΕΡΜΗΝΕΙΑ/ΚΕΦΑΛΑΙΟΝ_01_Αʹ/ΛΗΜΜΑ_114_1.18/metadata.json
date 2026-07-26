@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_1.18",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 17
+      }
+    ],
+    "display": "John 1:17"
+  },
+  "lemma_quote": "Ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.784,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

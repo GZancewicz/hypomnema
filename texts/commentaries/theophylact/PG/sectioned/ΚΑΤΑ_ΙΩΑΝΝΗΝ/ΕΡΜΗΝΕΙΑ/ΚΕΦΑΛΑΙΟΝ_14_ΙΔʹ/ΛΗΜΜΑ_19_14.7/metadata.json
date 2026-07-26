@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_14.7",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 19,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 7
+      }
+    ],
+    "display": "John 14:7"
+  },
+  "lemma_quote": "Εἰέγνῴκειτέμε, καὶ τὸν Πατέρα μου ἐγνώκειτε ἀν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.659,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_13.25",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 25,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 13:32"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς·Πορευθέντες εβπατε τῇ ἁλώπεκι ταύτη, Ἰδοὺ ἐκβάλλω δαιμόνια, καὶ ἰάσεις ἐπιτελῶ σήμερον καὶ αὔριον. καὶ τῇ τοίτη τελειοῦμαι. Πλὴν δεῖ με",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.847,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

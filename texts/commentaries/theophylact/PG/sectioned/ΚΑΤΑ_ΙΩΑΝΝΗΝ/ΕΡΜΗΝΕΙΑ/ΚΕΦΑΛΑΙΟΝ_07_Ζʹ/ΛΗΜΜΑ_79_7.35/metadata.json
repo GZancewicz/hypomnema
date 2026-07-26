@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_79_7.35",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 79,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 34
+      }
+    ],
+    "display": "John 7:34"
+  },
+  "lemma_quote": "Πολλαὶ γυναῖκες ἐκόπτοντο ἐπ´ αὐτῷ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.221,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.35",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

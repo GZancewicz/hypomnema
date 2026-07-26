@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_5.10",
+  "gospel": "mark",
+  "chapter": 5,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 5,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 11
+      }
+    ],
+    "display": "Mark 5:11"
+  },
+  "lemma_quote": "«Ἢν δὲ ἐκεῖ πρὸς τῷ ὄρει",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.671,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

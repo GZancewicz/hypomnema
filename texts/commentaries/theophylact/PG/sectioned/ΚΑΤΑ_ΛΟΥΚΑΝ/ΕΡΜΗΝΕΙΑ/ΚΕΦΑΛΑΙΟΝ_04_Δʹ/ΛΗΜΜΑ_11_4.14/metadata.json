@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_4.14",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 4:14"
+  },
+  "lemma_quote": "ὑπέστρεψεν ὁ Ἰησοῦς ἐν τῇ δυνάμει τοῦ πνεύματος εἰς τὴν Γαλιλαίαν · καὶ φήμη ἐξῆλθε καθ´ ὅλης τῆς περιχώρου περὶ αὐτοῦ· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

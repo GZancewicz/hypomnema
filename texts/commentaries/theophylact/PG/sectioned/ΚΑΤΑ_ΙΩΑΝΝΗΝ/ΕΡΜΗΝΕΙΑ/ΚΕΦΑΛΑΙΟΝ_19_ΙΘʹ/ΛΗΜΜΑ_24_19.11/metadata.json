@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_19.11",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 24,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 11
+      }
+    ],
+    "display": "John 19:11"
+  },
+  "lemma_quote": "Οὐκ εἶχες, φησὶν, ἐξουεἰαν οὐδεμίαν κατ´ ἐμοῦ, εἰ μὴ ἦν σοι δεδομένον ἑνωθεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.695,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

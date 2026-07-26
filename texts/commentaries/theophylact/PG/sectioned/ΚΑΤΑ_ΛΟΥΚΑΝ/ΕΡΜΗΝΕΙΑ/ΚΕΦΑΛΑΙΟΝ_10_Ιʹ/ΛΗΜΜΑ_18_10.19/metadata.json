@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_10.19",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 19
+      }
+    ],
+    "display": "Luke 10:19"
+  },
+  "lemma_quote": "δίδωμι ὑμῖν τὴν ἐξουσίαν τοῦ πατεῖν ἐπάνω ὅφεων καὶ σκορπίων, καὶ ἐπὶ πᾶσαν τὴν δύναμιν τοῦ ἐχθροῦ, καὶ οὐδὲν ὑμᾶς οὐ μὴ ἀδικήσῃ. Πλὴν ἐν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.962,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

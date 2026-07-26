@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_17.20",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 9
+      }
+    ],
+    "display": "John 17:9"
+  },
+  "lemma_quote": "«Οὐ περὶ τούτων δὲ ἐρωτῶ μόνον, ἀλλὰ καὶ περὶ Β vελε. Ζὓ, Ζἱ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.73,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

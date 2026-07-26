@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_14.2",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 14:1"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο ἐν τῷ εἰσελθεῖν αὐτὸν εἰς οἷκόν τινος τῶν ἀρχόντων τῶν θαρισαίων Σαββάτῳ, φαγεῖν ἄρτον, καὶ αὐτοὶ ἦσαν παρατηρούμενοι αὐτόν. Καὶ ἰδοὺ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.861,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

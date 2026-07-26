@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_8.12",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 11,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 12
+      }
+    ],
+    "display": "Mark 8:12"
+  },
+  "lemma_quote": "ἀναστενάξας τῷ πνεύματι αὐτοῦ, λέγει· Τί ἡ γενεὰ αὕτη σημεῖον ἐπιζητεῖ; Ἀμὴν λέγω ὑμῖν, εἰ δοθήσεται τῇ γενεᾷ ταύτῃ σημεῖον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_24.31",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 42,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 31
+      }
+    ],
+    "display": "Luke 24:31"
+  },
+  "lemma_quote": "Αὐτῶν δὲ διηνοίχθησαν οἱ ὀφθαλμοί, καὶ ἐπέγνωσαν αὐτὸν, καὶ αὐτὸς ἄφαντος ἐγένετο ἁπ´ αὐτῶν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

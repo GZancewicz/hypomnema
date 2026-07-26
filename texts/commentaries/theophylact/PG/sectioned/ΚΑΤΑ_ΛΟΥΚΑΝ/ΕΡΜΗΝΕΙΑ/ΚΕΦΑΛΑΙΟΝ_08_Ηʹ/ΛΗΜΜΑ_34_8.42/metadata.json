@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_8.42",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 8:42"
+  },
+  "lemma_quote": "θυγάτηρ. μονογενὴς ᾖν αὐτῷ, ὡς ἐτῶν δώδεκα, καὶ αὕτη ἁπέθνησκεν. Ἐν δὲ τῷ ὑπάγειν αὐτὸν, οἱ ὄχλοι συνέπνιγον αὐτόν. Καὶ γυνὴ οὖσα ἐν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.894,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

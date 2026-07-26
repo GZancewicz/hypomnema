@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_22.20",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 22:21"
+  },
+  "lemma_quote": "«Πλὴν ἰδοὺ ἡ χεὶρ τοῦ παραδιδόντος με, μετ´ ἐμοῦ ἐπὶ τῆς τραπέζης. Καὶ ὁ μὲν Υἱὸς τοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.882,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

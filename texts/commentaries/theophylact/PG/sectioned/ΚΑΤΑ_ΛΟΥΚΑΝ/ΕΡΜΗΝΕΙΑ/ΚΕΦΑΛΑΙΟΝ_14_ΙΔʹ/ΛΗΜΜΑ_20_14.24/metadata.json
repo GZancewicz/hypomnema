@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_14.24",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 20,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 24
+      }
+    ],
+    "display": "Luke 14:24"
+  },
+  "lemma_quote": "οὐδεὶς τῶν ἀνδρῶν ἐκείνων τῶν κεκλημένων γεύσεταί μου τοῦ δείπνου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.855,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

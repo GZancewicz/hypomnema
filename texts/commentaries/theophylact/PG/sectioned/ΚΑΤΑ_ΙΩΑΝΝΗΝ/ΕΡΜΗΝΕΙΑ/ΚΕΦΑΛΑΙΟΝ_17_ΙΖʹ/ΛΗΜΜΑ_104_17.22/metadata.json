@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_104_17.22",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 104,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 22
+      }
+    ],
+    "display": "John 17:22"
+  },
+  "lemma_quote": "Κἀγώ τὴν δόξαν, ἣν δέδωκάς μοι, δέδωκα αὐτοῖς, ἵνα ὤσιν ἔν, καθὼς ἡμεῖς ἕν ἐσμεν. Ἐγὼ ἐν αὐτοις, καὶ σὺ ἐν ἐμοί, ἵνα ὧσι τετελειωμένοι εἰς ἂν, καὶ ἵνα γινώσκῃ ὁ κόσμος, ὅτι σύ με ἀπέστελας., Ποίαν δόξαν δεδωκέναι λέγει; Τὴν διὰ τῶν σημείων, τὴν διὰ τῶν δογμάτων καὶ διδασκαλιῶν· καὶ ἄλλην δὲ δόξαν, τὴν τῆς ὁμονοίας,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.637,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

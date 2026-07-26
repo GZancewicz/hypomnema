@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_11.3",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 3
+      }
+    ],
+    "display": "Mark 11:3"
+  },
+  "lemma_quote": "ποιεῖτε τοῦτο; εἴπατε ὅτι ὁ Κύριος αὐτοῦ χρείαν ἔχει, καὶ ὺθέως αὐτὸν ἀποστελεῖ ὧδε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.798,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

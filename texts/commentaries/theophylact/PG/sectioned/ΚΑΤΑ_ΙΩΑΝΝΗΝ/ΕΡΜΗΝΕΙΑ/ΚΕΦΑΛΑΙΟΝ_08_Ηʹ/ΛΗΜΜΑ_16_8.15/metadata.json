@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_8.15",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 16,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 15
+      }
+    ],
+    "display": "John 8:15"
+  },
+  "lemma_quote": "Κατὰ σάρκα κρίνετε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.76,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

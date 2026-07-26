@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_2.4",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 4
+      }
+    ],
+    "display": "Mark 2:4"
+  },
+  "lemma_quote": "δυνάμενοι προσεγγίσαι αὐτῷ διὰ τὸν ὄχλον, ἀπεστέγασαν τὴν στέγην ὅπου ἦν, καὶ ἐξορύξαντες, χαλῶσι τὸν κράββατον ἐφ´ ᾦ ὁ παραλυτικὸς κατέκειτο. Ἰδὼν δὲ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.942,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

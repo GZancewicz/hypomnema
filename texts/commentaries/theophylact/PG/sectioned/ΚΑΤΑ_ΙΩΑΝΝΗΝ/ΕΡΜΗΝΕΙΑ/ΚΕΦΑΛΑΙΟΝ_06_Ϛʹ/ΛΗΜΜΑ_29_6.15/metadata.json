@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_6.15",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 14
+      }
+    ],
+    "display": "John 6:14"
+  },
+  "lemma_quote": "« Οὐκ ἔτι αὐτῷ περὶ τῆς τοῦ Σαββάτου παραβάσεως ἐγκαλοῦσιν, οὐκ ἔτι τὸν νόμον ἐκδικοῦσιν· ἀλλὰ τοσοῦτον διὰ τοὺς ἄρτους αὐτὸν τιμῶσιν, ὥστε οὐ μόνον προφήτην ἀν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.203,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_8.20",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 19
+      }
+    ],
+    "display": "John 8:19"
+  },
+  "lemma_quote": "« ἐμοῦ τοῦ ἀληθινοῦ Υίοῦ, οὐδὲν ὀὠφελεῖσθε. Οὐδὲ οἴδατε αὐτὸν καθὼς δεῖ γνῶναι, ἐπεὶ ἐγινώσκετε ἂν καὶ ἐτιμᾶτε κἀμέ· νῦν δὲ ἐπεὶ ἐμὲ οὐκ οἴδατε, οὐδὲ τιμᾶτε, οὐ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.227,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

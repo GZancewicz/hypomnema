@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_6.4",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 2
+      }
+    ],
+    "display": "John 6:2"
+  },
+  "lemma_quote": "Ἐξεπλήσσοντο γὰρ, φηοὶν, ἐπὶ τῇ διδαχῇ αὐτοῦ, ὅτι ἐδίδασκεν αὐτοὺς ὡς ἐξουσίαν ἔχων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.2,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

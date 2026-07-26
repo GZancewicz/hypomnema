@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_5.8",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 7,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 8
+      }
+    ],
+    "display": "John 5:8"
+  },
+  "lemma_quote": "«Λέγει αὐτῷ ὁ Ἰησοῦς· Ἔγειραι, ἆρον τὸν κράββατόν σου, καὶ περιπάτει. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.821,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

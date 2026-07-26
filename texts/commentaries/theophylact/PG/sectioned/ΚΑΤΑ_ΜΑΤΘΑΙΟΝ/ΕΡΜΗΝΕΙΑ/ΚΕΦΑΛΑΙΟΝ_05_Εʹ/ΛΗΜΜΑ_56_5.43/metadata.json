@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_56_5.43",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 56,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 43
+      }
+    ],
+    "display": "Matthew 5:43"
+  },
+  "lemma_quote": "Ἡκούσατε ὅτι ἐῤῥέθη· Ἀγαπήσεις τὸν πλησίον σου, καὶ μισήσεις τὸν ἐχθρόν σου· ἐγὼ δὲ λέγω ὑμῖν· Ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.814,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.43",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

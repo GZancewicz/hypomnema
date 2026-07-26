@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_6.14",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 6:14"
+  },
+  "lemma_quote": "Σίμωνα, ὃν καὶ ὡνόμασε Πέτρον, καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ, Ἰάκωβον, καὶ Ἰωάννην, φλιππον. καὶ Βαρθολομαῖον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.939,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

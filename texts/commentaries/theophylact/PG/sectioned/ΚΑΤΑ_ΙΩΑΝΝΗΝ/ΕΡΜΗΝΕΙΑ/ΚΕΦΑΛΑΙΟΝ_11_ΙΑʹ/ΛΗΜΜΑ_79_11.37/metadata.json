@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_79_11.37",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 79,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 34
+      }
+    ],
+    "display": "John 11:34"
+  },
+  "lemma_quote": "Ποῦ τεθείκατε;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.831,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

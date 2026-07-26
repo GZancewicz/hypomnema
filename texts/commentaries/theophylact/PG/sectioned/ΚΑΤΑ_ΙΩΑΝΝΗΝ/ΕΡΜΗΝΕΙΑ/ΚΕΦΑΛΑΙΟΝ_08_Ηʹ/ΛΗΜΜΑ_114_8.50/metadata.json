@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_8.50",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 51
+      }
+    ],
+    "display": "John 8:51"
+  },
+  "lemma_quote": "«Ἀμὴν, ἀμὴν λέγω ὑμῖν, ἐάν τις τὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.683,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_9.5",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 24,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 4
+      }
+    ],
+    "display": "John 9:4"
+  },
+  "lemma_quote": "ξως ἡμέρα ἐστί·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.929,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

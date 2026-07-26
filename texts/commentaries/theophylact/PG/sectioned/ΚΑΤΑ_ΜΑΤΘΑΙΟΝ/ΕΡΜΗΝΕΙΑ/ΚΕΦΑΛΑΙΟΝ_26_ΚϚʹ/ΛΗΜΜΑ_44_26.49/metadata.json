@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_26.49",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 50
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 50
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 50
+      }
+    ],
+    "display": "Matthew 26:50"
+  },
+  "lemma_quote": "εὐθέως προσελθὼν τῷ Ἰησοῦ, εἶπε· Χαῖρε, Ῥαββί· καὶ κατεφίλησεν αὐτόν. Ὁ δὲ Ἰησεῦς εἶπεν αὐτῷ· Ἐταῖρε, ἐφ´ ᾧ πάρει; Τότε προσελθόντες, ἐπέβαλον τὰς χεῖρας ἐπὶ τὸν Ἰησουν, καὶ ἐκράτησαν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.775,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 19,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 46
+      }
+    ],
+    "display": "Mark 10:46"
+  },
+  "lemma_quote": "«Καὶ ἔρχονται εἰς Ἰεριχὼ, καὶ ἐκπορευομένου αὐτοῦ ἀπὸ Ἰεριχῶ, καὶ τῶν μαθητῶν αὐτοῦ καὶ ὄχλου ἱκανοῦ, υἰὸς Τιμαίου Βαρτίμαιος ὁ τυφλὸς ἐκάθητο παρὰ τὴν ὁδὸν προ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.971,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

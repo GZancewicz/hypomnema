@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_3.8",
+  "gospel": "mark",
+  "chapter": 3,
+  "index": 8,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 3,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 8
+      }
+    ],
+    "display": "Mark 3:8"
+  },
+  "lemma_quote": "Ἰεροσολύμων, καὶ ἀπὸ τῆς Ἰδουμαίας, καὶ πέραν τοῦ Ἰορδάνου, καὶ οἱ περὶ Τύρον καὶ Σιδῶνα, πλῆθος πολὺ, ἀκούσαντες ταῖς αὐτοῦ ἵνα πλοιάριον προσκαρτερῇ αὐτῷ διὰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.684,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

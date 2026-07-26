@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 46
+      }
+    ],
+    "display": "Matthew 13:46"
+  },
+  "lemma_quote": "εὑρών ἔνα πολύτιμον μαργαρίτην, ἀπελθὼν πέπρακε πάντα ὅσα εἶχε, καὶ ἠγόρασεν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

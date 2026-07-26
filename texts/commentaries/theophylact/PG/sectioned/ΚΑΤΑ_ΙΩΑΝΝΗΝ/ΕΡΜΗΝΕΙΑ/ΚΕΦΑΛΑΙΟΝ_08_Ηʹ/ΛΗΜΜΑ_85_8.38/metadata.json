@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_8.38",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 38
+      }
+    ],
+    "display": "John 8:38"
+  },
+  "lemma_quote": "Ὃ ἑώρακα λαλῶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.379,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

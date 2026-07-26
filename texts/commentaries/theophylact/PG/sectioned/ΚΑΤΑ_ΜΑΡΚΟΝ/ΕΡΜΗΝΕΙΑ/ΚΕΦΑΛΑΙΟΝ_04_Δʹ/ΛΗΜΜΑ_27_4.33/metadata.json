@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_4.33",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 27,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 34
+      }
+    ],
+    "display": "Mark 4:34"
+  },
+  "lemma_quote": "τοιαύταις παραβολαῖς πολλαῖς ἐλάλει αὐτοῖς τὸν λόγον, καθὼς ὴδύναντο ἀκούειν. Χωρὶς δὲ παραβολῆς οὐκ ἀλάλει αὐτοῖς· κατ´ ἰδίαν δὲ τοῖς μαθηταῖς αὐτοῦ ἐπέλυε πάντα. Σμικρὸς μὲν ὁ λόγος τῆς πίστεως. Πίστευσον γὰρ εἰς Χριστὸν, καὶ σωθήσῃ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.716,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

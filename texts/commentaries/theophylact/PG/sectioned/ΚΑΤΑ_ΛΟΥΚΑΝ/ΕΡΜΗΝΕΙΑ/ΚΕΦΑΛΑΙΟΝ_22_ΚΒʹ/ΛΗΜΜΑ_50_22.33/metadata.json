@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_22.33",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 50,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 22:32"
+  },
+  "lemma_quote": "Τὰ γὰρ βρώματα τῷ διαβόλῳ, φησὶν ὁ προφήτης, ἐκλεκτά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.249,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

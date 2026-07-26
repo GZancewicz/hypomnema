@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_8.26",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 48,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 25
+      }
+    ],
+    "display": "John 8:25"
+  },
+  "lemma_quote": "Σὺ τίς εἶ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.349,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

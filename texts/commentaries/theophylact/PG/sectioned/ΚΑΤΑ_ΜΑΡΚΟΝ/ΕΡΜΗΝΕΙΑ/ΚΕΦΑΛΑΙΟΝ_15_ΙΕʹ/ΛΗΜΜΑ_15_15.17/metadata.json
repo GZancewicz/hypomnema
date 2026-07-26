@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_15.17",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 15,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 15:17"
+  },
+  "lemma_quote": "ἐνδύουσιν αὐτὸν πορφύραν, ὡς βασλέα παίζοντες· καὶ τὸν στέφανον ἀντὶ διαδήματος, καὶ τὸν κάλαμον δὲ ἀντὶ σκήπτρου παραλαμβάνουσιν ἐνταῦθα οἱ τοῦ διαβόλου χορευτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.542,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

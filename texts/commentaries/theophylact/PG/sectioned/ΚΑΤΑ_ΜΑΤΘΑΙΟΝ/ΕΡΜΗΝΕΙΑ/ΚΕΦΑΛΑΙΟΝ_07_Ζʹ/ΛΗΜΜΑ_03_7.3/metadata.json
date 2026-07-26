@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_7.3",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 7:3"
+  },
+  "lemma_quote": "βλέπεις τὸ κάρφος τὸ ἐν τῷ ὀφθαλμῷ τοῦ ἀδελφοῦ σου, τὴν δὲ ἐν τῷ σῷ ὀφθαλμῷ δοκὸν οὐ κατανοεῖς; ἢ πῶς ἐρεῖς τῷ ἀδελφῷ σου, Ἄφες ἐκβόάλω τὸ κάρφος ἀπὸ τοῦ ὀφθαλμ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.81,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_17.20",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 17:37"
+  },
+  "lemma_quote": "ἀποκριθέντες λέγουσιν αὐτῷ· Ποῦ, Κύριε; Ὁ δὲ εἶπεν αὐτοῖς· Ὅπου τὸ πτῶμα, ἐκεῖ καὶ οἱ ἀετοῖ συναχθήσονται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.881,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

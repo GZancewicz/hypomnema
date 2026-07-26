@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_5.8",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 5:8"
+  },
+  "lemma_quote": "Σίμων Πέτρος, προσἐπεσε τοῖς γόνασι τοῦ Ἰησοῦ, λέγων· Ἔξελθε ἀφ ἐμοῦ, ὅτι ἀνὴρ ἀμαρτωλός εἰμι, Κύριε· θάμβος γὰρ κεριέσχεν αὐτὸν καὶ πάντας τοὺς σὺν αὐτῷ, ἐπὶ τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.779,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

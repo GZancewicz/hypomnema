@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_6.4",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 6:4"
+  },
+  "lemma_quote": "Ὅπως ᾖ σου ἡ ἐλεημοσύνη ἐν τῷ κρυπτῷ, καὶ ὁ Πατήρ σου ὁ βλεπων ἐν τῷ κρυπτῳ, αὐτὸς ἀπο δώσει σοι ἐν τῷ φανερῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.876,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

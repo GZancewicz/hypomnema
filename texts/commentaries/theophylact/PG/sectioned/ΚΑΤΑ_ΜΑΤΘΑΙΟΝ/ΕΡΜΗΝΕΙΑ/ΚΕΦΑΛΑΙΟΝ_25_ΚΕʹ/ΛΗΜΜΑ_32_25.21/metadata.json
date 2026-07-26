@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 32,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 25:37"
+  },
+  "lemma_quote": "ἀποκριθήσονται αὐτῷ οἱ δίκαιοι, λέγοντες · Κύριε, πότε σε εἴδομεν πεινωντα, καὶ ὲθρέψαμεν; ἢ διψῶντα, καὶ ἐποτίσαμεν; Πότε δί σε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.959,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

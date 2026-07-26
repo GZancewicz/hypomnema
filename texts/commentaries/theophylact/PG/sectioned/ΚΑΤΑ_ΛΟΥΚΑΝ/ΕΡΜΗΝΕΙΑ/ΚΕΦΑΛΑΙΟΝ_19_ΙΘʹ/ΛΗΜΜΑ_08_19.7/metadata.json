@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_19.7",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 8,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 19:44"
+  },
+  "lemma_quote": "Ἐπὶ τίνα γὰρ ἐπιβλέψω, ἢ ἐπὶ τὸν πρᾷον καὶ ἡσύχιον καὶ τρέμοντα τοὺς ἐμοὺς λόγους;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.256,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

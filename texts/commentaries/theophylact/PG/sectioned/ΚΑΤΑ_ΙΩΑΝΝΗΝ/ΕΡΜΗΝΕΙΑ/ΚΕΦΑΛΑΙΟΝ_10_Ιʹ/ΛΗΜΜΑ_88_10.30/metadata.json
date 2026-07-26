@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_10.30",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 28
+      }
+    ],
+    "display": "John 10:28"
+  },
+  "lemma_quote": "Οὐ μὴ ἀπόλωνται,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

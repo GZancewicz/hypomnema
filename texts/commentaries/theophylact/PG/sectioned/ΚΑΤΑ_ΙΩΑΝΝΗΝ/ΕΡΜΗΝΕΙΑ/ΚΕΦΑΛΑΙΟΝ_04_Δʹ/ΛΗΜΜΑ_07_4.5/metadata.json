@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_4.5",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 7,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 5
+      }
+    ],
+    "display": "John 4:5"
+  },
+  "lemma_quote": "«Ἡ κεφαλὴ Σομόρων Ἐφραίμ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

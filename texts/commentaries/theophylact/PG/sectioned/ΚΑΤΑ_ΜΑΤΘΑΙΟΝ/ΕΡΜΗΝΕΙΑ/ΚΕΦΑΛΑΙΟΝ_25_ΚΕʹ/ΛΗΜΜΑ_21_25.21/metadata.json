@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 25:26"
+  },
+  "lemma_quote": "Κύριος αὐτοῦ, εἰπεν αὐτῷ· Πονηρὲ δοῦλε καὶ ὀκνηρὲ, ᾔδεις ὅτι θερίζω ὅπου οὐκ ἔσπειρα, καὶ συνάγω ὅθεν οὐ διεσκόρπισα· Κᾶει οὗν σε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.951,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

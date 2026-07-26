@@ -4,10 +4,14 @@
 The atomic primitive of the theophylact-lemma-verses skill. NO LLM: pure stdlib
 NLP. For each lemma in a chapter it matches the lemma's opening «…» Greek quote
 against the verses of that same chapter in the Patriarchal (Byzantine) NT, using
-TF-IDF cosine over normalized Greek tokens. Ranges are found by also matching the
-quote's TAIL. A quote that matches nothing in its own chapter (a cross-reference or
-a bare-exposition continuation) inherits the preceding lemma's verse by sequence —
-never a foreign verse.
+TF-IDF cosine over normalized Greek tokens. When the token match is weak, an
+OCR-tolerant character-level fallback runs: common OCR confusion pairs are folded
+(δ/θ, γ/τ, π/τ, κ/χ, β/κ) and the quote is scored by containment of its >=3-char
+blocks in each verse (difflib); a verse is accepted only above FUZZY_ACCEPT with a
+clear FUZZY_MARGIN over the runner-up. A quote that still matches nothing in its
+own chapter (a cross-reference or a bare-exposition continuation) inherits the
+preceding lemma's verse by sequence — never a foreign verse. Use --review to list
+the inherited rows with their top fuzzy candidates for manual adjudication.
 
 Usage:
     python3 match_verses.py --gospel matthew --chapter 1
@@ -19,7 +23,7 @@ and a flag for every weak/cross-ref/continuation case to review.
 
 Greek is the arbiter; the .en.md English is never read (its verse refs are unreliable).
 """
-import argparse, json, math, re, sys, unicodedata, pathlib
+import argparse, difflib, json, math, re, sys, unicodedata, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]  # repo root from .claude/skills/<skill>/
 GOSPEL_DIR = {"matthew": "ΚΑΤΑ_ΜΑΤΘΑΙΟΝ", "mark": "ΚΑΤΑ_ΜΑΡΚΟΝ",
@@ -27,6 +31,19 @@ GOSPEL_DIR = {"matthew": "ΚΑΤΑ_ΜΑΤΘΑΙΟΝ", "mark": "ΚΑΤΑ_ΜΑΡΚ
 SECTIONED = ROOT / "texts/commentaries/theophylact/PG/sectioned"
 PATRIARCHAL = ROOT / "texts/scripture/new_testament/greek/patriarchal"
 WEAK = 0.34  # cosine below this => treat as no in-chapter match (cross-ref/continuation)
+
+# Fuzzy fallback (character-level, OCR-tolerant) for rows the token matcher
+# can't resolve. A quote is accepted only if its folded characters are contained
+# in one verse far better than in any other; otherwise it stays a
+# continuation/cross-ref and inherits by sequence.
+FUZZY_ACCEPT = 0.72   # min containment of quote chars in the verse
+FUZZY_MARGIN = 0.08   # best must beat runner-up by this much
+FUZZY_HIGH = 0.85     # containment at/above this => high confidence
+FUZZY_MIN_LEN = 8     # folded quote shorter than this is too ambiguous
+
+# OCR confusion pairs observed in the PG scans (δ/θ, γ/τ, π/τ, κ/χ, β/χ …),
+# folded to one representative on BOTH sides before char comparison.
+OCR_FOLD = str.maketrans({"δ": "θ", "γ": "τ", "π": "τ", "χ": "κ", "β": "κ"})
 
 
 def norm(s):
@@ -41,13 +58,37 @@ def tokens(s):
     return [w for w in norm(s).split() if len(w) >= 3]
 
 
+def fold(s):
+    return norm(s).translate(OCR_FOLD)
+
+
+def containment(quote_f, verse_f):
+    """Fraction of the folded quote's characters found, in order, in the verse.
+    Only contiguous blocks of >=3 chars count — 1–2 char blocks are scatter
+    noise that inflates scores against long verses."""
+    if not quote_f or not verse_f:
+        return 0.0
+    sm = difflib.SequenceMatcher(None, quote_f, verse_f, autojunk=False)
+    return sum(b.size for b in sm.get_matching_blocks() if b.size >= 3) / len(quote_f)
+
+
+def fuzzy_best(quote, verses_raw):
+    """Top char-level candidates: [(score, verse), ...] best-first."""
+    qf = fold(quote)
+    if len(qf) < FUZZY_MIN_LEN:
+        return []
+    scored = sorted(((containment(qf, fold(t)), v) for v, t in verses_raw.items()),
+                    reverse=True)
+    return scored
+
+
 def load_chapter(gospel, chapter):
     f = PATRIARCHAL / gospel / f"{gospel}.txt"
     verses = {}
     for line in f.read_text(encoding="utf-8").splitlines():
         m = re.match(r"^(\d+):(\d+)\s+(.*)$", line)
         if m and int(m.group(1)) == chapter:
-            verses[int(m.group(2))] = tokens(m.group(3))
+            verses[int(m.group(2))] = m.group(3)
     if not verses:
         sys.exit(f"no {gospel} chapter {chapter} in Patriarchal text")
     return verses
@@ -103,7 +144,8 @@ def match_chapter(gospel, chapter, overrides=None):
     """overrides: {folder_name: [start, end]} adjudicated verses, applied BEFORE
     sequence-inheritance so downstream continuations inherit the corrected verse."""
     overrides = overrides or {}
-    verses = load_chapter(gospel, chapter)
+    verses_raw = load_chapter(gospel, chapter)
+    verses = {v: tokens(t) for v, t in verses_raw.items()}
     idf, N = build_idf(verses)
     verse_vecs = {v: tfidf(t, idf) for v, t in verses.items()}
     vnums = sorted(verses)
@@ -116,10 +158,19 @@ def match_chapter(gospel, chapter, overrides=None):
         qtok = tokens(quote)
 
         if f.name in overrides:                     # adjudicated: trust it, set prev
-            start, end = overrides[f.name]
+            ov = overrides[f.name]
+            if isinstance(ov, dict):                # cross-chapter coverage, e.g.
+                start, end = ov["start"], ov["end"]  # {"chapter":7,"start":52,"end":52}
+                cov_ch = ov.get("chapter", chapter)
+                if cov_ch == chapter:
+                    prev = end                      # foreign-chapter verse never inherits
+            else:
+                start, end = ov
+                cov_ch = chapter
+                prev = end
             sc, conf, crossref = 1.0, "adjudicated", None
-            prev = end
-            rows.append(_row(idx, f.name, suffix, start, end, sc, conf, crossref, chapter, quote))
+            rows.append(_row(idx, f.name, suffix, start, end, sc, conf, crossref,
+                             cov_ch, quote, "override"))
             continue
 
         sc, v = best_verse(qtok, verse_vecs, idf)
@@ -129,22 +180,36 @@ def match_chapter(gospel, chapter, overrides=None):
         # multi-verse spans are supplied via the overrides file instead.
         end = v
 
-        crossref = None
+        crossref, method, cands = None, "tfidf", None
         if v is None or sc < WEAK:
-            # no in-chapter match -> cross-ref/continuation: inherit by sequence
-            crossref = "weak/none in-chapter"
-            start = end = prev
-            conf = "low"
+            # token match failed -> try OCR-tolerant char-level containment
+            fz = fuzzy_best(quote, verses_raw)
+            if fz and fz[0][0] >= FUZZY_ACCEPT and \
+                    (len(fz) < 2 or fz[0][0] - fz[1][0] >= FUZZY_MARGIN):
+                sc, v = fz[0]
+                start = end = v
+                prev = v
+                conf = "high" if sc >= FUZZY_HIGH else "medium"
+                method = "fuzzy"
+            else:
+                # still nothing -> cross-ref/continuation: inherit by sequence
+                crossref = "weak/none in-chapter"
+                start = end = prev
+                conf = "low"
+                method = "inherited"
+                cands = [(round(s, 3), v) for s, v in fz[:3]] if fz else []
         else:
             start = v
             prev = end if end else v
             conf = "high" if sc >= 0.55 else "medium"
 
-        rows.append(_row(idx, f.name, suffix, start, end, sc, conf, crossref, chapter, quote))
+        rows.append(_row(idx, f.name, suffix, start, end, sc, conf, crossref,
+                         chapter, quote, method, cands))
     return rows
 
 
-def _row(idx, folder, suffix, start, end, sc, conf, crossref, chapter, quote):
+def _row(idx, folder, suffix, start, end, sc, conf, crossref, chapter, quote,
+         method, cands=None):
     end = end if end else start
     sc_c, sc_v = suffix.split(".")
     agrees = None
@@ -153,8 +218,9 @@ def _row(idx, folder, suffix, start, end, sc, conf, crossref, chapter, quote):
         agrees = int(sc_c) == chapter and lo <= int(sc_v) <= hi
     return {
         "index": idx, "folder": folder, "suffix": suffix,
-        "start": start, "end": end,
+        "chapter": chapter, "start": start, "end": end,
         "score": round(sc, 3), "conf": conf, "crossref": crossref,
+        "method": method, "candidates": cands,
         "folder_suffix_agrees": agrees,
         "quote_head": re.sub(r"\s+", " ", quote).strip()[:60],
     }
@@ -175,8 +241,8 @@ def load_overrides(path):
 def coverage_entries(g, chapter, rows):
     return [{
         "id": r["index"], "roman": "", "title": f"Lemma {r['index']}",
-        "start": {"book": g, "chapter": chapter, "verse": r["start"]},
-        "end": {"book": g, "chapter": chapter, "verse": r["end"]},
+        "start": {"book": g, "chapter": r.get("chapter", chapter), "verse": r["start"]},
+        "end": {"book": g, "chapter": r.get("chapter", chapter), "verse": r["end"]},
     } for r in rows if r["start"] is not None]
 
 
@@ -189,6 +255,8 @@ def main():
     ap.add_argument("--json", action="store_true", help="raw match rows as JSON")
     ap.add_argument("--coverage-json", action="store_true", help="app coverage.json")
     ap.add_argument("--flags", action="store_true", help="only rows needing review")
+    ap.add_argument("--review", action="store_true",
+                    help="unresolved rows with their top fuzzy candidates, for manual adjudication")
     args = ap.parse_args()
     g = args.gospel.lower()
     ovr = load_overrides(args.overrides)
@@ -208,6 +276,16 @@ def main():
                          ensure_ascii=False, indent=2)); return
     if args.json:
         print(json.dumps([r for _, r in all_rows], ensure_ascii=False, indent=2)); return
+
+    if args.review:
+        weak = [(c, r) for c, r in all_rows if r["crossref"] is not None]
+        print(f"{g}: {len(weak)} unresolved rows (inherit by sequence unless overridden)\n")
+        for c, r in weak:
+            inh = "NONE" if r["start"] is None else str(r["start"])
+            cands = ", ".join(f"v{v}({s})" for s, v in (r["candidates"] or [])) or "no candidates"
+            print(f"ch{c} {r['folder']:<18} inherits->{inh:<5} fuzzy: {cands}")
+            print(f"     «{r['quote_head']}»")
+        return
 
     def flagged(r):
         return r["crossref"] is not None or r["folder_suffix_agrees"] is False \

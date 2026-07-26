@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_71_20.23",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 71,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 21
+      }
+    ],
+    "display": "John 20:21"
+  },
+  "lemma_quote": "Καθὼς ἀπέσταλκέ με ὁ Πατὴρ, καγὼ πέμπω ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.846,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_21.24",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 25
+      }
+    ],
+    "display": "John 21:25"
+  },
+  "lemma_quote": "τὸν κόΚσμον χωρῆσαι τὰ γραφόμενα βιβλία.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.455,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

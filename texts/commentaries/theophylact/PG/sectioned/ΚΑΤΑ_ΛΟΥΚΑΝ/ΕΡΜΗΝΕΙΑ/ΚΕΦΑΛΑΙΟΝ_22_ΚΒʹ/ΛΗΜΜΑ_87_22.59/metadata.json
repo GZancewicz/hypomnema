@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_22.59",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 87,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 59
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 59
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 59
+      }
+    ],
+    "display": "Luke 22:59"
+  },
+  "lemma_quote": "διαστάσης ὡσεὶ ὥρας μιᾶς, ἄλλος τις διισχυρίζετο λέγων· Ἐπ´ ἀληθείας, καὶ οὗτος μετ´ αὐτοῦ ἦν· καὶ γὰρ Γαλιλαῖός ἐστιν. Εἶπε δὲ ὁ Πέτρος· Ἄνθρωπε, οὐκ οἶδα ὃ λέ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.894,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.59",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

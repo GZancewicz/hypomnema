@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_27.41",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 40,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 27:41"
+  },
+  "lemma_quote": "Ὁμοίως δὲ καὶ οἱ ἀρχιερεῖς ἐμπαίζοντες μετὰ τῶν γραμματέων καὶ πρεσβυτέρων καὶ Φαρισαίων ἔλεγον·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

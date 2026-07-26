@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_1.6",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 1:5"
+  },
+  "lemma_quote": "Τιένετο ἐν ταῖς ἡμέραις Ἐρώδου τοῦ βασιλέως τῆς Ἰοωδαίας, ἱερούς τις ὀνόματι Ζαχαρίας, ἐξ ἐφημερίας Ἀβιᾶ, καὶ ἡ γυνὴ αὐτοῦ ἐκ τῶν θυγατέρων Ἀαιόν· καὶ τὸ ὄνομα αὐτῆς Ἐλιοάζετ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.806,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

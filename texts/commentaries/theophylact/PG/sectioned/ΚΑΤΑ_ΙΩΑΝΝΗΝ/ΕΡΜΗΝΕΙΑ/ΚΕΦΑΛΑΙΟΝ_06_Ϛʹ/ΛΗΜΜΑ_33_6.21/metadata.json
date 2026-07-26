@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_6.21",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 21
+      }
+    ],
+    "display": "John 6:21"
+  },
+  "lemma_quote": "Ἥθελον οὖν λαβεῖν αὐτὸν εἰς τὸ πλοῖον, καὶ εὐθέως τὸ πλοῖον ἐγένετο ἐπὶ τῆς γῆς εἰς ἣν ὑπῆγον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

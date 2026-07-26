@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_16.8",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 16:8"
+  },
+  "lemma_quote": "Γνοὺς δὲ ὁ Ἰησοῦς, εἶπεν αὐτοῖς· Τί διαλογίζεσθε ἐν ἑαυτοῖς, ὀλιγόπιστοι, ὅτι ἄρτους οὐκ ἐλάβετε; Οὔπω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.925,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

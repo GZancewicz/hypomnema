@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_20.14",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 14
+      }
+    ],
+    "display": "John 20:14"
+  },
+  "lemma_quote": "ταῦτα εἰποῦσα, ἐστράφη εἰς τὰ ὀπίσω αὶ θεωριεῆ τὸν Ἰησοῦν ἑστῶτα, καὶ οὐκ ἤδει ὅτι παοῦς ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

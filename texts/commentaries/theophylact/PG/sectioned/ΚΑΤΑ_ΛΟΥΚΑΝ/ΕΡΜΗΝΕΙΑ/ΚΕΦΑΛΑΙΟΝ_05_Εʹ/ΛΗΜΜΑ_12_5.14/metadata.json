@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_5.14",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 5:14"
+  },
+  "lemma_quote": "αὐτὸς παρήγγειλεν αὐτῷ μηδενὶ εἰπεῖνἀλλὰ ἀπελθὼν, δεῖξον σεαυτὸν τῷ ἱερεῖ, καὶ προσένεγκε περὶ τοῦ καθαρισμοῦ σου καθὼς προσέταξε Μωσῆς, εἰς μαρτύριον αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

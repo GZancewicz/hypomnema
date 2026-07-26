@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_7.27",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 28
+      }
+    ],
+    "display": "John 7:28"
+  },
+  "lemma_quote": "«Θεὸν, φησὶν, ὁμολογοῦσιν εἰδέναι, τοῖς δὲ ἔργοις ἀρνοῦνται. Καὶ Ἀμεῖς οὖν οἱ Ἰουδαῖοι οὐκ οἴδατε τὸν Πατέρα μου διὰ τὰ ἔργα ὑμῶν τὰ πονηρὰ, καὶ τὴν κακίστην γν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.327,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

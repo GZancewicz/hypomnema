@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_5.19",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 5:19"
+  },
+  "lemma_quote": "Ὅς δ´ ἂν ποιήσῃ καὶ διδάξῃ, οὗτος μέγας κληθήσεται ἐν τῇ βασιλείᾳ τῶν οὐρανῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.771,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

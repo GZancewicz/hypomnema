@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_2.9",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 6,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 9
+      }
+    ],
+    "display": "Mark 2:9"
+  },
+  "lemma_quote": "ἐστιν εὐκοπώτερον, εἰπεῖν τῷ παραλυτικῷ, Ἀφέωνταί σοι αἱ ἀμαρτίαι, ἢ εἰπεῖν· Ἔγειραι, καὶ ἆρόν σου τὸν κράββατον, καὶ περιπάτει; Ἵνα δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.867,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_195_1.42",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 195,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 43
+      }
+    ],
+    "display": "John 1:43"
+  },
+  "lemma_quote": "ἤγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.46,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

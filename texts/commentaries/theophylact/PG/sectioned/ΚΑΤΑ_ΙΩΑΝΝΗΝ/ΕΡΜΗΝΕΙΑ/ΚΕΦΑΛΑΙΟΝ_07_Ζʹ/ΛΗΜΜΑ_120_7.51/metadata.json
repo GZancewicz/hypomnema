@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_120_7.51",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 120,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 51
+      }
+    ],
+    "display": "John 7:51"
+  },
+  "lemma_quote": "Μὴ ὁ νόμος ἡμῶν, φησί, κατακρίνει τὸν ἄνθρωπον, ἐὰν μὴ πρότερον ἀκούσῃ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.767,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

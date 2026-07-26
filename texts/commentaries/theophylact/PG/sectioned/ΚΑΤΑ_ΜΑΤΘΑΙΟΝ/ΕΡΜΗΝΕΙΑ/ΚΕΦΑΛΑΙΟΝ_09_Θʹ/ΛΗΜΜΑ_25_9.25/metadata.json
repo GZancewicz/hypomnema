@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_9.25",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 9:26"
+  },
+  "lemma_quote": "ἐξῆλθεν ἡ φήμη αὔτη εἰς ὅλην τὴν γῆν ἐκείνην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

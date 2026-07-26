@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 37,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 40
+      }
+    ],
+    "display": "Matthew 21:40"
+  },
+  "lemma_quote": "«Ὅταν οὖν ἔλθῃ ὁ Κύριος τοῦ ἀμπελῶνος, τί ποιήσει τοῖς γεωργοῖς ἐκείνοις;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 29,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 23:32"
+  },
+  "lemma_quote": "«Ἦγοντο δὲ καὶ ἕτεροι δύο κακοῦργοι σὺν αὐτῶ ἀναιρεθῆναι, Καὶ ὄτε ἐπῆλθον ἐπὶ τὸν τόπον τὸν λεγόμενον Κρανίον, ἐκεῖ ἐσταύρωσαν αὐτὸν, καὶ τοὺς κακούργους, ὃν μὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.646,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

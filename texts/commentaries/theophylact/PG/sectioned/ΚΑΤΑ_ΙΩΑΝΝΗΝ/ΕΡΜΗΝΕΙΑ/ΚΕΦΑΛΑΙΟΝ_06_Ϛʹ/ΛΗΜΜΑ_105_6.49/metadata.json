@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_6.49",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 60
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 60
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 60
+      }
+    ],
+    "display": "John 6:60"
+  },
+  "lemma_quote": "Σκληρός ἐστιν ὁ λόγος οὗτος· τί-δύναται αὐτοῦ ἀκούειν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.747,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

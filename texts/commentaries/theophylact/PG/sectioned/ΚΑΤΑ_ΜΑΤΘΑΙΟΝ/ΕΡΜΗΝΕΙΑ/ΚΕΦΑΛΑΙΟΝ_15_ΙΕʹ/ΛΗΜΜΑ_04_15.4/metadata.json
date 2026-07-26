@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_15.4",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 15:4"
+  },
+  "lemma_quote": "ἐνετείλατο, λέγων· Τίμα τὸν πατέρα σου καὶ τὴν μητέρα· καὶ ὁ κακολογῶν πατέρα ἢ μητέρα, θανάτῳ τελευτάτω.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.915,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

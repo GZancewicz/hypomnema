@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_2.7",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 2:8"
+  },
+  "lemma_quote": "«Ἐπάν ἀὲ εθρητε, ἀπαγγείλατ μοι, ὅπως κἀγὼ ἐλθῶν προσκυνήσω αὐτῷ. Οἱ δὲ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.594,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

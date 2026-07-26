@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_1.15",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 99,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 15
+      }
+    ],
+    "display": "John 1:15"
+  },
+  "lemma_quote": "Ὃν εἶπον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.224,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

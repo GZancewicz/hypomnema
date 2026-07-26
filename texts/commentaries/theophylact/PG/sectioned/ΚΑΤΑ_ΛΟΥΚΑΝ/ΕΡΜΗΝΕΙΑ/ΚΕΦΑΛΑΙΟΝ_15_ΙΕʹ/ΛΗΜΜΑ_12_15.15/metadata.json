@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_15.15",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 15:12"
+  },
+  "lemma_quote": "Πάτερ, δός μοι τὸ ἐπιβάλλον μέρος τῆς οὐσίας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.729,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_14.16",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 54,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 16
+      }
+    ],
+    "display": "John 14:16"
+  },
+  "lemma_quote": "ἐρωτήσω τὸν Πατέρα, καὶ ἄλλον Παράκλητον δώσει ὑμῖν, ἵνα μένῃ μεθ´ ὑμῶν εἰς τὸν αἱ λνα, τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.932,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

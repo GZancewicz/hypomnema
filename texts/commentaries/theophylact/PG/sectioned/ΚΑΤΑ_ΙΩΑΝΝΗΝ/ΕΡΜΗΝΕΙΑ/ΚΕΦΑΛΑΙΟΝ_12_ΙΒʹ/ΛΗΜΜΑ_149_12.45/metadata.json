@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_149_12.45",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 149,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 44
+      }
+    ],
+    "display": "John 12:44"
+  },
+  "lemma_quote": "Ὁ πιστεύων εἰς ἐμέ οὐ πιστεύει εἰς ἐμὲ, ἀλλ´ εἰς τὸν πέμψαντά με·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.878,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.45",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

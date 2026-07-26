@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_18.16",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 17
+      }
+    ],
+    "display": "John 18:17"
+  },
+  "lemma_quote": "«Δέγει οὖν ἡ παιδίσκη ἡ θυρωρὸς τῷ Πέτρῳ· Μὴ καὶ σὺ ἐκ τῶν μαθητῶν εἶ τοῦ ἀνθρώπου τοῦτοιυ· Ἀένει ἐκεῖνος· Οὐκ εἰμί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.823,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_7.44",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 44
+      }
+    ],
+    "display": "John 7:44"
+  },
+  "lemma_quote": "«Τινές δὲ ἤθελον ἐξ αὐτῶν πιάσαι αὐτὸν, ἀλλ´ ρὐδεὶς ἐπέβαλεν ἐπ´ αὐτὸν τὰς χεῖρας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.973,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.44",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

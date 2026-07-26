@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 10:14"
+  },
+  "lemma_quote": "Καὶιπροσέφερον αὐτῷ παιδία, ἵνα ἅψηται αὐτῶν· σὶ δὲ μαθηταὶ ἐπετίμων τοῖς προσφέρουσιν. Ἰδὼν Ἀὲ ὁ Ἰπσοῦς, ἡγανάκτησε καὶ εἶπεν αὐτοῖς· Ἄφετε τὰ παιδία ἔρχεσθαι πρὸς μὲ, καὶ μὴ κωλύετε αὐτά· τῶν γὰρ τοιούτων ἐστὶν ἡ βασιλεία τοῦ Θεοῦ. Ἀμὴν λέγω ὑμῖν, Ὃς ἐὰν μὴ δέξηται τὴν βασιλείαν τοῦ Θεοῦ ὡς παιδίον, οὐ μὴ εἰσέλθῃ εἰς αὐτήν. Καὶ ἀναγκαλισάμενος αὐτὰ, καὶ τιθεὶς τὰς χεῖρας ἐπ´ αὐτὰ,, αὐλόγησεν αὐτά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.689,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

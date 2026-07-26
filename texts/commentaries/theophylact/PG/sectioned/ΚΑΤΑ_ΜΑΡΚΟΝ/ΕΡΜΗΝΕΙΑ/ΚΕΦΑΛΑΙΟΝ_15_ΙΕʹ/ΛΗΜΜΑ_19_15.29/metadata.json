@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_15.29",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 19,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 29
+      }
+    ],
+    "display": "Mark 15:29"
+  },
+  "lemma_quote": "«Καὶ οἱ παραπορευόμενοι ἐβλασφήμουν αὐτὸν, κινοῦντες τὰς καφαλὰς αὐτῶν καὶ λέγοντες· Οὐᾶ, ὁ καταλύων τὸν ναὸν, καὶ ἐν τρισὶν ἡμέραις οἰκοδομῶν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.96,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

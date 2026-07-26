@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_94_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 94,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 53
+      }
+    ],
+    "display": "John 6:53"
+  },
+  "lemma_quote": "Εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· Ἀμήν, ἀμὴν λέγω ὑμῖν, ἐὰν μὴ φάγητε τὴν σάρκα τοῦ Υἱοῦ τοῦ ἀνθρώπου, καὶ πίητε μὐτοῦ τὸ αἴμα, οὐκ ἔχετε ζωὴν κν ἐαυτοῖς. Ὁ τρώγων μου τὴν σάρκα, καὶ πίνων μου τὸ αἷμα, ἔχει ζωὴν αἰώνιον· καὶ ἐγὸ ἀναστήσω αὐτὸν τῇ ἐσχάτῃ ἡμέρᾳ. Ἡ γὰρ σάρξ μου ἀληθῶς ἐστι βρῶσις, καὶ τὸ αἱμά μου ἀληθῶς ἐστι πόσις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.67,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

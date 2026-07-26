@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_4.3",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 4:6"
+  },
+  "lemma_quote": "Καὶ λέγει αὐτῷ· Εἰ Υἱὸς εἶ τοῦ Θεοῦ, βάλλει αιαυτὸν κάτω. Γέγραπται γὰρ, ὅτι τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ, καὶ ἐπὶ χειρῶν ἀροῦσί σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.946,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

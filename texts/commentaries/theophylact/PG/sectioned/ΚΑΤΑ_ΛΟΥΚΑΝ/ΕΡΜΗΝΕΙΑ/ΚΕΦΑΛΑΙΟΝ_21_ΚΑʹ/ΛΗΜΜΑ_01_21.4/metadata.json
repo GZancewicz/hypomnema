@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_21.4",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 3
+      }
+    ],
+    "display": "Luke 21:3"
+  },
+  "lemma_quote": "εἶπεν· Ἀληθῶς λέγω ὑμῖν, ὅτι ἡ χήρα ἡ πτωχὴ αὕτη πλεῖον πάντων ἔβαλεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

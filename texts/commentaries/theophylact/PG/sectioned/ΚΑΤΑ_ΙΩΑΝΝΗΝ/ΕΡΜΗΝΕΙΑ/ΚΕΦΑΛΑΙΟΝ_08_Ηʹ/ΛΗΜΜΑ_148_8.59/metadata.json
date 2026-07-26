@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_148_8.59",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 148,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 58
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 58
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 58
+      }
+    ],
+    "display": "John 8:58"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ἃ ὥν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.319,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.59",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

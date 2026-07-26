@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_6.8",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 12,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 11
+      }
+    ],
+    "display": "John 6:11"
+  },
+  "lemma_quote": "«Ἵνα μάθωμεν, ὅτι οὖκ ἐρέμβετο τοὺς ὁφθαλμοὺς τῇδε κἀκεῖσε· ἀλλ´ ἐπὶ συννοίας καθήμενος καὶ προσογῆς καὶ ἀκριβείας, οἷα δὴ τοῖς μαθηταῖς περί τινων θειοτέρων δι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.245,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

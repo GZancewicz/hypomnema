@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_12.20",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 12:20"
+  },
+  "lemma_quote": "Κάλαμον συντετριμμένον οὐ κατεάξει, καὶ λῖνον τυφόμενον οὐ σβέσει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.765,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

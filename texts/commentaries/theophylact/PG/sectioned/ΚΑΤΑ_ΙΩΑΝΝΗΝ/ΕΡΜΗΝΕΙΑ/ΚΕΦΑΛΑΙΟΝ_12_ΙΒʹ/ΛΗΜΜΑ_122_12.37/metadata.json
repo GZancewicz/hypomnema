@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_122_12.37",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 122,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 37
+      }
+    ],
+    "display": "John 12:37"
+  },
+  "lemma_quote": "Τοσαῦτα δὲ αὐτοῦ πεποιηκότος τὰ σημεῖα ἔμπροσθεν αὐτῶν, οὐκ ἐπίστευον εἰς αὐτόν· ἵνα ὁ λόγος Ἡσατου τοῦ προφήτου πληρωθῇ, ὃν εἶπε· Κύριε, τίς ἐπίστευσε τῇ ἀκοῇ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.682,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

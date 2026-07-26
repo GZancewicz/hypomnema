@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_10.10",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 30,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 10
+      }
+    ],
+    "display": "John 10:10"
+  },
+  "lemma_quote": "«Ἐγὼ δὲ, φησίν, ἦλθον, ἵνα ζωὴν ἔχωσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.581,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

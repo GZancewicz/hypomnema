@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_5.17",
+  "gospel": "mark",
+  "chapter": 5,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 5:17"
+  },
+  "lemma_quote": "ἤρξαντο παρακαλεῖν αὐτὸν ἀπελθεῖν ἀπὸ τῶν ὁρίων αὐτῶν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

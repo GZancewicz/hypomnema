@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_24.12",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 24:12"
+  },
+  "lemma_quote": "« Προλέγει τὰ συμβησόμενα κακὰ, παραθαῤῥύνων διὰ τοῦ προλέγειν τοὺς μαθητάς. Τὸ γὰρ ἀπροσδόκητον εἴωθεν ἐκφοβεῖν καὶ ταράττειν. Προομαλίζει οὐν τὸν φόβον διὰ το",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.2,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "24.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

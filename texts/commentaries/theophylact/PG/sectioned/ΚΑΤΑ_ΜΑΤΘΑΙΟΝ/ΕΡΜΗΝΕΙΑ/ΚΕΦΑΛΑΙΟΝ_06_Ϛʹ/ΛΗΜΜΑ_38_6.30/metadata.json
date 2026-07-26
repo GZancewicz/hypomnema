@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_6.30",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 38,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 30
+      }
+    ],
+    "display": "Matthew 6:30"
+  },
+  "lemma_quote": "Εἰ δὲ τὸν χόρτον τοῦ ἀγροῦ σήμερον ὄντα καὶ αὕριον εἰς κλίβανον βαλλόμενον ὁ Θεὸς οὕτως ἀμφιννυσιν, οὐ πολλῷ μᾶλλον ὑμᾶς, ὁλιγόπιστοι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.959,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_109_7.46",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 109,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 45
+      }
+    ],
+    "display": "John 7:45"
+  },
+  "lemma_quote": "Διὰ τί οὐκ ἡγάγετεαὐτόν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.957,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_26.35",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 26:35"
+  },
+  "lemma_quote": "«Λέγει αὐτῷ ὁ Πέτρος· Κἂν δέῃ με σὺν σοὶ ἀποθανεῖν, οὐ μή σε ἀπαρνήσωμαι. Ὁμοίως δὲ καὶ πάντες οἱ μαθηταὶ εἴπον. Τότε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.927,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

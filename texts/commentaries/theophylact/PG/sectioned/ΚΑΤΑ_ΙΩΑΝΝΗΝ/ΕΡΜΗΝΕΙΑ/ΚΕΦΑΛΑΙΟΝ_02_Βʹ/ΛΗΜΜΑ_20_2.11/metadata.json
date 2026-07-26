@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_2.11",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 20,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 2
+      }
+    ],
+    "display": "John 2:2"
+  },
+  "lemma_quote": "Οἱ μαθηταὶ αὐτοῦ ἀπίστευσαν εἰς αὐτὸν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.399,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

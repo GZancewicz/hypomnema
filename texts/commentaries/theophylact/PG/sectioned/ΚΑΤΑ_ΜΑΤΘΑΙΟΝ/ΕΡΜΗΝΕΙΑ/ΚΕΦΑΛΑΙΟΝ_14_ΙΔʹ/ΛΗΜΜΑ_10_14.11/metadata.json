@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_14.11",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 14:11"
+  },
+  "lemma_quote": "ἠνέχθη ἡ κεφαλὴ αὐτοῦ ἐπὶ πίνακι, καὶ ἐδόθη τῷ κορασίῳ, καὶ ἤνεγκε τῇ μητρὶ αὐτῆς. Καὶ προσελβόντες οἱ μαθησαὶ αὐτοῦ, ἦραν τὸ σῶμα καὶ θαψαν αλτό.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

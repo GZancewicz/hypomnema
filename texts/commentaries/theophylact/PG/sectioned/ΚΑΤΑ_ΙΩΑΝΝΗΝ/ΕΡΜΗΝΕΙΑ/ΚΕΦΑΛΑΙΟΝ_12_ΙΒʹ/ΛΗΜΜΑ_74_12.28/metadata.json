@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_12.28",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 27
+      }
+    ],
+    "display": "John 12:27"
+  },
+  "lemma_quote": "Διὰ γὰρ τοῦτο, φησὶν, ἦλθον εἰς τὴν ὥραν ταύτην,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.504,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

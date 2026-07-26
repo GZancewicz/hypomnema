@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_28.12",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 28:12"
+  },
+  "lemma_quote": "συναχθέντες μετὰ τῶν πρεσβυτέρων, συμβούλιόν τε λαβόντες, ἀργύρια ἱκανὰ ἔδωκαν τοῖς στρατιώταις,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.947,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "28.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

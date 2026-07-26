@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_22.12",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 13
+      }
+    ],
+    "display": "Luke 22:13"
+  },
+  "lemma_quote": "« Ὅτι μὲν φασὲκ Ἑβραῖκῶς τὸ πάσχα λεγόμενον, τὴν ἐε Αἰγύπτου διάβασιν δηλοῖ, πολλοῖς εἴρηται· καὶ κπλῶς πάντα τὰ ἐν τῇ ἑορτῇ τότε τελούμενα, τοῖς ἀγίοις ἡρμήνευ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.304,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_22.16",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 22:16"
+  },
+  "lemma_quote": "ἀποστέλλουσιν αὐτῷ τοὺς μαθητὰς αὐτῶν μετὰ τῶν Ἡρωδιανῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.503,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

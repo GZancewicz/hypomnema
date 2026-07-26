@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_11.42",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 87,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 33
+      }
+    ],
+    "display": "John 11:33"
+  },
+  "lemma_quote": "ἐνεβριμᾶτο τῳ πάθει;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.789,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

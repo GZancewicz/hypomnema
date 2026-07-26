@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_20.18",
+  "gospel": "matthew",
+  "chapter": 20,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 20:21"
+  },
+  "lemma_quote": "ἀναβαίνομεν εἰς Ἰεροσάλυμα, καὶ ὁ Υἱὸς τοῦ ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσι καὶ Γραμματεῦσι, καὶ κατακρινοῦσιν αὐτὸν θανάτῳ, καὶ παραδώσουσιν αὐτὸν τοῖς Κθντσιν εἰς τὸ ἐμπαῖξαι, καὶ μαστιγῶσαι, καὶ σταυρῶσαι, καὶ τῇ τρίτῃ ἡμέρᾳ ἀναστήσεται. Τότε προσἦλθεν αὐτῷ ἡ μήτηρ τῶν υἱῶν Χχεβεδαίου μετὰ τῶν υἱῶν αὐτῆς, προσκυνοῦσα καὶ αἰτοῦσά τι παρ´ αὐτοῦ. Ὁ δὲ εἶπεν αὐτῇ· Τί θέλεις; Ἀέγει αὐτῷ· Εἰπὲ ἵνα καθίσωσιν οὗτοι οἱ δύο υἱοί μου, εἰς ἐκ δεξιῶν σου καὶ εἶς ἐξ εὐωνύμων σου ἐν τῇ βασιλείᾳ σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.597,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

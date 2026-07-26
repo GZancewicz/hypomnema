@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_14.35",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 14:35"
+  },
+  "lemma_quote": "Κύριος φωτισμές μου καὶ Σωτήρ μου, τίνα φοβηθήσομαι; Ἐὰν παρατάξηται ἐπ´ ἐμὲ παρεμβολὴ, οὐ φοβηθήσεται ἡ καρδία Κμου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.268,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "14.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

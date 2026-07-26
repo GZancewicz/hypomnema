@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_12.13",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 12
+      }
+    ],
+    "display": "John 12:12"
+  },
+  "lemma_quote": "Ἀκούσαντες γὰρ, φησὶν, οἱ ὄνλοι ὕτι ἔρχεται ὁ Ἰησοῦς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.408,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

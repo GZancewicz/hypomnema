@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_21.36",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 21:36"
+  },
+  "lemma_quote": "Οἱ γὰρ ἄγγελοι αὐτοῦ, θησί, διὰ παντὸς βλέπουσι τὸ πρόσωπον τοῦ Πατρός μου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.302,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

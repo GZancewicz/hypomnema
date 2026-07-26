@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 15:21"
+  },
+  "lemma_quote": "Ἐκλινα τὴν καρδίαν μου τοῦ ποιῆσαι αὰ δικαιώματά σου εἰς τὸν αἰῶνα δι´ ἀντάμειψιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.279,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_80_18.34",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 80,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 36
+      }
+    ],
+    "display": "John 18:36"
+  },
+  "lemma_quote": "Εἰς τὰ ἴδια ἦλθεν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.225,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

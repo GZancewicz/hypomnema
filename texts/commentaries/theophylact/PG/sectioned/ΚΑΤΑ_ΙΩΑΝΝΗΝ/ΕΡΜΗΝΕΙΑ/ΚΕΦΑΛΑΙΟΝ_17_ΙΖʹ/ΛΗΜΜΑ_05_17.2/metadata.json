@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_17.2",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 18
+      }
+    ],
+    "display": "John 17:18"
+  },
+  "lemma_quote": "Εἰς ὁδὸν ἐθνῶν μὴ ἀπέλθητε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.369,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_14.4",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 14:5"
+  },
+  "lemma_quote": "ἡσύχασαν. Καὶ ἐπιλαβόμενος ἰάσατο αὐτὸν, καὶ ἀπέλυσε. Καὶ ἀποκριθεὶς πρὸς αὐτοὺς εἶπε· Τίνος ὑμῶν ὄνος ἡ βοῦς εἰς φρέαρ ἐμπεσεῖται καὶ οὐκ εὐθέως ἀνασπάσει αὐτὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.673,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_19.19",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 52,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 22
+      }
+    ],
+    "display": "John 19:22"
+  },
+  "lemma_quote": "Ὁ γέγραφα, γέγραφα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.906,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

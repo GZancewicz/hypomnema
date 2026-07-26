@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 14
+      }
+    ],
+    "display": "John 10:14"
+  },
+  "lemma_quote": "Καὶ γινώσκω τὰ ἐμὰ, καὶ γινώσκομαι ὑπὸ τῶν Ἀμῶν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.769,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_2.21",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 22
+      }
+    ],
+    "display": "John 2:22"
+  },
+  "lemma_quote": "Ἐκεῖνος δὲ ἔλεγε περὶ τοῦ ναοῦ τοῦ σώματος αὐτοῦ. Ὅτε οὖν ἡγέρθη ἐκ νεκρῶν, ἐμνήν σθησαν οἱ μαθηταὶ αὐτοῦ, ὅτι τοῦτο ἔλεγεν αὐτοῖς, καὶ ἐπίστευσαν τῇ Γραφῇ, καὶ τῷνόγῳ ᾧ εἶπεν ὁ Ἰησοῦς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.71,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

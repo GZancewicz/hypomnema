@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_1.9",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 9
+      }
+    ],
+    "display": "Mark 1:9"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις, ἦλθεν ὁ Ἱησοῦς ἀπὸ Ναζαρέτ τῆς Γαλιλαίας, καὶ ἐβαπτίσθη ψπὸ Ἰωάννου εἰς τὸν Ἰορδάνην· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.964,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

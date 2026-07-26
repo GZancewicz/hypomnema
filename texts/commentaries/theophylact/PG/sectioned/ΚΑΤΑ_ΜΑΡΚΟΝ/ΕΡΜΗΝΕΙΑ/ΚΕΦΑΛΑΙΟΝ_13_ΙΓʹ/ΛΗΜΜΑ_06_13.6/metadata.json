@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_13.6",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 6,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 6
+      }
+    ],
+    "display": "Mark 13:6"
+  },
+  "lemma_quote": "πολλοὶ γὰρ ἐλεύσονται ἐπὶ τῷ ὁνόματί μου,λέγοντες ὅτι, Ἐγώ εἰμι Χριστὸς, καὶ πολλοὺς πλανήσουσιν· ὅταν δὲ ἀκοῖσητε πωλέιλοιλκαὶ ἀκοὰς πολέμων, μὴ θροεῖσθε· δεῖ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.813,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

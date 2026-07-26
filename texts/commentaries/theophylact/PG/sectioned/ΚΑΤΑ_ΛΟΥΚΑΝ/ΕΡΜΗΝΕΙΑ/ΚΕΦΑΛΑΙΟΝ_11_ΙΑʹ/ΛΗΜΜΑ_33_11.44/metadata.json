@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_11.44",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 11:44"
+  },
+  "lemma_quote": "Γραμματεῖς καὶ Φαρισαῖοι ὑποκριταὶ, ὅτι ἐστὲ ὡς τὰ μνήμεῖα τὰ ἄδηλα, καὶ οἱ ἄνθρωποι περιπατοῦντες ἐπάνω οὐκ οδασιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.919,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.44",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

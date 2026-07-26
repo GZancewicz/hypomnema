@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_18.32",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 60,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 28
+      }
+    ],
+    "display": "John 18:28"
+  },
+  "lemma_quote": "Ἡν δὲ πρωΐα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.909,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

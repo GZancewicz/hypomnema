@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_15.29",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 29
+      }
+    ],
+    "display": "Matthew 15:29"
+  },
+  "lemma_quote": "«Καὶ μεταβὰς ἐκεῖθεν ὁ Ἰησοῦς, ἦλθε παρὰ τὴν θάλασσαν τῆς Γαλιλαίας, καὶ ἀναβὰς εἰς τὸ ὄρος, κκάθητο ἐκεῖ· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.949,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

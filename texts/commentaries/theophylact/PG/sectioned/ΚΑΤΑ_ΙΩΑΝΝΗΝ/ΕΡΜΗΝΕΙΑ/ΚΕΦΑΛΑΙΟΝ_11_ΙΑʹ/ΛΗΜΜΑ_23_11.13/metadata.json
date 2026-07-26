@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_11.13",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 13
+      }
+    ],
+    "display": "John 11:13"
+  },
+  "lemma_quote": "Εἰρήκει δὲ ὁ Ἰησοῦς περὶ τοῦ θανάτου αὐτοῦ ἐκεῖνοι δὲ ἔδοξαν ἄτι περὶ τῆς κοιμήσεως τοῦ ὕπνου λέγει. Τέτε οὖν εἶπεκ αὐτοῖς ὁ Ἰησοῦς παῤῥησίᾳ· Λάζαρος ἀπέθανε, κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.891,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

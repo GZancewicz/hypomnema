@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_9.10",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 9:10"
+  },
+  "lemma_quote": "ὑποστρέώαντες οἱ ἀπόστολοι, διηγήσαντο αὐτῷ ὅσα ἐποίησαν. Καὶ παραλαβὼν αὐτοὺς, ὑπεχώρησε κατ´ ἰδίαν εἰς τόπον ἔρημον πόλεως καλουμένης Βηθσαῖῆά. Οἱ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.922,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

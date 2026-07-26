@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_15.7",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 6,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 7
+      }
+    ],
+    "display": "Mark 15:7"
+  },
+  "lemma_quote": "λεγόμενος Βαραββᾶς μετὰ τῶν συστασιαστῶν δεδεμένος, οἵτινες Ἀν τῇ στάσει φόνον πεποιήκεισαν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

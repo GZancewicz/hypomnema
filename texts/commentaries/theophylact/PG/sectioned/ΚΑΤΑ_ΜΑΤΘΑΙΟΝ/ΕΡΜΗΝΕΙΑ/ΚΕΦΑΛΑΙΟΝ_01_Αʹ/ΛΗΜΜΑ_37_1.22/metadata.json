@@ -1,0 +1,37 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_1.22",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 37,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 1:22"
+  },
+  "lemma_quote": "Διὰ τοῦτο δώ σει Κύριος αὐτὸς ὑμῖν σημεῖον·",
+  "cross_references": [
+    "Isaiah 7:14"
+  ],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.325,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.22",
+  "folder_suffix_agrees": true,
+  "notes": "Opening quote is Isa 7:14a («Διὰ τοῦτο δώσει Κύριος αὐτὸς ὑμῖν σημεῖον»), the prophecy introduced by Matt 1:22; coverage inherited from ΛΗΜΜΑ_36 (1:22)."
+}

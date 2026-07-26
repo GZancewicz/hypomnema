@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_10.8",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 12
+      }
+    ],
+    "display": "John 10:12"
+  },
+  "lemma_quote": "Ὁκλέπτης οὐκ ἔρχεται, εἰ μὴ ἵνα κλέψῃ, καὶ θύσῃ, καὶ ἀπολέσῃ. Ἐγὼ ἧλθον, ἵνα ζωὴν ἔχωσι, καὶ τερισοὸν ἔχωσιν. Ἐχώ εἰμι ὁ ποιμὴν ὁ καλός. Ὁ ποιρὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ τῶν προθάτων· ὁ μισθωτὸς δὲ, καὶ οὐκ ὢν ποιμὴν, οὗ οικ εἰσὶ τὰ πρόβατα ἴδια, θεωρεῖ τὸν λύκον ἐρχόμεον, καὶ ἀφίησι τὰ πρόβατα, καὶ φεύγει, καὶ ὁ λύκος ἀρπαζει αὐτὰ, καὶ σκορπίζει τὰ πρόβατα. Ὁ δὲ μισθωτὸς φεύγει, ὅτι μισθωτός ἐστι, καὶ οὐ μέλει αὐτῷ περὶ τῶν προβάτων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.658,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

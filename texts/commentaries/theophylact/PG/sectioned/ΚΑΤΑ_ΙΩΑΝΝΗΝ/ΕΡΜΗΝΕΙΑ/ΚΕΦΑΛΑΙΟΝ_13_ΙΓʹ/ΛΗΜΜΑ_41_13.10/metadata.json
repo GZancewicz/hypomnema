@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_13.10",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 9
+      }
+    ],
+    "display": "John 13:9"
+  },
+  "lemma_quote": "Κύριε, μὴ τοὺς πόδας μόνον, ἀλλὰ καὶ τὰς χεῖρας καὶ τὴν κεφαλήν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.887,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

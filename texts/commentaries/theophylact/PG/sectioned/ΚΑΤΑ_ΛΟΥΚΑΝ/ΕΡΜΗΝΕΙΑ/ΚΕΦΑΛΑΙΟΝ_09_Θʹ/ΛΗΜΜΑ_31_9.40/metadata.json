@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_9.40",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 40
+      }
+    ],
+    "display": "Luke 9:40"
+  },
+  "lemma_quote": "ἐδεήθην τῶν μαθητῶν σου, ἵνα ἐκβάλλωσιν αὐτὸ, καὶ οὐκ ἡδυνήθησαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.914,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

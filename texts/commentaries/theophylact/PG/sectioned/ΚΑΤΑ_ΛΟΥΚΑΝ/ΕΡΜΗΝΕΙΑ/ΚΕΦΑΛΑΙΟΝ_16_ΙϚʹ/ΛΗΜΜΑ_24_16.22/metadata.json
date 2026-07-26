@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_16.22",
+  "gospel": "luke",
+  "chapter": 16,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 16:22"
+  },
+  "lemma_quote": "Ἐγένετο δὲ ἀποθανεῖν τὸν πτωχὸν, καὶ ἀπενεχθῆναι αὐτὸν ὑπὸ τῶν ἀγγέλων εἰς τὸν κἄλπον τοῦ Ἀβραάμ. Ἀπέθανε δ καὶ ὁ πλούσιος, καὶ ἑτάφη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.947,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

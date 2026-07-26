@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 64,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 49
+      }
+    ],
+    "display": "Luke 23:49"
+  },
+  "lemma_quote": "Καταβάτω ἀπὸ τοῦ σταυροῦ, καὶ πιστεύσομεν αὐτῶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.372,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

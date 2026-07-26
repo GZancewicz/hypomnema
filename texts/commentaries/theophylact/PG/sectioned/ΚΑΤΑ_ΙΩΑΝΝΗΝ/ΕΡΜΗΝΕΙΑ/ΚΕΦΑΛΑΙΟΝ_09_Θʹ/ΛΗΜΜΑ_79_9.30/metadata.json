@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_79_9.30",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 79,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 33
+      }
+    ],
+    "display": "John 9:33"
+  },
+  "lemma_quote": "Εἰ μὴ γὰρ ἦν οὗτος ἀπὸ Θεοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.741,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

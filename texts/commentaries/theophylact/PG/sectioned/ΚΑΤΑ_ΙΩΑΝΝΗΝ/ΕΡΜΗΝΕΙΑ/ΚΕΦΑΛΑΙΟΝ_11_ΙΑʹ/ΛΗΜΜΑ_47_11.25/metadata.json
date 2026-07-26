@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_11.25",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 26
+      }
+    ],
+    "display": "John 11:26"
+  },
+  "lemma_quote": "Εἶπεν οὖν αὐτῇ ὁ Ἰησοῦς· Ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή· ὁ πιστεύων εἰς ἐμέ, κἂν ἀποθάνῃ, ζήσεται· καὶ πᾶς ὁ ζῶν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.674,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

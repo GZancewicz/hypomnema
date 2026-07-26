@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_110_4.50",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 110,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 48
+      }
+    ],
+    "display": "John 4:48"
+  },
+  "lemma_quote": "Ἐὰν μὴ σημεῖα καὶ τέρατα ἴδητε, οὐ μὴ πιστεύσητε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.918,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

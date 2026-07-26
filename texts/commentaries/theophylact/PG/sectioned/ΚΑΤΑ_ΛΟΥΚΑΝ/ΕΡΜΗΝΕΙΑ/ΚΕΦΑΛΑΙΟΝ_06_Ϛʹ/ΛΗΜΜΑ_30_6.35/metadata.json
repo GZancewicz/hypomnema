@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_6.35",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 6:35"
+  },
+  "lemma_quote": "ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν, καὶ ἀγαθοποιεῖτε, καὶ δανείζετε, μηδὲν ἀπελπίζοντες, καὶ Κσται ὁ μισθὸς ὑμῶν πολύς· καὶ ἔσεσθε υἱοὶ τοῦ Ὑψίστου, ὅτι αὐτὸς χρηστός ἑσ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.862,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

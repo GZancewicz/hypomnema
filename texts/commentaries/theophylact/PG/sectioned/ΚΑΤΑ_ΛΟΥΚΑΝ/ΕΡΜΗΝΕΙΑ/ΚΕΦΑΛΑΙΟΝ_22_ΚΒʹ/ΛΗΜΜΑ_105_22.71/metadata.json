@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_22.71",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 105,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 70
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 70
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 70
+      }
+    ],
+    "display": "Luke 22:70"
+  },
+  "lemma_quote": "Ὑμεῖς τοῦτο λέγετε, ὅτι ἐγώ εἰμι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.595,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

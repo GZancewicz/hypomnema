@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 14
+      }
+    ],
+    "display": "John 10:14"
+  },
+  "lemma_quote": "«Οὑτω γὰρ, φησὶν, ἐπίσταμαι αὐτὸν ἀκριβῶς, ὡς αὐτὸς ἐμέ. Συνεχῶς δὲ τίθησι τὸ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.288,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

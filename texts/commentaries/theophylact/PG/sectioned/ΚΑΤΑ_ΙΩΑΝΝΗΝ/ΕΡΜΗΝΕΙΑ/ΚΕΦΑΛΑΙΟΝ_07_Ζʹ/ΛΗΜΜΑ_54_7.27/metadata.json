@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_7.27",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 54,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 28
+      }
+    ],
+    "display": "John 7:28"
+  },
+  "lemma_quote": "Ἔκραζεν οὖν ἐν τῷ ἱερῷ διδάσκων ὁ Ἰησοῦς, καὶ λέγων· Κἀμὲ οἴδατε, καὶ οἴδατε πόθεν εἰμί· καὶ ἀπ´ ἐμαυτοῦ οὐκ ἐλήλυθα, ἀλλ´ ἔστιν ἀληθινὸς ὁ πέμψας με, ὃν ὑμεῖς οὐκ οἴδατε. Ἐγὼ δὲ οἶδα αὐτὸν, ὅτι παρ´ αὐτοῦ εἰμι, κἀκεῖνός με ἀπέστειλεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.882,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

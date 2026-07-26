@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_12.34",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 12:33"
+  },
+  "lemma_quote": "«ς διαφθείρει, ἐν οὐρανοῖς δὲ οὐ τοῦτο. Οὐκ ἄρα οὗν ἀνόητον τὸ θησαυρίζειν ἐν τόπῳ, ἐν ᾧ διαφθορά; Εἶτα ἐπειδὴ τὸν χρυσὸν οὐ διαφθείρει σὴς. εἰπε καὶ τὸ, Ὅπου κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.387,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

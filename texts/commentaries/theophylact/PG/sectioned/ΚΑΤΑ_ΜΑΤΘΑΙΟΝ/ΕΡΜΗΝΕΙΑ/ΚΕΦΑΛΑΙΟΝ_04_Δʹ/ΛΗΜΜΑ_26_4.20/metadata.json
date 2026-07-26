@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_4.20",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 4:20"
+  },
+  "lemma_quote": "εὐθέως ἀφέντες τὰ δίκτυα, ἠκολούθησαν αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

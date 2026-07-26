@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_6.37",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 37
+      }
+    ],
+    "display": "John 6:37"
+  },
+  "lemma_quote": "Ἐγ δὲ τὸν ἐρχόμενον πρὸς μὲ, οὐ μὴ ἐκβάλω ἔξω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.67,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

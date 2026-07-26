@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_10.8",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 19,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 8
+      }
+    ],
+    "display": "John 10:8"
+  },
+  "lemma_quote": "Οὐκ ἤκουσαν γὰρ, φησὶν, αὐτῶν τὰ πρόοοικοορχΟΟ Κοτα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.32,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_19.37",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 35
+      }
+    ],
+    "display": "John 19:35"
+  },
+  "lemma_quote": "καὶ ἀληθής ἐστιν ἡ μαρτυρία.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.435,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

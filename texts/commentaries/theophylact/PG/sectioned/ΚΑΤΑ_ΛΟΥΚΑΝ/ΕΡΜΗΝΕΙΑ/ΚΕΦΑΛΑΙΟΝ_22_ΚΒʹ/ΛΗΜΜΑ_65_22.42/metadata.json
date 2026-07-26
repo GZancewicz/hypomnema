@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_22.42",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 65,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 22:42"
+  },
+  "lemma_quote": "λέγων· Πάτερ, εἰ βούλει παρενεγκεῖν τὸ ποτήριον τοῦτο ἀπ´ ἐμοῦ· πλὴν μὴ τὸ θέλημά μου, ἀλλὰ τὸ σὸν γενέσθω. Ὥφθη δὲ αὐτῶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.896,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_191_1.41",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 191,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 42
+      }
+    ],
+    "display": "John 1:42"
+  },
+  "lemma_quote": "Εὐρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα, καὶ λέγει αὐτῷ· Εὐρήκαμεν τὸν Μεσσίαν, ὅ ἐστι μεθερμηνευόμενον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

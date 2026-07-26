@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_21.7",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 21:8"
+  },
+  "lemma_quote": "«Ὁ δ πλεῖστος ὄνλος ἔστρωσαν αὐτῶν τὰ ἱμάτια ἐν τῇ ὁδῷ· ἄλλοι δὲ ἔκοπτον κλάδους ἀπὸ τῶν δένδρων, καὶ ἐστρώννυον ἐν τῇ ὁδῷ· οἱ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.905,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

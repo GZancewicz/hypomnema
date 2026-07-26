@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_2.42",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 35,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 2:42"
+  },
+  "lemma_quote": "ἐγένετο Ἀσῶν δώδεκα, ἀναβάντων αὐτῶν εἰς Ἰεροσόλυμα κατὰ τὸ ἔθος τῆς ἑορτῆς, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.906,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_18.17",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 18:17"
+  },
+  "lemma_quote": "δέξηται τὴν βασιλείαν τοῦ Θεοῦ ὡς παιδίον, οὐ μὴ εἰσέλθῃ εἰς αὐτήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.816,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

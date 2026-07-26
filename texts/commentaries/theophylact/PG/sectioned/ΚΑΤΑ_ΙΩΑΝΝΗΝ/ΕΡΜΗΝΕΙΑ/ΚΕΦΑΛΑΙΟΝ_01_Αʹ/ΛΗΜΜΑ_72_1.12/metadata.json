@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_1.12",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 13
+      }
+    ],
+    "display": "John 1:13"
+  },
+  "lemma_quote": "Οὐδὲ ἐκ θελήματος σαρκὸς, οὐδὲ ἐκ θελήματος ἀνδρός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.868,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

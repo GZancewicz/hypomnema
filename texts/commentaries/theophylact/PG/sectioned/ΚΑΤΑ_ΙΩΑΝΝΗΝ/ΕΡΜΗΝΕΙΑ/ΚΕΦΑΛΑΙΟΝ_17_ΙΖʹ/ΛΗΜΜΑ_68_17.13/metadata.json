@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_17.13",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 68,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 12
+      }
+    ],
+    "display": "John 17:12"
+  },
+  "lemma_quote": "Ἵνα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.237,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

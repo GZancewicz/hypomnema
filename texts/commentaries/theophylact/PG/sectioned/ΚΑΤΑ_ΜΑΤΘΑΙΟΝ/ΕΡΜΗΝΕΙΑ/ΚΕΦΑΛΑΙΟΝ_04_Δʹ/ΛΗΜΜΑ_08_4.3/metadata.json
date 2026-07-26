@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_4.3",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 4:4"
+  },
+  "lemma_quote": "Ὃ δὲ ἀποκριθεὶς, εἶπε· Γέγραπται, Οὐκ ἐπ´ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ´ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

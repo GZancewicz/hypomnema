@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_8.32",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 68,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 24
+      }
+    ],
+    "display": "John 8:24"
+  },
+  "lemma_quote": "Ἐν ταῖς ἁμαρτίαις ὑμῶν ἀποθανεῖσθε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.878,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

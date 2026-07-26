@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_3.26",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 44,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 26
+      }
+    ],
+    "display": "John 3:26"
+  },
+  "lemma_quote": "βαπτίζει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

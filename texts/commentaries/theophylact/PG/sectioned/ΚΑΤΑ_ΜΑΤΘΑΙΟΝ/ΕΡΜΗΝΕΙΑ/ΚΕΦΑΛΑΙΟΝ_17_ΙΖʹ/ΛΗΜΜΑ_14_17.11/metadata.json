@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_17.11",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 14,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 17:11"
+  },
+  "lemma_quote": "«Ὁ δὲ Ἰησοῦς ἀποκριθεῖς εἶπεν αὐτοῖ· Ἐλίας μὲν ἔρχεται πρῶτον, καὶ ἀποκαταστήσει πάντα. Λέγω δὲ ὑμῖν ὅτι Ἠλίας ἥδη ἦλθε, καὶ οὐκ ἐπέγνω σαν αὐτὸν, ἀλλ´ ἐποίησαν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.676,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

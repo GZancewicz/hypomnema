@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_83_11.39",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 83,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 39
+      }
+    ],
+    "display": "John 11:39"
+  },
+  "lemma_quote": "Λέγει ὁ Ἰησοῦς· Ἄρατε τὸν λίὃοι. Αέγει αὐτῷ ἡ ἀδελφὴ τοῦ τεθνηκότος Μάρθα· Κύριε, ἤδη ὄζει· τεταρταῖος γάρ ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.948,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

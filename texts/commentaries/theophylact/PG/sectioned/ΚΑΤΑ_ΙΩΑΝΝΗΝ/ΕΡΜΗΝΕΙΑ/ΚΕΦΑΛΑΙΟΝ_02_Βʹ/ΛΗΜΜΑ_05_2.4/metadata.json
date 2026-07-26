@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_2.4",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 4
+      }
+    ],
+    "display": "John 2:4"
+  },
+  "lemma_quote": "Οὔπω ἤκει ἡ ὡρα μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.675,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

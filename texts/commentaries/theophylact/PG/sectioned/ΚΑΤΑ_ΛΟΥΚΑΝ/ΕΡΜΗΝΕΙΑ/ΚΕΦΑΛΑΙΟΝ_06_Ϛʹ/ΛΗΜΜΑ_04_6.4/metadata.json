@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_6.4",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 4
+      }
+    ],
+    "display": "Luke 6:4"
+  },
+  "lemma_quote": "εἰσῆλθεν εἰς τὸν οἶκον τοῦ Θεοῦ, καὶ τοὺς ἄρτους τῆς προθέσεως λαβὼν ἔφαγε, καὶ ἔδωκε τοῖς μετ´ αὐτοῦ, οὓς οὐκ ἔξεστι φαγεῖν, εἰ μὴ μόνους τοὺς ἱερεῖς; Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.966,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

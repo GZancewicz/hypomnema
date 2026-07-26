@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_7.17",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 10,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 7:17"
+  },
+  "lemma_quote": "εἰσῆλθεν εἰς οἷκον ἀπὸ τοῦ ὄχλου, ἐπηρώτων αὐτὸν οἱ μαθηταὶ αὐτοῦ περὶ τῆς παραῦολῆς. Καὶ λέγει αὐτοῖο· Οὕτω καὶ ὑμεῖς ἀσύνετοί ἐστε; Οὐ νοεῖτε ἕτι πᾶν τὸ ἔξωθε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.608,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

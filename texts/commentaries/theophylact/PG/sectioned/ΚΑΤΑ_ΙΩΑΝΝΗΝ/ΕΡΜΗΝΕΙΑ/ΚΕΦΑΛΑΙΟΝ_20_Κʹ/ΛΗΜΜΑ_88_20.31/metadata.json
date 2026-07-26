@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_20.31",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 31
+      }
+    ],
+    "display": "John 20:31"
+  },
+  "lemma_quote": "Ταῦτα δὲ γέγραπται, ἵνα πιστεύσητε, ὅτι Ἰησοῦς ἐστιν ὁ Χριστὸς ὁ Υἱὸς τοῦ Θεοῦ, καὶ ἵνα πιστεύοντες, ζωὴν ἔχητε ἐν τῷ ὁνάΚματι αὐτου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

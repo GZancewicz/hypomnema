@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_5.35",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 35
+      }
+    ],
+    "display": "John 5:35"
+  },
+  "lemma_quote": "Ἐκεῖνος ἦν ὁ λύχνος ὁ καιόμενος, καὶ φαίνων, ὑμεῖς δὲ ἡθελήσατε ἀγαλλιασθῆναι πρὸς ὥραν ἐν τῷ φωτὶ αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

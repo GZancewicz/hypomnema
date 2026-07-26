@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_24.36",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 24:37"
+  },
+  "lemma_quote": "«Ὅσπερ δὲ αἱ ἡμέραι τοῦ Νώε, οὕτως ἔσται καὶ ψ παρουσια τοῦ Υἱοῦ τοῦ ἀνθρώπου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.942,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

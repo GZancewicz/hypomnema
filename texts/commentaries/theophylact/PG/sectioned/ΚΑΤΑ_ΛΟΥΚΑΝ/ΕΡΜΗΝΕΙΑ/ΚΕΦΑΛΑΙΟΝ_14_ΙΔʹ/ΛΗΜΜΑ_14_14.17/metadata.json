@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_14.17",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 14:12"
+  },
+  "lemma_quote": "Περίζωσαι τὴν ῥομφαίαν σου, ἐπὶ τὸν μηρόν σου, δυνατὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.371,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

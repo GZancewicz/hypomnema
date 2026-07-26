@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_14.3",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 3
+      }
+    ],
+    "display": "Mark 14:3"
+  },
+  "lemma_quote": "ὄντος αὐτοῦ ἐν Βηθανίᾳ ἐνʹοίκίᾳ Σίμωνος τοῆ λεπροῦ, κατακειμένου αὐτοῦ, ἧλθε γυνὴ ἔχουσα ἀλάβαστρον μύρου νάρδου πιστικῆς, πολυτελοῦς. Καὶ συντρίψασα τὸ ἀλάβαστ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

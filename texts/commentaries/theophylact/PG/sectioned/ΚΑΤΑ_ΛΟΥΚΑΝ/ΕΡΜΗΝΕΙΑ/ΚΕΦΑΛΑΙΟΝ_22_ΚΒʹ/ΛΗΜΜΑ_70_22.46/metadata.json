@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_70_22.46",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 70,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 22:42"
+  },
+  "lemma_quote": "Πλὴν μὴ τὸ ἐμὸν θέλημα γενέσθω, ἀλλὰ τὸ σὸν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.596,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

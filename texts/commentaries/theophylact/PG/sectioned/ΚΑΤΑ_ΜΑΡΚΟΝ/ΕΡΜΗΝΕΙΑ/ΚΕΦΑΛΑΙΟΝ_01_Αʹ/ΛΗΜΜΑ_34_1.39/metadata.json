@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_1.39",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 34,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 39
+      }
+    ],
+    "display": "Mark 1:39"
+  },
+  "lemma_quote": "κηρύσσων ἐν ταῖς συναγωγαῖς αὐτῶν εἰς ὅλην τὴν Γαλιλαίαν, καὶ τὰ δαιμόνια ἐκβάλλων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

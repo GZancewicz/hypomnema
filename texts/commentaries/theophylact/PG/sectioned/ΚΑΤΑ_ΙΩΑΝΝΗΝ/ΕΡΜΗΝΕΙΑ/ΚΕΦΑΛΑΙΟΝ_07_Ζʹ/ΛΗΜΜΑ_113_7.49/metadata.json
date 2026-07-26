@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_113_7.49",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 113,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 50
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 50
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 50
+      }
+    ],
+    "display": "John 7:50"
+  },
+  "lemma_quote": "ὄχλος οὗτος ὁ μὴ γινώσκων τὸν νόμον, ἐπικατάρατοί εἰσιν. Αέγει Νικόδημος πρὸς αὐτοὺς, ὁ ἐλθὼν νυκτὸς πρὸς. αὐτὸν, εἶς ὢν ἐξ αὐτῶν· Μὴ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.743,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

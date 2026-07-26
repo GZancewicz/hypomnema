@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_10.1",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 10:1"
+  },
+  "lemma_quote": "«Μετὰ δὲ ταῦτα ἀνέδειξεν ὁ Κύριος καὶ ἑτέρους ἑβδομήκοντα, καὶ ἀπέστειλεν αὐτοὺς ἀνὰ δύο πρὸς προσώπου αὐτοῦ εἰς πᾶσαν πόλιν καὶ τόπον, οὗ ἔμελλεν αὐτὸς ἔρχεσθα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.883,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_22.37",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 59,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 22:38"
+  },
+  "lemma_quote": "Λύσατε τὸν ναὸν τοῦτον·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.219,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

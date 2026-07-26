@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_23.3",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 2,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 23:5"
+  },
+  "lemma_quote": "Πιλάτος ἐπηρώτησεν αὐτὸν λέγων· Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουἂαίων; Ὁ δὲ ἀποκριθεὶς αὐτῷ ἔφη· Σὺ λέγεις. Ὁ δὲ Πιλάτος εἶπε πρὸς τοὺς ἀρχιερεῖς καὶ τοὺς ὄχλους· Ρὺδὲν εὐοίσκ ω αἴτιον ἐν τῷ ἀνθρώπῳ τούτῳ. Οἱ δὲ ἐπίσυον λίγοντες, ὅτι Ἀνασείει τὸν λαὸν διδάσκων καθ´ ὅλης τῆς Ἰουδαίας ἀρξάμενος ἀπὸ τῆς Γαλιλαίας ἕως ὡδε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.65,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

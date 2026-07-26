@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_24.35",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 49,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 39
+      }
+    ],
+    "display": "Luke 24:39"
+  },
+  "lemma_quote": "Οὐκ ἐγκαταλείψεις τὴν ψυχήν μου εἰς ἅδην,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.301,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "24.35",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

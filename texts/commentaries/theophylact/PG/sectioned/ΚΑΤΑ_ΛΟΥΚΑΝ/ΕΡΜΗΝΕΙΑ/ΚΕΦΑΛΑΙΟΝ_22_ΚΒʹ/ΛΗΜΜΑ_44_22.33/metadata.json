@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_22.33",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 44,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 34
+      }
+    ],
+    "display": "Luke 22:34"
+  },
+  "lemma_quote": "εἶπεν αὐτῷ· Κύριε, μετὰ σοῦ ἕτοιμός εἰμι καὶ εἰς φυλακὴν καὶ εἰς θάνατον πορεύεσθαι. Ὁ δὲ εἶπε· Λέγω σοι, Πέτρε, οὐ μὴ φωνήσει σήμερον ἀλέκτωρ, πρὶν ἢ τρὶς ἀπαρνήσῃ μὴ εἰδέναι με.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.73,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

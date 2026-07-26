@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_20.31",
+  "gospel": "matthew",
+  "chapter": 20,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 31
+      }
+    ],
+    "display": "Matthew 20:31"
+  },
+  "lemma_quote": "ὄχλος ἐπετίμησεν αὐτοῖς ἵνα σιπήσωσιν. Οἱ δὲ μεῖζον ἔκραζον, λέγοντες· Ἐλέησον ἡμᾶς, Κύριε, υἱὸς Δαυΐδ. Καὶ στὰς ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.886,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

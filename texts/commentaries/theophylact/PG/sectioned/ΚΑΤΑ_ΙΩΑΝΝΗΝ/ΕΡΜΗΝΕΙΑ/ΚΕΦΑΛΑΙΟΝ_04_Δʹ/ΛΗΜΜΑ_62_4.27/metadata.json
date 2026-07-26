@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_4.27",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 27
+      }
+    ],
+    "display": "John 4:27"
+  },
+  "lemma_quote": "τούτῳ ἦλθον οἱ μαθηταὶ αὐτοῦ, καὶ ἐθαύμασαν, ὅτι μετὰ γυναικὸς ἐλάλει Οὐδεὶς μέντοι εἶπε· Τί ζητεῖς, ἢ τί λαλεῖς μετ´ αὐτῆς;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.969,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

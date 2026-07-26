@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_25.17",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 25:17"
+  },
+  "lemma_quote": "ὡσαύτως καὶ ὁ τὰ δύο, ἐκέρδησε καὶ αὐτὸς ἄλλα δύο· ὁ δὲ τὸ ἓν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

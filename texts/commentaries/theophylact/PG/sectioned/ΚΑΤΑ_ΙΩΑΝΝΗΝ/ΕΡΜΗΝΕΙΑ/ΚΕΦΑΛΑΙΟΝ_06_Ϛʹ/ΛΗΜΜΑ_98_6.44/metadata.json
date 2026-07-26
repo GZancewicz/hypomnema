@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 56
+      }
+    ],
+    "display": "John 6:56"
+  },
+  "lemma_quote": "«Ὁ τρώγων μου τὴν σάρκα, καὶ πίνων μου τὸ αἷμα, ἐν ἐμοὶ μένει, κἀγὼ ἐν αὐτῷ. Καθὼς ἀπέσταιλέ με ὁ ζῶν Πατὴρ, κἀγὼ ζῶ διὰ τὸν Πατέρα· καὶ ὁ τρώγων με, κἀκεῖνος ζ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.807,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_76_16.25",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 76,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 27
+      }
+    ],
+    "display": "John 16:27"
+  },
+  "lemma_quote": "Διὰ τοῦτο φιλεῖ ὑμᾶς ὁ Πατὴρ, διότι ὅμεῖς ἐμὲ ππεφιλήκατε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.382,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

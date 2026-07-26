@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_9.6",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 9
+      }
+    ],
+    "display": "Luke 9:9"
+  },
+  "lemma_quote": "Ἵκουσε δὲ Ἡρώδης ὁ τετράρχης τὰ γενόμενα. ὀπ´´ αὐτοῦ πάντα, καὶ διηπόρει, διὰ τὸ λέγεσθαι ὑπό τινων ὅτι Ἰωάννης ἐγήγερτ· ἐκ νεκρῶν, ὑπὰ τινων δὲ, ὅτι Ἰλίας ἐφάνη. Ἄλλυς δὲ, ὅτι προφήτης εἴς τῶν ἀρχαίων ἀνέστη. Καὶ εἶ πεν ὁ Ἡρώδης· Ἰωάννην ἐγὼ ἀπεκεφάλισα· τίς δέ ἐστιν οὐτος, περὶ οὗ ἐγὼ ὰκούω τοιαῦτα; Καὶ ἐζήτει ἰδεῖν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.662,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

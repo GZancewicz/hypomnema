@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_27.5",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 27:6"
+  },
+  "lemma_quote": "«Οἱ δὲ ἀρνιερεῖς λαβόντες τὰ ἀργύρια, εἶπον· Οὐκ ἔξεστι βαλεῖν αὐτὰ εἰς τὸν κορβανᾶν, ἐπεὶ τιμὴ αἵματός ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.976,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

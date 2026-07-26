@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_130_12.40",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 130,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 39
+      }
+    ],
+    "display": "John 12:39"
+  },
+  "lemma_quote": "Οὐκ ἤδύναντο πιστεύειν, ὅτι εἶπεν Ἡσαϊας πάλιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.921,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

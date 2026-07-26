@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_5.11",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 5:12"
+  },
+  "lemma_quote": "«Οὕτω γὰρ ἐδίωξαν τοὺς πρι φήτας τοὺς πρὸ ὑμῶν· ἱνα μὴ ὑπονοήσωαιν οἱ ἀπό τολοι, ὅτι διὰ τὸ ἐνανσία τινὰ διδάσκειν, διωχθήσονται, παραμυθειται αὐτοὺς, λέγων, ὅτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.458,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_17.24",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 22
+      }
+    ],
+    "display": "John 17:22"
+  },
+  "lemma_quote": "Ἡμεῖς δὲ ὰνακεκαλυμμένῳ προσώπῳ τὴν δόξαν Κυρίου κατοπτριζόμενοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.609,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

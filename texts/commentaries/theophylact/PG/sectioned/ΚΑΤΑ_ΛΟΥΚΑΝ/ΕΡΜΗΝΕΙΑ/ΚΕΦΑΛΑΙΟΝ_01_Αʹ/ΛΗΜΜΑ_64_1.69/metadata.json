@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_1.69",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 64,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 79
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 79
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 79
+      }
+    ],
+    "display": "Luke 1:79"
+  },
+  "lemma_quote": "ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ήμῶν εἰς ὁδὸν εἰρήνης. Τὸ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.69",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

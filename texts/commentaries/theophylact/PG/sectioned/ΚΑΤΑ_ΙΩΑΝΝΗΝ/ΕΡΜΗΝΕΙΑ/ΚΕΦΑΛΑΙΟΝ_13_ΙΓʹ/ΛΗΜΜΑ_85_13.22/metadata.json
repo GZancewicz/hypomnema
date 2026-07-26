@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 28
+      }
+    ],
+    "display": "John 13:28"
+  },
+  "lemma_quote": "Οὐδεὶς οὖν ἔγνω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.592,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

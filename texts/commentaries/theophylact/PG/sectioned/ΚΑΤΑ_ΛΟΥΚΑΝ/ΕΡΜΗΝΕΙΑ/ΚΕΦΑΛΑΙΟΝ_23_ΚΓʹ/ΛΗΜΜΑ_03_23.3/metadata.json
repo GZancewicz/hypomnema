@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_23.3",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 23:5"
+  },
+  "lemma_quote": "Ἀπόδοτε τὰ Καίσαρος Καίσαρι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.25,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "23.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

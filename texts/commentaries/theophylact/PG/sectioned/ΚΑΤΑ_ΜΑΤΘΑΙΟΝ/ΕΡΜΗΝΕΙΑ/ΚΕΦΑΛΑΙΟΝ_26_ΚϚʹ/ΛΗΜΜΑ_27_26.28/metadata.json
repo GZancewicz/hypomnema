@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_26.28",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 29
+      }
+    ],
+    "display": "Matthew 26:29"
+  },
+  "lemma_quote": "«Δέγω δὲ ὑμῖν, ὅτι οὐ μὴ πίω ἀπ´ ἄρτι ἐκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "26.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

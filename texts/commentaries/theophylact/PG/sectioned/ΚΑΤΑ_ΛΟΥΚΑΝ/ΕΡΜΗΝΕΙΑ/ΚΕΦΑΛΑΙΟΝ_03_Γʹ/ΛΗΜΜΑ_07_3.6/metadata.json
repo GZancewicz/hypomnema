@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_3.6",
+  "gospel": "luke",
+  "chapter": 3,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 6
+      }
+    ],
+    "display": "Luke 3:6"
+  },
+  "lemma_quote": "ὄψεται πᾶσα σάρξ τὸ σωτήριον τοῦ Θεοῦ. Ὁδὸς μὲν, ἡ κατὰ Χριστὸν πολιτεία, ἢν κελεύει ἑτοιμασθῆναι. Ἕμελλε γὰρ ὅσον οὕπω κηρύττειν ὁ Κύριος. Τρίβοι Κδὲ, αἱ τοῦ ν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.803,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

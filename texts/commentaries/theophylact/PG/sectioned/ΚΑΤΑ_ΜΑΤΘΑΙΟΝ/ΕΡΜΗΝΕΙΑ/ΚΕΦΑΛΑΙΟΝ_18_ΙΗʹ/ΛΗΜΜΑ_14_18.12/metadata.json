@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_18.12",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 14,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 18:13"
+  },
+  "lemma_quote": "Τί ὁμῖν δοκεῖς Ἐὰν γένηταί τινι ἁνθρώπῳ κατὸν πρόβατα, καὶ πλανηθῇ ἕν ἐξ αὐτῶν, οὐχὸ ἀφεὶς τὰ ἐννενηκονταεννέα ἐπὶ τὰ ὄρη, πορευθεὶς ζητεῖ τὸ πλανώμενον; Καὶ ἐὰν γάνηται εὐρεῖν αὐτὸ, Δμὴν λέγω ὑμῖν, ὅτι χαίρει ἐπ´ αὐτῷ μᾶλλον ἢ ἐπὶ τοῖς ἐννενηκονταεννέα τοῖς μὴ πεπλανημένοις. Οὐτως οὐκ ἄατι θέλημα ἔμπροσθεν τοῦ Πατρὸς ὑμῶν τοῦ Ἀν τοῖς οὐρανοῖς, ἵνα ἀπόληται εἷς τῶν μικρῶν τούτων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.595,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

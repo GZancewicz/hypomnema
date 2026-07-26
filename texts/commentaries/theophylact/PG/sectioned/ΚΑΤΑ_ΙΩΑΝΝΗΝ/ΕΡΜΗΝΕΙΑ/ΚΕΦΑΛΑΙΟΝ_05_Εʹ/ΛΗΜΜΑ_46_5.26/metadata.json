@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_5.26",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 46,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 29
+      }
+    ],
+    "display": "John 5:29"
+  },
+  "lemma_quote": "Ὥσπερ γὰρ ὁ Πατὴρ ζωὴν ἔχει ἐν ἑαυτῷ, οὕτως ἔδωκε καὶ τῷ Υἱῷ ζωήν ἔχειν ἐν ἐαυτῷ, καὶ ἐξουσίαν ἔδωκεν αὐτῶ ναὶ κοίσιν ποιεῖν· ὅτι Υἱδς ἀνθρώπου ἐστί. Μὴ θαυμάζετε τοῦτο, ὅτι ἔρχεται ὥρα, ἐν ᾗ πάντες οἱ ἐν τοῖς μνημείοις ἀκούσονται τῆς φωνῆς αὐτοῦ, καὶ ἐκπορεύσονται, οἰ τὰ ἀγαθὰ ποιήσαντες, εἰς ἀνάστασιν ζωῆς, οἱ δὲ τὰ φαῦλα πράξαντες, εἰς ἀνάστασιν κρίσεως.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.592,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

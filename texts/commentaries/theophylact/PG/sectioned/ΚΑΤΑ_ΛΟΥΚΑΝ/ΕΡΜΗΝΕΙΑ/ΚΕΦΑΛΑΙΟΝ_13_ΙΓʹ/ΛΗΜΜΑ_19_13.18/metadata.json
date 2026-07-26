@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_13.18",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 13:18"
+  },
+  "lemma_quote": "«Ἔλεγε δὲ, Τίνι ὁμοία ἐστὶν ἡ βασιλεία τοῦ Θεοῦ καὶ τίνι ὁμοιώσω αὐτήν; Ὁμοία ἐστὶ κόκκῳ σινάπεως, ὃν λαβὼν ἄνθρωπος ἔβαλεν εἰς κῆπον ἑαυτοῦ, καὶ ηὕξησε, καὶ ἐγ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.68,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

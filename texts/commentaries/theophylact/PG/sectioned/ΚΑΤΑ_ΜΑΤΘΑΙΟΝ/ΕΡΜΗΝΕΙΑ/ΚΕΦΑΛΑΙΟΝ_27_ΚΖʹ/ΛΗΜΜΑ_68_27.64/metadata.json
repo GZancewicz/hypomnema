@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_27.64",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 68,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 64
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 64
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 64
+      }
+    ],
+    "display": "Matthew 27:64"
+  },
+  "lemma_quote": "Κέλευσον οὖν ἀσφαλισθῆναι τὸν τάφον ἕως τῆς τρίτης ἡμέρας, μήποτε ἐλθόντες οἱ μαθηταὶ αὐτοῦ νυκτὸς, κλέψωσιν αὐτὸν, καὶ εἴπωσι τῷ λαῷ, Ἡγέρθη ἀπὸ τῶν νεκρῶν· κα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.866,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.64",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_97_17.20",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 97,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 9
+      }
+    ],
+    "display": "John 17:9"
+  },
+  "lemma_quote": "Οὐ περὶ τούτων [όνον ἐρωτῶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.613,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

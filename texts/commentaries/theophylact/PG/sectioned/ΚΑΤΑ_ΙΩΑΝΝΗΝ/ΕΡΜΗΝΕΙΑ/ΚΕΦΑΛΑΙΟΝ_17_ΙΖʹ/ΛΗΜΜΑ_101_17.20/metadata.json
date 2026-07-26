@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_101_17.20",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 101,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 21
+      }
+    ],
+    "display": "John 17:21"
+  },
+  "lemma_quote": "κα θώς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

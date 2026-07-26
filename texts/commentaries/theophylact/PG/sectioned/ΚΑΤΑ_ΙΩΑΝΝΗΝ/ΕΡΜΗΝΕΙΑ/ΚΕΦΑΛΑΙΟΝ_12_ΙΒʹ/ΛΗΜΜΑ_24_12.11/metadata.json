@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_12.11",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 24,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 9
+      }
+    ],
+    "display": "John 12:9"
+  },
+  "lemma_quote": "«Ἦλθον γὰρ. φησίν, οὐ διὰ τὸν Ἰησοῦν μόνον, ἀλλ´ ἵνα καὶ τὸν Λάζαρον ἴδωσι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.542,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

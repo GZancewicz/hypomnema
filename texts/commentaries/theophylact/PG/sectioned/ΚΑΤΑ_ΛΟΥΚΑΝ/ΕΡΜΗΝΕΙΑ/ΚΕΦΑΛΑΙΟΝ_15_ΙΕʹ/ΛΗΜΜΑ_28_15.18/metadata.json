@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 27
+      }
+    ],
+    "display": "Luke 15:27"
+  },
+  "lemma_quote": "εἶπεν αὐτῶ ἄτι Ὁ ἀδελφός σου ἤκει, καὶ ἔθυσεν ὁ πατήρ σου τὸν μόσχον τὸν σιτευτὸν, ὅτι ὑγιαίνοντα αὐτὸν ἀπέλαβεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.986,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_11.15",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 13,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 11:15"
+  },
+  "lemma_quote": "ἔρχονται εἰς Ἰεροσσλυμα. Καὶ εἰσελθὼν ὁ Ἰησοῦς εἰς τὸ ἱερὸν, ἤρεατο ἐκβάλλειν τοὺς πωλοῦντας καὶ ἀγοράζοντας ἐν τῷ ἱερῷ. Καὶ τὰς τρασίΓας τῶλν νολλυβιστῶν ·αλ τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.73,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_7.10",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 19,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 11
+      }
+    ],
+    "display": "John 7:11"
+  },
+  "lemma_quote": "«Οἱ οὖν λονδαῖοι ἐζήτουν αὐτὸν ἐν τῇ ἑορτῇ, καὶ ἔλεγον· Ποῦ ἐστιν ἐκεῖνος; Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.935,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_10.27",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 10:27"
+  },
+  "lemma_quote": "Ὃ λέγω ὑμῖν ἐν τῇ σκοτίᾳ, εἴπατε ἐν τῷ φωτίΚαὶ ὃ εἰς τὸ οὗς ἀκούετε, κηρύξατε ἐπὶ τῶν δωμάτων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.935,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

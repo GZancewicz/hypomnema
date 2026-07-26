@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_21.22",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 21:22"
+  },
+  "lemma_quote": "Μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμὸν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.173,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

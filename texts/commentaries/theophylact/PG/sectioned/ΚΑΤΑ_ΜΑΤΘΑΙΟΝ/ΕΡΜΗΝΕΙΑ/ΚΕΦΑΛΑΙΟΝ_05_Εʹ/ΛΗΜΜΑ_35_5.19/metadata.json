@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_5.19",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 5:22"
+  },
+  "lemma_quote": "Ἐγὼ δὲ λέγω ὑμῖν, ὅτι πᾶς ὁ ὀργιζόμενος τῷ ἀλφῷ αὐτοῦ εἰκῆ, ἔνοχος ἔσται τῇ κρίσει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.671,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

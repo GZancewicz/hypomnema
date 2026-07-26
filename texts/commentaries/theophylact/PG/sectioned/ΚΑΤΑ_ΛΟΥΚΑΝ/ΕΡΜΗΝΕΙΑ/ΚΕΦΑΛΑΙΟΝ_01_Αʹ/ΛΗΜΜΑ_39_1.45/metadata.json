@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_1.45",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 39,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 45
+      }
+    ],
+    "display": "Luke 1:45"
+  },
+  "lemma_quote": "μακαρία ἢ πιστεύσασα. ὅτι ἔσται τελείωσις τοῖ- λαλαλόμένοις αὐτῇ παρὰ Κυρίου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.869,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.45",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

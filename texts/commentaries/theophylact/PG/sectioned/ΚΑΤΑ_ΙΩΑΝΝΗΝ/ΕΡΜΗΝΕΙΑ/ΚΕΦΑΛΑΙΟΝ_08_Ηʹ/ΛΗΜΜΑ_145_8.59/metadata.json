@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_145_8.59",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 145,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 58
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 58
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 58
+      }
+    ],
+    "display": "John 8:58"
+  },
+  "lemma_quote": "Πρὶν Ἀβραί μ γενέσθαι, ἐγώ εἰμι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.618,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.59",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

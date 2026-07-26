@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_7.25",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 7:25"
+  },
+  "lemma_quote": "ἐξεληλύθατε ἰδεῖν, ἄνθρωπον ἐν μαλακοῖς ἱματίοις ἠμφιεσμένον; Ἰδοὺ οἱ ἐν ἱαατισμῶ ἐνδόξῳ καὶ τρυφὴ ὑπάρχοντες, ἐν τοῖ, βασιλείοις εἰσίν, Ἀλλὰ τί",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

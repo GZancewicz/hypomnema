@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_79_5.41",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 79,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 42
+      }
+    ],
+    "display": "John 5:42"
+  },
+  "lemma_quote": "Δόξαν παρὰ ἀνθρώπων οὐ λαμβάνω, ἀλλ´ ἔγνωκα ὑμᾶς, ὅτι τὴν ἐανάπην τοῦ Θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.757,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

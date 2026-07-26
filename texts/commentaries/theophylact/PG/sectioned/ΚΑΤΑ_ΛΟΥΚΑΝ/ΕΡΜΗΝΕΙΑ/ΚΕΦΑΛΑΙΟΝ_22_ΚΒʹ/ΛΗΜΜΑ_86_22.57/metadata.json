@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_86_22.57",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 86,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 58
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 58
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 58
+      }
+    ],
+    "display": "Luke 22:58"
+  },
+  "lemma_quote": "ἠρνήσατο αὐτὸν λέγων· Γόναι, οὐκ οἷδα αὐτόν. Καὶ μετὰ βραχὺ ἕτεοος ἰδὼμ αὐτὸν ἔφη· Καὶ σὺ ἐξαὐτῶν εἶ. Ὁ δὲ Πέτρος εἶπεν· Ἄνθρωπε, οὐκ εἰμί. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.666,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.57",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

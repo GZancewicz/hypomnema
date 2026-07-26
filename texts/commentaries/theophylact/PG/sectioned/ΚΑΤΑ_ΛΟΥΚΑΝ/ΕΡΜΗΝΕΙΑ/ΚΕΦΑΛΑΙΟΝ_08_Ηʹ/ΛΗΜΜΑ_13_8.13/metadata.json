@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_8.13",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 8:14"
+  },
+  "lemma_quote": "πέτρας, οἶ ὅταν ἀκούσωσι, μετὰ χαρᾶς δέχονται τὸν λόγον, καὶ οὗτοι ῥίζαν οὐκ ἔχουσιν, οἶ πρὸς καιρὸν πιστεύουσι, καὶ ἐν καιρῷ πει οασαοῦ ἀωίστανται. Τὸ δὲ εἰς τὰς ἀκάνθας πεσὸν, Κοὗτοί εἰσιν οἱ ἀκούσαντες, καὶ ὑπὸ μεριμνῶν καὶ πλούτου καὶ ἡδονῶν τοῦ βίου πορευόμενοι συμπνίγονται, καὶ οὐ τελεσφοροῦσι. Τὸ δὲ ἐν τῇ καλῇ γῇ, οἷτοί εἰσιν οἵτινες ἐν καρδίᾳ καλῇ καὶ ἀγαβῇ, ἀκούσαντες τὸν λόγον, κατέχουσι καὶ καρποφοροῦσιν ἐν ὑπομονῇ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.613,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

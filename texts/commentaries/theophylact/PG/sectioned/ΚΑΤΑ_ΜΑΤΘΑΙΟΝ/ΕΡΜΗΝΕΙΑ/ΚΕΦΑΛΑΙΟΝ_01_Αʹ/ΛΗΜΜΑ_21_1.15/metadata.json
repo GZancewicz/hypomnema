@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_1.15",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 15
+      }
+    ],
+    "display": "Matthew 1:15"
+  },
+  "lemma_quote": "Ἐλιούδ· Ἐλιοὺδ δὲ ἐγέννησε τὸν Ἐλεάζαρ· Ἑλεάζαρ δὲ ἐγέννησε τὸν Ματθάν· Ματθὰν δὲ ἐγέννῃσα τὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.941,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_4.1",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 4:2"
+  },
+  "lemma_quote": "Καὶ νηστεύσας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "4.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

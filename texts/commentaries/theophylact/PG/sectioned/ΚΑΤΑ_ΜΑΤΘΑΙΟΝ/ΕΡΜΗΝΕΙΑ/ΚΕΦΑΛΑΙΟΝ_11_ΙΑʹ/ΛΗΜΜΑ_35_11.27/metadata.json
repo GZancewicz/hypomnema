@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_11.27",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 11:27"
+  },
+  "lemma_quote": "Καὶ οὐδεὶς ἐπιγινώσκει τὸν Υἱὸν εἰ μὴ ὁ Πατὴρ, ολδὲ τὸν Πατέρα τις ἐπιγινώσκει εἰ μὴ ὁ Υἱὸς, καὶ ᾧ ἐὰν βούληται ὁ Υἱὸς ἁποκαλύψαι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.848,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

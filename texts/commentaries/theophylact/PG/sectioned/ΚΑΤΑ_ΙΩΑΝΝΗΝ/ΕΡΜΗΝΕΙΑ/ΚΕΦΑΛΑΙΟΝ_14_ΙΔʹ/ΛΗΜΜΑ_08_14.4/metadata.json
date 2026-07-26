@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_14.4",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 5
+      }
+    ],
+    "display": "John 14:5"
+  },
+  "lemma_quote": "Καὶ ὅπου ἐγὼ ὑπάγω. οἴδατε. και τὴν ἐδὸν οἴδα-ς Λέγει αὐτῷ Θωμᾶς· Κύριε, οὐκ οἴδαμεν ποῦ ὑπάγεις, καὶ πῶς δυνάμεθα τὴν ὁδὸν εἰδέναι. Λέγει αὐτῷ ὁ Ἰησοῦς· Ἐγώ εἰμι ἡ ὁδὸς, καὶ ἡ ἀλήθεια, καὶ ἡ ζωή. Οὐδεὶς ἔρχεται πρὸς τὸν Πατέρα, εἰ μὴ δι´ ἐμοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.715,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_138_12.42",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 138,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 43
+      }
+    ],
+    "display": "John 12:43"
+  },
+  "lemma_quote": "μέντοι καὶ ἐκ τῶν ἀρχόντων πολλοὶ ἐπίστευσαν εἰς αὐτόν· ἀλλὰ διὰ τοὺς δαρισαίους οὐχ ὡμολόγουν, ἵνα μὴ ἀποσυνἀγωγοι γένωνται. Ἐγάπησαν γὰρ τὴν δόξαν τῶν ἀνθρώπων μᾶλλον ἤπερ τὴν δόξαν τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.664,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

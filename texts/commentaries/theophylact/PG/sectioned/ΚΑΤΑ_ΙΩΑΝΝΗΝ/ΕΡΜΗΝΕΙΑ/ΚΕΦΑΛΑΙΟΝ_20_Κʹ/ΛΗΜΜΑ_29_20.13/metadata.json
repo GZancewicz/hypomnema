@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_20.13",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 10
+      }
+    ],
+    "display": "John 20:10"
+  },
+  "lemma_quote": "ἀπῆλθων πρὸς αὐτονς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.842,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

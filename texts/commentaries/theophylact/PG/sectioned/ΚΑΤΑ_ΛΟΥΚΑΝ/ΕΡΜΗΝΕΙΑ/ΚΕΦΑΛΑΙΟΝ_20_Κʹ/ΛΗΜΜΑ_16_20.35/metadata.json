@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_20.35",
+  "gospel": "luke",
+  "chapter": 20,
+  "index": 16,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 20:35"
+  },
+  "lemma_quote": "καταξιωθέντες τοῦ αἰῶνος ἐκείνου τυχεῖν, καὶ τῆς ἀναστάσεως τῆς ἐκ νακρῶν, οὔτε γαμοῦσιν, οὔτε ἐκγαμίσκονται. Οὕτε γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.897,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

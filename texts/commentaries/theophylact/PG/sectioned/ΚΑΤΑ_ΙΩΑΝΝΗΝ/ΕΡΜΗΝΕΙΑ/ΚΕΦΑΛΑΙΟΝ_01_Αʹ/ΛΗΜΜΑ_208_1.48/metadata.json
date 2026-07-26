@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_208_1.48",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 208,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 49
+      }
+    ],
+    "display": "John 1:49"
+  },
+  "lemma_quote": "Λέγει αὐτῷ Ναθαναήλ · Πόθεν με γινώσκεις;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.513,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.48",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

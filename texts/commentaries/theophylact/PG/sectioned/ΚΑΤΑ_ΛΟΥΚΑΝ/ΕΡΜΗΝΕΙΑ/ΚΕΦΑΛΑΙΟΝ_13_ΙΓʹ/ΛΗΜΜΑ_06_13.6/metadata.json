@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_13.6",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 6
+      }
+    ],
+    "display": "Luke 13:6"
+  },
+  "lemma_quote": "«Ἑλεγε δὲ ταύτην τὴν παραβολήν· Ἐυλῆν εἶχέ τις ἐν τῷ ἀμπελῶνι αὐτοῦ πεφυτευμένην, καὶ ἦλθε ζην σῶν καρπὸν ἐν αὐτῇ, καὶ οὐχ εὖρεν· εἶπε δὲ πρὸςι τὸν ἀμπελουργόν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.84,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

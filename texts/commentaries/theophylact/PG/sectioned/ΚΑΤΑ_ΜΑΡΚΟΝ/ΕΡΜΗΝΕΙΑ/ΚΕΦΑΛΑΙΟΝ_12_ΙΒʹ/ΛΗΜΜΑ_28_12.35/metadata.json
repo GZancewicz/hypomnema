@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_12.35",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 28,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 35
+      }
+    ],
+    "display": "Mark 12:35"
+  },
+  "lemma_quote": "ἀποκριθεὶς ὁ Ἰησοῦς ἔλεγε, διδάσκων ἐν τῷ ἰερῷ, Ιῶς λέγουσιν οἱ Γραμματεῖς ὅτι ὁ Χριστὸς, υἱός ἐστι Δαβίδ; αὐτὸς γὰρ Δαβὶδ εἷπεν ἐν Πνεύματι ἀγίῳ· Εἶπεν ὁ Κύριο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.75,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

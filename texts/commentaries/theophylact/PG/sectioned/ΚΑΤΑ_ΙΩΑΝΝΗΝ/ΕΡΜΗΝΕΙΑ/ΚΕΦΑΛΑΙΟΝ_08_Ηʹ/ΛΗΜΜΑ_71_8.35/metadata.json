@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_71_8.35",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 71,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 35
+      }
+    ],
+    "display": "John 8:35"
+  },
+  "lemma_quote": "δοῦλος οὐ μένει ἐν τῇ οἰκίᾳ εἰς τὸν αἰῶνα· ὁ Υἱὸς μένε, εἰς τὸν αἰῶνα. Ἐὰν οὖν ὁ Υιὸς ὑμᾶς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.866,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

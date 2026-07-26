@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_2.29",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 2:29"
+  },
+  "lemma_quote": "ἀπολύεις τὸν δοῦλόν σου, Δέσποτα, κατὰ τὸ ῥῆμά σου, ἐν εἰρήνῃ· ὅτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

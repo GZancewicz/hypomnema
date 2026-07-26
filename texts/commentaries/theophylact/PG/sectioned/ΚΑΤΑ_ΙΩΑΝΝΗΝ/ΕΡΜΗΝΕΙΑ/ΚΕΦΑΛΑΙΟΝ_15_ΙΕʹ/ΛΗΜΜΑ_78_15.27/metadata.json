@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_15.27",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 27
+      }
+    ],
+    "display": "John 15:27"
+  },
+  "lemma_quote": "καὶ ὑμεῖς δὲ μαρτυρεῖτε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.545,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

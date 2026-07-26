@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_181_1.39",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 181,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 40
+      }
+    ],
+    "display": "John 1:40"
+  },
+  "lemma_quote": "Λέγει αὐτοῖς· Ἔρχεσθε, καὶ ἴδετε. Ἢλθον οὗν, καὶ εἶδον ποῦ μένει, καὶ παρ´ αὐτῷ ἔμειναν τὴν ἡμέραν ἐκείνην. Ὥρα δὲ ἦν ὡς ἄεκάτη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.958,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.39",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

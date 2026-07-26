@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_4.14",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 4:15"
+  },
+  "lemma_quote": "σπείρων, τὸν λόγον σπείρει. Οὕτοι δέ εἰσι οἱ παρὰ νὴν ὁδόν· ὅπου σπείρεται ὁ λόγος, καὶ ὅταν ἀκούσωσιν, εὐθέως Κρχεται ὁ Σατανᾶς, καὶ αἴρει τὸν λόγον τὸν ἀσπαρμ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.679,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

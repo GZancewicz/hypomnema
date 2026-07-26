@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_11.17",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 11:18"
+  },
+  "lemma_quote": "«Ἠλθε γὰρ Ἰωάννης μήτε ἐσθίων μήτε πίνων, καὶ λέγουσι, Δαιμόνιον ἔχει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

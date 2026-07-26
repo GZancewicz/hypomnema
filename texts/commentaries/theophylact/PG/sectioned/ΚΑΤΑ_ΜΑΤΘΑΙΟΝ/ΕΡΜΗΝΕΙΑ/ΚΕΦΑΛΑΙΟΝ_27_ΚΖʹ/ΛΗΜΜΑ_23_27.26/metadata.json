@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_27.26",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 27:26"
+  },
+  "lemma_quote": "ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν, τὸν δὲ Ἰησοῦν φραγγελώσσας παρέδωκεν ἵνα σταυρωθῇ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

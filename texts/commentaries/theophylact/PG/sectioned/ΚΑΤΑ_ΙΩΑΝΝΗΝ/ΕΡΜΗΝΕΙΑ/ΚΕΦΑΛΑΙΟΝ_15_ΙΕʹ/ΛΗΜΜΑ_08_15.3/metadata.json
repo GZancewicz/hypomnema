@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_15.3",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 2
+      }
+    ],
+    "display": "John 15:2"
+  },
+  "lemma_quote": "Πίστις γὰρ χωρὶς ἔργων νεκρά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.248,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

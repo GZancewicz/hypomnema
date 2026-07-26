@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_118_6.49",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 118,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 67
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 67
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 67
+      }
+    ],
+    "display": "John 6:67"
+  },
+  "lemma_quote": "Μὴ θέλετε ὑπάγειν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.675,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

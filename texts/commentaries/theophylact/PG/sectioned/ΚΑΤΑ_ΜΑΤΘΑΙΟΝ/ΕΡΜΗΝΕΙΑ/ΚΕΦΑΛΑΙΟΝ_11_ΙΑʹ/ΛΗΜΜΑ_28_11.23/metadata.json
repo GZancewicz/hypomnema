@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_11.23",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 11:23"
+  },
+  "lemma_quote": "«Καὶ σὺ Καπερναοὺμ, ἡ ἕως τοῦ οὐρανοῦ ὑψωθεῖσα, ἕως ἅδου καταβιβασθήσῃ· ὅτι εἰ ἐν Σοθόμοις. ἐγένοντο αἱ δυνάμεις αἱ γενόμεναι ἐν σοὶ, ἔμειναν ἂν μέχρι τῆς σήμερ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.86,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

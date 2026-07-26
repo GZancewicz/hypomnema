@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_76_18.34",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 76,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 36
+      }
+    ],
+    "display": "John 18:36"
+  },
+  "lemma_quote": "Εἰ γὰρ ἦν ἐκ τοῦ κόσμου τούτου ἡ βασιλεία μου, οἱ ὑπηρέται ἂν οἱ ἐμοὶ ἱγωνίζοντο, ἵνα μὴ παραδοθῶ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.552,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

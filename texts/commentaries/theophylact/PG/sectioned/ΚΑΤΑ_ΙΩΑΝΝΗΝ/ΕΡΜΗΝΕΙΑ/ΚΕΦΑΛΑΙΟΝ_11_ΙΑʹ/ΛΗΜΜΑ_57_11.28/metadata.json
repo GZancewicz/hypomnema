@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_11.28",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 25
+      }
+    ],
+    "display": "John 11:25"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.911,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

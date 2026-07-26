@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_16.10",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 7,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 10
+      }
+    ],
+    "display": "Mark 16:10"
+  },
+  "lemma_quote": "Ἐκείνη πορευθεῖσα, ἀπήγγειλε τοῖς μετ´ αὐτοῦ γενομένοις, πενθοῦσι καὶ κλαίουσι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_101_4.43",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 101,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 45
+      }
+    ],
+    "display": "John 4:45"
+  },
+  "lemma_quote": "Μετὰ δὲ τὰς δύο ἡμέρας ἐξῆλθεν ἐκεῖθεν, καὶ ἀπῆλθεν εἰς τὴν Γαλιλαίαν· αὐτὸς γὰρ ὁ Ἰησοῆς ἐμαρτύρησεν, ὅτι προφήτης ἐν τῇ ἰδίᾳ πατρίδι τιμὴν οὐκ ἔχει. Ὅτε οὖν ἦλθεν εἰς τὴν Γαλιλαίαν, ἐδέξαντο αὐτὸν οἱ Γαλιλαῖοι, πάντα ἑωρακότες ὅσα ἐποίησεν ἐν Ἰεροσολύμοις ἐν τῇ ἑορτῇ· καὶ αὐτοὶ γὰρ ἦλθον εἰς τὴν ἑορτήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.717,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

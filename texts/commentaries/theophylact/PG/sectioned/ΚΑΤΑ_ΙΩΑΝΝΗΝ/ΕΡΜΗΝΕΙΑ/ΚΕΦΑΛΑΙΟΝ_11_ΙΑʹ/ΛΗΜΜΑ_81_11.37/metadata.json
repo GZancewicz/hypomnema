@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_81_11.37",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 81,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 37
+      }
+    ],
+    "display": "John 11:37"
+  },
+  "lemma_quote": "Οὐκ ἠδύνατο οὗτος, ὁ ἀνοίξας τοὺς ὀφθαλμοὺς τοῦ τυφλοῦ, ποιῆσαι ἵνα μὴ καὶ οὗτος ἀποθάνῃ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.921,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

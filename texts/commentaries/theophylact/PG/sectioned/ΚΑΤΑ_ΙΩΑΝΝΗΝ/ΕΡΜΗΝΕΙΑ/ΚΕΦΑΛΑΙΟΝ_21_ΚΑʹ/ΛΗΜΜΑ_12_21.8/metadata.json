@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_21.8",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 12,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 8
+      }
+    ],
+    "display": "John 21:8"
+  },
+  "lemma_quote": "ὡς ἀπὸ πηχῶν διακοσίων",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.492,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

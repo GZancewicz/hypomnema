@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_20.30",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 87,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 30
+      }
+    ],
+    "display": "John 20:30"
+  },
+  "lemma_quote": "«Πολλὰ μὲν καὶ ἄλλα σημεῖα ἐποίησεν ὁ Ἰησοῦς Ἀνώπιον τῶν μαθητῶν αὐτοῦ, ἃ οὐκ ἔστι γεγραμκένα ἑν τῷ βιβλίῳ τούτῳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

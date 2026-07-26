@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_12.6",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 8,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 12:8"
+  },
+  "lemma_quote": "«Λέγω δὲ ὑμῖν, πᾶς ὃς ἂν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

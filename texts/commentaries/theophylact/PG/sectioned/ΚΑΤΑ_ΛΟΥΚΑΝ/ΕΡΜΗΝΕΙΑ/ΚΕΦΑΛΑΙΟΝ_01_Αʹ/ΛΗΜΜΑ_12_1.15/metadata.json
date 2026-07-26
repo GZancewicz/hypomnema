@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_1.15",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 15
+      }
+    ],
+    "display": "Luke 1:15"
+  },
+  "lemma_quote": "«Ἔσται γὰρ μέγας ἐνώπιον τοῦ Κυρίου, καὶ οἷνοι καὶ σίκερα οὐ μὴ πίῃ· καὶ Πνεύμαιος ἀγίου πλησθήαεται ἔπι ἐκ κοιλίας μητρὸς αὐτοῦ· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.789,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

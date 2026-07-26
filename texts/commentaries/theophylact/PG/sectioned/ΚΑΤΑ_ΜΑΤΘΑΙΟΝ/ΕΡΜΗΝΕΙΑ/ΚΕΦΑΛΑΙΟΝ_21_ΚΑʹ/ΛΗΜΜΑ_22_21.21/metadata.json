@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_21.21",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 21:21"
+  },
+  "lemma_quote": "«Ἅποκριθεὶς δὲ ὀ Ἰησοῦς εἶπεν αὐτοῖς· Ἀμὴν λέγω ὁμῖν, ἐὰν ἔχητε πίστιν καὶ μὴ διακριθῆτε, οὐ μόνον τὸ τῆς συκῆς ποιήσετε, ἀλλὰ κἂν τῷ ὄρει τούτῳ εῖπητε. Ἄρθητι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.892,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

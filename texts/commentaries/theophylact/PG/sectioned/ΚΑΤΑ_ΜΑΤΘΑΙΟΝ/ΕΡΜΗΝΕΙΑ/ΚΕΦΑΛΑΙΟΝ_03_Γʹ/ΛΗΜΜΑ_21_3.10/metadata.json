@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_3.10",
+  "gospel": "matthew",
+  "chapter": 3,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 3,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 3:10"
+  },
+  "lemma_quote": "Ἐκκόπτεται, καὶ εἰς πῦρ βάλλεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.49,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

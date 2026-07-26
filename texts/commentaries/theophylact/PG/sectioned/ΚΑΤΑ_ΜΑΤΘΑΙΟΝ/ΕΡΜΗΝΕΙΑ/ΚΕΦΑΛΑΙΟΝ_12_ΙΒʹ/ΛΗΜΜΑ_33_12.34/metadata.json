@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_12.34",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 34
+      }
+    ],
+    "display": "Matthew 12:34"
+  },
+  "lemma_quote": "«Ἐκ γὰρ τοῦ περισσεύματος τῆς καρδίας τὸ στόμα λαλεῖ· ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.641,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

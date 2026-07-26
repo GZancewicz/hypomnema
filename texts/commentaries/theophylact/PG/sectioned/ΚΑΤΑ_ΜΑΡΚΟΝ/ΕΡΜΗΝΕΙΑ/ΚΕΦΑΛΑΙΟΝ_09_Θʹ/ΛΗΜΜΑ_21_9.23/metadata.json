@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_9.23",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 21,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 45
+      }
+    ],
+    "display": "Mark 9:45"
+  },
+  "lemma_quote": "ἁποκριθεὶς ὁ Ἰησοῦς, εἶπεν αὐτοῖς· Πρὸς τὴν σκληροκαρδίαν ὑμῶν ἔγραψεν ὑμῖν τὴν ἐντολὴν ταύτην. Ἀπὸ δὲ ἀρχῆς κτίσεως ἄρσεν καὶ θῆλυ ἐποίησεν αὐτοὺς ὁ Θεός. Ἔνεκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.224,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

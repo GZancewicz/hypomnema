@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_14.27",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 14:27"
+  },
+  "lemma_quote": "Εὐθέως δὲ ελάλησε αὐτοῖς ὁ Ἠησοῦς, λέγων· Θαρσεῖτε, ἐγώ εἰμι, μὴ φοβεῖσθε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.9,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

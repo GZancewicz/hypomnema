@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_82_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 82,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 27
+      }
+    ],
+    "display": "John 13:27"
+  },
+  "lemma_quote": "Ποίησον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.333,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

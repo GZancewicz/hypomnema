@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_1.14",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 13
+      }
+    ],
+    "display": "Luke 1:13"
+  },
+  "lemma_quote": "Εἰσηκούσθη ἡ δέησίς σου, καὶ ἡ γυνή σου Ἐλισάβετ Κγεννήσει σοι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.619,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

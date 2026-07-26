@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 19
+      }
+    ],
+    "display": "John 11:19"
+  },
+  "lemma_quote": "συνέθεντο, ἵνα ἐάν τις αὐτὸν ὁμολογήσῃ Χριστὸν, ἀποσυνάγωγος γένηται",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.314,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

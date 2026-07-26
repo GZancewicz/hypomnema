@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_12.23",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 23
+      }
+    ],
+    "display": "John 12:23"
+  },
+  "lemma_quote": "Ἰησοῦ. Ὁ δὲ Ἰησοῦς ἀπεκρίνατο αὐτοῖς, λέγων· Ἐλήλυθεν ἡ ὥρα, ἵνα δοξασθῇ ὁ Υἱὸς τοῦ ἀνθρώπου. Ἀμὴν, ἀμὴν λέγω ὑμῖν, ἐὰν μὴ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.719,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

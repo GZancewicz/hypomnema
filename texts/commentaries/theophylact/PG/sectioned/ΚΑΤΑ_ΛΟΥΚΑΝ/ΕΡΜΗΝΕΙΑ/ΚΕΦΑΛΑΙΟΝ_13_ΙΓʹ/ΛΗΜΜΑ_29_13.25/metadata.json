@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_13.25",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 29,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 13:35"
+  },
+  "lemma_quote": "Οἶκος Λευΐ, εὐλογήσατε τὸν Κύριον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.205,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

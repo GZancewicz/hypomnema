@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_119_14.27",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 119,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 27
+      }
+    ],
+    "display": "John 14:27"
+  },
+  "lemma_quote": "οιλλστοργίας ταραχὴν, οὔτε τὴν διὰ τὰς μελλούσας βιίξεις δειλίαν ἀφίησιν αὐτοῖς ἀθεράπευτον· ἀλλ´ ὑμῶν ἡ καρδία. μηδὲ δειλιάτω.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.33,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "14.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_200_1.43",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 200,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 44
+      }
+    ],
+    "display": "John 1:44"
+  },
+  "lemma_quote": "«Τῇ δὲ ἐπαύριον ἠθέλησεν ἐξελθεῖν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν, καὶ εὐρίσκει Φίλιππον, καὶ λέγει αὐτῷ· Ἀκολούθει μοι. Ἥν δὲ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

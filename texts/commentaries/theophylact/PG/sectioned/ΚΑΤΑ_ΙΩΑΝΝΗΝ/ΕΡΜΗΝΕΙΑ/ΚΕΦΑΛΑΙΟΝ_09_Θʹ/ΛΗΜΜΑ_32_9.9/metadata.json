@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_9.9",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 9
+      }
+    ],
+    "display": "John 9:9"
+  },
+  "lemma_quote": "Ἄλλοι ἔλεγον ὅτι Οὗτός ἐστιν· ἄλλοι δὲ, ὅτι Ὅμοιος αὐτῷ ἐστιν. Ἐκεῖνος δὲ ἔλεγεν Ἐτι Ἐγώ εἰμι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.993,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

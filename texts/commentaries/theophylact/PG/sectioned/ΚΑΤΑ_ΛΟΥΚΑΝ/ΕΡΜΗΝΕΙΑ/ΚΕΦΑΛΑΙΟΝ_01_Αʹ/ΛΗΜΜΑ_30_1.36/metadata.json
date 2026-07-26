@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_1.36",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 1:36"
+  },
+  "lemma_quote": "Καὶ ἰδοὺ Ἐλισάβετ ἡ συγγενής σου, καὶ αὐτὴ συνειληφυῖα υἱὸν ἐν γήρᾳ αὐτῆς· καὶ οὗτος μὴν ἕκτος ἐστὶν αὐτῇ τῇ καλουμένῃ στείρᾳ, ὅτι οὐκ ἀλω ψατήσει παρὰ τῷ Θεῷ πᾶν ῥῆμα. Εἰπε δὲ Μαριάμ· Ἰδοὺ ἡ δούλη Κυρίου, γένοιτό μοι κατὰ τὸ ῥῆμά σου· καὶ ἀπῆλθεν ἀπ´ αὐτῆς ὁ ἁγγελος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.69,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

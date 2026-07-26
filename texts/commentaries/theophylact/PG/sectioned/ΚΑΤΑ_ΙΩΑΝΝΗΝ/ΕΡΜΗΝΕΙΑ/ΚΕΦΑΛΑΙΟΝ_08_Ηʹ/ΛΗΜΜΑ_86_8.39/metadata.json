@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_86_8.39",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 86,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 39
+      }
+    ],
+    "display": "John 8:39"
+  },
+  "lemma_quote": "«Ἀπεκρίθησαν, καὶ εἶπον αὐτῷ· Ὁ πατὴρ ἡκῶν Ἀβραάμ ἐστι. Λέγει αὐτοῖς ὁ Ἰησοῦς· Εἰ τέκνα ἦτε τοῦ Ἀβραὰμ, τὰ ἔργα τοῦ Ἀβραὰμ ἐποιεῖτε ἄν Νῶν δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.966,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

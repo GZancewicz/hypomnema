@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_21.17",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 21:17"
+  },
+  "lemma_quote": "Καὶ καταλιπὼν αὐτοὺς ἐξῆλθεν ἔξω τῆς πόλεως αἰς Βηθανίαν, καὶ ηὐλίσθη ἐκεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.987,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,37 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_1.25",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 43,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 25
+      }
+    ],
+    "display": "Matthew 1:25"
+  },
+  "lemma_quote": "«Οὐκ ἐπέστρεψεν ὁ κόραξ εἰς τὴν κιβωτὸν, ἔως οὖ ἐξηράνθη ἡ γῆ· οὔτε γὰρ μετὰ ταῦτα ὑπέστρεψε· καὶ πάλιν·",
+  "cross_references": [
+    "Genesis 8:7"
+  ],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.273,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.25",
+  "folder_suffix_agrees": true,
+  "notes": "Opening quote is Gen 8:7 LXX (the raven and the ark), Theophylact's proof-text on 'ἕως'; coverage inherited (1:25)."
+}

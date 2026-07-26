@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_1.8",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 8
+      }
+    ],
+    "display": "John 1:8"
+  },
+  "lemma_quote": "Οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ´ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_21.30",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 31,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 21:22"
+  },
+  "lemma_quote": "Πάντα ὅσα εἶπεν ὁ Θεὸς ποιήσομεν καὶ ἀκουσόμεθα·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.495,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

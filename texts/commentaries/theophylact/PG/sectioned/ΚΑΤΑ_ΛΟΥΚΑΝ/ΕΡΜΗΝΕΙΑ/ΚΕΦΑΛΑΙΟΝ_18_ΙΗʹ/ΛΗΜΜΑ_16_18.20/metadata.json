@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_18.20",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 16,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 20
+      }
+    ],
+    "display": "Luke 18:20"
+  },
+  "lemma_quote": "ἐντολὰς οἷδας· Μὴ μοιχεύσῃς, μὴ φονεύσῃς, μὴ κλέψῃς, μὴ ψευδομαρτυρήσῃε. Τίμα τὸν πατέρα σου καὶ τὴν μητέρα σου. ὺ δὲ εἶπε· Ταῦτα πάντα ἐφυλαξάμην ἐκ νεότητός μ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.823,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

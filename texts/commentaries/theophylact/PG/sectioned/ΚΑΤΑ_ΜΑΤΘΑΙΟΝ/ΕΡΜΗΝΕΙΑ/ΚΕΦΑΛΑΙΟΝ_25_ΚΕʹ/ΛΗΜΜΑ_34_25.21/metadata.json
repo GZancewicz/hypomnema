@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 40
+      }
+    ],
+    "display": "Matthew 25:40"
+  },
+  "lemma_quote": "εἴδομεν ἀσθενῆ ἢ ἐν φυλακῇ, καὶ ἤλθομεν πρὸς σέ, Καὶ ἀποκριθεὶς ὁ βασιλεὺἐρεῖ αὐτοῖς· Ἀμὴν λέγω ὑμῖν, ἐφ´ ὅσον ἐποιήσατε ἐνὶ τούτων τῶν ἀδελφῶν μου τῶν ἐλαχίστων, ἐμοὶ ἐποιήσατε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.839,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

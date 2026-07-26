@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_131_11.57",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 131,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 56
+      }
+    ],
+    "display": "John 11:56"
+  },
+  "lemma_quote": "Τί δοκεῖτε, ὅτι οὐ μὴ ἔλθῃ εἰς τὴν ἑορτήν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.484,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.57",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

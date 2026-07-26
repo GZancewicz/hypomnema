@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_10.11",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 10:11"
+  },
+  "lemma_quote": "Εἰς ἢν δ´ ἂν πόλιν ἢ κώμην εἰσέλθητε, ἐξετάσατε τίς ἐν αὐτῇ ἄξιός ἐστι, κἀκεῖ μείνατε ἕως ἂν ἐξέλθητε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

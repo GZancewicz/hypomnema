@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_24.10",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 24:10"
+  },
+  "lemma_quote": "σκανδαλισθήσονται πολλοὶ, καὶ ἀλλήλους παραδώσουσι, καὶ μισήσουσιν ἀλλήλους· καὶ πολλοὶ ψευδοπροφῆται ἐγερὕήσονται, καὶ πλανήσουσι πολλούς· καὶ διὰ τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.845,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

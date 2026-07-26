@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_22.61",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 88,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 61
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 61
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 61
+      }
+    ],
+    "display": "Luke 22:61"
+  },
+  "lemma_quote": "στραφεὶς ὁ Κύριος ἐνέβλεψε τῷ Πέτρῳ, καὶ ὑπεμνήσθη ὁ Πέτρος τοῦ λόγου τοῦ Κυρίου, ὡς εἰπεν ἄὐτῷ, ὅτι Πρὶν ἀλέκτορα φονῆσαι, ἀρνήσῃ μετρίς. Καὶ ἐξελθὼν ἔξω, ἔκλαυσε πικρῶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.763,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.61",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_102_22.71",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 102,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 68
+      }
+    ],
+    "display": "Luke 22:68"
+  },
+  "lemma_quote": "Καὶ ἐὰν ἐρωτήσω, οὐ μὴ ἀποκριθῆτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.782,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

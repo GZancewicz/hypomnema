@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_18.26",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 27
+      }
+    ],
+    "display": "Luke 18:27"
+  },
+  "lemma_quote": "Εἰπον δὲ οἱ ἀκούσαντες· Καὶ τίς δύναται σωβῆναι; Ὃ δὲ εἶπε· Τὰ ἀδύνατα παρὰ ἀνθρώποις, δυνατά στι παρὰ τῷ Θεῷ. Εἶπε δὲ ὁ Πέτρος· Ἰδοὺ. ἡμεῖς ἀφτήκαμεν πάντα. Ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.687,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

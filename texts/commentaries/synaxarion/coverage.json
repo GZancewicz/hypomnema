@@ -735,6 +735,291 @@
           "verse": 10
         }
       ]
+    },
+    {
+      "id": 39,
+      "title": "Lives of the Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos",
+      "saint": "The Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos (I)",
+      "date": "November 5",
+      "mmdd": "11-05",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Life of the Holy Apostle Hermas",
+      "saint": "The Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos (I)",
+      "date": "November 5",
+      "mmdd": "11-05",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 14
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Life of the Holy Apostle Linus",
+      "saint": "The Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos (I)",
+      "date": "November 5",
+      "mmdd": "11-05",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "2timothy",
+          "chapter": 4,
+          "verse": 21
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Life of the Holy Apostle Caius",
+      "saint": "The Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos (I)",
+      "date": "November 5",
+      "mmdd": "11-05",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 23
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Life of the Holy Apostle Philologos",
+      "saint": "The Disciples from the Seventy: Patrobus, Hermas, Linus, Caius and Philologos (I)",
+      "date": "November 5",
+      "mmdd": "11-05",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 15
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Synaxis of the Archangel Michael and the Other Bodiless Hosts",
+      "saint": "The Celebration of the Sobor (Assemblage) of the Leader of the Heavenly Hosts Michael, and the Other Heavenly Bodiless Hosts",
+      "date": "November 8",
+      "mmdd": "11-08",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "jude",
+          "chapter": 1,
+          "verse": 9
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Lives of the Holy Disciples from the Seventy: Herastos, Olympos, Rodion, Sosipater, Kuartos and Tercias",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Life of the Holy Apostle Herodion",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 11
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Life of the Holy Apostle Sosipater",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 21
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Life of the Holy Apostle Tertius",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 22
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Life of the Holy Apostle Erastus",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 23
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Life of the Holy Apostle Quartus",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 23
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Life of the Holy Apostle Olympas",
+      "saint": "The Holy Disciples from the 70: Herastos, Olympos, Rodion, Sosipater, Kuartos (Quartus) and Tercias",
+      "date": "November 10",
+      "mmdd": "11-10",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "romans",
+          "chapter": 16,
+          "verse": 15
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Life of the Holy Apostle Philip",
+      "saint": "The Holy Apostle Philip",
+      "date": "November 14",
+      "mmdd": "11-14",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 10,
+          "verse": 3
+        },
+        {
+          "book": "mark",
+          "chapter": 3,
+          "verse": 18
+        },
+        {
+          "book": "luke",
+          "chapter": 6,
+          "verse": 14
+        },
+        {
+          "book": "acts",
+          "chapter": 1,
+          "verse": 13
+        },
+        {
+          "book": "john",
+          "chapter": 1,
+          "verse": 43
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Life of the Holy Apostle and Evangelist Matthew",
+      "saint": "The Holy Apostle and Evangelist Matthew",
+      "date": "November 16",
+      "mmdd": "11-16",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 10,
+          "verse": 3
+        },
+        {
+          "book": "mark",
+          "chapter": 3,
+          "verse": 18
+        },
+        {
+          "book": "luke",
+          "chapter": 6,
+          "verse": 15
+        },
+        {
+          "book": "acts",
+          "chapter": 1,
+          "verse": 13
+        },
+        {
+          "book": "matthew",
+          "chapter": 9,
+          "verse": 9
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "The Entry into the Temple of the Most Holy Theotokos",
+      "saint": "The Entry into the Temple of the Most Holy Mother of God",
+      "date": "November 21",
+      "mmdd": "11-21",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 1,
+          "verse": 18
+        },
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 27
+        }
+      ]
     }
   ]
 }

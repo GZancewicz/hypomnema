@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_6.30",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 50,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 28
+      }
+    ],
+    "display": "John 6:28"
+  },
+  "lemma_quote": "Τά τε γὰρ ἔργα ἄτερ πίστεως νεκρὰ, καὶ ἡ πίστις χωρὶς ἔργων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.368,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_12.51",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 44,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 51
+      }
+    ],
+    "display": "Luke 12:51"
+  },
+  "lemma_quote": "«Δοκεῖτε, ὅτι εἰρήνην παρεγενόμην δοῦναι ἐν τῇ γῆ· Οὐχί, λέγω ὑμῖν, ἀλλ´ ἡ διαμερισμόν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

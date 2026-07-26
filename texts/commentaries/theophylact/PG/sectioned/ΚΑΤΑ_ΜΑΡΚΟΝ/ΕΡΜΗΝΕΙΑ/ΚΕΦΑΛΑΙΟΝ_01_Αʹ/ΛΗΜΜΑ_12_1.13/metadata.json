@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_1.13",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 13
+      }
+    ],
+    "display": "Mark 1:13"
+  },
+  "lemma_quote": "ἐρήμῳ ἡμέρας τεσσαράκοντα, πειραζόμενος ὑπὸ τοῦ Σατανᾶ, καὶ ἦν μετὰ τῶν θηρίων, καὶ ἄγγελοι διηκόνουν αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.964,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_83_19.41",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 83,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 41
+      }
+    ],
+    "display": "John 19:41"
+  },
+  "lemma_quote": "ἐσταυοώθη, κῆπος, καὶ ἐν τῷ κήπῳ μνημεῖον καινὸν, ἐν ᾧ οὐδέπω οὐδεὶς ἐτέθη. Ἐκεῖ οὖν διὰ τὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.755,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

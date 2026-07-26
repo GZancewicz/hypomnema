@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_4.16",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 16
+      }
+    ],
+    "display": "John 4:16"
+  },
+  "lemma_quote": "«Λέγει αὐτῇ ὁ Ἰησοῦς· Ἔπαγε, φώνησον τὸν ἄνδρα σου, καὶ ἐλθὲ ἐνθάδε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.906,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

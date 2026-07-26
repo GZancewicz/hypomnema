@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_108_11.46",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 108,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 4
+      }
+    ],
+    "display": "John 11:4"
+  },
+  "lemma_quote": "Ἔρχεται ῶρα, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ Υἱοῦ τοῦ Θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.364,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

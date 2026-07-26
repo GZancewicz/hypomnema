@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_14.60",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 52,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 60
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 60
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 60
+      }
+    ],
+    "display": "Mark 14:60"
+  },
+  "lemma_quote": "ἀναστὰς ὁ ἀρχιερεὺς εἰς μέσον, ἐπηρώτησε τὸν Ἰησοῦν, λέγεον· Ολκ ἀποκρίνῃ οὐδέν; Τί οὗτοί σου καταμαρτυροῦσιν; Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.907,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.60",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

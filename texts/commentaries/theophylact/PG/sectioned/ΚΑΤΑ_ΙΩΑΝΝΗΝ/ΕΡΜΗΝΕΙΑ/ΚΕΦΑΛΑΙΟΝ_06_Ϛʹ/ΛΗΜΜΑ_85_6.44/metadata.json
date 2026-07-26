@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 45
+      }
+    ],
+    "display": "John 6:45"
+  },
+  "lemma_quote": "ὀψόμεθα φῶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

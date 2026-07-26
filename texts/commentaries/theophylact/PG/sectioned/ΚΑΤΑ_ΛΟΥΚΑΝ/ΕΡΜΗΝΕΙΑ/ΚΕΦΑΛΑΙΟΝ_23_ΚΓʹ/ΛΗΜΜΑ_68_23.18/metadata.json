@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 68,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 55
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 55
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 55
+      }
+    ],
+    "display": "Luke 23:55"
+  },
+  "lemma_quote": "Κατακολουθήσασαι δὲ γυναῖκες, αἴτινες ἡσαν συνεληλυθυῖαι αὐτῷ ἐκ τῆς Γαλιλαίας, ἐθεάσαντο τὸ μνῆμα, καὶ ὡς ἐτέθη τὸ σῶμα αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.947,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

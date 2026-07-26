@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_18.18",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 34,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 29
+      }
+    ],
+    "display": "John 18:29"
+  },
+  "lemma_quote": "μὴ καὶ σὺ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.174,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

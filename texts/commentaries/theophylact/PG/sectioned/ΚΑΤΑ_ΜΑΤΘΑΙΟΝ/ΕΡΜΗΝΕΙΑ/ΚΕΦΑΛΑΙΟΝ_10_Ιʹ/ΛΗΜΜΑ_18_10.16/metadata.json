@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_10.16",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 10:16"
+  },
+  "lemma_quote": "Γἱνεσθε τὗν φρόνιμοι ὡς οἱ ὄφεις, καὶ ἀκέραιοι ὡς αἱ περιστεραί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.659,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

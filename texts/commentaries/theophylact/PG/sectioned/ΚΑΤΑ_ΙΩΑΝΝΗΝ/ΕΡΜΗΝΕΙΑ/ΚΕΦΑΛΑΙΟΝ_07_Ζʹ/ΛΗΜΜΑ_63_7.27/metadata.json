@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_7.27",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 30
+      }
+    ],
+    "display": "John 7:30"
+  },
+  "lemma_quote": "«Κζήτουν οὖν αὐτὸν πιάσαι, καὶ οὐδεὶς ἐπέβαλεν ἐπ´ αὐτὸν τὰς χεῖρας, ὅτι οὔπω ἐληλύθει ἡ ὥρα αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.728,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

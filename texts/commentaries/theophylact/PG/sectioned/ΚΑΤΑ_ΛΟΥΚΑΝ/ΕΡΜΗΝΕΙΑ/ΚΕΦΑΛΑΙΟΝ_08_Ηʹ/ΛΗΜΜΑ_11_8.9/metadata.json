@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_8.9",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 11
+      }
+    ],
+    "display": "Luke 8:11"
+  },
+  "lemma_quote": "«Ἔστι δὲ αὕτη ἡ παραβολὴ, Ὁ σπόρος ἐστὶν ὁ λόγος τοῦ Θεοῦ. Οἱ δὲ παρὰ τὴν ὀδὸν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.889,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

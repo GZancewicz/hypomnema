@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_9.10",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 9:10"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο αὐτοῦ ἀνακειμένου ἐν τῇ οἰκίᾳ, καὶ ἰδοὺ πολλοὶ τελῶναι καὶ ἀμαρτωλοὶ, ἐλθόντε· σκανἑκειντο τῷ Ἰησοῦ καὶ τοῖς μαθηταῖς αὐτοῦ· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.896,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

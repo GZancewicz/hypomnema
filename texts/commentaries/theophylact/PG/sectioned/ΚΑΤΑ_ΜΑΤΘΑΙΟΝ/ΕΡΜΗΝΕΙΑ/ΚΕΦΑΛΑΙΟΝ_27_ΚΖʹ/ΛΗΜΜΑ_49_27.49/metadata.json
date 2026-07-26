@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_27.49",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 49,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 46
+      }
+    ],
+    "display": "Matthew 27:46"
+  },
+  "lemma_quote": "Ἱνα τί με ἐγκατέλιπες;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "27.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

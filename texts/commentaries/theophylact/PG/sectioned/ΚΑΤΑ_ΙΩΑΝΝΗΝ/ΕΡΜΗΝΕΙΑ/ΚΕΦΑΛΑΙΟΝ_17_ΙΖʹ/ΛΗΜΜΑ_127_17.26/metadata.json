@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_127_17.26",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 127,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 26
+      }
+    ],
+    "display": "John 17:26"
+  },
+  "lemma_quote": "ἡ ἀγάπη, ἣν ἠγάπησάς με, ἐν αὐτοῖς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.608,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

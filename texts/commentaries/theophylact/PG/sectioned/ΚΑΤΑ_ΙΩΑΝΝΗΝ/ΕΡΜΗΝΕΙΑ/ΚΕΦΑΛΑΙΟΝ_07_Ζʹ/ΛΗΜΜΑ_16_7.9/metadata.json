@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_7.9",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 16,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 9
+      }
+    ],
+    "display": "John 7:9"
+  },
+  "lemma_quote": "«Ταῦτα δὲ εἰπὼν αὐτοῖς, ἔμεινεν ἐν τῇ Γαλιλαίᾳ. Ο Καὶ ὅτε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.991,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

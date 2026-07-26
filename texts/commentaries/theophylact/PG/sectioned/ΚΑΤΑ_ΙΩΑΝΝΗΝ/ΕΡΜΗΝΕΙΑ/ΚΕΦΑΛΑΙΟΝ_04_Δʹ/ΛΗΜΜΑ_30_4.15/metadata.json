@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_4.15",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 30,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 7
+      }
+    ],
+    "display": "John 4:7"
+  },
+  "lemma_quote": "Πῶς ταῦτα γενέσθαι δύναται·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.266,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

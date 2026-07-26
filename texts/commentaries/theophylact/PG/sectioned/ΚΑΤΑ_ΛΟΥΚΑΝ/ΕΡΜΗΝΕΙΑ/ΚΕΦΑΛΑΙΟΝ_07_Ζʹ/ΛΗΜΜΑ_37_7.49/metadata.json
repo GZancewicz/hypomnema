@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_7.49",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 49
+      }
+    ],
+    "display": "Luke 7:49"
+  },
+  "lemma_quote": "«κατακρίνοντα τὴν τοσαῦτα ποιήσασαν, ὅσα αὐτὸς οὐκ ἐποίησε, μᾶλλον δὲ, οὐδὲ τὰ πολλῷ καταδεέστερα, οἱον, σὺ μὲν οὐδὲ ὕδωρ ἐπὶ τοὺς πόδας τοῦτο δὴ τὸ κοινὸν ἔδωκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.314,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.49",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

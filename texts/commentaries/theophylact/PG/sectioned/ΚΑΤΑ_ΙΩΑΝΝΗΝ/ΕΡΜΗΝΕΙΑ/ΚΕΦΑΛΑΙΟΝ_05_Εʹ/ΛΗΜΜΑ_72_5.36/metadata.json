@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_5.36",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 36
+      }
+    ],
+    "display": "John 5:36"
+  },
+  "lemma_quote": "Οὐκ ἕστιν ἐκ τοῦ Θεοῦ Ἐτι τὸ Σάββατον οὐ τηρεῖ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.289,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

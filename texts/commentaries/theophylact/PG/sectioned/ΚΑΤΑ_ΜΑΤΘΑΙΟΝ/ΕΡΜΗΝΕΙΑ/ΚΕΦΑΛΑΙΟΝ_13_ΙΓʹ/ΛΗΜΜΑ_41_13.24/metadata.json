@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 41,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 57
+      }
+    ],
+    "display": "Matthew 13:57"
+  },
+  "lemma_quote": "«Ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Οὐκ ἔστι προφήτης ἄτιμος, εἰ μὴ ἐν τῇ πατρίδι αὐτοῦ καὶ ἐν τῇ οἰκίᾳ εὐτοῦ. Καὶ οὐκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.879,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

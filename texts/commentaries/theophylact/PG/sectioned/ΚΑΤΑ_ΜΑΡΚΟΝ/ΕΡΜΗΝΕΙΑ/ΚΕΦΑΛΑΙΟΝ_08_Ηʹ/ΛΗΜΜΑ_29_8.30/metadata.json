@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_8.30",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 29,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 30
+      }
+    ],
+    "display": "Mark 8:30"
+  },
+  "lemma_quote": "ἐπετίμησεν αὐτοῖς, ἵνα μηδενὶ λέγωσι περὶ αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

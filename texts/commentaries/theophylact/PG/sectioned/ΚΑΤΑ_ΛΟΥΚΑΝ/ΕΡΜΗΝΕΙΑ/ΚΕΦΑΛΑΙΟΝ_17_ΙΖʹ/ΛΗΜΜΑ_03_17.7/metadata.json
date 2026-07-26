@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_17.7",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 7
+      }
+    ],
+    "display": "Luke 17:7"
+  },
+  "lemma_quote": "δοῦλον ἔχων ἀροτριῶντα ἢ ποιμαίνοντα, ὃς εἰσελθόντι αὐτῷ ἐκ τοῦ ἀγροῦ ἐρεῖ· Εὐθέως παρελθὼν ἀνάπεσαι, ἀλλ´ οὐχὶ ἐρεῖ αὐτῷ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.763,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

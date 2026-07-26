@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_26.34",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 26:33"
+  },
+  "lemma_quote": "Εἰ πάντες σανλαλιεθήσονται·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "26.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

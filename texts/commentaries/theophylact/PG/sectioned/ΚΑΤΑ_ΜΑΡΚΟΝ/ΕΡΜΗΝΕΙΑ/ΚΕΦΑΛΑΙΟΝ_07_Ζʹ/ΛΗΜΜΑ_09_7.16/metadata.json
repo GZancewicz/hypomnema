@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_7.16",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 16
+      }
+    ],
+    "display": "Mark 7:16"
+  },
+  "lemma_quote": "ἀκούειν, ἀκουέτω. Καὶ ὄτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.554,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

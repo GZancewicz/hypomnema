@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_19.11",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 19:12"
+  },
+  "lemma_quote": "«Εἰσὶ γὰρ εὐνοῦχοι οἵτινες ἐκ κοιλίας μητρὸς ἐγεννήθησαν οὖτω, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.667,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

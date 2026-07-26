@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 4
+      }
+    ],
+    "display": "John 11:4"
+  },
+  "lemma_quote": "Πορεύομαι ἵκα ἐξυπνήσω Λάζαρον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.305,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

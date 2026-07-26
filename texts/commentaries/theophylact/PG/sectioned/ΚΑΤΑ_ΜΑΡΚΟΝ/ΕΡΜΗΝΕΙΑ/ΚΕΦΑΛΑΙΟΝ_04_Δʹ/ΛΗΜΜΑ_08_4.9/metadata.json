@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_4.9",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 8,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 10
+      }
+    ],
+    "display": "Mark 4:10"
+  },
+  "lemma_quote": "ἔλεγεν αὐτοῖς· Ὁ ἔχων ὧτα ἁκούειν, ἀκουέτω. Ὅτε δὲ ἐγένετο καταμόνας, ἠρώτησαν αὐτὸν οἱ περὶ αὐτὸν σὺν τοῖς δώδεκα τὴν παραβολὴν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.746,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

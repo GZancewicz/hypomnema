@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_7.9",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 9,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 9
+      }
+    ],
+    "display": "Luke 7:9"
+  },
+  "lemma_quote": "Ἀκούσας δὲ ταῦτα ὁ Ἰησοῦς, ἐθαύμασεν αὐτόν. Καὶ στραφεὶς, τῷ ἀκολουθοῦντι αὐτῷ ὄχλῳ εἶπε· Λέγω ὑμῖν ὧτι οὐδὲ ἐν τῷ Ἰσραὴλ τοσαύτην πίστιν εὖρον. Καὶ ψποστρέψαντες οἱ πεμφθέντες εἰς τὸν οἶκον, εὖρον τὸν ἀσθενοῦντα δοῦλον ὑγιαίνοντα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.813,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

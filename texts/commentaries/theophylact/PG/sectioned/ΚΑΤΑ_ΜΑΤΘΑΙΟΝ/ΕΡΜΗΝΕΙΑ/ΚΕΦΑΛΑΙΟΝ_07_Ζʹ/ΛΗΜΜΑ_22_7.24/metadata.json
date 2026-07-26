@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_7.24",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 7:24"
+  },
+  "lemma_quote": "ὅστις ἀκούει μου τοὺς λόγους τούτους, καὶ ποιεῖ αὐτοὺς, ὀμοιώσω αὐτὸν ἀνδρὶ φρονίμῳ, ὅστις ᾠκοδόμησε τὴν οἰκίαν αὐτοῦ ἐπὶ τὴν πέτραν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.967,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_16.14",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 16:14"
+  },
+  "lemma_quote": "«Ἐπεὶ οἶγε ἕνδεκα εἰδον αὐτὶν ἐν αὐτῇ τῇ ἡμέρᾳ, ὅτε καὶ οἱ ἐξ ἀγροῦ ὑποστρέψαντες εὐρον αὐτοὺς λέγοντας ὅτι ἠγέρθη ὁ Κύριος. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.155,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

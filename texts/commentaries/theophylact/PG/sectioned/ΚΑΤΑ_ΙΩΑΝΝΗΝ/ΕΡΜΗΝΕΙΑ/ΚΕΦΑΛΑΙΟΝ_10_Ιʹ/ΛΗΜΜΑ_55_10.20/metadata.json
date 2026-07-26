@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_10.20",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 17
+      }
+    ],
+    "display": "John 10:17"
+  },
+  "lemma_quote": "Οὐδεὶς αἴρει τὴν ψυχήν μου ἀπ´ ἐμοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.27,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

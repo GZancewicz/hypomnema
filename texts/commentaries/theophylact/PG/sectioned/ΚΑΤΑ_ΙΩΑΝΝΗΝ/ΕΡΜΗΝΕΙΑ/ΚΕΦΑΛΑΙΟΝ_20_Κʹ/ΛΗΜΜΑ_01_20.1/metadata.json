@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_20.1",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 1,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 1
+      }
+    ],
+    "display": "John 20:1"
+  },
+  "lemma_quote": "Σαββάτων ἔρχεται Μαρία ἡ Μαγδαληνὴ πρωῒ, σκοτίας ἔτι οὔσης, εἰς τὸ μνημεῖον, καὶ βλέπει τὸν λίθον ἠρμένον ἀπὸ τοῦ μνημείοα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.918,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

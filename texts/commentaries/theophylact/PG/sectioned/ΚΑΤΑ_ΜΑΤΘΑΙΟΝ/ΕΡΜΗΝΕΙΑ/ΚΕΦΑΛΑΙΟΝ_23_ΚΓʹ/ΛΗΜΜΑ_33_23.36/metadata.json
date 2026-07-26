@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_23.36",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 23:37"
+  },
+  "lemma_quote": "«ερουσαλὴμ, Ἰερουσαλὴμ, ἡ ἀποκτείνουσα τοὺς προφήτας, καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτὴν, ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου ὃν τρόπον ἐπισυν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.769,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

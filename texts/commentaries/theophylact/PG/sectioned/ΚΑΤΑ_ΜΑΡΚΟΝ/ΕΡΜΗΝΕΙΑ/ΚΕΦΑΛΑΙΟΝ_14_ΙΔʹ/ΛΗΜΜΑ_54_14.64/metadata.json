@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_14.64",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 54,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 64
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 64
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 64
+      }
+    ],
+    "display": "Mark 14:64"
+  },
+  "lemma_quote": "Ἠκούσατς τῆς βλασφημίας, τί ὑμῖν φαίνεται; Οἱ δὲ πάντες κατέκρι. ναν αὐτὸν εἶναι ἔνοχον θανάτου· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.811,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.64",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

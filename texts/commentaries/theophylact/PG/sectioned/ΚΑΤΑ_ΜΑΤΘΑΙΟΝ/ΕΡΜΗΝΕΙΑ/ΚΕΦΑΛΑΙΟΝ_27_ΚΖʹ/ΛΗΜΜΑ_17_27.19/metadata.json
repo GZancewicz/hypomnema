@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_27.19",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 27:19"
+  },
+  "lemma_quote": "«Καθημένου δὲ αὐτοῦ ἐπὶ τοῦ βήματος, ἀπέστειλε πρὸς αὐτὸν ἡ γυνὴ αὐτοῦ, λέγουσα· Μηδὲν σοὶ καὶ τῷ δικαίῳ ἐκείνῳ. Πολλὰ γὰρ ἔπαθον σήμερον κατ´ βναρ δι´ αὐτόν. Ο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.968,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

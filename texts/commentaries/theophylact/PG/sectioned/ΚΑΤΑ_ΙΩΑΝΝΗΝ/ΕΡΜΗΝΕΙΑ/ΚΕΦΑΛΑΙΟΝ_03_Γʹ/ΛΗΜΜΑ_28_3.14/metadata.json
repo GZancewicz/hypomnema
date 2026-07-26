@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_3.14",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 16
+      }
+    ],
+    "display": "John 3:16"
+  },
+  "lemma_quote": "«Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε βὸν Υἱὸν αὐτοῦ τὸν μονογενῆ δωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν, μὴ ἀπόλληται, ἀλλ´ ἔχῃ ζωὴν αἰώνιον. Οὐ γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.906,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

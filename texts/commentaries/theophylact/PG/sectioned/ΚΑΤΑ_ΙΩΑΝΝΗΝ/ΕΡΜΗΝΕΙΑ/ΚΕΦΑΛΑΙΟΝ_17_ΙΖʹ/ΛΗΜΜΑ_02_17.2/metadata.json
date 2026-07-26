@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_17.2",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 2
+      }
+    ],
+    "display": "John 17:2"
+  },
+  "lemma_quote": "καθὼς ἔδωκας αὐτῷ ἐξουσίαν πάσης σαρκός· ἵνα πᾶν ὃ δέδωκας αὐτῷ, δώσῃ αὐτοῖς ζωὴν ανρν Δὖτη δέ ἐστιν ἡ αἰώνιος ζωὴ, ἵνα γινώσκωσ σε τὸν μόνον ἀληθινὸν Θεὸν, καὶ ὃν ἀπέστειλας ἸΚσοῦν Χριστόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.754,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

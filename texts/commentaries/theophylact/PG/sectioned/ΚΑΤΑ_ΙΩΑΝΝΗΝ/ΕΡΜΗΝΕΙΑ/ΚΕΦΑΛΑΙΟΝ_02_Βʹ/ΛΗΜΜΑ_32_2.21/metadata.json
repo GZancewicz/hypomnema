@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_2.21",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 16
+      }
+    ],
+    "display": "John 2:16"
+  },
+  "lemma_quote": "Τὸν οἷκον τοῦ Πατρός μου μὴ ποιεῖτε ἐμπόριον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.67,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

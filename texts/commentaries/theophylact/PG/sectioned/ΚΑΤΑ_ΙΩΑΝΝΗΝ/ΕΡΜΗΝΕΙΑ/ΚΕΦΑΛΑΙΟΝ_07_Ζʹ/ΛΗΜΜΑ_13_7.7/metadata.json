@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_7.7",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 13,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 6
+      }
+    ],
+    "display": "John 7:6"
+  },
+  "lemma_quote": "Ὁ καιρὸς ὁ ἐμὸς οὕπω πάρεστιν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.687,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

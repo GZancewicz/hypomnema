@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_96_8.44",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 96,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 43
+      }
+    ],
+    "display": "John 8:43"
+  },
+  "lemma_quote": "Οὐ δύνασθε ἀκούειν τὸν λόγον μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.552,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_10.40",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 10:41"
+  },
+  "lemma_quote": "δεχόμενος, δέχεται τὸν ἀποστείλαντά με. Ὁ δεχόμενος προφήτην εἰς ὄνομα προφήτου, μισθὸν προφήτου λήψεται. Καὶ ὁ δεχόμενος δίκαιον εἰς ὄνομα δικαὶου, μισθὸν δικαίου λήψεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.948,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

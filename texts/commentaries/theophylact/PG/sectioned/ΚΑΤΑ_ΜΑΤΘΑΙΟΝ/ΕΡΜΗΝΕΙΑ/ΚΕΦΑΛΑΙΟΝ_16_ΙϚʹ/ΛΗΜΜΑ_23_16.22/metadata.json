@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_16.22",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 16:24"
+  },
+  "lemma_quote": "Ττε ὁ Ἰησοῦς εἶπε τοῖς μαθηταῖς αὐτοῦ· Εἱ τις θέλει ὀπίσω μου ἐλθεῖν, ἀπαρνησάσθω ἑαυτὸν, καὶ ἀράτο τὸν σταυρὸν αὐτοῦ, καὶ ἀκολουθείτω μοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.943,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

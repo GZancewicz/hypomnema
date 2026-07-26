@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_11.31",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 28,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 31
+      }
+    ],
+    "display": "Mark 11:31"
+  },
+  "lemma_quote": "ἐλογίζοντο πρὸς ἐαυτοὺς, λέγοντες· Ἐὰν εἴπωμεν, ἑξ οὐρανοῦ, ἐρεῖ, Διατί οὖν οὐκ ἐπιστεύσατε αὐτῷ; Ἀλλ´ ἑὰν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.975,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

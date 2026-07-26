@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_22.20",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 22:20"
+  },
+  "lemma_quote": "λέγει αὐτοῖς· Τίνος ἡ εἰκὼν αὔτη καὶ ἡ ἐπιγραφή;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.996,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

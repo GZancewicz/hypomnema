@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_7.15",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 16
+      }
+    ],
+    "display": "Luke 7:16"
+  },
+  "lemma_quote": "ἀνεκάθισεν ὁ νεκρὸς, καὶ ἥρξατο λαλεῖν · καὶ ἔδωκεν αὐτὸν τῇ μητρὶ αὐτοῦ. Ἔλαβε δὲ φόβος πάντας, καὶ ἐδόξα, ον τὸν Θεὸν, λέγοντες, ὅτι Ποοφήτης μέγας ἐγήγερται ἐν ἡμῖν, καὶ ὅτι ἑπεσκέψατο ὁ Θεὸς τὸν λαὸν αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.788,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

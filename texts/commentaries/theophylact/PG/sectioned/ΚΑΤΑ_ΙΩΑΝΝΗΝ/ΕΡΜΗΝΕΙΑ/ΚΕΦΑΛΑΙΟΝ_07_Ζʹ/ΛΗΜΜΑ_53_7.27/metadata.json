@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_7.27",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 42
+      }
+    ],
+    "display": "John 7:42"
+  },
+  "lemma_quote": "Τὴν δὲ γενεὰν αὐτοῦ τίς διηγήσεται;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.208,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_17.9",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 50,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 10
+      }
+    ],
+    "display": "John 17:10"
+  },
+  "lemma_quote": "«Τὰ γὰρ σὰ πάντα, ἐμά. «Καὶ ὅτε δὲ αὐτὸς ἔχω τούτους, καὶ σὺ ἔχεις, καὶ οὐκ ἀφῃρέθης·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.585,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

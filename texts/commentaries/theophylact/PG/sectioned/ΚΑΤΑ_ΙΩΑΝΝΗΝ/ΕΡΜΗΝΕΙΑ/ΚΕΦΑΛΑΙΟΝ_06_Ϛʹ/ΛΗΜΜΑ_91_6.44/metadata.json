@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_91_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 91,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 51
+      }
+    ],
+    "display": "John 6:51"
+  },
+  "lemma_quote": "«Ὁ ἄρτος γὰρ, φησὶν, ὃν ἐγὼ δώσω, ἡ σάρξ μού ἐστιν, ἣν ἐγὼ δώσω ὑπὲρ τῆς τοῦ κόσῳου ζωῆς., Τὴν ἐξουσίαν δὲ αὐτοῦ δεικνύων, ὅτι οὐχ ὡς δοῦλος καὶ ἐλάττων τοῦ Πατ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.682,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_25.20",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 19,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 25:20"
+  },
+  "lemma_quote": "«Καὶ προσελθὼν ὁ τὰ πέντε τάλαντα λαβὼν προσήνεγκεν ἄλλα πέντε τάλαντα, λέγοων· Κύριε, πέντε τάλαντά μοι παρέδωκας· ἴδε ἄλλα πέντε τάλαντα ἐκέρδησα ἐπ´ αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.982,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

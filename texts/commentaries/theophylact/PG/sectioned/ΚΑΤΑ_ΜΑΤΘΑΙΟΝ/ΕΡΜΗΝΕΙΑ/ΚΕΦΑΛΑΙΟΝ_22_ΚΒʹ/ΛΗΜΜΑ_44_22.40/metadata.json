@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_22.40",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 39
+      }
+    ],
+    "display": "Matthew 22:39"
+  },
+  "lemma_quote": "δευτέρα δὲ ὀμοία αὐτῆς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.552,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

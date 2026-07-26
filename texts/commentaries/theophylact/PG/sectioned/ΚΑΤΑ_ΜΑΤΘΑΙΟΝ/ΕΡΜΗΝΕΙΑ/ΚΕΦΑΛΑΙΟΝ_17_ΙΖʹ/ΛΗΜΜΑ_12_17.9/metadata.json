@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_17.9",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 12,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 17:4"
+  },
+  "lemma_quote": "Καλόν ἐστιν ἡμᾶς ὧδε εἶναι·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.477,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

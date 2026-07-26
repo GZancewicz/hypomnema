@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_71_17.15",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 71,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 14
+      }
+    ],
+    "display": "John 17:14"
+  },
+  "lemma_quote": "τὸν λόγον σου, ανσὶν, ὅν δέδωκα αὐτοῖς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.438,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

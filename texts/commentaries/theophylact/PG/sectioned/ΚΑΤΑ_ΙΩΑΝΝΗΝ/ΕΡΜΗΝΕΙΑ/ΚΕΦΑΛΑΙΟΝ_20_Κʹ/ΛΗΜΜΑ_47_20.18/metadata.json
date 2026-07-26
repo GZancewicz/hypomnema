@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_20.18",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 16
+      }
+    ],
+    "display": "John 20:16"
+  },
+  "lemma_quote": "Στραφεῖσα ἐκείνη, λέγει αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.603,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

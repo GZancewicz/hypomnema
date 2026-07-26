@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_8.9",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 9,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 8:10"
+  },
+  "lemma_quote": "Ἐπηρώτων δὲ αὐτὸν οἱ μαθηταὶ αὐτοῦ, λέγοντες, τίς εἴη ἡ παραβολὴ αὕτης Ὁ δὲ εἶ πεν· Ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς θασιλείας τοῦ Θεοῦ, τοῖς δὲ λοιποῖς ἐν παραβολαῖς, ἵνα βλέποντες μὴ βλέπωσι, καὶ ἀκούοντες μὴ συνιῶσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.773,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

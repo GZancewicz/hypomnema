@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_24.19",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 24:19"
+  },
+  "lemma_quote": "Οὐαὶ δὲ ταῖς ἐν γαστρὶ ἐχούσαις καὶ ταῖς θηλαζούσαις ἐν ἐκείναις ταῖς ἡμέραις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

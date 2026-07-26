@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_23.3",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 5,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 23:37"
+  },
+  "lemma_quote": "Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.661,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

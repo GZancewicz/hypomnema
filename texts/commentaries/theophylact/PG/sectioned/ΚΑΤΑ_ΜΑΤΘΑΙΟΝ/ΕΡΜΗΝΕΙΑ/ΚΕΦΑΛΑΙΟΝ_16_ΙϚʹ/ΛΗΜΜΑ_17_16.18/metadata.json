@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_16.18",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 16:18"
+  },
+  "lemma_quote": "Ὁ ὑψῶν με ἐκ τῶν πυλῶν τοῦ θανάτου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.271,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

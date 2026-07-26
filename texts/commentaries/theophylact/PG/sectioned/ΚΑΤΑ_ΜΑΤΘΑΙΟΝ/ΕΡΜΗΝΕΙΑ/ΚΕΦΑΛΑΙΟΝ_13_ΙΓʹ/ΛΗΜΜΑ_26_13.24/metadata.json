@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 43
+      }
+    ],
+    "display": "Matthew 13:43"
+  },
+  "lemma_quote": "Τότε οἱ δίκαιοι ἐκλάμψουσιν ὡς ὁ ἤλιος ἐν τῇ βασιλείᾳ τοῦ Πατρὸς αὐτῶν· ὁ ἔχων ὦτα ἀκούειν, ἀκουέτω.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

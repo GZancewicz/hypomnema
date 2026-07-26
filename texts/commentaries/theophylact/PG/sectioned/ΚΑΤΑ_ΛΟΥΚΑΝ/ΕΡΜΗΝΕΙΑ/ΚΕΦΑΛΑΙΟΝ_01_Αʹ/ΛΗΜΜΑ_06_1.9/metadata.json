@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_1.9",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 9
+      }
+    ],
+    "display": "Luke 1:9"
+  },
+  "lemma_quote": "ἱερατείας, ἔλαχε τοῦ θυμιάσαι, εἰσελθὼν εἰς τὸν ναὸν τοῦ Κυρίου· καὶ πᾶν τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.82,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

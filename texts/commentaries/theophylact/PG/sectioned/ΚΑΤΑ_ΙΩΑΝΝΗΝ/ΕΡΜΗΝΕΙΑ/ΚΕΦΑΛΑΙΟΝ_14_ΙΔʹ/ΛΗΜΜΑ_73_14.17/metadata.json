@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_14.17",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 73,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 30
+      }
+    ],
+    "display": "John 14:30"
+  },
+  "lemma_quote": "Διατί· ϟότι οὐκ ἐστὲ ἐκ τοῦ κόσμου·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.382,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

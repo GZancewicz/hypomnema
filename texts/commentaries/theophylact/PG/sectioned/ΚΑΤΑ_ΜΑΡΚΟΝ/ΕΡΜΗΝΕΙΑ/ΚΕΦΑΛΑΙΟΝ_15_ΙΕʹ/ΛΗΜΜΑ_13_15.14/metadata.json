@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_15.14",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 13,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 15:15"
+  },
+  "lemma_quote": "Πιλάτος ἔλεγεν αὐτοῖς· Τί γὰρκαό κὸν ἐποίησεν; Οἱ δὲ περισσοτέρως ἔκραξαν· Σταύρωσον αὐτόν· ὀ δὲ Πιλάτος, βουλόμενος τῷ ὄχλω τὸ κανὸν ποιῆσαι, ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν· καὶ παρέδωκε τὸν Ἰησοῦν φραγγελλώσας, ἵνα σταυρωθῇ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.765,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_100_10.37",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 100,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 38
+      }
+    ],
+    "display": "John 10:38"
+  },
+  "lemma_quote": "Πατρός μου, μὴ πιστεύετέ μοι, εἰ δὲ ποιῶ, κἂν ἐμοὶ μὴ πιστεύητε, τοῖς ἔρνοις πιστεύσαγε ἵνα γνῶτε καὶ πιστεύσητε, ὅτι ὁ Πατὴρ ἐν ἐμοὶ, κἀγὼ ἐν αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.853,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

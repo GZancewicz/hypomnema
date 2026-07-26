@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_2.21",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 19
+      }
+    ],
+    "display": "John 2:19"
+  },
+  "lemma_quote": "Λύσατε, λέγων, τὸν ναὸν τοῦτον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.632,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_4.5",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 4:5"
+  },
+  "lemma_quote": "ἀναγαγὼν αὐτὸν ὁ διάβολος εἰς ἔρος ὑψηλὸν, ἔδειξεν αὐτῷ πάσας τὰς βασιλείας τῆς οἰκουμένης ἐν στιγμῇ χρόνου, καὶ εἰπεν αὐτῳ ὁ ιάβολος· Σοὶ δώσω τὴν ἐξουσίαν ταύ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.817,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

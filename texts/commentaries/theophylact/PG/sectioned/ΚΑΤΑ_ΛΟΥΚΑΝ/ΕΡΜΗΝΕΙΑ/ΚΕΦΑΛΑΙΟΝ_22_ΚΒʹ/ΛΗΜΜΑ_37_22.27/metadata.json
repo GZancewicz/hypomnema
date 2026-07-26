@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_22.27",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 22:21"
+  },
+  "lemma_quote": "Ἡ χεὶρ τοῦ παραδιδόντος με, ἐπὶ τῆς τραπέζης ματ´ ἐμοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.842,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

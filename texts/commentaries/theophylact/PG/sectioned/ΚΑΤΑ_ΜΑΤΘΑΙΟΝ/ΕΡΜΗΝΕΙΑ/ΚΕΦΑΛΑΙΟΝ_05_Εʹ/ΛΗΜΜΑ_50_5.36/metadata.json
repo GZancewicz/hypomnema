@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_5.36",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 50,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 5:37"
+  },
+  "lemma_quote": "Τὸ δὲ πεΚρισσὸν τούτων, ἐκ τοῦ πονηροῦ ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.39,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

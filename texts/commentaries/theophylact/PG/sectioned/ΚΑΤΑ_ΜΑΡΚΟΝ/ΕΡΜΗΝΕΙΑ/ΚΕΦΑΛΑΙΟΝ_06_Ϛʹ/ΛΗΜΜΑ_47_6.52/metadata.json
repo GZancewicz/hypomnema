@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_6.52",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 47,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 53
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 53
+      }
+    ],
+    "display": "Mark 6:53"
+  },
+  "lemma_quote": "«Καὶ διαπαρόσαντος, ἦλθον ἐπὶ τὴν γῆν Γκυνησαρέο · Περὶ πρεσωρμίσθησαν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.743,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.52",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

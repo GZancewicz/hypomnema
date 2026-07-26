@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_6.4",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 4,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 2
+      }
+    ],
+    "display": "John 6:2"
+  },
+  "lemma_quote": "Διότι γὰρ, φησίν, ἐώρων τὰ σημεῖα, δʹ ἐποίει ἐπὶ τῶν ἀσθενούντων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.75,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_16.12",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 39,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 13
+      }
+    ],
+    "display": "John 16:13"
+  },
+  "lemma_quote": "«Ἕτι πολλὰ ἔχω λέγειν ὑμῖν, ἀλλ´ οὐ δύνασθε τῆς ἀληθείας, ὀδηγήσει ὑμᾶς εἰς πᾶσαν τὴν ἀλήθειαν. ὐ γὰρ λαλήσει ἀφ´ ἑαυτοῦ, ἀλλ´ ὅσα ἄν ἀκούσῃ, λαλήσει, καὶ τὰ ἐρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.733,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

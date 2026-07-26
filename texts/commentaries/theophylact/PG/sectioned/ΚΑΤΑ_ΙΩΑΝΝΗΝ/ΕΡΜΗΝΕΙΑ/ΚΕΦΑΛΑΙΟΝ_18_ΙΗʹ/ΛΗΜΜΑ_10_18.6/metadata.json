@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_18.6",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 10,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 6
+      }
+    ],
+    "display": "John 18:6"
+  },
+  "lemma_quote": "Ἥδει γὰρ, φησὶ, πάντα τὰ ἐπερχόμενα ἐπ´ αὐ τόν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.228,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

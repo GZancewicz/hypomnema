@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_18.24",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 24
+      }
+    ],
+    "display": "Luke 18:24"
+  },
+  "lemma_quote": "«Ἰδών δὲ αὐτὸν ὁ Ἰησοῦς περλυπον γενόμενον, εἶπε· Πῶς δυσκόλως οἱ τὰ χρήματα ἔχοντες, εἰσελεύσονται εἰς τὴν βασιλείαν τοῦ Θεοῦὶ Εὐκοπώτερον γάρ ἀστι κάμηλον διὰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.798,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

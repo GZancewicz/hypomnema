@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_21.15",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 15
+      }
+    ],
+    "display": "John 21:15"
+  },
+  "lemma_quote": "«Ὅτε οὖν ἠρίστησαν, λέγει τῷ Σίμωνι Πέτρῳ ἀ Ἰησοῦς· Σίμων Ἰωνᾶ, ἀγαπᾷς με πλεῖον τούτων· Λέγει αὐτῷ· Ναὶ, Κύριε, σὺ οἶδας, ὅτι φιλῶ σε. Δέγει αὐτῷ· Βύσκε τὰ ἀρν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

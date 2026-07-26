@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 21,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 49
+      }
+    ],
+    "display": "Mark 10:49"
+  },
+  "lemma_quote": "Ἰησοῦς, εἶπεν αὐτὸν φωνηθῆναι· καὶ φωνοῦσι τὸν τυφλὸν, λέγοντες αὐτῷ· Θάρσει, ἔγειρε, φωνεῖ σε. Ὁ δὲ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.813,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

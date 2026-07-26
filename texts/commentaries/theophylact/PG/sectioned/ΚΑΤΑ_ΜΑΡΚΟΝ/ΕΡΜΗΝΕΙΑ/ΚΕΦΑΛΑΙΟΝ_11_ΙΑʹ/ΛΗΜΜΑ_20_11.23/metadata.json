@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_11.23",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 21
+      }
+    ],
+    "display": "Mark 11:21"
+  },
+  "lemma_quote": "Καὶ παραχρῆμα ἐξηράνθη ἡ συκῆ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.345,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

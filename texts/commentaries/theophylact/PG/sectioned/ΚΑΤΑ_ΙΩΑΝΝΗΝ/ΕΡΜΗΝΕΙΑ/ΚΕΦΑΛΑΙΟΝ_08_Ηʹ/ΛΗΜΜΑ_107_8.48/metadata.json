@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_107_8.48",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 107,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 48
+      }
+    ],
+    "display": "John 8:48"
+  },
+  "lemma_quote": "Ἀπεκρίθησαν οἱ Ἰουδαῖοι, καὶ εἶπον αὐτῷ· Οὐ καλῶς λέγομεν ἡμεῖς, ὅτι Σαμαρείτης εἶ σὺ, καὶ δαιμόνιον ἔχεις;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.992,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.48",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

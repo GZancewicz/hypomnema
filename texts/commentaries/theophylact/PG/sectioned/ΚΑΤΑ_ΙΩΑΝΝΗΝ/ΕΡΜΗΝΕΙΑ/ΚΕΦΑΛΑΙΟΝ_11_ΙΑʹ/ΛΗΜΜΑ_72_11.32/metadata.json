@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_11.32",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 30
+      }
+    ],
+    "display": "John 11:30"
+  },
+  "lemma_quote": "Οὔπω δὲ Ἰησοῦς ἐληλύθει εἰς τὴν κώμην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.712,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

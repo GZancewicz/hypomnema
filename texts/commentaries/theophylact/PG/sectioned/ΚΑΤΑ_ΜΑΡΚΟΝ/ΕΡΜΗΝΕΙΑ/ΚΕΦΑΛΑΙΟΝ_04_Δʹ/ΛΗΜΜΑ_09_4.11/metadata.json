@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_4.11",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 11
+      }
+    ],
+    "display": "Mark 4:11"
+  },
+  "lemma_quote": "ἔλεγεν αὐτοῖς· Ὑμῖν δέδοται γνῶναι τὸ μυστήριον τῆς βασιλείας τοῦ Θεοῦ, ἐκείνοις δὲ τοῖς ἔξω, ἐν παραβολαῖς τὰ πάντα γίνε. ται, ἵνα βλέποντες, βλέπωσι, καὶ μὴ ἴωσι, καὶ ἀκούοντες, ἀκούωσι, καὶ μὴ συνῶσι, μήποτε ἐπιστρέψωσι, καὶ ἀφεθῇ αὐτοῖς τὰ ἀμαρτήματα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.673,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

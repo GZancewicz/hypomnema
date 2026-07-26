@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_79_8.37",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 79,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 47
+      }
+    ],
+    "display": "John 8:47"
+  },
+  "lemma_quote": "Ὁφείλει ὁ ἱερεὺς ὑπὲρ ἑαυτοῦ προσφέρειν, καθὰ καὶ ὑπὲρ τοῦ λαοῦ, ἐπεὶ καὶ αὐτὸς πιρίκειται ἀσθενείαις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.175,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_7.33",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 19,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 33
+      }
+    ],
+    "display": "Mark 7:33"
+  },
+  "lemma_quote": "ἀπολαβόμενος αὐτὸν δπὸ τοῦ ὄχλου κατ´ ἰδίαν, Κβαλε τοὺς δακτύλους αὐτοῦ εἰς τὰ ὧτα αὐτοῦ· καὶ πτύσας ἤψατο τῆς γλώττης αὐτοῦ, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.913,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_3.5",
+  "gospel": "mark",
+  "chapter": 3,
+  "index": 5,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 3:5"
+  },
+  "lemma_quote": "περιβλεψάμενος αὐτοὺς μετ´ ὀργῆς, συλλυπούμενος ἐπὶ τῇ πωρώσε· τῆς καρδίας μὐτῶν, λέγει τῷ ἀνθρώπῳ· Ἔκτεινον τὴν χεῖρά σου. Καὶ ἐξέτεινε, καὶ ἀποκατεστάθη ἡ χεὶρ αὐτοὺ ὑγιὴς, ὡς ἡ ἄλλη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

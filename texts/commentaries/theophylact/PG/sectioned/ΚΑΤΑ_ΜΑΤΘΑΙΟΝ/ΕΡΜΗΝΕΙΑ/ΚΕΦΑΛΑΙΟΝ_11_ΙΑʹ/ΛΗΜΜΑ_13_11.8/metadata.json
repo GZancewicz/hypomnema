@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_11.8",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 11:10"
+  },
+  "lemma_quote": "Οὗτος γάρ ἐστι περὶ οὗ γέγραπται· Ἰδο ἀγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.958,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

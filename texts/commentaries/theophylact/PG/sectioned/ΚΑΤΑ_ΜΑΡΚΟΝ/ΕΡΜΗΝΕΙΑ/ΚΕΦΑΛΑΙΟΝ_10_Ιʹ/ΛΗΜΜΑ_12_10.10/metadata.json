@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 34
+      }
+    ],
+    "display": "Mark 10:34"
+  },
+  "lemma_quote": "ἐμπαίξουσιν αὐτῷ, καὶ μαστιγώσουσιν αὐτὸν, καὶ ἐμπτύσουσιν αὐτῷ καὶ ἀποκτενοῦσιν αὐτὸν, καὶ τῇ τρίτῃ ἡμέρα ἀναστήσεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_4.8",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 14,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 6
+      }
+    ],
+    "display": "John 4:6"
+  },
+  "lemma_quote": "Ἐκαθέζετο οὕτω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_12.44",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 34,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 44
+      }
+    ],
+    "display": "Mark 12:44"
+  },
+  "lemma_quote": "Πάντες γὰρ ἐκ τοῦ περισσεύοντος αὐτοῖς ἔβαλον, αὔτη δὲ, ἐκ τῆς ὑστερήσεως αὐτῆς, πάντα ὅσα εἶχεν ἔβαλεν, ὅλον τὸν βίον αὐ. τῆς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.953,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.44",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

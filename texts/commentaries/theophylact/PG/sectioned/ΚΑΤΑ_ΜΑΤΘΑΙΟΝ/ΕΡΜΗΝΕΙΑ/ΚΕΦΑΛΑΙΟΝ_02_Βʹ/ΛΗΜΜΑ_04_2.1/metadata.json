@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:1"
   },
-  "lemma_quote": "Ἰδοὺ Μάγοι ἀπὸ Ἀνατολῶν παρεγένοντο εἰς Ἱεροσόλυμα",
-  "lemma_quote_en": "Behold, Magi from the East arrived in Jerusalem",
+  "lemma_quote": "Ἰδοὺ Μάγοι ἀπὸ Ἀνατολῶν παρεγένοντο εἰς Ἱεροσόλυμα.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
+  "coverage_source": "greek_pat",
   "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.689,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.1",
   "folder_suffix_agrees": true,
-  "notes": "Expounds the arrival-of-the-Magi clause, the tail of Matt. 2:1."
+  "notes": "Expounds the arrival-of-the-Magi clause, the tail of Matt. 2:1.",
+  "lemma_quote_en": "Behold, Magi from the East arrived in Jerusalem"
 }

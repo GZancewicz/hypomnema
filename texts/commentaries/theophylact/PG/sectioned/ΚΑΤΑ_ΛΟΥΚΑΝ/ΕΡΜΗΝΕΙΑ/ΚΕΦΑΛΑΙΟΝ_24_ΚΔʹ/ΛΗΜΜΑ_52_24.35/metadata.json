@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_24.35",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 52,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 24:33"
+  },
+  "lemma_quote": "Ὅψεσθε τὴν ζωήν ἡμῶν κρεμαμένην,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.18,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "24.35",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

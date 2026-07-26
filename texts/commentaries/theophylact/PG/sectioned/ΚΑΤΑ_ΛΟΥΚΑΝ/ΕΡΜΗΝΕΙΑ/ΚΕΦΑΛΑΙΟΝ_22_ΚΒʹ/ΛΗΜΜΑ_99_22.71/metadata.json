@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_22.71",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 99,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 64
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 64
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 64
+      }
+    ],
+    "display": "Luke 22:64"
+  },
+  "lemma_quote": "Προφήτευσον ἡμῖν, τίς ἐστιν ὁ πᾶίσας σε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.515,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

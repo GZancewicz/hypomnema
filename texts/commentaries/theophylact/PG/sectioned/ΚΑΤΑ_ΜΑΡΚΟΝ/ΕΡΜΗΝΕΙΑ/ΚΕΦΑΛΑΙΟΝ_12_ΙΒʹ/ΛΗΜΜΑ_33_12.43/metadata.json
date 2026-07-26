@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_12.43",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 33,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 43
+      }
+    ],
+    "display": "Mark 12:43"
+  },
+  "lemma_quote": "προσκαλεσάμενος τοὺς μαθητὰς αὐτοῦ, λέγει αὐτοῖς· Ἀμήν λέγω ὑμῖν ὅτι ἡ χήρα αὔτη ἡ πτωχὴ πλεῖον πάντων βέβληκε τῶν βαλόντων εἰς τὸ γαζοφυλάκιον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.888,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.43",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

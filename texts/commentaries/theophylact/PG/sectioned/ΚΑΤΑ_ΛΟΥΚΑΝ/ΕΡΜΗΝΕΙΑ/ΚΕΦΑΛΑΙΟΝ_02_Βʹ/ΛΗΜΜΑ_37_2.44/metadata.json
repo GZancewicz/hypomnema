@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_2.44",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 2:44"
+  },
+  "lemma_quote": "νομίσαντες δὲ αὐτὸν ἐν τῇ συνοδίᾳ εἶναι, ἦλθον ἡμέρας ὀδόν· καὶ ἀνεζήτουν αὐτὸν ἐν τοῖς συγγενέσι καὶ ἐν τοῖς γνωστοῖς· καὶ μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.44",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

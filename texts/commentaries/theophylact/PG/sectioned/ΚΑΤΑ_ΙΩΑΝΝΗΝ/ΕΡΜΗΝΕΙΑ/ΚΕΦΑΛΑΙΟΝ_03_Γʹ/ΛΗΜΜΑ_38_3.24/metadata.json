@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_3.24",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 24
+      }
+    ],
+    "display": "John 3:24"
+  },
+  "lemma_quote": "βεβλημένος εἰς τὴν φυλακὴν ὁ Ἰωάννης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.832,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

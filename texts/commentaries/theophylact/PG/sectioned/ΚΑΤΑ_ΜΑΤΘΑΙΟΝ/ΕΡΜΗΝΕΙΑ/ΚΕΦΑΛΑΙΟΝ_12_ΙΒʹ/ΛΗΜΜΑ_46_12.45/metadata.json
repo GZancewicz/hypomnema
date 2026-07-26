@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_12.45",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 46,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 46
+      }
+    ],
+    "display": "Matthew 12:46"
+  },
+  "lemma_quote": "τι δὲαὐτοῦ λαλοῦντος τοῖς ὄχλοις, ἐδοὺ ἡμήτηρ καὶ οἱ ἰὰδελφοὶ αὐτοῦ εἰστήκεισαν ἕξω, ζητοῦντες αὐτῷ λαλῆσαι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.848,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.45",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

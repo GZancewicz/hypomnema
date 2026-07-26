@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_69_6.37",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 69,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 40
+      }
+    ],
+    "display": "John 6:40"
+  },
+  "lemma_quote": "Πᾶς ὁ θεωρῶν τὸν Υἱὸν, καὶ πιστεύων·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.571,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

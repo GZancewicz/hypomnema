@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_11.52",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 39,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 52
+      }
+    ],
+    "display": "Luke 11:52"
+  },
+  "lemma_quote": "«Οὐαὶ ὑμῖν τοῖς νομικοῖς, ὅτι ᾑρατε τὴν κλεῖδα τῆς γνώσεως· αὐτοὶ οὐκ εἰσήλθετε, καὶ τοὺς εἰσερχομένους ἐκωλύσατε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.52",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

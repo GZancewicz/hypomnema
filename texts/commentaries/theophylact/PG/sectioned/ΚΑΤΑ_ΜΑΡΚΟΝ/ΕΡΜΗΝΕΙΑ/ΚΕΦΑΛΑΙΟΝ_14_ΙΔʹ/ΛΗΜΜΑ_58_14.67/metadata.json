@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_58_14.67",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 58,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 67
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 67
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 67
+      }
+    ],
+    "display": "Mark 14:67"
+  },
+  "lemma_quote": "ἰδοῦσα τὸν Πέτρον θερμαινόμενον, ἐμβλέψασα αὐτῷ, λέγει· Καὶ σὺ μετὰ τοῦ Ναζαρηνοῦ Ἰησοῦ ἦσθα. Ὁ δὲ ἡρνήακτο, λέγων· Οὐκ οἶδα, οὐδὲ ἐπίσταμαι τί σὺ λέγει-· καὶ ἐ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.815,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.67",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

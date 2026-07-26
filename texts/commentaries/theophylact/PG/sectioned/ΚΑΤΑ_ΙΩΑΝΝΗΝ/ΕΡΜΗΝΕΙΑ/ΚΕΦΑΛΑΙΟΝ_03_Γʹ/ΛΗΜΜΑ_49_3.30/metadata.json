@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_3.30",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 30
+      }
+    ],
+    "display": "John 3:30"
+  },
+  "lemma_quote": "Ἐστηκώς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.216,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "3.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

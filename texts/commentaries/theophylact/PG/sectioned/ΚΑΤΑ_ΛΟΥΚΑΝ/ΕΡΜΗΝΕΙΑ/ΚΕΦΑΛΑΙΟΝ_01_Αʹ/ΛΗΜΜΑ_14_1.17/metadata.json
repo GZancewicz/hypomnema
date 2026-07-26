@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_1.17",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 1:17"
+  },
+  "lemma_quote": "αὐτὸς προελεύσεται ἐνώπιον αὐτοῦ ἐν πνεύματι καὶ δυνάμει Ἡλιοῦ, ἐπιστρέψαι καρδίας πατέρων ἐπὶ τέκνα, καὶ ἀπειθεῖς ἐν φρονήσει δικαίων, ἐτοιμάσαι Κυρίῳ λαὸν κατεσκευασμένον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

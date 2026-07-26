@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_4.27",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 29
+      }
+    ],
+    "display": "John 4:29"
+  },
+  "lemma_quote": "Ποιήσωμεν ἄνθρωπον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.34,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

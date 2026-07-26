@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_16.22",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 16:24"
+  },
+  "lemma_quote": "Ζῶ δὲ οὐκ ἔτι ἐγὼ, ζῇ δὲ ἐν ἐμοὶ Χριστός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.257,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

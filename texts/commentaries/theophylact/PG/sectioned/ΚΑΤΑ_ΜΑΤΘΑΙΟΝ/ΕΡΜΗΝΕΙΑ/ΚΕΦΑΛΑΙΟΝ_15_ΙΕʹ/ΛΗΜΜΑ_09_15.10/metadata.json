@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_15.10",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 15:10"
+  },
+  "lemma_quote": "προσκαλεσάμενος τὸν ὄχλον, εἶπεν αὐτοῖς· Ἀκούετε καὶ συνίετε. Οὐ τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

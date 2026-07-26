@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_104_14.25",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 104,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 25
+      }
+    ],
+    "display": "John 14:25"
+  },
+  "lemma_quote": "«Ταῦτα λελάληκα ὑμῖν, παρ´ ὑμῖν μένων· ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

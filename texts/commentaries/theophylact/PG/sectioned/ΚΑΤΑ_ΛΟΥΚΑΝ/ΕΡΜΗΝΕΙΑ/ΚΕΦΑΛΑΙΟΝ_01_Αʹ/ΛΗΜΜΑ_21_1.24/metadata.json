@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_1.24",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 1:25"
+  },
+  "lemma_quote": "κκτὰ δὲ ταύτας τὰς ἡμέρας συνέλαβεν Ἐλισάβετ ἡ γυνὴ αὐτοῦ, καὶ περιέκρυβεν δαυτὴν μῆνας πάντε, λέγουσα ὅτι, Οὔτω μοι πεποίηκεν ὁ Κύριος ἐν ἡμέραις αἴς ἐπεῖδεν ἀφελεῖν τὸ ὄνειδός μου ἐν ἀνθρώποις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.79,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

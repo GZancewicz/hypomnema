@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 28
+      }
+    ],
+    "display": "Matthew 25:28"
+  },
+  "lemma_quote": "ἄρατε αῆν ἀπ´ αὐτοῦ τὸ τάλαντον, καὶ δότε τῷ ἔχοντι τὰ δέκα τάλαντα. Τῷ γὰρ ἔχοντι παντὶ ὅοθήσεται, καὶ περισσευθήσεται· ἁπὸ δὲ τοῦ μὴ ἔχοντος, καὶ Δ Κχει, ἀρθή",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.69,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

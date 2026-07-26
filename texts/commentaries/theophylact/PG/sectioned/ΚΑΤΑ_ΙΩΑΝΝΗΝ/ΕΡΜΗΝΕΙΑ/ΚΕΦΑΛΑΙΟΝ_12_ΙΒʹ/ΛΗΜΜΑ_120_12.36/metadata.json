@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_120_12.36",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 120,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 36
+      }
+    ],
+    "display": "John 12:36"
+  },
+  "lemma_quote": "Ἵνα γὰρ, φησὶν, υἱοὶ φωτὸς γένησθε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.466,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

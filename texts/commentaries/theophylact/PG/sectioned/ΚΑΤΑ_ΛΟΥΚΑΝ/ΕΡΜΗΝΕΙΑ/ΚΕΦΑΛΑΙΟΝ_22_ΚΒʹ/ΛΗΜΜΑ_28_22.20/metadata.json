@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_22.20",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 22:17"
+  },
+  "lemma_quote": "Λάβετε, καὶ διαμερίσατε ἐαυτοῖς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.71,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

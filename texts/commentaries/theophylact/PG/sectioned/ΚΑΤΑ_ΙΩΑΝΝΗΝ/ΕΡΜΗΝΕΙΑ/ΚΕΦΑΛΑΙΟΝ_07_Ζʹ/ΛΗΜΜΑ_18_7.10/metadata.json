@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_7.10",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 8
+      }
+    ],
+    "display": "John 7:8"
+  },
+  "lemma_quote": "Οὐκ ἀναβαίνω εἰς τὴν ἑορτὴν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.521,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_4.36",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 29,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 36
+      }
+    ],
+    "display": "Mark 4:36"
+  },
+  "lemma_quote": "ἀφέντες τὸν ὄχλον, παραλαμβάνουσιν αὐτὸν ὡς ἦν ἐν τῷ πλοίῳ. Καὶ ἄλλα ὃὲ πλοιάρια ἦν μετ´ αὐτοῦ. Καὶ αίντται λαῆαυ ἀνέμου μεγάλη· τα δὲ κύματα ἀπἴλλεν εἰς τὸ πλο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.765,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

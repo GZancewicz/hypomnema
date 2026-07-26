@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_2.9",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 2:10"
+  },
+  "lemma_quote": "Ἰόντες δὲ τὸν κστέρα, ἐχάρησαν χαρὰν μεγάλην σφόδρα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.835,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

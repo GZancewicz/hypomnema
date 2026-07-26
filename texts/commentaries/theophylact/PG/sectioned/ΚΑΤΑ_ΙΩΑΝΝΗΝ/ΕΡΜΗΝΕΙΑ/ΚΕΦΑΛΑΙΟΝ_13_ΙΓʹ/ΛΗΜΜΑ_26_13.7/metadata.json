@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_13.7",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 7
+      }
+    ],
+    "display": "John 13:7"
+  },
+  "lemma_quote": "Μετὰ ταῦτα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.44,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_15.18",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 19
+      }
+    ],
+    "display": "John 15:19"
+  },
+  "lemma_quote": "κόσμος ὑμᾶς μισεῖ, γινώσκετε, ὅτι ἐμὲ πρῶτον ἡμῶν μεμίσηκεν. Εἰ ἐκ τοῦ κόσμου ἦτε, ὁ κόσμος ἂν τὸἴδιον ἐφίλει. Ὅτι δὲ ἐκ τοῦ κόσμου οὐκ ἐστὲ, ἀλλ´ ἐγώ ἐξελεξάμην ὑμᾶς ἐκ τοῦ κόσμου, ὃιὰ τοῦτο μισεῖ όμάς ὁ κόσμος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.886,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

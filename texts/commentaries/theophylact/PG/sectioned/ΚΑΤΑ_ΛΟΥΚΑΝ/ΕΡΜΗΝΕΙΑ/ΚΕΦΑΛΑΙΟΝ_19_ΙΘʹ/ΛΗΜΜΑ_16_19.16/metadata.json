@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_19.16",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 16,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 19:17"
+  },
+  "lemma_quote": "Παρεγένετο δὲ ὁ πρῶτος λέγων· Κύριε, ἡ μνᾶ οου προσειργάσατο δέκα μνᾶς. Καὶ εἶπεν αὐτῷ· Εὗ, δοῦλε ἀγαθὲ, ὅτι ἑν ἐλαχίστῳ πιστὸς ἐγένου, ἴσθι ἐξουσίαν ἔχων ἐπάνε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.748,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

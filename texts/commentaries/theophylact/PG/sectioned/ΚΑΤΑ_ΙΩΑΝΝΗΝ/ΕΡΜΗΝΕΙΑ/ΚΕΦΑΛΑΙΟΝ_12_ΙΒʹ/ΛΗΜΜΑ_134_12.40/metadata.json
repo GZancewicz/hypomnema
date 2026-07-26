@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_134_12.40",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 134,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 38
+      }
+    ],
+    "display": "John 12:38"
+  },
+  "lemma_quote": "τίς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.273,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

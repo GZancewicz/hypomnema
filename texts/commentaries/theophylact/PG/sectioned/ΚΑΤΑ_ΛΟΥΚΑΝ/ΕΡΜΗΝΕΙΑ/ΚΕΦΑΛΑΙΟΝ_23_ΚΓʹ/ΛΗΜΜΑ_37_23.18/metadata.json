@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 40
+      }
+    ],
+    "display": "Luke 23:40"
+  },
+  "lemma_quote": "Ἀποκριθεὶς δὲ ὁ ἕτερος ἐπετίμα αὐτῷ, λέγων· Οὐδὲ φοβῇ σὺ τὸν Θεὸν, ὅτι ἐν τῷ αὐτῷ κρίματι εἰ; καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

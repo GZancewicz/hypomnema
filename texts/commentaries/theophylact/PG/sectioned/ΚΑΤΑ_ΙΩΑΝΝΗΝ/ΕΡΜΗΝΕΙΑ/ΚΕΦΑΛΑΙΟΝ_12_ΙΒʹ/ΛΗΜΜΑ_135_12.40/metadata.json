@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_135_12.40",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 135,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 38
+      }
+    ],
+    "display": "John 12:38"
+  },
+  "lemma_quote": "Κύρια, τίς ἐπίστευσε τῇ ἀκοῇ ἡμῶν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.519,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

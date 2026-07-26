@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_22.66",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 95,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 66
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 66
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 66
+      }
+    ],
+    "display": "Luke 22:66"
+  },
+  "lemma_quote": "ἐγένετο ἡμέρα, συνήχθη τὸ πρεσβυτέριον τοῦ λαοῦ, καὶ οἱ ἀρχιερεῖς, καὶ οἱ Γραμματεῖς; καὶ ἀνήγαγον αὐτὸν εἰς τὸ συνέδριον αὐτῶν λέγοντες· Εἰ σὺ εἶ ὁ Χριστὸς, εἰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.885,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.66",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

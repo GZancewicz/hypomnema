@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_12.43",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 12:44"
+  },
+  "lemma_quote": "«Οοοοἱ κεινωε ἱἱο ἱα οόεο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

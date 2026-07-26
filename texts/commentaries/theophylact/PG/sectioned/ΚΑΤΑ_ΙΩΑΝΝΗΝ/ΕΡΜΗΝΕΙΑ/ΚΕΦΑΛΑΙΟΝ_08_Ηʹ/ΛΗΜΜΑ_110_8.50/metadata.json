@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_110_8.50",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 110,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 47
+      }
+    ],
+    "display": "John 8:47"
+  },
+  "lemma_quote": "Ὁ ὢν ὲ ἐν ποῦ Θιοῦ τὰ ὁήματα τοῦ Θεοῦ ἀκούει·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.601,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

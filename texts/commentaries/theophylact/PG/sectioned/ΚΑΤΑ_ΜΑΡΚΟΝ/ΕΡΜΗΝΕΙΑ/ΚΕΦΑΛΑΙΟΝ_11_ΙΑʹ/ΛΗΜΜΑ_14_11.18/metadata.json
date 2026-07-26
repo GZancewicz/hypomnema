@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_11.18",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 14,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 18
+      }
+    ],
+    "display": "Mark 11:18"
+  },
+  "lemma_quote": "ἤκουσαν οἱ Γραμματεῖς καὶ οἱ ἀρχιερεῖς, καὶ ἐζήταν πῶ- αὐτὸν ἁπολέσωσιν. Ἐφοβοῦντο γὰρ αὐτὸν, ὅτι πᾶς ὁ ὄχλος ἐξεπλήσσετο ἐπὶ τῇ διδαχῇ αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.884,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

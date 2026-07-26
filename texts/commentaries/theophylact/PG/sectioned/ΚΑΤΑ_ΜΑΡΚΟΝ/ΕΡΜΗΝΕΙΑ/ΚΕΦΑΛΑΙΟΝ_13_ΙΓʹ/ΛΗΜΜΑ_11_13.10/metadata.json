@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_13.10",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 11,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 11
+      }
+    ],
+    "display": "Mark 13:11"
+  },
+  "lemma_quote": "«Ὅταν δὲ ἄγωσιν ὑμᾶς παραδιδόντες, μὴ πραμεριμνᾶτε τί λαλήσητε, μηδὲ μελετᾶτε. Ἀλλ´ ὃ ἐὰν δοθῇ ὑμῖν ἐν ἐκείνῃ τῇ ὥρᾳ, τοῦτο λαλεῖτε. Οὐ γάρ ἐστε ὑμεῖς οἱ λαλοῦν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.826,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

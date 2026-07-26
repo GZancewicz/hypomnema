@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_124_17.26",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 124,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 25
+      }
+    ],
+    "display": "John 17:25"
+  },
+  "lemma_quote": "τούτοις",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

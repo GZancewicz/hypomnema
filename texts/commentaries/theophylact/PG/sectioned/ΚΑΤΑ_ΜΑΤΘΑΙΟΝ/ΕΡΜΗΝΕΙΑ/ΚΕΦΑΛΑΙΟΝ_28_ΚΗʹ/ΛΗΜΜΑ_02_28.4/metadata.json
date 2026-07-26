@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_28.4",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 28:5"
+  },
+  "lemma_quote": "φόβου αὐτοῦ ἐσείσθησαν οἱ τηροῦντες, καὶ ἐγένοντο ὡσεὶ νεκροί. Ἀποκριθεὶς δὲ ὁ ἄγγελος εἶπε ταῖς Γυναιξί· Μὴ φοβεῖσθε ὑμεῖς. Οἱδα γὰρ, ὅτι Ἰησοῦν τὸν ἐσταυρωμέν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.716,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "28.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

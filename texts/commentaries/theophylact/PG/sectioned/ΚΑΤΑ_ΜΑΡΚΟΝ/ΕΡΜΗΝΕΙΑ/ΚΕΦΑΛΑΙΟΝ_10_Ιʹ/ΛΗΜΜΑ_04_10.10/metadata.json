@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 4,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 10:14"
+  },
+  "lemma_quote": "Δεῦτε πρός με, πάντες οἱ κοπιῶντες καὶ πεφορτισμένοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.209,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

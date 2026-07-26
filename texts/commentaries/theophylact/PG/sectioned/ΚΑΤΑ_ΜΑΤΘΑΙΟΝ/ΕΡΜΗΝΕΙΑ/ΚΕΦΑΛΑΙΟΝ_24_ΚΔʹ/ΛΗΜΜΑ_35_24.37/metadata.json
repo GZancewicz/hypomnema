@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_24.37",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 38
+      }
+    ],
+    "display": "Matthew 24:38"
+  },
+  "lemma_quote": "Ὥσπερ γὰο ἦσαν ἐν ταῖς ἡμέραις τα´ προ τοῦ κατακλυσμοῦ τρώοντες καὶ πίνοντες. γαμοῦντες καὶ ἐκγαμίζον σες. ἄχρις ἥς ἤμέρας εἰ λθε Νῶε εἰς τὴν κιβῶτὸν, καὶ οὐκ ἔγνωσαν βως ἦλθ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.777,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

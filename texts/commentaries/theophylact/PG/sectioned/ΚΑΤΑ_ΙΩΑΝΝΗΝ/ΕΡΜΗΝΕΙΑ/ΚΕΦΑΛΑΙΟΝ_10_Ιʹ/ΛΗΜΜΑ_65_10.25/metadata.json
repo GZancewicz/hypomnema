@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_10.25",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 25
+      }
+    ],
+    "display": "John 10:25"
+  },
+  "lemma_quote": "Ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· Εἶπον ὑμῖν, καὶ οὐ πιστεύετε. Τὰ ἔργα ἃ ἐγὼ ποιῶ ἐν τῷ ὀνόματι τοῦ Πατρός μου, ταῦτα μαρτυρεῖ περὶ ἐμου. Ἀλλ´ ὁμεῖς οὐ πιστεύετε· οὐ γάρ ἐστε ἐκ τῶν προβάτων τῶν ἐμῶν, καθὼς εἶπον ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.811,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_7.38",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 39
+      }
+    ],
+    "display": "John 7:39"
+  },
+  "lemma_quote": "Μέλλων αὐτοὺς πέμπειν, ἔδωκεν αὐτοῖς ἐξουσίαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.306,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_8.29",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 28
+      }
+    ],
+    "display": "John 8:28"
+  },
+  "lemma_quote": "γνώσεσθε, ὅτι ἐγὼ εἰμι·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

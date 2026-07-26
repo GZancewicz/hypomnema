@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_7.13",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 6,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 13
+      }
+    ],
+    "display": "Mark 7:13"
+  },
+  "lemma_quote": "ἀκυροῦντες τὸν λόγον τοῦ Θεοῦ τῇ παραδόσει ὑμῶν ᾗ παρεδώκατε, καὶ παρόμοια τοιαῦπτα πολλὰ ποιεῖτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.951,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

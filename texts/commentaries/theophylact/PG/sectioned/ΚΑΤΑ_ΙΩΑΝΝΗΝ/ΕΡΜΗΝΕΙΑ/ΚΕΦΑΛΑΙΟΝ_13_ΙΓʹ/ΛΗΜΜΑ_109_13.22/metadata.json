@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_109_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 109,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 38
+      }
+    ],
+    "display": "John 13:38"
+  },
+  "lemma_quote": "Ἀπεκρίθη αὐτῷ ὁ Ἰησοῦς· Τὴν ψυχήν σολ ὑπερ ἐμοῦ θήσεις; Ἀμὴν, ἀμὴν λέγω σοι, οὐ μὴ ἀλέκτωρ φωνήσῃ, ἕως οὗ ἀπαρνήσῃ με τρίς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.924,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

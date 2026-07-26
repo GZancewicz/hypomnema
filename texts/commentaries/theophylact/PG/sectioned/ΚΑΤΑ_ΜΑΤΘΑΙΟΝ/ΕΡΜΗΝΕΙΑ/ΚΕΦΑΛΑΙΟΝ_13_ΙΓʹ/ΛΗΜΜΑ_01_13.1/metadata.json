@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_13.1",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 13:2"
+  },
+  "lemma_quote": "ἡμέρᾳ ἐκείνῃ ἐξελθὼν ὁ Ἰησοῦς ἀποτῆς οἰκίας, ἐκάθητο παρὰ τὴν θάλασταν. Καὶ συνχθησαν πρὸς αὐτὸν ὄχλοι πολλοὶ, ὥστε αὐτὸν εἰς τὸ πλοῖον ἐμβάντα καθῆσθαι, καὶ πᾶς ὁ ὄχλος ἐπὶ τὸν αἰγιαλὸν εἰστήκει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.781,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

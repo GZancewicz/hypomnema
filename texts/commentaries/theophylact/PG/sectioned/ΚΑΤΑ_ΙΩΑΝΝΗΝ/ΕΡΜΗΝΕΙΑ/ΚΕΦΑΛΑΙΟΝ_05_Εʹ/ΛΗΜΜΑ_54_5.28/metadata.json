@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_5.28",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 54,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 24
+      }
+    ],
+    "display": "John 5:24"
+  },
+  "lemma_quote": "Ὁ πιστεύων, εἰς κρίσιν οὐκ ἔρχεται,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.468,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

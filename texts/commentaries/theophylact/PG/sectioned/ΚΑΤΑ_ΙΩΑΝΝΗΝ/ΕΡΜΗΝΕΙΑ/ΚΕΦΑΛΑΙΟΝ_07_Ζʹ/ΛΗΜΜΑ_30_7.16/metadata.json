@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_7.16",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 30,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 15
+      }
+    ],
+    "display": "John 7:15"
+  },
+  "lemma_quote": "Πῶς οὗτος οἶδε γράμματα;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.69,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

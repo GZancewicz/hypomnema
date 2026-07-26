@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_19.19",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 21
+      }
+    ],
+    "display": "John 19:21"
+  },
+  "lemma_quote": "Ἔγραψε δὲ καὶ τῖτλον ὁ Πιλάτος, καὶ ἔθηκεν ἐπὶ τοῦ σταυροῦ· ἦν δὲ γεγραμμένον· Ἰησοῦς ὁ Ναῖωοαῖος, ὁ βασιλεὺς τῶν Ἰουδαίων. Τοῦτον οὗν τὸν τῖτλον πολλοὶ ἀνέγνωσαν τῶν Ἰουδαίων. ὅτι ἐνγὺς ἦν ὁ τόπος τῆς πόλεως, ὅπου ἐσταυρώθη ὁ Ἰησοῦς. Καὶ ἦν γεγραμμένον Ἑβραῖστὶ, Ἑλληνιστὶ, Ῥωμαῖστί.· Ἔλεγον οὐν τῷ Πιλάτῳ οἱ ἀρχιερεῖς τῶν Ἰουδαίων· Λὴ γράφε· Ὁ βασιλεὺς τῶν Ἰουἰαίων, ἀλλ´ ὅτι ἐκεῖνος εἶπε· Βασιλεύς εἰμι τῶν Ἰουδαίων. Ἀπεκρίθη ὁ Πιλάτος· Ὁ γέγραφα, γέγραφα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.672,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_84_11.40",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 84,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 40
+      }
+    ],
+    "display": "John 11:40"
+  },
+  "lemma_quote": "Λέγει αὐτῇ ὁ Ἰησοῦς· Οὐκ εἶπόν σοι, ὅτι ἐὰν πιστεύσῃς, ὄψει τὴν δόξαν τοῦ Θεοῦ; Ἡραν οὐν τὸν λίθον, οὐ ἠν ὁ τεθηκὼς κείμενος. Ὁ δὲ Ἰησοῦς ἦρε τοὺς ὀφθαλμοὺς ἀνω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.715,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

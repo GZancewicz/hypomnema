@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_14.8",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 14:8"
+  },
+  "lemma_quote": "προβιβασθεῖσα ὑπὸ τῆς μητρὸς αὐτῆς· Δός μοι, φησὶν, ὧδε ἐπὶ πίνακι τὴν κεφαλήν Ἰωάννου τοῦ Βαπτιστοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

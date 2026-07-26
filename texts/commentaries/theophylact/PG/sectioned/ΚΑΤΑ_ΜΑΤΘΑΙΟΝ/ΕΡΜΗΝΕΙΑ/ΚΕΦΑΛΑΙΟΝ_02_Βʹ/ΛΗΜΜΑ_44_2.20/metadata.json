@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_2.20",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 2:20"
+  },
+  "lemma_quote": "λέγων· Ἐγερθεῖς, παράλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ, καὶ πορεύου εἰς γῆνζΙσραήλ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.66,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

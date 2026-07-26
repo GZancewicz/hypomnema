@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_16.12",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 44,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 13
+      }
+    ],
+    "display": "John 16:13"
+  },
+  "lemma_quote": "Ὅσα ἤκουσα παρὰ τοῦ Πατρός μου λαλῶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.332,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

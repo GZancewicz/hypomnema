@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 11,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 33
+      }
+    ],
+    "display": "Mark 10:33"
+  },
+  "lemma_quote": "ἀναβαίνομεν εἰς Ἱεροσόλυμα, καὶ ὁ Υἱὸς τοῦ ἀνθρώπου παραδοθήσεται τοῖς ἀρχιερεῦσι καὶ Γραμματεῦσι, καὶ κατακρινοῦσιν αὐτὸν θανάτῳ, καὶ παραδώσουσιν αὐτὸν τοῖς ἔ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.919,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

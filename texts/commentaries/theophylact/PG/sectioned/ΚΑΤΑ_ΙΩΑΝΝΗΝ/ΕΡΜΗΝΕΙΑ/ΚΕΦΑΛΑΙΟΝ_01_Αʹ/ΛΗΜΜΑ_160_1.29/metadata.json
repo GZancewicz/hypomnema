@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_160_1.29",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 160,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 26
+      }
+    ],
+    "display": "John 1:26"
+  },
+  "lemma_quote": "Μέσος ὑμῶν ἔστηκεν, ὃν ἐμεῖς οὐκ οἴδατε, ὃς ἔμπροσθέν μου γέγονε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.603,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_101_22.71",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 101,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 67
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 67
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 67
+      }
+    ],
+    "display": "Luke 22:67"
+  },
+  "lemma_quote": "Ἐὰν ὑαῖν εἴπω, φησὶν, οὐ μὴ πιστεύσητε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.659,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

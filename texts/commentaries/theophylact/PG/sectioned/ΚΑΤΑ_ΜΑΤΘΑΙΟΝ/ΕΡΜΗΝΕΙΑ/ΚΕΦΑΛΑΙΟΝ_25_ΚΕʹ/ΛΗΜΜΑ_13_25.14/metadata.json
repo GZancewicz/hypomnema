@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_25.14",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 14
+      }
+    ],
+    "display": "Matthew 25:14"
+  },
+  "lemma_quote": "«Ὥσπερ γὰρ ἄνθρωπος ἀποδημῶν, ἐκάλεσε τοὺς ἰδῖους δούλους, καὶ παρέδωκεν αὐτοῖς τὰ ὑπάρχοντα αὐτοῦ, καὶ ᾧ μὲν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.962,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_10.36",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 35
+      }
+    ],
+    "display": "John 10:35"
+  },
+  "lemma_quote": "πρὸς οὓς ὁ λόγος τοῦ Θεοῦ ἐγένετο,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.665,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

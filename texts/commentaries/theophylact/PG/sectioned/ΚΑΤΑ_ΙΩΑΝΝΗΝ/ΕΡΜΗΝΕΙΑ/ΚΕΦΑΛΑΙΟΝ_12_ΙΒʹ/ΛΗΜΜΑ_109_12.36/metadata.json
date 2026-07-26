@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_109_12.36",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 109,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 34
+      }
+    ],
+    "display": "John 12:34"
+  },
+  "lemma_quote": "Μένει γὰρ εἰς τὸν αἰῶνα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.826,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

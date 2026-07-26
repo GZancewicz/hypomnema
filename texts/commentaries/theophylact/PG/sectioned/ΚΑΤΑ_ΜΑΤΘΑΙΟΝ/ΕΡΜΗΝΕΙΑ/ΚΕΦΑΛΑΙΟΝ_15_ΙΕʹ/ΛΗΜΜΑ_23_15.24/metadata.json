@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_15.24",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 15:27"
+  },
+  "lemma_quote": "Ἡ δὲ, ἐλθοῦσα προσεκύνησεν αὐτῷ, λέγουσα, Κύρις, βοήθει μοι. Ὁ δὲ, ἀποκριθεὶς εἶπεν· Οὐκ ἕστι καλθν λαβεῖν τὸν ἄρτον τῶν τέκνῶν, καὶ βαλεῖν τοῖς κυναρίοις. Ἐ δὲ εῖπε· Ναὶ, Κύριε· καὶ γὰρ τὰ πυνάρκα ἐσθίει ἀπὸ τῶν ψιχίων τῶν πιπτόντων ἀπὸ τῆς τραπέζης τῶν κυρίων αὐτῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.691,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

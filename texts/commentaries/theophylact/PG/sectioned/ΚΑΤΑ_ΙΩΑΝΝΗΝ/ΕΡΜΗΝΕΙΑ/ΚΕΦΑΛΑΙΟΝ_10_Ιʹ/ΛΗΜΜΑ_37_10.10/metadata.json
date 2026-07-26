@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_10.10",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 15
+      }
+    ],
+    "display": "John 10:15"
+  },
+  "lemma_quote": "«Εἰ οὖν ἐμὲ ζητεῖτε, ἄφετε τούτους ὑπάγειν, ἵνα πληρωθῇ ὁ λόγος, ὅτι Θὐδεὶς ἐξ αὐτῶν ἀπώλετο·· καὶ ταῦτα οὕτως ἐπιθεμένων τῶν Ἰουδαίων, ὡς οὐδ´ ἂν λύκοι προβάτο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.233,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

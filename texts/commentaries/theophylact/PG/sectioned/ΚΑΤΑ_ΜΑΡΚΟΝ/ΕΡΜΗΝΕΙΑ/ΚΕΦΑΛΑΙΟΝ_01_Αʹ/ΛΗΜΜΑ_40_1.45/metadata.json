@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_1.45",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 40,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 45
+      }
+    ],
+    "display": "Mark 1:45"
+  },
+  "lemma_quote": "ἐξελθὼν ἥρξατο κηρύσσειν τολλὰ, καὶ διαφημίζειν τὸν λόγον, ὥστε μηκέτι αὐπὴν δύνασθαι φανερῶς εἰς πόλιν εἰσελθεῖν, ἀλλ´ ἔξω ἐν ἐρήμοις τόποις ἦν, καὶ ἤρχοντο πρὸς αὐτὸν πανταχόθεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.974,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.45",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

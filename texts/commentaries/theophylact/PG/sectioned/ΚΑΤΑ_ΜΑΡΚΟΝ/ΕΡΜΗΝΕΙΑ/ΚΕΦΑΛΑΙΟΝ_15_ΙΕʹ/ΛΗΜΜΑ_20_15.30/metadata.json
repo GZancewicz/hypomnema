@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_15.30",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 31
+      }
+    ],
+    "display": "Mark 15:31"
+  },
+  "lemma_quote": "σῶσον σεαυτόν· καὶ κατάβα ἀπὸ τοῦ σταυροῦ. Ὁμοίως δὲ καὶ οἱ ἀρχιτρεῖς ἐμπαίζοντες πρὸς ἀλλήλους μετὰ τῶν Γραμματέων ἔλεγον· Ἄλλους ἔπωσεν, ἑαυτὸν οὐ δύναται σῶσ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.724,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

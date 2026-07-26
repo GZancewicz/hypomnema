@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_9.29",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 29
+      }
+    ],
+    "display": "Matthew 9:29"
+  },
+  "lemma_quote": "«Τότε ἤψατο τῶν ὀφθαλμῶν αὐτῶν, λέγων· Κατὰ τὴν πίστιν ὑμῶν γενηθήτω ὑμῖν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

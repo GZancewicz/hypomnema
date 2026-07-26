@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_8.30",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 8:30"
+  },
+  "lemma_quote": "Ἐπηρώτησε δὲ αὐτὸν ὁ Ἰησοῦς, λέγων · Τί σοί ἐστιν ὄνομα; Ὁ δὲ εἶπε· Λεγεὼν ὅτι αιμόνια πολλὰ εἰσῆλθον εἰς αὐτὸν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.849,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

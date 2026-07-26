@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_157_12.47",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 157,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 47
+      }
+    ],
+    "display": "John 12:47"
+  },
+  "lemma_quote": "Ἐάν τις ἀκούσῃ μου φησὶ, καὶ οὐ πιστεύση, ἐγὼ οὐ κρίνω αὐτόν. Οὐ γὰρι ἦλθον, ἵνα κρίνω τὸν κόσμον, ἀλλ´ ἵνα σώσω τὸν κόσμον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.47",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

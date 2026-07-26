@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_117_8.52",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 117,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 51
+      }
+    ],
+    "display": "John 8:51"
+  },
+  "lemma_quote": "«Ἑάν τις τὸν λόγον μου τηρήσῃ· τουτέστιν, ἐὰν μετὰ τοῦ πιστεῦσαι, καὶ βίον ἔχῃ καθαρόν· τότε γὰρ τηρεῖ τις ἀληθῶς τὴν τοῦ Κυρίου διδασκαλίαν, ὅτε καὶ καθαρὸν ἔχ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.349,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.52",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_20.7",
+  "gospel": "matthew",
+  "chapter": 20,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 20:1"
+  },
+  "lemma_quote": "«Ὁ Χριστός ἐστιν ἡ βασιλεία τῶν οὐρανῶν, ὃς ὁμοιοῦται ἀνθρώπῳ, καθ´ ὃ μορφὴν ἡμετέραν ἔλαβεν· οἰκοδεσπότης δὲ, ὡς δεσπόζων τοῦ οἴκου, τουτέστι τῆς Ἐκκλησίας. Οὗ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.414,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_21.14",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 19,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 12
+      }
+    ],
+    "display": "John 21:12"
+  },
+  "lemma_quote": "Σηναιλλι. ζόμενος αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.183,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_9.30",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 31
+      }
+    ],
+    "display": "John 9:31"
+  },
+  "lemma_quote": "πίστιν καὶ ἀγαθὴν συνείδησιν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.076,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

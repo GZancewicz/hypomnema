@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 25,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 15:25"
+  },
+  "lemma_quote": "«Ἡν δὲ ὁ υἱὸς αὐτοῦ ὁ πρεσβύτερος ἐν ἀγρῳ, ὶνῶς ἐρκόμενος ἡμψι πα τήοἰκίᾳ, ἣκουσε συμφωνίας ὁ γὰρ ἀπολωλὼς μετριώτερον, ἢ ὁ νεκρός. Νκμσ. Ζῦ-.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.612,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

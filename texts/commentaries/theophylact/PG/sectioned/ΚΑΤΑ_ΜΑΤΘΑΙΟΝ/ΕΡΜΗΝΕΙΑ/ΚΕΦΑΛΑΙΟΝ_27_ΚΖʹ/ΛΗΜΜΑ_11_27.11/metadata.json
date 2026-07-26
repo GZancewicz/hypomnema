@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_27.11",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 27:11"
+  },
+  "lemma_quote": "«Ὁ δὲ Ἰησοῦς Ιστη ἕμπροσθεν τοῦ ἡγεμόνος, καὶ ἐπηρώτησεν αὐτὸν ὁ ἡγεμὼν, λέγων· Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων; Ὁ δὲ Ἰησοῦς ἔφη αὐτῷ· Σὺ λέγεις. Καὶ ἐν τῷ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.945,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

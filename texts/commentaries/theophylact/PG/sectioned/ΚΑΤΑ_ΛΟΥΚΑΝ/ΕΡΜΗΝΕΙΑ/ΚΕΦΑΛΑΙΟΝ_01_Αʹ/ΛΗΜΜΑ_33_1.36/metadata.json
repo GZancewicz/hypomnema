@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_1.36",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 39
+      }
+    ],
+    "display": "Luke 1:39"
+  },
+  "lemma_quote": "«Ἀνκστᾶσ ἄὲ Μαρίὰκ ἐν ταῖς ἡμέραις ταύταις, ἐπορεύθη εἰς τὴν ὁρεινὴν μετὰ σπουδῆς, εἰς πόλιν Ἱούδα· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.925,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

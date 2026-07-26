@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_22.71",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 103,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 68
+      }
+    ],
+    "display": "Luke 22:68"
+  },
+  "lemma_quote": "Εἰπεν ὁ Κύριος τῷ Κυρίῳ μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.236,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

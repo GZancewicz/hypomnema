@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_22.12",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 15
+      }
+    ],
+    "display": "Luke 22:15"
+  },
+  "lemma_quote": "Ἐκ γῆς δέ με ἔπλασας,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

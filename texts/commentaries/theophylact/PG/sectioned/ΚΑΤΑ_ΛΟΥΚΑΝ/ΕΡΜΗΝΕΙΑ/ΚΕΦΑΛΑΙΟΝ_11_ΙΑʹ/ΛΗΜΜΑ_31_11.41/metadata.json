@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_11.41",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 11:42"
+  },
+  "lemma_quote": "«Ἀλλ´ οὐαὶ ὑμῖν τοῖς δαρισαίοις, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον, καὶ τὸ πήγανον, καὶ πᾶν λάχακον, καὶ παρέρχεσθε τὴν κρίσιν, καὶ τὴν ἀγάπην τοῦ Θεοῦ· ταῦτα ἔδει π",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.843,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

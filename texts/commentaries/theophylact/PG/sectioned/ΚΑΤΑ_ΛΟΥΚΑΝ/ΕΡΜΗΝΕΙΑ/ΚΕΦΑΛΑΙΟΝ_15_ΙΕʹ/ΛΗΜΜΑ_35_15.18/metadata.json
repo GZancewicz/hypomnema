@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 35,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 3
+      }
+    ],
+    "display": "Luke 15:3"
+  },
+  "lemma_quote": "Ἔως πότε ἀμαρτωλοὶ, Κύριε, ἕως πότε άμαρτωλοὶ καυχήσονται",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.298,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

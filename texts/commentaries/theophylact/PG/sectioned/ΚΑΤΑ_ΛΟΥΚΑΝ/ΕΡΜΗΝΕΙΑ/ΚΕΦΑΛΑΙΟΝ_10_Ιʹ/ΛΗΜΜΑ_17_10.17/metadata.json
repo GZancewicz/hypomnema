@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_10.17",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 17,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 10:17"
+  },
+  "lemma_quote": "«Ὑπέστρεψαν δὲ οἱ ἑβδομήκοντα μετὰ χαρᾶς, λέγοντες· Κύριε, καὶ τὰ δαιμόνια ὑποτάσσεται ἡμῖν Ἀν τῷ ὀνόματί σου. Εἶπε δὲ αὐτοῖς· Ἐθεώρουν τὸν Σατανᾶν ὡς ἀστραπὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.822,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

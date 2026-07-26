@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_184_1.39",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 184,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 39
+      }
+    ],
+    "display": "John 1:39"
+  },
+  "lemma_quote": "«Ἔρχεσθε, φησί, καὶ ἴδετε. Τοῦτο δὲ ποιεῖ, ἅμα μὲν ἐπισπώμενος αὐτοὺς πλέον πρὸς τὴν ἀκολούθησιν, ἅμα δὲ γυμνάζα ν φὐτῶν τὸν σάθον, εἰ μὴ ἀποκάμοιεν πρὸς τὴν ὁδ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.275,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_3.7",
+  "gospel": "matthew",
+  "chapter": 3,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 3,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 3:8"
+  },
+  "lemma_quote": "Ἕκκλινον γὰρ, φησὶν, ἀπὸ κακοῦ, καὶ ποίησον ἀγαθόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.149,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "3.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

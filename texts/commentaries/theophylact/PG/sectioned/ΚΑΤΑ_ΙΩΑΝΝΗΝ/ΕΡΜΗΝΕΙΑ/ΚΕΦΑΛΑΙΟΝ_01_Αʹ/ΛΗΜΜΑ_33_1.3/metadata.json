@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_1.3",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 12
+      }
+    ],
+    "display": "John 1:12"
+  },
+  "lemma_quote": "Καὶ σὺ κατ´ ὁρχὰς, Κύριο, τὴν γὴν ἐθεμελίωσας, καὶ ἔργα τῶν κρῶν σού οἰσιν οἱ οὐρανοί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.278,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

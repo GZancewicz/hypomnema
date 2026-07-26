@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_15.21",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 60,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 20
+      }
+    ],
+    "display": "John 15:20"
+  },
+  "lemma_quote": "Μνήσθητε γὰρ, φησί, τοῦ λόγου μου, ὅτι οὐκ ἔστι δοῦλος μείζων τοῦ κυρίου αὐτοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.609,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

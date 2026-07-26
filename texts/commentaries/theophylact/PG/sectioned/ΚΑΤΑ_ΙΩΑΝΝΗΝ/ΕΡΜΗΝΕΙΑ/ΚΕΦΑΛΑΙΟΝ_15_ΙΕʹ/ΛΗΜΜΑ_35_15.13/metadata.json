@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_15.13",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 35,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 12
+      }
+    ],
+    "display": "John 15:12"
+  },
+  "lemma_quote": "Ἵνα γὰρ, φησὶν, ἀγαπᾶτε ἀλλήλους, καθὼς ἠγάπησα ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.654,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

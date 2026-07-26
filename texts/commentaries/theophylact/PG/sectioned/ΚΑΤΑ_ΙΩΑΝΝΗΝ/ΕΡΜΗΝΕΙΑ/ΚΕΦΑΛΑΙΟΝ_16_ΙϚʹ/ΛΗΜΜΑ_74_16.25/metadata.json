@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_16.25",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 26
+      }
+    ],
+    "display": "John 16:26"
+  },
+  "lemma_quote": "Ἐν τῷ ὀνόματί μου, φησὶν, αἰτήσασθε [αἰτήσεσθε ],",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.557,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

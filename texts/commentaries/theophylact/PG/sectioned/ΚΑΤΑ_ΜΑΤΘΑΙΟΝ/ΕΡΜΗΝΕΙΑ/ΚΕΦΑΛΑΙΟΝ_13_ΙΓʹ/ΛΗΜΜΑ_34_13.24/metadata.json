@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 51
+      }
+    ],
+    "display": "Matthew 13:51"
+  },
+  "lemma_quote": "«Ἀέγει αὐτοῖς ὁ Ἰησοῦς· Συνήκατε ταῦτα στάντα; Λέγουσι αὐτῷ· Ναὶ, Κύριε. Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.79,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

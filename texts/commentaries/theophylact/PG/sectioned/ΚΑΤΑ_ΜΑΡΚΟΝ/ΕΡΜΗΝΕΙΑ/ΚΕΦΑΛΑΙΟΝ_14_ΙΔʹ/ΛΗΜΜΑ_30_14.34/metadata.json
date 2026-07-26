@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_14.34",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 30,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 34
+      }
+    ],
+    "display": "Mark 14:34"
+  },
+  "lemma_quote": "λέγει αὐτοῖς· Περίλυπός ἐστιν ἡ ψυχή μου ἕως θανάτου. Μείνατο αε καὶ γρηγορεῖτε. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.817,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

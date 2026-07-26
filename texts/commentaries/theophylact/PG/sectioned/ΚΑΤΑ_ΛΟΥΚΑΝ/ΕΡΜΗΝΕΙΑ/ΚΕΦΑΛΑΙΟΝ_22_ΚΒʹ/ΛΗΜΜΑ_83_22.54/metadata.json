@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_83_22.54",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 83,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 54
+      }
+    ],
+    "display": "Luke 22:54"
+  },
+  "lemma_quote": "«Συλλαβόντες δὲ αὐτὸν· αγον, καὶ εἰσήγαγον εἰς τὴν οἰκίαν τοῦ ἀρχιερέως. Ο δὲ Πέτρος ἠκολούθει μακρόθεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.738,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.54",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

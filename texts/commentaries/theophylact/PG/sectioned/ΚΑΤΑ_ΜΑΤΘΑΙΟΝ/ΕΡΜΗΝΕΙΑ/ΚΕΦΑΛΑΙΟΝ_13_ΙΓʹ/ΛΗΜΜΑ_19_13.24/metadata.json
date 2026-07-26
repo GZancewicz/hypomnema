@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 19,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 13:35"
+  },
+  "lemma_quote": "Ταῦτα πάντα ἐλάλησεν ὁ Ἰησοῦς ἐν παραβολαῖς τοῖς ὄχλοις, καὶ χωρὶς παραβολῆς οὐκ ἐλάλει αὐτοῖς, ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τοῦ προφήτου, λέγοντος· Ἀνοίξω ἐν παραβολαῖς τὸ στόμα μου, ἐρεύξομαι κα. κρυμμένα ἁπὸ καταβολῆς κόσμου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.769,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

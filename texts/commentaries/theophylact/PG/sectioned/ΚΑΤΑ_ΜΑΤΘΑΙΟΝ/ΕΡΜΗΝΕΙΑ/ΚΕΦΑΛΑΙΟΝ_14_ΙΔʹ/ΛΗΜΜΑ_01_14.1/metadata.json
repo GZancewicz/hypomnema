@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_14.1",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 14:2"
+  },
+  "lemma_quote": "Ἐν ἐκείνῳ τῷ καιρῷ ἤκουσεν Ἠρώδης ὁ τετράρχης τὴν ἀκοὴν Ἰησοῦ, καὶ εἶπε τοῖς παισὶν αὐτοῆ · Οὗτός ἐστιν Ἰωάννης ὁ Βαπτιστής· αὐτὸς ἠγέρθη ἀπὸ τῶν νεκρῶν, καὶ διὰ τοῦτο αἱ δυνάμεις ἐνερΚγοῦσιν ἐν αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.767,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

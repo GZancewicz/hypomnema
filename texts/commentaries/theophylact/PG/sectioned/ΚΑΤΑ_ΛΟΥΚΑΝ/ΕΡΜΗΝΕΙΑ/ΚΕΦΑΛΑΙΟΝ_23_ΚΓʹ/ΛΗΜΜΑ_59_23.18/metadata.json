@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 59,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 46
+      }
+    ],
+    "display": "Luke 23:46"
+  },
+  "lemma_quote": "φωνήσας φωνῇ μεγάλῃ Ἰησοῦς, εἶπεν· Πάτερ. εἰς χεῖράς σου παρατίθημι τὸ πνεῦμά μου. Καὶ ταῦτα εἰπὼν, ἐξέπνευσεν. Ἰδὼν δὲ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.871,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

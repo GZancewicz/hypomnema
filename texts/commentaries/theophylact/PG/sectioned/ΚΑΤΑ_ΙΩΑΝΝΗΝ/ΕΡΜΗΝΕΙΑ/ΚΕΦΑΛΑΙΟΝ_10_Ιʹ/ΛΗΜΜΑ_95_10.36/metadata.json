@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_10.36",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 95,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 32
+      }
+    ],
+    "display": "John 10:32"
+  },
+  "lemma_quote": "Πολλὰ καλὰ ἔργα, φησὶν, ἐνεδειξάμην ὑμῖν, διὰ ποῖον αὐτῶν λιθάζετέ με;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.763,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

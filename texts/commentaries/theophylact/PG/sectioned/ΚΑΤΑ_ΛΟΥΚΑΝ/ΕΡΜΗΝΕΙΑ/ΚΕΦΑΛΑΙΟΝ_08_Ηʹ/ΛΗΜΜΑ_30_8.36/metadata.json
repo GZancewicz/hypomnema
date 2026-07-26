@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_8.36",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 8:37"
+  },
+  "lemma_quote": "Ἀπήγγειλαν δὲ αὐτοῖς καὶ οἱ ἰδόντες, πῶς ἀσίθη ὁ δαιμονισθείς. Καὶ ἠρώτησαν αὐτὸν ἅπαν τὸ τολῆθος τῆς περιχώρου τῶν Γαδαρηνῶν, ἁπελθεῖν ἀπ´ αὐτῶν, ὅτι φόβῳ μεγά",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.589,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

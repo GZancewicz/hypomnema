@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 46,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 16
+      }
+    ],
+    "display": "John 10:16"
+  },
+  "lemma_quote": "Καὶ ἄλλα πρόβατα ἔχω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

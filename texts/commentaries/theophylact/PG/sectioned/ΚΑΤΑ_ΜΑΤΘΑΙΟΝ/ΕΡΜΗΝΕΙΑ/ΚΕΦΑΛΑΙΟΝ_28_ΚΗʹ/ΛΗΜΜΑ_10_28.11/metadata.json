@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_28.11",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 28:11"
+  },
+  "lemma_quote": "«Πορευομένων δὲ αὐτῶν, ἰδού τινες τῆς κουστωδίας ἐλθόντες εἰς τὴν πόλιν ἀπήγγειλαν τοῖς ἁρχιερεῦσιν ἅπαντα τὰ γενόμενα· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "28.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

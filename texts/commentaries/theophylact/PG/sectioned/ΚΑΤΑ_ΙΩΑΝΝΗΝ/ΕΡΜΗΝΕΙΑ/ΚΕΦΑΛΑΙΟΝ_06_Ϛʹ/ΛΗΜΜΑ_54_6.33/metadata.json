@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_6.33",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 54,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 34
+      }
+    ],
+    "display": "John 6:34"
+  },
+  "lemma_quote": "Κύριε, πάντοτε δὸς ἡμῖν τὸν ἄρτον τοῦτον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.915,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

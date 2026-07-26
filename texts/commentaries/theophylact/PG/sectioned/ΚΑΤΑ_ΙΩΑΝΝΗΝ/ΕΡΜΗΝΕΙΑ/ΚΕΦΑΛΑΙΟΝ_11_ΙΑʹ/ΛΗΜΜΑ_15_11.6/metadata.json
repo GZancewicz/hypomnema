@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_11.6",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 15,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 4
+      }
+    ],
+    "display": "John 11:4"
+  },
+  "lemma_quote": "Ἵνα δοξασθῇ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

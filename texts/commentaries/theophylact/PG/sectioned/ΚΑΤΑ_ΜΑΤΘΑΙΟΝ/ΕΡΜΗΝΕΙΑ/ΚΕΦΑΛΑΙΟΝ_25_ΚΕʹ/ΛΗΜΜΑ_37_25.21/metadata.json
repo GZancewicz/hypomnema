@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 37,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 43
+      }
+    ],
+    "display": "Matthew 25:43"
+  },
+  "lemma_quote": "ξένος ἤμην, καὶ οὐ συνηγάγετέ με· γυμνὸς, καὶ οὐ περιεβάλετέ με· ἀσθενὴς καὶ ἐν φυλακῇ, καὶ οὐκ ἐπεσκέψασθέ με. Τότε ἀποκριθήσον. ται καὶ αὐτοὶ, λέγοντες· Κύρις",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.86,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

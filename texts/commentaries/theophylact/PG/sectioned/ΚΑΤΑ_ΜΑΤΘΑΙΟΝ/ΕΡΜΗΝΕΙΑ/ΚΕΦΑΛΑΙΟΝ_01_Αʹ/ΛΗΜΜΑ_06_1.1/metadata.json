@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_1.1",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 1:2"
+  },
+  "lemma_quote": "Ἀραὰμ ἐγέννησε τὸν Ἰσαάκ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.661,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

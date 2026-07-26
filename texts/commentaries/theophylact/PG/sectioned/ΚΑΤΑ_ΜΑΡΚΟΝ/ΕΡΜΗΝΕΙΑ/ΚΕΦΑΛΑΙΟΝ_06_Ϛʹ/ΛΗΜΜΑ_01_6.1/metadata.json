@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_6.1",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 1,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 1
+      }
+    ],
+    "display": "Mark 6:1"
+  },
+  "lemma_quote": "ἐξῆλθεν ἐκεῖθεν, καὶ ἦλθεν εἰς τὴν πατρίδα αὐτοῦ, καὶ ἀκολουθοῦσιν αὐτῷ οἱ μαθηταὶ αυτοῦ. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.915,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_10.8",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 27,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 9
+      }
+    ],
+    "display": "John 10:9"
+  },
+  "lemma_quote": "Κύριος ποιμαίνει με, καὶ οὐδέν με ὑστερήσει,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.25,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

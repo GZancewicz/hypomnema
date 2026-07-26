@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_10.27",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 27
+      }
+    ],
+    "display": "John 10:27"
+  },
+  "lemma_quote": "πρόβατα τὰ ἐμὰ τῆς φωνῆς μου ἀκούει, κἀγὼ γινώσκω αὐτὰ, καὶ ἀκολοιθοῦσί μοι, κἀγὼ ζωὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.828,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

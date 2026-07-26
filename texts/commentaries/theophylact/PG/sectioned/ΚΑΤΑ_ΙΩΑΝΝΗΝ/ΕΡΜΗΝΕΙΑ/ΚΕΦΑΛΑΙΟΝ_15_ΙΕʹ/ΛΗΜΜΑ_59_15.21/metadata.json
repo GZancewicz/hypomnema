@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_15.21",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 59,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 18
+      }
+    ],
+    "display": "John 15:18"
+  },
+  "lemma_quote": "Ἐμὲ πρῶτον ὑμῶν μεμίσηκε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.579,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

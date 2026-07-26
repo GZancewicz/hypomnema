@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_18.7",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 7
+      }
+    ],
+    "display": "Matthew 18:7"
+  },
+  "lemma_quote": "Οὐαὶ τῷ κόσμῳ ἀπὸ τῶν σκανδάλων! ἀνάγκη γάρ ἐστιν ἐλθεῖν τὰ σκάνδαλα· πλὴν οὐαὶ τῷ ἀνθρώποῳ ἐκείνῳ δι´ οὗ τὸ σκάνδαλον ἔρχεται!",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.98,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

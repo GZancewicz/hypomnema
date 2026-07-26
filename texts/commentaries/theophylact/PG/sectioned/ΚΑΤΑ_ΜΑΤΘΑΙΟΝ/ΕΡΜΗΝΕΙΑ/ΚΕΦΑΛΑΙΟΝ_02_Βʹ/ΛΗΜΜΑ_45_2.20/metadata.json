@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:20"
   },
-  "lemma_quote": "Τεθνήκασι γὰρ οἱ ζητοῦντες τὴν ψυχὴν τοῦ παιδίου",
-  "lemma_quote_en": "For they have died who were seeking the life of the child",
+  "lemma_quote": "Τεθνήκασι γὰρ οἱ ζητοῦντες τὴν ψυχὴν τοῦ παιδίου.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
+  "coverage_source": "greek_pat",
   "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.697,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.20",
   "folder_suffix_agrees": true,
-  "notes": "Tail of Matt. 2:20. Comment turns on ψυχή = 'soul' (anti-Apollinaris); the person 'Apollinaris' is not a scripture cross-reference."
+  "notes": "Tail of Matt. 2:20. Comment turns on ψυχή = 'soul' (anti-Apollinaris); the person 'Apollinaris' is not a scripture cross-reference.",
+  "lemma_quote_en": "For they have died who were seeking the life of the child"
 }

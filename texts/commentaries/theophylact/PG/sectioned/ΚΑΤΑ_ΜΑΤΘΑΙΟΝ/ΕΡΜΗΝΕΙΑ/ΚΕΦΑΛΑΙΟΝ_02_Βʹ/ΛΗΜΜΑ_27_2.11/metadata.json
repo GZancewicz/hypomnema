@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_2.11",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 2:11"
+  },
+  "lemma_quote": "Καὶ ἀνοίξαντες τοὺς θησαυροὺς αὐτῶν, προσἡνεγκαν αὐτῷ δῶρα, χρυσὸν, καὶ λίβανον, καὶ σμύρναν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.709,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

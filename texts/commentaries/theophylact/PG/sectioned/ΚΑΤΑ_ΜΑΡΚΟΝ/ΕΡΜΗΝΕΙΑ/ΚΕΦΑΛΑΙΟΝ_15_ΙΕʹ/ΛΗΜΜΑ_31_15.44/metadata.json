@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_15.44",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 31,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 44
+      }
+    ],
+    "display": "Mark 15:44"
+  },
+  "lemma_quote": "Πιλάτος ἑθαύμασεν, εἰ ἤδη τέθνηκε· καὶ προσκαλεσάμενος τὸν κεντυρίωνα, ἐπηρώτησεν αὐτὸν, εἰ πάλαι ἀπέθανε· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.44",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

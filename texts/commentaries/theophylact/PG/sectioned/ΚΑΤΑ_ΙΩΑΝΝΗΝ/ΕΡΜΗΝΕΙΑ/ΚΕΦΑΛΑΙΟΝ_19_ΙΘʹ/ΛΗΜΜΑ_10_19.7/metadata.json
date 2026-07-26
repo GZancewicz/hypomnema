@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_19.7",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 10,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 6
+      }
+    ],
+    "display": "John 19:6"
+  },
+  "lemma_quote": "Σταύρωσον, σταύρωσον αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.444,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

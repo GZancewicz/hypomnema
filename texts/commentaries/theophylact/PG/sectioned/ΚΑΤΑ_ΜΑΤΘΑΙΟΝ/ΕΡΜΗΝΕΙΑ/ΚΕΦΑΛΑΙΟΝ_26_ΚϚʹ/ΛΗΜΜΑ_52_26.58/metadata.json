@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_26.58",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 52,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 58
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 58
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 58
+      }
+    ],
+    "display": "Matthew 26:58"
+  },
+  "lemma_quote": "Πέτρος ἠκολούθει αὐτῷ ἀπὸ μακρόθεν ἕως τῆς αὐλῆς τοῦ ἀρχιερέως· καὶ εἰσελθὼν ἔσω, ἐκάθητο μετὰ τῶν ὑπηρετων, δεῖν τὸ τέλος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.957,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.58",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

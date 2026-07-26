@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_82_20.29",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 82,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 27
+      }
+    ],
+    "display": "John 20:27"
+  },
+  "lemma_quote": "Μὴ γίνου γὰρ, φησὶν, ἄπι. στος, ἀλλὰ πιστός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.286,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "20.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

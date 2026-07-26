@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_14.35",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 32,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 14:35"
+  },
+  "lemma_quote": "Οὔτε γὰρ εἰς γῆν, φησὶν, οὔτε εἰς κοπρίαν εὔθετόν ἐστιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.717,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_8.38",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 37,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 38
+      }
+    ],
+    "display": "Mark 8:38"
+  },
+  "lemma_quote": "Ὃς γὰρ ἂν ἐπαισχυνθῇ με, καὶ τοὺς ἐμοὺς λόχους, ἐν τῇ γενεᾷ ταύτῃ τῇ μοιχαλίδι καὶ ἀμαρτωλῴ, καὶ ὁ χλὸς τοῦ ἀνθρώπου ἐπαισχυνθήσεται αὐτὸν, ἑσαν Ελθῃ ἐν τῇ ἐόξῃ τοῦ Πατρὸς αὐτοῦ μετὰ τῶν ἀγγέλων τῶν ἁγλν. Καὶ ἔλεγεν αὐτοῖς· Ἀμὴς λέγω ὑμῖν, ὅτι αἰσί τινες τῶν ὥδε ἑστηκότων, οἵτινες οὐ μὴ γαύσωνται θανάτου, ἕως ἂν ἴωσι τὴν βασιλείαν τοῦ Θεοῦ Αληλυθυῖαν ἐν δφνάμει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.692,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

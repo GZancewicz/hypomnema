@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_27.61",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 65,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 61
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 61
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 61
+      }
+    ],
+    "display": "Matthew 27:61"
+  },
+  "lemma_quote": "Μαρία ἡ Μαγδαληνὴ, καὶ ἡ ἄλλη Μαρία, καθήμεναι ἀπ ο αντι τοῦ τάφου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.918,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.61",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

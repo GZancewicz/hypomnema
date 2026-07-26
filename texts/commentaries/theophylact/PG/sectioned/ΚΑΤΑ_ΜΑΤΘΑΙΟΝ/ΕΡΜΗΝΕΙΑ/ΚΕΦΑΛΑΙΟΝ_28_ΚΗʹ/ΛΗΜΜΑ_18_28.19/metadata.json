@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_28.19",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 28:19"
+  },
+  "lemma_quote": "πορευθέντες μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς, καὶ τοῦ Υἱοῆ καὶ τοῦ ἀνίου Πνεύματος",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.913,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "28.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

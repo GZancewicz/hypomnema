@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_4.1",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 4:2"
+  },
+  "lemma_quote": "Ὑστερον ἐπείναυεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.824,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

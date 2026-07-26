@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 87,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 29
+      }
+    ],
+    "display": "John 13:29"
+  },
+  "lemma_quote": "εἰς τὴν ἑορτὴν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_4.15",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 12
+      }
+    ],
+    "display": "John 4:12"
+  },
+  "lemma_quote": "Μὴ σὺ μείζων εἶ τοῦ πατρὸς ἡμῶν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.517,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

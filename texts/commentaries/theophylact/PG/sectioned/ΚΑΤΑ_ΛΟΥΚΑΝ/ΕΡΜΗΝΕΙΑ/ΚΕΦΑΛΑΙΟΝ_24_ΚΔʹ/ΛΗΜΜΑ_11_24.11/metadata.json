@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_24.11",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 24:1"
+  },
+  "lemma_quote": "Ὀψὲ Σαββάτων,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.75,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

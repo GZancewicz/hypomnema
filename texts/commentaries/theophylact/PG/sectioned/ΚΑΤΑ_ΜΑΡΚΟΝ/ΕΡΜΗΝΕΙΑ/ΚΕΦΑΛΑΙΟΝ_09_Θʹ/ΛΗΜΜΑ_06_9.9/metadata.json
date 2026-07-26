@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_9.9",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 6,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 9
+      }
+    ],
+    "display": "Mark 9:9"
+  },
+  "lemma_quote": "«Καταβαινόντων δὲ αὐτῶν ἀπὸ τοῦ ὄρους, διεστείλατο αὐτοῖς ἵνα μηδενὶ διηγήσωνται ἃ εἶδον, εἰ μὴ ὅταν ὁ Υἱὸς τοῦ ἀνθρώπου ἑκ νεκρῶν ἀναστῇ. Καὶ τὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.985,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_16.23",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 23
+      }
+    ],
+    "display": "John 16:23"
+  },
+  "lemma_quote": "ἐκείνη τῆ ἡμέρᾳ ἐμὲ οὐκ ἐρωτήσετε οὐδέο. Ἀμὴν, ἀμὴν λέγω ὑμῖν, ὅτι ὅσα ἂν αἰτήσητε τὸν Πατέρα ἐν τῷ ὀνόματί μου, δώσει ὑμῖν. Ἔως ἄρτι οὐκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

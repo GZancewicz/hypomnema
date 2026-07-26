@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_22.31",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 32,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 31
+      }
+    ],
+    "display": "Matthew 22:31"
+  },
+  "lemma_quote": "ἀναστάσεως τῶν νεκρῶν, οὐκ ἀνέγνωτε τὸ ὀηθὲν ὑμῖν ὑπὸ τοῦ Θεοῦ λέγοντος· Ἐγώ εἰμι ὁ Θεὸς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.718,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

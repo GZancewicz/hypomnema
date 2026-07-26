@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 3
+      }
+    ],
+    "display": "John 13:3"
+  },
+  "lemma_quote": "Γνόντες Θεὸν μᾶλλον δὲ γνωσθέντες ὑπὸ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.389,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

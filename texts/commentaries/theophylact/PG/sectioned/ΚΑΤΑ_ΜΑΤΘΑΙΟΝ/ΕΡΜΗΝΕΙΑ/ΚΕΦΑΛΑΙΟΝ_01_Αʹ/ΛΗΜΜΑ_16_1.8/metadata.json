@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_1.8",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 1:8"
+  },
+  "lemma_quote": "ἐγέννησε τὸν Ἀσά·Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ· Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ· Ἰωρὰμ δὲ ἐγέννησε τὸν Ὁζίαν· Ὁςίας δὲ ἐγέννησε τὸν Ἰωάθαμ· Ἰωάθαμ δὲ ἐγέννησε τὸν Ἅ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.844,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

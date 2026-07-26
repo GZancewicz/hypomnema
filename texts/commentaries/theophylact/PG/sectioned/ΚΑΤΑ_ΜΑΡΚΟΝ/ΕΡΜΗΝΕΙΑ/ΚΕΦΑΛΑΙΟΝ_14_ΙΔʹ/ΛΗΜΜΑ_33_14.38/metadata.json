@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_14.38",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 33,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 38
+      }
+    ],
+    "display": "Mark 14:38"
+  },
+  "lemma_quote": "γρηγορῆσαι; Γρηγορεῖτε καὶ προσεύχεσθε, υα μὴ εἰσέλθητε εἰς πειρασμόν· τὸ μὲν πνεῦμα πρόθυμον, ἡ δὲ σὰρξ ἀσθενής. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

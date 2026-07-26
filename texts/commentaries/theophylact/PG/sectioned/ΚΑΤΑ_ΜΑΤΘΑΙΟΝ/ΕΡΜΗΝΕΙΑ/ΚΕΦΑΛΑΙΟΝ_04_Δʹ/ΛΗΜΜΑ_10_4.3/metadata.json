@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_4.3",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 4:6"
+  },
+  "lemma_quote": "«Ἐπὶ χειρῶν ἀροῦσί σε, « περὶ τοῦ Χριστοῦ, ἀλλὰ περὶ τῶν ἁγίων, τῶν δεομένων βοηθείας ἀγγελικῆς. δὲ Χριστὸς οὐ δεῖται, Θεὸς ὥν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.329,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

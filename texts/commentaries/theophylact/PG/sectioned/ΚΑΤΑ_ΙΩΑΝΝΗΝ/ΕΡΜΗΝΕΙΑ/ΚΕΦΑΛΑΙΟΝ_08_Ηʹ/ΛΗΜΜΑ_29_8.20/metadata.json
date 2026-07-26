@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_8.20",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 19
+      }
+    ],
+    "display": "John 8:19"
+  },
+  "lemma_quote": "Εἰ ἐμὲ ᾔδειτε, καὶ τὸν Πατέρα ἦδειτε ἄν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.682,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_11.5",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 11:4"
+  },
+  "lemma_quote": "Ἀβλέπετε ἀπαγγείλατε τῷ Ἰωάννῃ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.503,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

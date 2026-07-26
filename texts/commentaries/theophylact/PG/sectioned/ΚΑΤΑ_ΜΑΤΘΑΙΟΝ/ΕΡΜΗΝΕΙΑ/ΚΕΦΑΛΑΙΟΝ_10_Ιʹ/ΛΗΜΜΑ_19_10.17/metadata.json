@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_10.17",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 19,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 10:17"
+  },
+  "lemma_quote": "«Προσέχετε δὲ ἀπῆ τῶν ἀνθρώπων, παραδώσουσι γὰρ ὑμᾶς εἰς συνέδρια, καὶ ἐν ταῖς συναγωγαῖς αὐτῶν μαστιγώσουσιν ὑμᾶς, καὶ ἐπὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

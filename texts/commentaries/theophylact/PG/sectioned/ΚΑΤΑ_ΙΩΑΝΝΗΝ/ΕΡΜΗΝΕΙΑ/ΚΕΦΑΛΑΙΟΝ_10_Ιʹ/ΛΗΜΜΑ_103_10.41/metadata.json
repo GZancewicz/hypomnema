@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_10.41",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 103,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 41
+      }
+    ],
+    "display": "John 10:41"
+  },
+  "lemma_quote": "πολλοὶ ἦλθον πρὸς αὑτὸν καὶ ἔλεγον, ὅτι Ἰωάννης μὲν σημεῖου ἐποίησεν οὐδὲν, πάντα δὲ ὅσα εἶπεν Ἰωάννης περὶ τούτου, ἀληθῆ ἦν. Καὶ ἐπίστευσαν πολλοὶ ἐκεῖ εἰαὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

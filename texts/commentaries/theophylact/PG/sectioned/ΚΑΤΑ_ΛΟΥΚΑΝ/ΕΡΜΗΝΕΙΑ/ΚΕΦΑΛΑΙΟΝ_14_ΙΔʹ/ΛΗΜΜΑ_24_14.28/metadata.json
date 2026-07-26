@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_14.28",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 28
+      }
+    ],
+    "display": "Luke 14:28"
+  },
+  "lemma_quote": "Τίς τὰρ ἐξ ὑμῶν θέλων πύργον οἰκοδομῆσαι, οὐχὶ πρῶτον καθίσας ψηφίζει τὴν δαπάνην, εἰ ἔχει τὰ εἰς ἀπαρτισμὸν, ἵνα μήπωτε, θέντος αὐτοῦ θεμέλιον, καὶ μὴ ἰσχύοντος ἐκτελέσαι, πάντες οἱ θεωροῦντες ἄρξωνται ἐμπαίζειν αὐτῷ λέγοντες, ὅτι, Οὗτος ὁ ἄνθοωπος ἤρξατο οἰκοδομεῖν, καὶ οὐκ ἴσχυσεν ἐκτελέσαι ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.611,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_1.17",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 15,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 1:17"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς ὁ Ἰησοῦς· Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς γενέσθαι ἀλιεῖς ἀνθρώπων. Καὶ εὐθέως ἀφέντες τὰ δίντυα αὐτῶν, ἠκολούθησαν αὐτῷ· καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.875,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_14.34",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 32,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 34
+      }
+    ],
+    "display": "Matthew 14:34"
+  },
+  "lemma_quote": "«Καὶ διαπεράσαντες, ἦλθον εἰς τὴν γῆν Γεννησαρἕτ. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_3.36",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 60,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 36
+      }
+    ],
+    "display": "John 3:36"
+  },
+  "lemma_quote": "Ἐν αὐτῷ γὰρ ζῶμεν καὶ κικούμεθα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.228,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "3.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

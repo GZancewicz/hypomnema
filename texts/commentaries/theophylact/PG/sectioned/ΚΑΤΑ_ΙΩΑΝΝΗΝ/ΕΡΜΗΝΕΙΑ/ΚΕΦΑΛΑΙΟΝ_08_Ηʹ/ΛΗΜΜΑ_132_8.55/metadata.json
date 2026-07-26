@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_132_8.55",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 132,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 55
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 55
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 55
+      }
+    ],
+    "display": "John 8:55"
+  },
+  "lemma_quote": "καὶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.15,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.55",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

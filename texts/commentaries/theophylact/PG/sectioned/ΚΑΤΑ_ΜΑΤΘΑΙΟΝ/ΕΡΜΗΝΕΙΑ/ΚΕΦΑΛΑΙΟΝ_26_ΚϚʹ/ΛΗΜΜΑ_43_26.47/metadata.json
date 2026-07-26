@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_26.47",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 43,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 47
+      }
+    ],
+    "display": "Matthew 26:47"
+  },
+  "lemma_quote": "«Καὶ ἔτι αὐτοῦ λαλοῦντος, ἰβοὺ Ἰούδας εἷς τῶν ώδεκα ἦλθε, καὶ μετ´ αὐτοῦ ὄχλος πολὺς μετὰ μαχαιρῶν καὶ ξύλων, ἀπὸ τῶν ἀρχιερέων καὶ πρεσυυτέρων τοῦ λαοῦ. Ὁ δὲ π",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.47",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

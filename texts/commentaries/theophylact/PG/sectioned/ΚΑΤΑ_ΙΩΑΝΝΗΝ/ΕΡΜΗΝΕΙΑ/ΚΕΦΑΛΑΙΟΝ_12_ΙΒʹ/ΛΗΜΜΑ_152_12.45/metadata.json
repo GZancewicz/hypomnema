@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_152_12.45",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 152,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 44
+      }
+    ],
+    "display": "John 12:44"
+  },
+  "lemma_quote": "Πιστεύετε εἰς Θεὸν, καὶ εἰς ἐμὲ πιστεύετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.289,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.45",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_12.4",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 12:5"
+  },
+  "lemma_quote": "Ἢ οὐκ ἀνέγνωτε ἐν τῷ νόμω, ὅτι τοῖς Σάββασιν οἱ ἰερεῖς ἐν τῷ ἱερῷ τὸ Σάββατον βεβη· λοῦσι, καὶ ἀναίτιοί εἰσι; Λέγω ἄὲ ὑμῖν, ὅτι τοῦ καροῦ μεῖζόν ἐστιν ὧδε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.798,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

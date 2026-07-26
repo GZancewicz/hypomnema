@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_24.49",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 42,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 49
+      }
+    ],
+    "display": "Matthew 24:49"
+  },
+  "lemma_quote": "ἄρξηται τύπτειν τοὺς συνδούλους, ἐσθίη δὲ καὶ πίνῃ μετὰ τῶν μεθυόντων, ἥξει ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.941,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.49",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

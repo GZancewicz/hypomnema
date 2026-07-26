@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_22.29",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 29
+      }
+    ],
+    "display": "Matthew 22:29"
+  },
+  "lemma_quote": "Ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν αὐτοῖς· Πλανᾶσθε, μὴ εἰδότες τὰς Γραφὰς, μηδὲ τὴν δύναμιν τοῦ Θεοῦ. Ἐν γὰρ τῇ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.974,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

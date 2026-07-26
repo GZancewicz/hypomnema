@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_6.38",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 6:38"
+  },
+  "lemma_quote": "Δίδοτε, καὶ δοθήσεται ὑμῖν. Μέτρον καλὸν πεπιεσμένον, καὶ σεσαλευμένον, καὶ ὑπερεκχυνόμενον δώσουσι εἰς τὸν κόλπον ὑμῶν. Τῷ γὰρ αὐτῷ μέτρῳ ᾧ μετρεῖτε, ἀντιμετρη",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.918,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

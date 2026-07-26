@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_7.43",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 103,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 42
+      }
+    ],
+    "display": "John 7:42"
+  },
+  "lemma_quote": "ἐκ σπέρματος Δαυΐδ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.598,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

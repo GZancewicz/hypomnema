@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_19.23",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 23
+      }
+    ],
+    "display": "John 19:23"
+  },
+  "lemma_quote": "στρατιῶται, ὅτε ἐσταύρωσαν τὸν Ἰησοῦν, ἔλαβον τὰ ἱμάτια αὐτοῦ, καὶ ἐποίησαν τέσσαρα μέρη, ἑκάστῳ στρατιώτῃ μέρος, καὶ τὸν χιτῶνα Ἠν δὲ ὁ χιτὼν ἄῤῥαφος, ἑκ τῶν ἄ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.906,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

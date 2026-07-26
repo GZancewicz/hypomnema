@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_16.22",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 16:23"
+  },
+  "lemma_quote": "Ὁ δὲ στραφείς εἶπε τῷ Πέτρῳ· Ὑπαγε ὀπίσω μου, Σατανᾶς σκάνδαλόν μου εἶ, ὅτι οὐ φρονεῖς τὰ τοῦ Θεοῦ, ἀλλὰ τὰ τῶν ἀνθρώπων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

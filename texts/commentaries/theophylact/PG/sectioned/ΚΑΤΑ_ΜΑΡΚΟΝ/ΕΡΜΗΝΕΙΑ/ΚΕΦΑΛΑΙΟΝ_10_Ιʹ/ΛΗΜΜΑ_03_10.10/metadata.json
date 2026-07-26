@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 10:14"
+  },
+  "lemma_quote": "Τῶν τοιούτων γάρ ἐστιν ἡ βασιλεία τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.603,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

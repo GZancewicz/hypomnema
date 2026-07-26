@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_2.5",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 2:5"
+  },
+  "lemma_quote": "Ἰησοῦς τὴν πίστιν αὐτῶν, λέγει τῷ παραλυτικῷ· Τέκνον, ἀφέωνταί σοι αἱ ἁμαρτίαι σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.931,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

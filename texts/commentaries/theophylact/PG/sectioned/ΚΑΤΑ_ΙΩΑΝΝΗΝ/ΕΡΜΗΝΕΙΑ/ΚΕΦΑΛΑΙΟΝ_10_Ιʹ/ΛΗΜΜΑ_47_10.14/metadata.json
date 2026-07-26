@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 16
+      }
+    ],
+    "display": "John 10:16"
+  },
+  "lemma_quote": "Οὐκ εἰσὶ δὲ ἐκ τῆς αὐλῆς ταύτης",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.402,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_69_22.46",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 69,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 46
+      }
+    ],
+    "display": "Luke 22:46"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς · Τί καθεύδετε; Ἀναστάντες προσεύχεσθε, ἵνα Κμὴ εἰσέλθητε εἰς πειρασμόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.996,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_13.10",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 11
+      }
+    ],
+    "display": "John 13:11"
+  },
+  "lemma_quote": "Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων εἰρήνην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.283,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

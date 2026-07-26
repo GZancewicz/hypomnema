@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_66_4.27",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 66,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 26
+      }
+    ],
+    "display": "John 4:26"
+  },
+  "lemma_quote": "«Οἶδα ὅτι ἔρχεται Μεσσίας. Ὁ δὲ Κύριος λοτπὸν ἐκκαλύπτει αὐτῇ ἑαυτὸν, οὕτω τῆς ἀκολοῦας τοῦ λόγου ἀπαιτησάσης. Εἰ δὲ εὐθὺς ἐξ ἀρχῆς εἶπεν, ὅτι Ἐγώ εἰμι ὁ Χριστὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.356,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

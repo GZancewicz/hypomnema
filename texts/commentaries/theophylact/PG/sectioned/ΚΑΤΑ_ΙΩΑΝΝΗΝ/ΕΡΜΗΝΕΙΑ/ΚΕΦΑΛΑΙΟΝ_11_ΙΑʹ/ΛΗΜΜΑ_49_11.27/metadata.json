@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_11.27",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 27
+      }
+    ],
+    "display": "John 11:27"
+  },
+  "lemma_quote": "Λέγει αὐτῷ· Ναὶ, Κύριε. Ἐγὼ πεπίστευκα, ὅτι σὺ εἶ ὁ Χριστὸς ὁ Υἱὸς τοῦ Θεοῦ, ὁ εἰς τὸν κόσμον ἐρχόμενος. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

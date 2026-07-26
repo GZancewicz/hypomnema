@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_11.48",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 36,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 48
+      }
+    ],
+    "display": "Luke 11:48"
+  },
+  "lemma_quote": "μαρτυρεῖτε, καὶ συνευδοκεῖτε τοῖς ἔργοις τῶν πατέρων ὑμῶν, ὅτι αὐτοὶ μὲν ἀπέκτειναν αὐτοὺς, ὑμεῖς δὲ οἰκοδοιυεῖ-ς εὐτῶν τὰ μνημεῖα. Διὰ τοῦτο καὶ ἡ σοφία τοῦ Θε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.794,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.48",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_21.23",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 22
+      }
+    ],
+    "display": "John 21:22"
+  },
+  "lemma_quote": "Ἔως,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.339,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_127_8.55",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 127,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 54
+      }
+    ],
+    "display": "John 8:54"
+  },
+  "lemma_quote": "Μὴ φονεύσῃς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.55",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 16
+      }
+    ],
+    "display": "John 11:16"
+  },
+  "lemma_quote": "«Οὐ γὰρ θάρσους, ἀλλὰ δειλίας καὶ βαρυυμίας τὸ ῥῆμα. Ἵνα γὰρ καὶ τοὺς ἄλλους ἐκκόψῃ συμμαθητὰς, ὑπομιμνήσκει αὐτοὺς τοῦ θανάτου, ταὶ ἐπίτηδες παρεμβάλλει τὸ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.261,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

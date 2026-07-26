@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_23.33",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 23:33"
+  },
+  "lemma_quote": "ὄφεις, γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 34
+      }
+    ],
+    "display": "Matthew 25:34"
+  },
+  "lemma_quote": "«Τότε ἐρεῖ ὁ βασιλεὺς τοῖς ἐκ δεξιῶν αὐτοῦ· εῦτε, οἱ εὐλογημένοι τοῦ Πατρός μου, κληρονομήσατε τὴν ἡτοιμασμένην ὑμῖν βασιλείαν ἀπὸ καταβολῆς κόσμου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.959,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

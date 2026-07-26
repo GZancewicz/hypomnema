@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_4.7",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 12,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 4:8"
+  },
+  "lemma_quote": "παραλαμβάνει αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλόν λίαν, καὶ δείκνυσιν αὐτῷ πάσας τὰς βασιλείας τοῦ κόσμου, καὶ τὴν δόξαν αὐτῶν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.971,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

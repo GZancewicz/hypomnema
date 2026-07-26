@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_6.33",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 32
+      }
+    ],
+    "display": "John 6:32"
+  },
+  "lemma_quote": "Οὐ Μωσῆς δέδωκεν ὑμῖν τὸν ἄρτον·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.582,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

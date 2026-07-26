@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_84_7.37",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 84,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 37
+      }
+    ],
+    "display": "John 7:37"
+  },
+  "lemma_quote": "ἐσχάτῃ ἡμέρᾳ τῇ μεγάλῃ τῆς ἑορτῆς, εἰστήκει ὁ Ἰησοῦς, καὶ ἔκραζε λέγων· Ἐάν τις διψᾷ, ἐρχέσθω πρός με, καὶ πινέτω. Ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

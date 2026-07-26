@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_2.32",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 26,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 2:32"
+  },
+  "lemma_quote": "ἀποκάλυψιν ἐθνῶν, καὶ δόξαν λαοῦ σου Ἰσραήλ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.902,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

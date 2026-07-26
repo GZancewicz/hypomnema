@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_5.16",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 14
+      }
+    ],
+    "display": "John 5:14"
+  },
+  "lemma_quote": "Κρινόμενοι ὑπὸ Κυρίου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

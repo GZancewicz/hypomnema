@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_9.2",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 1,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 2
+      }
+    ],
+    "display": "Mark 9:2"
+  },
+  "lemma_quote": "Καὶ μεθ´ ἡμέρας ἱξ παραλαμβάνει ὁ Ἰησοῦς σὴν Πέτρον καὶ τὸν Ἰάκωβον καὶ τὸν Ἰωἄννην, καὶ ἀναφερει αὐτοὺς εἰς ὄρος ὑψηλὸν κατ´ ἰδίαν μόνους, καὶ μετεμορφώθη ἔμπροσθεν αὐτῶν, καὶ τὰ ἱμάτια αὐτοῦ ἐγένοντο στίλβοντα, λευκὰ λίαν ὡς χιὼν, οἷα κναφεὺς ἐπὶ τῆς γῆς οὐ δύναται λευκᾶναι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.782,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

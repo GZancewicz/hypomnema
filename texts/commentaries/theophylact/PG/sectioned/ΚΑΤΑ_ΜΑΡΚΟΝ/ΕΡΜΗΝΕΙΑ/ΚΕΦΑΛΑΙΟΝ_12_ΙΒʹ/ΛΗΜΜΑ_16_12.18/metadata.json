@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_12.18",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 18
+      }
+    ],
+    "display": "Mark 12:18"
+  },
+  "lemma_quote": "«Και ἔρχονται Σαδδουκαῖοι πρὸς αὐτὸν, οἵ τινες λέγουσιν ἀνάστασιν μὴ εἶναι, καὶ ἐπηρώτησαν αὐτὸν, λέγουτες·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.793,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

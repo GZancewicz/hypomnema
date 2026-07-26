@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_13.2",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 2
+      }
+    ],
+    "display": "John 13:2"
+  },
+  "lemma_quote": "«Καὶ δείπνου γενομένου, τοῦ διαβόλου ἤδη βεἔηκότος εἰς τὴν καρδίαν Ἰούδα Σίμωνος Ἰσκαριώτου, ἵνα αὐτὸν παραδῷ, εἰδὼς ὁ Ἰησοῦς, ὅτι πάπτα δδωκεν αὐτῷ ὁ Πατὴρ εἰς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.852,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

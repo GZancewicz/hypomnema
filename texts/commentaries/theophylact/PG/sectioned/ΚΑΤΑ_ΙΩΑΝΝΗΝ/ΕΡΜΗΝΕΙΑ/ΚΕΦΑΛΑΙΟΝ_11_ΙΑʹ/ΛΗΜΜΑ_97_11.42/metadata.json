@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_97_11.42",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 97,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 41
+      }
+    ],
+    "display": "John 11:41"
+  },
+  "lemma_quote": "Εὐχαριστῶ σοι, ὅτι ἤκουσάς μου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.522,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

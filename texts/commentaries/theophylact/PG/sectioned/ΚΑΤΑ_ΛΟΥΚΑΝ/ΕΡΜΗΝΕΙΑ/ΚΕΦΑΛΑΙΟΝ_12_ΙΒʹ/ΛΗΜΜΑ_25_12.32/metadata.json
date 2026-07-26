@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_12.32",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 25,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 12:32"
+  },
+  "lemma_quote": "φοβοῦ τὸ μικρὸν ποίμνιον, ὅτι εὐδόκησεν ὁ Πατὴρ ὑμῶν δοῦναι ὑμῖν τὴν βασιλείαν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

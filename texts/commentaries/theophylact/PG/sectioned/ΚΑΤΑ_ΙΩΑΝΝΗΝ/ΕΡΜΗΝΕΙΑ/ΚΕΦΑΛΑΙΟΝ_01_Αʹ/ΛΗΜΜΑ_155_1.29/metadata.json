@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_155_1.29",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 155,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 36
+      }
+    ],
+    "display": "John 1:36"
+  },
+  "lemma_quote": "ὁ ἀμνός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.424,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

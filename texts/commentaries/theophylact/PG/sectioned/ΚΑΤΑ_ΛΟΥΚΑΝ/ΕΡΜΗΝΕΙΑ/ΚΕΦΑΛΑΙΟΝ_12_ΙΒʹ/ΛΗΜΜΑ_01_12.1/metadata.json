@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_12.1",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 12:1"
+  },
+  "lemma_quote": "«Ἔν οἷς ἐπισυναχθεισῶν τῶν μυριάδων τοῦ ὄχλου. ὥστε καταπατεῖν ἀλλήλους, ἤρξατο λέγειν πρὸς τοὺς μαθητὰς αὐτοῦ πρῶτον· Προσέχετε δαυτοῖς ἀπὸ τῆς ζύμης τῶν ααρισ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.875,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

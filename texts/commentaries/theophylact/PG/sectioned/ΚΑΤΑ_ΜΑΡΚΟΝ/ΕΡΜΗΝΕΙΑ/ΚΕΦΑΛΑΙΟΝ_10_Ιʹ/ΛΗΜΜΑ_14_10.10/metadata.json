@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 14,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 38
+      }
+    ],
+    "display": "Mark 10:38"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς · Τί θέλετε ποιῆσαί με ὑμῖν; Οἱ δὲ εἶπον αὐτῶ· Δλς ἡμῖν ἵνα εἷς ἐκ δεξιῶν σου, καὶ εἶς ἐξ εὐωνύμων σου καθήσωμεν ἐν τῇ δόξῃ σου. Ὁ δὲ Ἰησοῦς εἶπαν αὐτοῖς· Οὐκ οἴδατε τί αἱτεῖσθε. Δύνασθε πιεῖν τὸ ποτήριον ὃ ἐγὼ πίνω, καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι, βαπτισθῆναι; Οἱ δε εἰπον αυτῳ· Δυναμευα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.68,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

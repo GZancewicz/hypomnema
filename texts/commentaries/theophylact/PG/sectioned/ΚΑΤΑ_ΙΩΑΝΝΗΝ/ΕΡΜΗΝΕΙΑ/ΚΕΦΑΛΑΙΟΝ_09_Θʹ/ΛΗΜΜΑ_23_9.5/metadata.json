@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_9.5",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 4
+      }
+    ],
+    "display": "John 9:4"
+  },
+  "lemma_quote": "ἃ ποιεῖ ὁ Πατήρ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

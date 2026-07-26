@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_24.24",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 29,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 24:21"
+  },
+  "lemma_quote": "Ἡμεῖς δὲ ἡλπίζομεν, φησὶν, ὅτι αὐτός ἐστιν ὁ μέλλων λυτροῦσθαι τὸν Ἰσραήλ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.658,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

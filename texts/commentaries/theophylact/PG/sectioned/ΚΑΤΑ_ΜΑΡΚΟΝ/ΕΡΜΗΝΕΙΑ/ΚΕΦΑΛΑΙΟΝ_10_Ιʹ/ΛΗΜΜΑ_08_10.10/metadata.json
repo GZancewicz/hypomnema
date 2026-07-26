@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 8,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 29
+      }
+    ],
+    "display": "Mark 10:29"
+  },
+  "lemma_quote": "Ἀποκριθεὶς δὲ ὁ Ἰησοῦς, εἶπεν· Ἀμὴν λέγω ὑμῖν, οὐδείς ἐστιν ὃς ἀφῇκεν οἱκίαν, ἢ ἀδελφοὺς, ἢ ἀδελφὰς, ἢ πατέρα, ἢ μτέρα, Π γυναῖκα, ἢ τέκνα, ἢ ἀγροὺς, ἕνεκεν ἐικ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.874,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

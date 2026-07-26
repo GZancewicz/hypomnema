@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_9.36",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 9:33"
+  },
+  "lemma_quote": "Ποιή. Ομεν σκηνὰς τρεῖς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.909,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

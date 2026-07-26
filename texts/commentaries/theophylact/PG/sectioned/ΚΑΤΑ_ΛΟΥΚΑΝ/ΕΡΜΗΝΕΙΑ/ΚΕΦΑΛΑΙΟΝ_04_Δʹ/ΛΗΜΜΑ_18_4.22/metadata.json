@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_4.22",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 4:22"
+  },
+  "lemma_quote": "πάντες ἐμαρτύρουν αὐτῷ. Καὶ ἐθαύμαζον ἐπὶ τοῖς λόγοις τῆς χάριτος τοῖς ἐκπορευομένοις ἐκ ποῦ στόματος αὐτοῦ, καὶ ἔλεγον· Οὐχ οὗτός ἐστιν ὁ υἱὸς τοῦ Ἰωσήφ; Καὶ ε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

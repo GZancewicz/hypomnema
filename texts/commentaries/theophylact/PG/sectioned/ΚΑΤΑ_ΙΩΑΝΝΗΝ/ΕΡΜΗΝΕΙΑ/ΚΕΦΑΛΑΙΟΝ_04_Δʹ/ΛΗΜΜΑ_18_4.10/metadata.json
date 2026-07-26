@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_4.10",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 10
+      }
+    ],
+    "display": "John 4:10"
+  },
+  "lemma_quote": "Ἀπεκρίθῃ Ἰησοῦς, καὶ εἰπεν αὐτῇ· Κἰ [δεις τὴν δωρεὰν τοῦ Θεοῦ, καὶ τίς ἐστιν ὁ λέγων σοι, Δός μοι πιεῖν, σὺ ἄν ᾗτησας αὐτὸν, καὶ ἔδωκεν ἄν σοι ὕδωρ ζῶν. Λέγει αὐτῷ ἡ γυνή· Κύριε, ὕτε Κντλημα ἔχεις, καὶ τὸ φρέαρ ἐστὶ βαθὺ, πόθεν οὖν ἔχεις τὸ ὄδωρ τὸ ζῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.77,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

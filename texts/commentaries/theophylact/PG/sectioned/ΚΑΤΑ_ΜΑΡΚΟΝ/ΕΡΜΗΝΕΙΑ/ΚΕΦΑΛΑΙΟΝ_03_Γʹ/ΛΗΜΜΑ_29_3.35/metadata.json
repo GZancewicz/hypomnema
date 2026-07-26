@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_3.35",
+  "gospel": "mark",
+  "chapter": 3,
+  "index": 29,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 3,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 35
+      }
+    ],
+    "display": "Mark 3:35"
+  },
+  "lemma_quote": "ποιήσῃ τὸ θέλημα τοῦ Θεοῦ, οὗτος ἀδελφός μου καὶ ἀδελφή μου καὶ μήτηρ ἐστί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.973,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

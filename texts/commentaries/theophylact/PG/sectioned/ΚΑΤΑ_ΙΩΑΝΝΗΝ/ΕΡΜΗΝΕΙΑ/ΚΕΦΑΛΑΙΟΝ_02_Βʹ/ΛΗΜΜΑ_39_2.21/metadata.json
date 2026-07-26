@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_2.21",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 39,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 11
+      }
+    ],
+    "display": "John 2:11"
+  },
+  "lemma_quote": "Νῦν ἡ ψυχή μου τετάρακται·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.313,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "2.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

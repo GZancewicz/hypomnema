@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_6.26",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 40,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 25
+      }
+    ],
+    "display": "John 6:25"
+  },
+  "lemma_quote": "Πότε ὡδε παραγέγονας;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.5,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_90_9.38",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 90,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 35
+      }
+    ],
+    "display": "John 9:35"
+  },
+  "lemma_quote": "Καὶ τίς ἐστιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.241,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

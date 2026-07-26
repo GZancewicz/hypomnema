@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_144_8.59",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 144,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 57
+      }
+    ],
+    "display": "John 8:57"
+  },
+  "lemma_quote": "Πεντήκοντα·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.397,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.59",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

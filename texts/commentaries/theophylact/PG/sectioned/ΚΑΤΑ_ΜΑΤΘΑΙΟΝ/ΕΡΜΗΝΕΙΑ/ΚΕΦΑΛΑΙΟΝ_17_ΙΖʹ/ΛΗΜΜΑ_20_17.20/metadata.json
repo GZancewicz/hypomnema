@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_17.20",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 17:20"
+  },
+  "lemma_quote": "Ἰησοῦς εἶπεν αὐτοῖς· Διὰ τὴν ἀπιστίαν ὑμῶν. Ἀμὴν γὰρ λέγω ὑμῖν, ἐάν ἱχητε πίστιν ὡς κόκκον σινάπεως, ἐρεῖτε τῷ ὄρει τούτῳ, Μετάβηθι ἐντεῦθεν ἐκεῖ, καὶ μεταβήσετ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.888,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

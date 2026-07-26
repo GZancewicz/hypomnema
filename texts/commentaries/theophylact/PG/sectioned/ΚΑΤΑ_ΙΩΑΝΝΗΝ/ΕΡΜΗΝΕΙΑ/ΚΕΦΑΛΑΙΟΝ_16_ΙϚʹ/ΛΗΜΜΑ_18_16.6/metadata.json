@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_16.6",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 7
+      }
+    ],
+    "display": "John 16:7"
+  },
+  "lemma_quote": "Ἀλλ´ ἐγὼ τὴν ἀλήθειαν λέγω ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.393,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

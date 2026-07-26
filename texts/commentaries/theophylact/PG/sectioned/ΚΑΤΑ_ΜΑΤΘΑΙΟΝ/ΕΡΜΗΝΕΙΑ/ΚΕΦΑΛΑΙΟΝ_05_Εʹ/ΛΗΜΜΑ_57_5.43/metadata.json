@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_5.43",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 57,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 44
+      }
+    ],
+    "display": "Matthew 5:44"
+  },
+  "lemma_quote": "Εὐλογεῖτε τυος καταρωμένους ὑμᾶς, καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, καὶ προσεύχεσθε ὑπὲρ τῶν ἐπηρεαζόντον ὑμᾶς καὶ διωκόντων ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.879,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

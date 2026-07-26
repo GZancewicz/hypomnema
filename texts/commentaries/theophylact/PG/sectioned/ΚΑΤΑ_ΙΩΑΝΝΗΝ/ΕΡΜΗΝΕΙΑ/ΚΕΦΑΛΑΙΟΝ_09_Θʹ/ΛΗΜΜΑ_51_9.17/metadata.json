@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_51_9.17",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 51,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 17
+      }
+    ],
+    "display": "John 9:17"
+  },
+  "lemma_quote": "Σὺ τί λέγεις περὶ αὐτοῦ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.488,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

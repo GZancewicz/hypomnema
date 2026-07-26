@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_107_12.36",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 107,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 34
+      }
+    ],
+    "display": "John 12:34"
+  },
+  "lemma_quote": "Ἡμεῖς ἐμάθομεν ἐκ τοῦ νόμου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.37,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

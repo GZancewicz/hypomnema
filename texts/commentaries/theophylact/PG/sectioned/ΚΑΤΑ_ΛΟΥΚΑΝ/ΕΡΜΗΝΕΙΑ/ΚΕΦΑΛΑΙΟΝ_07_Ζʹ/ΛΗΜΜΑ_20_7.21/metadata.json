@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_7.21",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 20,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 7:21"
+  },
+  "lemma_quote": "ἐθεράπευσε πολλοὺς ἀπὸ νόσων καὶ μαστίγων καὶ πνευμάτων πονηρῶν, καὶ τυφλοῖς πολλοῖς ἐχαρίσατο τὸ βλέπειν. Καὶ ἀποκριθεὶς εἶπεν αὐτοῖς· Πορευθέντες ἀπαγγείλατε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.806,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

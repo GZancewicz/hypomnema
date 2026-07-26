@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_109_11.46",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 109,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 44
+      }
+    ],
+    "display": "John 11:44"
+  },
+  "lemma_quote": "Ἐξῆλθε δὲ, φησίν, ὁ τεθνηκὼς δεδεμένος τὰς χεῖρας καὶ τοὺς πόδας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.572,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

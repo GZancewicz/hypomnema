@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_9.16",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 9:16"
+  },
+  "lemma_quote": "«Οὐδεὶς δὲ ἐπιβάλλει ἐπίβλημα ῥάκους ἀγνάφου ἐπὶἱματίῳ παλαιῷ, αἴρει γὰρ τὸ πλήρωμα αὐτοῦ ἀπὴ τοῆ ἰματίου καὶ χεῖρον σκίσαα γίνεται. Οὐδὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.832,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

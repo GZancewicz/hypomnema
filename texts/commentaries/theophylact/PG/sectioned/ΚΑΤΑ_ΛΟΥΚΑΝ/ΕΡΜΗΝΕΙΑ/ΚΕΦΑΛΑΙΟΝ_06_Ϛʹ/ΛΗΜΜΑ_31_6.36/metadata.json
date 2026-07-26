@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_6.36",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 6:36"
+  },
+  "lemma_quote": "Γίνεσθε οὖν οἰκτίρμονες, καθὼς καὶ ὁ Πατὴρ ὑμῶν ὁ οὐράνιος οἰκτίρμων ὰστίν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

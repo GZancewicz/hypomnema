@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_1.6",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 7
+      }
+    ],
+    "display": "Matthew 1:7"
+  },
+  "lemma_quote": "«δολομῶν δὲ ἐγέννησε τὸν Ῥοβοάμ· Ῥοβοὰμ δὲ Ἀγέννησε τὸν Ἀβιά· Ἀθιὰ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.849,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

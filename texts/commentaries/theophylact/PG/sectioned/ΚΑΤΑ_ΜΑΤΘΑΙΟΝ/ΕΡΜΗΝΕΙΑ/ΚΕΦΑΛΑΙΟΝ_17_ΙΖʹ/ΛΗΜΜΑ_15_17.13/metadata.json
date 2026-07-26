@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_17.13",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 17:13"
+  },
+  "lemma_quote": "συνῆκαν οἱ μαθηταὶ, ὅτι περὶ Ἰωάννου τοῦ Βαπτιστοῦ εἶπεν αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.944,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

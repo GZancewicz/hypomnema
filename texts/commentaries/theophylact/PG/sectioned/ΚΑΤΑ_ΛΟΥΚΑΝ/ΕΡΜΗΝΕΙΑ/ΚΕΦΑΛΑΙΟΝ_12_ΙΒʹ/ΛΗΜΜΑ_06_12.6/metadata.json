@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_12.6",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 7
+      }
+    ],
+    "display": "Luke 12:7"
+  },
+  "lemma_quote": "πέντε στρουθία πωλεῖται ἀσσαρίων δύος Καὶ ἕν ἐξ αὐτῶν οὐκ ἔστιν ἐπιλελησμένον ἐνώπιον τοῦ Θεοῦ, ἀλλὰ καὶ αἱ τρίχες τῆς κκφαλῆς ὑμῶν πᾶσαι ἠρίθμηνται. Μὴ οὖν φοβεῖσθε, πολλῶν στρουθίων διαφέρετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.695,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

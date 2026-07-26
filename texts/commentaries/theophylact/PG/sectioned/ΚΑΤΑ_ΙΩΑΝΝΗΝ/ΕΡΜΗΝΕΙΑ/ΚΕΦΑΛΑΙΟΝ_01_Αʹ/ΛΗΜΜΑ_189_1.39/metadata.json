@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_189_1.39",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 189,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 40
+      }
+    ],
+    "display": "John 1:40"
+  },
+  "lemma_quote": "Φῶς γὰρ, φησὶν, οἰκῶν ἀπρόσιτον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.301,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.39",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

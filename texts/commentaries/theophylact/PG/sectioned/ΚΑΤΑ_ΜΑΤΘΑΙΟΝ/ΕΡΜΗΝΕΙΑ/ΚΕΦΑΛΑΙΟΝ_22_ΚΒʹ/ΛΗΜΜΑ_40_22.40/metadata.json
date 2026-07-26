@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_22.40",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 40,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 22:37"
+  },
+  "lemma_quote": "Ἀγαπήσεις τὸν Θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.834,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

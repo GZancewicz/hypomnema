@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_13.17",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 64,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 18
+      }
+    ],
+    "display": "John 13:18"
+  },
+  "lemma_quote": "Ἐγὼ οἶδα οὓς ἐξελεξάμην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.458,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:1"
   },
-  "lemma_quote": "Ἀπὸ Ἀνατολῶν",
-  "lemma_quote_en": "From the East",
+  "lemma_quote": "Ἀπὸ Ἀνατολῶν.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
-  "confidence": "high",
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.406,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.1",
   "folder_suffix_agrees": true,
-  "notes": "Re-quotes the sub-phrase «ἀπὸ Ἀνατολῶν» already within lemma 4's quote, to comment on it separately; still Matt. 2:1."
+  "notes": "Re-quotes the sub-phrase «ἀπὸ Ἀνατολῶν» already within lemma 4's quote, to comment on it separately; still Matt. 2:1.",
+  "lemma_quote_en": "From the East"
 }

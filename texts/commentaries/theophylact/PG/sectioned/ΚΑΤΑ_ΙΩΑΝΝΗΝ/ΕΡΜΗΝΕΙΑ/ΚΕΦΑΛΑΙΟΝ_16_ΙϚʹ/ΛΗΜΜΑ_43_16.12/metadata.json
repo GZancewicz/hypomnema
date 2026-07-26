@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_16.12",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 13
+      }
+    ],
+    "display": "John 16:13"
+  },
+  "lemma_quote": "Ὅσα ἂν ἀκούσῃ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

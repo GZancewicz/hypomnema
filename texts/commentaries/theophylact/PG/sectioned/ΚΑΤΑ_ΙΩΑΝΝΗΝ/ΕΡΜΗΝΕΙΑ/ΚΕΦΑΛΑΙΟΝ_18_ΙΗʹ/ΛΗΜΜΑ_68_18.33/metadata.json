@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_18.33",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 68,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 31
+      }
+    ],
+    "display": "John 18:31"
+  },
+  "lemma_quote": "κρίνατε αὐτοί",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

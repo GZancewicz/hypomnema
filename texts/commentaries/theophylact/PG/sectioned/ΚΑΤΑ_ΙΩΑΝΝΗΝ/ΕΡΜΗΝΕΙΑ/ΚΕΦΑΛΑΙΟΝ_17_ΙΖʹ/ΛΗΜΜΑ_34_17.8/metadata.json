@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_17.8",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 34,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 6
+      }
+    ],
+    "display": "John 17:6"
+  },
+  "lemma_quote": "Δέδωκάς μοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.256,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

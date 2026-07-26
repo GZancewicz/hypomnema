@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_7.13",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 7,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 7:14"
+  },
+  "lemma_quote": "«Καὶ προσκαλεσάμενος πάττα τὸν ἄχλον, ἔλεγεν αὐτοῖς· Ἀκούετέ μου, πάντες, καὶ ουνίετε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.806,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

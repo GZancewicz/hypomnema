@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_24.11",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 24:12"
+  },
+  "lemma_quote": "ἐφάνησαν ἐνώπιον αὐτῶν ὡσεὶ λῆρος τὰ ῥήματα αὐτῶν, καὶ ἡπίστουν αὐταῖς. Ὁ δὲ Πέτρος ἀναστὰς, Κδραμεν ἐπὶ τὸ μνημεῖον, καὶ παρακύψας βλέπαι κείμενα τὰ ὀθόνια μόνα, καὶ ἁπῆλθε´ πρὸς ἑαυτὸν ΟΑΡΙΤ ΣΧΙν θαυμάζων τὸ γεγονός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.72,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

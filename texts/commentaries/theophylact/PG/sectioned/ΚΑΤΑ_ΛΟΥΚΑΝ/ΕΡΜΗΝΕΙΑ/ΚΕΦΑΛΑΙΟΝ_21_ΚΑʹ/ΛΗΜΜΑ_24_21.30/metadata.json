@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_21.30",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 21:30"
+  },
+  "lemma_quote": "προβάλλωσιν ἤδη, βλέποντες ἀφ´ ἑαυτῶν γινώσκετε, δτι ἤδη ἐγγὺς τὸ τέλος ἔσται. Οὕτω καὶ ὑμεῖς, ὅταν ἴδητε ταῦτα γινόμενα, γινώσκετε ὅτι ἐγγύς ἐστιν ἡ βασιλεία τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.705,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

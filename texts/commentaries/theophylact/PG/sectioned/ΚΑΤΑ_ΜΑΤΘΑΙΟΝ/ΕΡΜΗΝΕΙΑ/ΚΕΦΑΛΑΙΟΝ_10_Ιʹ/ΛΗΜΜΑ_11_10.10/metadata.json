@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_10.10",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 10:10"
+  },
+  "lemma_quote": "πήραν εἰς ὀδὸν, μηδὲ δύο χιτῶνας, μηδὲ ὑποδήματα, μηδὲ ῥάβδους ἄξιος γὰρ ὁ ἐργάτης τῆς τροφῆς αὐτοῦ ἐστιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.964,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

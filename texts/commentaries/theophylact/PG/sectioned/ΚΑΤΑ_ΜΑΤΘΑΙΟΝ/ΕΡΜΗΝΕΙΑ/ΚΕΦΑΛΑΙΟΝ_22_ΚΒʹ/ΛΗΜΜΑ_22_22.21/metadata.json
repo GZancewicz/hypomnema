@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_22.21",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 22:21"
+  },
+  "lemma_quote": "Λέγουσιν αὐτῷ· Καίσαρος. Τότε λέγει αὐτοῖς· Ἀπόδοτε,οὖν τὰ Καίσαρος Καίσαρι, καὶ τὰ τοῦ Θεοῦ τῷ Θεῷ. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

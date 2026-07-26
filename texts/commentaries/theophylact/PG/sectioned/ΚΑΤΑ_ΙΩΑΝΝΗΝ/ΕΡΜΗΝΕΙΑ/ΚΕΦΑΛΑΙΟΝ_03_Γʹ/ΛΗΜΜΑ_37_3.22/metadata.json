@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_3.22",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 23
+      }
+    ],
+    "display": "John 3:23"
+  },
+  "lemma_quote": "ἐστὶν ἡ κρίσις, ὅτι τὸ φώς ἐλήλυθεν εἰς τὸν κόσμον. ἐν Αἰνὼν ἐγγύς τοῦ Σαλεὶμ, ὅτι ὕδατα πολλὰ ἦν ἐκεῖ, καὶ παρεγένοντο καὶ ἐβαπτίζοντο. Οὔπω γὰρ ἦν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.656,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

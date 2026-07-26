@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_118_1.20",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 118,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 16
+      }
+    ],
+    "display": "John 1:16"
+  },
+  "lemma_quote": "Ἡμεῖς πάντες οἱ προφῆται ἐκ τοῦ πληρώματος αὐτοῦ ἐλάβομεν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.69,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

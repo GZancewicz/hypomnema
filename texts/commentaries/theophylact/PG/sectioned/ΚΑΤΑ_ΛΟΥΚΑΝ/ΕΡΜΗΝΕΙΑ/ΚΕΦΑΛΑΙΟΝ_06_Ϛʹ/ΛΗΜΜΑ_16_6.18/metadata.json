@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_6.18",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 16,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 19
+      }
+    ],
+    "display": "Luke 6:19"
+  },
+  "lemma_quote": "Ἢλθον ἀκοῦσαι αὐτοῦ, τοῦτο ἔστιν ἡ τῶν ψυχῶν θεραπεία, καὶ ἰαθῆναι ἀπὸ τῶν νόσων αὐτῶν, τοῦτο, ἡ τῶν σωμάτων · δύναμις γὰρ παρ´ αὐτοῦ ἐξήρχετο καὶ ἰᾶτο πάντας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.403,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

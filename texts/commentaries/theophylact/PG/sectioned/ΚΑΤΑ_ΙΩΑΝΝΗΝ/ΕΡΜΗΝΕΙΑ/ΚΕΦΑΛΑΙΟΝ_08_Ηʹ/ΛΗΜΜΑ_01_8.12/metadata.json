@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_8.12",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 1,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 52
+      }
+    ],
+    "display": "John 7:52"
+  },
+  "lemma_quote": "«Ἀπεκρίθησαν καὶ εἶπον αὐτῷ· Μὴ καὶ σὺ ἐκ τῆς Γαλιλαίας εἶ; Ἐρεύνησον καὶ ἴδε, ὅτι προφήτης Ἀς τῆς Γαλιλαίας οὐκ ἐγήγερται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "8.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

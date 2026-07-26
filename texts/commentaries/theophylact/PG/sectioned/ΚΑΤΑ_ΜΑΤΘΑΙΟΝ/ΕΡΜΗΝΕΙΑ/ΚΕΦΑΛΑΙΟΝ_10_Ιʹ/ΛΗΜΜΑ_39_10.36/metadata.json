@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_10.36",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 39,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 10:37"
+  },
+  "lemma_quote": "Ὁ φῷῶν πατέρα ἢ μητέρα ὑπὲρ ἐμὲ, οὐκ ἔστι Κμου ἄξιος, καὶ ὁ φιλῶν υἱὸν ἢ θυγατέρα ὑπὲρ ἐμὲ, οὐκ ἱστι μου ἄξιος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.956,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

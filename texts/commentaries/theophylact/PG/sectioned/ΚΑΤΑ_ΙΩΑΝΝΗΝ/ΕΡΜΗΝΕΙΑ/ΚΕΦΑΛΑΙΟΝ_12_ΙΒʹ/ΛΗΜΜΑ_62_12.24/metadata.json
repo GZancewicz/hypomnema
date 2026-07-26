@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_12.24",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 26
+      }
+    ],
+    "display": "John 12:26"
+  },
+  "lemma_quote": "Ὁφιλῶν τὴν ψυχὴν αὐτοῦ, ἀπολέσει αὐτήν· καὶ ὁ μισῶν τὴν ψυχὴν αὐτοῦ ἐν τῷ κόσμῳ τούτῳ, εἰς ζωῆν αἰώνιον φυλάξει αὐτήν. Ἐὰν ἐμοὶ διακονῇ τις, ἐμοὶ ἀκολουθείτω· καὶ ὅπου εἰμὶ ἐγὼ, ἐκεῖ καὶ ἀ διάκονος ὁ ἐμὸς ἔσται. Καὶ ἐάν τις ἐμοὶ διακονῇ, τιωήσει αὐτὸν ὁ Πατήρ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.762,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

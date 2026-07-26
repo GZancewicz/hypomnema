@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_15.1",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 1
+      }
+    ],
+    "display": "John 15:1"
+  },
+  "lemma_quote": "ἄμπελος ἡ ἀληθινὴ, καὶ ὁ Πατήρ μου ὁ γεωργός ἐστι. Μᾶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.903,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

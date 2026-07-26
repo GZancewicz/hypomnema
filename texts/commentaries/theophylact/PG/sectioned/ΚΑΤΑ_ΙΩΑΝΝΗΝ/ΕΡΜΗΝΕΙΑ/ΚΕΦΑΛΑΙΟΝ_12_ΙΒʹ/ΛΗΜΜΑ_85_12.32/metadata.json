@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_12.32",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 32
+      }
+    ],
+    "display": "John 12:32"
+  },
+  "lemma_quote": "ὑψωθῶ ἐκ τῆς τῆς, πάντας ἑλκύσω πρὸς ἐμαυτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.796,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

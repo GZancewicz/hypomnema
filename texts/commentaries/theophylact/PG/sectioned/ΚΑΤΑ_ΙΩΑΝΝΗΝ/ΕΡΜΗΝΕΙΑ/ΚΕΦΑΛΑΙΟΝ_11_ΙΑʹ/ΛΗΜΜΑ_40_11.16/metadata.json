@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 40,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 19
+      }
+    ],
+    "display": "John 11:19"
+  },
+  "lemma_quote": "Ἐθὼν οὔν ὁ Ἰησοῦς, εὐρεν αὐτὸν τέσσαρας ἡμέρας ἤδη ἔχοντα ἐν τῷ μνημείῳ. Ἥν δὲ ἡ Βηθανία ἐγνὸς τῶν Ἰεροσολύμων ὡς ἀπὸ σταδίων δεκαπέντε. Καὶ πολλοὶ τῶν Ἰουδαίων συνεληλύθεισαν πρὸς τὰς Περὶ τὴν Μάρθαν καὶ Μαρίαν, ἵνα παραμυθήσωνται αὐτὰς περὶ τοῦ ἀδελφοῦ αὐτῶν. Ἡ. οὖν Μάρθα, ὡς ἱκωσεν ὅτι Ἰησοῦς ἔρχεται, ὑπήντησεν αὐτῷ· Μαρία δὲ ἐν τῷ οἴκῳ ἐκαθέζετο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.617,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

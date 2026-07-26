@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_104_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 104,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 34
+      }
+    ],
+    "display": "John 13:34"
+  },
+  "lemma_quote": "Αγαπήσεις, ἔλεγε, τὸν φίλον σου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.23,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

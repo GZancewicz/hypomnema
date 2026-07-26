@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_3.14",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 25,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 14
+      }
+    ],
+    "display": "John 3:14"
+  },
+  "lemma_quote": "Καὶ καθὼς Μωσῆς ὕψωσε τὸν ὄφιν ἐν τῇ ἐρήμῳ, οὔτως ὑψωθῆναι δεῖ τὸν Υἱὸν τοῦ ἀνθρώπου· ἵνα πᾶς ὰ πιστεύων εἰς αὐτὸν μὴ ἀπόλληται, ἀλλ´ ἔχῃ ζωὴν αἰώνιον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.782,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

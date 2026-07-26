@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_18.23",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 20
+      }
+    ],
+    "display": "John 18:20"
+  },
+  "lemma_quote": "ἐν κρυπτῷ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

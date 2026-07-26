@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_4.7",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 7,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 7
+      }
+    ],
+    "display": "Mark 4:7"
+  },
+  "lemma_quote": "ἔπεσεν εἰς τὰς ἀκάνθας, καὶ ἀνέβησαν αἱ ἄκανθαι καὶ συνέπνιξαν αὐτὸ, καὶ καρπὸν οὐκ ἔδωκε. Καὶ ἄλλο ἔπεσεν εἰς τὴν γῆν τὴν καλὴν, καὶ ἐδίεου καρπὸν ἀναβαίνοντα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.854,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

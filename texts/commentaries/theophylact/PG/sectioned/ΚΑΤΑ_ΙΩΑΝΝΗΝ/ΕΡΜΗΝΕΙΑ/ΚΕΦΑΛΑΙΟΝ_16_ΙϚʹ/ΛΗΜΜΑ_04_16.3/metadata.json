@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_16.3",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 4,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 4
+      }
+    ],
+    "display": "John 16:4"
+  },
+  "lemma_quote": "Ἐλάλησα, φησὶν, ὑμῖν ταῖτα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.156,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

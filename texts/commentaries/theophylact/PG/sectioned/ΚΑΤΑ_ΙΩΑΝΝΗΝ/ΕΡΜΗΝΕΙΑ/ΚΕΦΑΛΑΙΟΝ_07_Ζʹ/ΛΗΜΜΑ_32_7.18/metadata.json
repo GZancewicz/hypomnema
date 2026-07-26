@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_7.18",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 18
+      }
+    ],
+    "display": "John 7:18"
+  },
+  "lemma_quote": "ἑαυτοῦ λαλῶν, τὴν δόξαν τὴν ἰδίαν ζητεῖ. Ὁ δὲ ζητῶν τὴν δόξαν τοῦ πέμψαντος αὐτὸν, οὗτος ἀληθής ἐστι, καὶ ἀδικία οὐκ ἕστιν ἐμὴ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.952,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

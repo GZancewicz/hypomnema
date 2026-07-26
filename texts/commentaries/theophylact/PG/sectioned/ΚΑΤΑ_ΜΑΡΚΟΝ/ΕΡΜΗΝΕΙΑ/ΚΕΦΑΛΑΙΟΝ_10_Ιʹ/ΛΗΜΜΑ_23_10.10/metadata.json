@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 23,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 51
+      }
+    ],
+    "display": "Mark 10:51"
+  },
+  "lemma_quote": "ἀποκριθεὶς λέγει αὐτῷ ὁ Ἰησοῦς· Τί θέλεις ποιήσω σοι; Ὁ δὲ τυφλὸς εἶπεν αὐτῷ· Ῥαβουνὶ, ἵνα ἀναβλέψω. Ὁ δὲ Ἰησοῦς εἶπεν αὐτῷ· Ὑαγε, ἡ πίστις σου σέκωκέ σε. Καὶ εὐθέως ἀνἐβλεψε καὶ ἠκολούθει τῷ Ἰησοῦ ἐν τῇ ὁδῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.665,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

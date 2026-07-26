@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_159_12.48",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 159,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 48
+      }
+    ],
+    "display": "John 12:48"
+  },
+  "lemma_quote": "«Ὁ ἀθετῶν ἐμὲ, καὶ μὴ λαμβάνων τὰ ῥήματά μου, ἔχει τὸν κρίνοντα αὐτόν. Ὁ λόγος ὃν ἐλάλησα, ἐκεῖνος κρινεῖ αὐτὸν ἐν τῇ ἐσχάτῃ ἡμέρᾳ· ὅτι ἐγῶ ἐξ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.977,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.48",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

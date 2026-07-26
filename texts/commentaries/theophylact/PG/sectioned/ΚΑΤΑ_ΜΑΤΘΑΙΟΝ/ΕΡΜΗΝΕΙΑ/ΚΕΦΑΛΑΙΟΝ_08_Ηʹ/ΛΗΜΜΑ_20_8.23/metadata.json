@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_8.23",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 8:23"
+  },
+  "lemma_quote": "«Καὶ ἐμβάντι αὐτῷ εἰς τὸ πλοῖον, ἠκολούθησαν αὐτῷ οἱ μαθηταὶ αὐτοῦ, καὶ ἱδοὺ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.957,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

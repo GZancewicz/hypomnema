@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_94_5.47",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 94,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 47
+      }
+    ],
+    "display": "John 5:47"
+  },
+  "lemma_quote": "Εἰ οὖν τοῖς Μωϋσέως γράμμασιν οὐ πιστεύετε, πῶς τοῖς ἐμοῖς ῥήμασι πιστεύσετε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.912,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.47",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

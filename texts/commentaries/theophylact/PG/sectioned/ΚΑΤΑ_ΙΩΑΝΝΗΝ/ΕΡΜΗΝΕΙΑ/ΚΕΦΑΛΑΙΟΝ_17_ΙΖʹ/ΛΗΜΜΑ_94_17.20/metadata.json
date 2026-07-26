@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_94_17.20",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 94,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 21
+      }
+    ],
+    "display": "John 17:21"
+  },
+  "lemma_quote": "Νωὶ τῶν πιστευόντων διὰ τοῦ λόγου αὐτῶν εἰς ἐμὲ, ἵνα τάντες ἔν ὥσι, καθὼς σὺ, Πάτερ, ἐν ἐμοὶ, κἀγὼ ἑν σοὶ, ἵνα καὶ αὐτοὶ ἐν ἡμῖν ἑν ὧσιν, ἵνα ὁ κόσμος πιστεύσῃ, ὅτι σύ με ἀπέστειλας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.68,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

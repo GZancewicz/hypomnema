@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_6.9",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 6:13"
+  },
+  "lemma_quote": "«Ἀγιασθήτω τὸ ὄνομά σου· Τουτέστι, Ποίησον ἡμᾶς ἀγίους, ἵνα καὶ σὺ δι´ ἡμᾶς δοξάζῃ· ὡς γὰρ βλασφημεῖται δι´ ἐμὲ, οὕτω καὶ ἀγιάζεται δι´ ἐμὲ ὁ Θεὸς, τουτέστιν, ὡ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.363,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

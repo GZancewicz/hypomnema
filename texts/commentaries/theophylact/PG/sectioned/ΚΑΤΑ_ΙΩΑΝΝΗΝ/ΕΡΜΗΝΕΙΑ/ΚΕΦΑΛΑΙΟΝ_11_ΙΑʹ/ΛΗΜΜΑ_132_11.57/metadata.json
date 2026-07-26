@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_132_11.57",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 132,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 56
+      }
+    ],
+    "display": "John 11:56"
+  },
+  "lemma_quote": "Μλλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον, ἢ τʹς ἐχούσης τὸν ἄνδρα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.214,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.57",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

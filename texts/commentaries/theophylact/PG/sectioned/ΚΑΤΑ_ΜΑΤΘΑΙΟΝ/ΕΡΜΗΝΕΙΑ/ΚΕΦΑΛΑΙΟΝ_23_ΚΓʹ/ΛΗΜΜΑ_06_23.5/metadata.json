@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_23.5",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 23:6"
+  },
+  "lemma_quote": "«Ριλοῦσι δὲ τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις, καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς, καὶ τοὺς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.888,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

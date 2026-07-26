@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_14.7",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 5,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 7
+      }
+    ],
+    "display": "Luke 14:7"
+  },
+  "lemma_quote": "«Ἔλεγε δὲ πρὸς τοὺς κεκλημενους παραβολὴν, ἐπέχων πῶς τὰς πρωτοκλισίας ἐξελέγοντο, λέγων πρὸς αὐτούς· Ὅταν κληθῇς ὑπό τινος εἰς γάμον, μὴ κατακλιθῇς εἰς τὴν πρω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.805,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

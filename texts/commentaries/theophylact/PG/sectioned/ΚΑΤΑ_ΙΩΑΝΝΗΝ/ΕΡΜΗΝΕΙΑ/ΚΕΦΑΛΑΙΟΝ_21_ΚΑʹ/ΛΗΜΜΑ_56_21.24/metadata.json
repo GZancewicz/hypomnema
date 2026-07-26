@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_56_21.24",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 56,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 25
+      }
+    ],
+    "display": "John 21:25"
+  },
+  "lemma_quote": "Ἡμεῖς ἐσμεν μάρτυρες ὧν λέγομεν, καὶ τὸ Πνεῦμα, ὃ ἔδωκε τοῖς πειθαρχοῦσιν αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.214,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

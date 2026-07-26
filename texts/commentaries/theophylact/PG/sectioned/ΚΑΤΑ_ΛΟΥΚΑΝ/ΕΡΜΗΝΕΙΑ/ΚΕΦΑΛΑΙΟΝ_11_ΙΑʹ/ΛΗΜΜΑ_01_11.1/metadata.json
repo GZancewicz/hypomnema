@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_11.1",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 11:1"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο, ἐν τῷ εἶναι αὐτὸν ἐν τόπῳ τινὶ προσευχόμενον, ὡς ἐπαύσατο, εἶπέ τις τῶν μαθητῶν αὐτοῦ πρὸς αὐτόν· Κύριε, δίδαξον ἡμᾶς προσεθχεσθαι, καθὼς καὶ Ἰωάν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.847,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

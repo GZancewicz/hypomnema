@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 11
+      }
+    ],
+    "display": "John 11:11"
+  },
+  "lemma_quote": "Ἐγὼ ἐλθὼν θεραπεύσω αὐτὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.339,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

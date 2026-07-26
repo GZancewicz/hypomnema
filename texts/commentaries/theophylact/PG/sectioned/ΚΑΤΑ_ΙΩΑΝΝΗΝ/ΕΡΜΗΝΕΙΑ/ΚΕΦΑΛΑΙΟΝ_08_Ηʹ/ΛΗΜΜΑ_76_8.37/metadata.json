@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_76_8.37",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 76,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 41
+      }
+    ],
+    "display": "John 8:41"
+  },
+  "lemma_quote": "Μὴ ἄρξησθε, φησί, λέγειν· Πατέρα ἔχομεν τὸν Ἀβραάμ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.382,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

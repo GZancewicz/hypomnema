@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_8.44",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 42
+      }
+    ],
+    "display": "John 8:42"
+  },
+  "lemma_quote": "Ἐκεῖνος γὰρ ἀνθρωπικτόνος ἦν ἀπ´ ἀρχῆς·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.379,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_11.37",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 11:37"
+  },
+  "lemma_quote": "«Ἐν δὲ τῷ λαλῆσαι, ἠρώτα αὐτὸν δαρισαῖός τις, ὅπως ἀριστήσῃ παρ´ αὐτῷ· εἰσελθὼν δὲ ἀνέπεσεν. Ὁ δὲ δαρισαῖος ἰδὼν ἐθαύμασεν, ὅτι οὐ πρῶτον ἐβαπτίσθη πρὸ τοῦ ἀρίσ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.706,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_1.1",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 1:2"
+  },
+  "lemma_quote": "Ὁρᾷς ὅτι διὰ τοῦτο ἐμνήσθη τοῦ Ἰούδα καὶ τῶν ἀδελφῶν αὐτοῦ διότι ἀπ´ αὐτῶν ἦσαν αἱ δώθεκα φυλαί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.336,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.1",
+  "folder_suffix_agrees": false,
+  "notes": "No scripture quote — opens with Theophylact's own words (Ὁρᾷς ὅτι...); continuation of ΛΗΜΜΑ_07 (1:2)."
+}

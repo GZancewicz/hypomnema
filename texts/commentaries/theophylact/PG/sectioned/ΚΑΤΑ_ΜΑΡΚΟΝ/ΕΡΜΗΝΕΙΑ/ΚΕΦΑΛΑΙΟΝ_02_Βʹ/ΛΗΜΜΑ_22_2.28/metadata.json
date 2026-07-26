@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_2.28",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 22,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 28
+      }
+    ],
+    "display": "Mark 2:28"
+  },
+  "lemma_quote": "Κύριός ἐστιν · Υἱὸς τοῦ ἀνθρώπου καὶ τοῦ Σαββάτου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.953,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

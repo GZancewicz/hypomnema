@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_22.11",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 12,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 11
+      }
+    ],
+    "display": "Matthew 22:11"
+  },
+  "lemma_quote": "«Εἰσελθὼν δὲ ὁ βασιλεὺς θεάσασθαι τοὺς ἀνακειμένους, εἶδεν ἐκεῖ ἄνθρωπον οὐκ ἐνδεδυμένον ἔνδυμα χάμου, καὶλέγει αὐτῷ· Ἑταῖρε, πῶς εἰσῆλθες ὤδε, μὴ ἔχων ἔνδυμα γ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.783,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

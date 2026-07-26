@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_10.40",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 43,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 40
+      }
+    ],
+    "display": "Matthew 10:40"
+  },
+  "lemma_quote": "«Ὁ δεχόμενος ὑμᾶς, ἐμὲ δέχεται· καὶ ὁ ἐμὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

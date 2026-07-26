@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_20.23",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 21
+      }
+    ],
+    "display": "John 20:21"
+  },
+  "lemma_quote": "Ἐγὼ πέμπω ὑᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.769,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

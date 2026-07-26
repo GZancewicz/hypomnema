@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_13.6",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 7
+      }
+    ],
+    "display": "Matthew 13:7"
+  },
+  "lemma_quote": "Ἄλλα δὲ ἕπεστν ἐπὶ τὰς ἀκάνθας, καὶ ἀνέβησαν αἱ ἄκανθαι, καὶ ἀπέπνιξα αὐτά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.855,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

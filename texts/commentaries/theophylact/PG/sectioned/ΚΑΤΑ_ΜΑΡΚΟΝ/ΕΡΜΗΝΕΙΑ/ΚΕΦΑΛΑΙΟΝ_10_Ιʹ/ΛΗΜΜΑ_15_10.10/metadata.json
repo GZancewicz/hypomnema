@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 15,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 39
+      }
+    ],
+    "display": "Mark 10:39"
+  },
+  "lemma_quote": "«Ὁ δὲ Ἰησοῦς εἶπεν αὐτοῖς· Τὸ μὲν ποτήριον δ ἐγὼ πίνω, πίεσθε, καὶ τὸ βάπτισμα ὃ ἐγὼ βαπτίζομαι, βαπτισθήσεθε. Τὸ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.867,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_10.24",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 24
+      }
+    ],
+    "display": "Luke 10:24"
+  },
+  "lemma_quote": "πολλοὶ προφῆπαι καὶ βασιλεῖς ἠθέλησαν ἰδεῖν ἃ ὑμεῖς βλέπετε, καὶ οὐκ εἶδον καὶ ἀκοῦσαι ἃ ἀκούετε, καὶ οὐκ ἤκουσαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.9,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

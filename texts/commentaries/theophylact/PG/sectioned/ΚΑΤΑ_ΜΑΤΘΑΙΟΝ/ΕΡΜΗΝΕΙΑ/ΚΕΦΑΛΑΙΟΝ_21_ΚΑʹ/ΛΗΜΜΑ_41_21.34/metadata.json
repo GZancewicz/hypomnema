@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 41,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 44
+      }
+    ],
+    "display": "Matthew 21:44"
+  },
+  "lemma_quote": "πεσῶν ἐπὶ τὸν λίθον τοῦτον, συνθλασθήαται· ἑφ´ ὃν δ´ ἂν πέσῃ, λικμήσει αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.921,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

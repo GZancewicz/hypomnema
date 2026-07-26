@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_86_11.42",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 86,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 35
+      }
+    ],
+    "display": "John 11:35"
+  },
+  "lemma_quote": "Ἐδάκρυσεν ὁ Ἀσους,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.494,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

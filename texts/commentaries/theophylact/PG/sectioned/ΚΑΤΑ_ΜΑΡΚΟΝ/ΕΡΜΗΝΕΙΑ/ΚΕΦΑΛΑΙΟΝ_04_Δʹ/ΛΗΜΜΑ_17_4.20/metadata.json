@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_4.20",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 17,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 20
+      }
+    ],
+    "display": "Mark 4:20"
+  },
+  "lemma_quote": "οὖτοί εἰσιν οἱ ἐπὶ τὴν γῆν τὴν καλὴν σπαρέντες, οἵ τινες ἀκούουσι τὸν λόγον καὶ παραδέχονται, καὶ καρποφοροῦσιν ἓν τριάκοντα καὶ ἓν ἐξήκοντα καὶ ἓν ἐκατόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.949,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

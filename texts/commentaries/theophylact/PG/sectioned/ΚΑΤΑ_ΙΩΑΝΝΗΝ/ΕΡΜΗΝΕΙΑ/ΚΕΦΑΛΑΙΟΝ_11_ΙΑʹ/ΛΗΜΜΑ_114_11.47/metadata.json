@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_11.47",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 48
+      }
+    ],
+    "display": "John 11:48"
+  },
+  "lemma_quote": "καὶ ἀροῦσιν ἡμῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.414,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

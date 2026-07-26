@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_22.34",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 34
+      }
+    ],
+    "display": "Matthew 22:34"
+  },
+  "lemma_quote": "«Οἱ δὲ Φαρισαῖοι ἀκούσαντες ὅτι ἐφίμωσε τοὺς Σαδδουκαίους, συνήχθησαν ἐπὶ τὸ αὐτὸ, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.998,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

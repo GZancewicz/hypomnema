@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_91_14.18",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 91,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 20
+      }
+    ],
+    "display": "John 14:20"
+  },
+  "lemma_quote": "Καθὼς ἀπέστειλέ με ὁ Πατὴρ, κἀγὼ πέμπω ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.242,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "14.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

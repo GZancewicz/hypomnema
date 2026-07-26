@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_20.46",
+  "gospel": "luke",
+  "chapter": 20,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 46
+      }
+    ],
+    "display": "Luke 20:46"
+  },
+  "lemma_quote": "Προσέχετε ἀπὸ τῶν Γραμματέων τῶν θελόντων περιπατεῖν ἐν στολαῖς, καὶ φιλούντων ἀσπασμοὺς ἐν ταῖς ἀγοραῖς, καὶ πρωτοκαθεδρίας ἐν ταῖς Συναγωγαῖς, καὶ πρωτοκλισίας ἐν τοῖς δείπνοις, οἶ κατεσθίουσι τὰς οἰκίας τῶν χηΚρῶν, καὶ προφάσει μακρᾷ προσεύχὸνται. Οὗτοι λήψονται περισσότερον κρῖμα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.813,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

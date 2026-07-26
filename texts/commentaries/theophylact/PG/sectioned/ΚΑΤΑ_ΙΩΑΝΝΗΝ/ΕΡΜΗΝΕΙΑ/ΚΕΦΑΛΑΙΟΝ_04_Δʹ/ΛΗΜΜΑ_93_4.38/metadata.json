@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_4.38",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 37
+      }
+    ],
+    "display": "John 4:37"
+  },
+  "lemma_quote": "Ἄλλος ἐστὶν ὁσπείρων, καὶ ἄλλος ὁ θερίζων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.768,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

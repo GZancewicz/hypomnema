@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_17.14",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 9,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 17:14"
+  },
+  "lemma_quote": "εἵπεν αὐτοῖς· Πορευθέντες ἐπιδείξατε ἑαυτοὺς τοῖς ἱερεῦσι. Καὶ ἑγένετο ἐν τῷ ὑπάγειν αὐτοὺς, ἐκαθαρίσθησαν. Εἰς δὰ ἐξ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.956,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

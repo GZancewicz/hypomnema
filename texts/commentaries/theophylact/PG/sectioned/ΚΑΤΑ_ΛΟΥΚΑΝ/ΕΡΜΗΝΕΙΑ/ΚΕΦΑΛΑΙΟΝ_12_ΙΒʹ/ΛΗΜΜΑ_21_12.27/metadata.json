@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_12.27",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 27
+      }
+    ],
+    "display": "Luke 12:27"
+  },
+  "lemma_quote": "«Κατανοήσατε τὰ κρίνα πῶς αὐξάνει· οὐ κοπιᾷ οὐδὲ νήθει. Λέγω ὑμῖν, ὅτι οὐδὲ Σολομῶν ἐν πάσῃ τῇ δόξῃ αὐτοῦ περιεβάλετο ὡς ἓν τούτων. Εἰ δὲ τὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.981,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

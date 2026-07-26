@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_142_12.42",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 142,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 42
+      }
+    ],
+    "display": "John 12:42"
+  },
+  "lemma_quote": "« δειννύων δτι καὶ ἐν τούτῳ ἐψεύσαντο οἱ Φαρισαίοι εἰπόντες·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.199,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

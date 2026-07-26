@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_16.23",
+  "gospel": "luke",
+  "chapter": 16,
+  "index": 26,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 27
+      }
+    ],
+    "display": "Luke 16:27"
+  },
+  "lemma_quote": "«ʹἘἱπε δέ· Ἐρωτῶ οὖν σε, πάτερ, ἵνα πέμψῃε αὐτὸν εἰς τὸν οἶκον τοῦ πατρός μου· ἔχω γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.828,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

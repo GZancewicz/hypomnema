@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_18.10",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 18:10"
+  },
+  "lemma_quote": "Ὁρᾶτε μὴ καταφρονήσητε ἑνὸς τῶν μικρῶν τούτων· λέγω γὰρ ὑμῖν, ὅτι οἱ ἄγγελοι αὐτῶν ἐν οὐρανοῖς διὰ παντὸς βλέπουσι τὸ πρόσωπον τοῦ Πατρός μου τοῦ ἐν οὐρανοῖς· ἦλθε γὰρ ὁ Υἱὸς τοῦ ἀνθρώπου σῶσαι τὸ ἀπολωλός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.864,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

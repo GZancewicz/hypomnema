@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_19.1",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 1,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 40
+      }
+    ],
+    "display": "John 18:40"
+  },
+  "lemma_quote": "«Ἐκραύγασαν οὖν πάλιν πάντες λέγοντες· Μὴ τοῦὧΑΡΟΤ ΧΙΑ. τον, ἀλλὰ τὸν Βαραββᾶν. Ἡν δὲ ὁ Βαραββᾶς λῃστής. Τέτε αῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "19.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

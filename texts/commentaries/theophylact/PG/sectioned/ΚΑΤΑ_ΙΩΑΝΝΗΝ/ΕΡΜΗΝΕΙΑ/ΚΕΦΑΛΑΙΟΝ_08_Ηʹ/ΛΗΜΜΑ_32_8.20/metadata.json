@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_8.20",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 19
+      }
+    ],
+    "display": "John 8:19"
+  },
+  "lemma_quote": "Ποῦ ἐστιν ὁ Πατήρ σου;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

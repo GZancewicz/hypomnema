@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_26.7",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 7
+      }
+    ],
+    "display": "Matthew 26:7"
+  },
+  "lemma_quote": "Κατευθυνθήτω γὰρ, φησίν, ἡ προσευχή μου ὡς θυμίαμα ἐνώπιόν σου, Κύριε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.23,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "26.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

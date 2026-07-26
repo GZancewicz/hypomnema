@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_92_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 92,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 32
+      }
+    ],
+    "display": "John 13:32"
+  },
+  "lemma_quote": "Λέγει ὁ Ἰησοῦς· Νῦν ἐδοξάσθη ὁ Υἱὸς τοῦ ἀνθρώπου, καὶ ὁ Θεὸς ἐδοξάσθη ἐν αὐτῷ. Εἰ ῥ Θεὸς ἐδοξάσθη ἐν αὐτῷ, καὶ ὁ Θεὸς δοξάσει αὐτὸν ἐν ἑαυτῷ, καὶ εὐθὺς δοξάσει αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.867,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

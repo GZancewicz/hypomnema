@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_20.4",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 6,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 18
+      }
+    ],
+    "display": "John 20:18"
+  },
+  "lemma_quote": "ἔρχεται Μαρία ἡ Μαγδαληνή.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.452,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

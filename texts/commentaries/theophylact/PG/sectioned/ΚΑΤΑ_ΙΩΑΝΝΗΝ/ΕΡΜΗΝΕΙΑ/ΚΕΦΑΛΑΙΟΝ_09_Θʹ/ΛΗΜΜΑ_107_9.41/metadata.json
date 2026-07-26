@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_107_9.41",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 107,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 39
+      }
+    ],
+    "display": "John 9:39"
+  },
+  "lemma_quote": "ἴνα οἱ μὴ βλέποντες βλέπιωσι. καὶ οἱ βλέποντες,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.566,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

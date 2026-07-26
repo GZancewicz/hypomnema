@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_9.22",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 9:22"
+  },
+  "lemma_quote": "Ἰησοῦς ἐπιστραφεὶς καὶ ἰδών αὐτὴν, εἶπε· Θάρσει, θύγατερ, ἡ πίστις σου σέσωκ σε. Καὶ ἐσώθη ἡ γυνὴ ἀπὸ τῆς ὥρας ἐκείνης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.955,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

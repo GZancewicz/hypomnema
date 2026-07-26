@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_5.11",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 5:13"
+  },
+  "lemma_quote": "Ἐὰν δὲ τὸ ἅλας μωρανθῇ. ἐν τίνι ἀλισθήσεται; εἰς οὐδὲν ἰσχύει ἔτι, εἰ μὴ βληθῆναι ἕξω, καὶ καταπατεῖσθαι ὑπὸ τῶν ἀνθρώπων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.882,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

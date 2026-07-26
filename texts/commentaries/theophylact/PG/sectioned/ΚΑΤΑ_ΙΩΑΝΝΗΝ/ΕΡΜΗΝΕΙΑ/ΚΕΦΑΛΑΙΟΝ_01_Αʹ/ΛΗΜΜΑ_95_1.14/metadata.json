@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_1.14",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 95,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 16
+      }
+    ],
+    "display": "John 1:16"
+  },
+  "lemma_quote": "Ἑθαύμαζον πάντες ἐπὶ φοῖς λόγοις τῆς χάριτος τοῖ- ἐκπηρευοιμένοις ἐκ τοῦ στόματος αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.353,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

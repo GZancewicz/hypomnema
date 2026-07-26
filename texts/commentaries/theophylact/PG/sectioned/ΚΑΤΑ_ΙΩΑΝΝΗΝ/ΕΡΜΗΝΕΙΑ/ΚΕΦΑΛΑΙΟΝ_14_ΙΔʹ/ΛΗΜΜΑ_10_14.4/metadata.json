@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_14.4",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 10,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 5
+      }
+    ],
+    "display": "John 14:5"
+  },
+  "lemma_quote": "Κύριε, οὐκ οἴδαμεν, φησὶί, ποῦ ὑπάγεις, καὶ πῶς δυνάμεθα τὴν ὁδὸν εἰδέναι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.91,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

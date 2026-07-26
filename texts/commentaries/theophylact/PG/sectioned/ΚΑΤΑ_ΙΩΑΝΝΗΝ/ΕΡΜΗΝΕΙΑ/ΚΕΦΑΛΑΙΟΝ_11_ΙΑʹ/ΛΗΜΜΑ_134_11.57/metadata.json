@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_134_11.57",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 134,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 18
+      }
+    ],
+    "display": "John 11:18"
+  },
+  "lemma_quote": "ἀπὸ λήθης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.35,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.57",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_148_1.27",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 148,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 30
+      }
+    ],
+    "display": "John 1:30"
+  },
+  "lemma_quote": "Ἀμαρτίαν γὰρ οὐκ ἐποίησεν, οὐδὲ εὐρέθη ἐν τῷ στόματι αὐτοῦ δόλος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.271,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

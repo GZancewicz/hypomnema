@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_9.13",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 16
+      }
+    ],
+    "display": "John 9:16"
+  },
+  "lemma_quote": "Μάχαιραν ἠλθον βαλεῖν ἐπὶ τὴν γῆν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.169,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

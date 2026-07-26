@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 17,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 15:21"
+  },
+  "lemma_quote": "Καθήλωσον ἐκ τοῦ φόβου σου τὰς σάρκας μου, λέγων· ἀπὸ γὰρ τῶν κριμάτων σου ἐφοβήθην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.247,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

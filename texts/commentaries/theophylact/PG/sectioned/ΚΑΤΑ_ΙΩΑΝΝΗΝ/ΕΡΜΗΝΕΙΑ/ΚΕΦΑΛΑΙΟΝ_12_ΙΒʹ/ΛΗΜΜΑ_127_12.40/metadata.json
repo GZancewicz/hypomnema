@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_127_12.40",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 127,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 37
+      }
+    ],
+    "display": "John 12:37"
+  },
+  "lemma_quote": "οὐκ ἐπίστευον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.409,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

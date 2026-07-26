@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_94_10.36",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 94,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 30
+      }
+    ],
+    "display": "John 10:30"
+  },
+  "lemma_quote": "Ἐγὼ καὶ ὁ Πατὴρ ἕν ἐσμεν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

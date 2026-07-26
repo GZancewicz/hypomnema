@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_11.34",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 11:36"
+  },
+  "lemma_quote": "Σκόπει οὖν, μὴ τὸ φῶς τὸ ἐν σοὶ σκότος ἐστίν. Ε οὖν τὸ σῶμά σου ὅλον φωτεινὸν, μὴ ἔχον τι μέρος στοτεινὸν, ἔσται φωτεινὸν ὅλον, ὡς ὅταν ὁ λύχνος τῆ ἀστραπῇ φωτίζῃ σε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.839,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

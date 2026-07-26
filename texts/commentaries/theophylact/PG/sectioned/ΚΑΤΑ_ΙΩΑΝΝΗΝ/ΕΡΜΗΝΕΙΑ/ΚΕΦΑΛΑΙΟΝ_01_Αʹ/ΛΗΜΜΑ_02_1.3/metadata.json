@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_1.3",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 1
+      }
+    ],
+    "display": "John 1:1"
+  },
+  "lemma_quote": "Ἐν ἀρχῇ ἦν ὁ Λόγος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.784,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

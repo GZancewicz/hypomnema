@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_15.5",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 15:5"
+  },
+  "lemma_quote": "Υμεῖς δὲ λέγετε· Ὃς ἂν εἴπῃ τῷ πατρὶ ἢ τῇ μητρί· Δῶρον ὃ ἐὰν ἐξ έμοῦ ὡφεληθῇς, καὶ οὐ μὴτιμήσῃ τὸν πατέρα αὐτοῦ ἢ τὴν μητέρα· καὶ ἠκυρώσατε τὴν ἐντολὴν τοῦ Θεοῦ διὰ τὴν παράδοσιν ὑμῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.771,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

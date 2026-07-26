@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_15.13",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 30,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 13
+      }
+    ],
+    "display": "John 15:13"
+  },
+  "lemma_quote": "Μὴ χαίρετε, ὅτι τὰ δαιμόνια ἐκβάλλετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.17,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

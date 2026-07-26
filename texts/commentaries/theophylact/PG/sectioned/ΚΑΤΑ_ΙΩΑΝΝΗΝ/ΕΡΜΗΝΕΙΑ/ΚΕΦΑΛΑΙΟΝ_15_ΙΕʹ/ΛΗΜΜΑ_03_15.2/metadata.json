@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_15.2",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 3,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 2
+      }
+    ],
+    "display": "John 15:2"
+  },
+  "lemma_quote": "κλῆμα ἐν ἐμοὶ μὴ φέρον καρπὸν, αἴοει αὐτό· καὶ τᾶν τὸ καρπὸν φέρον, καθαίρει αὐτὸ, ἵνα πλείονα καρπὸν φέρῃ. Ἡδη",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.833,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

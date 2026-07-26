@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_9.19",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 18,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 42
+      }
+    ],
+    "display": "Mark 9:42"
+  },
+  "lemma_quote": "Ὃς γὰρ ἂν ποτίσῃ ὑμᾶς ποτήριον ὑδατος ἐν τῷ ὀνόματί μου, ὅτι Χριστοῦ ἐστε, ἀμὴν λέγω ὑμῖν, οὐ μὴ ἀπολέσῃ τὸν μισθὸν αὐτοῦ. Καὶ δς ἐὰν σκανδαλίσῃ ἕνα τῶν μικρῶν τῶν πιστευόντων εἰς ἐμὲ, καλῥν ἐστιν αὐτῶ Πλλον, εἰ περίκειται λίθος μυλικὸς περὶ τὸν τράχηλον αὐτοῦ, καὶ βέβληται εἰς τὴν θάλασσαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.719,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

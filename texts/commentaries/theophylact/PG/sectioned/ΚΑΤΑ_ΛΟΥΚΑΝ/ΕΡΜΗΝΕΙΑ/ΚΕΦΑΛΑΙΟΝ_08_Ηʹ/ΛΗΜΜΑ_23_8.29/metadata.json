@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_8.29",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 8:29"
+  },
+  "lemma_quote": "Παρήγγελλε γὰρ τῷ πνεύματι τῷ ἀκαθάρτῳ ἐξελθεῖν ἀπὸ τοῦ ἀνθρώπου. Πολλοῖς γὰρ χρόνοις συνηρπάκει αὐτὸν, καὶ ἐδεσμεῖτο ἀλύσεσι καὶ πέδαις φυλασσόμενος, καὶ ιαῤῥή",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.793,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

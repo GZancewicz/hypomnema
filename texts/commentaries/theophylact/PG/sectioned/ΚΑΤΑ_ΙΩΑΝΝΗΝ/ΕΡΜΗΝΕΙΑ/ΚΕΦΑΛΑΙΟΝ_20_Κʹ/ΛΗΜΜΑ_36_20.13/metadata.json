@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_20.13",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 36,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 12
+      }
+    ],
+    "display": "John 20:12"
+  },
+  "lemma_quote": "πρὸς τοῖς ποσι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

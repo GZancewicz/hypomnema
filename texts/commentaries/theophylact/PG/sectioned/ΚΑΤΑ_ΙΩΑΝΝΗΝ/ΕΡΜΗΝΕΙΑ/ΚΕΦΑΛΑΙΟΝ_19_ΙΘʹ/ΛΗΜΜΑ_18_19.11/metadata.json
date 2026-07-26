@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_19.11",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 23
+      }
+    ],
+    "display": "John 19:23"
+  },
+  "lemma_quote": "Τί ἐποίησας;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.818,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

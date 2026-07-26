@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 32,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 15:32"
+  },
+  "lemma_quote": "εὐφρανθῆναι δὲ ἔδει, καὶ χαρῆναι, ὅτι ὁ ἀδελφός σου οὗτος νεκρὸς ἦν καὶ ἀνέζησε, καὶ ἀπολωλὼς ἦν, καὶ εὐ ρέθη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.949,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

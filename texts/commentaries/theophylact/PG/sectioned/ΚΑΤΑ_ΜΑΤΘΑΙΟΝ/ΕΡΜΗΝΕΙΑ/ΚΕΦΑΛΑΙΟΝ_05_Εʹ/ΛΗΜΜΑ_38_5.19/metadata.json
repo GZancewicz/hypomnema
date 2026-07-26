@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_5.19",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 38,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 5:22"
+  },
+  "lemma_quote": "Ῥακὰ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.181,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

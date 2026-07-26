@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_12.9",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 11
+      }
+    ],
+    "display": "Luke 12:11"
+  },
+  "lemma_quote": "ἀρνησάμενός με ἐνώπιον τῶν ἀνθρώπων, ἀπαρνηθήσεται ἐνώπιον τῶν ἀγγέλων τοῦ Θεοῦ. Καὶ πᾶς δς ἐρεῖ λόγον εἰς τὸν Υἱὸν τοῦ ἀνβρώπου, ἀφεθήσεται αὐτῷ· τῷ δὲ εἰς τὸ ἄγιον!νεῦμα μλασφημήσαντι, οὐκ ἀφεθήσεται. Ὅτ´ ἂν δὲ προσφέρωσιν ὑμᾶς ἐπὶ τὰς Συναγωγὰς, καὶ τὰς ἀρχὰς, καὶ τὰς ἐξουσίας, μὴ μεριμνᾶτε, πῶς ἢ τί ἀπολογήσησθε, ἢ τί εἴπητε· τὸ γὰρ ἅγιον Πνεῦμα διδάξει ὑμᾶς ἐν αὐτῆ τῇ ὥρᾳ, ἃ δεῖ εἰπεῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.571,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

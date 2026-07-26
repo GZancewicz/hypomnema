@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_12.9",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 30
+      }
+    ],
+    "display": "Mark 12:30"
+  },
+  "lemma_quote": "Εἰσαγαγὼν καταφύτευσον αὐτοὺς εἰς ὄρος ἅγιόν σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.354,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

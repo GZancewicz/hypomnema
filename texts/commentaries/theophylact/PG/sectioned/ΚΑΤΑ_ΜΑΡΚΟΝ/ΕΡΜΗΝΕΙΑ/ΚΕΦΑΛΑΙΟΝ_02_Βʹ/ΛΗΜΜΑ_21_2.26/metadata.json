@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_2.26",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 21,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 26
+      }
+    ],
+    "display": "Mark 2:26"
+  },
+  "lemma_quote": "εἰσῆλθεν εἰς τὸν οἶκον τοῦ Θεοῦ ἐπὶ Ἀβιάθαρ τοῦ ἀρχιερέως, καὶ τοὺς ἄρτους τῆς προθέσεω ἔφαγεν, οῦς ρὺκ οἔξεστι φαγεῖν εἰ μὴ τοῖς ἱερεῦσι, καὶ ἔδωκε καὶ τοῖς σὺ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.837,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

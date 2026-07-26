@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_1.13",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 13,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 1:14"
+  },
+  "lemma_quote": "«Μετὰ δὲ τὸ παοαδοθῆναι τὸν Ἰωάννην, ἧλθεν ὁ Ἰςσοῦς εἰς τὴν Γαλιλαίαν, κηρύσσων τὸ Εὐαννέλιον τῆς βασιλείας τοῦ Θεοῦ, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.806,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

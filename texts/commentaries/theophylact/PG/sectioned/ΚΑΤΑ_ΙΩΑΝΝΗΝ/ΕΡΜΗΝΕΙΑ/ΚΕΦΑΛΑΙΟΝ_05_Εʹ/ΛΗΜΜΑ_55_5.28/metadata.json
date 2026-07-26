@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_5.28",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 29
+      }
+    ],
+    "display": "John 5:29"
+  },
+  "lemma_quote": "Ἀναστήσονται, οἱ τὰ φαῦλα πράξαντες εἰς ἀνάστασιν κρίσεως, οἱ τὰ ἀγαθὰ, εἰς ἀνάστασιν ζυῆς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.868,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

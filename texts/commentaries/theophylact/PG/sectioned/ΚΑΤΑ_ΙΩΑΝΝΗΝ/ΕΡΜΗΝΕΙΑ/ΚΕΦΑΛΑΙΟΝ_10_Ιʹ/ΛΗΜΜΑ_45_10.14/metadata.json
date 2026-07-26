@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 45,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 15
+      }
+    ],
+    "display": "John 10:15"
+  },
+  "lemma_quote": "Φῶς εἰμι καὶ ζωὴ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.24,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

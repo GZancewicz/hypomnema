@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_20.28",
+  "gospel": "luke",
+  "chapter": 20,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 20:29"
+  },
+  "lemma_quote": "ἀδελφῷ αὐτοῦ. Ἐπτὰ οὖν ἀδελφοὶ ἦσαν, καὶ ὁ πρῶτος λαβὼν γυναῖκα, ἀπέβανεν ἄτεκνος, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.861,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

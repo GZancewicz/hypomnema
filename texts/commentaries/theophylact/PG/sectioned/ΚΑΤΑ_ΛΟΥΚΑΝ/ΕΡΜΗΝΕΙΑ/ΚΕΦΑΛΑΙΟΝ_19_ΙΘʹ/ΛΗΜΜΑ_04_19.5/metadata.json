@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_19.5",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 19:5"
+  },
+  "lemma_quote": "ἦλθεν ἐπὶ τὸν τόπον, ἀναβλέψας ὁ Ἰήσοῦς εἶδαν αὐτὸν, καὶ εἶπεν αὐτῳ· Ζακχαῖε, σπεύσας κατάβηθι, σήμερον γὰρ ἐν τῷ οἴκῳ σου δεῖ με μεῖναι. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.904,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

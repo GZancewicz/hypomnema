@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_24.42",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 38,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 42
+      }
+    ],
+    "display": "Matthew 24:42"
+  },
+  "lemma_quote": "«Γρηγορεῖτε οὐν, ὅτι οὐκ οἴδατε πυίᾳ ὥρᾳ ὁ Κύριος ὑμῶν ἄρχεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.885,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_12.41",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 32,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 41
+      }
+    ],
+    "display": "Mark 12:41"
+  },
+  "lemma_quote": "καθίσας ὁ Ἰησοῦς κατέναντι τοῦ γαζοφυλακίου, ἑθεώρει πῶς ὁ ὄχλος βάλλει χαλκὸν εἰς τὸ γαζοφυλάκιον. Καὶ πολλοὶ πλούσιοι ἔβαλλον πολλὰ, καὶ ἐλθοῦσα μία χήρα πτωχ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.752,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

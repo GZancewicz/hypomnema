@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_7.15",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 15,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 7:17"
+  },
+  "lemma_quote": "Μήτι συλλέγουσιν ἀπὸ ἀκανθῶν σταφυλὴν, ἢ ἀπὸ τριβόλων σῦκα; Οὕτω πᾶν δένδρον ἀγαθὸν καρποὺς καλοὺς ποιεῖ· τὸ δὲ σαπρὸν δένδρον καρποὺς πονηροὺς ποιεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.778,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

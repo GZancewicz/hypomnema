@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_2.4",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 4
+      }
+    ],
+    "display": "Luke 2:4"
+  },
+  "lemma_quote": "Ἀνέβη δὲ καὶ Ἰωσήφ ἀπὸ τῆς Γαλιλαίας ἐκ πόλεως Ναζαρὲ τ, εἰς τὴν Ἰουδαίαν, εἰς πόλιν Δαυΐθ, ἤτις καλεῖται Βηθλεὲμ, διὰ τὸ εἶναι αὐτὸν ἐξ οἴκου καὶ πατριᾶς Δσυῖδ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.884,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

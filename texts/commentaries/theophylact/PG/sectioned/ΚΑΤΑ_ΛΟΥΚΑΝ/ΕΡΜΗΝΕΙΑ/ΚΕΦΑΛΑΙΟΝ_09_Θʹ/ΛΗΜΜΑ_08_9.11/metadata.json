@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_9.11",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 8,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 11
+      }
+    ],
+    "display": "Luke 9:11"
+  },
+  "lemma_quote": "ὄχλοι γνόντες, ἠκολούθησαν αὐτῷ. Καὶ δεξάμενος αὐτοὺς, ἐλάλει αὐτοῖς περὶ τῆς βασιλείας τοῦ Θεοῦ· καὶ τοὺς χρείαν ἔχοντας θεραπείας ἰᾶτο. Ἠ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.967,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

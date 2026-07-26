@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_1.17",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 1:18"
+  },
+  "lemma_quote": "«Καὶ οἶπε Ζαχαρίας πρὸς τὸν ἄγγελον· Κατὰ τῆ γνώσομαι τοῦτο; Ἐγὼ γάρ εἰμι πρεσβύτης, καὶ ἢ γυνή μου προβεβηκυῖα ἐν ταῖς ἡμέραις αὐτῆς. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.979,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

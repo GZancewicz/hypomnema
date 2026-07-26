@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_104_8.44",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 104,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 45
+      }
+    ],
+    "display": "John 8:45"
+  },
+  "lemma_quote": "Ἡγὼ δὲ, φησὶν, ὅτι τὴν ἀλήθειαν λέγω, οὐ πιστεύετέ μοι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.971,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_26.24",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 26:26"
+  },
+  "lemma_quote": "Ἐαθιάντων δὲ αὐτῶν, λαβὼν ὀ Ἰησοῦς τὸν ἄρετον καὶ οὐχαριστήσας, ἔκλασε καὶ ἐδίδου τοῖς μαθηταῖς, καὶ εἶπε· Λάβετε, φάγετε· τοῦτο ἕστι τὸ σῶμά´ μου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.88,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

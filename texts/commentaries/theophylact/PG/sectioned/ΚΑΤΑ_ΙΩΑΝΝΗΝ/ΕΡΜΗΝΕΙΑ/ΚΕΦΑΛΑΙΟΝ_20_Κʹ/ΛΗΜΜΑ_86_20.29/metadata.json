@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_86_20.29",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 86,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 19
+      }
+    ],
+    "display": "John 20:19"
+  },
+  "lemma_quote": "κεκλεισμένων τῶν θυρῶν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.386,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

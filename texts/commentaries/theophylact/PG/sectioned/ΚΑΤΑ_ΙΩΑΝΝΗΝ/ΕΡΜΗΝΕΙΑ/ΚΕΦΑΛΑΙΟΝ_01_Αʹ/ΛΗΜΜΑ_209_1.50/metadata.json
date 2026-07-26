@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_209_1.50",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 209,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 49
+      }
+    ],
+    "display": "John 1:49"
+  },
+  "lemma_quote": "Ἀπεκρίθη Ἰησοῦς, καὶ εἶπεν αὐτῷ· Πρὸ τοῦ σε Φίλιππον φωνῆσαι, ὄντα ὑπὸ τὴν συκῆν, εἶδόν σε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.87,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

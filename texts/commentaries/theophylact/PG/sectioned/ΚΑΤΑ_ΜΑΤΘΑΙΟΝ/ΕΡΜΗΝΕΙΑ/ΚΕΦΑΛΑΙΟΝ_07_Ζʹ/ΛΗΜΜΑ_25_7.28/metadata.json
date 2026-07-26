@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_7.28",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 28
+      }
+    ],
+    "display": "Matthew 7:28"
+  },
+  "lemma_quote": "Καὶ ἐγένετο ὅτε συνετέλεσεν ὁ Ἰησοῦ τοὺς λόγους τούτους, ἐξεπλήσσοντο οἱ ὄχλοι ἐπὶ τῇ διδαχῇ αὐτου. Ἥν γὰρ διδάσκιωυν αὐτοὺς ὡς ἐξουσίαν ἕχων, καὶ οὐχ ὡς οἱ γραμματεῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.754,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

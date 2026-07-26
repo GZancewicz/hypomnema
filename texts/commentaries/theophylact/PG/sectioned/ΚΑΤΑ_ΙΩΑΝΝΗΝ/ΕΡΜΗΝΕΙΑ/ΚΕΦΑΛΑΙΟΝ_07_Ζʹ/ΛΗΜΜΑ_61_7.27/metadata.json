@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_7.27",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 61,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 29
+      }
+    ],
+    "display": "John 7:29"
+  },
+  "lemma_quote": "Παρ´ αὐτοῦ εἰμι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.514,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

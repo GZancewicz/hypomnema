@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_5.23",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 40,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 23
+      }
+    ],
+    "display": "John 5:23"
+  },
+  "lemma_quote": "Ὁ μὴ τιμῶν τὸν Υἱὸν, οὐ τιμᾷ τὸν Πατέρα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.715,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

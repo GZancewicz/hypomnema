@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_12.11",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 25,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 9
+      }
+    ],
+    "display": "John 12:9"
+  },
+  "lemma_quote": "« Τῷ ὄντι γὰρ μεγίστου τοῦ θαύματος ὄντος πολλοὶ ἠβούλοντο θεαταὶ γενέσθαι τοῦ ἀναστάντος, ἴσως προσδοκῶντές τι καὶ περὶ τῶν ἐν τῷ ἅδῃ παρὰ τοῦ Λαζάρου ἀκούσεσθ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.214,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

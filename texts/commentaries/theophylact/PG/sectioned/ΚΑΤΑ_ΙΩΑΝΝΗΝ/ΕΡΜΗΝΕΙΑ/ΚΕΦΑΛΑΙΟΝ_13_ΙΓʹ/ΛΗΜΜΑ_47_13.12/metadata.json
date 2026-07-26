@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_13.12",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 12
+      }
+    ],
+    "display": "John 13:12"
+  },
+  "lemma_quote": "Εἰ γὰρ ἐΖω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.26,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

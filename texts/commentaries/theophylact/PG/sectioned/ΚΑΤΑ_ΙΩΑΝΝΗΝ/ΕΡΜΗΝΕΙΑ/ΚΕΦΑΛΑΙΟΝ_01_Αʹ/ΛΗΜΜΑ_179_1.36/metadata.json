@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_179_1.36",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 179,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 36
+      }
+    ],
+    "display": "John 1:36"
+  },
+  "lemma_quote": "Ἵδε, φησίν, ὁ ἀμνός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.537,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

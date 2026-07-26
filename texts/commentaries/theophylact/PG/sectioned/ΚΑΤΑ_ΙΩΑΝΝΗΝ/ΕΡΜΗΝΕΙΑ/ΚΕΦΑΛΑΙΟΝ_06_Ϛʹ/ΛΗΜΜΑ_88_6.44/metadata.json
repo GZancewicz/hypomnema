@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 48
+      }
+    ],
+    "display": "John 6:48"
+  },
+  "lemma_quote": "Ἔγὼ μὲν γὰρ, φησὶν, εἰμὶ ὁ ἄρτος τῆς ζωῆς·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

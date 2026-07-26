@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_16.26",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 28
+      }
+    ],
+    "display": "Matthew 16:28"
+  },
+  "lemma_quote": "«Ἀμὴν λέγω ὑμῖν, εἰσί τινες τῶν ὧδε ἑστώτων. οἴτινες οὐ μὴ γεύσωνται θανάτου, ἕως ἂν δωσι τὸν Υἱὸν τοῦ ἀνθρώπου ἐρχόμενον ἐν τῇ βασιλείᾳ αὐτοῦ Εἶπεν ὅτι μέλλει",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.879,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

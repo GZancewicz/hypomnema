@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_24.51",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 51
+      }
+    ],
+    "display": "Matthew 24:51"
+  },
+  "lemma_quote": "διχοτομήσει αὐτὸν, καὶ τὸ μέρος αὐτοῦ μετὰ τῶν ὧποκριτῶν θήσει· ἐκεῖ ἔσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὁδόντων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.948,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

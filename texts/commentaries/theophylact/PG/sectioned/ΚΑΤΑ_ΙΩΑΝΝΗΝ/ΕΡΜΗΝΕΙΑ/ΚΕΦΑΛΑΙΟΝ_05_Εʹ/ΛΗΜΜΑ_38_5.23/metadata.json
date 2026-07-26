@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_5.23",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 27
+      }
+    ],
+    "display": "John 5:27"
+  },
+  "lemma_quote": "Ζωὴν ἔδωκαν αὐτῷ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.75,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

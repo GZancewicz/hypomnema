@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_27.36",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 36
+      }
+    ],
+    "display": "Matthew 27:36"
+  },
+  "lemma_quote": "καθήμενοι ἐτήρουν αὐτὸν ἐκεῖ, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

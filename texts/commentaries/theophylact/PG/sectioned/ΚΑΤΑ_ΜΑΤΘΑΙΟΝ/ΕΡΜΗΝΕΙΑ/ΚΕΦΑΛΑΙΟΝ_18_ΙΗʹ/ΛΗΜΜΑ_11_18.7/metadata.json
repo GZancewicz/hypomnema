@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_18.7",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 18:8"
+  },
+  "lemma_quote": "«Εἰ δὲ ἡ χείρ σου ἡ ὁ πούς σου σκανδαλίζει σε, Κκκαίον αὐτὸν, καὶ βάλε ἀπὸ σοῦ· καλόν σοί ἐστιν κίσελθεῖν εἰς τὴν ζωὴν χωλὸν ἢ κυλλὸν, ἢ δύο χεῖρας ἢ δύο πόδας",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.832,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

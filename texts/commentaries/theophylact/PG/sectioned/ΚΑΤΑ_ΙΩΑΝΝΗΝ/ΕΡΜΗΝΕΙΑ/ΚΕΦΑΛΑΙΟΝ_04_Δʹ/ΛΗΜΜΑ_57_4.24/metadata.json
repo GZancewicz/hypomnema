@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_4.24",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 24
+      }
+    ],
+    "display": "John 4:24"
+  },
+  "lemma_quote": "Τὸ μὲν γὰρ γράμμα ἀποκτείνει, τὸ δὲ πνεῦμα ζωοποιεῖ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.333,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

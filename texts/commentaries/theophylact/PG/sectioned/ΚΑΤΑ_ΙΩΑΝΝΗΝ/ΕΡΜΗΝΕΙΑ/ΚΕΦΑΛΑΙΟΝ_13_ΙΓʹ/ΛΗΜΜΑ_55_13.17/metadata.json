@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_13.17",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 18
+      }
+    ],
+    "display": "John 13:18"
+  },
+  "lemma_quote": "Εἰ ταῦτα οἴδατε, μακάριοί ἐστε, ἐὰν ποιῆτε αὐτά, Οὐ περὶ πάντων ὑμῶν λέγω, ἐγὼ οἶδα οὓς ἐξελεξάμην, ἀλλ´ ἵνα ἡ Γραφὴ πληρωθῇ· Ὁ τρώγων μετ´ ἐμοῦ τὸν ἄρτον, ἐπῆρεν ἐπ´ ἐμὲ πτέρναν αὐτοῦ. Ἀπάρτι λέγω ὑμῖν πρὸ τοῦ γενέσθαι· ἵνα ὅταν τένήται. πιστεύσητε, ὅτι ἐγώ εἰμι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.769,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

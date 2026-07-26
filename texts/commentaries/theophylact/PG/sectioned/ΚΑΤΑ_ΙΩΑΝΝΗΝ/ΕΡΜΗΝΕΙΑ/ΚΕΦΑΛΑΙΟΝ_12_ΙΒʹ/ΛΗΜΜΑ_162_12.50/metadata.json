@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_162_12.50",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 162,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 47
+      }
+    ],
+    "display": "John 12:47"
+  },
+  "lemma_quote": "Οὐκ ἐγὼ κρίνω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.459,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

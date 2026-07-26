@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:1"
   },
-  "lemma_quote": "Τοῦ βασιλέως",
-  "lemma_quote_en": "The king",
+  "lemma_quote": "Τοῦ βασιλέως.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
-  "confidence": "high",
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.288,
+  "adjudicated": false,
+  "continuation": true,
   "folder_suffix": "2.1",
   "folder_suffix_agrees": true,
-  "notes": "Expounds «τοῦ βασιλέως» within Matt. 2:1; breaks off mid-thought, continued in lemma 4."
+  "notes": "Expounds «τοῦ βασιλέως» within Matt. 2:1; breaks off mid-thought, continued in lemma 4.",
+  "lemma_quote_en": "The king"
 }

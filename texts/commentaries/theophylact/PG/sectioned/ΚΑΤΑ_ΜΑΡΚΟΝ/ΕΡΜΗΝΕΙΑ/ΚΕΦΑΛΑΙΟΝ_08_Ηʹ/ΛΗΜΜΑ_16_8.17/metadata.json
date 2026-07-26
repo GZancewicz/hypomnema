@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_8.17",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 8:17"
+  },
+  "lemma_quote": "γνοὺς ὁ Ἰησοῦς, λέγει αὐτοῖς· Τί διαλογίζεσθε, ὅτι ἄρτους οὐκ ἔχετε; Οθπω νοεῖτε, οὐδὲ συνίετε; ἔτι πεπωρωμένην ἔχετε τὴν καρδίαν ὑμῶν; δφθαλμοὺς ἔχοντες οὐ βλέ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.939,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 54,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 23:42"
+  },
+  "lemma_quote": "Κἂν μήπω τὴν ἐπαγγελίαν ἐκομίσαντο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.173,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_8.53",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 42,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 54
+      }
+    ],
+    "display": "Luke 8:54"
+  },
+  "lemma_quote": "κατεγέλων αὐτοῦ, εἰδότες δτι ἀπέθανεν. Δὐτὸς ὲ ἐκβαλών ἔξω πάντας καὶ κρατήσας τῆς χειρὸς αὐτῆς, ἐφώνησε λέγων· Ἡ παῖς, ἐγείρου. Καὶ ἐπέατρεψε τὸ πνεῦμα αὐτῆς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.811,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.53",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

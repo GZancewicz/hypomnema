@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_19.18",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 17,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 19:18"
+  },
+  "lemma_quote": "ἦλθεν ὁ δεύτερος λέγων· Κύριε, ἡ μνᾶ σου ἐποίησε πέντε μνᾶς. Εἰπε δὲ καὶ τούτῳ· Καὶ σὺ γίνου ἐπάνω πέντε πόλεων. Καὶ ἔτερος ἦλθε λέγων· Κύριε, ἰδοὺ ἡ μνᾶ σου, ἡ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.78,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

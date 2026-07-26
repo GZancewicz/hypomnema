@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_19.9",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 19:9"
+  },
+  "lemma_quote": "ἀπολύσῃ τὴν γυναῖκα αὐτοῦ μὴ ἐπὶ πορνείᾳ, καὶ γαμήσῃ ἄλλην, μοιχᾶται. Καὶ ὁ ἀπολελυμένην γαμήαας, μοιχᾶται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.914,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_15.46",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 33,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 46
+      }
+    ],
+    "display": "Mark 15:46"
+  },
+  "lemma_quote": "ἀγοράσας σινδόνα καὶ καθελῶν αὐτὸν,, ἐνείλησε τῇ σινδόνι, καὶ κατέθηκεν αὐτὸν ἐν μνημείῳ, ὅ ἦν λελατομημένον ἐκ πέτρας· καὶ προσεκύλισε λίθον ἐπὶ τὴν θύραν τοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

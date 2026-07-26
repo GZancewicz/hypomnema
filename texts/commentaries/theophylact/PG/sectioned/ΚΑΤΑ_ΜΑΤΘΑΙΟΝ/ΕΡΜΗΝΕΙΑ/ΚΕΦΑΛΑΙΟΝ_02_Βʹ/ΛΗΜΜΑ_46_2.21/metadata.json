@@ -11,26 +11,26 @@
     },
     "end": {
       "chapter": 2,
-      "verse": 22
+      "verse": 21
     },
     "verses": [
       {
         "chapter": 2,
         "verse": 21
-      },
-      {
-        "chapter": 2,
-        "verse": 22
       }
     ],
-    "display": "Matthew 2:21-22"
+    "display": "Matthew 2:21"
   },
-  "lemma_quote": "Ὁ δὲ ἐγερθεὶς παρέλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ, καὶ ἦλθεν εἰς γῆν Ἰσραήλ. Ἀκούσας […ὅτι Ἀρχέλαος βασιλεύει τῆς Ἰουδαίας ἀντὶ…] Ἡρώδου τοῦ πατρὸς αὐτοῦ, ἐφοβήθη ἐκεῖ ἀπελθεῖν",
-  "lemma_quote_en": "But he, having arisen, took the child and his mother, and came into the land of Israel. And having heard [that Archelaus was reigning over Judaea in place of] Herod his father, he was afraid to go away thither",
+  "lemma_quote": "Ὁ δὲ ἐγερθεὶς παρέλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ, καὶ ἦλθεν εἰς γῆν Ἰσραήλ. Ἀκούσας ΑΡΠΤΙi. Ἡρώδου τοῦ πατρὸς αὐτοῦ,ἐφοβήθη ἐκεῖ ἀπελθεῖν.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
+  "coverage_source": "greek_pat",
   "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.7,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.21",
   "folder_suffix_agrees": true,
-  "notes": "RANGE 2:21–22: quote spans all of 2:21 plus the first half of 2:22. OCR gap «ΑΡΠΤΙi.» reconstructed as the Archelaus clause of 2:22 (flagged [?] in en.md). Folder suffix 2.21 names only the start verse."
+  "notes": "RANGE 2:21–22: quote spans all of 2:21 plus the first half of 2:22. OCR gap «ΑΡΠΤΙi.» reconstructed as the Archelaus clause of 2:22 (flagged [?] in en.md). Folder suffix 2.21 names only the start verse.",
+  "lemma_quote_en": "But he, having arisen, took the child and his mother, and came into the land of Israel. And having heard [that Archelaus was reigning over Judaea in place of] Herod his father, he was afraid to go away thither"
 }

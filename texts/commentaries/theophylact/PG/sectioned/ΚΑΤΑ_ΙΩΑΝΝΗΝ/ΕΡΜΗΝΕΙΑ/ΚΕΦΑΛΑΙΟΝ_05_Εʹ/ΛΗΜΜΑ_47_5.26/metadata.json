@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_5.26",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 23
+      }
+    ],
+    "display": "John 5:23"
+  },
+  "lemma_quote": "«Ὁ μὴ τιμῶν τὸν Υiὸν, οὐ τιμᾷ τὸν Πατέρα, καὶ ὑψηλά τινα περὶ αὐτοῦ φθεγξάμενος, ἵνα μὴ δόξῃ κόμπος εἶναι ἃ λέγει, καὶ τόφος διάκενος, παρέχει καὶ τὴν διὰ τῶν ἔ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.42,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

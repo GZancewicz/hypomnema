@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 9,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 30
+      }
+    ],
+    "display": "Mark 10:30"
+  },
+  "lemma_quote": "ἑκατονταπλασίονα, νῦν ἐν τῶ καιρῷ τούτῳ, οἰκίας, καὶ ἀδελφοὺς, καὶ ἀδιλφὰς, καὶ μητέρας, καὶ τέκνα, καὶ ἀγροὺς, μετὰ διωγμῶν, καὶ ἐν τῷ αἰῶνι τῷ ἐρχομένῳ, ζωὴν αἰώνιον. Πολνλοὶ δὲ ἔσονται πρῶτοι ἔσχατοι, καὶ οἱ ἔσχατοι πρῶτοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.692,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

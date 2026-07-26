@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_10.5",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 9,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 38
+      }
+    ],
+    "display": "John 10:38"
+  },
+  "lemma_quote": "Μὴ τῶν ἀρχόντων τις ἐπίστευσεν εἰς αὐτόν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.308,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

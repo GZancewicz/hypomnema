@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_6.24",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 24
+      }
+    ],
+    "display": "John 6:24"
+  },
+  "lemma_quote": "εἶδεν ὁ ὄχλος, ὅτι Ἰησοῦς οὐκ στιν ἐκεῖ, οὐδὲ οἱ μαθηταὶ αὐτοῦ, ἀνέβησαν καὶ αὐτοὶ εἰς τὰ πλοιάρια καὶ ἦλθον εἰς Καπερναοὺμ, ζητοῦντες πὸν Ἰησοῦν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.811,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

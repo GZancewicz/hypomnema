@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_110_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 110,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 33
+      }
+    ],
+    "display": "John 13:33"
+  },
+  "lemma_quote": "Ὅπου ἐγὼ ὑπάγω, ὑμεῖς οὐ δύνασθε ἐλθεῖν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.521,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

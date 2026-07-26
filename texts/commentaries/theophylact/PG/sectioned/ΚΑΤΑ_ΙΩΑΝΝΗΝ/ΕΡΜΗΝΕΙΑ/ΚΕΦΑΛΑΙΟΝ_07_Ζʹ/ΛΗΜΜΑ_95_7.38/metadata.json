@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_7.38",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 95,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 39
+      }
+    ],
+    "display": "John 7:39"
+  },
+  "lemma_quote": "Οπω ην Πνεῦμα ἅγιον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.414,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

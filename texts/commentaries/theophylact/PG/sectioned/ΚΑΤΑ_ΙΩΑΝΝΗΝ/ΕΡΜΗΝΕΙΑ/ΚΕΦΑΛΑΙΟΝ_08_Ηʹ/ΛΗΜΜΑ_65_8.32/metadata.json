@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_8.32",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 30
+      }
+    ],
+    "display": "John 8:30"
+  },
+  "lemma_quote": "Πολλοὶ ἐπίστευσαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.675,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

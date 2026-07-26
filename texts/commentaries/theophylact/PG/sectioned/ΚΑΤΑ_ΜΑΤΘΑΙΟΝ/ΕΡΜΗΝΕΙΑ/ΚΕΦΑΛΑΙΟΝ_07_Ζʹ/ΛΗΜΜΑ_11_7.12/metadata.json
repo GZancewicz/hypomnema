@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_7.12",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 11,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 12
+      }
+    ],
+    "display": "Matthew 7:12"
+  },
+  "lemma_quote": "Πάντα οὖν ὅσα ἂν θέλητε ἵνα ποιῶσιν ὑιῖν οἱ ἄνθρωποι, καὶ ὑμεῖς ποιεῖτε αὐτοῖς. Οὗτος γάρ ἐστι ἀ νόμος καὶ οἱ προφῆται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.925,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

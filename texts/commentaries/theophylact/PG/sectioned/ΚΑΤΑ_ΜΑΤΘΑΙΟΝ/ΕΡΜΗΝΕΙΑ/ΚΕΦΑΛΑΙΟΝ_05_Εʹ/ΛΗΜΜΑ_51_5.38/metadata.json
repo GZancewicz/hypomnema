@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_51_5.38",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 51,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 38
+      }
+    ],
+    "display": "Matthew 5:38"
+  },
+  "lemma_quote": "Ἡκούσατε ὅτι ἐῤῥέθη, Ὁφθαλμὸν ἀντὶ ὀφθαλμοῦ, καὶ ὀδόντα ἀντὶ ὀδόντος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

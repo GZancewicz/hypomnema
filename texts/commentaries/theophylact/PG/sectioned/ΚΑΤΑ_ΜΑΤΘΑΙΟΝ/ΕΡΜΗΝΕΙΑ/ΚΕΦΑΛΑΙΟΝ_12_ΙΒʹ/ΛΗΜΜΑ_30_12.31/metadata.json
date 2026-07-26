@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_12.31",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 12:32"
+  },
+  "lemma_quote": "Δὰ τοῦτο λέγω ὑμῖν· Πᾶσα ἁμαρτία καὶ βλασφημία ἀφεθήσεται τοῖς ἀνθρώποις, ἡ δὲ τοῦ Πνεύματος βλασφημία οὐκ ἀφεθήσεται τοῖς ἀνθρώποις. Καὶ ὃς ἐὰν εἴπῃ λόγον κατὰ τοῦ Υἱοῦ τοῦ ἀνθρώπου, κεθήσεται αὐτῷ· ὃς δ´ ἂν εἴπῃ κατὰ τοῦ Πνεύματος τοῦ ἁγίου, οὐκ ἀφεθήσεται αὐτῷ οὕτε ἐν τῷ νῦν αἰῶνι, οὔτε ἂν τῷ μέλλοντι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.832,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.31",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

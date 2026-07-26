@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_4.4",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 4
+      }
+    ],
+    "display": "John 4:4"
+  },
+  "lemma_quote": "«διέρχεσθαι διὰ τῆς Σαμαρείας,. Ἐβούλετο γὰρ πρόφασιν πᾶσαν κατηγορίας τοῖς Ἰουδαίοις ἐκκόψαι, ὥστε μὴ ἔχειν αὐτοὺς λέγειν, δτι ἀφεὶς αὐτοὺς εἰς τὰ ἔθνη τὰ βδελ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.598,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

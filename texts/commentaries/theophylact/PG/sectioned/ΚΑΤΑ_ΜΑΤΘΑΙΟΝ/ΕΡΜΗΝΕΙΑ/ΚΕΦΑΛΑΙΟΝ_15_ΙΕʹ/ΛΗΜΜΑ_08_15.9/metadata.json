@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_15.9",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 15:9"
+  },
+  "lemma_quote": "Μάτην δὲ σέβονταί με, διδάσκοντες διὸασκαλίας ἐντάλματα ἀνθρώπων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.909,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

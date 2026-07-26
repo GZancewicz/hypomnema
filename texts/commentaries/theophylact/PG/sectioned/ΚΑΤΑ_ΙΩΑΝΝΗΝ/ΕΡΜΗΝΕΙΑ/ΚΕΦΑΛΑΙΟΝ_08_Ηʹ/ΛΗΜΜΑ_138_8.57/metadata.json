@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_138_8.57",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 138,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 57
+      }
+    ],
+    "display": "John 8:57"
+  },
+  "lemma_quote": "Εἰπον οὖν οἱ Ιουδαῖοι πρὸς αὐτόν· Πεντήκοντα οὕπω ἔχεις ἔτη, καὶ Ἀβραὰμ ἑώρακας; Εἶπεν οὖν αὐτοῖς· Ἀμὴν, ἀμὴν λέγων ὑμῖν, πρὶν Ἀβραὰμ γενέσθαι, ἐγώ είμι. Ἡραν ο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.689,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.57",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

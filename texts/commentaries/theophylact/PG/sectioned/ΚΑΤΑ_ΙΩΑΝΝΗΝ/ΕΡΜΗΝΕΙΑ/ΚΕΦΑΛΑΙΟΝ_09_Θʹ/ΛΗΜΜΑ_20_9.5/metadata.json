@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_9.5",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 20,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 3
+      }
+    ],
+    "display": "John 9:3"
+  },
+  "lemma_quote": "Ἵνα φανερωθῇ ἡ δόξα τοῦ Θεοῦ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.451,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

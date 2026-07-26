@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_15.15",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 15:12"
+  },
+  "lemma_quote": "«Ἰδοὺ οἱ μακρύνοντες ἑαυτοὺς ἀπὸ σοῦ, ἀπολοῦνται. κ Διεσκόρπισε τοίνυν τὴν οὐσίαν εἰκότως· ἡ μὲν γὰρ ἀρετὴ ἕνα ὅρον ἔχει, καὶ ἕν τι ἐστίν· ἡ δὲ κακία πολυσχιδής",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.233,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

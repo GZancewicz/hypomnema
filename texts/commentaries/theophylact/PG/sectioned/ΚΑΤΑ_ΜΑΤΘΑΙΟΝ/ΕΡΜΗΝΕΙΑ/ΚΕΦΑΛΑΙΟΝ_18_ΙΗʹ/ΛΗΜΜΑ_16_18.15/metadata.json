@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_18.15",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 18:18"
+  },
+  "lemma_quote": "Ἀμὴν λέγω ὑμῖν, ὅσα ἐὰν δήσητε ἐπὶ τῆς γῆς, Κσται δεδεμένα ἐν τῷ οὐρανῷ, καὶ ἕσα ἐὰν λύσητε ἀπὶ τῆς γῆς, ἔσται λελυμένα ἐν τῷ οὐρανῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.955,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

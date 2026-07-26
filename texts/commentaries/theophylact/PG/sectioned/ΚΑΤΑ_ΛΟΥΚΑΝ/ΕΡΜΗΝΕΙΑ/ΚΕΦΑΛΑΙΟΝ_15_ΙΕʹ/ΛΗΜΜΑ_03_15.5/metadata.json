@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_15.5",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 5
+      }
+    ],
+    "display": "Luke 15:5"
+  },
+  "lemma_quote": "εὐρὼν ἐπιτίθησιν ἐπὶ τοὺτ ὥμους αὐτοῦ χαίρων, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.951,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_10.18",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 52,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 18
+      }
+    ],
+    "display": "John 10:18"
+  },
+  "lemma_quote": "Οὐδεὶς αἴρει αὐτὴν ἀπ´ ἐμοῦ, ἀλλ´ ἐγὼ τίθημι αὐτὴν ἀπ´ ἑμαυτοῦ. Ἐξουσίαν ἔχωπάλιν λαβεῖν αὐτήν. Ταύτην τὴν ἐντολὴν ἔλαβον παρὰ τοῦ Πατρός μου. ὲ ἱσμα οὕν πάλιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.9,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

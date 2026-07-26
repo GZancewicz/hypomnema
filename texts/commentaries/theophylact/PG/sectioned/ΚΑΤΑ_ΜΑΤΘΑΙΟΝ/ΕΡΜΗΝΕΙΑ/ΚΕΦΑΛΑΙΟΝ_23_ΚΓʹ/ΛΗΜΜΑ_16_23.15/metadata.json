@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_23.15",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 23:16"
+  },
+  "lemma_quote": "«Οὐαὶ ὑμῖν, ὁδγοὶ τυφλοὶ, οἱ λέγοντες· Ὃς ἂν ὁμόσῃ ἐν τῶ ναῶ, οὐδέν ἐστιν· δς δ´´ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ, ὀφείλει. Μωροὶ καὶ τυφλοὶ, τί γὰρ χρὸσόν; Καὶ ὃ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.901,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

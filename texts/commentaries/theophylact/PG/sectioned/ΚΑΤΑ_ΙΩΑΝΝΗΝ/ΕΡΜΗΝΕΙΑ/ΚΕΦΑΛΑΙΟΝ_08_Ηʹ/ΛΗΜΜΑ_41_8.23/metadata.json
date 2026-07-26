@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_8.23",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 23
+      }
+    ],
+    "display": "John 8:23"
+  },
+  "lemma_quote": "Υμεῖς αλκ ἐστὲ ἐκ τοῦ κόσμου;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.61,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

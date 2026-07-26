@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_71_24.50",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 71,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 51
+      }
+    ],
+    "display": "Luke 24:51"
+  },
+  "lemma_quote": "Ανεφέρετο δὲ εἰς τὸν οὐρανόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.658,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

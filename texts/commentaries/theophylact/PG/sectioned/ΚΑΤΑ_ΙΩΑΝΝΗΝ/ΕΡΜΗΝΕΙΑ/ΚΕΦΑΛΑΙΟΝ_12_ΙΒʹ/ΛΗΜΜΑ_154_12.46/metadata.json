@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_154_12.46",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 154,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 46
+      }
+    ],
+    "display": "John 12:46"
+  },
+  "lemma_quote": "«Ἐγὼ φῶς εἰς τὸν κόσμον ἐλήλυθα, ἵνα πᾶς ὁ κιστεύων εἰς ἐμὲ ἐν τῇ σκοτίᾳ μὴ μείνῃ. Καὶ ἐάν τίς μου",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.857,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

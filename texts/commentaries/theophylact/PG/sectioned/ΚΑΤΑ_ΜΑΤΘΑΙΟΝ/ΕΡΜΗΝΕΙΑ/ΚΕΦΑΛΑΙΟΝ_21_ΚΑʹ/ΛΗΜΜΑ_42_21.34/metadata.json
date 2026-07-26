@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 42,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 44
+      }
+    ],
+    "display": "Matthew 21:44"
+  },
+  "lemma_quote": "Σαμαρείτης εἶ σκαὶ δαι. μόνιον ἔχεις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

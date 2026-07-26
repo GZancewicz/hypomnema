@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_15.1",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 1,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 1
+      }
+    ],
+    "display": "Mark 15:1"
+  },
+  "lemma_quote": "«Καὶ εὐθέως ἐπὶ τὸ πρωὶ, συμβούλιον ποιήσαντες οἱ ἀρχιερεῖς μετὰ τῶν πρεσβυτέρων καὶ Γραιαματέων, καὶ ὄλον τὸ συνέδριον, δήσαντες τὸν Ἰησοῦν, ἀπὴνεγκαν καὶ παρέ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

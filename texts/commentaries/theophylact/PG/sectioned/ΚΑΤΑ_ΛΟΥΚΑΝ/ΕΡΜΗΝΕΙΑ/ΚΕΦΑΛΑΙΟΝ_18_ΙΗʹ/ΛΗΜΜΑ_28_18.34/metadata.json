@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_18.34",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 34
+      }
+    ],
+    "display": "Luke 18:34"
+  },
+  "lemma_quote": "αὐτοὶ οὐδὲν τούτων συνῆκαν, καὶ ἦν τὸ ῥῆμα τοῦτο κεκρυμμένον ἀ αὐτῶν, καὶ οὐκ ἐγίνωσκον τὰ λεγόμενα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

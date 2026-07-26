@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 23:18"
+  },
+  "lemma_quote": "Οὐαὶ αὐτοῖς, ἕτι ἀπεπήδησαν ἀπ´ ἐμοῦ· δείλαιοί εἰσιν, ὅτι ἡσέβησαν εἰς ἐμέ. Ἐγὼ ἐλυτρωσάμην αὐτοὺς, αὐτοὶ δὲ κατελάλησαν κατ´ ἐμοῦ ψευδῆ, καὶ πεσοῦνται ἐν στόματι ῥομφαία, οἱ ἄρχοντες αὐτῶν δι´ ἀπαιδευσίαν γλώττης αὐτῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.189,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

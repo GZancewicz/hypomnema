@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_118_7.51",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 118,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 48
+      }
+    ],
+    "display": "John 7:48"
+  },
+  "lemma_quote": "Μὴ γὰρ, φασὶ, τὶς τῶν ἀρχόντων ἐπίστευσεν εἰς αὐτόν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.805,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.51",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

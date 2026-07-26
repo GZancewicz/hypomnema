@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_16.3",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 3,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 4
+      }
+    ],
+    "display": "John 16:4"
+  },
+  "lemma_quote": "ταῦτα ποιήσουσιν ὑμῖν, ὅτι οὐκ ἔγνωσαν τὸν Πατέρα αὐδὲ ἐμέ Ἀλλὰ ταῶσα πάντα λελάληκα ὑμῖν, ἵνα ὅταν ἔλθῃ ὥρα, μνημονεύητε, ὅτι ἐγὼ εἶπονύμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.541,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

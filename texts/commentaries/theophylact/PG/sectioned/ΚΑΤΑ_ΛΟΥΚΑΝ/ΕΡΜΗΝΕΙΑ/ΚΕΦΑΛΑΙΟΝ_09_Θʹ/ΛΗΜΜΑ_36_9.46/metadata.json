@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_9.46",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 36,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 46
+      }
+    ],
+    "display": "Luke 9:46"
+  },
+  "lemma_quote": "«Εἰσῆλθε δὲ διαλογισμὸς ἐν αὐτοῖς, τὸ, τίς ἂν εἴη μείζων αὐτῶν. Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.46",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

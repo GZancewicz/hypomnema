@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_4.52",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 52
+      }
+    ],
+    "display": "John 4:52"
+  },
+  "lemma_quote": "Ἐπύθετο οὖν παρ´ αὐτῶν τὴν ὥραν, ἐν ᾖ κομψότερον ἔσχεν. Καὶ εἶπον αὐτῷ, ὅτι Χθὲς ὥραν ἑβθδόμην ἀφῆκεν αὐτὸν ὁ πυρετός. Ἔγνω οὗν ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.891,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.52",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

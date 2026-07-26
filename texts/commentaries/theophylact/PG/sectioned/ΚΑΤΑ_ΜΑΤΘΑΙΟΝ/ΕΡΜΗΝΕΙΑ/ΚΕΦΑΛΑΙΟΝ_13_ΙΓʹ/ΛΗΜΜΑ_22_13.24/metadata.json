@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 39
+      }
+    ],
+    "display": "Matthew 13:39"
+  },
+  "lemma_quote": "ἐχθρὸς ὁ σπείρας αὐτὰ, ἐστὶν ὁ διάβολος· ὁ δὲ θερισμὸς ἡ συντέλεια τοῦ αἰῶνός ἐστιν· οἱ δὲ θερισταὶ οἱ ἄγγελοί εἰσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

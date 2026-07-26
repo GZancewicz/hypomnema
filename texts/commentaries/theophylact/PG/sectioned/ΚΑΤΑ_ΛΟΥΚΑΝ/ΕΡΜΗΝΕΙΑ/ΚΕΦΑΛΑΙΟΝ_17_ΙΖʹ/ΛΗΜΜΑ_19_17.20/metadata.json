@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_17.20",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 28
+      }
+    ],
+    "display": "Luke 17:28"
+  },
+  "lemma_quote": "Ὁμοίως καὶ ὡς ἐγένετο ἐν ταῖς ἡμέραις Λὼτ, ἤσθιον, ἔπινον, ἡγόραζον, ἑπώλουν, ἐφύτενον, ᾠκοδόμουν, ᾗ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

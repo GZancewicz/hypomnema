@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_5.20",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 21
+      }
+    ],
+    "display": "John 5:21"
+  },
+  "lemma_quote": "Ὡς γὰρ ὁ Πατὴρ, φηοὶν, ἐγείρει τοὺς νεκροὺς, ομτω καὶ ὁ Υἱὸς οὓς θέλει ζωοπωιεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.711,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

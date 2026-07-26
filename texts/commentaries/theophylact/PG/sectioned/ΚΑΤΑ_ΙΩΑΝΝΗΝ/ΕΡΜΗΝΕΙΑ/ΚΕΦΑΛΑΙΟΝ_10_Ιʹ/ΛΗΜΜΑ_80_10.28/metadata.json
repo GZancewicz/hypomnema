@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_80_10.28",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 80,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 29
+      }
+    ],
+    "display": "John 10:29"
+  },
+  "lemma_quote": "οὐδεὶς δύναται ἀρπάζειν αὐτὰ ἐκ τῆς χειρός μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.608,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

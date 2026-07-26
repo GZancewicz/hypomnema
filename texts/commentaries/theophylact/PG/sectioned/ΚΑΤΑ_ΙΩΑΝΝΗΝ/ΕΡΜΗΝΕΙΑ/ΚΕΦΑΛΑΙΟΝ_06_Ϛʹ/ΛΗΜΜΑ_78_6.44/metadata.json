@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 46
+      }
+    ],
+    "display": "John 6:46"
+  },
+  "lemma_quote": "Ἔστι γεγραμμένον ἐν τοῖς προφήταις· Καὶ ἕσον. ται πάντες διδακτοὶ τοῦ Θεοῦ. Πᾶς οὖν ὁ ἀκολλ παρὰ τοῦ Πατρὸς καὶ μαθὼν, ἔρχεται πρὸς μέ· οὐχ ἅτι τὸν Πατέρα τις ἑώρακεν, εἰ μὴ ὁ ὢν παρὰ τοῦ Θερῦ, οὗτος ἑώρακε τὸν Πατέρα. Ἀμὴν, ἀμὴν λέγω ἰμῖν ὁ πιστεύων εἰς ἐμὲ, ἔχει ζωὴν αἰώνιον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.622,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

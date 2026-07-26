@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_19.29",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 28
+      }
+    ],
+    "display": "John 19:28"
+  },
+  "lemma_quote": "«Καὶ εἰς τὴν δίψαν μου ἐπότισάν με ὄξος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.294,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

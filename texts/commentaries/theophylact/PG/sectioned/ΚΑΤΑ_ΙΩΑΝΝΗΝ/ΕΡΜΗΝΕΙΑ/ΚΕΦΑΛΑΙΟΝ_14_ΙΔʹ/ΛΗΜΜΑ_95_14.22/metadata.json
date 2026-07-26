@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_14.22",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 95,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 21
+      }
+    ],
+    "display": "John 14:21"
+  },
+  "lemma_quote": "Ἀγαπηθήσεται, φησὶ, ὑπὸ τοῦ iατρός μου, καὶ ἐγὼ ἀγαπήσω αὐτὸν, καὶ ἐμφανίσω αὐτῷ ἐμαυτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.633,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

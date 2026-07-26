@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_16.3",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 3
+      }
+    ],
+    "display": "John 16:3"
+  },
+  "lemma_quote": "Ταῦτα γὰρ, φησὶ, ποιήσουσιν, ὅτι οὐκ οἴδασι τὸν Πατέρα, οὐδὲ ἐμέ-.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.778,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

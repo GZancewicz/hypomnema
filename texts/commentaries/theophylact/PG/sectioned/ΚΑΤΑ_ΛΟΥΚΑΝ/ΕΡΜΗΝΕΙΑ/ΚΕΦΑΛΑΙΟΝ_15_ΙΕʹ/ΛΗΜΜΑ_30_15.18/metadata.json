@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 15:30"
+  },
+  "lemma_quote": "οὗτος, ὁ καταφαγών σου τὸν βίον μετὰ πορνῶν, ἦλθεν, ἔθυσας αὐτῷ τὸν μόσχον τὸν σιτευτόν. Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.929,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_24.50",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 72,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 52
+      }
+    ],
+    "display": "Luke 24:52"
+  },
+  "lemma_quote": "Αὐτοὶ δὲ ὑπέστρεψαν μετὰ χαρᾶς μεγάλης, καὶ ἦσαν διὰ παντὸς ἐν τῷ ἱερῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.605,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

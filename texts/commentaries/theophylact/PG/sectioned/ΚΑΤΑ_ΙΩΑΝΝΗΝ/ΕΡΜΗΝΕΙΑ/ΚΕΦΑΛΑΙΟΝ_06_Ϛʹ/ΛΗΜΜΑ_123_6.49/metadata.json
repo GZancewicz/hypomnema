@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_123_6.49",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 123,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 47
+      }
+    ],
+    "display": "John 6:47"
+  },
+  "lemma_quote": "«Ἐξεπορεύετο ἔξω, καὶ ἐλάλει ἐπὶ τὸ αὐτό.; Λέγει δὲ ταῦτα πρὸς τὸν Πέτρον ὁ Κύριος, διορθούμενος αὐτόν. Ἐπεὶ γὰρ εἶπεν ὁ Πέτρος, ὅτι, Καὶ ἐγνώκαμεν καὶ πεπιστεύ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.208,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

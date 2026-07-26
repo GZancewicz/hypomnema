@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_2.17",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 39,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 2:18"
+  },
+  "lemma_quote": "Χωνή ἐν Ῥαμᾷ ἠκούσθη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "2.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

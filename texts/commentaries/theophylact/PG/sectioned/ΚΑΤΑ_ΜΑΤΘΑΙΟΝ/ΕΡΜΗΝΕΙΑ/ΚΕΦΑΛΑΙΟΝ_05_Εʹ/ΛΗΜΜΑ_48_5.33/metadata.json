@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_5.33",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 48,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 5:35"
+  },
+  "lemma_quote": "Ὁ οὐρανός μοι θρόνος, ἡ δὲ γῆ ὑποπόδιον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.215,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

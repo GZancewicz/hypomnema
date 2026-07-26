@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_9.19",
+  "gospel": "mark",
+  "chapter": 9,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 45
+      }
+    ],
+    "display": "Mark 9:45"
+  },
+  "lemma_quote": "«Κἀκεῖθεν ἀναστὰς, ἔρχεται εἰς τὰ ὅρια της Ἰουδαίας διὰ τοῦ πέραν τοῦ Ἰορδάνου, καὶ συμπορεύονται πάλιν ἅχλοι πρὸς αὐτόν. Καὶ ὡς εἰώθει πάλιν ἐδίδασκεν αὐτούς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.229,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

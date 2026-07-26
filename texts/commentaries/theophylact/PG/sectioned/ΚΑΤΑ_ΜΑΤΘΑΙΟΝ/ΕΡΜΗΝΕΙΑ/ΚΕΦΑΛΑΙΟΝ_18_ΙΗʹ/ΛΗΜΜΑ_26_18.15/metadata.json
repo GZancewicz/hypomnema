@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_18.15",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 18:32"
+  },
+  "lemma_quote": "«Τότε προσκαλεσάμενος αὐτὸν ὁ κύριος αὐτοῦ, λέγει αὐτῷ· Δοῦλε πονηρὲ, πᾶσαν τὴν ὁφειλὴν ἐκείνην ἀφῆκά σοι, ἐπεὶ παρεκάλεσάς με· οὐκ ἔδει καὶ σὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.939,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_190_1.40",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 190,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 41
+      }
+    ],
+    "display": "John 1:41"
+  },
+  "lemma_quote": "«Ἄν δὲ Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου εἶς ἐκ τῶν δύο τῶν ἀκουσάντων παρὰ Ἰωάννου, καὶ ἀπωλουθησάντων αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.946,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.40",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

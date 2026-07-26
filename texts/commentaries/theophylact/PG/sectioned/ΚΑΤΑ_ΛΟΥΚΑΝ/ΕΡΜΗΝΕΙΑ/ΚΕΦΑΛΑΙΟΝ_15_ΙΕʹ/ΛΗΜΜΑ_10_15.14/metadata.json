@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_15.14",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 15:14"
+  },
+  "lemma_quote": "δαπανήσαντος δὲ αὐτοῦ πάντα, ἐγένετο λιμὸς ἰσχυρὸς κατὰ τὴν χώραν ἐκείνην, καὶ αὐτὸς ἤρεατο ὑστερεῖσθαι, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.95,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

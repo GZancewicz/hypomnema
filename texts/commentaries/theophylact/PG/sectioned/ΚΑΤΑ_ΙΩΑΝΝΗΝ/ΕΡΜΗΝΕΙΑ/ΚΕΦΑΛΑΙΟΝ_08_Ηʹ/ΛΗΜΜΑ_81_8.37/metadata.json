@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_81_8.37",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 81,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 35
+      }
+    ],
+    "display": "John 8:35"
+  },
+  "lemma_quote": "Ἐν τῇ οἰκίᾳ, λέγων, τοῦ Πατρός μου πολλαὶ μοναί εἰσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.198,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

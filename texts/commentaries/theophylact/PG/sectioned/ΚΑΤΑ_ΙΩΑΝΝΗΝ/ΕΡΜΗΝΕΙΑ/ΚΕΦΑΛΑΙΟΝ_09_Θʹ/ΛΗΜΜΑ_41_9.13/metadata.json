@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_9.13",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 14
+      }
+    ],
+    "display": "John 9:14"
+  },
+  "lemma_quote": "«Πῶς ἀνέῳξέσου τοὺς ὀφθαλμούς·, τὸ ὅλον διαβάλλοντες τὸν Κύριον, ὡς ἐν τῷ Σαββάτῳ ἐργασάμενον, ἀναγκάζοντες αὐτὸν τὸν τυφλὸν ἐπιμνησθῆναι, ὅτι πηλὸν ἐποίησεν ἐν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.506,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

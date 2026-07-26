@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_160_12.49",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 160,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 49
+      }
+    ],
+    "display": "John 12:49"
+  },
+  "lemma_quote": "ἐμαυτοῦ οὐκ ἐλάλησα, ἀλλ´ ὁ πέμψας με Πατὴρ, αὐτός μοι ἐντολὴν ἔδωκε, τί εἴπω, καὶ τί λαλήσω· καὶ οἷδα ὅτι ἡ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.93,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.49",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

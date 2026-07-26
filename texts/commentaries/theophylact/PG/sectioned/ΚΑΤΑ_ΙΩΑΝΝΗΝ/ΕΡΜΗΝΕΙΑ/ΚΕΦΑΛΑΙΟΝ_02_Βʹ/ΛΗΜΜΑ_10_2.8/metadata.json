@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_2.8",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 10,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 8
+      }
+    ],
+    "display": "John 2:8"
+  },
+  "lemma_quote": "λέγει αὐτοῖς· Ἀντλήσατε νῦν, καὶ φέρετε τῷ ἀρχιτρικλίνῳ. Καὶ ἤνεγκαν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_22.2",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 22:2"
+  },
+  "lemma_quote": "Ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ βασιλεῖ, ὅστις ἐποίησε γάμους τῷ υἱῷ αλ-οῦ καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.989,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

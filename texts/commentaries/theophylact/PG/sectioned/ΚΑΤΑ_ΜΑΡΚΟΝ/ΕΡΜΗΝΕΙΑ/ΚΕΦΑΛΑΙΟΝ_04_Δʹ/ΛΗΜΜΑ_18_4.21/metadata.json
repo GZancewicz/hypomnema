@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_4.21",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 18,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 21
+      }
+    ],
+    "display": "Mark 4:21"
+  },
+  "lemma_quote": "«Καὶ ἔλεγεν αὐτοῖς· Μή τι ὁ λύχνος ἔρχεται ἵνα ὑπὸ τὸν μόδιον τεθῇ, ἢ ὑπὸ τὴν κλίνην; Οὐχ ἵνα ἐπὶ τὴν λυχνίαν ἐπιτεθῇ; Οὐ γάρ ἐστί τι κρυπτὸν, ὃ ἐὰν μὴ φανερωθῇ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.848,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

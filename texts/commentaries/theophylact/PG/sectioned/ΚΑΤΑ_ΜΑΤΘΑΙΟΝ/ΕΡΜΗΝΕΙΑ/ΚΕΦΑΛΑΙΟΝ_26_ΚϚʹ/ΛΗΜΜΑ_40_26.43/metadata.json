@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_26.43",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 40,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 44
+      }
+    ],
+    "display": "Matthew 26:44"
+  },
+  "lemma_quote": "ἐλθὼν εὐρίσκει αὐτοὺς πάλιν καθεύδοντας· Σααν γὰρ αὐτῶν οἱ ὀφθαλμοὶ βεβαρημένοι. Καὶ ἀφεὶς αὸτοὺς, ἀπελθὼν πάλιν προσηύξατο ἐκ τρίτου, τὸν αὐτὸν λόγον εἰπών.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.764,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

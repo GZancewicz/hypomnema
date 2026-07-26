@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_22.16",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 22:16"
+  },
+  "lemma_quote": "«Διδάσκαλε, οἴδαμεν, ὅτι ἀληθὴς εἶ, καὶ τὴν ὁὸν τοῦ Θεοῦ ἐν ἀληθείᾳ διδάσκεις, καὶ οὐ μέλλει σοι περὶ οὐδενὸς, οὐ γὰρ βλέπεις εἰς πρόσωπον ἀνθρώπων. Εἰπὲ οὖν ἡμ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.753,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

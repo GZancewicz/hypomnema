@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_21.18",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 16
+      }
+    ],
+    "display": "John 21:16"
+  },
+  "lemma_quote": "σὺ οἴδας, ὅτι φιλώ σε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.348,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

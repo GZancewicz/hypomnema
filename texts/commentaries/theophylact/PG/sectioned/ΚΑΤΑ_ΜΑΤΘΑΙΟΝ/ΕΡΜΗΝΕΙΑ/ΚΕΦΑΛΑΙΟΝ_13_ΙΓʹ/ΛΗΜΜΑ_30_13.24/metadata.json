@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 47
+      }
+    ],
+    "display": "Matthew 13:47"
+  },
+  "lemma_quote": "«Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν σαγήνῃ βληθείσῃ εἰς τὴν θάλασσαν καὶ ἐκ παντὸς γάνους συναγωγούση, ἢν ὅτε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.815,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

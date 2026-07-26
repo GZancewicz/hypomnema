@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_12.47",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 40,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 47
+      }
+    ],
+    "display": "Luke 12:47"
+  },
+  "lemma_quote": "Ἐκεῖνος δὲ ὁ δοῦλος ὁ γνοὺς τὸ θέλημα τοῦ κυρίου αὐτοῦ, καὶ μὴ ἑτοιμάσας μηδὲ ποιήσας πρὸς τὸ θέλημα αὐτοῦ, δαρήσεται πολλάς· ὁ δὲ μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.954,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.47",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

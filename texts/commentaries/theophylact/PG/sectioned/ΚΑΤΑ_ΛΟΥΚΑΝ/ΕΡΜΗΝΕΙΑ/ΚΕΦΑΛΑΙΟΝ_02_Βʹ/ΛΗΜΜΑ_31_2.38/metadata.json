@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_2.38",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 2:38"
+  },
+  "lemma_quote": "ἐπιστᾶσα, ἀνθωμολογεῖτο τῷ Κυρίῳ, καὶ ἐλάλει περὶ αὐτοῦ πᾶσι τοῖς προσδεχομένοις λύτρωσιν ἐν Ἱερουσαλήμ· καὶ ὡς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.87,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

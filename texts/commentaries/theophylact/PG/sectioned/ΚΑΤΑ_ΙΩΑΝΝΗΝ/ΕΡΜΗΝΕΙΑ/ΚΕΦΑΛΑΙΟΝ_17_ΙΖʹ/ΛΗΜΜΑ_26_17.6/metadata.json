@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_17.6",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 5
+      }
+    ],
+    "display": "John 17:5"
+  },
+  "lemma_quote": "«πρὸ τοῦ τὸν κόσμον εἶναι. ν Συνεκάθισε γὰρ τὴν ἀνθρωπίνην φύσιν ἐν τῷ θρόνῳ τῷ βασιλικῷ, καὶ προσκυνεῖται νῦν ὑπὸ πάσης τῆς κτίσεως.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.436,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

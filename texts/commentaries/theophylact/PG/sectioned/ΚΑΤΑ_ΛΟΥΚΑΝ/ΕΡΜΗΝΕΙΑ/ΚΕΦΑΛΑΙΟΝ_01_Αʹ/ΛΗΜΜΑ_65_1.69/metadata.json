@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_1.69",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 65,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 80
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 80
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 80
+      }
+    ],
+    "display": "Luke 1:80"
+  },
+  "lemma_quote": "παιδίον ηὔξανε καὶ ἐκραταιοῦτο πνεύματι, καὶ ἦν ἐν ταῖς ἐρήμοις ἕως ἡμέρας ἀναδείξεως αὐτοῦ πρὸς τὸν Ἰσραήλ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.69",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

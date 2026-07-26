@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_89_20.31",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 89,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 30
+      }
+    ],
+    "display": "John 20:30"
+  },
+  "lemma_quote": "Ἐποίησεν ἐνώπιον τῶν μαθητῶν αὐτοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.561,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.31",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

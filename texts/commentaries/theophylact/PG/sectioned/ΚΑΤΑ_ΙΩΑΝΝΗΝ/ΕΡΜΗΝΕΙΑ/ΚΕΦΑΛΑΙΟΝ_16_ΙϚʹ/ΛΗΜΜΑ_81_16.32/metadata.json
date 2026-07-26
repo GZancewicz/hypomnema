@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_81_16.32",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 81,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 30
+      }
+    ],
+    "display": "John 16:30"
+  },
+  "lemma_quote": "Νῦν οἴδαμεν, ὅτι οἶδας πάντα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.498,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

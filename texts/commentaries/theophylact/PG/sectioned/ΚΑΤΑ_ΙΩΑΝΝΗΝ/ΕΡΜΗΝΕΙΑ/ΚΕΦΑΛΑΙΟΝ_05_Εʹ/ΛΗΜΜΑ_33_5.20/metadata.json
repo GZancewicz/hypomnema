@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_5.20",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 21
+      }
+    ],
+    "display": "John 5:21"
+  },
+  "lemma_quote": "Οὓς θέλει,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.41,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

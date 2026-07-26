@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_6.37",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 40
+      }
+    ],
+    "display": "John 6:40"
+  },
+  "lemma_quote": "Τοῦτο δέ ἐστι τὸ θέλημα τοῦ πέμψαντός με Πατρὸς, ἵνα πᾶν ὃ δέδωκέ μοι, οὐ μὴ ἀπολέσω ἐξ αὐτοῦ, ἀλλὰ ἁναστήσω αὐτὸ ἐν τῇ ἐσχάτῃ ἡμέρα. Τοῦτοα δέ ἐστι τὸ θέλημα τοῦ πέμψαντός με, ἵνα πᾶς ὁ θεωρῶν τὸν Υἱὸν, καὶ πιστεύων εἰς αὐτὸν, ἔχῃ ζωὴν αἰώνιον· καὶ ἀναστήσω αὐτὸν ἐγὼ ἐν τῇ ἐσχάτῃ ὴμέρα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.833,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

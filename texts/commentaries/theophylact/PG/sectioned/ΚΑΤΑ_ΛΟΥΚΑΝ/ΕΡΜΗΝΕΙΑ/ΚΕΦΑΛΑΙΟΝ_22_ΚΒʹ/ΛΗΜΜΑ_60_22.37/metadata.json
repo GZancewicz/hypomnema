@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_60_22.37",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 60,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 22:38"
+  },
+  "lemma_quote": "Ἰκανόν ἐστιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.917,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

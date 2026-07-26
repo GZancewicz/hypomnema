@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_51_13.15",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 51,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 15
+      }
+    ],
+    "display": "John 13:15"
+  },
+  "lemma_quote": "ἵνα καθὼς ἐγὼ ἐποίησα ὑμῖν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.65,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

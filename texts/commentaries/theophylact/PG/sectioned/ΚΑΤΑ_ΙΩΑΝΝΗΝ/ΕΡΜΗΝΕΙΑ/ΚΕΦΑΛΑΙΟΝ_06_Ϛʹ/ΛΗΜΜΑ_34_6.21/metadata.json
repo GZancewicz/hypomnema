@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_6.21",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 34,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 21
+      }
+    ],
+    "display": "John 6:21"
+  },
+  "lemma_quote": "Ὁ περιπατῶν ἐπὶ θαλάσσης ὡς ἐπὶ ἐδάφους.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.281,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "6.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

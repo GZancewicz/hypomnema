@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_16.19",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 16:19"
+  },
+  "lemma_quote": "κλεῖς τῆς βασιλείας τῶν οὐρανῶν, καὶ ὃ ἐὰν δήσῃς ἐπὶ τῆς γῆς, ἔσται δεδεμένον ἐν τοῖς οὐρανοῖς· καὶ ὃ ἐὰν λύσῃς ἐπὶ τῆς γῆς, ἔσται λελυμένον ἐν τοῖς οὐρανοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.956,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

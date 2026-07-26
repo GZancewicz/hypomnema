@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 9,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 5
+      }
+    ],
+    "display": "John 3:5"
+  },
+  "lemma_quote": "Ἐὰν μή τις γεννηθῇ ἐξ ὕδατος, λέγων, καὶ Πνεύματος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.585,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

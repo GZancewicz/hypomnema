@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_11.6",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 11:6"
+  },
+  "lemma_quote": "Μακάριός ἐστιν, ὃς ἐὰν μὴ σκανδαλισθῇ ἐν ἐμοί, αὐτοὶ γὰρ πολὺν εἴχον περὶ αὐτοῦ δισταγμόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.837,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

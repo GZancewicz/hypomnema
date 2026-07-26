@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_16.16",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 17
+      }
+    ],
+    "display": "John 16:17"
+  },
+  "lemma_quote": "Μικρὸν, καὶ οὐ θεωρεῖτέ με· καὶ πάλιν μικρὸν, καὶ ἔψεσθέ με· ὅτι ἐγὼ ὑπάγω πρὸς τὸν Πατέρα μου. Επον οὖν ἐκ τῶν μαθητῶν αὐτοῦ πρὸς ἀλλήλους· Τί ἐστι τοῦτο ὃ λέγει ἡμῖν· Μικρὸν, καὶ οὐ θεωρεῖτέ με· καὶ πάλιν μικρὸν, καὶ ὄύεσθέ με, καὶ Ὅτι ὑπάγω πρὸς τὸν Πατέρα μου; λεγον οὖν· Τοῦτο τί ἐστιν, ὃ λέγει τὸ μικρὸν, οὐκ οἴδαμεν τί λαλεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.844,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

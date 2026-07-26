@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_13.16",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 16,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 16
+      }
+    ],
+    "display": "Mark 13:16"
+  },
+  "lemma_quote": "ἀγρὸν ὤν, μὴ ἐπιστρεψάτω εἰς τὰ ὀπίσω, ἆραι τὸ ἱμάτιον αὐτοῦ. Οὐαὶ δὲ ταῖς ἐν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.815,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

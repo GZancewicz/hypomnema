@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_3.12",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 21,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 11
+      }
+    ],
+    "display": "John 3:11"
+  },
+  "lemma_quote": "Ἑωράκαμεν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

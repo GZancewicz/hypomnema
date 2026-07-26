@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_96_22.68",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 96,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 68
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 68
+      }
+    ],
+    "display": "Luke 22:68"
+  },
+  "lemma_quote": "ἐρωτήσω, οὐ μὴ ἀποκριθῆτέ μοι, ἢ ἀπολύσητε. Ἀπὸ τοῦ νῦν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.78,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.68",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_5.6",
+  "gospel": "mark",
+  "chapter": 5,
+  "index": 5,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 5,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 7
+      }
+    ],
+    "display": "Mark 5:7"
+  },
+  "lemma_quote": "«Ἰδών δὲ τὸν Ἰησοῦν ἀπὸ μακρόθεν, ἔδραμε καὶ προσεκύνησεν αὐτῷ, καὶ κράξας φωνῇ μεγάλῃ, εἶπε· Τί ἐμοὶ καὶ σοὶ, Ἰησοῦ, Υἱὲ τοῦ Θεοῦ τοῦ ὑψίστου· Ὁρκίζω σε τὸν Θε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.698,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

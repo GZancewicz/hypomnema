@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_58_6.33",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 58,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 37
+      }
+    ],
+    "display": "John 6:37"
+  },
+  "lemma_quote": "Εἶπε δὲ αὐτοῖς ὁ Ἰησοῦς· Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς· ὁ ἐρχόμενος πρὸς μὲ, οὐ μὴ πεινάσῃ· καὶ ὁ πιστεύων εἰς ἐμὲ, οὐ μὴ διψήσῃ πώποτε. Ἀλλ´ εῖπον ὑμῖν, ὅτι καὶ ἑωράκατέ με, καὶ οὐ πιστεύετε. Πᾶν ὃ δίδωσι μοι ὁ Πατὴρ, πρὸς ἐμὲ ἥξει· καὶ τὸν ἐρχόμενον πρὸς μὲ, οὐ μὴ ἐκβάλω ἔξω· ὅτι καταβέβηκα ἐκ τοῦ οὐρανοῦ, οὐχ ἵνα ποιῶ τὸ θέλημα τὸ ἐμὸν, ἀλλὰ τὸ θέλημα τοῦ πέμψαντός με.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.594,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

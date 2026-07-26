@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_10.1",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 10:1"
+  },
+  "lemma_quote": "ΕΙ ασοειεῖΙΙε Δοςοῖ ἀεοῖρωε ειιέν, ἀεύίι εἰε ρυιεειίειὶ κυρει ερῖεῖιε ἰυιιίωε, ἰιά Οἱἱμωο ὡΙςειοΙ, εἰ εαυαΓαι φνῖε ποιὺύη, αἰι ϛυονῖ ἱαηχαοΓει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

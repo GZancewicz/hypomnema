@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_76_5.37",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 76,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 38
+      }
+    ],
+    "display": "John 5:38"
+  },
+  "lemma_quote": "Ὅτι ὃν ἀπέστειλεν ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.696,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.37",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

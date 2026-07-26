@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_172_1.34",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 172,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 33
+      }
+    ],
+    "display": "John 1:33"
+  },
+  "lemma_quote": "Διεκώλυεν αὐτὸν λέγων· Ἐγὼ χρείαν ἔχω ὑπὸ σοῦ βαπτισθῆναι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.206,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

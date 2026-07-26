@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_96_10.36",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 96,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 33
+      }
+    ],
+    "display": "John 10:33"
+  },
+  "lemma_quote": "Περὶ βλασφημίας, φασὶ, λιόάζομέν σε, ὅτι ποιεῖς σεαυτὸν Θεόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.641,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

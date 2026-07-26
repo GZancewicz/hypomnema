@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_24.23",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 23
+      }
+    ],
+    "display": "Luke 24:23"
+  },
+  "lemma_quote": "εὑροῦσαι τὸ σῶμα αὐτοῦ, ἦλθον λέγουσαι καὶ ὁπτασίαν ἀγγέλων ἑωρακέναι, οἵ λέγουσιν αὐτὸν ζῇν. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

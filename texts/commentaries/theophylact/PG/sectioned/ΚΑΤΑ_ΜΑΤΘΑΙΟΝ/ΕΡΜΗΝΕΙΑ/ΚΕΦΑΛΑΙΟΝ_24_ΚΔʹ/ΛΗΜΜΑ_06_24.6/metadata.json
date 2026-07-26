@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_24.6",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 24:6"
+  },
+  "lemma_quote": "«Μελλήσετε δὲ ἀκούειν πολέμους καὶ ἀκοὰς πολέμων · ὁρᾶτε μὴ θροεῖσθε, δεῖ γὰρ τὰ πάντα γενέσθαι, ἀλλ´ οὔπω ἐστὶ τὸ τέλος·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

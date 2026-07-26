@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_18.8",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 14,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 8
+      }
+    ],
+    "display": "John 18:8"
+  },
+  "lemma_quote": "Ἀπεκρίθη Ἰησοῦς. καὶ εἶπεν· Εἶπον ὑμῖν, ὅτι ἐγώ εἰμι. Εἰ οὖν ἐμὰ ζητεῖτε, ἄρετε τούτους ὑπάγειν· ἵνα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.786,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

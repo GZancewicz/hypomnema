@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_14.26",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 17
+      }
+    ],
+    "display": "John 14:17"
+  },
+  "lemma_quote": "Ἐν τῷ ὁνόματί μου πέμύει αὐτὸ ὁ ΙΠατήρ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.492,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

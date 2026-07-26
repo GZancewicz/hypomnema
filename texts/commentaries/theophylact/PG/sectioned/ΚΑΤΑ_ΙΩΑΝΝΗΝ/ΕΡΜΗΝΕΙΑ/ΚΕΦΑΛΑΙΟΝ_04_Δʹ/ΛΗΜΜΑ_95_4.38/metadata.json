@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_95_4.38",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 95,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 35
+      }
+    ],
+    "display": "John 4:35"
+  },
+  "lemma_quote": "Θεάσασθε τὰς χώρας, ὅτι λευκαί εἰσι πρὸς θερισμὸν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.567,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

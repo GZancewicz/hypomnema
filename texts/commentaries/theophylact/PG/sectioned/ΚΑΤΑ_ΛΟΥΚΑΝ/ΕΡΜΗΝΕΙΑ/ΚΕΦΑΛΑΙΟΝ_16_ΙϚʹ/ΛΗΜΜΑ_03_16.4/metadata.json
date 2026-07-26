@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_16.4",
+  "gospel": "luke",
+  "chapter": 16,
+  "index": 3,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 4
+      }
+    ],
+    "display": "Luke 16:4"
+  },
+  "lemma_quote": "ἔγνων τί ποιήσω, ἵνα, ὅταν μετασταθῶ τῆς οἰκονομίας, δέξωνταί με εἰς τοὺς οἴκους αὐτῶν. Καὶ προσκαλεσάμενος ἕνα ἕκαστον τῶν χρεοφειλετῶν τοῦ κυρίου αὐτοῦ, ἔλεγε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.693,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

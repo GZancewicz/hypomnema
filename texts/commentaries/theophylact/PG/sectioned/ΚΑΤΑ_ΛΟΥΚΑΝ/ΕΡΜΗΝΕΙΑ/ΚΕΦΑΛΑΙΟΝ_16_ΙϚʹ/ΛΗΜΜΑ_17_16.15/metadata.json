@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_16.15",
+  "gospel": "luke",
+  "chapter": 16,
+  "index": 17,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 15
+      }
+    ],
+    "display": "Luke 16:15"
+  },
+  "lemma_quote": "« ἀκάθαρτος γὰρ παρὰ Κυρίῳ πᾶς ὑψηλοκάρδιος. Ἔδει γοῦν ὑμᾶς· ὧ Φαρισαῖοι, μὴ πρὸς ὑπόληψιν ζῇν ἀνθρωπίνην, Θεὸς γὰρ διεσκόρπισεν ὀστᾶ ἀνθρωπαρέσκων· δικαιοῦν δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.134,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

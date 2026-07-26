@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_10.1",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 1,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 7
+      }
+    ],
+    "display": "John 10:7"
+  },
+  "lemma_quote": "«Ἀμὴν, ἀμὴν λέγω ὑμῖν, ὁ μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.715,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

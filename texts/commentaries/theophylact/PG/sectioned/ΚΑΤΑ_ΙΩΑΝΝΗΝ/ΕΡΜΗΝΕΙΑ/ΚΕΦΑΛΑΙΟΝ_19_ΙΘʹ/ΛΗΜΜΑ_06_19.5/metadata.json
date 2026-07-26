@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_19.5",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 6,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 5
+      }
+    ],
+    "display": "John 19:5"
+  },
+  "lemma_quote": "Ἐξῆλθεν οὖν δ Ἰησοῦς ἔξω φορῶν τὸν ἀκάνθινον στέφανον, καὶ τὸ πορφυροῦν ἱμάτιον. Καὶ λέγει αὐτοῖς· Ἵδε ὁ ἄνθρωπος. Ὅτε οὗν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.829,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

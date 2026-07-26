@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_13.5",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 12,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 2
+      }
+    ],
+    "display": "John 13:2"
+  },
+  "lemma_quote": "«μείπνου δὲ γενομένου, «οὐ μάτην κεῖται, ἀλλ´ ἵφα ἐειγθῇ τὸ ἀπάνθρωπον τοῦ Ἰούδα, ὅτι οὐδὲ ἡ τῆς τραπίζης κοινωνία κατεδυσώπησεν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.304,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

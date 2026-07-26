@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_8.13",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 11,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 13
+      }
+    ],
+    "display": "John 8:13"
+  },
+  "lemma_quote": "«Εἶπον οὖν αὐτῷ οἱ Φαρισαῖοι· Σὺ περὶ σεαυτοῦ μαρτυρεῖς· ἡ μαρτυρία σου οὐκ ἔστιν ἀληθής.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

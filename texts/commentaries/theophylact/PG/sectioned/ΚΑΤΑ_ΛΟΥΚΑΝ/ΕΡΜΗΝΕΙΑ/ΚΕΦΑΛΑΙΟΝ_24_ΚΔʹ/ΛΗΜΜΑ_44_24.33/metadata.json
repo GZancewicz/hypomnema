@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_24.33",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 44,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 24:33"
+  },
+  "lemma_quote": "ἀναστάντες αὐτῇ τῇ ὥρᾳ, ὑπέστρεψαν εἰς Ἱερουσαλήμ, καὶ εὗρον συνηθροισμένους τοὺς ἕνδεκα καὶ τοὺς σὺν αὐτοῖς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

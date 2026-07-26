@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_82_4.33",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 82,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 33
+      }
+    ],
+    "display": "John 4:33"
+  },
+  "lemma_quote": "Ἔλεγον οὖν οἱ μαθηταὶ πρὸς ἀλλήλους· Μήτις ἤνεγκεν αὐτῷ φαγεῖν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

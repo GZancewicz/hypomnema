@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_8.31",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 62,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 31
+      }
+    ],
+    "display": "John 8:31"
+  },
+  "lemma_quote": "Ἔλεγεν οὖν ὁ Ἰησοῦς πρὸς τοὺς πεπιστευκότας αὐτῷ Ἰουδαίους· Ἔὰν ὑμεῖς μείνητε ἐν τῷ λόγῳ τῷ ἐμῷ, ἀληθῶς μαθηταί μου ἐστέ, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

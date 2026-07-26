@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_4.41",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 42
+      }
+    ],
+    "display": "John 4:42"
+  },
+  "lemma_quote": "μεῖναι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.34,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

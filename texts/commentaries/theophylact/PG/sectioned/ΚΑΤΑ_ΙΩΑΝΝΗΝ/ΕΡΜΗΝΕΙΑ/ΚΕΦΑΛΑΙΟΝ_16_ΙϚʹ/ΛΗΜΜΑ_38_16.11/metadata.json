@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_16.11",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 32
+      }
+    ],
+    "display": "John 16:32"
+  },
+  "lemma_quote": "Πλάνος ἐστί·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.727,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

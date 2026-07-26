@@ -1,0 +1,37 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_1.25",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 44,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 25
+      }
+    ],
+    "display": "Matthew 1:25"
+  },
+  "lemma_quote": "Μεθ´ ὑμῶν εἰμι ἕως τῆς συντελείας τοῦ αἰῶνος·",
+  "cross_references": [
+    "Matthew 28:20"
+  ],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.262,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.25",
+  "folder_suffix_agrees": true,
+  "notes": "Opening quote is Matt 28:20 («Μεθ' ὑμῶν εἰμι ἕως τῆς συντελείας τοῦ αἰῶνος»), second proof-text on 'ἕως'; coverage inherited (1:25)."
+}

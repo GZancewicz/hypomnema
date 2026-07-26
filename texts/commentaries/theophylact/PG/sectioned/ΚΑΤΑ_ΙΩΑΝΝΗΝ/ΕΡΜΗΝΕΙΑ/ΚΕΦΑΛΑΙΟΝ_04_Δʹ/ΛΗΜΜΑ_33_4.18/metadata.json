@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_4.18",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 18
+      }
+    ],
+    "display": "John 4:18"
+  },
+  "lemma_quote": "Πέντε γὰρ ἄνδρας ἔσχες, καὶ νῦν ὃν ἔχεις, οὐκ ἔστι σου ἀνήρ· τοῦτο ἀληθῶς εἴρηκας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.897,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

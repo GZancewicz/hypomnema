@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_6.13",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 6:13"
+  },
+  "lemma_quote": "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας, Ἀμήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.647,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

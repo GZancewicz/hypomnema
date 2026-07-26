@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_2.35",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 29,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 35
+      }
+    ],
+    "display": "Luke 2:35"
+  },
+  "lemma_quote": "αὐτῆς τὴν ψυχήν διελεύσεται ῥομφαία, ὅπως ἂν ἀποκαλυφθῶσιν ἐκ πολλῶν καρδιῶν διαλογισμοί.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.977,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

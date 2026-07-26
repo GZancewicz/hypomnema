@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_21.4",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 21:5"
+  },
+  "lemma_quote": "Τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν διὰ τοῦ προφήτου λέγοντος· Εἴπατε τῇ θυγα τρὶ Σιών· Ἰδοὺ ὁ βασιλεύς σου ἔρχεταί σοι πραθε καὶ ἐπιβεβηκὼς ἐπὶ ὄνον καὶ πῶλον υἱὸν ὑποζυγίου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.681,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

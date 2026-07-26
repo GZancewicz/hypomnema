@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_13.12",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 12
+      }
+    ],
+    "display": "Mark 13:12"
+  },
+  "lemma_quote": "Παραδώσει δὲ ἀδελφὸς ἀδελφὸν εἰς θάνατον, καὶ πατὴρ τέκνον, καὶ ἐπαναστήσονται τέκνα ἐπὶ γονεῖς, καὶ θανατώσουσιν αὐτούς. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

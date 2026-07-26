@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_9.17",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 50,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 18
+      }
+    ],
+    "display": "John 9:18"
+  },
+  "lemma_quote": "Λέγουσι τῷ τυφλῷ πάλιν· Σὺ τί λέγεις περῖ αὐτοῦ, ὅτι ἤνοιξέ σου τοὺς ὀφθαλμούς; Ὁ δὲ εἶπεν, ὅτι Προφήτης ἐστίν. Οὐκ ἐπίστευσαν οὗν οἱ ἱουδαῖοι περὶ αὐτοῦ, ὅτι τυφλὸς ἦν, καὶ ἀνέβλεψεν, ἕως ὅτου ἐφώνησαν τοὺς γονεῖς αὐτοῦ τοῦ ἀναβλέψαντος, καὶ ὴρώτησαν αὐτοὺς, λέγοντες· Οὗτός ἐστιν ὁ υἱὸς ὑμῶν, ὃν ὑμεῖς ἑλέγετε, ὅτι τυφλὸς ἐγεννήθη; πῶς οὖν ἄρτι βλέπει;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.662,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

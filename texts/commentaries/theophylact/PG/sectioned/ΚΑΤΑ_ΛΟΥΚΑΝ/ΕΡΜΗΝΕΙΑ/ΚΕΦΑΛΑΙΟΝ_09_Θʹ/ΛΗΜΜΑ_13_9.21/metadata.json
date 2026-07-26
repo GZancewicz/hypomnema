@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_9.21",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 9:22"
+  },
+  "lemma_quote": "ἐπιτιμήσας αὐτοῖς, παρήγστιλε μμηδενὶ εἰπεῖν τοῦτο, εἰπών, ὅτι Δεῖ τὸν λλὸν τοῦ ἀθρώπου πολλὰ παθεῖν, καὶ ἀποδοκιμασθῆναι ἄπὸ τῶν πρεσβυτέρων, καὶ ἀρχιερέων, καὶ Γραμμα2ίων, καὶ ἀποκτανθῆναι, καὶ τῇ τρίτῃ ἡμέρᾳ ἐγερΟῆναι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.811,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

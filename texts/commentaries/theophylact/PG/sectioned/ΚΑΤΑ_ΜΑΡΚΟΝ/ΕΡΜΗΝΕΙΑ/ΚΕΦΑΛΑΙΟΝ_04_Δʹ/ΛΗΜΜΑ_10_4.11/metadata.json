@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_4.11",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 10,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 25
+      }
+    ],
+    "display": "Mark 4:25"
+  },
+  "lemma_quote": "Ζητεῖτε γὰρ, φησί, καὶ δοθήσεται. ὁμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.437,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

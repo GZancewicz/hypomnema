@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_92_12.33",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 92,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 28
+      }
+    ],
+    "display": "John 12:28"
+  },
+  "lemma_quote": "Δοξάσω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.336,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

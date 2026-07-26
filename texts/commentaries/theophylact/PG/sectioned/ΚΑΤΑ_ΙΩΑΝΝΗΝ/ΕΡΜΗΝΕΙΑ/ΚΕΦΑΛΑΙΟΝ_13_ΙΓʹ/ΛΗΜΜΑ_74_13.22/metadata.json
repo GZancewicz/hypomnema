@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 22
+      }
+    ],
+    "display": "John 13:22"
+  },
+  "lemma_quote": "ἐξύμῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

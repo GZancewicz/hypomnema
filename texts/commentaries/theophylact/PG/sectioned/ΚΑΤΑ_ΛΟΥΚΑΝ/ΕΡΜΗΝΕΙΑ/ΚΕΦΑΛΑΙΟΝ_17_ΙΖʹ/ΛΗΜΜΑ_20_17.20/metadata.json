@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_17.20",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 20,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 17:29"
+  },
+  "lemma_quote": "ἡμέρᾳ ἐξῆλθε Δὼτ ἀπὸ Σοδόμων, καὶ Κβρεξε πῦρ καὶ θεῖον ἀπ´ οὐρανοῦ, καὶ ἀπύλεσεν ἅπαντας. Κατὰ ταῦτα ἄσται ᾗ ἡμέρᾳ ὁ Υἱὸς τοῦ ἀν θρώπου ἀποκαλύπτεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.69,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

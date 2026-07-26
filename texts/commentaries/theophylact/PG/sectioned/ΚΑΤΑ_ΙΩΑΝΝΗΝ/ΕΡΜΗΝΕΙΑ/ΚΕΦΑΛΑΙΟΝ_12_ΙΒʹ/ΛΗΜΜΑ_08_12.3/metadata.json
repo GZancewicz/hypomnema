@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_12.3",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 30
+      }
+    ],
+    "display": "John 12:30"
+  },
+  "lemma_quote": "Γινωσκέτω πᾶς οἶκος Ἰσραήλ, ὅτι Κύριον καὶ Χριστὸν αὐτὸν ὁ Θεὸς ἐποίησε, τοῦτον τὸν Ἰησοῦν ὃν ὑμεῖς ἐσταυρώσατε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.285,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

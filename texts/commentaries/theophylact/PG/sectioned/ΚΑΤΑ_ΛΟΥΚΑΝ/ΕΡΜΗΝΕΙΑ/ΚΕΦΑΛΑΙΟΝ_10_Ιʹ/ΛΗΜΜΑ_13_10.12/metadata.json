@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_10.12",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 13
+      }
+    ],
+    "display": "Luke 10:13"
+  },
+  "lemma_quote": "«Οὐαί σοι, Χωραζείν, οὐαί σοι, Βηθσαῖδᾶ, ὅτι εἰ ἑν Τύρῳ καὶ Σιδῶνι ἐγένοντο αἱ δυνάμεις, αἱ γενόμεναι ἐν ὑμῖν, πάλαι ἂν, ἐν σάκκῳ καὶ σποδῷ καθήμεναι, μετενόησα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.83,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

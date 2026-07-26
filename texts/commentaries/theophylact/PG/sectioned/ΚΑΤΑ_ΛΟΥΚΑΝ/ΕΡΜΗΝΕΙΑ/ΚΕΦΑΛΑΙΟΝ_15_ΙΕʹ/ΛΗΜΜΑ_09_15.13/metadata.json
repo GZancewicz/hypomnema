@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_15.13",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 9,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 13
+      }
+    ],
+    "display": "Luke 15:13"
+  },
+  "lemma_quote": "πολλὰς ἡμέρας συναγαγὼν ἅπαντα ὁ νεώτερος υἱὸς, ἀπεδήμησεν εἰς χώραν μακράν, καὶ ἐκεῖ διεσκόρπισε τὴν οὐσίαν αὐτοῦ ζῶν ἀσώτως·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.974,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

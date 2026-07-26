@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_9.25",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 25
+      }
+    ],
+    "display": "John 9:25"
+  },
+  "lemma_quote": "Ἀπεκρίθη οὖν ἐκεῖνος, καὶ εἰπεν· Εἰ ἁμαρτωλός ἐστιν, οὐκ οἶδα· ἓν οἶδα, ὅτι τυφλὸς ὢν, ἄρτι βλέπκο. Εἶπον δὲ αὐτῷ πάλιν· Τί ἐποίησέ σοι; πῶς ἤνοιξέ σου τοὺς ὀφθ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.729,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 3,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 2
+      }
+    ],
+    "display": "John 3:2"
+  },
+  "lemma_quote": "Οὐδεὶς δύναται ταῦτα ποιεῖν, ἐὰν μὴ ᾖ ὁ Θεὸς μετ´ αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.51,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_17.15",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 15
+      }
+    ],
+    "display": "Luke 17:15"
+  },
+  "lemma_quote": "αὐτῶν ἰδὼν ὅτι ἰάθη, ὑπέστρεψε, μετὰ φωνῆς μεγάλης δοξάζων τὸν Θεὸν, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.993,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

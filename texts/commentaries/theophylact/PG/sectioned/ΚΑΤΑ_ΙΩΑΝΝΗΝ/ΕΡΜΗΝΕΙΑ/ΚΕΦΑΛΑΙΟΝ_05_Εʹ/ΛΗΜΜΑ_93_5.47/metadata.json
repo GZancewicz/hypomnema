@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_5.47",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 44
+      }
+    ],
+    "display": "John 5:44"
+  },
+  "lemma_quote": "Προφήτην ὑμῖν ἀναστήσει Κύριος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.228,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

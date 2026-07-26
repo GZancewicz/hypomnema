@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_3.13",
+  "gospel": "matthew",
+  "chapter": 3,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 3,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 3:13"
+  },
+  "lemma_quote": "«Τότε παραγίνεται ὁ Ἰησοῦς ἀπὸ τῆς Γαλιλαίας ἐσὶ τὸν Ἰορδάνην πρὸς τὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.825,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_1.51",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 44,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 51
+      }
+    ],
+    "display": "Luke 1:51"
+  },
+  "lemma_quote": "«Ἐποίησε κράτος ἐν βραχίονι αὐτοῦ· διεσκόρπισεν ὑπερηφάνους διανοίᾳ καρδίας αὐτῶν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

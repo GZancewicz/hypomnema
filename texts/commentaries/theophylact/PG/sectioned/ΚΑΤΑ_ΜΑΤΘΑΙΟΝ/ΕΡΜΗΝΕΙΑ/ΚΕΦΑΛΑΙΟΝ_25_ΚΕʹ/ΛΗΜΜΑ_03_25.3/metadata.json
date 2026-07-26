@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_25.3",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 25:3"
+  },
+  "lemma_quote": "αἴτινες μωραὶ, λαβοῦσαι τὰς λαμπάδας αὐτῶν, οὐκ ἔλαβον μεθ´ ἑαυτῶν ἔλαιον· α δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.933,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

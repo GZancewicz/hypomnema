@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_1.56",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 49,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 56
+      }
+    ],
+    "display": "Luke 1:56"
+  },
+  "lemma_quote": "Ἔμεινε δὲ Μαριὰμ σὺν αὐτῇ ὡσεὶ μῆνας τρεῖς. Καὶ ὑπέστρεψεν εἰς τὸν οἵκον αὐτῆς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.56",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

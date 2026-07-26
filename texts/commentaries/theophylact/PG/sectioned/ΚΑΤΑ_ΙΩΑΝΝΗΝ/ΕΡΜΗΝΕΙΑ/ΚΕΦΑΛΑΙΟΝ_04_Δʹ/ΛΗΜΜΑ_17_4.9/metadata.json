@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_4.9",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 9
+      }
+    ],
+    "display": "John 4:9"
+  },
+  "lemma_quote": "«Λέγει οὖν αὐτῷ ἡ γυνὴ ἡ Σαμαρεῖτις· Πῶς σὺ Ἰουδαῖος ὤν, παρ´ ἐμοῦ πιεῖν αἰτεῖς, οὔσης γυναικὸς Σαμαρείτιδος; Οὐ γὰρ συγχρῶνται Ἰουδαῖοι Σαμαοείται ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.958,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

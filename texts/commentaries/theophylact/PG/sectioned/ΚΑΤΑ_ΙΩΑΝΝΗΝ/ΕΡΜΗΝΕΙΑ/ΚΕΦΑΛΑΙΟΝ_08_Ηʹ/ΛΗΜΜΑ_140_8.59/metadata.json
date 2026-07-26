@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_140_8.59",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 140,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 53
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 53
+      }
+    ],
+    "display": "John 8:53"
+  },
+  "lemma_quote": "Μὴ σὺ μείζων εἶ τοῆ πατοὸς ἡμῶν Ἀβραὰμ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.441,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.59",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

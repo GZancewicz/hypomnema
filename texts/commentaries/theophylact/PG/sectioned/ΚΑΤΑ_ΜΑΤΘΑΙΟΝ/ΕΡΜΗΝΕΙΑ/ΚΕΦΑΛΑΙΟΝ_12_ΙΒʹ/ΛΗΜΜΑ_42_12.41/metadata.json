@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_12.41",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 42,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 12:41"
+  },
+  "lemma_quote": "Ἄνδρες Νινευῖται ἀναστήσονται ἐν τῇ κρίσει μετὰ τῆς γενεᾶς ταύτης, καὶ κατακρινοῦσιν αὐτὴν, ἅτι μετενόησαν εἰς τὸ κήρυγμα Ἰωνᾶς καὶ ἰδοὺ πλεῖον Ἰωνᾶ ὧδε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.926,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

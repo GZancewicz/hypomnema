@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_6.3",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 3
+      }
+    ],
+    "display": "John 6:3"
+  },
+  "lemma_quote": "Ἀνήλθε ἄὲ εἰς τὸ ὄρος ὁ Ἰησοῦς, καὶ ἐκεῖ ἐκάθητο μετὰ τῶν μαθηπῶν αὐτοῦ. Ἡν δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.947,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

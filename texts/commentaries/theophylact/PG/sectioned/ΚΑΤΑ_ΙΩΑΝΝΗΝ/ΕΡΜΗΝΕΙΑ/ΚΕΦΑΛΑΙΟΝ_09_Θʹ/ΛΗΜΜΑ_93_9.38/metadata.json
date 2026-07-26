@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_9.38",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 37
+      }
+    ],
+    "display": "John 9:37"
+  },
+  "lemma_quote": "Καὶ ἑώρακας, φησὶν, αὐτόν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.478,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

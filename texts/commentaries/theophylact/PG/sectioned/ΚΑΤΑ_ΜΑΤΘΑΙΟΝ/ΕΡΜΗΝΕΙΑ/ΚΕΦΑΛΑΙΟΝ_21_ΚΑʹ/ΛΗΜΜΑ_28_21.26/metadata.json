@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_21.26",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 21:27"
+  },
+  "lemma_quote": "εἴπωμεν, ἐξ ἀνθρώπων, φοβούμεθα τὸν ὄχλον· πάντες γὰρ ἔχουσι τὸν Ἰωάννην ὡς προφήτην. Καὶ ἀποκριθέν τες τῷ Ἰησοῦ εἶπον· Οὐκ οἶδαμεν. Ἔφη αὐτοῖς καὶ αὐτός· Οὐδὲ ἐγὼ λέγω ὑμῖν ἐν ποίᾳ ἐξουσίᾳ ταῦτα ποιῶ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.692,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.26",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

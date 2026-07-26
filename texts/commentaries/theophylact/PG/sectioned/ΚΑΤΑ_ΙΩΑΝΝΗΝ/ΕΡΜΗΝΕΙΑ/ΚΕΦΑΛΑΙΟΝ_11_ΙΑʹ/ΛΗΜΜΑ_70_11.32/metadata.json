@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_70_11.32",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 70,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 32
+      }
+    ],
+    "display": "John 11:32"
+  },
+  "lemma_quote": "Μαρία ὡς ἦλθεν ὅπου ἠν ὁ Ἰησοῦς, ἰδοῦσα αὐτὸν, ἔπεσεν εἰς τοὺς πόδας αὐτοῦ, λέγουσα αὐτῷ· Κύριε, εἰ ἦς ὧδε, οὐκ ἂν ἀπέθανέ μου ὁ ἀδελφός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.996,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.32",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

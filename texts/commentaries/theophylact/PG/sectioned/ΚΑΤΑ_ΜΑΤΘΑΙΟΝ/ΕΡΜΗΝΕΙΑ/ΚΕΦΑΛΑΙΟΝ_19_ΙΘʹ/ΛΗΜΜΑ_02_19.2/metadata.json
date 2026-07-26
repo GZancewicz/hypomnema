@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_19.2",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 19:2"
+  },
+  "lemma_quote": "ἠκολούθησαν αὐτῷ ὄχλοι πολλοί, καὶ ἐθεράπευσεν αὐτοὺς ἐκεῖ..",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.997,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

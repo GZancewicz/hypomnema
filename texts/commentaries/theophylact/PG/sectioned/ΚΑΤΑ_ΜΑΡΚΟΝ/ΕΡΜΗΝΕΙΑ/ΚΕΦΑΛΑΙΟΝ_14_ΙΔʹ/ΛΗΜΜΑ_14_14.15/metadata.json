@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_14.15",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 14,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 14:15"
+  },
+  "lemma_quote": "αὐτὸς ὑμῖν δείξει ἀνώγεον μέγα, ἐστρωμένον, ἕτοιμον, ἐκεῖ ἑτοιμάσατε ἡμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

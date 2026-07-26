@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 44
+      }
+    ],
+    "display": "Matthew 13:44"
+  },
+  "lemma_quote": "«Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν θησαυρῷ κεκρυμμένῳ ἐν ἀγρῷ, ὃν εὑρὼν ἄνθρωπος ἔκρυψε, καὶ ἀπὸ τῆς χαρᾶς αὐτοῦ ὑπάγει, πάντα ὅσα ἔχει πωλεῖ, καὶ ἀγοράζ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.889,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

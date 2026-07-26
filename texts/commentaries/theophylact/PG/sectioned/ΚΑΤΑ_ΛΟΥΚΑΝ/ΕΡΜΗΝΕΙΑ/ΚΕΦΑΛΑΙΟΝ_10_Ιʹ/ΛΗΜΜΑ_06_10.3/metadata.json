@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_10.3",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 6,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 2
+      }
+    ],
+    "display": "Luke 10:2"
+  },
+  "lemma_quote": "Δεήθητε τοῦ Κυρίου τοῦ θερισμου, ὅπως ἐκθαλλῃ ἐργατας,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.573,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

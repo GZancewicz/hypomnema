@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_5.20",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 19
+      }
+    ],
+    "display": "John 5:19"
+  },
+  "lemma_quote": "Ὅ τι ἂν ὁ Πατὴρ ποιῇ, ταῦτα καὶ ὁ Χἱὸς ὁμοίως ποιεῖ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.396,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_5.23",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 24
+      }
+    ],
+    "display": "John 5:24"
+  },
+  "lemma_quote": "Τῶ πέμψαντί με.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

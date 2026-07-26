@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_19.22",
+  "gospel": "matthew",
+  "chapter": 19,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 19:21"
+  },
+  "lemma_quote": "Καὶ δεῦρο ἀκολούθει μοι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.426,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_12.21",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 12:22"
+  },
+  "lemma_quote": "«Εἶπε δὲ πρὸς τοὺς μαθητὰς αὐτοῦ· Διὰ τοῦτο ὑμῖν λέγω, μὴ μεριμνᾶτε τῇ ψυχῇ τί φάγητε, μηδὲ τῷ σώματι ὑμῶν τί ἐνδύσησθε. Ἡ γὰρ ψυχὴ πλείων ἐστὶ τῆς τροφῆς, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.858,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

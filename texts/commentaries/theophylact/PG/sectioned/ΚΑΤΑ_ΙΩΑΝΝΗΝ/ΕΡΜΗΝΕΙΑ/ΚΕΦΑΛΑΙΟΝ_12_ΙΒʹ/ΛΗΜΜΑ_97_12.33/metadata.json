@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_97_12.33",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 97,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 31
+      }
+    ],
+    "display": "John 12:31"
+  },
+  "lemma_quote": "εἰς τὸ σκότος τὸ ἐξώτερον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.277,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

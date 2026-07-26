@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 3
+      }
+    ],
+    "display": "John 3:3"
+  },
+  "lemma_quote": "Ἐἀν μή τις γεννηθῇ ἄνωθεν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.497,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

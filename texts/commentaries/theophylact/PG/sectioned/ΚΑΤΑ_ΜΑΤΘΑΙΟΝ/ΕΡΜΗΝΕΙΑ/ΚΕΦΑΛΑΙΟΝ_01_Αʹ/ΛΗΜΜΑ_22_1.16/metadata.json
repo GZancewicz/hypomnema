@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_1.16",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 1:16"
+  },
+  "lemma_quote": "Ἰακώβι Ἰακώβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἠς ἐγεννήθη Ἰησοῦς ὀ λεγόμενος Χριστός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.996,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

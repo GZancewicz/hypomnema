@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_8.4",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 2,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 8:4"
+  },
+  "lemma_quote": "λέγει αὐτῷ ὁ Ἰησοῦς· Ὅρα μηδενὶ εἴπῃς· ἀλλ´ ὕπαγε,. σεαυτὸν δεῖξον τῷ ἱερεῖ, καὶ προσένεγκε τὸ δῶρον ὃ προσέταξε Μωσῆς, εἰς μαρτύριον αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.972,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

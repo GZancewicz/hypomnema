@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_18.23",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 20,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 18:21"
+  },
+  "lemma_quote": "«ἷπε ταῦτα πάντα φυλάξασθαι ἐκ νεότητος, τὸ κεφάλαιον πάντων τὴν ἀκτημοσύνην ὁ Κύριος αὐτῷ ὑποτίθεται. Ὅρα δὲ νόμους Χριστιανικῆς πολιτείας τῷ ὅντι, Πάντα ὅσα ἔ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.465,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_4.17",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 4:18"
+  },
+  "lemma_quote": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας, εἶδε δύο ἀδελφοὺς, Σίμωνα τὸν λεγόμενον Ιέτρον, καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ Ζάλλοντας ἀμφίβληστρον εἰς τὴν θάλασσανσαν γὰρ ἀλιεῖτ], καὶ λέγει αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.838,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

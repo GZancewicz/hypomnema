@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_15.10",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 9
+      }
+    ],
+    "display": "John 15:9"
+  },
+  "lemma_quote": "ἩΠγάπησα ὑμᾶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.207,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_8.20",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 20
+      }
+    ],
+    "display": "John 8:20"
+  },
+  "lemma_quote": "Ταῦτα τὰ ῥήματα ἐλάλησεν ὁ Ἰησοῦς ἐν τῶ γαζοφυλακίῳ, διδάσκων ἐν τῷ ἱερῷ. Καὶ οὐ δεὶς ἐπίασεν αὐτὸν, ὅτι οὔπω ἐληλύθει ἡ ὥρα αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.969,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

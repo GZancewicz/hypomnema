@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 25:35"
+  },
+  "lemma_quote": "Ἐπείνασα γὰρ, καὶ ἐδώκατέ μοι φαγεῖν· ὲδίψησα, καὶ ἐποτίσατέ με· ξένος ἤμην, καὶ συνηγάγετέ με·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_12.25",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 26,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 12:26"
+  },
+  "lemma_quote": "Σατανᾶς τὸν Σατα νᾶν ἐκβάλλει, ἐφ´ ἐαυτὸν ἐμερίσθη· πῶς οὐν σταθήσεται ἡ βασιλεία αὐτοῦ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.926,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_1.35",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 30,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 35
+      }
+    ],
+    "display": "Mark 1:35"
+  },
+  "lemma_quote": "«Καὶ πρωὶ ἔννυχον λίαν ἀναστὰς, ἐξῆλθε, καὶ ἀπῆλθεν ὁ Ἰησοῦς εἰς ἔρημον τόπον, κἀκεῖ προσηύχετο, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.924,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_10.23",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 10:24"
+  },
+  "lemma_quote": "«Οὐκ ἔστι μαθητὴς ὑπὲρ τὸν διδάσκαλον, οὐδὲ δοῦλος ὑπὲρ τὸν κύριον αὐτοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

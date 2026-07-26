@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_11.42",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 99,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 41
+      }
+    ],
+    "display": "John 11:41"
+  },
+  "lemma_quote": "Θέλω, καθαρίσθητι ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_7.30",
+  "gospel": "luke",
+  "chapter": 7,
+  "index": 25,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 7,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 7:30"
+  },
+  "lemma_quote": "ἐγένετο ἄνθρωπος ἀπεσταλμένος παρὰ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.161,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

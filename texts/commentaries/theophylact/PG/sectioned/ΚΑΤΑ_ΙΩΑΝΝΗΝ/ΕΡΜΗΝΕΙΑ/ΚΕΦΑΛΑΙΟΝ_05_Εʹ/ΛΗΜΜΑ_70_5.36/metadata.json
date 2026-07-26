@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_70_5.36",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 70,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 36
+      }
+    ],
+    "display": "John 5:36"
+  },
+  "lemma_quote": "Ἔγὼ δὲ ἔχω τὴν μαρτυρίαν μειζω τοῦ Ἰωὰν. νου. Τὰ γὰρ ἔργα ἃ ἔδωκέ μοι ὁ Πατὴρ, ἵνα τελειώσω αὐτὰ, αὐτὰ τὰ ἕργα ἃ ἐγὼ ποιῶ, μαρτυρεῖ περὶ ἐμου, ὅτι ὁ Πατήρ με ἀπέσταλκε· καὶ ὁ πέμψας με Πατὴρ, αὐτὸς μεμαρτύρηκε περὶ ἐμοῦ· φθτε φωνὴν αὐτοῦ ἀκηκόατε πώποτε, οὕτε εἶδος αὐτοῦ ἑωράκατε, καὶ τὸν λόγον αὐτοῦ οὐκ ἔχετε μένοντα ἐν ὑμῖν· ὅτι ὃν ἀπέστειλε ἐκεῖνος, τούτῳ ὑμεῖς οὐ πιστεύετε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.714,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

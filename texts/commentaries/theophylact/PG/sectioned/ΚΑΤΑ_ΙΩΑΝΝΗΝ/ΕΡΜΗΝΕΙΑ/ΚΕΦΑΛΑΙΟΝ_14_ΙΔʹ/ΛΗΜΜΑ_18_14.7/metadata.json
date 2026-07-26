@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_14.7",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 18,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 7
+      }
+    ],
+    "display": "John 14:7"
+  },
+  "lemma_quote": "καὶ ἐωράκατε αὐτὸν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.548,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

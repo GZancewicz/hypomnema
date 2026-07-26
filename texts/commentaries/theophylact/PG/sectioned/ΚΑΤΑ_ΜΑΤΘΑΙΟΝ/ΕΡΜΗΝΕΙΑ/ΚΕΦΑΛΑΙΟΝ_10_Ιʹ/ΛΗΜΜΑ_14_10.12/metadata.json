@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_10.12",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 14,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 10:13"
+  },
+  "lemma_quote": "Εἰσερχόμενοι δὲ εἰς τὴν οἰκίαν, ἀσπάσασθε αὐτὴν. λέγοντες· Εἰρήνη τῷ οἴκῳ τούτῳ· καὶ ἐὰν μὲν ᾖ ἡοἰκία ἀξία, ἐλθέτω ἡ εἰρήνη ὁμῶν ἐπ´ αὐτὴν, ἐὰν δὲ μὴ ᾗ ἀξία, ἡ εἰρήνη ὑμῶν πρὸς ὑμᾶς ἐπιστραφήτω.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.809,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

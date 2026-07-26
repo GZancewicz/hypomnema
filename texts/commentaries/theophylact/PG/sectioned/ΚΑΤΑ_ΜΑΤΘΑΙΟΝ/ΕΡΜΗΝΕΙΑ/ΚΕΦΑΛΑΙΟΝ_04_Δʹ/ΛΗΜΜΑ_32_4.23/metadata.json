@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_4.23",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 32,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 24
+      }
+    ],
+    "display": "Matthew 4:24"
+  },
+  "lemma_quote": "Καὶ ἐξῆλθεν ἡ ἀκοὴ αὐτοῦ εἰς ὄλην τὴν Συρίαν, καὶ πιοσήνεγκαν αὐτῷ πάντας τοὺς κακῶς ἔχοντας ποικίλαις νόσοις καὶ βασάνοις συνεχομένους καὶ αεληνιαζομένους, καὶ παραλυτικοὺς, καὶ ἐθεράσαυσεν αὐτούς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.848,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

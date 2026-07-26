@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_117_11.47",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 117,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 43
+      }
+    ],
+    "display": "John 11:43"
+  },
+  "lemma_quote": "Καὶ ἡμεῖς ἐξερχόμεθα πρὸς αὐτὸν ἔξω τῆς παρεμβολῆς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.221,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

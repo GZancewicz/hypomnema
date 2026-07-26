@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_20.11",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 22,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 12
+      }
+    ],
+    "display": "John 20:12"
+  },
+  "lemma_quote": "Μαρία δὲ εἰστήκει πρὸς τὸ μνημεῖον κλοίονσα ἔξω. Ὡς οὖν ἔκλαιε, παρέκυψεν εἰς τὸ μνημεῖον· καὶ θεωρεῖ δύοἀγγέλους ἐν λευκοῖς καθ· εζομένους, ἕνα πρὸς τῇ κεφαλῆ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.59,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

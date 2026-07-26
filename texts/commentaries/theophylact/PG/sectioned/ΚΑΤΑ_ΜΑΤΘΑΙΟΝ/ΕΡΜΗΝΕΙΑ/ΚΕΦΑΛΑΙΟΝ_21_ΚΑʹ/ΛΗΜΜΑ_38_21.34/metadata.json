@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 38,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 21:41"
+  },
+  "lemma_quote": "Λέγουσιν αὐτῷ· Κακοὺς κακῶς ὀπολέσει αὐτοὺς, καὶ τὸν ἀμπελῶνα ἐκδώσεται ἄλλοις γεωργοῖς, οἴτινες ἀποδώσουσιν αὐτῷ τοὺς καρποὺς ἐν τοῖς καιροῖς αὐτῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.96,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

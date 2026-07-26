@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_92_14.21",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 92,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 21
+      }
+    ],
+    "display": "John 14:21"
+  },
+  "lemma_quote": "ἐντολάς μου, καὶ τηρῶν αὐτὰς, ἐκεῖνός ἐστιν ὁ ἀγαπῶν με. Ὁ δὲ ἀγαπῶν με, ἀγαπηθήσεται ὑπὸ τοῦ Πατρός μου, καὶ ἐγὼ ἀγαπήσω αὐτὸν καὶ ἐμφανίσω αὐτῷ ἐμαυτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.944,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

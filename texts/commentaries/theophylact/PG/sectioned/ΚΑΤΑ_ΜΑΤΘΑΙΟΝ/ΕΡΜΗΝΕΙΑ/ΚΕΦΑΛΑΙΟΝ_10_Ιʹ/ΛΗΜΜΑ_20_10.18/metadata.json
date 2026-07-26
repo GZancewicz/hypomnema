@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_10.18",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 10:18"
+  },
+  "lemma_quote": "ἡγεμόνας δὲ καὶ βασιλεῖς ἀχθήσεσθε ἕνεκεν ἐμοῦ, εἰς μαρτύριον αὐτοῖς καὶ τοῖς ἔθνεσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.977,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

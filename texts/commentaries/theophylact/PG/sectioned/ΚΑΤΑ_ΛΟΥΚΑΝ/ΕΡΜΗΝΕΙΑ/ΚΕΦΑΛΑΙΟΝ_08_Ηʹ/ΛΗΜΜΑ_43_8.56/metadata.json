@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_8.56",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 43,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 56
+      }
+    ],
+    "display": "Luke 8:56"
+  },
+  "lemma_quote": "ἐξέστησαν οἱ γονεῖς αὐτῆς. Ὁ δὲ παρήγγειλεν αὐτοῖς μηδενὶ εἰπαῖν τὸ γεγονός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.851,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.56",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

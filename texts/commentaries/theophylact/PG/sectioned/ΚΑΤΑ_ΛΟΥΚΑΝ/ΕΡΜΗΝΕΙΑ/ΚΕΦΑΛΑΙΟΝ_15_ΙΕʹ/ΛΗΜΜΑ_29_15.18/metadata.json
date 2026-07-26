@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 29,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 28
+      }
+    ],
+    "display": "Luke 15:28"
+  },
+  "lemma_quote": "Ὡργίσθη δὲ καὶ οὐκ ἥθελεν εἰσελθεῖν. Ὁ οὖν πατὴρ αὐτοῦ ἐξελθὼν, παρεκάλει αὐτόν· ὁ δὲ ἀποκριθεὶς εῖπε τῷ πατρί· Ἰδοὺ τοσαῦτα ἔτη δουλεύω σοι, καὶ αὐδέποτέ σου ἐ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.722,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_15.16",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 47,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 3
+      }
+    ],
+    "display": "John 15:3"
+  },
+  "lemma_quote": "Καθαροί ἐστε διὰ τὸν λόγον, ὅν λελάληκα ὑμῖν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.862,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

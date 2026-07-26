@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_22.36",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 37,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 37
+      }
+    ],
+    "display": "Matthew 22:37"
+  },
+  "lemma_quote": "Διδάσκαλε, ποία ἐντολὴ μεγάλη ἐν τῷ νόμῳ; Ὃ δὲ Ἰησοῦς ἔφη αὐτῷ· Ἀγαπήσεις Κύριον τὸν Θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου, καὶ ἐν ὅλῃ πῇ ψυχῇ σου, καὶ ἐν ὅλῃ τῇ διανοί",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.889,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

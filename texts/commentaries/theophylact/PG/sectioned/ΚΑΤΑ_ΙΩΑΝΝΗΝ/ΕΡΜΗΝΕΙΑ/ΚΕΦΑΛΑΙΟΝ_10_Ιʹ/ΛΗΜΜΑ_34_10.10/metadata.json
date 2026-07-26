@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_10.10",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 34,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 10
+      }
+    ],
+    "display": "John 10:10"
+  },
+  "lemma_quote": "Πάντες γὰρ ἀναστήσονται,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.264,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_17.6",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 24,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 5
+      }
+    ],
+    "display": "John 17:5"
+  },
+  "lemma_quote": "Δόξασόν με·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

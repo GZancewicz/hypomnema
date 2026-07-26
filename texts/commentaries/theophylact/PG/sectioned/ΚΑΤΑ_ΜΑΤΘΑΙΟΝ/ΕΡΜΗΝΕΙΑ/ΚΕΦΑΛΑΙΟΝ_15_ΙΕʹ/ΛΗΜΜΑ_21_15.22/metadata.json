@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_15.22",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 15:23"
+  },
+  "lemma_quote": "«Καὶ προσελθόντες οἱ μαθηταὶ αὐτοῦ, ἠρώτων αὐτὸν, λέγοντας· Ἀπόλυσον αὐτήν, ὅτι κράζει ὄπισθεν ἡμῶν. Ὁ ὲ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.844,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

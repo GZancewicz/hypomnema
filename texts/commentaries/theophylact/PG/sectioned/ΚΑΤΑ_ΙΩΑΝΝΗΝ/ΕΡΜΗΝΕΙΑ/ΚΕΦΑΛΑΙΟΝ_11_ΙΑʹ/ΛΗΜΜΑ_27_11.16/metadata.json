@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_11.16",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 27,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 11
+      }
+    ],
+    "display": "John 11:11"
+  },
+  "lemma_quote": "«Ἀ πέθανε, Τίνος δὲ ἕνεκεν οὐχὶ καὶ πρότερον οὕτω φανερῶς αἷπεν, ἀλλὰ κεκρυμμένως, ὕπνον ὀνομάσας τὸν θάνατον; Διὰ πολλά· ἓν μὲν διὰ τὸ ἀκόμπαστον· οὐ γἀρ ἠβούλ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.252,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_2.43",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 36,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 43
+      }
+    ],
+    "display": "Luke 2:43"
+  },
+  "lemma_quote": "τελειωσάντων τὰς ἡμέρας, ἐν τῷ ὑποστρέφειν αὐτοὺς, ἀπέμεινεν Ἡησοῦς ὁ παῖς ἐν Ἱερουσαλὴμ, καὶ οὐκ ἔγνω Ἰωσὴρ καὶ ἡ μήτηρ αὐτοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.875,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.43",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

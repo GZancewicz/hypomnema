@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_17.4",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 6,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 17:4"
+  },
+  "lemma_quote": "Ἀποκριθεὶς δὲ ὁ Πέτρος εἶπε τῷ Ἰησοῦ· Κύρι·, καλόν ἐστιν ἡμᾶς ὡδε εἶναι· εἰ θέλεις, ποιήσωμεν ὧδε τρεῖς σκηνὰς, σοὶ μίαν, καὶ Μωσῇ μίαν. καὶ μίαν Ἡλίᾳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.964,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

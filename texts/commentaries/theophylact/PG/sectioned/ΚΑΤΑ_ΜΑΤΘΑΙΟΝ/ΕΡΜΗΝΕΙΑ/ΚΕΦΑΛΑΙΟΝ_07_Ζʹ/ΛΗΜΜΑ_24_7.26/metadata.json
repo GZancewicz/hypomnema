@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_7.26",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 7:26"
+  },
+  "lemma_quote": "ἀκούων μου τοὺς λόγους τούτους, καὶ μὴ ποιῶν αὐτοὺς, ὁμοιωθήσεται ἀνδρὶ μωρῷ, ἄστις ᾠκοδόμησε τὴν οἰκίαν αὐτοῦ ἐπὶ τὴν ἄμμον, καὶ κατεῦη ἡ βροχὴ, καὶ ἦλθον οἱ ποταμοὶ, καὶ ἔπνευσαν οἱ ἄνεμοι, καὶ προσέκοψαν τῇ οἰκίᾳ ἐκείνῃ, καὶ ἔπεσε, καὶ ἦν ἤ πτῶσις αὐτῆς μεγάλη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.692,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_5.25",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 45,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 25
+      }
+    ],
+    "display": "John 5:25"
+  },
+  "lemma_quote": "ἔρχεται ὥρα, καὶ νῦν ἐστιν, ὅτε οἱ νεκροὶ ἀκούσονται τῆς φωνῆς τοῦ Υἱοῦ τοῦ Θεοῦ, καὶ οἱ ἀκούσαντες ζήσονται,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.878,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

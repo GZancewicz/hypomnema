@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_91_8.41",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 91,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 41
+      }
+    ],
+    "display": "John 8:41"
+  },
+  "lemma_quote": "Υἱοὺς ἐγέννησα καὶ ὕψωσα· αὐτοὶ δέ με ἡθέτησαν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.05,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

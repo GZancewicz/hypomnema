@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_13.4",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 13:4"
+  },
+  "lemma_quote": "«Καὶ ἐν τῷ σπείρειν αὐτὸν, ἃ μὲν ἔπεσε παρὰ τὴν ὁδόν· καὶ ἦλθε τὰ πετεινὰ τοῦ οὐρανοῦ, καὶ κατέφαγεν αὐτά· ἄλλα δὲ ἔπεσεν ἐπὶ τὰ πετρώδη, ὅποι οὐκ εἶχε γῆν πολλ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.582,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

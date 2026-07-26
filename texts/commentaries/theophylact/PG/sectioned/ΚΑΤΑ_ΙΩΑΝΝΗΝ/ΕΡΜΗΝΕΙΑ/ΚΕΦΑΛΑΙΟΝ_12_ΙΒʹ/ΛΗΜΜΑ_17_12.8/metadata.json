@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_12.8",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 8
+      }
+    ],
+    "display": "John 12:8"
+  },
+  "lemma_quote": "«Ἐβάσταζε « γὰρ, τουτἐστιν, ἔκλεπτε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.22,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

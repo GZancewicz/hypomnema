@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_2.12",
+  "gospel": "john",
+  "chapter": 2,
+  "index": 21,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 2,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 12
+      }
+    ],
+    "display": "John 2:12"
+  },
+  "lemma_quote": "«Μετὰ τοῦτο κατέβη εἰς Καπερναοὺμ αὐτὸς, καὶ Κἡ μήτηρ αὐτοῦ, καὶ οἱ ἀδελφοὶ αὐτοῦ, καὶ οἱ μαθᾳταὶ αὐτοῦ· καὶ ἐκεῖ ἔμειναν οὐ πολλὰς ἡμέρας. Κεὶ ἐγγὺς ἦν τὸ Πάσχ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

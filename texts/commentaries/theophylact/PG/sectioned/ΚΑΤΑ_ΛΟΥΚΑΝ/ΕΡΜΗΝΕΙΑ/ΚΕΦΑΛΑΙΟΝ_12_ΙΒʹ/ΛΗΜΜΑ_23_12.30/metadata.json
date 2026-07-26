@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_12.30",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 12:30"
+  },
+  "lemma_quote": "Ταῦτα γὰρ πάντα τὰ θνη τοῦ κόσμου ἐπιζητεῖ. Ὑμῶν δὲ ὁ Πατὴρ οἶδεν, ὅτι χρῄζετε τούτων· πλὴν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.881,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

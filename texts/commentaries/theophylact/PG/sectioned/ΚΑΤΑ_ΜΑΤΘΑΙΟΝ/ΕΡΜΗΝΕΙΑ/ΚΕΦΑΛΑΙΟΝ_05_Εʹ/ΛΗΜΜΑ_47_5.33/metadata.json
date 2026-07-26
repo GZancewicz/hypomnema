@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_5.33",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 47,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 5:35"
+  },
+  "lemma_quote": "Ἐγὼ δὲ λέγω ὑμῖν, μὴ ὀμόσαι ὅλως, μήτε ἐν τῷ οὐρανῷ, ὅτι θρόνος· ἐστὶ τοῦ Θεοῦ· μήτε ἐν τῇ γῇ. ὅτι ὑποπόδιόν ἐστὶ τῶν ποδῶν αὐτοῦ· μήτε εἰς Ἰεροσόλυμα, ὄτι πόλις ἐστὶ τοῦ μεγάλου βασιλέως.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.862,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_14.17",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 17
+      }
+    ],
+    "display": "John 14:17"
+  },
+  "lemma_quote": "Οὐδὲ γινώσκει Κεὐτό",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

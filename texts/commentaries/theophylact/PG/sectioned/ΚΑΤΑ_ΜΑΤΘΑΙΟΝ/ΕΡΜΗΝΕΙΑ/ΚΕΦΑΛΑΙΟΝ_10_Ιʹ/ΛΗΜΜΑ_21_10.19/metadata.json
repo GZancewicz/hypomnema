@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_10.19",
+  "gospel": "matthew",
+  "chapter": 10,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 10,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 10:20"
+  },
+  "lemma_quote": "Ὅταν δὲ παραδιδῶσιν ὑμᾶς, μὴ μεριμνήσητε πῶς ἢ τί λαλήσητε, δοθήσεται γὰρ ὑμῖν ἐν ἐκείνῃ τῇ ὤρᾳ τί λαλήσητε. Οὐ γὰρ ὁμαῖς ἐστε οἱ λαλοῦντες, ἀλλὰ τὸ Πνεῦμα τοῦ Πατρὸς ὑμῶν, τὸ λαλοῦν Ἀν ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.692,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

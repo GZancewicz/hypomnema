@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_9.29",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 68,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 26
+      }
+    ],
+    "display": "John 9:26"
+  },
+  "lemma_quote": "Τί ἐποίησέ σοι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.625,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

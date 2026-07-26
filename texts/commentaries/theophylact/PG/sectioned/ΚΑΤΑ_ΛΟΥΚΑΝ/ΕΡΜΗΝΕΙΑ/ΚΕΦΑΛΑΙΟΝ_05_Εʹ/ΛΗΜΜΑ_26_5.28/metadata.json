@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_5.28",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 26,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 5:29"
+  },
+  "lemma_quote": "καταλιπὼν ἄπαντα, ἀναστὰς ἠκολούθησεν αὐτῷ. Καὶ ἐποέησε δοχὴν μεγάλην ὁ Λευὶν αὐτῷ ἐν τῇ οἰκίᾳ αὐτοῦ Καὶ ἦν ὅχλος τελωνῶν πολὺς, καὶ ἄλλων, οἱ ἦσαν μετ´ αὐτῶν κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.699,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

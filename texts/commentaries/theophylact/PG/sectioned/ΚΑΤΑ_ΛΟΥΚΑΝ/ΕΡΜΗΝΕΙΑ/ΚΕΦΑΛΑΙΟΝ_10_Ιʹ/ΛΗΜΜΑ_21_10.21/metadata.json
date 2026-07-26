@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_10.21",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 10:22"
+  },
+  "lemma_quote": "«Καὶ στοαφεὶς πρὸς τοὺς μαθητὰς, εἶπε· Πάντα μοι παρεδόθη ὑπὸ τοῦ λατρός μου. Καὶ οὐδεὶς γινώσκει, τίς ἐστιν ὁ Υἱὸς, εἰ μὴ ὁ Πατὴρ, καὶ τίς ἐστιν ὁ Πατὴρ, εἰ μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.831,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_17.20",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 24,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 17:33"
+  },
+  "lemma_quote": "Οὐδεὶς ἐπιβαλὼν τὴν χεῖρα αὐτοῦ ἐπ´ ἄροτρον, καὶ στραφεὶς εἰς τὰ ὀπίσω, εὔθετός ἐστιν εἰς τὴν βασιλείαν τῶν οὐρανῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.213,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "17.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

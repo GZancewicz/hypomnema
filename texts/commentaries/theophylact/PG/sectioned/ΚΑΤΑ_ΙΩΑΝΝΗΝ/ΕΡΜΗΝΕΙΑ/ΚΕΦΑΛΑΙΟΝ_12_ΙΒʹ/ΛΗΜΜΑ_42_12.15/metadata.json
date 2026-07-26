@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_12.15",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 42,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 15
+      }
+    ],
+    "display": "John 12:15"
+  },
+  "lemma_quote": "« Ἐπειδὴ γὰρ ὡς ἐπὶ τὸ πλεῖστον οἱ ἐν Ἰερουσαλὴμ βασιλεύοντες, ἄδικοί τε ἦσαν, καὶ πλεονέκται, φησὶν ὁ προφήτης·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.232,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

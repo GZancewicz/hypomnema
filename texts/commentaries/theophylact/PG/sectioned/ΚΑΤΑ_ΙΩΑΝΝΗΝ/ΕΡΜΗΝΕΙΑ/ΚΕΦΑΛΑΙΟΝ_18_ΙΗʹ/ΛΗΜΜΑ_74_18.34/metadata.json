@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_18.34",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 36
+      }
+    ],
+    "display": "John 18:36"
+  },
+  "lemma_quote": "Ἡ βασιλεία ἱ ἐμὴ οὐκ ἔστιν ἐκ τοῦ κόσμου τούτου",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.875,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

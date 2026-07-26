@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_139_12.42",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 139,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 41
+      }
+    ],
+    "display": "John 12:41"
+  },
+  "lemma_quote": "Ταῦτα εῖαιν Ἡταὶας, ὅτε εἶδε τὴν δόξαν αὐτοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.739,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

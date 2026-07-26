@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_20.23",
+  "gospel": "matthew",
+  "chapter": 20,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 20,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 20:23"
+  },
+  "lemma_quote": "«Κάθου ἐκ δεξιῶν μου; Ἀλλὰ τοῦτο εἰπεν ὁ Κύριος πρὸς τὴν ἐκείνων ὑπόνοιαν· μὴ νοήσαντες γὰρ Ἐσι τὸ καθεσθῆναι ἐπὶ δώδεκα θρόνους, τὸ δοέασθῆναί ἐστι δι´ ἀρετὴν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.266,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "20.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

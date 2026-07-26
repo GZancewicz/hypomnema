@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_6.30",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 30
+      }
+    ],
+    "display": "John 6:30"
+  },
+  "lemma_quote": "Εἰπον οὖν αὐτῷ· Τί οὖν ποιεῖς σὺ σημεῖον, ἵνα ἴδωμεν, καὶ πιστεύσωμέν σοι; Τί ἐργάζῃ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_6.41",
+  "gospel": "luke",
+  "chapter": 6,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 41
+      }
+    ],
+    "display": "Luke 6:41"
+  },
+  "lemma_quote": "«Τί δὲ βλέπεις τὸ κάρφος, τὸ ἐν τῷ ὀφθαλμῷ τοῦ ὰδελφοῦ οου, τὴν δὲ δοκὸν τὴν ἐν τῷ ἰδίῳ ὀφθαλμῶ οὐ κατανοεῖς; Ἡ πῶς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.924,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

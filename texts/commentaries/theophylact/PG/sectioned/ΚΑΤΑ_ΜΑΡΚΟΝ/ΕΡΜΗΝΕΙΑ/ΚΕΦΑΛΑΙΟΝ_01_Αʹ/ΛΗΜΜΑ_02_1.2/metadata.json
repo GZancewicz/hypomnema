@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_1.2",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 2
+      }
+    ],
+    "display": "Mark 1:2"
+  },
+  "lemma_quote": "γέγραπται ἐν τοῖς προφήταις· Ἰδοὺ ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὅς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου. Δωνὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_19.11",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 22,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 18
+      }
+    ],
+    "display": "John 19:18"
+  },
+  "lemma_quote": "Ἡ βασιλεία μου οὐκ ἔστιν ἐντεῦθεν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.343,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

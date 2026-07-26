@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_4.2",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 2
+      }
+    ],
+    "display": "Mark 4:2"
+  },
+  "lemma_quote": "ἐδίδασκεν αὐτοὺς ἐν παραβολαῖς πολλά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.81,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_15.8",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 5,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 15:8"
+  },
+  "lemma_quote": "δραχμὰς ἔχουσα δέκα, ἐὰν ἁπολέσῃ δραχμὴν μίαν, οὐχὶ ἅπτει λύχνον, καὶ σαροῖ τὴν οἰκίαν, καὶ ζητεῖ ἐπιμελῶς, ἕως ὅτου εὔρῃ, καὶ εὑροῦσα, συγκαλεῖ τὰς φίλας καὶ τ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.863,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_16.6",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 24,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 2
+      }
+    ],
+    "display": "John 16:2"
+  },
+  "lemma_quote": "Ἀποσυναγώγους ποήσουσιν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

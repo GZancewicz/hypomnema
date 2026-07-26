@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_16.15",
+  "gospel": "luke",
+  "chapter": 16,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 16,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 16:18"
+  },
+  "lemma_quote": "Ὁνόμος· καὶ οἱ προφῆται ἕως Ἰωάννου, ἀπὸ τότε ἡ βασιλεία τοῦ Θεοῦ εὐαγγελίζεται· καὶ πᾶς εἰς αὐτὴν βιάζεται. Εὐκοπώτερον δέ ἐστι τὸν οὐρανὸν καὶ τὴν γῆν παρελθεῖν, ἢ τοῦ νόμου μίαν κεραίσν πεσεῖν. Πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ, καὶ γαμῶν ἑτέραν, μοιχεύει, καὶ πᾶς ὁ ἀπολελυμένην ἀπὸ ἀνδρὸς γαμῶν, μοιχεύει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.73,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

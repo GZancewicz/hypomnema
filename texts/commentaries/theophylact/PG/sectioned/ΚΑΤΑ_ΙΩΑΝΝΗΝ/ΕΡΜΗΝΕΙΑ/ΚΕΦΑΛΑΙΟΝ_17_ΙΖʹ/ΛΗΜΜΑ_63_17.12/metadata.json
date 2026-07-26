@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_63_17.12",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 63,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 12
+      }
+    ],
+    "display": "John 17:12"
+  },
+  "lemma_quote": "«Οὕς δέδωκάς μοι, ἐφύλαξα, καὶ οὐδεὶς ἐξαὐτῶν ἀπώλετο, εἰ μὴ ὁ υἱὸς τῆς ἀπωλείας, ἵνα ἡ Γραφὴ τληοωθῇ. Νῦν δὲ πρὸς σὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.637,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

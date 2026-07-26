@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_7.17",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 17
+      }
+    ],
+    "display": "John 7:17"
+  },
+  "lemma_quote": "«Ἐάν τις θέλῃ τὸ θέλημα αὐτοῦ ποιεῖν, γνώσεται περὶ τῆς διδαχῆς, πότερον ἐκ τοῦ Θεοῦ ἐστιν, ἢ ἐγὼ ἀπ´ ἐμαυτοῦ λαλῶ. Ὁ ἀφ´",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

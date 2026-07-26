@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_5.16",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 5:14"
+  },
+  "lemma_quote": "Ὕπαγε, δεῖξον σεα.. τὸν τῷ ἱερεῖ, καὶ προσένεγκε τὸ δῶρον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.41,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

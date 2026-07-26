@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_26.61",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 59,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 69
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 69
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 69
+      }
+    ],
+    "display": "Matthew 26:69"
+  },
+  "lemma_quote": "«Ὁ δὲ Πέτρος ἔξω εκάθητο ἐν τῇ αὐλῇ, καὶ προσθεν αὐτῷ μία παιδίόκη, λέγουσα· Καὶ σὺ ἠσθα κτὰ Ἰησοῦ τοῦ Γαλιλαίου; Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.885,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.61",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

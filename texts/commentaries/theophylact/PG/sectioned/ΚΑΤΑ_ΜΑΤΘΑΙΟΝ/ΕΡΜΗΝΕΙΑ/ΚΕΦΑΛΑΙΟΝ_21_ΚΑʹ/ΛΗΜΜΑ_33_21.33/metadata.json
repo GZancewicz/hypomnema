@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_21.33",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 21:33"
+  },
+  "lemma_quote": "Ἄλλην παραβολὴν ἀκούσατε. Ἀνθρωπος ἦν οἰκοδεσπότης, ὅστις ἐφύτευσεν ἀμπελῶνα, καὶ φραγμὸν αὐτῷ περιέθηκε, καὶ ὥρυξεν ἐν αὐτῷ ληνόν. Καὶ ᾠκοδόμησε πύργον, καὶ ἐξέδοτο αὐτὸν γεωογοῖςν καὶ ἀπεδήμησεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.973,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

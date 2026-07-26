@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_7.21",
+  "gospel": "mark",
+  "chapter": 7,
+  "index": 12,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 21
+      }
+    ],
+    "display": "Mark 7:21"
+  },
+  "lemma_quote": "Ἔσωθεν γὰρ ἐκ τῆς καρδίας τῶν ἀνθρώπων οἱ διαλογισμοὶ οἱ κακοὶ ἐκπορεύονται, μοιχεῖαι, πορνεῖαι, φόνοι κλο παὶ πλεονεξίαι, πονηρίαι, δόλος, ἀσέλγεια. ὀσθαλ. μὸς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.825,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

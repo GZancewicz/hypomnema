@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_5.41",
+  "gospel": "mark",
+  "chapter": 5,
+  "index": 38,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 5,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 41
+      }
+    ],
+    "display": "Mark 5:41"
+  },
+  "lemma_quote": "κρατήσας τῆς χειρὸς τοῦ παιδίου, λέγει αὐτῇ· Ταλιθὰ κοῦμι, ὅ ἐστι μεθερμηνευόμενον · Τὸ κοράσιον, σοὶ λέχω, ἔγειραι. Καὶ ὐθέως ἀνέστη τὸ κοράσιον, καὶ περιεπάτε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.833,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

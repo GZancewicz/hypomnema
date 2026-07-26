@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_97_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 97,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 51
+      }
+    ],
+    "display": "John 6:51"
+  },
+  "lemma_quote": "Ὁ πίνων ἑκ τοῦ ὕδατος οὗ ἐγὼ δώσω, οὐ διψήσῃ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.388,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

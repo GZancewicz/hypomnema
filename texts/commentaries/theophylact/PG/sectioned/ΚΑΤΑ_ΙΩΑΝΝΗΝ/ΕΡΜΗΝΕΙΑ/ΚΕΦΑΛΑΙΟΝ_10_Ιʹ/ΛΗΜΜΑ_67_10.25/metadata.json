@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_67_10.25",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 67,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 24
+      }
+    ],
+    "display": "John 10:24"
+  },
+  "lemma_quote": "Εἰπὲ γὰρ, φασὶν, ἡμίν παῤῥησίᾳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.413,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_6.7",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 8,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 7
+      }
+    ],
+    "display": "Mark 6:7"
+  },
+  "lemma_quote": "προσκαλεῖται τοὺς δώδεκα, καὶ ἤρξατο αὐτοὺς ἀποστέλλειν ῥύο δύρ, καὶ ἐδίδου σὐτοῖς ἐξουσίαν τῶν πνευμάτων τῶν ἀκαθάρτων, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.897,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.7",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

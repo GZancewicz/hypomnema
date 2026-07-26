@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_12.20",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 52,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 20
+      }
+    ],
+    "display": "John 12:20"
+  },
+  "lemma_quote": "«Ἡσαν δέ τινες Ἕλληνες ἐκ τῶν ἀναβαινόντων, ἵνα προσκυνήσωσιν ἐν τῇ ἑορτῇ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

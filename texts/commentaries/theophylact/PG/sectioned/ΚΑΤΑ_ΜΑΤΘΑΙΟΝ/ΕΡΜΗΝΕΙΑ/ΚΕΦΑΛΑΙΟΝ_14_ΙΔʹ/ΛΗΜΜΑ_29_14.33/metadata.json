@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_14.33",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 29,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 14:33"
+  },
+  "lemma_quote": "πλοίῳ, ἐλθόντες προσεκύνησαν αὐτῷ, λέγοντες· Ἀληθῶς Θεοῦ Υἱὸς εἶ. Αεικνύων ὁ Χριστὸς, ὅτι οὐχ ὁ ἄνεμος αἴτιος τοῦ καταποντισθῆναι, ἀλλ´ ἡ μικροψυχία, οὐ τῷ ἀνέμ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.867,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_15.22",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 15:22"
+  },
+  "lemma_quote": "καὶ ἔκρυψεν ἑαυτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.048,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

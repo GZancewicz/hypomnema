@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_3.14",
+  "gospel": "luke",
+  "chapter": 3,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 3:14"
+  },
+  "lemma_quote": "Ἐπηρώτων δὲ αὐτὸν καὶ στρατευόμενοι, λέγοντες· Καὶ ἡμεῖς τί ποιήσομεν; Καὶ εἶπε πρὸς αὐτούς· Μηδένα διασείσῃτε, μηδὲ συκοφαντήσητε, καὶ ἀρκεῖσθε τοῖς ὀὸρλ νίοις",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.926,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

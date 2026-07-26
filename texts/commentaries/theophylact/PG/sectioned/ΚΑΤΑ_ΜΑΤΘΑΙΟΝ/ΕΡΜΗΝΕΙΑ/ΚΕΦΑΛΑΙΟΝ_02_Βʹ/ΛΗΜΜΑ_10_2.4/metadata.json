@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_2.4",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 2:4"
+  },
+  "lemma_quote": "Καὶ συναγαγὼν πάντας τοὺς ἀρχιερεῖς καὶ γραμματεῖς τοῦ λαοῦ, ἐπυνθάνετο παρ´ αὐτῶν, ποῦ ἀ Χιιστὸς γεννᾶται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.944,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

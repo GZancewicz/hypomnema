@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_123_1.20",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 123,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 20
+      }
+    ],
+    "display": "John 1:20"
+  },
+  "lemma_quote": "Οὐκοείμὶ ὁ Χριστὸς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.944,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

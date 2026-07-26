@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_5.13",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 13,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 10
+      }
+    ],
+    "display": "John 5:10"
+  },
+  "lemma_quote": "Οὐκ ἔξεστί σοι ἆραι τὸν κράββατόν σου διὰ τὸ Σάββατον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.603,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

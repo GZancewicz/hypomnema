@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_8.9",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 10
+      }
+    ],
+    "display": "Luke 8:10"
+  },
+  "lemma_quote": "Πᾶς γὰρ ὁ αἰτῶν, λαμβάνει·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.25,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

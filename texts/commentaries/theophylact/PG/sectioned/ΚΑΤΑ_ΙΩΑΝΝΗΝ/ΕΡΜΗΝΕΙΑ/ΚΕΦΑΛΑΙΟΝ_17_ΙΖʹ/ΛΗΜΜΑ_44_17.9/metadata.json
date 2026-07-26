@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_44_17.9",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 44,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 10
+      }
+    ],
+    "display": "John 17:10"
+  },
+  "lemma_quote": "αὐτῶν ἐρωτῶ, οὐ περὶ τοῦ κόσμου ἐωτῶ, ἀλλὰ περὶ ὤν δέδωκάς μοι, ὅτι σοὶ εἰσι· καὶ τὰ ἐμὰ πάντα, σά ἐστι, καὶ τὰ σά, ἐμά, καὶ δεδόξασμαι ἐν αὐτοῖς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.725,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

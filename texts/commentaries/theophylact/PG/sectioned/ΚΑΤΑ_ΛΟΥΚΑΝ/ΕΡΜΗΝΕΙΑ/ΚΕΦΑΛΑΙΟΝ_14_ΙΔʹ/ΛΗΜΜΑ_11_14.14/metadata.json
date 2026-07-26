@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_11_14.14",
+  "gospel": "luke",
+  "chapter": 14,
+  "index": 11,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 14,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 14:14"
+  },
+  "lemma_quote": "μακάριος ἔσῃ, ὅτι οὐκ ἕχουσιν ἀνταποδοῦναί σοι· ἀνταποδοθήσεται γάρ σοι ἐν τῇ ἀναστάσει τῶν δικαίων. Ἀκούσας δέ τις τῶν συνανακειμένων εἶπεν αὐτῷ· Μακάριος ὃς φάγεται ἄριστον ἐν τῇ βασιλείᾳ τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.782,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

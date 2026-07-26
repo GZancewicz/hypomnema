@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_18.23",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 48,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 23
+      }
+    ],
+    "display": "John 18:23"
+  },
+  "lemma_quote": "σί με",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

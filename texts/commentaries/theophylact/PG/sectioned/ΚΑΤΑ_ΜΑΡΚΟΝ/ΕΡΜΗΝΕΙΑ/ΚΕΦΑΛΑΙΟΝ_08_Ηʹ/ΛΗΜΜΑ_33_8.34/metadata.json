@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_8.34",
+  "gospel": "mark",
+  "chapter": 8,
+  "index": 33,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 8,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 34
+      }
+    ],
+    "display": "Mark 8:34"
+  },
+  "lemma_quote": "«Καὶ προσκαλεσάμενος τὸν ὄχλον σὺν τοῖς μαθηταῖς αὐτοῦ, εἶπαν μὐτοῖς· Ὅστις θέλει ῥπίσω μου ἀκολουθεῖν, ἀπαρνησάσθω ἑαυτὸν, καὶ ἀράτω τὸν σταυρὸν αὑτοῦ, καὶ ἀκο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.876,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.34",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

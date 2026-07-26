@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_22.37",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 53,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 22:37"
+  },
+  "lemma_quote": "τοῦτο τὸ γεγραμμένον δεῖ τελεσθῆναι ἐν ἐμοὶ, τὸ, Καὶ μετὰ ἀνόμων ἐλογίσθη· καὶ γὰρ τὰ περὶ ἐμοῦ τέλος ἔχει. Οἱ δὲ εἶπον· Κήριε, ἰδοὺ ὧδε μάχαιραι δύο. Ὁ δὲ εἶπεν αὐτοῖς· Ἰκανόν ἐστιν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.732,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_10.24",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 64,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 24
+      }
+    ],
+    "display": "John 10:24"
+  },
+  "lemma_quote": "Ἐκύκλωσαν οὐν αὐτὸν οἱ Ἰουδαῖοι, καὶ ἔλεγον αὐτῷ· Ἔως πότε τὴν ψογὴν ἡμῶν αἴρεις; Εἰ σὺ εἶ ὁ Χριστὸς, εἰπὲ ἡμῖν παῤῥησίᾳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.978,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_13.13",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 14,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 14
+      }
+    ],
+    "display": "Mark 13:14"
+  },
+  "lemma_quote": "«Ἦταν δὲ δητε τὸ βδέλυγμα τῆς ἐρημώσεως, τὸ ῥηθὲν ὑπὸ Δανιὴλ τοῦ προφήτου, ἐστὼς ὅπου οὐ δεῖ, Ἀ ἀνανινώσκων νοείτω. τότε οἱ ἐν τῇ Ἰουδαίᾳ φευγέτωσαν εἰς τὰ ὄρη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.928,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

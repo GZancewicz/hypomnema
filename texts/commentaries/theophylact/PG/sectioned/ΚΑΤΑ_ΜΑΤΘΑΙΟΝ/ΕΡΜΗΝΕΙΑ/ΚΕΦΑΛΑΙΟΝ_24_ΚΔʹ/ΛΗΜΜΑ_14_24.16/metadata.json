@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_24.16",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 14,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 24:16"
+  },
+  "lemma_quote": "«Τότε οἱ ἐν τῇ Ἰουδαίᾳ, φευγέτωσαν ἐπὶ τὰ ὄρη· ὁ ἐπὶ τοῦ δώματος, μὴ καταβαινέτω ἄραι τὰ ἐκ τῆς οἱἰκίας αὐτοῦ, καὶ ὁ ἐν τῷ ἀγρῷ, μὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.691,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

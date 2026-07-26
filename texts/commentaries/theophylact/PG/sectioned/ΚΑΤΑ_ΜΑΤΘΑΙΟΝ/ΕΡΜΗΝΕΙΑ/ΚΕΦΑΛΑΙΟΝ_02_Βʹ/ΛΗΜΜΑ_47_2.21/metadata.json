@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:22"
   },
-  "lemma_quote": "Χρηματισθεὶς δὲ κατ᾽ ὄναρ, ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας",
-  "lemma_quote_en": "But having been warned in a dream, he withdrew into the parts of Galilee",
+  "lemma_quote": "Χρημα.τισθεὶς δὲ κατ´ ὄναρ, ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
-  "confidence": "high",
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.527,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.21",
   "folder_suffix_agrees": false,
-  "notes": "MISMATCH: quote = second half of Matt. 2:22, but folder is tagged 2.21. Folder-name verse is WRONG; coverage corrected to 2:22 from Greek+TR (en.md header agrees)."
+  "notes": "MISMATCH: quote = second half of Matt. 2:22, but folder is tagged 2.21. Folder-name verse is WRONG; coverage corrected to 2:22 from Greek+TR (en.md header agrees).",
+  "lemma_quote_en": "But having been warned in a dream, he withdrew into the parts of Galilee"
 }

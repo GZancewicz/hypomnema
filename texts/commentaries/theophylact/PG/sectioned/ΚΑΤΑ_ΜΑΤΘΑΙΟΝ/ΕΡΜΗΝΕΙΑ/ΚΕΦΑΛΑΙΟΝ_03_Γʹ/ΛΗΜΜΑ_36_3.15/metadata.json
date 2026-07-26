@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_3.15",
+  "gospel": "matthew",
+  "chapter": 3,
+  "index": 36,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 3,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 3:16"
+  },
+  "lemma_quote": "Εὐθὺς ἀνέβη ἀπὸ τοῦ ὕδατος.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.497,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

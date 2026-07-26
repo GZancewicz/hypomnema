@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_14.53",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 46,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 53
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 53
+      }
+    ],
+    "display": "Mark 14:53"
+  },
+  "lemma_quote": "ἀπήγαγον τὸν Ἰησοῦν πρὸς τὸν ἀρχιερέα, καὶ συνέρχονται αὐτῷ πάντες οἱ ἀρχιερεῖς, καὶ οἱ πρεσβύτεροι καὶ οἱ Γραμματεῖς. Καὶ ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.53",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_10.12",
+  "gospel": "luke",
+  "chapter": 10,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 10,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 10:12"
+  },
+  "lemma_quote": "Σοδόμοις ἀνεκτότερον ἱσται ἐν τῇ ἡμέρᾳ ἐκείνῃ Π τῇ πόλει ἐκείνῃ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.876,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

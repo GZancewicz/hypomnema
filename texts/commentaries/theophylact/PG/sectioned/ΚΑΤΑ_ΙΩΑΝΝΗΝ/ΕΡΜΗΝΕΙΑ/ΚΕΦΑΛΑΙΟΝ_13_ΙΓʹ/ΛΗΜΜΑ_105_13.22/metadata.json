@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "John 13:35"
+  },
+  "lemma_quote": "Ἐν τούτῳ γνώσονται πάντες.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.528,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

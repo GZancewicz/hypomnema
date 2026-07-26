@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_6.14",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 20,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 15
+      }
+    ],
+    "display": "Matthew 6:15"
+  },
+  "lemma_quote": "Ἑὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις τὰ παραπτώματα αὐτῶν, οὐδὲ ὁ Πατήρ ὑμῶν ἀφήσει τὰ παραπτώματα ὑμῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

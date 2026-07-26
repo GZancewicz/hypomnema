@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_5.23",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 22
+      }
+    ],
+    "display": "John 5:22"
+  },
+  "lemma_quote": "Ἔδωκε τὴν κρίσιν τῷ Υἱῷ ὁ Πατὴρ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.416,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

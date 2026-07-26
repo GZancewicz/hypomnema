@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_47_12.54",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 47,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 54
+      }
+    ],
+    "display": "Luke 12:54"
+  },
+  "lemma_quote": "«Ἔλεγε δὲ καὶ τοῖς ὄχλοις, Ὅταν οητε νεφέλην ἀνατέλλουσαν ἀπὸ δυσμῶν, εὐθέως λέγετε, ὅτι Ὅμβρος ἔρχεται, καὶ γίνεται οὕτως· καὶ ὅταν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.865,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.54",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

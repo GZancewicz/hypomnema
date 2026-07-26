@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_3.24",
+  "gospel": "mark",
+  "chapter": 3,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 3,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 24
+      }
+    ],
+    "display": "Mark 3:24"
+  },
+  "lemma_quote": "βασιλεία ἐφ´ ἑαυτὴν μερισθῇ, οὐ δύναται σταθῆναι ἡ θασιλεία ἐκείνῃ. Καὶ ἐὰν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.941,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

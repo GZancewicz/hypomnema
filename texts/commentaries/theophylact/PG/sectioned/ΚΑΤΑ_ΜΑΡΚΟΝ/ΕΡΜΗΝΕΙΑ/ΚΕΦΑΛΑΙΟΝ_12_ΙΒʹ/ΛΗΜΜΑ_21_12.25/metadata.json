@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_12.25",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 21,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 25
+      }
+    ],
+    "display": "Mark 12:25"
+  },
+  "lemma_quote": "νεκρῶν ἀναστῶσιν, οὔτε γαμοῦσιν οὔτε γαμίσκονται. Ἀλλ´ εἰσὶν ὡς ἄγγελοι οἱ ἐν τοῖς οὐρανοῖς. Περὶ δὲ τῶν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.88,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

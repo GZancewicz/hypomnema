@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_16.3",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 9,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 3
+      }
+    ],
+    "display": "John 16:3"
+  },
+  "lemma_quote": "Μακάριοι γάρ ἐστε, ὅταν ὀνειδίσωσιν ὑμᾶς, καὶ διώξωσι, καὶ εἴπωσι πᾶν πονηρὸν ῥῆμα καθ´ ὑμῶν ψευδόμενοι ἕνεκεν ἐμοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.21,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

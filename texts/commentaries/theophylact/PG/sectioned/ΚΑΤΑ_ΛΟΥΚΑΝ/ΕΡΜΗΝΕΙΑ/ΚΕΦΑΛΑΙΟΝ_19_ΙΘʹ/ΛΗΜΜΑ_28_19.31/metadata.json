@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_19.31",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 28,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 31
+      }
+    ],
+    "display": "Luke 19:31"
+  },
+  "lemma_quote": "ἐρωτᾷ, Διατί λύετε; οὕτως ἐρεῖτε αὐτῷ, ὅτι Ὁ Κύριος αὐτοῦ χρτίαν ἔχει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.824,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

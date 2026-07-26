@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_14.27",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 25,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 27
+      }
+    ],
+    "display": "Mark 14:27"
+  },
+  "lemma_quote": "λέγει αὐτοῖς ὁ Ἰησοῦς, ὅτι Πάντες ακανδαλισθήσεσθε ἐν ἐμοὶ, ἐν τῇ νυκτὶ ταύτῃ, ὅτ γέγραπται· Πατάξω τὸν ποιμένα, καὶ διασκορπισθήσονται τὰ πρόβατα. Ἀλλὰ μετὰ τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.873,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

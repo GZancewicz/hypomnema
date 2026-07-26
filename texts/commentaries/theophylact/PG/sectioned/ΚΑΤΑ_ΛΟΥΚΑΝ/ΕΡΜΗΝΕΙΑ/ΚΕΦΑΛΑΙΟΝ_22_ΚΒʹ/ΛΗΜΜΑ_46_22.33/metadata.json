@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_22.33",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 46,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 30
+      }
+    ],
+    "display": "Luke 22:30"
+  },
+  "lemma_quote": "Κρίνοντες,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

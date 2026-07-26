@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_16.9",
+  "gospel": "matthew",
+  "chapter": 16,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 16,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 16:9"
+  },
+  "lemma_quote": "νοεῖτε οὐδὲ μνημονεύετε τοὺς πέντε ἄρτους τῶν πεντακισχιλίων, καὶ πόσους κοφίνους ἐλάβετε; οὐδὲ τοὺς ἑπτὰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.862,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

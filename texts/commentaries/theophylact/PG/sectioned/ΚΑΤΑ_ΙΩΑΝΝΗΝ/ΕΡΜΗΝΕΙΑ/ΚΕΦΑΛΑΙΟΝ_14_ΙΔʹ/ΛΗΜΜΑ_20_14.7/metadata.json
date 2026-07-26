@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_14.7",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 20,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 4
+      }
+    ],
+    "display": "John 14:4"
+  },
+  "lemma_quote": "Ὅπου ἀσάνω οἴδατε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.787,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

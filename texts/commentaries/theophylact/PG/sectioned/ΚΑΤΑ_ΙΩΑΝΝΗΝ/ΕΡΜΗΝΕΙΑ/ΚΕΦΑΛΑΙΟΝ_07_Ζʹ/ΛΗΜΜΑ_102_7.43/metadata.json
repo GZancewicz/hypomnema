@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_102_7.43",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 102,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 41
+      }
+    ],
+    "display": "John 7:41"
+  },
+  "lemma_quote": "Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.229,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

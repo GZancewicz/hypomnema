@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_24.24",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 32,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 24:21"
+  },
+  "lemma_quote": "Καὶ μὴν καὶ τρίτην ἡμέραν ἄγει σήμερον, καὶ γυναῖκες ἐξέστησαν ἡμᾶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.396,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

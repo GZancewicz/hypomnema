@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_12.35",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 35
+      }
+    ],
+    "display": "Matthew 12:35"
+  },
+  "lemma_quote": "ἀγαθὸς ἄνθρωπος, ἐκ τοῦ ἀγαθοῦ θησαυροῦ ἐκβάλλει ἀγαθά· καὶ ὁ πονηρὸς ἄνθρωπος, ἐκ τοῦ πονηροῦ θησαυροῦ ἐκβάλλει πονηρά,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

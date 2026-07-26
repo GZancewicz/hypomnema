@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_36_12.43",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 36,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 12:44"
+  },
+  "lemma_quote": "Μακάριος ὁ δοῦλος ἐκεῖνος, ὃν ἐλθὼν ὁ κύριος αὐτοῦ, εὐρήσει ποιοῦντα οὕτως· ἀληθῶς λέγοῳ ψμῖν, ὅτι ἐπὶ πᾶσι τοῖς ὑπάρχουσιν αὐτῷ καταστήσει αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.653,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.43",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

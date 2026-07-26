@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_114_6.49",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 114,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 65
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 65
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 65
+      }
+    ],
+    "display": "John 6:65"
+  },
+  "lemma_quote": "«Καὶ ἔλεγε· Διὰ τοῦτο εἴρηκα ὑμῖν, ὅτι οὐδεὶς Ἀύναται ἐλθεῖν πρὸς μὲ, ἐὰν μὴ ᾖ δεδομένον αὐτῷ ἐκ τοῦ Πατρός μου. Ἐκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.967,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

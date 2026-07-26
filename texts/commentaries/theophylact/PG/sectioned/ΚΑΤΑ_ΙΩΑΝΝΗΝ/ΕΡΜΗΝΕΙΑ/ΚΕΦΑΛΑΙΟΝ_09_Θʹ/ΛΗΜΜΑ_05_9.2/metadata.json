@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_9.2",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 5,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 2
+      }
+    ],
+    "display": "John 9:2"
+  },
+  "lemma_quote": "Ἵδε ὑγιὴς γέγονας, μηκέτι ἀμάρτανε, ἵνα μὴ χεῖρόν τί σοι γένηται,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.309,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

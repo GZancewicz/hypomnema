@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_105_9.41",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 105,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 41
+      }
+    ],
+    "display": "John 9:41"
+  },
+  "lemma_quote": "Εἶπεν αὐτοῖς ὁ Ἰησοῦς· Εἰ τυφλοὶ ἦτε, οὐκ ἂν εἴχετε ἀμαρτίαν· κὖν δὲ λέγετε, ὅτι Βλέπομεν· ἡ οὖν ἁμαρτία ὑμῶν μένει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.961,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

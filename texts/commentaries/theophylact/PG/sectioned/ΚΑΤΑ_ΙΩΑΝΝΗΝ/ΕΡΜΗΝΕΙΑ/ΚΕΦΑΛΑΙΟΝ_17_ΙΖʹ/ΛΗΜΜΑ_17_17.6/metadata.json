@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_17.6",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 6
+      }
+    ],
+    "display": "John 17:6"
+  },
+  "lemma_quote": "Ἐφανέρωσά σου τὸ ὄνομα σοῖς ἀνθρώποις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.556,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

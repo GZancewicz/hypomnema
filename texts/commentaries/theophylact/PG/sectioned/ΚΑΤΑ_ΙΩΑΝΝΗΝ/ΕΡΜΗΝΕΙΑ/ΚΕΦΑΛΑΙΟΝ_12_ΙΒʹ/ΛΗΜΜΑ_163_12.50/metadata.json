@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_163_12.50",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 163,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 49
+      }
+    ],
+    "display": "John 12:49"
+  },
+  "lemma_quote": "ἐξ ἐμαυτοῦ ἐγὼ οὐκ ἐλάλησα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.499,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

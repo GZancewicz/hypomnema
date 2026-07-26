@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 39,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 23:42"
+  },
+  "lemma_quote": "ἔλεγε τῷ Ἰησοῦ· Μνήσθητί. μου, Κύριε, ὅταν ἔλθῃς ἐν τῇ βασιλείᾳ σου. Καὶ αῖπεν αὐτῷ ὁ Ἰησοῦς· Ἀμὴν λέγω σοι, σήμερον μετ´ ἐμοῦ ἔσῃ ἐν τῷ παραδείσῳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.694,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_06_9.2",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 6,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 3
+      }
+    ],
+    "display": "John 9:3"
+  },
+  "lemma_quote": "Οὔτε οὗτος ἤμαρτε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.641,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

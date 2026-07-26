@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_21.34",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 39,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 42
+      }
+    ],
+    "display": "Matthew 21:42"
+  },
+  "lemma_quote": "«Αέγει αὐτοῖς ὁ Ἰησοῦς· Οὐδέποτε ἀνέγνωτε ἐν ταῖς Γραφαῖ,· ΛΓθου ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὖτος ἐγενήθη εἰς κεφαλὴν γωνίας· παρὰ Κυρίου Ἀγένετο αθτη, κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.746,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

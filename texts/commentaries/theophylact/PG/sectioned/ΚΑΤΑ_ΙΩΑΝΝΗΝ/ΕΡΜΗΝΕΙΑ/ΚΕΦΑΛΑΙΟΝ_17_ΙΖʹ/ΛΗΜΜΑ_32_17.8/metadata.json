@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_17.8",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 8
+      }
+    ],
+    "display": "John 17:8"
+  },
+  "lemma_quote": "ῥήματα ἂ δέδωκάς μοι, δέδωκα αὐτοῖς, καὶ αὐτοὶ ἔλαβον, καὶ ἔγνωσαν ἀληθῶς, ὅτι παρὰ σοῦ ἐξῆλθον, καὶ ἐπίστευσαν, ὅτι σύ με ἀπέστειλας",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.992,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

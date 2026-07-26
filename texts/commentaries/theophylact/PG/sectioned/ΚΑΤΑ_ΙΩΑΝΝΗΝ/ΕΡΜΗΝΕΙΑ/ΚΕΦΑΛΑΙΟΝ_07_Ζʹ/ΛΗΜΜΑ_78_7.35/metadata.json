@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_78_7.35",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 78,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 34
+      }
+    ],
+    "display": "John 7:34"
+  },
+  "lemma_quote": "Ζητήσετέ με, καὶ οὐχ εὐρήσετε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.613,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.35",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_168_12.50",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 168,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 49
+      }
+    ],
+    "display": "John 12:49"
+  },
+  "lemma_quote": "Ἐιτολὴν ἔλαβον, τί εἴπω, καὶ τί λαλήσω.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.806,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.50",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

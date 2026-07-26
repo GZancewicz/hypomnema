@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_19.34",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 31
+      }
+    ],
+    "display": "John 19:31"
+  },
+  "lemma_quote": "ἱνα ἀρθῶσι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.34",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

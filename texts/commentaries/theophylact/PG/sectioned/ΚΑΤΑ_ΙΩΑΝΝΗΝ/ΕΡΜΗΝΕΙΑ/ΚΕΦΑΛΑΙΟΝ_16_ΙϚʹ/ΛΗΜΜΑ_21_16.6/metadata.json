@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_16.6",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 21,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 4
+      }
+    ],
+    "display": "John 16:4"
+  },
+  "lemma_quote": "Ταυτα ἐξ ἀρχῆς οὐκ εἶπον;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.545,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.6",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

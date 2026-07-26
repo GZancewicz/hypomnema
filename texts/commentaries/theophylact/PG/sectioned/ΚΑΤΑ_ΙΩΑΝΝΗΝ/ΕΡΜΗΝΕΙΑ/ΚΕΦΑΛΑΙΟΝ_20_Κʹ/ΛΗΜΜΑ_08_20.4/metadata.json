@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_20.4",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 8,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 2
+      }
+    ],
+    "display": "John 20:2"
+  },
+  "lemma_quote": "ἔρχεται πρὸς τὸν Πέτρον",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.453,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

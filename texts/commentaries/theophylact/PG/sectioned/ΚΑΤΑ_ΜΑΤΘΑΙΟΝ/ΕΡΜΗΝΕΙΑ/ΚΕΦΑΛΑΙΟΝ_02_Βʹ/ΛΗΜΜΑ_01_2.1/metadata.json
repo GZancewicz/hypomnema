@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:1"
   },
-  "lemma_quote": "Τοῦ δὲ Ἰησοῦ γεννηθέντος ἐν Βηθλεὲμ τῆς Ἰουδαίας",
-  "lemma_quote_en": "And Jesus having been born in Bethlehem of Judea",
+  "lemma_quote": "Τοῦ δὲ Ἰησοῦ γεννηθέντος ἐν Βηθλεὲμ τῆς ἸουΚαίας.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
-  "confidence": "high",
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.514,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.1",
   "folder_suffix_agrees": true,
-  "notes": "Matt. 2:1 is long and split phrase-by-phrase across lemmata 1–5; this one expounds the opening genitive-absolute clause. OCR «ἸουΚαίας» = Ἰουδαίας."
+  "notes": "Matt. 2:1 is long and split phrase-by-phrase across lemmata 1–5; this one expounds the opening genitive-absolute clause. OCR «ἸουΚαίας» = Ἰουδαίας.",
+  "lemma_quote_en": "And Jesus having been born in Bethlehem of Judea"
 }

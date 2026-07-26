@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 36
+      }
+    ],
+    "display": "John 13:36"
+  },
+  "lemma_quote": "Ὅπου ἐγὼ ὑπάγω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

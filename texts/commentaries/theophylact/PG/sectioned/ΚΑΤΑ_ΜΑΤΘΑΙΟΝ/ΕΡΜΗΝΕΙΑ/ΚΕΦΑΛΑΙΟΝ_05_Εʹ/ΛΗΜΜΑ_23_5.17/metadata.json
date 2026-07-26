@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_5.17",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 5:17"
+  },
+  "lemma_quote": "μαρτίαν γὰρ οὐκ ἐποίησεν ολδὲ εὐρέθη δόλος ἐν τῷ στόματι αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.214,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

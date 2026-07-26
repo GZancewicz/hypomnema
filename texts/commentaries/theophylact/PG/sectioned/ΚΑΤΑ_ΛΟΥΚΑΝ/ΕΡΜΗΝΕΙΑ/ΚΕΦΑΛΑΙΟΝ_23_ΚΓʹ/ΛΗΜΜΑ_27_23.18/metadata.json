@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 29
+      }
+    ],
+    "display": "Luke 23:29"
+  },
+  "lemma_quote": "ἔρχονται ἡμέραι, ἐν αἷς ἐροῦσι· Μακάριαι αἱ στεῖραι, καὶ κοιλίαι αἱ οὐκ ἐγέννησαν, καὶ μαστοὶ οἷ οὐκ αθήλασαν. Τότε ἄρξονταιλέγειν τοῖς ὄρεσι· Πέσετε ἐφ´ ἡμᾶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.784,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

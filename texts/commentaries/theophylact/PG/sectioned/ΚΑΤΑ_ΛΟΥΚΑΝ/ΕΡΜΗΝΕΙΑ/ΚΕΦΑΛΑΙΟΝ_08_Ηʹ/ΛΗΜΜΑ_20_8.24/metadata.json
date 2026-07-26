@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_8.24",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 20,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 8:25"
+  },
+  "lemma_quote": "Προσελθόντες δὲ διήγειραν αὐτὸν, λέγοντες· Ἐπιστάτα, ἐπιστάτα. ἀπολλιμεθα. Ὁ δὲ ἐγερθεὶς ἐπετίμησε τῷ ἀνέμῳ καὶ τῷ κλύδωνι τοῦ ὕδατος, καὶ ἐπαύσατο, καὶ ἐγένετο γαλήνη. Εἴπε δὲ αὐτοῖς· Ποῦ ἐστιν ἡ πίστις ὑμῶν· φοβηθέντες δέ, ἐθαύμασαν, λέγοντες πρὸς ἀλλήλους· Τίς ἄρα οὗτός ἐστιν, ὅτι καὶ τοῖς ἀνέμοις ἐπιτάσσει καὶ τῷ ὕδατι καὶ ὑπακούουσιν αὐτῷ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.77,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

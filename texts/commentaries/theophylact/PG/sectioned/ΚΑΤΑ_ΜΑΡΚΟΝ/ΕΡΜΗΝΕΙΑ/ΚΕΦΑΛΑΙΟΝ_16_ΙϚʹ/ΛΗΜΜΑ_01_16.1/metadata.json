@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_16.1",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 1,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 1
+      }
+    ],
+    "display": "Mark 16:1"
+  },
+  "lemma_quote": "«Καὶ διαγενομένου τοῦ Σαββάτου, Μαρία ἡ Μαγδαληνὴ, καὶ Μαρία ἡ τοῦ Ἰακώβου καὶ Σαλώμη, ἠγόρασαν ἀρώματα, ἵνα ἐλθοῦσαι ἀλείψωσιν αὐτόν Καὶ λίαν πρωῒ τῆς μιᾶς Σαθ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.892,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

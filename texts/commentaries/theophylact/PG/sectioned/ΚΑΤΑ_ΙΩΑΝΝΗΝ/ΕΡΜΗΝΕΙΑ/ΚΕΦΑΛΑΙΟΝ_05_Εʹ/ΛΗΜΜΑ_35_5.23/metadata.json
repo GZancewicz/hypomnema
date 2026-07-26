@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_5.23",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 35,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 24
+      }
+    ],
+    "display": "John 5:24"
+  },
+  "lemma_quote": "πάντες τιμῶσι τὸν ΥΙὸν, καθὼς τιμῶσι τὸν Πατέρα. Ὁ μὴ τιμῶν τὸν Υν, οὐ τιμᾷ τὸν Πατέρα τὸν πέμψαντα αὐτόν Ἀμὴν, ἀμὴν λέγω ὑμῖν, ὁ τῶν λόγων μου ἀκούων, καὶ πιστεύων τῷ πέμψαντί με, ἔχει ζωὴν αἰώνιον, καὶ εἰς κρίσιν οὐκ ἔρχεται, ἀλλὰ μεταβξβηκεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.685,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

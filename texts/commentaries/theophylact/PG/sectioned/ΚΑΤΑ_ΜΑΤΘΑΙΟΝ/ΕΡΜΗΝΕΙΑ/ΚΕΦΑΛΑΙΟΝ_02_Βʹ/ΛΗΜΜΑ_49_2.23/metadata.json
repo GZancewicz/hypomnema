@@ -21,12 +21,16 @@
     ],
     "display": "Matthew 2:23"
   },
-  "lemma_quote": "Ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν, ὅτι Ναζωραῖος κληθήσεται",
-  "lemma_quote_en": "So that there might be fulfilled the thing spoken through the prophets, that 'He shall be called a Nazarene'",
+  "lemma_quote": "Ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν, ὅτι Ναζωραῖος κληθήσεται.",
   "cross_references": [],
-  "coverage_source": "en.md+greek_pat",
+  "coverage_source": "greek_pat",
   "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.757,
+  "adjudicated": false,
+  "continuation": false,
   "folder_suffix": "2.23",
   "folder_suffix_agrees": true,
-  "notes": "Second half of Matt. 2:23. OCR «κὐρίσκεται» = εὑρίσκεται. The 'Nazarene' prophecy is unlocatable in extant prophets, as Theophylact notes."
+  "notes": "Second half of Matt. 2:23. OCR «κὐρίσκεται» = εὑρίσκεται. The 'Nazarene' prophecy is unlocatable in extant prophets, as Theophylact notes.",
+  "lemma_quote_en": "So that there might be fulfilled the thing spoken through the prophets, that 'He shall be called a Nazarene'"
 }

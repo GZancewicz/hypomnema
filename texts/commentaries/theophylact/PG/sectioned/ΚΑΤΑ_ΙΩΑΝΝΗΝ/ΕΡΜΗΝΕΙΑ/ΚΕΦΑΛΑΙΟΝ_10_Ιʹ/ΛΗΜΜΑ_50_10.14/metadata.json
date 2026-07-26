@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_10.14",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 50,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 16
+      }
+    ],
+    "display": "John 10:16"
+  },
+  "lemma_quote": "Ἐν γὰρ Χριστῷ Ἰησοῦ οὐκ ἔνι Ἔλλην καὶ Ἰουδαῖος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.313,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.14",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

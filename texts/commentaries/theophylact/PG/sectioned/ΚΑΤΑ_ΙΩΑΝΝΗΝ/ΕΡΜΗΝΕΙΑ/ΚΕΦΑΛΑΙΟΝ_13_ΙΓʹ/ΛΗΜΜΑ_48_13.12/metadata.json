@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_13.12",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 48,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 13
+      }
+    ],
+    "display": "John 13:13"
+  },
+  "lemma_quote": "ὁ Κύριος καὶ ἀάάσεαλος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.369,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

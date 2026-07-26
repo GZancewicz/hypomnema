@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_10.3",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 4,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 3
+      }
+    ],
+    "display": "John 10:3"
+  },
+  "lemma_quote": "Τούτῳ ὁ θυρωρὸς ἀνοίγει, καὶ τὰ πρόβατα τῆς φωνῆς αὐτοῦ ἀκούει· καὶ τὰ ἴδια πρόβατα καλεῖ κατ´ ὄνομα, καὶ ἐξάγει αὐτά. Καὶ ὅταν τὰ ἴδια",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.944,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

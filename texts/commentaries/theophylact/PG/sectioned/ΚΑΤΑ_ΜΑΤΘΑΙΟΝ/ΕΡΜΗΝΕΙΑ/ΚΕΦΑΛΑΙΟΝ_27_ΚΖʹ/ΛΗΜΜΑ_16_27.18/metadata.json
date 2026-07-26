@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_27.18",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 16,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 27:18"
+  },
+  "lemma_quote": "φθόνον παρέδωκαν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.643,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

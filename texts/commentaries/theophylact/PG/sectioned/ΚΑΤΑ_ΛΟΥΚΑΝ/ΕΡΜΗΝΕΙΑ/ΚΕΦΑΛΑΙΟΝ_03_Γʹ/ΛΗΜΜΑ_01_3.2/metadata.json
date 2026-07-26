@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_3.2",
+  "gospel": "luke",
+  "chapter": 3,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 3:1"
+  },
+  "lemma_quote": "«Ἐν ἔτει δὲ πεντεκαιδεκάτῳ τῆς ἡγεμονίας Τιᾶρίου Καίσαρος, ἡγεμονεύοντος Ποντίου Πιλάτου τῆς Ἰουδαίας, καὶ τετραρχοῦντος τῆς Γαλιλαίας Ἡρώδου, Φιλίππου δὲ τοῦ ἀ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.835,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_8.20",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 17,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 21
+      }
+    ],
+    "display": "Luke 8:21"
+  },
+  "lemma_quote": "ἀπηγγέλη αλτῷ, λεγόντων· Ἡ μήτηρ σο καὶ οἱ ἀδελφοί σου ἑοτήκασιν ἔξω, ἰδεῖν σε θέλαντες. Ὁ δὲ ἀποκριθεὶς, εἶπε πρὸς αὐτούς· Μήτηρ μου καὶ ἀδελφοί μου οὗτοί εἰσιν οἱ τὸν λόγον τοῦ ρεοῦ ἀκούοντες καὶ ποιοῦντες.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.815,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

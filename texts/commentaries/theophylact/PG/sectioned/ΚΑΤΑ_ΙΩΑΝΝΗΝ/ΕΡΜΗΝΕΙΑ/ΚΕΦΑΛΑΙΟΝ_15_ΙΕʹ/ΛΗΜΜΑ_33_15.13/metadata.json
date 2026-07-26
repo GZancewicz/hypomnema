@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_15.13",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 10
+      }
+    ],
+    "display": "John 15:10"
+  },
+  "lemma_quote": "Ἑὰν τὰς ἐντολάς μου τηρήσητε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.72,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

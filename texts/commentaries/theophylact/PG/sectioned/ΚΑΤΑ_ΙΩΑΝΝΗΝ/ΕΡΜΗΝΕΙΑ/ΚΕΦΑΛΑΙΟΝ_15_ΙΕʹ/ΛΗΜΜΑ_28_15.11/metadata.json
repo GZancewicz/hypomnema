@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_15.11",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 28,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 11
+      }
+    ],
+    "display": "John 15:11"
+  },
+  "lemma_quote": "«Ταῦτα λελάληκα ὑμῖν, ἵνα ἡ χαρὰ ἡ ἐμὴ ἐν ὑμιν μένη, καὶ ἡ χαρὰ ὑμῶν πληρωθῇ. Αὗτη δέ ἐστιν ἡ δτολὴ ἡ ἐμὴ, ἵνα ἀγαπᾶτε ἀλλήλους, καθὼς ἠγάπησα ὑμᾶς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.745,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

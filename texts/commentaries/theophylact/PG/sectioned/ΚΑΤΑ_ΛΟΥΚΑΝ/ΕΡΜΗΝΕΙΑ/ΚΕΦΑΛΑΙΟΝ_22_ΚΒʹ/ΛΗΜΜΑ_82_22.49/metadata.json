@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_82_22.49",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 82,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 50
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 50
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 50
+      }
+    ],
+    "display": "Luke 22:50"
+  },
+  "lemma_quote": "«Εἰ πατάξομεν; αὐτὸς δὲ οὐ περιμένει προτροπήν· οὕτω πανταχοῦ ζέων ἦν ὑπὲρ τοῦ Διδασκάλου. Πατάσσει δὲ τὸν δοῦλον τοῦ ἀρχιερέως, καὶ ἀφαιρεῖ αὐτοῦ αὸ οὗς τὸ δεξ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.511,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

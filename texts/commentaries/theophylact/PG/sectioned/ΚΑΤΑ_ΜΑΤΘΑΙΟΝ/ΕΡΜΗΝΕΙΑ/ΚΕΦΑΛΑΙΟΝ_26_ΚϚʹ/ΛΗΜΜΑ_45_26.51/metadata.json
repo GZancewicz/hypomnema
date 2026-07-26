@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_26.51",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 45,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 51
+      }
+    ],
+    "display": "Matthew 26:51"
+  },
+  "lemma_quote": "«Καὶ ἱδοὺ εἶς τῶν μετὰ Ἰησοῦ, ἐκτείνας τὴν χεῖρα, ἀπέσπασε τὴν μάχαιραν αὐτοῦ, καὶ πατάξας τὸν δοῦλον τοῦ ἀρχιερέως, ἀφεῖλεν αὐτοῦ τὸν λήντίον. Τότε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.942,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

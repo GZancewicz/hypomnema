@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 7,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 9
+      }
+    ],
+    "display": "John 3:9"
+  },
+  "lemma_quote": "Πῶς δύναται;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.47,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

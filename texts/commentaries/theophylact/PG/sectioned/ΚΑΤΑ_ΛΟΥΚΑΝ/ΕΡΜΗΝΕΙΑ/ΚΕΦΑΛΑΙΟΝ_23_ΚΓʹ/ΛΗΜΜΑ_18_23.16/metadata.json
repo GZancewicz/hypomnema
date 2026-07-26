@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_23.16",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 18,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 23:12"
+  },
+  "lemma_quote": "Ἐνένοντο δὲ, φησὶ, φίλοι ὅ τε Πιλάτος καὶ ὁ Ἡρώδης.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.398,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

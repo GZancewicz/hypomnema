@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_92_5.47",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 92,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 44
+      }
+    ],
+    "display": "John 5:44"
+  },
+  "lemma_quote": "Οὐ πιστεύετέ μοι, ὡς δόξαν τὴν παρὰ ἀλλκλων θέλοντες.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.467,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_12.14",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 39,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 14
+      }
+    ],
+    "display": "John 12:14"
+  },
+  "lemma_quote": "Εὐρὼν ὁ Ἰησοῦς ὀνάριον;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.599,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

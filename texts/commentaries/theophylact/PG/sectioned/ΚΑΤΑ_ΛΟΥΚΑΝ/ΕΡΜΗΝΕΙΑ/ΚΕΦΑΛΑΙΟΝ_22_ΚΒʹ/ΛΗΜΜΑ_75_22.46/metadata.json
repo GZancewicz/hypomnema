@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_75_22.46",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 75,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 64
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 64
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 64
+      }
+    ],
+    "display": "Luke 22:64"
+  },
+  "lemma_quote": "πᾶσαν χαρὴν ἡγήσασθε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "22.46",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

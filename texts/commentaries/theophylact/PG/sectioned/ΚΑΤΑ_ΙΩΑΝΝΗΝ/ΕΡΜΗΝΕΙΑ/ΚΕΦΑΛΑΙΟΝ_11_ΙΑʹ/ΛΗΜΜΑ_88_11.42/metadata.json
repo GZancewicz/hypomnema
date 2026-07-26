@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_11.42",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 39
+      }
+    ],
+    "display": "John 11:39"
+  },
+  "lemma_quote": "Ἄρατε τὸν λίθον;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.431,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

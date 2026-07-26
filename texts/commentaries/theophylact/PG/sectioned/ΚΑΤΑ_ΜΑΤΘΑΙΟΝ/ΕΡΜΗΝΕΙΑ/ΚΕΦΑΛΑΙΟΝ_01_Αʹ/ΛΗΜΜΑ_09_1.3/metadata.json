@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_1.3",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 1:3"
+  },
+  "lemma_quote": "Ἰούδας δὲ ἐγέννησε τὸν φαρὲς καὶ τὸν Ζαρὰ, ἐκ τῆς Θὰμαρ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.747,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

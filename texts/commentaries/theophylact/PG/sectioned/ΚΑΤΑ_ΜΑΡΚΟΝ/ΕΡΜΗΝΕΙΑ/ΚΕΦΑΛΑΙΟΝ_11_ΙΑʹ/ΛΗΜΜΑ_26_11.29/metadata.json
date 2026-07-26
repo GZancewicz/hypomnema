@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_11.29",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 26,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 29
+      }
+    ],
+    "display": "Mark 11:29"
+  },
+  "lemma_quote": "Ἰησοῦς ἀποκριθεὶς εἶπεν αὐτοῖς · Ἐπερωτήσω ὑμᾶς καὶ ἐγὼ ἔνα λόγον. Καὶ ἀποκρίθητέ μοι, καὶ ἐρῶ ὑμῖν ἐν ποίᾳ ἐξουσίᾳ παῦτα ποιῶ. Τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.887,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

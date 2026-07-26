@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 21,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 9
+      }
+    ],
+    "display": "Luke 15:9"
+  },
+  "lemma_quote": "Θαυμαστὰ τὰ μάρτυρία σου, καὶ διὰ τὸ εἶναι θαυμαστὰ, διὰ τοῦτο ἐξηρεύνησεν αὐτὰ ἡ ψυχή μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.18,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

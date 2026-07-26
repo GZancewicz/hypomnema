@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_48_6.54",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 48,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 54
+      }
+    ],
+    "display": "Mark 6:54"
+  },
+  "lemma_quote": "ἐξελθόντων αὐτῶν ἐκ τοῦ πλοίου, κὐθέως ἐπιηνόστες αὐτὸν, περδραμόνοος ἄλην τὸν παρίγωρον ἐκείνην, ἢρξαντο επὶ τοῖς κραββάνοις τοὸς κακῶς ἕχοντας κεριφέρειν, ὅπο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.504,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.54",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

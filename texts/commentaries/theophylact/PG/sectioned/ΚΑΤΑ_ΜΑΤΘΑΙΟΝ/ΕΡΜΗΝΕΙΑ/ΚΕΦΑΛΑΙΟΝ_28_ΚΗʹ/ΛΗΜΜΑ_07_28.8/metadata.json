@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_28.8",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 28:1"
+  },
+  "lemma_quote": "Λάβετε, φάγετε τὸ σῶμά μου·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.254,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "28.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

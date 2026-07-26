@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_142_8.59",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 142,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 56
+      }
+    ],
+    "display": "John 8:56"
+  },
+  "lemma_quote": "Αὕτη ἡ ἡμέρα, ἢν ἐποίησεν ὁ Κύοος· ἀναλλιασώμεθα, καὶ εὐφρανθῶμεν ἐν αὐτῇς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.234,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "8.59",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_115_17.24",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 115,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 24
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 24
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 24
+      }
+    ],
+    "display": "John 17:24"
+  },
+  "lemma_quote": "πρὸ καταβολῆς κόσμου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.364,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.24",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

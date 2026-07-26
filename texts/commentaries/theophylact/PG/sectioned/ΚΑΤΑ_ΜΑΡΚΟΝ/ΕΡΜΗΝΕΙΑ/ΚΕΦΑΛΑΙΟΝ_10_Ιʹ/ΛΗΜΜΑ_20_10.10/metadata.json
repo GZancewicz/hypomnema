@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_10.10",
+  "gospel": "mark",
+  "chapter": 10,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 10,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 48
+      }
+    ],
+    "display": "Mark 10:48"
+  },
+  "lemma_quote": "ἐπετίμων Καὐτῷ πολλοὶ ἵνα σιωπήσῃ. Ὁ δὲ πολλῷ μᾶλλον Κκραζεν· Υἱὲ Δαβὶδ, ἐλέησόν με. Καὶ στὰς ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.809,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

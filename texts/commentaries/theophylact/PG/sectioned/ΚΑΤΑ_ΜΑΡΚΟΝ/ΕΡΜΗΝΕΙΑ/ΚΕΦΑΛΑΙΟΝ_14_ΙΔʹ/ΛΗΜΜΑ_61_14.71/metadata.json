@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_14.71",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 61,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 72
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 72
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 72
+      }
+    ],
+    "display": "Mark 14:72"
+  },
+  "lemma_quote": "ἤρξατρ ἀναθεματίζειν καὶ ὁμνύειν, Ἐτι ἐλὐκ οἶδα τὸν μνθρωπον τοῦτον ὃν λέγετε. Καὶ ἑκὶ Ἀευτέρου ἀλέκτωρ ἐφώνησε, καὶ ἀνεμνήσθη ὁ Πέτρος τοῦ ῥήματος, οὗ εἶπεν αὐτῷ ὁ Ἰησοῦς, ὄτι Πρὶν ἀλέκτορα φωνῆσαι δίς, ἀπαρνήσῃ με τρίς· καὶ ἐπιβαλὼν, ἔκλαιεν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.669,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.71",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

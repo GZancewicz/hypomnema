@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_27.33",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 33,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 34
+      }
+    ],
+    "display": "Matthew 27:34"
+  },
+  "lemma_quote": "ἐλθόντες εἰς τόπον λεγόμενον Γολγοθὰ Χἐστι λεγόμενος Κρανίου τόπος, ἔδωκαν αὐτῷ πεῖν ὄξος μετὰ χολῆς μεμιγμένον, καὶ γευσάμενος οὐκ ἤθελε πιεῖν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.708,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

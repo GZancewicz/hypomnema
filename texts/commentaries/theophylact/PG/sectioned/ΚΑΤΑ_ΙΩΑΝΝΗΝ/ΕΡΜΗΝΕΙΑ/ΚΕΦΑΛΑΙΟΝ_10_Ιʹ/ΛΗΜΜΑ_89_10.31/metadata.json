@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_89_10.31",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 89,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 31
+      }
+    ],
+    "display": "John 10:31"
+  },
+  "lemma_quote": "«Ἐβάστασαν οὖν πάλιν λίθους οἱ Ἰουδαῖοι. ἵνα λιθάσωσιν αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

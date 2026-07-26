@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_19.11",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 25,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 11
+      }
+    ],
+    "display": "John 19:11"
+  },
+  "lemma_quote": "νω έν ἐστι ἀεδομένον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.279,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_17.2",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 12,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 3
+      }
+    ],
+    "display": "John 17:3"
+  },
+  "lemma_quote": "Μόνον δὲ ἀληθινὸν Θεὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.52,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

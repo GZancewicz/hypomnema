@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_9.38",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 99,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 1
+      }
+    ],
+    "display": "John 9:1"
+  },
+  "lemma_quote": "«σεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου, καὶ ἀποσυναγώγους ποιήσουσιν ὑμᾶς.ν Κἂν ἐκβάλλωσι δὲ τὸν ὁμολογητὴν οἱ ἄνθρωποι, τῇ ἀληθείᾳ ἐγΘραίνοντες, καὶ διώ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.278,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "9.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

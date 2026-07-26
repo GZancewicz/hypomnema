@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_12.33",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 99,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 32
+      }
+    ],
+    "display": "John 12:32"
+  },
+  "lemma_quote": "Οὐδεὶς γὰρ, φησὶ, δύναται τὰ σκεύη τοῦ ἰσχυροῦ διαρπάσαι, ἐὰν μὴ δήσῃ τὸν ἱσχυρόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.269,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "12.33",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

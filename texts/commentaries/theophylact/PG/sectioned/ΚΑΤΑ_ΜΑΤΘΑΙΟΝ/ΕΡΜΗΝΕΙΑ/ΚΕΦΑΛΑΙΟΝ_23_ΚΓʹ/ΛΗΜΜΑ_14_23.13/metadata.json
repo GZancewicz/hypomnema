@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_23.13",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 14,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 14
+      }
+    ],
+    "display": "Matthew 23:14"
+  },
+  "lemma_quote": "Γραμματεῖς καὶ Φαρισαῖοι ὑποκριταὶ, τι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.98,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

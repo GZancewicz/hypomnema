@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_7.18",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 17,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 7:19"
+  },
+  "lemma_quote": "Πᾶν δένόρον μὴ ποιοῦν καρπὸν καλὸν, ἐκκόπτεται, καὶ εἰς πῦρ βάλλεται. Ἄραγε ἀπὸ τῶν καρπῶν τοῦτῶν ἐπιγνώσεσθε αὐτούς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.792,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

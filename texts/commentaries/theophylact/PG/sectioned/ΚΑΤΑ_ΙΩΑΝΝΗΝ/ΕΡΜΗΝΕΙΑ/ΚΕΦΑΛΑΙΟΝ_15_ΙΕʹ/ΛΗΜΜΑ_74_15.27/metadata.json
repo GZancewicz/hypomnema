@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_74_15.27",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 74,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 26
+      }
+    ],
+    "display": "John 15:26"
+  },
+  "lemma_quote": "Ὃν ἐγὼ πέμῷω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.833,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

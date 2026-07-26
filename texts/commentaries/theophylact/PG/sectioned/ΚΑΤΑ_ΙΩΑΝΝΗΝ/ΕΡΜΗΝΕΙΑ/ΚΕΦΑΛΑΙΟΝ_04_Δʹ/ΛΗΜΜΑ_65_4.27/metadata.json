@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_65_4.27",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 65,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 29
+      }
+    ],
+    "display": "John 4:29"
+  },
+  "lemma_quote": "Προφήτην ὰναστήσει Κύριος ἐκ τῶν ἀδελφῶν ὑμῶν ὡς ἐμέ· αὐτοῦ ἀκούσεσθε·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.184,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

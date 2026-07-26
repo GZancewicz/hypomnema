@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_12.19",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 49,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 19
+      }
+    ],
+    "display": "John 12:19"
+  },
+  "lemma_quote": "Θεωρεῖτε, ὅτι οὐκ ὡφελεῖτε οὐδὲν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.548,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

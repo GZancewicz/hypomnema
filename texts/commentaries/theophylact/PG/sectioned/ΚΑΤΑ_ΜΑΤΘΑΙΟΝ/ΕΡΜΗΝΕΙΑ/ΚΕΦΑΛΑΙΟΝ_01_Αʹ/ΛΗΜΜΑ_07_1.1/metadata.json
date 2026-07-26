@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_1.1",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 2
+      }
+    ],
+    "display": "Matthew 1:2"
+  },
+  "lemma_quote": "«Ἰσαλν δὲ ἐγέννησε τὸν Ἰακώβ· Ἰακὼδ δὲ ἐγέννησε τὸν Ἰού δαν καὶ τοὺς ἀδελφοὺς αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.591,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.1",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

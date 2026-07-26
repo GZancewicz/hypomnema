@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_11.10",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 21,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 8
+      }
+    ],
+    "display": "John 11:8"
+  },
+  "lemma_quote": "Ἔκτοτε δὲ θλίψεις, καὶ ὀδύνας, καὶ πολλὰ προσκόμματα καὶ ἐναντιώματα ἰξετε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.307,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

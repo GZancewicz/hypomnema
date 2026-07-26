@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_23.16",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 13
+      }
+    ],
+    "display": "Luke 23:13"
+  },
+  "lemma_quote": "Οἰκονομήσει τοὺς λόγους αὐτοῦ ἐν κρίσει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.485,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

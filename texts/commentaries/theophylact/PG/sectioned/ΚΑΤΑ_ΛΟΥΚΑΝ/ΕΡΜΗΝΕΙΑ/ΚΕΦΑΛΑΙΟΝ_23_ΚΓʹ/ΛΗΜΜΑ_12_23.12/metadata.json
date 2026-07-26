@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_23.12",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 23:12"
+  },
+  "lemma_quote": "Ἐγένοντο δὲ φίλοι ᾷ τε Πιλάτος καὶ ὁ Ἡρώδης ἐν αὐτῇ τῇ ἡμέρᾳ μετ´ ἀλλήλων· προῦπῆρχον γὰρ ἐν ἔχθρᾳ ὄντες πρὸς ἑαυτούς. Πιλάτος δὲ αυγκαλεσάμενος τοὺς ἀρχιερεῖς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_1.5",
+  "gospel": "mark",
+  "chapter": 1,
+  "index": 5,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 1,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 5
+      }
+    ],
+    "display": "Mark 1:5"
+  },
+  "lemma_quote": "ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα, καὶ οἱ Ἰεοοσολυμῖται, καὶ ἐβαπτίζοντο πάντες ἑν τῷ Ἰορδάνῃ ποταμῷ ὑπ´ αὐτοῦ, ἐξομολογούμενοι τὰς Ἀμαρτίας αὐτῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.956,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.5",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

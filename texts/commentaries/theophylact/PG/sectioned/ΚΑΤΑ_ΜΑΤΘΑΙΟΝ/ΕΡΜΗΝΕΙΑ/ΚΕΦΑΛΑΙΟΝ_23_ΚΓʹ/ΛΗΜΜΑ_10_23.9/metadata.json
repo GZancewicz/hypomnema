@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_23.9",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 10,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 23:9"
+  },
+  "lemma_quote": "πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς, εἶς γάρ ἐστιν ὁ Πατὴρ ὑμῶν ὁ ἐν τοῖς οὐρανοῖς. Μηδὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.939,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

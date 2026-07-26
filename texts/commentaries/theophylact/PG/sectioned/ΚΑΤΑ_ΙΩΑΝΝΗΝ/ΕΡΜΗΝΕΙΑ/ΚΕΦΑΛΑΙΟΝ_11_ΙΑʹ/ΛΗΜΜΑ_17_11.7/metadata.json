@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_11.7",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 6
+      }
+    ],
+    "display": "John 11:6"
+  },
+  "lemma_quote": "βζει.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

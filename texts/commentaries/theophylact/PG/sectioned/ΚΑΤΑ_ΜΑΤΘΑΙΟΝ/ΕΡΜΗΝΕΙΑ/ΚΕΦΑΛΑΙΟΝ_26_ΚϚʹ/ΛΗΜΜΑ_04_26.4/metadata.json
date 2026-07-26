@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_26.4",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 4
+      }
+    ],
+    "display": "Matthew 26:4"
+  },
+  "lemma_quote": "συνεβουλεύσαντο ἵνα τὸν Ἰησοῦν δόλῳ κρατήσωσι καὶ ἀποκτείνωσιν · ἄλεγον δέ· Μὴ ἐν τῇ ἑορτῇ, ἵνα μὴ θάρυβος γένηται ἐν τῷ λαῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.796,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

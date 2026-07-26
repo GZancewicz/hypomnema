@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_6.41",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 48
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 48
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 48
+      }
+    ],
+    "display": "John 6:48"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ὁ ἄρτος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.753,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

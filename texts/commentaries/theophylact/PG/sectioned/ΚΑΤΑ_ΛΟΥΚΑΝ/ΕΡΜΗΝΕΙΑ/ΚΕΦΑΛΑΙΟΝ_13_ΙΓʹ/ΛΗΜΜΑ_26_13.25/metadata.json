@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_13.25",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 26,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 33
+      }
+    ],
+    "display": "Luke 13:33"
+  },
+  "lemma_quote": "σήμερον καὶ αὔριον καὶ τῇ ἐχομένῃ πορεύεσθαι, ὅτι οὐκ ἐνδέχεται προφήτην ἀπολέσθαι ἔξω Ἰερουσαλήμ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.907,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

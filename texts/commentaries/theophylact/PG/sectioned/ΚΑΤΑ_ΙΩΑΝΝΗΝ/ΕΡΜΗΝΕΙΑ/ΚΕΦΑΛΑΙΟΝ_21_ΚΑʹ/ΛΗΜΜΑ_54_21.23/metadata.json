@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_21.23",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 54,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 22
+      }
+    ],
+    "display": "John 21:22"
+  },
+  "lemma_quote": "Ἐὰν θέλω αὐτὸν μένειν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.615,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_70_10.25",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 70,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 37
+      }
+    ],
+    "display": "John 10:37"
+  },
+  "lemma_quote": "Τὰ ἔργα, ἃ ἐγὼ ποιῶ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.568,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

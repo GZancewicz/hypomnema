@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_18.9",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 9
+      }
+    ],
+    "display": "John 18:9"
+  },
+  "lemma_quote": "Οὐδεὶς ἐξ αὐτῶν ἀπώλετο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.267,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

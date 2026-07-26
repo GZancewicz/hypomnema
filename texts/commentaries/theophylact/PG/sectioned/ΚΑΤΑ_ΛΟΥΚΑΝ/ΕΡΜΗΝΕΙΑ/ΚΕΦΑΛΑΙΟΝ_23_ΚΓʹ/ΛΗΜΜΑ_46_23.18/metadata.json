@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_46_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 46,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 43
+      }
+    ],
+    "display": "Luke 23:43"
+  },
+  "lemma_quote": "Σήμερον μετ´ ἐμοῦ ἔσῃ ἐν τῷ παραδείσῳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.71,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

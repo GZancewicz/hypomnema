@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_8.4",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 4,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 8:6"
+  },
+  "lemma_quote": "«Κύριε, ὁ παῖς μου βέβληται ἐν τῇ οἰκίᾳ παραλητικὸς, δεινῶς βασανιζόμενος. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.913,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_22.23",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 23
+      }
+    ],
+    "display": "Matthew 22:23"
+  },
+  "lemma_quote": "«Ἐν ἐκείνῃ τῇ ἡμέρᾳ προσῆλθον αὐτῷ Σαδδου. καῖοι, οἱ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.626,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

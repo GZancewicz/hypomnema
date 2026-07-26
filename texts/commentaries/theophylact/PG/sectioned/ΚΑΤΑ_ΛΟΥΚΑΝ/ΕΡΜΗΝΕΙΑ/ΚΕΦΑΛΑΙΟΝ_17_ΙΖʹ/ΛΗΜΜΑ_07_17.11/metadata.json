@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_17.11",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 11
+      }
+    ],
+    "display": "Luke 17:11"
+  },
+  "lemma_quote": "«Καὶ ἐγένετο ἐν τῷ πορεύεσθαι αὐτὸν εἰς Ἰερουσαλὴμ, καὶ αὐτὸς διήρχετο διὰ μέσου Σαμαρὲίας καὶ Γαλιλαίας. Καὶ εἰσερχομένου αὐτοῦ εἴς τινα πόλιν, ἀπήντησαν αὐτῷ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.848,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

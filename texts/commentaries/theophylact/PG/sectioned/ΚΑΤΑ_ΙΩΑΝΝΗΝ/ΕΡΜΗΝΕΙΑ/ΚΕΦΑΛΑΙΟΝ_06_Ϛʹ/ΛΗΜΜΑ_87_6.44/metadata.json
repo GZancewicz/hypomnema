@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 87,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 51
+      }
+    ],
+    "display": "John 6:51"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς. Οἱ πατέρες ὑμῶν ἔφαγον τὸ μάννα ἐν τῇ ἐρήμῳ, καὶ ἀπέθανον. Οὗτός ἐστιν ὁ ἄρτος ὁ ἐκ τοῦ οὐρανοῦ καταβαίνων, ἵνα τις ἐξ αὐτοῦ φάγῃ, καὶ μὴ ἀποθάνῃ. Ἐγώ εἰμι ὁ ἄρτος ὁ ζῶν, ὁ ἐκ τοῦ οὐρανοῦ καταβάς. Ἐάν τις φάγῃ ἐκ τούτου τοῦ ἄρτου, ζήσεται εἰς τὸν αἰῶνα, Καὶ ὁ ἄρτος δὲ, ὃν ἐγὼ δώσω, ἡ σάρξ μού ἐστιν ἣν ἐγώ δώσω ὑπὲρ τῆς τοῦ κόσμου ζωῆς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.877,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

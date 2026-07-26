@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_15.2",
+  "gospel": "matthew",
+  "chapter": 15,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 15:1"
+  },
+  "lemma_quote": "«Τότε προσέρχονται τῷ Ἰφσοῦ οἱ ἀπὸ Ἰεροσολύμων Γραμματεῖς καὶ Φαρισαῖοι, λέγοντες· Διατί οἱ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.881,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

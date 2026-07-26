@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_140_12.42",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 140,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 40
+      }
+    ],
+    "display": "John 12:40"
+  },
+  "lemma_quote": "Ὅτι τετύφλωνεν αὐτῶν τοὺς ὁφθαλμοὺς, καὶ πεπώρωκεν αὐτῶν τὰς καοδίας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.546,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

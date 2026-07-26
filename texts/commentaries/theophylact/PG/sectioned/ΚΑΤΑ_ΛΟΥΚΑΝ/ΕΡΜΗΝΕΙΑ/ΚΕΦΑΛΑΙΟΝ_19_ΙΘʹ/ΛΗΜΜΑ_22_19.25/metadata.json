@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_19.25",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 22,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 19:25"
+  },
+  "lemma_quote": "εἶπον αὐτῷ· Κύριε, δέκα μνᾶς ἔχει. Λέγω ὑμῖν, ὅτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.781,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

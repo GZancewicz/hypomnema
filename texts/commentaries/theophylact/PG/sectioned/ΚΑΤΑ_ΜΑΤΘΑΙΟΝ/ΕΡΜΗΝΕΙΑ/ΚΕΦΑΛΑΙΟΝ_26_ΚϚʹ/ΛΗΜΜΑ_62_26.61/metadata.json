@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_26.61",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 62,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 73
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 73
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 73
+      }
+    ],
+    "display": "Matthew 26:73"
+  },
+  "lemma_quote": "μικρὸν δὲ προσελθόντες ο ἑστῶτες, εἶπον τῷ Πέτρῳ· Ἀληθῶς καὶ σὺ ἐξ´ αὐτῶν εἶ· καὶ γὰρ ἡ λαλιά σου δῆλόν σε ποιεῖ. Τότε ἡρξατο καταναθεματίζειν καὶ ὀμνύειν, ὅτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.846,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.61",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

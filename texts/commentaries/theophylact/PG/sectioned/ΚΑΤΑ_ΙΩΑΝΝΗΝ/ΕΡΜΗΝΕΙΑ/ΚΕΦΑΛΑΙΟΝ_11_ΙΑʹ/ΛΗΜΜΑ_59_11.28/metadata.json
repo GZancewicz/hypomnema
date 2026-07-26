@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_59_11.28",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 59,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 26
+      }
+    ],
+    "display": "John 11:26"
+  },
+  "lemma_quote": "ζήσεται, καὶ πᾶς ὁ ζων καὶ πιστεύων εἰς ἐμὲ, οὐ μὴ ἀποθάνῃ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.84,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

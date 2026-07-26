@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 25:27"
+  },
+  "lemma_quote": "βαλεῖν τὸ ἀργύριόν μου τοῖς τραπεζίταις, καὶ ἐλθὼν ἐγὼ ἐκομισάμην ἂν τὸ ἐμὸν σὺν τόκῳ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.928,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

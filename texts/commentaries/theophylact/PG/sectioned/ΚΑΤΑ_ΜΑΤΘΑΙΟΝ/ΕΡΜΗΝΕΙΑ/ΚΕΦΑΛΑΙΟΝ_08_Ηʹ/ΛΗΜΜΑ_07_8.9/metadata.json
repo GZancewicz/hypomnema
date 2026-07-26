@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_8.9",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 7,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 9
+      }
+    ],
+    "display": "Matthew 8:9"
+  },
+  "lemma_quote": "ἄνθρωπός εἰμι ὑπὸ ἐξουσίαν, ἔχων ὑπ´ ἐμαυτὸν στῥατιώτας, καὶ λέγω τούτῳ, Πορεύθητι, καὶ πορεύεται· καὶ ἄλλῳ, Ἔρχου, καὶ ἔρχεται· καὶ τῷ δούλῳ μου, Ποίησον τοῦτο, καὶ ποιεῖ. Ἀκούσας ἄὲ ἐ Ἰοσοῦς ἐθαύμασε καὶ εἶπε τοῖς ἀκολουθοῦσιν· Ἀμὴν λέγω ὑμῖν, οὐδὲ ἐν τῷ Ἰσραὴλ τοσαύτην πίστιν εὖρον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.749,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

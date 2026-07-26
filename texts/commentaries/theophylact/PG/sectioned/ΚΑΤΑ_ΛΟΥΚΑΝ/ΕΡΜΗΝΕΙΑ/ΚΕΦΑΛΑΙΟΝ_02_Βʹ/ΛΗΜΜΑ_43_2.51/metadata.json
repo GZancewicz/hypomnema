@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_2.51",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 43,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 51
+      }
+    ],
+    "display": "Luke 2:51"
+  },
+  "lemma_quote": "«Καὶ κατέβη μετ´ αὐτῶν, καὶ ἦλθεν εἰς Ναζαρέτ. Καὶ ἦν ὑποτασσόμενος αὐτοῖς· καὶ ἡ μήτηρ αὐτοῦ διετήρει πάντα τὰ ῥήματα ταῦτα ἐν τῇ καρθίᾳ αὐτῆς. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.961,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

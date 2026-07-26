@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_17.1",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 17:1"
+  },
+  "lemma_quote": "«Καὶ ἀκαφέρει αὐτοὺς εἰς ὄρος ὑψηλὸν κατ´ ἰδίαν καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.554,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_18.23",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 21
+      }
+    ],
+    "display": "John 18:21"
+  },
+  "lemma_quote": "Ἐρώτησον",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.23",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

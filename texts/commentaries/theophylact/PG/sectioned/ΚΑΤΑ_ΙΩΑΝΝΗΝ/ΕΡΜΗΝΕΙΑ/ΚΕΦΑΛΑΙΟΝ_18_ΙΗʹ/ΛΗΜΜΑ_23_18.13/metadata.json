@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_18.13",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 13
+      }
+    ],
+    "display": "John 18:13"
+  },
+  "lemma_quote": "ἀπήγαγον αὐτὸν πρὸς Ἄνναν πρῶτον Ην γὰρ πενθερὸς τοῦ Κατάφα, ὃς ἦν ἀρχιερεὺς τοῦ ἐνιαυσοῦ ἐνείνου Ἦν δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.837,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

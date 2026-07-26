@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_7.25",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 25
+      }
+    ],
+    "display": "John 7:25"
+  },
+  "lemma_quote": "«Ἔλεγον οὖν τινες ἐκ τῶν Ἰεροσολυμιτῶν· Οὐχ οὗτός ἐστιν ὄν ζητοῦσιν ἀποκτεῖναι; Καὶ ἴδε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.929,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

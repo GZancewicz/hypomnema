@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_21.38",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 35,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 21:38"
+  },
+  "lemma_quote": "ὤρθριζε πρὸς αὐτὸν ὲν τῷ ἱερῷ ἀκούειν αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.854,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

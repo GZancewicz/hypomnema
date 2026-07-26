@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_9.8",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 8
+      }
+    ],
+    "display": "John 9:8"
+  },
+  "lemma_quote": "«Οἱ οὖν γείτονες οἱ θεωροῦντες αὐτὸν τὸ πρότερον, ὅτι τυφλὸς ἦν, ἔλεγον· Οὐχ οὗτός ἐστιν ὁ καθήμενος, καὶ προσαιτῶν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

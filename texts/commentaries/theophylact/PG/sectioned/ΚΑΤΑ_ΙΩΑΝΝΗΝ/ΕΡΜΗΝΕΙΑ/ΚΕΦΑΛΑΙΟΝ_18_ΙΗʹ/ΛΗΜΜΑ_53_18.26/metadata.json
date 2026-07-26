@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_18.26",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 26
+      }
+    ],
+    "display": "John 18:26"
+  },
+  "lemma_quote": "Λέγει εἶς ἐκ τῶν δούλων τοῦ ἀρχιερίως συγγενὴς ὢν, οὗ ἀπέκοψε Πέτρος τὸ ὠτίον· Οῆκ ἐγώ σε εἶδον ἐν τῷ κήπῳ μετ´ αὐτοῦ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.831,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

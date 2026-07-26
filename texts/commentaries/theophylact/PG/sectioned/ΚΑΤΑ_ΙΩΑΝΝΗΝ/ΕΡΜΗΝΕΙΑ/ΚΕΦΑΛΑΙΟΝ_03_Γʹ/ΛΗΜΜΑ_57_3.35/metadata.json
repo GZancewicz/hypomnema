@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_3.35",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 35
+      }
+    ],
+    "display": "John 3:35"
+  },
+  "lemma_quote": "«Ὁ Πατὴρ ἀγαπᾷ τὸν Υἱὸν, καὶ πάντα δέδωκεν ἐν τῇ χειρὶ αὐτοῦ. Ὁ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

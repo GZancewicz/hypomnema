@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_15.16",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 40,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 16
+      }
+    ],
+    "display": "John 15:16"
+  },
+  "lemma_quote": "ὑμεῖς με ἐξελέξασθε, ἀλλ´ ἐγὼ ἐξελεξάμην ὑμᾶς, καὶ ἔθηκα ὑαᾶς, ἵνα ὑμεῖς ὑπάγητε, καὶ καρπὸν φέρητε, καὶ ὁ καρπ´ςν ὑμῶν μένῃ· ἵνα ὅ τι ἐὰν αἰτήσητε τὸν Πατέρα ἐν τῷ ὸνόματί μου, δῷ ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.907,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

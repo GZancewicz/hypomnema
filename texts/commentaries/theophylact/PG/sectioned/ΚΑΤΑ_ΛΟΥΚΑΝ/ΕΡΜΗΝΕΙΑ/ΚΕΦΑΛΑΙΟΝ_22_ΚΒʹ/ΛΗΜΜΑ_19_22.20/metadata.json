@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_22.20",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 20
+      }
+    ],
+    "display": "Luke 22:20"
+  },
+  "lemma_quote": "ὡσαύτως καὶ τὸ ποτήριον μετὰ τὸ δειπνῆσαι, λέγων· Τοῦτο τὸ ποτήριον ἡ Καινὴ Διαθήκη ἐν τῷ αἶματί μου, τὸ ὑπὲρ ὑμῶν ἐκχυνόμενον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

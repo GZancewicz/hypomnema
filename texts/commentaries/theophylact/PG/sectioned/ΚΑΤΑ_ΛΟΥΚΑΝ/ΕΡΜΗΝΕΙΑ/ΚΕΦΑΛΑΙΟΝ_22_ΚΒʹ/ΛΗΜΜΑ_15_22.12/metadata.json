@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_22.12",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 32
+      }
+    ],
+    "display": "Luke 22:32"
+  },
+  "lemma_quote": "Ὅψομαι τοὺ, οὐράνοὺς, ἔργα τῶν δακτύλων σου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.49,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

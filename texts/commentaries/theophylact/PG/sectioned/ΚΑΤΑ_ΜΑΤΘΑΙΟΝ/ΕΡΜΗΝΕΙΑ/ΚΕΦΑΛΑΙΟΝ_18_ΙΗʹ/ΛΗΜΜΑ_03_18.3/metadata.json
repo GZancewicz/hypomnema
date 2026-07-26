@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_18.3",
+  "gospel": "matthew",
+  "chapter": 18,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 18,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 18:3"
+  },
+  "lemma_quote": "εἶπεν· Ἀμὴν λέγω ὑμῖν, ἐὰν μὴ στραφῆτε καὶ γένησθε ὡς τὰ παιδία, οὐ μὴ εἰσέλθητε εἰς τὴν βασιλείαν τῶν οὐρανῶν·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.937,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

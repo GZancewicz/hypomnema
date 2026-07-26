@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_11.3",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 4,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 1
+      }
+    ],
+    "display": "John 11:1"
+  },
+  "lemma_quote": "Ἢν γὰρ, φησὶν, ὁ Λάζαρος ἀπὸ Βηθανίας ἐκ τῆς κώμης Μαρίας καὶ Μάρθας.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.751,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.3",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

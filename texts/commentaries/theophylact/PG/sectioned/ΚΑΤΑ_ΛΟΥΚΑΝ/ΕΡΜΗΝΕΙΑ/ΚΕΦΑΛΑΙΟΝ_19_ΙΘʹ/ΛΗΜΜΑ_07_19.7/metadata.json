@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_19.7",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 44
+      }
+    ],
+    "display": "Luke 19:44"
+  },
+  "lemma_quote": "Μὴ εἴπῃς, Ἐπανελθὼν Ἀπάνηκε, καὶ αὔριον δώσω σοι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.384,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

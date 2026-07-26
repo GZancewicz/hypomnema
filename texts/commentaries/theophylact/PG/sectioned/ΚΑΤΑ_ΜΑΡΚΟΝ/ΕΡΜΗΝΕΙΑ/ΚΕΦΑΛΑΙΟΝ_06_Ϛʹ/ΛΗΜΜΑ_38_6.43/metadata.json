@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_6.43",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 38,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 43
+      }
+    ],
+    "display": "Mark 6:43"
+  },
+  "lemma_quote": "κλασμάτων δώδεκα κοφίνους πλήρεις, καὶ ἀπὸ τῶν ἰχθύων. Καὶ ἦσαν οἱ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.43",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

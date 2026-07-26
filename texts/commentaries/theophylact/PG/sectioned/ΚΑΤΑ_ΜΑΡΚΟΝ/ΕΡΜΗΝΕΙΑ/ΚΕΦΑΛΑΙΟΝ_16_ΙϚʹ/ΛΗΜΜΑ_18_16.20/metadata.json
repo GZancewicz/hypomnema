@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_16.20",
+  "gospel": "mark",
+  "chapter": 16,
+  "index": 18,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 16,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 20
+      }
+    ],
+    "display": "Mark 16:20"
+  },
+  "lemma_quote": "Ἐκεῖνοι δὲ ἐξελθόντες, ἐκήρυξαν πανταχοῦ, τοῦ Κυρίου συνεργοῦντος καὶ τὸν λόγον βεβαιοῦντος διὰ τῶν ἐπακολουθούντων σημείων. Ἀμήν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

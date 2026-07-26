@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_68_24.48",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 68,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 49
+      }
+    ],
+    "display": "Luke 24:49"
+  },
+  "lemma_quote": "Ἐνδύσησθε,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.48",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

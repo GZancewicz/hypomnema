@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_21_4.15",
+  "gospel": "matthew",
+  "chapter": 4,
+  "index": 21,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 4,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 4:16"
+  },
+  "lemma_quote": "Ζαβουλῶν καὶ γῆ Νεφθαλεὶμ, ῥδὸν θαλάσσης πέραν τοῦ Ἰορδάνου, Γαλιλαία τῶν ἐθνῶν· ὁ λαὸς ὁ καθήμενος ἐν σκότει, εἶδε φῶς μέγα· καὶ τοῖς καθημένοις ἐν χώρᾳ καὶ σκιᾶ θανάτου, φῶς ἀνέτειλεν αὐτοῖς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.835,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

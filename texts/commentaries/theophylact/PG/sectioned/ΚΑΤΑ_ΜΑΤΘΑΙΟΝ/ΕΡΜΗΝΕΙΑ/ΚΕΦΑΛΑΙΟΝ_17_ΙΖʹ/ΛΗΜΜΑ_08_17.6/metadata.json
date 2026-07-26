@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_17.6",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 6
+      }
+    ],
+    "display": "Matthew 17:6"
+  },
+  "lemma_quote": "«Καὶ ἀκούσαντες οἱ μαθηταὶ, ἱπεσον ἐπὶ πρόσωπον αὐτῶν, καὶ ἐφοβήθησαν σφόδρα, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.905,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

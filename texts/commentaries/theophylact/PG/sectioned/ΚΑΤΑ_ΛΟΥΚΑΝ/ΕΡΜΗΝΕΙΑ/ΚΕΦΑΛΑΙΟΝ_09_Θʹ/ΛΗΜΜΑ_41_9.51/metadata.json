@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_9.51",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 41,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 51
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 51
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 51
+      }
+    ],
+    "display": "Luke 9:51"
+  },
+  "lemma_quote": "ἐγένετο ἐν τῷ συμπληροῦσθαι τὰς ἡμέρας τῆς ἀναλήψεως αὐτοῦ· Τουτέστιν, ὅτι ἐνειστήκει ὁ καιρὸς, καθ´ ὃν ἔδει λοιπὸν τὸ σωτήριον ὑπὲρ ἡμῶν ὑπομείναντα πάθος, ἀνα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.506,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.51",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

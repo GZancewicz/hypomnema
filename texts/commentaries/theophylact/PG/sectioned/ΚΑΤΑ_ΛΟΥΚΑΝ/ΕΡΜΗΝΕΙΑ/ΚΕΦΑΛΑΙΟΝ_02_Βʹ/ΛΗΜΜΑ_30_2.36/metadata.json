@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_2.36",
+  "gospel": "luke",
+  "chapter": 2,
+  "index": 30,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 2,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 36
+      }
+    ],
+    "display": "Luke 2:36"
+  },
+  "lemma_quote": "«Καὶ ἦν ννα προφῆτις, θυγάτορ ζανουλλ, ἐκ φυλῆς Ἀσήρ αὔτη προβεβηκυῖα ἐν ἡμέραις πολλαῖς, ζήσασα ἕτη μετὰ ἀνδρὸς ἑπτὰ, ἀπὸ τῆς παρθενίας αὐτῆς. Καὶ αὕτη χήρα ὡς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.861,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

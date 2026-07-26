@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_15.26",
+  "gospel": "mark",
+  "chapter": 15,
+  "index": 17,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 15,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 26
+      }
+    ],
+    "display": "Mark 15:26"
+  },
+  "lemma_quote": "ἐπιγραφὴ τῆς αἰτίας αὐτοῦ ἐπιγεγραμμένη, Ὁ βασιλεὺς τῶν Ἰουδαίων. Καὶ σὺν αὐτῷ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.896,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

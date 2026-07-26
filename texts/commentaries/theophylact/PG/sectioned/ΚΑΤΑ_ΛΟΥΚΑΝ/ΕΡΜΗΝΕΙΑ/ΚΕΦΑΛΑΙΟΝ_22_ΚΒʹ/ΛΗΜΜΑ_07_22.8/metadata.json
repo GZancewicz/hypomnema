@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_22.8",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 7,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 8
+      }
+    ],
+    "display": "Luke 22:8"
+  },
+  "lemma_quote": "ἀπέστειλε Πέτρον καὶ Ἰωάννην, εἰπών· Πορευθέντες ἐτοιμάσατε ἡμῖν τὸ πάσχα, ἵνα φάγῳμεν· οἱ δὶ εἶπον αὐτῷ· Ποῦ θέλεις ἐτοιμά σωμέν σοι; Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.852,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

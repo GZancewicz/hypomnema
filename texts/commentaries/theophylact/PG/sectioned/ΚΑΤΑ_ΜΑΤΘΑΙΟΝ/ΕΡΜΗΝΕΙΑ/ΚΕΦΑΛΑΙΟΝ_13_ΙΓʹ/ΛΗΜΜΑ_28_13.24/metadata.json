@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 28,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 45
+      }
+    ],
+    "display": "Matthew 13:45"
+  },
+  "lemma_quote": "«Πάλιν ὁμοία ἐστὶν ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ ἐμπόρῳ ζητοῦντι καλοὺς μαργαρίτας, ὅς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_16_4.20",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 16,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 20
+      }
+    ],
+    "display": "Luke 4:20"
+  },
+  "lemma_quote": "πτύξας τὸ βιβλίον, ἀποδοὺς τῷ ὑπηρέτῃ, ἐκάθισε· καὶ πάντων οἱ ὀφθαλμοὶ ἐν τῇ Συναγωγῇ ἠσαν ἀτενίζοντες αὐτῷ. Ἄρξατο δὲ λέγειν πρὸς αὐτοὺς, ὅτι Σήμερον πεπλήρωται ἡ Γραφὴ αὔτη ἐν τοῖς ὡσὶν ὑμῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.718,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

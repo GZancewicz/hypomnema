@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_99_14.23",
+  "gospel": "john",
+  "chapter": 14,
+  "index": 99,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 14,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 23
+      }
+    ],
+    "display": "John 14:23"
+  },
+  "lemma_quote": "Ἀπεκρίθη Ἰησοῦς, καὶ εἶπεν αὐτῷ· Ἐάν τις ἀγεπᾷ με, τὸν λόγον μου τηρήσει, καὶ ὁ Πατήρ μου ἀγαπήσει αὐτόν· καὶ πρὸς αὐτὸν ἐλευσόμεθα, καὶ μονήν παρ´ αὐτῷ ποιήσομεν. Ὁ μὴ ἀγαπῶν με, τοὺς λύγους μου οὐ τηρεῖ. Καὶ ὁ λόγος ὃν ἀκούετε, οὐκ ἔστιν ἐμὸς, ἀλλὰ τοῦ πέμψαντός με Πατρός.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.752,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

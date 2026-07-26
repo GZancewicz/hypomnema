@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_13.4",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 4,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 4
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 4
+      }
+    ],
+    "display": "Mark 13:4"
+  },
+  "lemma_quote": "ταῦτα ἔσται; καὶ τί τὸ σημεῖον ὅταν μέλλῃ ταῦτα πάντα συντελεῖσθαι;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.85,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.4",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_07_11.8",
+  "gospel": "mark",
+  "chapter": 11,
+  "index": 7,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 11,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 8
+      }
+    ],
+    "display": "Mark 11:8"
+  },
+  "lemma_quote": "Πολλοὶ δὲ τὰ ἱμάτια αὐτῶν ἕστρωσαν εἰς τὴν ὁδόν· ἄλλοι δὲ στιβάδας ἕκοπτον ἐκ τῶν δένδρων, καὶ ἐστρώννυον εἰς τὴν ὁδόν. Καὶ οἱ προἁγοντες καὶ οἱ ἀκολουθοῦντες κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.899,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

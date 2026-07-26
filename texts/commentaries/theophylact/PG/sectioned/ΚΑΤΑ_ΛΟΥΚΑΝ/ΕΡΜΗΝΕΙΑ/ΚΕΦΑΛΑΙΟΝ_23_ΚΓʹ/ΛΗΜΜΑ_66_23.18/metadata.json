@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_66_23.18",
+  "gospel": "luke",
+  "chapter": 23,
+  "index": 66,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 23,
+      "verse": 53
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 53
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 53
+      }
+    ],
+    "display": "Luke 23:53"
+  },
+  "lemma_quote": "καθελών αὐτὸ, ἐνετύλιξεν αὐτὸ σινδόνι, καὶ ἔθηκεν αὐτὸ ἐν μνημείῳ λαξευτῷ, οὗ οὐκ ἦν οὐδέπω οὐδεὶς κείμενος. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.903,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

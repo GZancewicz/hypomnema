@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_13.11",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 12,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 11
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 11
+      }
+    ],
+    "display": "Luke 13:11"
+  },
+  "lemma_quote": "πνεῦμα ἔχουσα ἀσθενείας ἔτη δέκα καὶ ὁκτὼ, καὶ ἦν συγκύπτουσα, καὶ μὴ δυναμένη ἀνακύψαι εἰς τὸ παντελές· ἰδὼν δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.11",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

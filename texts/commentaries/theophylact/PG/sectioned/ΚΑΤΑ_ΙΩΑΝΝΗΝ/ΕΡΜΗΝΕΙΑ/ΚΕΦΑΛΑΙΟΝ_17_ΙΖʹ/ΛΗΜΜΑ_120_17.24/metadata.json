@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_120_17.24",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 120,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 25
+      }
+    ],
+    "display": "John 17:25"
+  },
+  "lemma_quote": "«Πάτεο δίκαιε. καὶ ὁ κόσμος σε οὐκ ἔγνω, ἐγ δέ σε ἔγνων· καὶ οὐτοι ἔγνωσαν, ὅτι σύ με ἀπέστειλας. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

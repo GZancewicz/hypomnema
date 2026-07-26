@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_8.4",
+  "gospel": "matthew",
+  "chapter": 8,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 8,
+      "verse": 5
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 5
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 5
+      }
+    ],
+    "display": "Matthew 8:5"
+  },
+  "lemma_quote": "Εἰσελθόντι δὲ αὐτῷ εἰς Καπερναοὺμ. ποοσῆλθεν αὐτῷ ἐκατόνταρχος παρακαλῶν αὐτὸν καὶ λέγων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.908,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.4",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

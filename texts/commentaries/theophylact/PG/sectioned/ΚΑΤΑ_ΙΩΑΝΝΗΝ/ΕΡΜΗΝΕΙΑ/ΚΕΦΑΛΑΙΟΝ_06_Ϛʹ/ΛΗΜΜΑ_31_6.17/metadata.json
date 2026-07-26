@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_6.17",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 31,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 17
+      }
+    ],
+    "display": "John 6:17"
+  },
+  "lemma_quote": "ἐμβάντες εἰς τὸ πλοῖον, ἤρχοντο πέραν τῆς θαλάσσης εἰς Καπερναούμ. Καὶ σκοτία ἤδη ἐγεγόνει, καὶ οὐκ ἐληλύθει πρὸς αὐτοὺς Ἰησοῦς. Ὥ τε θάλασσα ἀνέμου πνέοντος δι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.884,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

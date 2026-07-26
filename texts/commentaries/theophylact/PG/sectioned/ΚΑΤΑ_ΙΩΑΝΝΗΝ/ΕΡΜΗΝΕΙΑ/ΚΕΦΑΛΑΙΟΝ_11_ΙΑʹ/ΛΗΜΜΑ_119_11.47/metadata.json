@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_119_11.47",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 119,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 44
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 44
+      }
+    ],
+    "display": "John 11:44"
+  },
+  "lemma_quote": "Ἀποστραφήτωσαν οἱ ἁμαρτωλοὶ εἰς τὸν ᾤδην.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.208,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "11.47",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

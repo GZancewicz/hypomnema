@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_13.18",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 13:19"
+  },
+  "lemma_quote": "Ὑμεῖς οὖν ἀκούσατε τὴν παραβολὴν τοῦ σπείροντος. Παντὸς ἀκουοντος τὸν λόγον τῆς βασιλείας, καὶ μὴ συνιέντος, ἔρχεται ὁ πονηρὸς καὶ ἀρπάζει τὸ ἑσπαρμένον ἐν τῇ καρδίᾳ αὐτοῦ, οὗτός ἐστιν ὁ παρὰ τὴν ὁδόν σπαρείς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.844,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

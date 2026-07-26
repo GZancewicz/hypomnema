@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_129_11.53",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 129,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 54
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 54
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 54
+      }
+    ],
+    "display": "John 11:54"
+  },
+  "lemma_quote": "«Ἰησοῦς οὖν οὐκ ἔτι παῤῥησίᾳ περιεπάτει ἐν τοῖς Ἰουδαίοις, ἀλλὰ πόῤῥωθεν εἰς τὴν χώραν ἐγγὺς τῆς ἐρήμου εἰς Ἐφραμ λεγομένην πόλιν, κἀκεῖ διέτριβε μετὰ τῶν μαθητ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.826,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.53",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

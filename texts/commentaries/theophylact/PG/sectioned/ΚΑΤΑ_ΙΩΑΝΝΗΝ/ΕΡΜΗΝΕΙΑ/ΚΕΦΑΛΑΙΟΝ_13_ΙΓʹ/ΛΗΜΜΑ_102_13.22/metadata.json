@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_102_13.22",
+  "gospel": "john",
+  "chapter": 13,
+  "index": 102,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 34
+      }
+    ],
+    "display": "John 13:34"
+  },
+  "lemma_quote": "Καθως ἐγὼ ἡγάπησα ὑμᾶς, ἵνα καὶ ἀλλήλους ἀγαπᾶτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.799,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

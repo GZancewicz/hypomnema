@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_21.30",
+  "gospel": "matthew",
+  "chapter": 21,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 21,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 21:32"
+  },
+  "lemma_quote": "προσελθὼν τῷ δευτέρῳ, εἰπεν ὡσαύτῶς · ὁ δὲ ἀποκριθεὶς, εἰπεν· Ἐγὼ, κύριε· καὶ οὐκ ἀπῆλθε. Τίς ἐκ τῶν δύο ἐποίησε τὸ θέλημα τοῦ πα τρός; Λέγουσιν αὐτῷ· Ὁ πρῶτος. Αέγει αὐτοῖς ὁ ῃσοῦς· Ἀμὴν λέγω ὑμῖν ὅτι οἱ τελῶναι καὶ αἱ πόρναι προάγουσιν ὑμᾶς εἰς τὴν βασιλείαν τοῦ Θεοῦ. Ἡλθε γὰρ πρὸς ὑμᾶς Ἰωάννης ἐν ὁδῷ δικαιοσύνης, καὶ οὐκ ἐπιστεύσατε αὐτῷ· οἱ δὲ τελῶναι καὶ αἱ πόρναι ἐπίστευσαν αὐτῷ· ὑμεῖς δὲ ἰδόντες οὐ μετε.μελήθητε ὕστερον τοῦ πιστεῦσαι αὐτῷ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.708,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

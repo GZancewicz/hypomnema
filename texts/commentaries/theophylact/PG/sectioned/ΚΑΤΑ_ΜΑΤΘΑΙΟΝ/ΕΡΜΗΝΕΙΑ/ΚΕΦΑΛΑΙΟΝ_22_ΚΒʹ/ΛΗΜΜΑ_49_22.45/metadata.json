@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_22.45",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 49,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 46
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 46
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 46
+      }
+    ],
+    "display": "Matthew 22:46"
+  },
+  "lemma_quote": "Δαυΐδ καλεῖ αὐτὸν Κύριον, πῶς υἱὸς αὐτοῦ ἐστι; Καὶ οὐδεὶς ἠδύνατο ἀποκριθῆναι αὐτῷ λόγον, οὐδὲ ἐτόλμησέ τις ἀπ´´ ἐκείνης τῆς ἡμέρας ἐπερωτῆσαι αὐτὸν οὐκ ἔτι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.761,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.45",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

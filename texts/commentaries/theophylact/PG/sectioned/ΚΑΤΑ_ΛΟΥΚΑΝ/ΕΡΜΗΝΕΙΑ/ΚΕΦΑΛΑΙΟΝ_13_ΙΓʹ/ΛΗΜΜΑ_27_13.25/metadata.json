@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_13.25",
+  "gospel": "luke",
+  "chapter": 13,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 34
+      }
+    ],
+    "display": "Luke 13:34"
+  },
+  "lemma_quote": "«Ἱρουσαλὴμ. Ἰερουσαλὴμ, ἡ ἀποκτείνουσα τοὺς προφήτας, καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐσὴν, ποσάκις ἡθέλησα ἐπισυνάξαι τὰ τέκνα σου, ὃν νρόπον ὄρνις τὴ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.746,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.25",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

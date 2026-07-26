@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_27.13",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 13,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 27:13"
+  },
+  "lemma_quote": "λέγει αὐτῷ ὁ Πιλάτος· Οὐκ ἀκούεις πόσα σου καταμαρτυροῦσι; Καὶ οὐκ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.943,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "27.13",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

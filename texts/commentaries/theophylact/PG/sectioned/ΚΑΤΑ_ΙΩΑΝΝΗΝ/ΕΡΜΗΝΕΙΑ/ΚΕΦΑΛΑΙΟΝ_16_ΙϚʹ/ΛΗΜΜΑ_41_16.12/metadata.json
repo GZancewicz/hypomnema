@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_41_16.12",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 41,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 7
+      }
+    ],
+    "display": "John 16:7"
+  },
+  "lemma_quote": "Νῦν μὲν οὐ δύνασθε βασταζειν· ἐὰν δὲ ἔλθη ἐκεῖνος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.333,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "16.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

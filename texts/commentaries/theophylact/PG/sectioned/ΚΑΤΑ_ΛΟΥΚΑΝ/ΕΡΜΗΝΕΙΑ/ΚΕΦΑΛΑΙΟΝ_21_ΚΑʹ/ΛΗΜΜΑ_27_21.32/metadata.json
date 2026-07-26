@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_21.32",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 27,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 34
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 34
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 34
+      }
+    ],
+    "display": "Luke 21:34"
+  },
+  "lemma_quote": "«Προσιχετε δὲ ἑαυτοῖς, μή ποτε βαρυνθῶσιν ἡμῶν αἱ καρδίαι ἐν κραιπάλῃ, καὶ μέθῃ, καὶ μερίμναις βιωτικαῖς, καὶ αἰφνίδιος ἐπιστῇ ἐφ´ ὑμᾶς ἡ ἡμέρα ἐκείνη· ὡς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.789,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

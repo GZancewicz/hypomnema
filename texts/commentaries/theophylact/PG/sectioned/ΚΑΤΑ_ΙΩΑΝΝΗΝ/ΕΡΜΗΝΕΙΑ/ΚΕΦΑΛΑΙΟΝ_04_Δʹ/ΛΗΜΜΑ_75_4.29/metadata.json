@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_75_4.29",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 75,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 18
+      }
+    ],
+    "display": "John 4:18"
+  },
+  "lemma_quote": "Τοῦτο νῦν ὀστοῦν ἐκ τῶν ὀστῶν μου·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.24,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "4.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

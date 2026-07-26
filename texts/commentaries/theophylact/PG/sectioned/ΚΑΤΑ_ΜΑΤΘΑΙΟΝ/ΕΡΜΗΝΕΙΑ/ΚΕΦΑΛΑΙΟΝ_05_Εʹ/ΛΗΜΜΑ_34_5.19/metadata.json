@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_5.19",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 34,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 5:27"
+  },
+  "lemma_quote": "Ἐῤῥέθη τοῖς ἀρχαίοις· ἐπεὶ δὲ λοιπὸν ἐπαλαιώθη, καὶ ἐγγύς ἐστιν ἀφανισμοῦ, ὃεῖ ἀφεῖναι αὐτὸν καὶ δραμεῖν ἐπὶ τὰ νέα,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.396,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.19",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

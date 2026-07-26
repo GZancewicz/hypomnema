@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_39_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 39,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 55
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 55
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 55
+      }
+    ],
+    "display": "Matthew 13:55"
+  },
+  "lemma_quote": "οὕτός, ἐστιν ὁ τοῦ τέκτονος υἱός; Οὐχ ἡ μήτηρ αὐτοῦ λέγεται Μαριὰμ, καὶ οἱ ἀδελφοὶ αὐτοῦ Ἰάκωβος, καὶ Ἰωσῆς, καὶ Σἱμων, καὶ Ἰούδας; Καὶ αἱ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.976,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

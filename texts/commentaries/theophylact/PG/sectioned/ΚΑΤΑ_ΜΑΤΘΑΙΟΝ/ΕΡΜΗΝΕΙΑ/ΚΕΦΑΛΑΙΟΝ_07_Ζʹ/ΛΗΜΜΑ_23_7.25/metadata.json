@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_7.25",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 23,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 25
+      }
+    ],
+    "display": "Matthew 7:25"
+  },
+  "lemma_quote": "κατέβη ἡ βροχὴ, καὶ ἦλθον οἱ ποταμοί, καὶ ἔπνευοαν οἱ ἄνεμοι, καὶ προσέπεσον τῇ οἰκίᾳ ἐκείνῃ, καὶ οὐκ ἕπεσε, τεθεμελίωτο γὰρ ἐπὶ τὴν πέτραν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.965,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

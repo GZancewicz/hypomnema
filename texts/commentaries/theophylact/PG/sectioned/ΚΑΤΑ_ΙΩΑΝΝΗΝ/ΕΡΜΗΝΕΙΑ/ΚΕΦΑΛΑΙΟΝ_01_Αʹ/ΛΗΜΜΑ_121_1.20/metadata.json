@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_121_1.20",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 121,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 19
+      }
+    ],
+    "display": "John 1:19"
+  },
+  "lemma_quote": "«Ἀπέστειλαν οὖν οἱ Ἰουδαῖοι πρὸς Ἰωάννην οὓς εἶχον κρείττονας· ἱερεῖς γὰρ καὶ Λευΐτας, καὶ τούτους Ἱεροσολυμίτας· ὡς ἂν οὐτοι, οἷα δὴ συνετώτεροι, πείσωσι τὸν Ἰ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.504,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.20",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

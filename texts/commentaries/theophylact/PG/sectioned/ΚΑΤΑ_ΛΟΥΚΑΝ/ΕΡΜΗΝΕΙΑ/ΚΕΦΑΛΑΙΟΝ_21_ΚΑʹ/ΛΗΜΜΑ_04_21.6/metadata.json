@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_21.6",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 4,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 6
+      }
+    ],
+    "display": "Luke 21:6"
+  },
+  "lemma_quote": "Ταῦτα ἃ θεωρεῖτε, ἐλεύσονται ἡμέραι, ἐν αἷς οὐκ ἀφεθήσεται λίθος ἐπὶ λίθῳ, ὃς οὐ καταλυθήσεται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.6",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

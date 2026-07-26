@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_75_11.32",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 75,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 21
+      }
+    ],
+    "display": "John 11:21"
+  },
+  "lemma_quote": "Εἰ ἦς ὧδε, οὐκ ἂν ἀπέθανέ μου ὁ ἀδελφὸς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.518,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.32",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

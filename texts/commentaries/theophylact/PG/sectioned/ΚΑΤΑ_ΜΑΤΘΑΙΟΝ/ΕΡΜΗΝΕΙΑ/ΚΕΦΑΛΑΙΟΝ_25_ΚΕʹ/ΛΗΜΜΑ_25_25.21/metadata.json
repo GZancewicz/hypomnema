@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 31
+      }
+    ],
+    "display": "Matthew 25:31"
+  },
+  "lemma_quote": "«Ὅταν δὲ ἔλθῃ ὁ Υἱὸς τοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.472,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

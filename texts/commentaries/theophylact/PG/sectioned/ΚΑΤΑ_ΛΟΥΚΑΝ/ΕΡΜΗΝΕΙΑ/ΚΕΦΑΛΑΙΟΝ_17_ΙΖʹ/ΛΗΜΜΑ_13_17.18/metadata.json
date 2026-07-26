@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_17.18",
+  "gospel": "luke",
+  "chapter": 17,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 17,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 18
+      }
+    ],
+    "display": "Luke 17:18"
+  },
+  "lemma_quote": "εὐρέθησαν ὑποστρέψαντες δοῦναι δόξαν τῷ Θεῷ, εἱ μὴ ὁ ἀλλογενὴς οὐτος. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.935,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

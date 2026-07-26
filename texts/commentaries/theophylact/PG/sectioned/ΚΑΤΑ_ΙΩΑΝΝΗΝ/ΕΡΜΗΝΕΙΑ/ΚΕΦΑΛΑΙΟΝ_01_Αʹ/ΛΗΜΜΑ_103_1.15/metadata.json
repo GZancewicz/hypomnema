@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_1.15",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 103,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 2
+      }
+    ],
+    "display": "John 1:2"
+  },
+  "lemma_quote": "Οὗτος,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.37,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

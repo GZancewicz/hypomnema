@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_21.37",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 37
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 37
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 37
+      }
+    ],
+    "display": "Luke 21:37"
+  },
+  "lemma_quote": "«Ὑν δὲ τὰς ἡμέρας διδάσκων ἐν τῷ ἱερῷ, τὰς δα νύκτας ἐξερχόμενος ηὐλίζετο εἰς τὸ ὄρος τὸ καλφῶμενον Ἐλαιῶν· καὶ πᾶς ὁ λαὸς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.861,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.37",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

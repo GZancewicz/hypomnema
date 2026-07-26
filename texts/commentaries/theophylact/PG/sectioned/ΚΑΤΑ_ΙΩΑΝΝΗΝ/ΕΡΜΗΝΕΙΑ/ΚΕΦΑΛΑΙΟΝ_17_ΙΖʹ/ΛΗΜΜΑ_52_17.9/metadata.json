@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_52_17.9",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 52,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 26
+      }
+    ],
+    "display": "John 17:26"
+  },
+  "lemma_quote": "ἐν αὐτοῖς δοξάζομαι·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.407,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.9",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

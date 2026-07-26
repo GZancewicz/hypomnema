@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_13.3",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 3
+      }
+    ],
+    "display": "Mark 13:3"
+  },
+  "lemma_quote": "καθημένου αὐτοῦ εἰς τὸ ὄρος των Ἐλαιῶν, κατέναντι τοῦ ἰεροῦ ἐπηρώτων αὐτὸν κατ´ ἰδίαν Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης καὶ Ἀνρέας · Εἰπὲ ἡμῖν πότε",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.88,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

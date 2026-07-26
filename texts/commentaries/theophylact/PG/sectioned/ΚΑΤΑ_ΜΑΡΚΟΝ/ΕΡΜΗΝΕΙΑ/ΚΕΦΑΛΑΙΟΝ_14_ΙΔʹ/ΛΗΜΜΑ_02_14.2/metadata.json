@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_14.2",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 2,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 2
+      }
+    ],
+    "display": "Mark 14:2"
+  },
+  "lemma_quote": "Ἔλεγον δὲ, Μὴ ἐν τῇ ἑορτῇ, μήποτε θόρυβος ἔσται τοῦ λαοῦ. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

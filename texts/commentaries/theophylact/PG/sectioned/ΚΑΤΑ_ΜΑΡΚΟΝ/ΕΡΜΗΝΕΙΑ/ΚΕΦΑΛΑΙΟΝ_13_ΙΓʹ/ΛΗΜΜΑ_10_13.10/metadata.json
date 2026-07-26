@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_13.10",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 10,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 10
+      }
+    ],
+    "display": "Mark 13:10"
+  },
+  "lemma_quote": "«Εἰς πᾶσαν τὴν γῆν ἐξῆλθεν ὁ φθόγγος αὐτῶν. καὶ εἰς τὰ πέρατα τῆς οἰκουμένης τὰ ὁήματα αὐτῶν. α Καὶ τοῦτο δὲ εἰς κατάκρισιν πλείονα τῶν Ἱουδαίων γέγονε, τὸ πρὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.241,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "13.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 52
+      }
+    ],
+    "display": "Matthew 13:52"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς · Δεὰ τοῦτο πᾶς γραμματεὺς μαθητευθεὶς εἰς τὴν βασιλείαν τῶν οὐρανῶν, ὅμοιός ἐστιν ἀνθρώπῳ οἰκοδεσπότῃ, ὅστις ἐκβάλλει ἐκ τοῦ θησαυροῦ αὐτοῦ καινὰ καὶ παλαιά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.987,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

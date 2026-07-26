@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_13.24",
+  "gospel": "matthew",
+  "chapter": 13,
+  "index": 32,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 13,
+      "verse": 49
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 49
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 49
+      }
+    ],
+    "display": "Matthew 13:49"
+  },
+  "lemma_quote": "οὕτως ἔσται ἐν τῇ συντελείᾳ τοῦ αἰῶνος. Ἐξελεύσονται οἱ ἄγγελοι, καὶ ἀφοριοῦσι τοὺς πονηροὺς ἐκ μέσου τῶν δικαίων, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.999,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

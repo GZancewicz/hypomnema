@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 25:32"
+  },
+  "lemma_quote": "συναχθήσονται ἔμπροσθεν αὐτοῦ πάντα τὰ ἔθνη, καὶ ἀφοριεῖ αὐτοὺς ἀπ´ ἀλλήλων, ὥσπερ ὁ ποιμὴν ἀφορίζει τὰ πρόθατα ἀπὸ τῶν ἐρίφων, καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.925,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

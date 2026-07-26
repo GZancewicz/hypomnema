@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_21.24",
+  "gospel": "john",
+  "chapter": 21,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 25
+      }
+    ],
+    "display": "John 21:25"
+  },
+  "lemma_quote": "Οὗτός ἐστιν ὁ μαθητὴς ὁ μαρτυρών περὶ τούτων, καὶ γράψας ταῦτα· καὶ ὁἵδαμεν, ὅτι ἀληθής, ἐστιν ἡ μαρτυρία αὐτοῦ. Ἔστι δὲ καὶ ἄλλα πολλὰ, ὄσα ἐποίησεν ὁ Ἰησοῦς, ἅτινα ἐὰν γράφηται καθ´ ἕν, οὐδὲ αὐτὸν οἷμαι τὸν κόσμον χωρῆσαι τὰ γραφόμενα βιβλία.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.741,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

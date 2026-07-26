@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_3.31",
+  "gospel": "mark",
+  "chapter": 3,
+  "index": 25,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 3,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 31
+      }
+    ],
+    "display": "Mark 3:31"
+  },
+  "lemma_quote": "«Ἔρχονται οὗν οἱ ἀδελφοὲ καὶ ἡ μήτηρ αὐτοῦ. Καὶ ἔξω ἑστῶτες ἀπέστειλαν πρὸς αὐτὸν φωνοῦντες αὐτὸν. καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.958,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.31",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_94_22.65",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 94,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 65
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 65
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 65
+      }
+    ],
+    "display": "Luke 22:65"
+  },
+  "lemma_quote": "ἕτερα πολλὰ βλασφημοῦντες εἰς αὐτὸν, ἔλεγον. Καὶ ώς",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.65",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

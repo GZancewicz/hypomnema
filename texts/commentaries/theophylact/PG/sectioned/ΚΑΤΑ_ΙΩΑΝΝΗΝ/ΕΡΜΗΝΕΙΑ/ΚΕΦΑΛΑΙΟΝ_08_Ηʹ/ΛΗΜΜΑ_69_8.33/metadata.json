@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_69_8.33",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 69,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 33
+      }
+    ],
+    "display": "John 8:33"
+  },
+  "lemma_quote": "«Ἀπεκρίθησαν, καὶ εἶπον αὐτῷ· Σπέρμα Ἀβραάμ ἐσιλεν καὶ ρὐδενὶ δεδουλεύκαμεν πώποτε· πῶς σὕ λέγεις, ὅτι Ἐλεύθεροι γενήσεσθε;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.863,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_88_4.36",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 88,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 36
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 36
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 36
+      }
+    ],
+    "display": "John 4:36"
+  },
+  "lemma_quote": "θερίζων, μισθὸν λαμβάνει, καὶ συνάγει καρπὸν εἰς ζωὴν αἰώνιον· ἵνα καὶ ὁ σπείρων ὁμοῦ χαίρῃ καὶ ὁ θερίζων. Ἐν γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.989,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.36",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

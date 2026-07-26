@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_16.11",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 30,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 9
+      }
+    ],
+    "display": "John 16:9"
+  },
+  "lemma_quote": "Περὶ ἀμαρτίας",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.537,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

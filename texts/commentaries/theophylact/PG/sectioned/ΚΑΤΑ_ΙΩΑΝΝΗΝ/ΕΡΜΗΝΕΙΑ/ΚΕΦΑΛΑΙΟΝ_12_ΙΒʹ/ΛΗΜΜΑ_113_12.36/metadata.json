@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_113_12.36",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 113,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 35
+      }
+    ],
+    "display": "John 12:35"
+  },
+  "lemma_quote": "Ἔτι μικρὸν χρόνον τὸ φῶς μεθ’´ ὑμῶν ἐστι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.586,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

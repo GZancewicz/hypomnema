@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_14.33",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 31,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 33
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 33
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 33
+      }
+    ],
+    "display": "Matthew 14:33"
+  },
+  "lemma_quote": "Οὐ μή σε ἀπαρνήπομαι ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "14.33",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

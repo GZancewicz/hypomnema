@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_9.8",
+  "gospel": "matthew",
+  "chapter": 9,
+  "index": 8,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 9,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 8
+      }
+    ],
+    "display": "Matthew 9:8"
+  },
+  "lemma_quote": "Ἰδόντες δὲ οἱ ὄχλοι ἐθαύμασαν, καὶ ἐδόΚξασαν τὸν Θεὸν τὸν δόντα ἐξουσίαν τοιαύτην τοῖς ἀνθρώποις.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.945,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

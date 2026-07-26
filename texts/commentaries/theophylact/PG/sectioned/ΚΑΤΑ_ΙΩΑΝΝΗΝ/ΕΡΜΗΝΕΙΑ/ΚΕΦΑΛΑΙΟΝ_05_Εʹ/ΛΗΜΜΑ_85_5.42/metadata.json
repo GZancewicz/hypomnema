@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_85_5.42",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 85,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 42
+      }
+    ],
+    "display": "John 5:42"
+  },
+  "lemma_quote": "Ἔγνωκα γὰρ ὑμᾶς, ὅτι τὴν ἀγάπην τοῦ Θεοῦ οὐκ ἔχετε ἐν ἑαυτοῖς·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.911,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

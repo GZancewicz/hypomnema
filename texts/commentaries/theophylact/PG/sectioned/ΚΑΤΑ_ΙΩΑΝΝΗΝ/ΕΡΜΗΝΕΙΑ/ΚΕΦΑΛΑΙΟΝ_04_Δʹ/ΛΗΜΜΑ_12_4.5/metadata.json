@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_4.5",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 12,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 6
+      }
+    ],
+    "display": "John 4:6"
+  },
+  "lemma_quote": "«Ὁ οὐν Ἰησοῦς κεκοπιακὼς ἐκ τῆς ὁδοιπορίας, ἐκαθέζετο οὕτως ἐπὶ τῇ πηγῇ. Ὢρα ἦν ὡσεὶ ἕκτη. Ἔμχεται γυνὴ ἐκ τῆς Σαμαρείας ἀντλῆσαι ὕδωρ. Λέγει αὐτῇ ὁ Ἰησοῦς· Δός",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.762,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.5",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

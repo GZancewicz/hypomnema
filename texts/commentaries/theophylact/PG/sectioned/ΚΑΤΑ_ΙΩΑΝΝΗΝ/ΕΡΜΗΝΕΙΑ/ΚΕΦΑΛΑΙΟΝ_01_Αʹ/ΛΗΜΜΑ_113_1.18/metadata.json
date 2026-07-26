@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_113_1.18",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 113,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 18
+      }
+    ],
+    "display": "John 1:18"
+  },
+  "lemma_quote": "ὲδόθη.· «Θιὸν οὐδεὶς ἑώρακε πώποτε· ὁ μονογενὴς ΥΓὸς. ὁ ὤν ἐν τοῖς κόλποις τοῦ Πατρὸς, ἐκεῖνος ἐξηγήσατο.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.747,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_28.10",
+  "gospel": "matthew",
+  "chapter": 28,
+  "index": 9,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 28,
+      "verse": 10
+    },
+    "end": {
+      "chapter": 28,
+      "verse": 10
+    },
+    "verses": [
+      {
+        "chapter": 28,
+        "verse": 10
+      }
+    ],
+    "display": "Matthew 28:10"
+  },
+  "lemma_quote": "λέγει αὐταῖς ὁ Ἱησοῦς· Μὴ φοβεῖσθε. Ὑπάγετε, ἀπαγγείλατε τοῖς ἀδελφοῖς μου ἵνα ἀπέλθωσιν εἰς τὴν Γαλιλαίαν, κἀκεῖ με ὄψονται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.96,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "28.10",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

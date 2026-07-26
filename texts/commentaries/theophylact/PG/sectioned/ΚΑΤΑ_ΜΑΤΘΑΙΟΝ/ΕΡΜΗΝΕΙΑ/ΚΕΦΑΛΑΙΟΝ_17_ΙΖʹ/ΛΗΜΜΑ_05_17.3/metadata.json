@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_17.3",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 5,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 17:3"
+  },
+  "lemma_quote": "Καὶ ἰδοὺ ὥφθησαν αὐτοῖς Μωσῆς καὶ Ἡλίας, μετ´ αὐτοῦ συλλαλοῦντες.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

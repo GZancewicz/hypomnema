@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_42_2.19",
+  "gospel": "matthew",
+  "chapter": 2,
+  "index": 42,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 2,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 2:19"
+  },
+  "lemma_quote": "Τελευτήσαντος δὲ Ἡρώδου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.477,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

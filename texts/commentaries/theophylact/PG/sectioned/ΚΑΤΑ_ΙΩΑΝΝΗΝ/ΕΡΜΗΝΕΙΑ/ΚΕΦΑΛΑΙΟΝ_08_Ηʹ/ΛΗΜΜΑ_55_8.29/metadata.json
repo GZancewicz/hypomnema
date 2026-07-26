@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_55_8.29",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 55,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 28
+      }
+    ],
+    "display": "John 8:28"
+  },
+  "lemma_quote": "Εἶπεν οὖν αὐτοῖς ὁ Ἰησοῦς· Ὅταν ὑψώσητε τὸν Υλν τοῦ ἀνθρώπου, τότε γνώσεσθε, ὅτι ἐγώ εἰμι, καὶ ἀπ´ ἐμαυτοῦ ποιῶ οὐδὲν, ἀλλὰ καθὼς ἐδίδαξέ με ῥ Πατήρ μου, ταῦτα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.936,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

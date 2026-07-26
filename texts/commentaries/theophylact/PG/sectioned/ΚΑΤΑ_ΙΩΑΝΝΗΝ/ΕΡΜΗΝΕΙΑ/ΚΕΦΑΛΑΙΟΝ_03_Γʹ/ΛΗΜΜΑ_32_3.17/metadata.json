@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_32_3.17",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 32,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 18
+      }
+    ],
+    "display": "John 3:18"
+  },
+  "lemma_quote": "Θεὸν γὰρ, φησὶν. ἄμολογοῦσιν εἰδέναι, τοῖς δὲ ἔργοις ἀρνοῦνται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.235,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "3.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

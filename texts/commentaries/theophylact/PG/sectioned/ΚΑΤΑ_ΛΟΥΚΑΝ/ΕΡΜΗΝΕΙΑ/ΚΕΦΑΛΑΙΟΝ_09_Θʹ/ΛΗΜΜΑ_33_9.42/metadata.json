@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_9.42",
+  "gospel": "luke",
+  "chapter": 9,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 9,
+      "verse": 42
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 42
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 42
+      }
+    ],
+    "display": "Luke 9:42"
+  },
+  "lemma_quote": "προσερχομένου αὐτοῦ, ἔῤῥηξεν αὐτὸν τὸ δαιμόνιον καὶ συνεσπάραξεν. Ἐπετίμησε δὲ ὁ Ἰησοῦς τῷ πνεύματι τῷ ἁκαθάρτῳ, καὶ ἰάσατο τὸν παῖδα, καὶ ἀπέδωκεν αὐτὸν τῷ πατρὶ αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.962,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.42",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_5.1",
+  "gospel": "luke",
+  "chapter": 5,
+  "index": 1,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 5,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 1
+      }
+    ],
+    "display": "Luke 5:1"
+  },
+  "lemma_quote": "«Ἐγένετο δὲ ἐν τῷ τὸν ὄχλον ἐπικεῖσθαι αὐτῷ τοῆ Χνούειν τὸν λόγον τοῦ Θεοῦ. καὶ αὐτὸς ἦν ἐστὼς παρὰ τὴν λίμνην Γεννησαρέτ. Καὶ εἶδε δύο πλοῖα ἐστῶτα παρὰ τὴν λί",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.813,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.1",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

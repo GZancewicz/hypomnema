@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_19.7",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 9,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 21
+      }
+    ],
+    "display": "John 19:21"
+  },
+  "lemma_quote": "Τὸν βασιλέα τῶν Ἰουδαίων ἀπολύσω,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.365,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.7",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

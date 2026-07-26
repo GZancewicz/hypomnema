@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_4.25",
+  "gospel": "luke",
+  "chapter": 4,
+  "index": 19,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 4,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 25
+      }
+    ],
+    "display": "Luke 4:25"
+  },
+  "lemma_quote": "ἀληθείας δὲ λέγω ὑμῖν, πολλαὶ χῆραι ἦσαν ἐν ταῖς ἡμέραις Ἠλιοὺ ἐν τῷ Ἰσραὴλ, ὅτε ἐκλείσθη ὁ οὐρανὸς ἐπὶ ἔτη τρία καὶ μῆνας ἓξ, ὡς ἐγένετο λιμὸς μέγας ἐπὶ πᾶσαν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.969,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.25",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

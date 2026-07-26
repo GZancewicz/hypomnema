@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_22.26",
+  "gospel": "matthew",
+  "chapter": 22,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 22,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 22:26"
+  },
+  "lemma_quote": "ὁμοίως καὶ ὁ δεύτερος, καὶ ὁ τρίτος, ἕως τῶν ἐπτά.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.26",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

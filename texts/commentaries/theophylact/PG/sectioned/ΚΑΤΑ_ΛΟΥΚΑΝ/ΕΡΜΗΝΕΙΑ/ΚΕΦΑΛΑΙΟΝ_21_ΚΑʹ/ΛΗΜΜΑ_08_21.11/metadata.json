@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_08_21.11",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 8,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 12
+      }
+    ],
+    "display": "Luke 21:12"
+  },
+  "lemma_quote": "«Πρὸ δὲ τούτων πάντων ἐπιβαλοῦσιν ἐφ´ ὑμᾶς τὰς χῆρας αὐτῶν καὶ διώξουσιν, παραδιδόντες εἰς συνανωνὰς καὶ φυλακὰς ἀγομένους ἐπὶ βασιλεῖς, καὶ ἡγεμόνας ἕνεκεν τοῦ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.847,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "21.11",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

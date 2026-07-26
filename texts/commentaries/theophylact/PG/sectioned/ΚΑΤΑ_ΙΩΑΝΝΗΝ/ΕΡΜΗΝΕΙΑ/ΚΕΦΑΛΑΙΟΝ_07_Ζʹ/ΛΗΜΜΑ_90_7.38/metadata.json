@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_90_7.38",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 90,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 39
+      }
+    ],
+    "display": "John 7:39"
+  },
+  "lemma_quote": "Τοῦτο δὲ εἶπε περὶ τοῦ Πνεύματος, οὗ ἕμελλον λαμβάνειν οἱ πιστεύοντες εἰς αὐτόν. Οὕπω γὰρ ην Πνεῦμα ἅγιον, ὅτι Ἰησοῦς οὐδέπω ἐδοξάσθη.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.38",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

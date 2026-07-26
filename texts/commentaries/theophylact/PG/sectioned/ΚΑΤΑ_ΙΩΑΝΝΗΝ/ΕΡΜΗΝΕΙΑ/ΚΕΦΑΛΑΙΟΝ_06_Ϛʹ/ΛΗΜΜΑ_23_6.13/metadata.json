@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_6.13",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 23,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 56
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 56
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 56
+      }
+    ],
+    "display": "John 6:56"
+  },
+  "lemma_quote": "Ἐγκαταλέλοιπα τὸν οἷκόν μου, ἀφῆκα τὴν κληρονομίαν μιυ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.409,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_6.8",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 9
+      }
+    ],
+    "display": "John 6:9"
+  },
+  "lemma_quote": "Ἀλλὰ ταῦτα τί ἐστιν εἰς τοσούτους;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.501,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.8",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

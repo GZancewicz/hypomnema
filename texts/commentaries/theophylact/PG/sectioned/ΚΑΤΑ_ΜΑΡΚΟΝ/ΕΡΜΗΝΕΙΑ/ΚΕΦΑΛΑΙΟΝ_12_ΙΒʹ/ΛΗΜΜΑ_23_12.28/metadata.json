@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_12.28",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 23,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 28
+      }
+    ],
+    "display": "Mark 12:28"
+  },
+  "lemma_quote": "«Καὶ προσελθὼν εἷς τῶν Γραμματέων, ἀκούσας αὐτῶν συζητούντων, εἰδὼς ὅτι καλῶς αὐτοῖς ἀπεκρίθη. ἐπηρώτησεν αὐτὸν, ποία ἐστὶ πρώτη πασων ἐντολή; Ὁ δὲ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.901,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.28",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

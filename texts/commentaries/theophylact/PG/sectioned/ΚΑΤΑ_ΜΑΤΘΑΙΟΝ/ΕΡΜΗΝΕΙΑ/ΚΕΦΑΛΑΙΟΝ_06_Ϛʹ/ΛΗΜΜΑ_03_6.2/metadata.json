@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_6.2",
+  "gospel": "matthew",
+  "chapter": 6,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 16
+      }
+    ],
+    "display": "Matthew 6:16"
+  },
+  "lemma_quote": "Ἀμὴν λέγω ὑμῖν, ὅτι ἀπέχουσι τὸν μισθὸν αὐτῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.502,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.2",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

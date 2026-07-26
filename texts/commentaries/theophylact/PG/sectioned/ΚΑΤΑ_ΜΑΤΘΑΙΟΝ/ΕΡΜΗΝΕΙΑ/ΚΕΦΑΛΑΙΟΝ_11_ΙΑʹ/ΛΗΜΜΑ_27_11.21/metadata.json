@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_11.21",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 11:22"
+  },
+  "lemma_quote": "Ὅτι εἰ ἐν Τύρῳ καὶ Σιδῶνι ἐγένοντο αἱ δυνάμεις αἱ γενόμεναι ἐν ὑμῖν, πάλαι ἂν ἐν σάκκω καὶ σποδῷ μετενόησαν. Πλὴν λέγω ὑμῖν, Τύρῳ καὶ ΣιΣῶνι ἀνεκτότερον ἔσται ἐν ἡμέρᾳ κρίσεως, ἢ ὑμῖν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.753,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

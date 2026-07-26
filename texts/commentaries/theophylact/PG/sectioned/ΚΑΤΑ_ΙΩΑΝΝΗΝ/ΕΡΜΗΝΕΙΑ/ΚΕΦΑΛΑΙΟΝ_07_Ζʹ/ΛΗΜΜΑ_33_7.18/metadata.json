@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_7.18",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 18
+      }
+    ],
+    "display": "John 7:18"
+  },
+  "lemma_quote": "ἀλλὰ τοῦ Πατρός μοῦ ἐστιν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.297,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "7.18",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

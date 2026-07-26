@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_34_24.24",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 34,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 24:22"
+  },
+  "lemma_quote": "Ἐξέστησαν ἡμᾶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.521,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

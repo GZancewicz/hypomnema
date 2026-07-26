@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_1.19",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 18
+      }
+    ],
+    "display": "Matthew 1:18"
+  },
+  "lemma_quote": "Εὑρέθη ἐν γαστρὶ ἔχουσα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.432,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.19",
+  "folder_suffix_agrees": false,
+  "notes": "Re-quotes 1:18 («Εὑρέθη ἐν γαστρὶ ἔχουσα») within the 1:19 discussion; coverage follows the quote (1:18)."
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_14.61",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 53,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 61
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 61
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 61
+      }
+    ],
+    "display": "Mark 14:61"
+  },
+  "lemma_quote": "ἐσιώπα καὶ οὐδὲν ἀπεκρίνατο",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.591,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.61",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

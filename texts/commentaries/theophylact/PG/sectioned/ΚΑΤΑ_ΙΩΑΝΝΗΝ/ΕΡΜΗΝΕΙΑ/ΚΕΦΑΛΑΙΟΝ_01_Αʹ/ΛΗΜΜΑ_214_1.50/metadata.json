@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_214_1.50",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 214,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 50
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 50
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 50
+      }
+    ],
+    "display": "John 1:50"
+  },
+  "lemma_quote": "«Ἀπεκοίθη Ναθαναὴλ, καὶ λέγει αὐτῷ· Ῥαββὶ, σὺ εἶ ὁ Υἱὸς τοῦ Θεοῦ, σὺ εἶ ὁ βασιλεὺς τοῦ Ἰσραήλ. Ἀπεκρίθη Ἰησοῦς, καὶ εἶπεν αὐτῷ· Ὅτι εῖπόν σοι, Εἶδόν σε ὑποκάτω",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.742,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.50",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

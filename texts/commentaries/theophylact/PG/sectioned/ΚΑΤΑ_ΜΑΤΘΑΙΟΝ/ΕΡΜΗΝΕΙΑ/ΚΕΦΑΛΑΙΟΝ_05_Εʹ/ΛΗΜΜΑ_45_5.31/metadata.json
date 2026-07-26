@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_45_5.31",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 45,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 32
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 32
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 32
+      }
+    ],
+    "display": "Matthew 5:32"
+  },
+  "lemma_quote": "Ἐγὼ δὲ λέγω ὑμῖν, ὅτι πᾶς ὁ ἀπολύων τὴν γυναῖκα αὐτοῦ, παρεκτὸς λόγου πορνείας, ποιεῖ αὐτὴν μοιχᾶσθαι· καὶ ὃς ἂν ἀπολελυμένην γαμήσῃ, μοιχἄται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.921,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.31",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_15.18",
+  "gospel": "luke",
+  "chapter": 15,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 15,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 22
+      }
+    ],
+    "display": "Luke 15:22"
+  },
+  "lemma_quote": "«Εἶπε δὲ ὁ πατὴρ πρὸς τοὺς δούλους αὐτοῦ· Ἐξενέγκατε τὴν στολὴν τὴν πρώτην, καὶ ἐνδύσατε αὐτὸν καὶ δότε δακτύλιον εἰς τὴν χεῖρα αὐτοῦ, καὶ ὑποδήματα εἰς τοὺς πό",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.97,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

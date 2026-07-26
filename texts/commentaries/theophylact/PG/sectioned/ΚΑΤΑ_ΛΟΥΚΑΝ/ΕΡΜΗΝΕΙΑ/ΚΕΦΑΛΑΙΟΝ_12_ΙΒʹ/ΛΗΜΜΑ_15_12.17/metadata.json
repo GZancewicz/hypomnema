@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_12.17",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 15,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 17
+      }
+    ],
+    "display": "Luke 12:17"
+  },
+  "lemma_quote": "διελογίζετο ἐν ἐαυτῷ λέγων· Τί ποιήσω, ὅτι οὐκ ἔχω ποῦ συνάξω τοὺς καρπούς μου; Καὶ εἶπε· Τοῦτο τοοιήσω, καθελῶ μου τὰς ἀποθήκας, καὶ μείζονας οἰκοδομήσω, καὶ σ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.774,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

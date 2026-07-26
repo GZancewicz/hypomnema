@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_62_1.69",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 62,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 69
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 69
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 69
+      }
+    ],
+    "display": "Luke 1:69"
+  },
+  "lemma_quote": "Κὐλογῶν εὐλογήσω σε, καὶ πληθύνων πληθυνω σε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.021,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.69",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

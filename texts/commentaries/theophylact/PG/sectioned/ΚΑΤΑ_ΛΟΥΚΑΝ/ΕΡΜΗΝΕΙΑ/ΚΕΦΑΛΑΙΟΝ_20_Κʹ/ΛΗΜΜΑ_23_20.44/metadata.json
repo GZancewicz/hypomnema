@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_20.44",
+  "gospel": "luke",
+  "chapter": 20,
+  "index": 23,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 20,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 45
+      }
+    ],
+    "display": "Luke 20:45"
+  },
+  "lemma_quote": "Δαυὶδ οὖν Κύριον αὐτὸν καλεῖ, καὶ πῶ υἱὸς αὐτοῦ ἐστιν; Ἀκούοντος δὲ παντὸς τοῦ λαοῦ, εἕπε τοῖς μαθηταῖς αὐτοῦ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.716,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

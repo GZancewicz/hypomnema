@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_27_24.28",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 27,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 29
+      }
+    ],
+    "display": "Matthew 24:29"
+  },
+  "lemma_quote": "Εὸθές δὲ μετὰ τὴν θλίψιν τῶν ἡμερῶν ἐκείνων ὁ ἤλιος σκοτισθήσεται, καὶ ἡ σελήνη οὐ δώσει τὸ φέγγος αὐτῆς, καὶ οἱ ἀστέρες πεσοῦνται ἀπὸ τοῦ οὐρανοῦ, καὶ αἱ δυνάμεις τῶν οὐρανῶν σαλευθήσονται",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.969,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

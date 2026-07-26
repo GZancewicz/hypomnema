@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_02_20.2",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 2,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 2
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 2
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 2
+      }
+    ],
+    "display": "John 20:2"
+  },
+  "lemma_quote": "Τρέχει οὗν, καὶ ἔρχεται πρὸς Σίμωνα Πέτρον, καὶ πρὸς τὸν ἄλλον μαθητὴν, ὃν ἐφίλει ὁ Ἰησοῦς καὶ λέγει αὐτοῖς· Ἢραν τὸν Κύριον ἐκ τοῦ μνημείου, καὶ οὐκ οἴδαμεν, π",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.2",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_92_17.18",
+  "gospel": "john",
+  "chapter": 17,
+  "index": 92,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 17,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 17
+      }
+    ],
+    "display": "John 17:17"
+  },
+  "lemma_quote": "Ἄγίασον",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.387,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.18",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

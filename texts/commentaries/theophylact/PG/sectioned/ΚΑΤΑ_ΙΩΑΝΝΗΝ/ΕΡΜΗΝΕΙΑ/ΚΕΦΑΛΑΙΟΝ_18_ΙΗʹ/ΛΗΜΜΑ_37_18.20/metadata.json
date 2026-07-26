@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_18.20",
+  "gospel": "john",
+  "chapter": 18,
+  "index": 37,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 20
+      }
+    ],
+    "display": "John 18:20"
+  },
+  "lemma_quote": "Ἀπεκρίθη αὐτῷ ὁ Ἰησοῦς· Ἐγὼ παῤῥησίᾳ ἐλάλησα τῷ κόσμῳ, ἐγὼ πάντοτε ἐδίδαξα ἐν τῆ συναγωγῇ καὶ ὲν τῷ ἱερῷ, ὅπου πάντες οἱ Ἰουδαῖοι συνέρχονται, καὶ ἐν κρυπτῷ ἐλά",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.889,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "18.20",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

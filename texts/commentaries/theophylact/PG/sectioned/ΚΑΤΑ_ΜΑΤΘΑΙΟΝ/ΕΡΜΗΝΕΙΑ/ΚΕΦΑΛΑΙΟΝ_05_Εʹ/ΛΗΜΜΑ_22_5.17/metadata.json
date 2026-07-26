@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_5.17",
+  "gospel": "matthew",
+  "chapter": 5,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 17
+      }
+    ],
+    "display": "Matthew 5:17"
+  },
+  "lemma_quote": "Ἵνα πληρωθῇ τὸ ῥηθὲν διὰ τοῦ προφήτου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.172,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

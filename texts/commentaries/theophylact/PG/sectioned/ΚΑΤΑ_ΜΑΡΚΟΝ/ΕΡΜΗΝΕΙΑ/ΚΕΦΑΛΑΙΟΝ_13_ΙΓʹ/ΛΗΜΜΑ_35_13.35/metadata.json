@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_13.35",
+  "gospel": "mark",
+  "chapter": 13,
+  "index": 35,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 13,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 13,
+        "verse": 35
+      }
+    ],
+    "display": "Mark 13:35"
+  },
+  "lemma_quote": "Γρηγοραῖτε αὖν· οὐκ οἴδατε γὰρ πότε ὁ Κύριος τῆς. οἰκίας ὄρχεται, ὀψὲ, ἢ μεσονυκτίου, ἢ ἀλεκτοροφαωνίπς, ἢ πρωῖ· μὴ ἐλθὼν ἐξαίφνης εὕρῃ ὑμᾶς καὲεύδοντας. Ἃ δὲ ὑμῖν λέγω, πᾶσι λέγω, Γρηγορεῖτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.588,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "13.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_20_14.21",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 20,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 18
+      }
+    ],
+    "display": "Mark 14:18"
+  },
+  "lemma_quote": "Ες ἐξμῶν παραδώσει με.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.952,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

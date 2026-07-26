@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_89_22.61",
+  "gospel": "luke",
+  "chapter": 22,
+  "index": 89,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 22,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 22,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 22,
+        "verse": 57
+      }
+    ],
+    "display": "Luke 22:57"
+  },
+  "lemma_quote": "ρξατο καταναθεματίζειν, καὶ ὁμνύειν Ἐτι Οὐκ οἶδα τὸν ἄνθρωπον.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.428,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "22.61",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

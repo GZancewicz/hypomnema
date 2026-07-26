@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_49_12.50",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 49,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 50
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 50
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 50
+      }
+    ],
+    "display": "Matthew 12:50"
+  },
+  "lemma_quote": "Ὅστις γὰρ ἂν ποιήσῃ τὸ θέλημα τοῦ Πατρός μου τοῦ ἐν οὐρανοῖς, αὐτός μου ἀδελφὸς καὶ ἀδελφή καὶ μήτηρ ἀστίν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.982,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.50",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

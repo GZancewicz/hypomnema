@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_13_11.16",
+  "gospel": "luke",
+  "chapter": 11,
+  "index": 13,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 11,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 16
+      }
+    ],
+    "display": "Luke 11:16"
+  },
+  "lemma_quote": "Ἔτεροι δὲ πειράζοντες, σημεῖον παρ´ αὐτοῦ ἐζήτουν ἐξ οὐρανοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.16",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

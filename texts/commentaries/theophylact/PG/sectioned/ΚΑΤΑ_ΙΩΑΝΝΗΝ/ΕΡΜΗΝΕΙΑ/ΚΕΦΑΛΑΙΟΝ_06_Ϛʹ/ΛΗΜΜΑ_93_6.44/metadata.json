@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_93_6.44",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 93,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 52
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 52
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 52
+      }
+    ],
+    "display": "John 6:52"
+  },
+  "lemma_quote": "«Ἐμάχοντο οὖν πρὸς ἀλλήλους οἱ Ἰουδαῖοι, λέγοντες · Πῶς δύναται οὗτος ἡμῖν δοῦναι τὴν σάρκα φαγεῖν;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.44",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

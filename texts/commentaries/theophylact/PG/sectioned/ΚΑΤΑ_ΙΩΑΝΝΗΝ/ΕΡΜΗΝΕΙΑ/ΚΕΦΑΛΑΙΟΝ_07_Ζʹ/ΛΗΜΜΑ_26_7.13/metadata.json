@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_26_7.13",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 26,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 12
+      }
+    ],
+    "display": "John 7:12"
+  },
+  "lemma_quote": "Πλανᾷ τὰν ὄχλον,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.41,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.13",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

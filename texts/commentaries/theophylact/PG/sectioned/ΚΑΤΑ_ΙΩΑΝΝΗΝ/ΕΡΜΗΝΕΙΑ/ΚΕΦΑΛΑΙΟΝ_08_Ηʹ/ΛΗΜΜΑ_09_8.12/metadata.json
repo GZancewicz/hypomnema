@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_09_8.12",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 9,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 12
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 12
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 12
+      }
+    ],
+    "display": "John 8:12"
+  },
+  "lemma_quote": "«Ἐγώ εἰμι τὸ φῶς τοῦ κόσμου. Αὐτὸς γὰρ ὁ φαινόμενος ἄνθρωπος, ὁ αὐτὸς ἦν καὶ Υἱὸς τοῦ Θεοῦ, καὶ φῶς τοῦ κόσμου· οὐχ ὥσπερ Νεστόριος ἐλήρει, ὅτι ἐν τῷ ἀνθρώπῳ τῷ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.462,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.12",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_28_6.29",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 28,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 29
+      }
+    ],
+    "display": "Mark 6:29"
+  },
+  "lemma_quote": "ἀκούσαντες οἱ μαθηταὶ αὐτοῦ, ἦλθον καὶ ἦραν τὸ πτῶμα αὐτοῦ, καὶ ἔθηκαν αίτὸ ἐν μνημείῳ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.932,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.29",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

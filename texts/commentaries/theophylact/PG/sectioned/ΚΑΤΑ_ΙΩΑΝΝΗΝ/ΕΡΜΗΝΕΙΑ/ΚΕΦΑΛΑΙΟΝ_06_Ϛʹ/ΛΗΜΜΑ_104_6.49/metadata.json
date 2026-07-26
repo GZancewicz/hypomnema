@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_104_6.49",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 104,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 60
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 60
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 60
+      }
+    ],
+    "display": "John 6:60"
+  },
+  "lemma_quote": "Πολλοὶ οὖν ἀκούσαντες ἐκ τῶν μαθητῶν αὐτοῦ, εἶπον· Σκληρός ἐστιν ὁ λόγος οὐτος· τίς τῷ, ὅτι γογγύζουσι περὶ τούτου οἱ μαθηταὶ αὐτοῦ, εἶπεν αὐτοῖς· Τοῦτο ὑμᾶς σκανδαλίζει· Ἐὰν οὖν εωρῆτε τὸν Υἱν τοῦ ἀνθρώπου ἀναβαίνοντα, ὅπου ἦν τὸ πρότερον;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.578,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.49",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

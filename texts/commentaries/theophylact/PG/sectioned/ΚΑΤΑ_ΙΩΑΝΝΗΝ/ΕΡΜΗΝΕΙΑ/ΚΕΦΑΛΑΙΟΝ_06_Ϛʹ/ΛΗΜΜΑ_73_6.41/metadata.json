@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_73_6.41",
+  "gospel": "john",
+  "chapter": 6,
+  "index": 73,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 6,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 38
+      }
+    ],
+    "display": "John 6:38"
+  },
+  "lemma_quote": "Ἐκ τοῦ οὐρανοῦ καταβέβηκα.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.411,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_11.17",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 26
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 26
+      }
+    ],
+    "display": "Matthew 11:26"
+  },
+  "lemma_quote": "« ἀρέσκει, κἂν αὐλῇ, οὐδ´ οὕτως.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.382,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

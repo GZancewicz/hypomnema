@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_24.27",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 25,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 27
+      }
+    ],
+    "display": "Matthew 24:27"
+  },
+  "lemma_quote": "Ὥσπερ γὰρ ἡ ἀστραπὴ ἐξέρχεται ἀπὸ ἀνατολῶν καὶ φαίνεται ἕως δυσμῶν, οὔτως ἔσται ἡ παρουσία τοῦ Υἱοῦ τοῦ ἀνθρώπου· ὅπου γὰρ ἐὰν ᾗ τὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.923,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_10_3.9",
+  "gospel": "luke",
+  "chapter": 3,
+  "index": 10,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 3,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 9
+      }
+    ],
+    "display": "Luke 3:9"
+  },
+  "lemma_quote": "ἀξίνη πρὸς τὴν ῥιζαν ὑμῶν τῶν δένδρων Νοεῖται μὲν οὖν ῥίζα, ἡ ζωή, ὡς εἴπομεν. Νοηθείη δ´ ἂν καὶ ῥίζα, ἡ τοῦ Ἀβραὰμ συγγένεια· ἀφ´ ἦε συγγενείας τοῦ Ἀβραὰμ ἐκκό",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.396,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.9",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

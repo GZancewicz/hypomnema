@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_17.21",
+  "gospel": "matthew",
+  "chapter": 17,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 17,
+      "verse": 20
+    },
+    "end": {
+      "chapter": 17,
+      "verse": 20
+    },
+    "verses": [
+      {
+        "chapter": 17,
+        "verse": 20
+      }
+    ],
+    "display": "Matthew 17:20"
+  },
+  "lemma_quote": "Ἐρεῖτε τῷ ὄρει τούτῳ, Μετάβηθι,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.421,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "17.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_87_10.30",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 87,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 29
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 29
+      }
+    ],
+    "display": "John 10:29"
+  },
+  "lemma_quote": "Τὰ πρόβατά μου ἐμοὶ ἀκολουθοῦσι, καὶ οὐ μὴ ἀπόλωνται·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.335,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "10.30",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

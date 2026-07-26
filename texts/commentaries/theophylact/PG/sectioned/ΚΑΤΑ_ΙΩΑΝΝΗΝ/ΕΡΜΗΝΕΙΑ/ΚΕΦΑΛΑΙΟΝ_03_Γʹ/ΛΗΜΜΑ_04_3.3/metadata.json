@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_04_3.3",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 4,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 3
+      }
+    ],
+    "display": "John 3:3"
+  },
+  "lemma_quote": "Ἀπεκρίθη ὁ Ἰησοῦς, καὶ εἴπεν αὐτῷ· Ἀμὴν, ἀμὴν λέγω σοι, ἐὰν μή τις γεννηθῇ ἁνωθεν. οὐ δὐναται ἰδεῖν τὴν βασιλείαν τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

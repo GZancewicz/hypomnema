@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_19.14",
+  "gospel": "luke",
+  "chapter": 19,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 19,
+      "verse": 14
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 14
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 14
+      }
+    ],
+    "display": "Luke 19:14"
+  },
+  "lemma_quote": "Χαῖρε σφόδρα, θύγατερ Σιὼν, ὅτι Βασιλεύς σου ἔρχεταί σοι δίκαιος, καὶ σώζων·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.315,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "19.14",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

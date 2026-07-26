@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_37_18.42",
+  "gospel": "luke",
+  "chapter": 18,
+  "index": 37,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 18,
+      "verse": 43
+    },
+    "end": {
+      "chapter": 18,
+      "verse": 43
+    },
+    "verses": [
+      {
+        "chapter": 18,
+        "verse": 43
+      }
+    ],
+    "display": "Luke 18:43"
+  },
+  "lemma_quote": "Αἰτεῖτε γὰρ, φησί, καὶ ολ λακβάνετε, διότι κακῶς αἰτεῖτε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.206,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "18.42",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

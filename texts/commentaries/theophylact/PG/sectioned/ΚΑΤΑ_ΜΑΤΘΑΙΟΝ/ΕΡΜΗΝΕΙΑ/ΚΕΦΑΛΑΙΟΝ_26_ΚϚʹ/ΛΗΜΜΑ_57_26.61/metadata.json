@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_26.61",
+  "gospel": "matthew",
+  "chapter": 26,
+  "index": 57,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 26,
+      "verse": 64
+    },
+    "end": {
+      "chapter": 26,
+      "verse": 64
+    },
+    "verses": [
+      {
+        "chapter": 26,
+        "verse": 64
+      }
+    ],
+    "display": "Matthew 26:64"
+  },
+  "lemma_quote": "Πλὴν λέγω ὑμῖν, ἀπ´ ἄρτι ὄψεσθε τὸν Χἱὸν τοῦ ἀνθρώπου καθήμενον ἐκ δεξιῶν τῆς δυνάμεως, καὶ ἐρχόμενον ἐπὶ τῶν νεφελῶν τοῦ οὐρανοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.912,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "26.61",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

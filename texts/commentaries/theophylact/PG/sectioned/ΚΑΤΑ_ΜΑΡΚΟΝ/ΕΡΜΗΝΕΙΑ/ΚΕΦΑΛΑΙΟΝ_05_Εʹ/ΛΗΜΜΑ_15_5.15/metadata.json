@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_15_5.15",
+  "gospel": "mark",
+  "chapter": 5,
+  "index": 15,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 5,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 15
+      }
+    ],
+    "display": "Mark 5:15"
+  },
+  "lemma_quote": "ἔρχονται πρὸς τὸν Ἰησοῦν, καὶ θεωροῦσι τὸν δαιμονιζέμενον καθήμενον, καὶ ἱματισμένον καὶ σωφρονοῦντα, τὸν ἐσχηκότα τὸν λεγεῶνα, καὶ ἐφοβήθησαν Ἰιηγήσαντο δὲ αὐτ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.955,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "5.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

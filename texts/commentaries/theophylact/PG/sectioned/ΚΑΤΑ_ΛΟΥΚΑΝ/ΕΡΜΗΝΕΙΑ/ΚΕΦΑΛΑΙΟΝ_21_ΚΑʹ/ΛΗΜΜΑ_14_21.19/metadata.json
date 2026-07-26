@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_21.19",
+  "gospel": "luke",
+  "chapter": 21,
+  "index": 14,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 21,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 21,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 21,
+        "verse": 19
+      }
+    ],
+    "display": "Luke 21:19"
+  },
+  "lemma_quote": "Εἰ ὁ ἐχθρὸς ὡνείδισέ με, ὑπήνεγκα ἄν· σὺ δὲ ἄνθρωπε Κσόψυχε.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "21.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

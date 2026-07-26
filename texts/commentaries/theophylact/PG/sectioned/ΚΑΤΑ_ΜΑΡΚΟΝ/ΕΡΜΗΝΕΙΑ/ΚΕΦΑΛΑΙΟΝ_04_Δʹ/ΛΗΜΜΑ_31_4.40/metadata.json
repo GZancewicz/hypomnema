@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_4.40",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 31,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 40
+      }
+    ],
+    "display": "Mark 4:40"
+  },
+  "lemma_quote": "εἷπεν αὐτοῖς· Τί δειλοί ἐστε οὔτω; Πῶς οὐκ ἔχετε πίστιν; Καὶ ἐφοησαν φόβον μέγαν, καὶ ἕλεγον πρὸς ἀλλήλους· Τίς ἄρα οὗτός ἐστιν, ὅτι καὶ ὁἄνεμος καὶ ἡθάλασσα ῥπακούουσιν αὐτῷ;",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.651,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.40",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

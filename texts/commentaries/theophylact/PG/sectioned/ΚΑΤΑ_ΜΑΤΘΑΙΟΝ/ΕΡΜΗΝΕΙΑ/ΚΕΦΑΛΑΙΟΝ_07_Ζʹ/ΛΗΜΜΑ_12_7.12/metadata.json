@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_12_7.12",
+  "gospel": "matthew",
+  "chapter": 7,
+  "index": 12,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 7,
+      "verse": 13
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 13
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 13
+      }
+    ],
+    "display": "Matthew 7:13"
+  },
+  "lemma_quote": "ΕΙσάλθετε διὰ τῆς στενῆς πύλης, ὅτι πλατεῖα ἡ πύλη, καὶ εὐρύχωρος ἡ ὁδὸς ἡ ἀπάγουσα εἰς τὴν ἀπώλειαν, καὶ πολλοί εἰσιν οἱ εἰσερχόμενοι δι αὐτῆς.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.963,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.12",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

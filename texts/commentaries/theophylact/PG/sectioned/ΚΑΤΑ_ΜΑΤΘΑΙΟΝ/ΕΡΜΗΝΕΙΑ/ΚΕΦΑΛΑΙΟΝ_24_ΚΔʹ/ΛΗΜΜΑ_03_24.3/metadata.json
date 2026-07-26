@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_24.3",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 3,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 3
+      }
+    ],
+    "display": "Matthew 24:3"
+  },
+  "lemma_quote": "Καθημένου δὲ αὐτοῦ ἐπὶ τοῦ ὄρους τῶν Ἐλαιῶν, προσῆλθον αὐτῷ οἱ μαθηταὶ αὐτοῦ κατ´ ἰδίαν, λέγοντες · Εἰπὲ ἡμῖν, πότε ταῦτα ἔσται καὶ τί τὸ σημεῖον τῆς σῆς παρουσ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.898,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

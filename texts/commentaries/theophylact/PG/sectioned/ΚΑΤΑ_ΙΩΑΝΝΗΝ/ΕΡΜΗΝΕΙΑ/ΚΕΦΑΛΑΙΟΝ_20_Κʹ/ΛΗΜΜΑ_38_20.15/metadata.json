@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_38_20.15",
+  "gospel": "john",
+  "chapter": 20,
+  "index": 38,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 20,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 20,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 20,
+        "verse": 15
+      }
+    ],
+    "display": "John 20:15"
+  },
+  "lemma_quote": "Λέγει αὐτῇ ὁ Ἰησοῦς· Γύναι, τί κλαίείς ὅ τῖνα ζητεῖς; Ἐκείνη δὲ δοκοῦσα, ὅτι ὁ κητοὺὔόῆ ἐετι, λέγει αὐτῷ· Κύριε, εἰ σὺ ἐβάστασας αὐἈν. εἰπέ μοι, ποῦ ἔθηκας αὐτὸ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.786,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "20.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_11.19",
+  "gospel": "matthew",
+  "chapter": 11,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 11:19"
+  },
+  "lemma_quote": "Ἦλθεν ὁ Υἱὸς τοῦ ἀνθρώπου ἐσθίων καὶ πίνων, καὶ λέγουσιν, Ἰοὺ ἄνθρωπος φάγος καὶ οἰνοπότης, φίλος τελωνῶν καὶ άμαρτωλῶν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.823,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

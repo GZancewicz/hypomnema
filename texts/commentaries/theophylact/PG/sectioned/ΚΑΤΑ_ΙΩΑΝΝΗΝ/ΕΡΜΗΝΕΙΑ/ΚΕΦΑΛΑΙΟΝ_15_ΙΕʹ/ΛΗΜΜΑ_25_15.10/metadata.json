@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_25_15.10",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 25,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 9
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 9
+      }
+    ],
+    "display": "John 15:9"
+  },
+  "lemma_quote": "Μείνατε οὖν ἐν τῇ ἀγάπῃ τῇ ἐμῆ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.593,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.10",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_8.41",
+  "gospel": "luke",
+  "chapter": 8,
+  "index": 33,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 41
+      }
+    ],
+    "display": "Luke 8:41"
+  },
+  "lemma_quote": "ἦλθεν ἀνὴρ, ᾧ ὄνομα Ἰάειρος, καὶ αὐτὸς ἄρχων τῆς Συναγωγης ὑπῆρχε, παι παυυνν παρὰ τοὺς πόδας τοῦ Ἰρϛοῦ, παρεκάλει αὐτὸν εἰαελθεῖν εἰς τὸν οἶκον αὐτοῦ, ὅτι",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.862,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.41",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

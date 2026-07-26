@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_24_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 24,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 30
+      }
+    ],
+    "display": "Matthew 25:30"
+  },
+  "lemma_quote": "ἀχρεῖον δοῦλον ἐκβάλλετε εἰς τὸ σκότος τὸ ἐξώτερον, ἀκεῖ ἕσται ὁ κλαυθμὸς καὶ ὁ βρυγμὸς τῶν ὁδόντων.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.856,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

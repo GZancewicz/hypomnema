@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_30_27.30",
+  "gospel": "matthew",
+  "chapter": 27,
+  "index": 30,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 27,
+      "verse": 30
+    },
+    "end": {
+      "chapter": 27,
+      "verse": 30
+    },
+    "verses": [
+      {
+        "chapter": 27,
+        "verse": 30
+      }
+    ],
+    "display": "Matthew 27:30"
+  },
+  "lemma_quote": "Δεξιὰ Κυνίου ὕψωσέ με.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "27.30",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

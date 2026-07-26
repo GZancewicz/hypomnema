@@ -1,0 +1,36 @@
+{
+  "lemma": "ΛΗΜΜΑ_01_1.1",
+  "gospel": "matthew",
+  "chapter": 1,
+  "index": 1,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 1
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 1
+      }
+    ],
+    "display": "Matthew 1:1"
+  },
+  "lemma_quote": "Βίβλος γενέσεως.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "override",
+  "match_score": 1.0,
+  "adjudicated": true,
+  "continuation": false,
+  "folder_suffix": "1.1",
+  "folder_suffix_agrees": true,
+  "notes": "OCR reads «ΧίΚλρς τενέαεως»; adjudicated as «Βίβλος γενέσεως» (Matt 1:1 opening phrase). Deterministic matcher scored NONE due to OCR corruption; exposition (why 'book' rather than 'vision' or 'word' as the prophets) confirms. Matt 1:1 is split phrase-by-phrase across lemmata 01-05.",
+  "lemma_quote_en": "The book of the generation."
+}

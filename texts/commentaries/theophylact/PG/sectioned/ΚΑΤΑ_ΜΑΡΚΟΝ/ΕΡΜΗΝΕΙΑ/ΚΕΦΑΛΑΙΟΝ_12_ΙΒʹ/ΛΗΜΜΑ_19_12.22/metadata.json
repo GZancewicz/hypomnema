@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_19_12.22",
+  "gospel": "mark",
+  "chapter": 12,
+  "index": 19,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 12,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 22
+      }
+    ],
+    "display": "Mark 12:22"
+  },
+  "lemma_quote": "ἔλαβον αὐτὴν οἱ κπτὰ, καὶ οὐκ ἀφῆκαν σπέρμα. Ἐσχάτη δὲ πάντων ἀπέθανε καὶ ἡ γυνή. Ἐν τῇ οὖν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.933,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

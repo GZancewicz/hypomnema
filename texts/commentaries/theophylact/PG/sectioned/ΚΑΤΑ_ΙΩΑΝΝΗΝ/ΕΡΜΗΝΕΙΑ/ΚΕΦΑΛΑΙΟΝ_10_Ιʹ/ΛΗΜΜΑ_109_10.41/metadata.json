@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_109_10.41",
+  "gospel": "john",
+  "chapter": 10,
+  "index": 109,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 10,
+      "verse": 40
+    },
+    "end": {
+      "chapter": 10,
+      "verse": 40
+    },
+    "verses": [
+      {
+        "chapter": 10,
+        "verse": 40
+      }
+    ],
+    "display": "John 10:40"
+  },
+  "lemma_quote": "πέραν τοῦ Ἰορδάνου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.455,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "10.41",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

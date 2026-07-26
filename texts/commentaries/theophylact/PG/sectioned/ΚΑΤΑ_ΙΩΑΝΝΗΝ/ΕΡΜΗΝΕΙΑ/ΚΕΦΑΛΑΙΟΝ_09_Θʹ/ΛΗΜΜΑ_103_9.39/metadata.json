@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_103_9.39",
+  "gospel": "john",
+  "chapter": 9,
+  "index": 103,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "end": {
+      "chapter": 9,
+      "verse": 39
+    },
+    "verses": [
+      {
+        "chapter": 9,
+        "verse": 39
+      }
+    ],
+    "display": "John 9:39"
+  },
+  "lemma_quote": "«Καὶ εἶπεν ὁ Ἱησοῦς· Εἰς κρῖμα ἐγὼ εἰς τὸν κόσμον τοῦτον ἦλθον, ἵνα οἱ μὴ βλέποντες βλέπωσι, καὶ αἱ Αλέποντες πυολοὶ γένωνται. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.94,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "9.39",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

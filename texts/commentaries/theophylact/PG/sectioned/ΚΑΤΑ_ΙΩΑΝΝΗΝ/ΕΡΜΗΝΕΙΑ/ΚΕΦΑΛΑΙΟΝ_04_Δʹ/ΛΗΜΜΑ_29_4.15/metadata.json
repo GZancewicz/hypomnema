@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_29_4.15",
+  "gospel": "john",
+  "chapter": 4,
+  "index": 29,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 7
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 7
+      }
+    ],
+    "display": "John 4:7"
+  },
+  "lemma_quote": "Δάς μοι ποῦτο τὸ ὕδωρ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.362,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

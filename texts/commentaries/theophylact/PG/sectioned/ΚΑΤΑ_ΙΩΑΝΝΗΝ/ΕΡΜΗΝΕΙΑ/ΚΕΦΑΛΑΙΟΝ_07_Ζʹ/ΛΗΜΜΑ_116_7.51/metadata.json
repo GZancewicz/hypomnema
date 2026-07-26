@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_116_7.51",
+  "gospel": "john",
+  "chapter": 7,
+  "index": 116,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 7,
+      "verse": 47
+    },
+    "end": {
+      "chapter": 7,
+      "verse": 47
+    },
+    "verses": [
+      {
+        "chapter": 7,
+        "verse": 47
+      }
+    ],
+    "display": "John 7:47"
+  },
+  "lemma_quote": "Μὴ καὶ ὑμεῖς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.365,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "7.51",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_33_3.17",
+  "gospel": "john",
+  "chapter": 3,
+  "index": 33,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 3,
+      "verse": 18
+    },
+    "end": {
+      "chapter": 3,
+      "verse": 18
+    },
+    "verses": [
+      {
+        "chapter": 3,
+        "verse": 18
+      }
+    ],
+    "display": "John 3:18"
+  },
+  "lemma_quote": "Ὁ δὲ μὴ πιστεύων, ἤδη κέκριται.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.581,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "3.17",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

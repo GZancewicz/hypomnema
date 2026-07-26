@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_64_5.35",
+  "gospel": "john",
+  "chapter": 5,
+  "index": 64,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "end": {
+      "chapter": 5,
+      "verse": 35
+    },
+    "verses": [
+      {
+        "chapter": 5,
+        "verse": 35
+      }
+    ],
+    "display": "John 5:35"
+  },
+  "lemma_quote": "Ἐγώ εἰμι ὁ Χριστός·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.214,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "5.35",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

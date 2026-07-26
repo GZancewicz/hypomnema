@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_31_1.36",
+  "gospel": "luke",
+  "chapter": 1,
+  "index": 31,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 1,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 1:38"
+  },
+  "lemma_quote": "Ἰδοὺ ἡ δούλη Κυρίου, γένοιτά μοι κατὰ τὸ ῥῆμά σου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.738,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.36",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

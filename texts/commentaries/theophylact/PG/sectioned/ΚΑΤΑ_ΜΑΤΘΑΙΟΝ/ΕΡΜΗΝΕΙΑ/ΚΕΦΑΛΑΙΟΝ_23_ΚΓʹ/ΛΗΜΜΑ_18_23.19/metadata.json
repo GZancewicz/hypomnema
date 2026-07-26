@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_23.19",
+  "gospel": "matthew",
+  "chapter": 23,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 23,
+      "verse": 19
+    },
+    "end": {
+      "chapter": 23,
+      "verse": 19
+    },
+    "verses": [
+      {
+        "chapter": 23,
+        "verse": 19
+      }
+    ],
+    "display": "Matthew 23:19"
+  },
+  "lemma_quote": "Μωροὶ καὶ τυφλοὶ, τί γὰρ μεῖζον, τὸ δῶρον, ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον· Ὁ οὕν ὃιόσας ἐν τῷ θυσιαστηρίῳ, ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσι τοῖς ἐπάνω αὐτοῦ, κ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.79,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "23.19",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

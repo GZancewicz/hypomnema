@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_22_12.21",
+  "gospel": "matthew",
+  "chapter": 12,
+  "index": 22,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 12,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 21
+      }
+    ],
+    "display": "Matthew 12:21"
+  },
+  "lemma_quote": "όνόματι αὐτοῦ ἔθνη ἐλπιοῦσιν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.818,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.21",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

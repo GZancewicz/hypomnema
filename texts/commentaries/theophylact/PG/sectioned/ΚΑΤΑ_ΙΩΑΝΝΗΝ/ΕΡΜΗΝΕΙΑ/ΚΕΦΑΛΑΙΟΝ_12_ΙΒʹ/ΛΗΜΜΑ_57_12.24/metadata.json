@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_57_12.24",
+  "gospel": "john",
+  "chapter": 12,
+  "index": 57,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 12,
+      "verse": 21
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 21
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 21
+      }
+    ],
+    "display": "John 12:21"
+  },
+  "lemma_quote": "προσἱασι τῷ Φιλίππῳ, καὶ ἠρώτησαν αὐτὸν",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "fuzzy",
+  "match_score": 0.737,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

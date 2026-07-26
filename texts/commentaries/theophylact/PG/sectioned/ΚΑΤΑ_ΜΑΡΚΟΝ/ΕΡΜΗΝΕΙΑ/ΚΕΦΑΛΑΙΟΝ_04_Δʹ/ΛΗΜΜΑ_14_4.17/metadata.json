@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_14_4.17",
+  "gospel": "mark",
+  "chapter": 4,
+  "index": 14,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 4,
+      "verse": 17
+    },
+    "end": {
+      "chapter": 4,
+      "verse": 17
+    },
+    "verses": [
+      {
+        "chapter": 4,
+        "verse": 17
+      }
+    ],
+    "display": "Mark 4:17"
+  },
+  "lemma_quote": "ἔχουσι ῥίζαν ἐν ἑαυτοῖς, ἀλλὰ πρόσκαιροί εἰσιν· εἶτα γενομένης θλίψεως ἢ δωγμοῦ διὰ τὸν λόγον, εὐθέως σκανδαλίζονται. Καὶ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.879,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "4.17",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

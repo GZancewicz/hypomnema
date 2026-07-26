@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_69_19.29",
+  "gospel": "john",
+  "chapter": 19,
+  "index": 69,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "end": {
+      "chapter": 19,
+      "verse": 31
+    },
+    "verses": [
+      {
+        "chapter": 19,
+        "verse": 31
+      }
+    ],
+    "display": "John 19:31"
+  },
+  "lemma_quote": "«Οἱ οὖν Ἰουδαῖοι, ἵνα μὴ μείνῃ ἐπὶ τοῦ σταυροῦ τὰ σώματα ἐν τῷ Σαββάτῳ, ἐπεὶ παρασκευή ἠνν γὰρ μεγάλη ἡ ἡμέρα ἐκείνη τοῦ Σαββάτου), ἠρώτησαν τὸν Πιλάτον, ἵνα κα",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.895,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "19.29",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

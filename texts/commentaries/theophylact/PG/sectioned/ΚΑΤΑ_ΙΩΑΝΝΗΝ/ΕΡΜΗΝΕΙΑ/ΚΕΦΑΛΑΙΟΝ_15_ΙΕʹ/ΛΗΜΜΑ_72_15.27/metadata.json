@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_72_15.27",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 72,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 27
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 27
+      }
+    ],
+    "display": "John 15:27"
+  },
+  "lemma_quote": "Διώξοπνύμᾶς,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "15.27",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_05_2.8",
+  "gospel": "mark",
+  "chapter": 2,
+  "index": 5,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "end": {
+      "chapter": 2,
+      "verse": 8
+    },
+    "verses": [
+      {
+        "chapter": 2,
+        "verse": 8
+      }
+    ],
+    "display": "Mark 2:8"
+  },
+  "lemma_quote": "εὐθέως ἐπιγνοὺς ὁ Ἰησοῦς τῷ πνεύματι αὐτοῦ, ὅτι οὕτως αὐτοὶ διαλογίζονται ἐν ἑαυτοῖς, εἶπεν αὐτοῖς· Τί ταῦτα διαλογίζεσθε ἐν ταῖς καρδίαις ὑμῶν; Τί",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "2.8",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

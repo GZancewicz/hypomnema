@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_50_12.57",
+  "gospel": "luke",
+  "chapter": 12,
+  "index": 50,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 12,
+      "verse": 57
+    },
+    "end": {
+      "chapter": 12,
+      "verse": 57
+    },
+    "verses": [
+      {
+        "chapter": 12,
+        "verse": 57
+      }
+    ],
+    "display": "Luke 12:57"
+  },
+  "lemma_quote": "ἑαυτῶν οὐ κρίνετε τὸ δίκαιον; Ὡς γὰρ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.93,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "12.57",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

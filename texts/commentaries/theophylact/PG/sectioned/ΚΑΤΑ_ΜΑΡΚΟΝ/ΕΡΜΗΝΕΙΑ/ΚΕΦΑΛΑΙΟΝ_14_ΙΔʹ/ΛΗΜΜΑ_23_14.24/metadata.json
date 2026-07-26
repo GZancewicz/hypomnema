@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_23_14.24",
+  "gospel": "mark",
+  "chapter": 14,
+  "index": 23,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 14,
+      "verse": 25
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 25
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 25
+      }
+    ],
+    "display": "Mark 14:25"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς· Τοῦτό ἐστι τὸ αἷμά μου τὸ τῆς Καινῆς Διαθήκης, τὸ περὶ πολλῶν ἐκχυνόμενον. Ἀμὴν λέγω ὑμῖν, ὅτι οὐκ ἔτι οὐ μὴ τίω ἐκ τοῦ χεννήματος τῆς ἀμπέλου, ἕως τῆς ἡμέρας ἐκείνης, ὅταν αὐτὸ πίνω καινὸν ἐν τῇ βασιλείᾳ τοῦ Θεοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.709,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.24",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

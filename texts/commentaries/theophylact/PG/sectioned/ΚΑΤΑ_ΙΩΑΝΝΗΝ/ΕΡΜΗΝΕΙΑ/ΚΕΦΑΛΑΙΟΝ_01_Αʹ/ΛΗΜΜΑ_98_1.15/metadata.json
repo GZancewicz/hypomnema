@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_98_1.15",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 98,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 15
+      }
+    ],
+    "display": "John 1:15"
+  },
+  "lemma_quote": "Οὗτος ἦν, ὃν εἴπον·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.15",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

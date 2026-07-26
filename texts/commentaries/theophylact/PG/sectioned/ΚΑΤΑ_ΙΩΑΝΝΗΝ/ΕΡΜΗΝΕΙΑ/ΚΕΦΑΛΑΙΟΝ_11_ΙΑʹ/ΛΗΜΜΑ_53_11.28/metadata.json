@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_53_11.28",
+  "gospel": "john",
+  "chapter": 11,
+  "index": 53,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 11,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 11,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 11,
+        "verse": 22
+      }
+    ],
+    "display": "John 11:22"
+  },
+  "lemma_quote": "«Ὅσα ἂν αἰτήσῃ, δώσει σοι ἐ Αὐτὸς δὲ ἀνατρέπων τὴν τοιαύτην αὐτῆς ὑπόνοιαν,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.617,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "11.28",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

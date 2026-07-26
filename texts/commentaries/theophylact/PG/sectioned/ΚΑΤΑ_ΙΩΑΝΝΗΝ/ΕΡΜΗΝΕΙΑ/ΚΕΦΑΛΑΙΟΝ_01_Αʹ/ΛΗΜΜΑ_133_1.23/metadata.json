@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_133_1.23",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 133,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 23
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 23
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 23
+      }
+    ],
+    "display": "John 1:23"
+  },
+  "lemma_quote": "Εὐθύνατε τὴν ὀδὸν Κυρίου.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.56,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "1.23",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

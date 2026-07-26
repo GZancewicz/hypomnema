@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_03_6.3",
+  "gospel": "mark",
+  "chapter": 6,
+  "index": 3,
+  "scripture_reference": {
+    "book": "mark",
+    "start": {
+      "chapter": 6,
+      "verse": 3
+    },
+    "end": {
+      "chapter": 6,
+      "verse": 3
+    },
+    "verses": [
+      {
+        "chapter": 6,
+        "verse": 3
+      }
+    ],
+    "display": "Mark 6:3"
+  },
+  "lemma_quote": "οὗτός ἐστιν ὁ τέκτων, ὁ υἱὸς Μαρίας, ἀδελφὸς δὲ Ἰακώβου, καὶ Ἰωσῆ, καὶ Ἰούδα, καὶ Σίμωνος; Καὶ οὐκ εἰσὶν αἱ ἀδελφαὶ αὐτοῦ ὧδε πρὸς ἡμᾶς; Καὶ· κανδαλίζοντο ἐν αὐτῷ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.927,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "6.3",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

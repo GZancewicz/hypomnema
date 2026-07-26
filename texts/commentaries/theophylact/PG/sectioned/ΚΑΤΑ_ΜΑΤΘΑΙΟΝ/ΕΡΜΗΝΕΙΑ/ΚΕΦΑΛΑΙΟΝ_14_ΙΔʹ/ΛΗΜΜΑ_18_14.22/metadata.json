@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_18_14.22",
+  "gospel": "matthew",
+  "chapter": 14,
+  "index": 18,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 14,
+      "verse": 22
+    },
+    "end": {
+      "chapter": 14,
+      "verse": 22
+    },
+    "verses": [
+      {
+        "chapter": 14,
+        "verse": 22
+      }
+    ],
+    "display": "Matthew 14:22"
+  },
+  "lemma_quote": "εὐθέως ἠνάγκασεν ὁ Ἰησοῦς τοὺς μαθητὰς αὐτοῦ ἐμβῆναι εἰς τὸ πλοῖον, καὶ προάγειν αὐτὸ. εἰς τὸ πέραν, ἕως οὗ ἀπολύσῃ τοὺς ὄχλους.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.943,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "14.22",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_40_24.45",
+  "gospel": "matthew",
+  "chapter": 24,
+  "index": 40,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 24,
+      "verse": 45
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 45
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 45
+      }
+    ],
+    "display": "Matthew 24:45"
+  },
+  "lemma_quote": "Τίς ἄρα ἐστὶν ὁ πιστὸς δοῦλος καὶ φρόνιμος, ὃν κατέστησεν ὀ κύριος αὐτοῦ ἐπὶ τῆς θεραπείας αὐτοῦ, τοῦ διδόναι αὐτοῖς τὴν τροφὴν ἐν καιρῷ· ακάριος ὁ δοῦλος ἐκεῖνος, ὃν ἐλθὼν ὀ κύριος αὐτοῦ εὐρήσει ποιοῦντα οὕτως. Ἀμὴν λέγω ὁμῖν ὅτι ἐπὶ πᾶσι τοῖς ὁπάρχουσιν αὐτοῦ καταστήσει αὐτόν.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.782,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.45",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

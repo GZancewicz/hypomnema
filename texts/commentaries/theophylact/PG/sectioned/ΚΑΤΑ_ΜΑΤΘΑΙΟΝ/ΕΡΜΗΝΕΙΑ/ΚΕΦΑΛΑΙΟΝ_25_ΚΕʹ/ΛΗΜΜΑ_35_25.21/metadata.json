@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_35_25.21",
+  "gospel": "matthew",
+  "chapter": 25,
+  "index": 35,
+  "scripture_reference": {
+    "book": "matthew",
+    "start": {
+      "chapter": 25,
+      "verse": 41
+    },
+    "end": {
+      "chapter": 25,
+      "verse": 41
+    },
+    "verses": [
+      {
+        "chapter": 25,
+        "verse": 41
+      }
+    ],
+    "display": "Matthew 25:41"
+  },
+  "lemma_quote": "«Τότε ἐρεῖ καὶ τοῖς ἐξ εὐωνύμων· Πορεύεσθε ἀπ´ ἐμοῦ, οἱ κατηραμένοι, εἰς τὸ πῦρ τὸ αἰώνιον, τὸ ἡτοιμασμένον τῷ διαβόλῳ καὶ τοῖς ἀγγέλοις αὐτοῦ.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 1.0,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "25.21",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_43_15.16",
+  "gospel": "john",
+  "chapter": 15,
+  "index": 43,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 15,
+      "verse": 15
+    },
+    "end": {
+      "chapter": 15,
+      "verse": 15
+    },
+    "verses": [
+      {
+        "chapter": 15,
+        "verse": 15
+      }
+    ],
+    "display": "John 15:15"
+  },
+  "lemma_quote": "Ὅσα[ῆκουσα παρὰ τοῦ Ιατρός μου,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "fuzzy",
+  "match_score": 0.9,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "15.16",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

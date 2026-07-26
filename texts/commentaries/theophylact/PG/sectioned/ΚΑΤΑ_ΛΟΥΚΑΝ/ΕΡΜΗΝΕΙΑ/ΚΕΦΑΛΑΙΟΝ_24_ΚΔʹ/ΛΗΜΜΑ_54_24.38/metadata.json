@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_54_24.38",
+  "gospel": "luke",
+  "chapter": 24,
+  "index": 54,
+  "scripture_reference": {
+    "book": "luke",
+    "start": {
+      "chapter": 24,
+      "verse": 38
+    },
+    "end": {
+      "chapter": 24,
+      "verse": 38
+    },
+    "verses": [
+      {
+        "chapter": 24,
+        "verse": 38
+      }
+    ],
+    "display": "Luke 24:38"
+  },
+  "lemma_quote": "εἶπεν αὐτοῖς· Τί τεταραγμένοι ἐστέ; Καὶ διατί διαλογισμοὶ ἀναβαίνουσιν ἐν ταῖς καρδίαις ὑμῶνς; Ἦετε τὰς χεῖρας καὶ τοὺς πόδος μου, ὅτι αὐτὸς ἐγώ εἰμι. Ἑηλαφήσατ",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "high",
+  "match_method": "tfidf",
+  "match_score": 0.721,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "24.38",
+  "folder_suffix_agrees": true,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_17_8.15",
+  "gospel": "john",
+  "chapter": 8,
+  "index": 17,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 8,
+      "verse": 16
+    },
+    "end": {
+      "chapter": 8,
+      "verse": 16
+    },
+    "verses": [
+      {
+        "chapter": 8,
+        "verse": 16
+      }
+    ],
+    "display": "John 8:16"
+  },
+  "lemma_quote": "Ἐγώ. γὰρ οὐδένα κρίνω νυν· καὶ ἐὰν κρίνω δέ, ἡ κρίσις μου ἀληθής ἐστι.",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.465,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "8.15",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_61_16.22",
+  "gospel": "john",
+  "chapter": 16,
+  "index": 61,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 16,
+      "verse": 6
+    },
+    "end": {
+      "chapter": 16,
+      "verse": 6
+    },
+    "verses": [
+      {
+        "chapter": 16,
+        "verse": 6
+      }
+    ],
+    "display": "John 16:6"
+  },
+  "lemma_quote": "Ἀλλ´ ἡ λύπη ὑμῶν εἰς χαρὰν γενέσεται ·",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "medium",
+  "match_method": "tfidf",
+  "match_score": 0.398,
+  "adjudicated": false,
+  "continuation": false,
+  "folder_suffix": "16.22",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}

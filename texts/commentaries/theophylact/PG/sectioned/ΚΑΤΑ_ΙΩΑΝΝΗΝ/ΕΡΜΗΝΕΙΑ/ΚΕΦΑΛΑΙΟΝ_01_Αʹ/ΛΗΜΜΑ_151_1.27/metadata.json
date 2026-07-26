@@ -1,0 +1,35 @@
+{
+  "lemma": "ΛΗΜΜΑ_151_1.27",
+  "gospel": "john",
+  "chapter": 1,
+  "index": 151,
+  "scripture_reference": {
+    "book": "john",
+    "start": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "end": {
+      "chapter": 1,
+      "verse": 28
+    },
+    "verses": [
+      {
+        "chapter": 1,
+        "verse": 28
+      }
+    ],
+    "display": "John 1:28"
+  },
+  "lemma_quote": "ἐν Bηθαβαρᾷ,",
+  "cross_references": [],
+  "coverage_source": "greek_pat",
+  "confidence": "low",
+  "match_method": "inherited",
+  "match_score": 0.0,
+  "adjudicated": false,
+  "continuation": true,
+  "folder_suffix": "1.27",
+  "folder_suffix_agrees": false,
+  "notes": ""
+}
