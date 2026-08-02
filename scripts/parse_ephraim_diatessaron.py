@@ -7,8 +7,19 @@ OUT = os.path.join(ROOT, 'texts/commentaries/ephraim/diatessaron/sections')
 # Ephraim's commentary on Diatessaron Section I (John 1:1-5 + Luke 1:5-79).
 # Mosinger's own running heads bound it: it opens at "A principio erat Verbum
 # (Joan. 1, 1-5)" and the next section begins at "Mense sexto (Luc. 1, 26-38)".
+# 'coverage' is the verified verse range, derived by matching Ephraim's quoted
+# Latin against the Gospel text -- NOT from Moesinger's printed citations, whose
+# book names and chapter digits are both corrupted in the scan (his header for
+# this section reads "Luc. 1, 5-77" where the text actually runs to Luke 1:79).
 SECTIONS = {
-    1: {'start': 781, 'end': 1519, 'refs': 'John 1:1-5; Luke 1:5-79'},
+    1: {
+        'start': 781, 'end': 1519,
+        'refs': 'John 1:1-5; Luke 1:5-79',
+        'coverage': [
+            ('John', 1, 1, 5),
+            ('Luke', 1, 5, 79),
+        ],
+    },
 }
 
 # OCR substitutions verified against the Mosinger scan. Applied to whole words
@@ -144,6 +155,32 @@ def split_lemmata(paragraphs):
     return units
 
 
+ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
+         'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX',
+         'XXI', 'XXII', 'XXIII', 'XXIV', 'XXV', 'XXVI', 'XXVII', 'XXVIII',
+         'XXIX', 'XXX', 'XXXI', 'XXXII', 'XXXIII', 'XXXIV', 'XXXV', 'XXXVI',
+         'XXXVII', 'XXXVIII', 'XXXIX', 'XL', 'XLI', 'XLII', 'XLIII', 'XLIV',
+         'XLV', 'XLVI', 'XLVII', 'XLVIII', 'XLIX', 'L', 'LI', 'LII', 'LIII',
+         'LIV', 'LV']
+
+
+def build_references():
+    """One row per verse, matching the shape the Scripture References page uses."""
+    rows, rid = [], 0
+    for num in sorted(SECTIONS):
+        for book, chapter, first, last in SECTIONS[num].get('coverage', []):
+            for verse in range(first, last + 1):
+                rid += 1
+                rows.append({
+                    'id': rid,
+                    'book': book,
+                    'reference': f'{chapter}:{verse}',
+                    'homily': num,
+                    'section': f'Section {ROMAN[num]}',
+                })
+    return rows
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     with open(SRC, encoding='utf-8') as f:
@@ -184,6 +221,12 @@ def main():
             json.dump(data, f, ensure_ascii=False, indent=1)
         print(f'section {num}: {len(body)} paragraphs, {len(units)} lemmata, '
               f'{len(renumbered)} footnotes -> {path}')
+
+    refs = build_references()
+    refs_path = os.path.join(os.path.dirname(OUT), 'references.json')
+    with open(refs_path, 'w', encoding='utf-8') as f:
+        json.dump(refs, f, ensure_ascii=False, indent=1)
+    print(f'{len(refs)} scripture references -> {refs_path}')
 
 
 if __name__ == '__main__':

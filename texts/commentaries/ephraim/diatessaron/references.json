@@ -1,0 +1,562 @@
+[
+ {
+  "id": 1,
+  "book": "John",
+  "reference": "1:1",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 2,
+  "book": "John",
+  "reference": "1:2",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 3,
+  "book": "John",
+  "reference": "1:3",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 4,
+  "book": "John",
+  "reference": "1:4",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 5,
+  "book": "John",
+  "reference": "1:5",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 6,
+  "book": "Luke",
+  "reference": "1:5",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 7,
+  "book": "Luke",
+  "reference": "1:6",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 8,
+  "book": "Luke",
+  "reference": "1:7",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 9,
+  "book": "Luke",
+  "reference": "1:8",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 10,
+  "book": "Luke",
+  "reference": "1:9",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 11,
+  "book": "Luke",
+  "reference": "1:10",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 12,
+  "book": "Luke",
+  "reference": "1:11",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 13,
+  "book": "Luke",
+  "reference": "1:12",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 14,
+  "book": "Luke",
+  "reference": "1:13",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 15,
+  "book": "Luke",
+  "reference": "1:14",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 16,
+  "book": "Luke",
+  "reference": "1:15",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 17,
+  "book": "Luke",
+  "reference": "1:16",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 18,
+  "book": "Luke",
+  "reference": "1:17",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 19,
+  "book": "Luke",
+  "reference": "1:18",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 20,
+  "book": "Luke",
+  "reference": "1:19",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 21,
+  "book": "Luke",
+  "reference": "1:20",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 22,
+  "book": "Luke",
+  "reference": "1:21",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 23,
+  "book": "Luke",
+  "reference": "1:22",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 24,
+  "book": "Luke",
+  "reference": "1:23",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 25,
+  "book": "Luke",
+  "reference": "1:24",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 26,
+  "book": "Luke",
+  "reference": "1:25",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 27,
+  "book": "Luke",
+  "reference": "1:26",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 28,
+  "book": "Luke",
+  "reference": "1:27",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 29,
+  "book": "Luke",
+  "reference": "1:28",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 30,
+  "book": "Luke",
+  "reference": "1:29",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 31,
+  "book": "Luke",
+  "reference": "1:30",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 32,
+  "book": "Luke",
+  "reference": "1:31",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 33,
+  "book": "Luke",
+  "reference": "1:32",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 34,
+  "book": "Luke",
+  "reference": "1:33",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 35,
+  "book": "Luke",
+  "reference": "1:34",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 36,
+  "book": "Luke",
+  "reference": "1:35",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 37,
+  "book": "Luke",
+  "reference": "1:36",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 38,
+  "book": "Luke",
+  "reference": "1:37",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 39,
+  "book": "Luke",
+  "reference": "1:38",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 40,
+  "book": "Luke",
+  "reference": "1:39",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 41,
+  "book": "Luke",
+  "reference": "1:40",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 42,
+  "book": "Luke",
+  "reference": "1:41",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 43,
+  "book": "Luke",
+  "reference": "1:42",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 44,
+  "book": "Luke",
+  "reference": "1:43",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 45,
+  "book": "Luke",
+  "reference": "1:44",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 46,
+  "book": "Luke",
+  "reference": "1:45",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 47,
+  "book": "Luke",
+  "reference": "1:46",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 48,
+  "book": "Luke",
+  "reference": "1:47",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 49,
+  "book": "Luke",
+  "reference": "1:48",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 50,
+  "book": "Luke",
+  "reference": "1:49",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 51,
+  "book": "Luke",
+  "reference": "1:50",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 52,
+  "book": "Luke",
+  "reference": "1:51",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 53,
+  "book": "Luke",
+  "reference": "1:52",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 54,
+  "book": "Luke",
+  "reference": "1:53",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 55,
+  "book": "Luke",
+  "reference": "1:54",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 56,
+  "book": "Luke",
+  "reference": "1:55",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 57,
+  "book": "Luke",
+  "reference": "1:56",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 58,
+  "book": "Luke",
+  "reference": "1:57",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 59,
+  "book": "Luke",
+  "reference": "1:58",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 60,
+  "book": "Luke",
+  "reference": "1:59",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 61,
+  "book": "Luke",
+  "reference": "1:60",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 62,
+  "book": "Luke",
+  "reference": "1:61",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 63,
+  "book": "Luke",
+  "reference": "1:62",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 64,
+  "book": "Luke",
+  "reference": "1:63",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 65,
+  "book": "Luke",
+  "reference": "1:64",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 66,
+  "book": "Luke",
+  "reference": "1:65",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 67,
+  "book": "Luke",
+  "reference": "1:66",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 68,
+  "book": "Luke",
+  "reference": "1:67",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 69,
+  "book": "Luke",
+  "reference": "1:68",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 70,
+  "book": "Luke",
+  "reference": "1:69",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 71,
+  "book": "Luke",
+  "reference": "1:70",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 72,
+  "book": "Luke",
+  "reference": "1:71",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 73,
+  "book": "Luke",
+  "reference": "1:72",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 74,
+  "book": "Luke",
+  "reference": "1:73",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 75,
+  "book": "Luke",
+  "reference": "1:74",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 76,
+  "book": "Luke",
+  "reference": "1:75",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 77,
+  "book": "Luke",
+  "reference": "1:76",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 78,
+  "book": "Luke",
+  "reference": "1:77",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 79,
+  "book": "Luke",
+  "reference": "1:78",
+  "homily": 1,
+  "section": "Section I"
+ },
+ {
+  "id": 80,
+  "book": "Luke",
+  "reference": "1:79",
+  "homily": 1,
+  "section": "Section I"
+ }
+]

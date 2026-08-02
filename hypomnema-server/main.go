@@ -1920,6 +1920,21 @@ func loadScriptureReferences() {
 	} else {
 		log.Printf("Warning: Could not load John scripture references: %v", err)
 	}
+
+	// Ephraim is keyed to Diatessaron sections rather than to a single Gospel,
+	// so its rows span books; the handler groups them by ref.Book as usual.
+	ephraimFile := "../texts/commentaries/ephraim/diatessaron/references.json"
+	if data, err := os.ReadFile(ephraimFile); err == nil {
+		var refs []ScriptureReference
+		if err := json.Unmarshal(data, &refs); err == nil {
+			scriptureReferences["ephraim-diatessaron"] = refs
+			log.Printf("Loaded %d scripture references for Ephraim", len(refs))
+		} else {
+			log.Printf("Warning: Could not parse Ephraim scripture references: %v", err)
+		}
+	} else {
+		log.Printf("Warning: Could not load Ephraim scripture references: %v", err)
+	}
 }
 
 var theophylactGospelDirs = map[string]string{
@@ -2491,7 +2506,7 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		if err != nil {
 			log.Printf("Error extracting Prologue homily %d: %v", homilyNum, err)
 			w.Header().Set("Content-Type", "text/html")
-			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Error loading homily text.</p></div>"))
+			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Material currently under copyright.</p></div>"))
 			return
 		}
 	}
@@ -3526,6 +3541,9 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 		<div style="margin-bottom: 30px; padding: 20px; background: #f5f5f5; border-radius: 8px;">
 			<h4 style="margin-top: 0;">How to Use</h4>
 			<p style="line-height: 1.6;">
+				A resource for identifying commentaries on Scripture by bona fide Church Fathers.
+			</p>
+			<p style="line-height: 1.6;">
 				Passages in Scripture where a complete commentary is available.
 				References that are links are available to read online here (they also have blue markers
 				next to passage in Scripture). Search for any Scripture reference, Church Father or
@@ -3754,6 +3772,29 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(html))
 }
 
+// parseChapterVerse splits a "chapter:verse" reference for sorting. A verse
+// range ("1:5-79") sorts on its first verse. Unparsable values sort last so a
+// malformed reference never displaces a valid one.
+func parseChapterVerse(ref string) (int, int) {
+	parts := strings.SplitN(ref, ":", 2)
+	if len(parts) != 2 {
+		return 1 << 30, 1 << 30
+	}
+	chapter, err := strconv.Atoi(strings.TrimSpace(parts[0]))
+	if err != nil {
+		return 1 << 30, 1 << 30
+	}
+	versePart := strings.TrimSpace(parts[1])
+	if i := strings.IndexAny(versePart, "-–"); i >= 0 {
+		versePart = versePart[:i]
+	}
+	verse, err := strconv.Atoi(strings.TrimSpace(versePart))
+	if err != nil {
+		return chapter, 1 << 30
+	}
+	return chapter, verse
+}
+
 func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 	// Group references by book (only gospels)
 	bookMap := make(map[string][]ScriptureReference)
@@ -3870,6 +3911,19 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 
+		// Commentaries are loaded one file at a time, so without this a newly
+		// added work lands in a block after the last verse rather than beside
+		// the other commentaries on its verse. Stable, so the existing order
+		// within a single verse is preserved.
+		sort.SliceStable(uniqueRefs, func(i, j int) bool {
+			ci, vi := parseChapterVerse(uniqueRefs[i].Reference)
+			cj, vj := parseChapterVerse(uniqueRefs[j].Reference)
+			if ci != cj {
+				return ci < cj
+			}
+			return vi < vj
+		})
+
 		html += fmt.Sprintf(`
 		<div class="book-section">
 			<div class="book-header" onclick="toggleBook('%s')">
@@ -3898,7 +3952,13 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 			father := "John Chrysostom"
 			var link string
 
-			if strings.Contains(strings.ToLower(ref.Section), "sermon") {
+			if strings.HasPrefix(ref.Section, "Section ") {
+				work = "Commentary on the Diatessaron"
+				father = "Ephraim the Syrian"
+				bookLower = strings.ToLower(bookName)
+				link = fmt.Sprintf(`<a href="#" onclick="loadEphraimCommentary(%d, '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Section "), ref.Section)
+			} else if strings.Contains(strings.ToLower(ref.Section), "sermon") {
 				work = "Sermons on Luke"
 				bookLower = "luke"
 				father = "Cyril of Alexandria"
