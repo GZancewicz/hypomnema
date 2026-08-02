@@ -16,7 +16,7 @@
 
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
     <script src="https://unpkg.com/htmx.org@1.9.10/dist/ext/preload.js"></script>
-    <link rel="stylesheet" href="/static/styles.css?v=89">
+    <link rel="stylesheet" href="/static/styles.css?v=92">
     <style>
         /* Sidebar toggle icon states */
         .sidebar-toggle svg {
@@ -477,6 +477,7 @@
                 <div>
                     <div id="homilyAuthor" class="homily-author">John Chrysostom</div>
                     <h2 id="homilyTitle">Homily</h2>
+                    <div id="homilyRange" class="homily-range"></div>
                 </div>
                 <button class="close-btn" onclick="closeHomilyPanel()">×</button>
             </div>
@@ -1126,6 +1127,21 @@
             }
         }
 
+        function toggleCanonPassage(event, button) {
+            event.stopPropagation();
+            const extra = button.parentElement.querySelector('.passage-extra');
+            if (!extra) return;
+            const expanded = !extra.hasAttribute('hidden');
+            if (expanded) {
+                extra.setAttribute('hidden', '');
+                button.textContent = button.dataset.more;
+            } else {
+                extra.removeAttribute('hidden');
+                button.textContent = button.dataset.less;
+            }
+            button.classList.toggle('expanded', !expanded);
+        }
+
         function goToCanonPassage(bookId, chapter, verse) {
             document.getElementById('canonModal').style.display = 'none';
 
@@ -1156,7 +1172,14 @@
         
         
         // Homily panel functions
-        function loadHomily(homilyNum, romanNum, book) {
+        function setHomilyRange(rangeText) {
+            const el = document.getElementById('homilyRange');
+            if (!el) return;
+            el.textContent = rangeText || '';
+            el.style.display = rangeText ? '' : 'none';
+        }
+
+        function loadHomily(homilyNum, romanNum, book, rangeText) {
             // Default to matthew for backward compatibility
             if (!book) book = 'matthew';
             const panel = document.getElementById('homilyPanel');
@@ -1168,6 +1191,7 @@
             // Update title and author
             title.textContent = `Homily ${romanNum}`;
             author.textContent = 'John Chrysostom';
+            setHomilyRange(rangeText);
             
             // Show loading state
             content.innerHTML = '<div class="loading">Loading homily...</div>';
@@ -1180,7 +1204,7 @@
             htmx.ajax('GET', `/api/homily/chrysostom/${book}/${homilyNum}`, '#homilyContent');
         }
         
-        function loadCyrilHomily(sermonNum, romanNum, book) {
+        function loadCyrilHomily(sermonNum, romanNum, book, rangeText) {
             const panel = document.getElementById('homilyPanel');
             const title = document.getElementById('homilyTitle');
             const author = document.getElementById('homilyAuthor');
@@ -1190,6 +1214,7 @@
             // Update title and author
             title.textContent = `Sermon ${romanNum}`;
             author.textContent = 'Cyril of Alexandria';
+            setHomilyRange(rangeText);
             
             // Show loading state
             content.innerHTML = '<div class="loading">Loading sermon...</div>';
@@ -1202,7 +1227,7 @@
             htmx.ajax('GET', `/api/homily/cyril/${book}/${sermonNum}`, '#homilyContent');
         }
         
-        function loadNikolaiHomily(homilyNum, label) {
+        function loadNikolaiHomily(homilyNum, label, rangeText) {
             const panel = document.getElementById('homilyPanel');
             const title = document.getElementById('homilyTitle');
             const author = document.getElementById('homilyAuthor');
@@ -1212,6 +1237,7 @@
             // Update title and author
             title.textContent = label;
             author.textContent = 'Nikolai Velimirović';
+            setHomilyRange(rangeText);
 
             // Show loading state
             content.innerHTML = '<div class="loading">Loading homily...</div>';
@@ -1224,7 +1250,7 @@
             htmx.ajax('GET', `/api/homily/nikolai/prologue/${homilyNum}`, '#homilyContent');
         }
 
-        function loadTheophylactCommentary(num, label, book) {
+        function loadTheophylactCommentary(num, label, book, rangeText) {
             if (!book) book = 'matthew';
             const panel = document.getElementById('homilyPanel');
             const title = document.getElementById('homilyTitle');
@@ -1234,6 +1260,7 @@
 
             title.textContent = label || 'Commentary';
             author.textContent = 'Theophylact of Ohrid';
+            setHomilyRange(rangeText);
 
             content.innerHTML = '<div class="loading">Loading commentary...</div>';
 
@@ -1263,13 +1290,13 @@
 
         function openCommentaryRef(ref) {
             if (ref.type === 'chrysostom') {
-                loadHomily(ref.id, ref.roman, ref.book);
+                loadHomily(ref.id, ref.roman, ref.book, ref.range);
             } else if (ref.type === 'cyril') {
-                loadCyrilHomily(ref.id, ref.roman, ref.book);
+                loadCyrilHomily(ref.id, ref.roman, ref.book, ref.range);
             } else if (ref.type === 'nikolai') {
-                loadNikolaiHomily(ref.id, ref.label);
+                loadNikolaiHomily(ref.id, ref.label, ref.range);
             } else if (ref.type === 'theophylact') {
-                loadTheophylactCommentary(ref.id, ref.label, ref.book);
+                loadTheophylactCommentary(ref.id, ref.label, ref.book, ref.range);
             } else if (ref.type === 'synaxarion') {
                 loadLife(ref.mmdd, ref.index || 0, ref.label);
             }
@@ -1284,6 +1311,7 @@
 
             title.textContent = label || 'Life';
             author.textContent = 'Synaxarion';
+            setHomilyRange('');
 
             content.innerHTML = '<div class="loading">Loading...</div>';
 

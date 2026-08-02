@@ -1340,6 +1340,96 @@
           "verse": 2
         }
       ]
+    },
+    {
+      "id": 69,
+      "title": "Discourse on the Nativity of Christ",
+      "saint": "DISCOURSE ON THE NATIVITY OF CHRIST",
+      "date": "December 25",
+      "mmdd": "12-25",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 28
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "The Synaxis of the Most Holy Theotokos",
+      "saint": "The Sobor-Assemblage of the Most Holy Mother of God:",
+      "date": "December 26",
+      "mmdd": "12-26",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 15
+        },
+        {
+          "book": "matthew",
+          "chapter": 1,
+          "verse": 16
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Life of the Holy First-Martyr and Archdeacon Stephen",
+      "saint": "The Holy Disciple (from the Seventy) First-Martyr and ArchDeacon Stephen",
+      "date": "December 27",
+      "mmdd": "12-27",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        },
+        {
+          "book": "acts",
+          "chapter": 6,
+          "verse": 5
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "title": "The Holy Martyred 14,000 Infants Slain by Herod",
+      "saint": "The Holy Martyred 14,000 Infants",
+      "date": "December 29",
+      "mmdd": "12-29",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 2,
+          "verse": 18
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Life of the Holy Disciple Timon",
+      "saint": "The Holy Disciple Timon (I)",
+      "date": "December 30",
+      "mmdd": "12-30",
+      "commemoration_index": 2,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 10,
+          "verse": 1
+        },
+        {
+          "book": "acts",
+          "chapter": 6,
+          "verse": 5
+        }
+      ]
     }
   ]
 }

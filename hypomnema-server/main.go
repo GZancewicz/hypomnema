@@ -101,6 +101,7 @@ type VerseRef struct {
 	Book   string `json:"book"`
 	Author string `json:"author"`
 	Label  string `json:"label"`
+	Range  string `json:"range,omitempty"`
 	MMDD   string `json:"mmdd,omitempty"`
 	Index  int    `json:"index,omitempty"`
 }
@@ -1134,6 +1135,40 @@ func formatCoverageRef(coverage HomilyRange) string {
 	return fmt.Sprintf(" (%d:%d-%d:%d)", coverage.Start.Chapter, coverage.Start.Verse, coverage.End.Chapter, coverage.End.Verse)
 }
 
+func formatRowRange(book string, startChapter, startVerse, endChapter, endVerse int) string {
+	if book == "" {
+		return ""
+	}
+	name := strings.Title(book)
+	if startChapter == endChapter {
+		if startVerse == endVerse {
+			return fmt.Sprintf("%s %d:%d", name, startChapter, startVerse)
+		}
+		return fmt.Sprintf("%s %d:%d-%d", name, startChapter, startVerse, endVerse)
+	}
+	return fmt.Sprintf("%s %d:%d-%d:%d", name, startChapter, startVerse, endChapter, endVerse)
+}
+
+func formatCoverageRange(coverage HomilyRange, fallbackBook string) string {
+	book := coverage.Start.Book
+	if book == "" {
+		book = fallbackBook
+	}
+	return formatRowRange(book, coverage.Start.Chapter, coverage.Start.Verse, coverage.End.Chapter, coverage.End.Verse)
+}
+
+func lookupCoverageRange(commentaryKey string, homilyID int, fallbackBook string) string {
+	comm, ok := commentaries[commentaryKey]
+	if !ok {
+		return ""
+	}
+	coverage, ok := comm.Coverage[homilyID]
+	if !ok {
+		return ""
+	}
+	return formatCoverageRange(coverage, fallbackBook)
+}
+
 func coverageContains(c HomilyRange, chapter, verse int) bool {
 	if chapter < c.Start.Chapter || chapter > c.End.Chapter {
 		return false
@@ -1240,6 +1275,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						Book:   bookID,
 						Author: "John Chrysostom",
 						Label:  fmt.Sprintf("Homily %s on %s%s", coverage.Roman, bookTitle, formatCoverageRef(coverage)),
+						Range:  formatCoverageRange(coverage, bookID),
 					})
 				}
 			}
@@ -1257,9 +1293,11 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 					currentHomilies = append(currentHomilies, -homily.ID)
 
 					passageRef := ""
+					passageRange := ""
 					if comm, ok := commentaries["cyril-luke"]; ok {
 						if coverage, ok := comm.Coverage[homily.ID]; ok {
 							passageRef = formatCoverageRef(coverage)
+							passageRange = formatCoverageRange(coverage, "luke")
 						}
 					}
 
@@ -1270,6 +1308,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						Book:   "luke",
 						Author: "Cyril of Alexandria",
 						Label:  fmt.Sprintf("Sermon %s on Luke%s", homily.Roman, passageRef),
+						Range:  passageRange,
 					})
 				}
 			}
@@ -1287,9 +1326,13 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 					currentHomilies = append(currentHomilies, ns)
 
 					label := "Theophylact"
+					lemmaRange := ""
 					if comm, ok := commentaries["theophylact-matthew"]; ok {
-						if coverage, ok := comm.Coverage[lemma.ID]; ok && coverage.Title != "" {
-							label = fmt.Sprintf("Theophylact on %s", coverage.Title)
+						if coverage, ok := comm.Coverage[lemma.ID]; ok {
+							if coverage.Title != "" {
+								label = fmt.Sprintf("Theophylact on %s", coverage.Title)
+							}
+							lemmaRange = formatCoverageRange(coverage, "matthew")
 						}
 					}
 
@@ -1299,6 +1342,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 						Book:   "matthew",
 						Author: "Theophylact of Ohrid",
 						Label:  label,
+						Range:  lemmaRange,
 					})
 				}
 			}
@@ -1344,6 +1388,7 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 					Book:   bookID,
 					Author: "Nikolai Velimirović",
 					Label:  fmt.Sprintf("Prologue, %s%s", coverage.Title, formatCoverageRef(coverage)),
+					Range:  formatCoverageRange(coverage, bookID),
 				})
 			}
 		}
@@ -1501,12 +1546,11 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 			}
 			html.WriteString(fmt.Sprintf("<h3>%s %s</h3>", gospel, verseRef))
 
-			// Load the actual verse text
-			verseText := loadVerseText(strings.ToLower(gospel), verses)
-			if verseText != "" {
-				html.WriteString(fmt.Sprintf("<p class='verse-text'>%s</p>", verseText))
-			} else {
+			passageVerses := loadVerseRange(bookID, verses)
+			if len(passageVerses) == 0 {
 				html.WriteString("<p class='verse-text'><em>Text not available</em></p>")
+			} else {
+				writeCanonVerses(&html, passageVerses)
 			}
 			html.WriteString("</div>")
 		}
@@ -1518,101 +1562,182 @@ func canonHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(html.String()))
 }
 
-func parseCanonTarget(verseRef string) (int, int) {
-	dashParts := strings.Split(verseRef, " - ")
-	if len(dashParts) != 2 {
-		return 0, 0
+func joinCanonVerses(verses []canonVerse) string {
+	texts := make([]string, 0, len(verses))
+	for _, v := range verses {
+		texts = append(texts, strings.TrimSpace(v.Text))
 	}
-
-	parts := strings.Split(dashParts[1], ".")
-	if len(parts) != 2 {
-		return 0, 0
-	}
-
-	chapter, err := strconv.Atoi(parts[0])
-	if err != nil {
-		return 0, 0
-	}
-
-	versePart := parts[1]
-	if strings.Contains(versePart, "-") {
-		versePart = strings.Split(versePart, "-")[0]
-	}
-	re := regexp.MustCompile(`[A-Z]+$`)
-	versePart = re.ReplaceAllString(versePart, "")
-
-	verse, err := strconv.Atoi(versePart)
-	if err != nil {
-		return 0, 0
-	}
-
-	return chapter, verse
+	return strings.Join(texts, " ")
 }
 
-func loadVerseText(gospel string, verseRef string) string {
-	// Parse verse reference like "8 - 3.3" or "1 - 1.1-16"
-	// Format is: section_number - chapter.verse_range
+func writeCanonVerses(html *strings.Builder, verses []canonVerse) {
+	if len(verses) <= canonAccordionLimit {
+		html.WriteString(fmt.Sprintf("<p class='verse-text'>%s</p>", joinCanonVerses(verses)))
+		return
+	}
 
-	// Split on " - " to get the chapter.verse part
-	dashParts := strings.Split(verseRef, " - ")
+	hidden := verses[canonAccordionLimit:]
+	html.WriteString(fmt.Sprintf(
+		"<p class='verse-text'>%s<span class='passage-extra' hidden> %s</span></p>",
+		joinCanonVerses(verses[:canonAccordionLimit]), joinCanonVerses(hidden)))
+
+	plural := "verses"
+	if len(hidden) == 1 {
+		plural = "verse"
+	}
+	html.WriteString(fmt.Sprintf(
+		"<button type='button' class='passage-toggle' data-more='Show %d more %s' data-less='Show fewer verses' onclick='toggleCanonPassage(event, this)'>Show %d more %s</button>",
+		len(hidden), plural, len(hidden), plural))
+}
+
+var canonParenRe = regexp.MustCompile(`\([^)]*\)`)
+var canonChapterVerseRe = regexp.MustCompile(`^(\d+)\.(\d+)`)
+var canonDigitsRe = regexp.MustCompile(`\d+`)
+
+const canonMaxVerses = 250
+const canonAccordionLimit = 5
+
+type canonVerse struct {
+	Chapter int
+	Verse   int
+	Text    string
+}
+
+func parseCanonRange(verseRef string) (int, int, int, int, bool) {
+	dashParts := strings.SplitN(verseRef, " - ", 2)
 	if len(dashParts) != 2 {
-		return ""
+		return 0, 0, 0, 0, false
 	}
 
-	chapterVerse := dashParts[1]
-
-	// Extract chapter and verse
-	parts := strings.Split(chapterVerse, ".")
-	if len(parts) != 2 {
-		return ""
+	ref := canonParenRe.ReplaceAllString(dashParts[1], "")
+	ref = strings.ReplaceAll(ref, " ", "")
+	ref = strings.Trim(ref, "-")
+	if ref == "" {
+		return 0, 0, 0, 0, false
 	}
 
-	chapter := parts[0]
-	versePart := parts[1]
+	parts := strings.Split(ref, "-")
 
-	// Handle ranges like "19-22" - just take the first verse for now
-	if strings.Contains(versePart, "-") {
-		versePart = strings.Split(versePart, "-")[0]
+	startMatch := canonChapterVerseRe.FindStringSubmatch(parts[0])
+	if startMatch == nil {
+		return 0, 0, 0, 0, false
 	}
-
-	// Remove any letter suffixes like "A", "B"
-	re := regexp.MustCompile(`[A-Z]+$`)
-	versePart = re.ReplaceAllString(versePart, "")
-
-	// Load the chapter file
-	chapterNum, err := strconv.Atoi(chapter)
+	startChapter, err := strconv.Atoi(startMatch[1])
 	if err != nil {
-		return ""
+		return 0, 0, 0, 0, false
+	}
+	startVerse, err := strconv.Atoi(startMatch[2])
+	if err != nil {
+		return 0, 0, 0, 0, false
 	}
 
-	chapterStr := fmt.Sprintf("%02d", chapterNum)
+	endChapter, endVerse := startChapter, startVerse
+	if len(parts) > 1 {
+		endToken := parts[len(parts)-1]
+		if endMatch := canonChapterVerseRe.FindStringSubmatch(endToken); endMatch != nil {
+			if c, err := strconv.Atoi(endMatch[1]); err == nil {
+				if v, err := strconv.Atoi(endMatch[2]); err == nil {
+					endChapter, endVerse = c, v
+				}
+			}
+		} else if digits := canonDigitsRe.FindString(endToken); digits != "" {
+			if v, err := strconv.Atoi(digits); err == nil {
+				endVerse = v
+			}
+		}
+	}
+
+	if endChapter < startChapter || (endChapter == startChapter && endVerse < startVerse) {
+		endChapter, endVerse = startChapter, startVerse
+	}
+
+	return startChapter, startVerse, endChapter, endVerse, true
+}
+
+func parseCanonTarget(verseRef string) (int, int) {
+	startChapter, startVerse, _, _, ok := parseCanonRange(verseRef)
+	if !ok {
+		return 0, 0
+	}
+	return startChapter, startVerse
+}
+
+func loadChapterVerses(gospel string, chapter int) (map[int]string, int) {
+	chapterStr := fmt.Sprintf("%02d", chapter)
 	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", gospel, chapterStr, gospel+"_"+chapterStr+".txt")
 
 	file, err := os.Open(filePath)
 	if err != nil {
-		return ""
+		return nil, 0
 	}
 	defer file.Close()
 
 	content, err := io.ReadAll(file)
 	if err != nil {
-		return ""
+		return nil, 0
 	}
 
-	// Find the verse
-	lines := strings.Split(string(content), "\n")
-	searchPrefix := chapter + ":" + versePart + " "
-	for _, line := range lines {
-		if strings.HasPrefix(line, searchPrefix) {
-			// Extract just the text part
-			spaceIndex := strings.Index(line, " ")
-			if spaceIndex != -1 {
-				return line[spaceIndex+1:]
+	verses := make(map[int]string)
+	maxVerse := 0
+	prefix := strconv.Itoa(chapter) + ":"
+
+	for _, line := range strings.Split(string(content), "\n") {
+		line = strings.TrimRight(line, "\r")
+		if !strings.HasPrefix(line, prefix) {
+			continue
+		}
+		spaceIndex := strings.Index(line, " ")
+		if spaceIndex == -1 {
+			continue
+		}
+		verseNum, err := strconv.Atoi(line[len(prefix):spaceIndex])
+		if err != nil {
+			continue
+		}
+		verses[verseNum] = line[spaceIndex+1:]
+		if verseNum > maxVerse {
+			maxVerse = verseNum
+		}
+	}
+
+	return verses, maxVerse
+}
+
+func loadVerseRange(gospel string, verseRef string) []canonVerse {
+	startChapter, startVerse, endChapter, endVerse, ok := parseCanonRange(verseRef)
+	if !ok {
+		return nil
+	}
+
+	var result []canonVerse
+	for chapter := startChapter; chapter <= endChapter; chapter++ {
+		verses, maxVerse := loadChapterVerses(gospel, chapter)
+		if verses == nil {
+			continue
+		}
+
+		from := 1
+		if chapter == startChapter {
+			from = startVerse
+		}
+		to := maxVerse
+		if chapter == endChapter && endVerse < maxVerse {
+			to = endVerse
+		}
+
+		for verse := from; verse <= to; verse++ {
+			text, ok := verses[verse]
+			if !ok {
+				continue
+			}
+			result = append(result, canonVerse{Chapter: chapter, Verse: verse, Text: text})
+			if len(result) >= canonMaxVerses {
+				return result
 			}
 		}
 	}
 
-	return ""
+	return result
 }
 
 func homilyHandler(w http.ResponseWriter, r *http.Request) {
@@ -2284,7 +2409,9 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 
 		// Get verse range from coverage data
 		passageRef := ""
+		passageRange := ""
 		if coverage, ok := commentary.Coverage[i]; ok {
+			passageRange = formatCoverageRange(coverage, book)
 			if coverage.Start.Chapter == coverage.End.Chapter {
 				if coverage.Start.Verse == coverage.End.Verse {
 					passageRef = fmt.Sprintf(" (%d:%d)", coverage.Start.Chapter, coverage.Start.Verse)
@@ -2298,11 +2425,11 @@ func homiliesListHandler(w http.ResponseWriter, r *http.Request) {
 
 		// Generate the appropriate onclick handler
 		if author == "cyril" {
-			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;">Sermon %s%s</li>`,
-				i, roman, book, roman, passageRef))
+			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadCyrilHomily(%d, '%s', '%s', '%s'); return false;">Sermon %s%s</li>`,
+				i, roman, book, passageRange, roman, passageRef))
 		} else {
-			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadHomily(%d, '%s', '%s'); return false;">Homily %s%s</li>`,
-				i, roman, book, roman, passageRef))
+			html.WriteString(fmt.Sprintf(`<li class="homily-item extra-item" onclick="loadHomily(%d, '%s', '%s', '%s'); return false;">Homily %s%s</li>`,
+				i, roman, book, passageRange, roman, passageRef))
 		}
 	}
 
@@ -3083,18 +3210,19 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 				// Gregory the Great, Bede, Maximos, Theophylact, and Synaxarion - plain text, no link
 				return row.Section
 			}
+			rowRange := formatRowRange(row.Book, row.StartChapter, row.StartVerse, row.EndChapter, row.EndVerse)
 			if row.Author == "nikolai" {
 				label := row.Section + " (Homily)"
-				return fmt.Sprintf(`<a href="#" onclick="loadNikolaiHomily(%d, '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					row.HomilyID, label, label)
+				return fmt.Sprintf(`<a href="#" onclick="loadNikolaiHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, label, rowRange, label)
 			}
 			if row.Author == "cyril" {
-				return fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					row.HomilyID, strings.TrimPrefix(row.Section, "Sermon "), strings.ToLower(row.Book), row.Section)
+				return fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, strings.TrimPrefix(row.Section, "Sermon "), strings.ToLower(row.Book), rowRange, row.Section)
 			}
 			// Chrysostom homilies use positive IDs
-			return fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-				row.HomilyID, strings.TrimPrefix(row.Section, "Homily "), strings.ToLower(row.Book), row.Section)
+			return fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+				row.HomilyID, strings.TrimPrefix(row.Section, "Homily "), strings.ToLower(row.Book), rowRange, row.Section)
 		}
 
 		for i := 0; i < len(rows); {
@@ -3299,16 +3427,16 @@ func scriptureReferencesHandler(w http.ResponseWriter, r *http.Request) {
 				work = "Sermons on Luke"
 				bookLower = "luke"
 				father = "Cyril of Alexandria"
-				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					ref.Homily, strings.TrimPrefix(ref.Section, "Sermon "), bookLower, ref.Section)
+				link = fmt.Sprintf(`<a href="#" onclick="loadCyrilHomily(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Sermon "), bookLower, lookupCoverageRange("cyril-"+bookLower, ref.Homily, bookLower), ref.Section)
 			} else if strings.Contains(strings.ToLower(ref.Section), "john") {
 				work = "Homilies on John"
 				bookLower = "john"
-				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, lookupCoverageRange("chrysostom-"+bookLower, ref.Homily, bookLower), ref.Section)
 			} else {
-				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
-					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, ref.Section)
+				link = fmt.Sprintf(`<a href="#" onclick="loadHomily(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					ref.Homily, strings.TrimPrefix(ref.Section, "Homily "), bookLower, lookupCoverageRange("chrysostom-"+bookLower, ref.Homily, bookLower), ref.Section)
 			}
 
 			var eusebianIndex, parallels string

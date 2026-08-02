@@ -37,9 +37,18 @@ hypomnema-server/tmp
 __pycache__/
 *.pyc
 
+# API keys
+.env
+
 # Large source PDFs (Patrologia Graeca scans) - OCR .txt is tracked instead
 texts/commentaries/theophylact/PG/*.pdf
 texts/commentaries/theophylact/PG/comparison
 
 # In-copyright Stade/Chrysostom Press translation - benchmark reference only, do not redistribute
 texts/commentaries/theophylact/benchmark
+
+# In-copyright McCarthy/OUP 1993 translation of Ephraim on the Diatessaron - benchmark reference only, do not redistribute
+texts/commentaries/ephraim/diatessaron/benchmark
+
+# Large public-domain source scans (Moesinger 1876, Harris 1895) - OCR .txt is tracked instead
+texts/commentaries/ephraim/diatessaron/source/*.pdf
