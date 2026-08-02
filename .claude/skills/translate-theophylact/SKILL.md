@@ -91,6 +91,21 @@ NIV, Douay-Rheims, etc.).
   genuine variants/paraphrase/conflation rather than "correcting" them; apply the
   same plain-Greek-sense caution to loaded vocabulary in the commentary itself.
 
+**Exception — Byzantine technical vocabulary.** A narrow carve-out from literalism:
+where a word is a **fixed term of art in Theophylact's own 11th-c. ecclesiastical
+world**, render the term of art, not the literal calque, when the calque would point
+the reader at the wrong institution.
+- The governing case: `ἀρχιερεύς` in a **church-office** context — especially the
+  three-fold list `ἀρχιερεῖς / ἱερεῖς / διάκονοι` — means the **episcopal order**:
+  render "bishops, priests, and deacons". The calque "high priests" evokes the Jewish
+  Temple hierarchy and actively mistranslates.
+- **Context decides.** The very same word in a **Gospel-narrative** context (the
+  chief priests who accuse Christ) is *not* the episcopal order — keep "chief priests"
+  there. Read the surrounding sentence before choosing.
+- Keep this exception small. It covers settled institutional vocabulary, not ordinary
+  theological words — those stay literal per the rule above. Where the literal sense is
+  itself interesting, give the term of art in the body and the calque in a footnote.
+
 ### 6. Footnote genuine ambiguity — and quote the Greek
 Distinct from Principle 4 (corrupt text): where the Greek is **legible but hard to
 render or genuinely ambiguous**, do not silently pick one reading — **footnote it.**
@@ -109,7 +124,22 @@ render or genuinely ambiguous**, do not silently pick one reading — **footnote
   `.en.md` with `# Chapter <arabic> (<Greek numeral>)` plus the Gospel and, where
   known, the corresponding KJV chapter.
 - **Proper nouns:** conventional English biblical forms (Ἰησοῦς→Jesus, Ἰωάννης→John,
-  Πιλάτος→Pilate), not transliteration.
+  Πιλάτος→Pilate), not transliteration. Prefer the **familiar English form over the
+  Greek transliteration** — `Ἠλίας`→"Elijah" (not "Elias"), `Ἡσαΐας`→"Isaiah" (not
+  "Esaias"), `Πάσχα`→"Passover" (not "Pascha"), `Ἰακώβ`/`Ἰάκωβος`→"Jacob"/"James".
+- **Proper-noun consistency is a hard rule.** A given Greek name must surface as the
+  **same English form everywhere in a work** — never "Elijah" in one lemma and "Elias"
+  eleven lemmata later. Where a work introduces a name whose English form is a judgment
+  call, fix the choice on first use and hold it; if you are translating a chapter in
+  isolation, check the neighbouring chapters' `.en.md` files for the form already in use
+  rather than deciding afresh. The same applies to recurring realia and calendar terms.
+- **Second-person register: modern "you/your" throughout** — in the scripture lemmata
+  *and* the exposition alike. Do **not** use "thou/thee/thy/ye" anywhere. This follows
+  from the modern register below and from Principle 5: archaic second person is the most
+  common vector by which a lemma drifts into KJV cadence. **The Decalogue is not an
+  exception** — render "You shall not kill", not "Thou shalt not kill", however
+  idiomatically fixed the archaic form feels. Mixing the two registers within a work (or
+  worse, within one file) is an outright inconsistency, not a stylistic choice.
 - **Scripture citations:** where a lemma maps to a known verse, add the reference in
   brackets, e.g. `> **… (Matt. 5:3)**`. This is a **locator only** — never a licence to
   borrow that Bible's English wording (Principle 5).
@@ -181,6 +211,10 @@ Two-pass, **independent verifier**:
    mechanical `μὲν … δὲ` that should be lightened (Principle 1), **lemmata drifting
    toward KJV/standard-English phrasing** (Principle 5), simple scripture locators buried
    in footnotes that belong inline, and unflagged OCR gaps or un-footnoted ambiguities.
+   Also check the three **consistency** rules, which a per-chapter translator cannot see
+   violations of on their own: any surviving `thou/thee/thy/ye`; a proper noun rendered
+   differently here than in the neighbouring chapters; and `ἀρχιερεύς` calqued as "high
+   priest" where the context is church office rather than Gospel narrative.
 3. **Reconcile** the verifier's findings into the final file.
 
 ## Rollout

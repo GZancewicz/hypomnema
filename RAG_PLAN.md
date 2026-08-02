@@ -89,7 +89,7 @@ hallucinated patristic citation would be a real credibility problem.
 ## Frontend
 
 - A chat panel in the reader UI (new markup in `templates/index.html`, styles
-  in `static/styles.css` — remember the `?v=XX` cache-bump rule).
+  in `static/styles.css` — cache busting is automatic, no manual `?v=` bump).
 - The client already knows the current book/chapter and any open homily; it
   sends those with each question so the server can rebuild context.
 - Render the streamed SSE response live. Consistent with the app's existing

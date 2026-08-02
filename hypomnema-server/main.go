@@ -15,6 +15,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 
 	"github.com/hypomnema/server/apiv1"
 )
@@ -700,6 +701,18 @@ func main() {
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
+func assetVersion(path string) string {
+	info, err := os.Stat(path)
+	if err != nil {
+		wd, _ := os.Getwd()
+		info, err = os.Stat(filepath.Join(wd, "..", path))
+		if err != nil {
+			return "0"
+		}
+	}
+	return strconv.FormatInt(info.ModTime().Unix(), 10)
+}
+
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	tmpl, err := template.ParseGlob("templates/*.html")
 	if err != nil {
@@ -791,6 +804,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		Books        []Book
 		CurrentBook  string
 		CurrentChap  int
+		AssetVersion string
 		CyrilSermons []struct {
 			ID     int
 			Roman  string
@@ -800,9 +814,11 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		Books:        books,
 		CurrentBook:  currentBook,
 		CurrentChap:  currentChap,
+		AssetVersion: assetVersion("static/styles.css"),
 		CyrilSermons: cyrilSermons,
 	}
 
+	w.Header().Set("Cache-Control", "no-cache, must-revalidate")
 	err = tmpl.ExecuteTemplate(w, "index.html", data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -1806,21 +1822,24 @@ func homilyHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	data := struct {
-		Author      string
-		Book        string
-		HomilyNum   int
-		HomilyRoman string
-		HomilyText  template.HTML
-		VerseRef    string
+		Author       string
+		Book         string
+		HomilyNum    int
+		HomilyRoman  string
+		HomilyText   template.HTML
+		VerseRef     string
+		AssetVersion string
 	}{
-		Author:      authorName,
-		Book:        strings.Title(book),
-		HomilyNum:   homilyNum,
-		HomilyRoman: roman,
-		HomilyText:  template.HTML(homilyText),
-		VerseRef:    verseRef,
+		Author:       authorName,
+		Book:         strings.Title(book),
+		HomilyNum:    homilyNum,
+		HomilyRoman:  roman,
+		HomilyText:   template.HTML(homilyText),
+		VerseRef:     verseRef,
+		AssetVersion: assetVersion("static/styles.css"),
 	}
 
+	w.Header().Set("Cache-Control", "no-cache, must-revalidate")
 	err = templates.ExecuteTemplate(w, "homily.html", data)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -1898,6 +1917,150 @@ func loadScriptureReferences() {
 	} else {
 		log.Printf("Warning: Could not load John scripture references: %v", err)
 	}
+}
+
+var theophylactGospelDirs = map[string]string{
+	"matthew": "ΚΑΤΑ_ΜΑΤΘΑΙΟΝ",
+	"mark":    "ΚΑΤΑ_ΜΑΡΚΟΝ",
+	"luke":    "ΚΑΤΑ_ΛΟΥΚΑΝ",
+	"john":    "ΚΑΤΑ_ΙΩΑΝΝΗΝ",
+}
+
+var (
+	theophylactPaths   = map[string][]string{}
+	theophylactPathsMu sync.Mutex
+)
+
+// theophylactLemmaPaths returns lemma folder paths for a gospel, ordered so that
+// index i corresponds to lemma id i+1 (matching coverage.json ordering).
+func theophylactLemmaPaths(book string) ([]string, error) {
+	theophylactPathsMu.Lock()
+	defer theophylactPathsMu.Unlock()
+
+	if cached, ok := theophylactPaths[book]; ok {
+		return cached, nil
+	}
+
+	gospelDir, ok := theophylactGospelDirs[book]
+	if !ok {
+		return nil, fmt.Errorf("no Theophylact commentary for %s", book)
+	}
+
+	base := fmt.Sprintf("../texts/commentaries/theophylact/PG/sectioned/%s/ΕΡΜΗΝΕΙΑ", gospelDir)
+	chapters, err := os.ReadDir(base)
+	if err != nil {
+		return nil, err
+	}
+
+	chapterNames := []string{}
+	for _, c := range chapters {
+		if c.IsDir() && strings.HasPrefix(c.Name(), "ΚΕΦΑΛΑΙΟΝ") {
+			chapterNames = append(chapterNames, c.Name())
+		}
+	}
+	sort.Strings(chapterNames)
+
+	lemmaIndex := func(name string) int {
+		parts := strings.Split(name, "_")
+		if len(parts) < 2 {
+			return 0
+		}
+		n, _ := strconv.Atoi(parts[1])
+		return n
+	}
+
+	paths := []string{}
+	for _, ch := range chapterNames {
+		chPath := filepath.Join(base, ch)
+		entries, err := os.ReadDir(chPath)
+		if err != nil {
+			continue
+		}
+		lemmata := []string{}
+		for _, e := range entries {
+			if e.IsDir() && strings.HasPrefix(e.Name(), "ΛΗΜΜΑ") {
+				lemmata = append(lemmata, e.Name())
+			}
+		}
+		sort.Slice(lemmata, func(i, j int) bool {
+			return lemmaIndex(lemmata[i]) < lemmaIndex(lemmata[j])
+		})
+		for _, l := range lemmata {
+			paths = append(paths, filepath.Join(chPath, l))
+		}
+	}
+
+	theophylactPaths[book] = paths
+	log.Printf("Indexed %d Theophylact lemmata for %s", len(paths), book)
+	return paths, nil
+}
+
+// extractTheophylactGreek renders a lemma's PG Greek text as HTML. The lemma's
+// scripture quote («…») becomes a bold blockquote; the exposition follows as prose.
+func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) {
+	paths, err := theophylactLemmaPaths(book)
+	if err != nil {
+		return "", "", err
+	}
+	if lemmaNum < 1 || lemmaNum > len(paths) {
+		return "", "", fmt.Errorf("lemma %d out of range for %s (1-%d)", lemmaNum, book, len(paths))
+	}
+
+	folder := paths[lemmaNum-1]
+	textPath := filepath.Join(folder, filepath.Base(folder)+".txt")
+	raw, err := os.ReadFile(textPath)
+	if err != nil {
+		return "", "", err
+	}
+
+	verseRef := ""
+	metaPath := filepath.Join(folder, "metadata.json")
+	if metaData, err := os.ReadFile(metaPath); err == nil {
+		var meta struct {
+			ScriptureReference struct {
+				Display string `json:"display"`
+			} `json:"scripture_reference"`
+		}
+		if json.Unmarshal(metaData, &meta) == nil {
+			verseRef = meta.ScriptureReference.Display
+		}
+	}
+
+	// The source is hard-wrapped at the column width of the PG scan; join the
+	// lines back into flowing text before splitting into logical paragraphs.
+	text := strings.TrimSpace(string(raw))
+	text = regexp.MustCompile(`[ \t]*\n[ \t]*`).ReplaceAllString(text, " ")
+	text = strings.Join(strings.Fields(text), " ")
+
+	var html strings.Builder
+	html.WriteString(`<div class="greek-text" lang="grc">`)
+
+	// Pull off the leading «…» scripture quote, if present, as the lemma heading.
+	// Many lemmata are scripture-only stubs whose quote is never closed (the PG
+	// section boundary cuts it off), so a missing » means the quote runs to the end.
+	if strings.HasPrefix(text, "«") {
+		body := text[len("«"):]
+		quote := body
+		rest := ""
+		if end := strings.Index(body, "»"); end >= 0 {
+			quote = body[:end]
+			rest = strings.TrimSpace(body[end+len("»"):])
+		}
+		html.WriteString(`<blockquote class="lemma-quote"><strong>` +
+			template.HTMLEscapeString(strings.TrimSpace(quote)) + `</strong></blockquote>`)
+		text = rest
+	}
+
+	for _, para := range strings.Split(text, "\n\n") {
+		para = strings.TrimSpace(para)
+		if para == "" {
+			continue
+		}
+		html.WriteString("<p>" + template.HTMLEscapeString(para) + "</p>")
+	}
+	html.WriteString("</div>")
+
+	return html.String(), verseRef, nil
 }
 
 // extractHomilyFromContent reads from pre-processed content.json files
@@ -2210,9 +2373,11 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
 	}
-	if author == "theophylact" && book != "matthew" {
-		http.Error(w, "Commentary not found", http.StatusNotFound)
-		return
+	if author == "theophylact" {
+		if _, ok := theophylactGospelDirs[book]; !ok {
+			http.Error(w, "Commentary not found", http.StatusNotFound)
+			return
+		}
 	}
 	if author != "chrysostom" && author != "cyril" && author != "nikolai" && author != "theophylact" {
 		http.Error(w, "Author not found", http.StatusNotFound)
@@ -2288,12 +2453,12 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	} else if author == "theophylact" {
 		var tVerseRef string
-		homilyText, tVerseRef, err = extractHomilyFromContent(author, book, homilyNum)
+		homilyText, tVerseRef, err = extractTheophylactGreek(book, homilyNum)
 		if verseRef == "" {
 			verseRef = tVerseRef
 		}
 		if err != nil {
-			log.Printf("Error extracting Theophylact commentary %d: %v", homilyNum, err)
+			log.Printf("Error extracting Theophylact lemma %d: %v", homilyNum, err)
 			w.Header().Set("Content-Type", "text/html")
 			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Commentary not available.</p></div>"))
 			return

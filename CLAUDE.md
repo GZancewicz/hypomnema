@@ -91,7 +91,7 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 - Server runs on http://localhost:8080
 - Uses HTMX for dynamic content loading
 - **No comments in code** unless explicitly requested
-- **CSS version bumping**: Update `?v=XX` in index.html when changing styles.css
+- **Cache busting is automatic**: templates use `?v={{.AssetVersion}}`, derived from the `styles.css` modification time by `assetVersion()` in main.go. Never hardcode a `?v=` number. HTML responses send `Cache-Control: no-cache, must-revalidate`, so edits appear on a normal reload — no Shift-Ctrl-R. If a new `/static/*.js` file is ever added, give it the same `?v={{.AssetVersion}}` treatment
 - **Footnote handling**: Use XXXFOOTNOTEREFXXX placeholder to preserve class names
 - **Path handling**: Server expects texts at `../texts/` relative to hypomnema-server
 - **Responsive breakpoint**: 700px for mobile view
@@ -145,6 +145,15 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 - Verify `homily_coverage.json` for passage ranges (all commentary directories)
 - Use browser DevTools to inspect `.homily-ref` elements
 - Cyril's sermons use negative numbers internally to distinguish from Chrysostom
+- Verse markers carry a `data-refs` JSON payload (`VerseRef` in main.go). It is HTML-escaped, so grep for `&#34;range&#34;` rather than `"range"` when inspecting curl output
+
+### Commentary panel verse range
+The panel subtitle (`#homilyRange`) shows the passage a commentary covers.
+- Server: `VerseRef.Range`, built by `formatCoverageRange()` in main.go, and by `lookupCoverageRange()` where only a homily ID is known
+- Client: passed as the last argument to `loadHomily` / `loadCyrilHomily` / `loadNikolaiHomily` / `loadTheophylactCommentary`, applied via `setHomilyRange()`
+- **Most `coverage.json` files omit `book` inside `start`/`end`**, so `formatCoverageRange()` takes a fallback book argument. Always pass the correct book or the range renders empty
+- Synaxarion Lives attach to single verses rather than ranges, so they intentionally have no range
+- Any new commentary link site must pass the range too — there are entry points in the reader, the Commentaries index (`/api/index`), Scripture References (`/api/scripture-references`), and the "more homilies" list (`/api/homilies/`)
 
 ### Testing responsive design
 - Toggle viewport below/above 700px
@@ -169,7 +178,7 @@ Each commentary has its own folder with standardized `metadata.json` containing:
 - Venerable Bede's 50 homilies across all four Gospels
 - Minimal blue markers in right margin for commentary references
 - Custom hover tooltips showing homily/sermon numbers
-- Split-screen commentary viewing (50/50 layout)
+- Split-screen commentary viewing (50/50 layout), with the covered verse range in small italics under the title
 - Footnotes with hover tooltips (Chrysostom only)
 - Cross-Gospel homily references via Eusebian canons (Matthew and John homilies appear in Mark/Luke)
 - Responsive design with mobile hamburger menu

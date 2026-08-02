@@ -22,7 +22,7 @@ The hypomnema app is a biblical text reader featuring the King James Version (KJ
   - Synaxarion entries linking saints' lives to New Testament passages (Sept 1 – Oct 31, in progress)
   - Theophylact of Ohrid's commentary (In progress)
   - Minimal blue markers in the right margin
-  - Split-screen commentary viewing (50/50 layout)
+  - Split-screen commentary viewing (50/50 layout), with the passage covered shown under the title
   - Hover tooltips showing commentary references
   - Smart cross-referencing to parallel Gospel passages
   - Footnotes with hover tooltips
@@ -413,6 +413,25 @@ To rebuild Eusebian Canon data:
 python scripts/generate_canon_lookup_from_sql.py
 python scripts/generate_verse_to_canon_mapping.py
 ```
+
+### Static Assets and Caching
+
+CSS changes appear on a normal browser reload — no hard refresh needed, and no
+manual version bumping.
+
+- Templates reference the stylesheet as `styles.css?v={{.AssetVersion}}`. The
+  token comes from `assetVersion()` in `main.go`, which reads the modification
+  time of `static/styles.css`, so it changes automatically whenever the file is
+  edited. Never hardcode a `?v=` number.
+- HTML responses send `Cache-Control: no-cache, must-revalidate`. The page is
+  server-rendered and cheap, so it always revalidates; this is what allows a new
+  asset version to actually reach the browser.
+- Static files keep normal `Last-Modified` revalidation, so an unchanged
+  stylesheet still returns `304 Not Modified` rather than re-downloading.
+
+Any new `/static/*.js` file should use the same `?v={{.AssetVersion}}` pattern.
+JavaScript currently lives inline in `index.html`, so it is covered by the
+page's own no-cache header.
 
 ## Deployment
 
