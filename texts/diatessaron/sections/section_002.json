@@ -1,0 +1,506 @@
+{
+ "number": 2,
+ "roman": "II",
+ "id": "iv.iii.ii",
+ "title": "Section II",
+ "books": [
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 45,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 7] Now the birth of Jesus the Messiah was on this wise: In the time when his mother was given in marriage to Joseph, before they came together,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "she was found with child of the Holy Spirit. And Joseph her husband was a just man and did not wish to expose her, and he purposed to put her away secretly.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "But when he thought of this, the angel of the Lord appeared unto him in a dream, and said unto him, Joseph, son of David, fear not to take Mary thy wife, for that",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "which is begotten in her is of the Holy Spirit. She shall bear a son, and thou shalt",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "call his name Jesus, and he shall save his people from their sins. And all this was that the saying from the Lord by the prophet might be fulfilled:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "Behold, the virgin shall conceive, and bear a son, And they shall call his name Immanuel,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "which is, being interpreted, With us is our God. And when Joseph arose from his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "sleep, he did as the angel of the Lord commanded him, and took his wife; and knew her not until she brought forth her firstborn son.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 1,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "And in those days there went forth a decree from Augustus Cæsar that all the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "people of his dominion should be enrolled. This first enrolment was while Quirinius [11, 12] was governor of Syria. And every man went to be enrolled in his city. And Joseph went up also from Nazareth, a city of Galilee, to Judæa, to the city of David",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 2
+    },
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 3
+    },
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "which is called Bethlehem (for he was of the house of David and of his tribe), with",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "[Arabic, p. 8] Mary his betrothed, she being with child, to be enrolled there. And while",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "she was there the days for her being delivered were accomplished. And she brought forth her firstborn son; and she wrapped him in swaddling cloths and laid him in a manger, because there was no place for them where they were staying.",
+   "refs": []
+  },
+  {
+   "n": 16,
+   "text": "And there were in that region shepherds abiding, keeping their flock in the watch",
+   "refs": []
+  },
+  {
+   "n": 17,
+   "text": "of the night. And behold, the angel of God came unto them, and the glory of the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "Lord shone upon them; and they were greatly terrified. And the angel said unto them, Be not terrified; for I bring you tidings of great joy which shall be to the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "whole world; there is born to you this day a Saviour, which is the Lord the Messiah,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "in the city of David. And this is a sign for you: ye shall find a babe wrapped",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "in swaddling cloths and laid in a manger. And there appeared with the angels suddenly many heavenly forces praising God and saying,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "Praise be to God in the highest, And on the earth peace, and good hope to men.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And when the angels departed from them to heaven, the shepherds spake to one another and said, We will go to Bethlehem and see this word which hath been, as",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "the Lord made known unto us. And they came with haste, and found Mary and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "Joseph, and the babe laid in a manger. And when they saw, they reported the word",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "which was spoken to them about the child. And all that heard wondered at the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "description which the shepherds described to them. But Mary kept these sayings",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "and discriminated them in her heart. And those shepherds returned, magnifying and praising God for all that they had seen and heard, according as it was described unto them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "[Arabic, p. 9] And when eight days were fulfilled that the child should be circumcised, his name was called Jesus, being that by which he was called by the angel before his conception in the womb.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "And when the days of their purification according to the law of Moses were",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "completed, they took him up to Jerusalem to present him before the Lord (as it is written in the law of the Lord, Every male opening the womb shall be called the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "holy thing of the Lord), and to give a sacrificial victim as it is said in the law of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "the Lord, A pair of doves or two young pigeons. And there was in Jerusalem a man whose name was Simeon; and this man was upright and pious, and expecting",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "the consolation of Israel; and the Holy Spirit was upon him. And it had been said unto him by the Holy Spirit, that he should not see death till he had seen with",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "his eyes the Messiah of the Lord. And this man came by the Spirit to the temple; and at the time when his parents brought in the child Jesus, that they might",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "present for him a sacrifice, as it is written in the law, he bare him in his arms and praised God and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "Now loosest thou the bonds of thy servant, O Lord, in peace, According to thy saying;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "For mine eye hath witnessed thy mercy,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "Which thou hast made ready because of the whole world;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "A light for the unveiling of the nations, And a glory to thy people Israel.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "And Joseph and his mother were marvelling at the things which were being said",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "concerning him. And Simeon blessed them and said to Mary his mother, Behold, he is set for the overthrow and rising of many in Israel; and for a sign of contention;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "and a spear shall pierce through thine own soul; that the thoughts of the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "[Arabic, p. 10] hearts of many may be revealed. And Anna the prophetess, the daughter of Phanuel, of the tribe of Asher, was also advanced in years (and she dwelt",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "with her husband seven years from her virginity, and she remained a widow about eighty-four years); and she left not the temple, and served night and day with",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "fasting and prayer. And she also rose in that hour and thanked the Lord, and she",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "spake of him with every one who was expecting the deliverance of Jerusalem. And when they had accomplished everything according to what is in the law of the Lord, they returned to Galilee, to Nazareth their city.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 39
+    }
+   ]
+  }
+ ]
+}

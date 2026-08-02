@@ -248,6 +248,20 @@ Verse-coverage tooling lives with its skill, not in `scripts/` (`.claude/skills/
 - ◐ **Translation in progress** (sibling `.en.md` per lemma): **Matthew 1124/1124 · Mark 452/526 · Luke 248/1046 · John 278/2332**.
 - ✅ **Verse coverage — all four Gospels done.** Per-lemma `metadata.json` in all **5,028** lemma folders; 0 without coverage; 72.7% high / 16.2% medium / 11.1% low confidence (§4a). Derived entirely locally (no model calls).
 - ◐ Body-text OCR: conservative pass done; long tail remains (non-blocking).
+- ✅ **Served in the app — Greek, all four Gospels.** `extractTheophylactGreek()` in
+  `hypomnema-server/main.go` reads each lemma's `.txt` **straight from `PG/sectioned/`**,
+  bypassing the `content/` pipeline (only Matthew lemma 1 was ever built there). Lemma
+  ids map to folders by `theophylactLemmaPaths()`: chapters sorted, then lemmata by their
+  numeric `ΛΗΜΜΑ_NN_` prefix, so index `i` = id `i+1` — the same order as `coverage.json`,
+  verified against the `source` field in `matthew/content/001/metadata.json`. All 1,124
+  Matthew rows in the index table (`/api/index`) link through to it.
+  - Endpoint: `/api/homily/theophylact/<gospel>/<lemma-id>`.
+  - **Lemma counts as served:** Matthew 1124 · Mark 526 · Luke 1046 · John **2332**
+    (John has one fewer folder than `metadata.json` files — the folder count governs).
+  - **Guillemets are not symmetric across the split:** 796 lemmata open `«` and never
+    close; 250 close `»` having never opened. Both heads are scripture and are rendered
+    as the bold blockquote; leftover strays (a `»` OCR'd as `«`) become curly quotes.
+  - Known bad source: `ΚΑΤΑ_ΛΟΥΚΑΝ/…/ΛΗΜΜΑ_37_21.38` contains only `«` → empty panel.
 
 ## 8. Next steps
 - **Finish translation** of Mark, Luke, John (lemma-by-lemma via `translate-theophylact`; fan out with the `theophylact-scribe` agent).
@@ -255,5 +269,10 @@ Verse-coverage tooling lives with its skill, not in `scripts/` (`.claude/skills/
 - **Emit `coverage.json` for Mark, Luke, John** from the per-lemma metadata (`match_verses.py --coverage-json`); Matthew's already exists.
 - **Rename the 1,980 stale folder verse-suffixes** to match derived coverage (all catalogued via `folder_suffix_agrees: false`).
 - **Rebuild the Stade benchmark comparison** off `coverage.json` (per-verse, `compare-theophylact-stade`); currently scoped to a Matthew ch1 pilot.
-- **Wire the app link-through** so Theophylact "Lemma N" in the index table is clickable (remove `theophylact` from the no-link branch in `main.go` and point it at the lemma reader).
+- **Serve the English where it exists.** The reader currently shows the PG Greek for
+  every lemma. The 2,102 translated `.en.md` files are not wired up — the natural next
+  step is a Greek/English toggle in the commentary panel that falls back to Greek.
+- **Re-enable the reader markers.** `loadCommentary("theophylact", …)` is still commented
+  out in `main.go`, so no Theophylact markers appear in the reader margin; only the
+  Commentaries index links through.
 - **Note on `.en.md` verse refs:** unreliable — do **not** use them to derive coverage; the Greek→Patriarchal match is authoritative.

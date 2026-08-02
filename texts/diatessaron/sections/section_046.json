@@ -1,0 +1,603 @@
+{
+ "number": 46,
+ "roman": "XLVI",
+ "id": "iv.iii.xlvi",
+ "title": "Section XLVI",
+ "books": [
+  "john",
+  "luke"
+ ],
+ "stich_count": 52,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Whosoever hath my commandments, and keepeth them, he it is that loveth me: and he that loveth me shall be loved of my Father, and I will love him, and will",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "shew myself unto him. Judas (not Iscariot) said unto him, My Lord, what is the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "purpose of thy intention to shew thyself to us, and not to the world? Jesus answered and said unto him, Whosoever loveth me will keep my word: and my Father will love him, and to him will we come, and make our abode with him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "But he that loveth me not keepeth not my word: and this word that ye hear is not my word, but the Father’s which sent me. [5, 6] This have I spoken unto you, while I was yet with you. But the Paraclete, the Holy Spirit, whom my Father will send in my name, he will teach you everything, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 24
+    },
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 25
+    },
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "[Arabic, p. 174] he will bring to your remembrance all that I say unto you. Peace I leave you; my peace I give unto you: and not as this world giveth, give I unto you.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "Let your heart not be troubled, nor fearful. Ye heard that I said unto you, that I go away, and come unto you. If ye loved me, ye would rejoice, that I go away to my",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Father: for my Father is greater than I. And now I say unto you before it come",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "to pass, that, when it cometh to pass, ye may believe me. Now I will not speak with you much: the Archon of the world will come, and he will have nothing in",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "me: but that the world may know that I love my Father, and as my Father charged me, so I do.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 14,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And he said unto them, When I sent you without purses, or wallets, and shoes,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "lacked ye perchance anything? They said unto him, Nothing. He said unto them, Henceforth, whosoever hath a purse, let him take it, and likewise the wallet also: and whosoever hath not a sword, shall sell his garment, and buy for himself a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "sword. I say unto you, that this scripture also must be fulfilled in me, that I should be reckoned with the transgressors: for all that is said of me is fulfilled in",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "me. His disciples said unto him, Our Lord, lo, here are two swords. He said",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "unto them, They are sufficient. Arise, let us go hence. And they arose, and praised, and went forth, and went, according to their custom, to the mount of Olives, he and his disciples.",
+   "refs": []
+  },
+  {
+   "n": 17,
+   "text": "And he said unto them, I am the true vine, and my Father is the husbandman.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "Every branch that produceth not fruit in me, he taketh it: and that which giveth fruit,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "he cleanseth it, that it may give much fruit. Ye are already clean because of the word",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "that I have spoken unto you. Abide in me, and I in you. And as the branch of the [Arabic, p. 175] vine cannot produce fruit of itself, if it be not abiding in the vine; so too ye",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "also, if ye abide not in me. I am the vine, and ye are the branches: He then that abideth in me, and I in him, he giveth much fruit: for without me ye cannot",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "do anything. And if a man abide not in me, he is cast without, like a withered",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "branch; and it is gathered, and cast into the fire, that it may be burned. If ye abide in me, and my word abide in you, everything that ye desire to ask shall be",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "done unto you. And herein is the Father glorified, that ye may give much fruit;",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "and ye shall be my disciples. And as my Father loved me, I loved you also:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "abide in my love. If ye keep my commands, ye shall abide in my love; as I have",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "kept my Father’s commands, and abode in his love. I have spoken that unto you,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "that my joy may be in you, and your joy be fulfilled. This is my commandment,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "that ye love one another, as I loved you. And no love is greater than this, namely,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "that a man should give his life for his friends. Ye are my friends, if ye do all that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "I command you. I call you not now servants; for the servant knoweth not what his lord doeth: my friends have I now called you; for everything that I heard from",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "my Father I have made known unto you. Ye did not choose me, but I chose I you, and appointed you, that ye also should go and bear fruit, and that your fruit should",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "abide; and that all that ye shall ask my Father in my name, he may give you. This",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "I command you, that ye love one another. And if the world hate you, know that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "before you it hated me. If then ye were of the world, the world would love its own: but ye are not of the world: I chose you out of the world: therefore the world",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "[Arabic, p. 176] hateth you. Remember the word that I said unto you, that no servant is greater than his lord. And if they persecuted me, you also will they",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "persecute; and if they kept my word, your word also will they keep. But all these things will they do unto you for my name’s sake, for they have not known him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "that sent me. And if I had not come and spoken unto them, they had not had sin:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "but now they have no excuse for their sins. Whosoever hateth me, also hateth my",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "Father. And if I had not done the deeds before them that no other man did, they would not have had sin: but now they have seen and hated me and my Father",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "also: that the word may be fulfilled that is written in their law, They hated me for",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "nothing. But when the Paraclete is come, whom I will send unto you from my Father, even the Spirit of truth, which goeth forth from my Father, he shall bear witness of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "me: and ye also bear witness, because from the beginning ye have been with me. [44, 45] I have said that unto you, that ye may not stumble. And they shall put you out of their synagogues: and there cometh an hour when every one that killeth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 15,
+     "verse": 27
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 1
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "you shall think that he hath offered unto God an offering. And they will do that,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "because they do not know me, nor my Father. I have said that unto you, so that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "when its time is come, ye may remember it, that I told you. And this hitherto I said not unto you, because I was with you. But now I go unto him that sent me; and no",
+   "refs": []
+  },
+  {
+   "n": 49,
+   "text": "man of you asketh me whither I go. I have said that unto you now, and grief hath",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "come and taken possession of your hearts But I say the truth unto you; It is better for you that I go away: for if I go not away, the Paraclete will not come unto you;",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "[Arabic, p. 177] but if I go away, I will send him unto you. And when he cometh, he will reprove the world for sin, and for righteousness, and for judgement: [52, 53] for sin, because they have not believed in me; and for righteousness, because I go",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 8
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 9
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "to my Father; and for judgement, because the Archon of this world hath been",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "judged. And further have I many things to speak unto you, but ye cannot tarry",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "now. Howbeit when the Spirit of truth is come, he will remind you of all the truth: he will say nothing from himself; but everything that he heareth, that shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "he say: and he shall make known unto you the things that are to be. And he shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "glorify me; for from me shall he take and shew you. All that my Father hath is mine: therefore said I unto you, that he taketh of mine, and shall shew you.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 15
+    }
+   ]
+  }
+ ]
+}

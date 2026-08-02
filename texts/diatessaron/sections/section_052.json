@@ -1,0 +1,550 @@
+{
+ "number": 52,
+ "roman": "LII",
+ "id": "iv.iii.lii",
+ "title": "Section LII",
+ "books": [
+  "john",
+  "mark",
+  "luke",
+  "matthew"
+ ],
+ "stich_count": 51,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And after that, Jesus knew that all things were finished; and that the scripture",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "might be accomplished, he said, I thirst. And there was set a vessel full of vinegar: and in that hour one of them hasted, and took a sponge, and filled it with that",
+   "refs": []
+  },
+  {
+   "n": 3,
+   "text": "vinegar, and fastened it on a reed, and brought it near his mouth to give him a",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "drink. And when Jesus had taken that vinegar, he said, Everything is finished.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "But the rest said, Let be, that we may see whether Elijah cometh to save him. [6, 7] And Jesus said, My Father, forgive them; for they know not what they do. And Jesus cried again with a loud voice, and said, My Father, into thy hands I commend my spirit. He said that, and bowed his head, and gave up his spirit.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 46
+    },
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "And immediately the face of the door of the temple was rent into two parts from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "top to bottom; and the earth was shaken; and the stones were split to pieces; and the [Arabic, p. 197] tombs were opened; and the bodies of many saints which slept, arose and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "came forth; and after his resurrection they entered into the holy city and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "appeared unto many. And the officer of the footsoldiers, and they that were with him who were guarding Jesus, when they saw the earthquake, and the things which came",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "to pass, feared greatly, and praised God, and said, This man was righteous; and,",
+   "refs": []
+  },
+  {
+   "n": 13,
+   "text": "Truly he was the Son of God. And all the multitudes that were come together to the sight, when they saw what came to pass, returned and smote upon their breasts.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "And the Jews, because of the Friday, said, Let these bodies not remain on their crosses, because it is the morning of the sabbath (for that sabbath was a great day); and they asked of Pilate that they might break the legs of those that were",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "crucified, and take them down. And the soldiers came, and brake the legs of the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "first, and that other which was crucified with him: but when they came to Jesus,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "they saw that he had died before, so they brake not his legs: but one of the soldiers pierced him in his side with a spear, and immediately there came forth blood and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "water. And he that hath seen hath borne witness, and his witness is true: and he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "knoweth that he hath said the truth, that ye also may believe. This he did, that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "the scripture might be fulfilled, which saith, A bone shall not be broken in him; and the scripture also which saith, Let them look upon him whom they pierced.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "And there were in the distance all the acquaintance of Jesus standing, and the women that came with him from Galilee, those that followed him and ministered.",
+   "refs": []
+  },
+  {
+   "n": 22,
+   "text": "One of them was Mary Magdalene; and Mary the mother of James the little and",
+   "refs": []
+  },
+  {
+   "n": 23,
+   "text": "[Arabic, p. 198] Joses, and the mother of the sons of Zebedee, and Salome, and many others which came up with him unto Jerusalem; and they saw that.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "And when the evening of the Friday was come, because of the entering of the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "sabbath, there came a rich man, a noble of Ramah, a city of Judah, named Joseph, and he was a good man and upright; and he was a disciple of Jesus, but",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 50
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 57
+    },
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 51
+    },
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "was concealing himself for fear of the Jews. And he did not agree with the accusers",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "in their desire and their deeds: and he was looking for the kingdom of God. And this man went boldly, and entered in unto Pilate, and asked of him the body of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 51
+    },
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "Jesus. And Pilate wondered how he had died already: and he called the officer of",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "the footsoldiers, and asked him concerning his death before the time. And when",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "he knew, he commanded him to deliver up his body unto Joseph. And Joseph bought for him a winding cloth of pure linen, and took down the body of Jesus,",
+   "refs": []
+  },
+  {
+   "n": 31,
+   "text": "and wound it in it; and they came and took it. And there came unto him Nicodemus also, who of old came unto Jesus by night; and he brought with him perfume",
+   "refs": []
+  },
+  {
+   "n": 32,
+   "text": "of myrrh and aloes, about a hundred pounds. And they took the body of Jesus, and wound it in the linen and the perfume, as was the custom of the Jews to bury.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "And there was in the place where Jesus was crucified a garden; and in that garden",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "a new tomb cut out in a rock, wherein was never man yet laid. And they left",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Jesus there because the sabbath had come in, and because the tomb was near. And they pushed a great stone, and thrust it against the door of the sepulchre, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 60
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "went away. And Mary Magdalene and Mary that was related to Joses came to",
+   "refs": []
+  },
+  {
+   "n": 37,
+   "text": "[Arabic, p. 199] the sepulchre after them, and sat opposite the sepulchre, and saw the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 55
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 61
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "body, how they took it in and laid it there. And they returned, and bought ointment and perfume, and prepared it, that they might come and anoint him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 56
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "And on the day which was the sabbath day they desisted according to the command. [40, 41] And the chief priests and the Pharisees gathered unto Pilate, and said unto him, Our lord, we remember that that misleader said, while he was alive, After three days",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 56
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 62
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 63
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "I rise. And now send beforehand and guard the tomb until the third day, lest his disciples come and steal him by night, and they will say unto the people that he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 64
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "is risen from the dead: and the last error shall be worse than the first. He said unto them, And have ye not guards? go, and take precautions as ye know how.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 65
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "And they went, and set guards at the tomb, and sealed that stone, with the guards.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 66
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "And in the evening of the sabbath, which is the morning of the first day, and in",
+   "refs": []
+  },
+  {
+   "n": 46,
+   "text": "the dawning while the darkness yet remained, came Mary Magdalene and the other Mary and other women to see the tomb. They brought with them the",
+   "refs": []
+  },
+  {
+   "n": 47,
+   "text": "perfume which they had prepared, and said among themselves, Who is it that will",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 16,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "remove for us the stone from the door of the tomb? for it was very great. And when they said thus, there occurred a great earthquake; and an angel came down",
+   "refs": []
+  },
+  {
+   "n": 49,
+   "text": "from heaven, and came and removed the stone from the door. And they came and found the stone removed from the sepulchre, and the angel sitting upon the",
+   "refs": []
+  },
+  {
+   "n": 50,
+   "text": "stone. And his appearance was as the lightning, and his raiment white as the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 28,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "snow: and for fear of him the guards were troubled, and became as dead men.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 28,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "And when he went away, the women entered into the sepulchre; and they found",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 24,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "[Arabic, p. 200] not the body of Jesus. And they saw there a young man sitting on the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 16,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "right, arrayed in a white garment; and they were amazed. And the angel answered and said unto the women, Fear ye not: for I know that ye seek Jesus the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 28,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "Nazarene, who hath been crucified. He is not here; but he is risen, as he said. Come and see the place where our Lord lay.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 28,
+     "verse": 6
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,539 @@
+{
+ "number": 50,
+ "roman": "L",
+ "id": "iv.iii.l",
+ "title": "Section L",
+ "books": [
+  "luke",
+  "mark",
+  "matthew",
+  "john"
+ ],
+ "stich_count": 45,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Pilate said unto the chief priests and the multitude, I have not found",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "against this man anything. But they cried out and said, He hath disquieted our people with his teaching in all Judæa, and he began from Galilee and unto this",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "place. And Pilate, when he heard the name of Galilee, asked, Is this man a Galilæan?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "And when he learned that he was under the jurisdiction of Herod, he sent him to Herod: for he was in Jerusalem in those days.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And Herod, when he saw Jesus, rejoiced exceedingly: for he had desired to see him for a long time, because he had heard regarding him many things; and he counted on",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 189] seeing some sign from him. And he questioned him with many words; but",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Jesus answered him not a word. And the scribes and chief priests were",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "standing by, and they accused him vehemently. And Herod scoffed at him, he and his servants; and when he had scoffed at him, he clothed him in robes of scarlet,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "and sent him to Pilate. And on that day Pilate and Herod became friends, there having been enmity between them before that. [10, 11] And Pilate called the chief priests and the rulers of the people, and said unto them, Ye brought unto me this man, as the perverter of your people: and I have tried him before you, and have not found in this man any cause of all that ye",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 12
+    },
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 13
+    },
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "seek against him: nor yet Herod: for I sent him unto him; and he hath done",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "nothing for which he should deserve death. So now I will chastise him, and let [14, 15] him go. The multitude all cried out and said, Take him from us, take him. And",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 16
+    },
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 18
+    },
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "the chief priests and the elders accused him of many things. And during their",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "accusation he answered not a word. Then Pilate said unto him, Hearest thou not",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "how many things they witness against thee? And he answered him not, not even one word: and Pilate marvelled at that.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "And when the judge sat on his tribune, his wife sent unto him, and said unto him, See that thou have nothing to do with that righteous man: for I have suffered much in my dream to-day because of him.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "And at every feast the custom of the judge was to release to the people one",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "prisoner, him whom they would. And there was in their prison a well-known prisoner, [22, 23] called Barabbas. And when they assembled, Pilate said unto them, Ye have a custom, that I should release unto you a prisoner at the passover: will ye that I",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 16
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 17
+    },
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "release unto you the King of the Jews? And they all cried out and said, Release not [Arabic, p. 190] unto us this man, but release unto us Barabbas. And this Barabbas was a",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "robber, who for sedition and murder, which was in the city, was cast into the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "prison. And all the people cried out and began to ask him to do as the custom was",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "that he should do with them. And Pilate answered and said unto them, Whom will ye that I release unto you? Barabbas, or Jesus which is called the Messiah, the",
+   "refs": []
+  },
+  {
+   "n": 28,
+   "text": "King of the Jews? For Pilate knew that envy had moved them to deliver him up.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "And the chief priests and the elders asked the multitudes to deliver Barabbas, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "to destroy Jesus. The judge answered and said unto them, Whom of the two will",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "ye that I release unto you? They said, Barabbas. Pilate said unto them, And",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "Jesus which is called the Messiah, what shall I do with him? They all cried out",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "and said, Crucify him. And Pilate spake to them again, for he desired to release",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "Jesus; but they cried out and said, Crucify him, crucify him, and release unto us",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Barabbas. And Pilate said unto them a third time, What evil hath this man done? I have not found in him any cause to necessitate death: I will chastise him and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "let him go. But they increased in importunity with a loud voice, and asked him to crucify him. And their voice, and the voice of the chief priests, prevailed.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "Then Pilate released unto them that one who was cast into prison for sedition and murder, Barabbas, whom they asked for: and he scourged Jesus with whips.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "Then the footsoldiers of the judge took Jesus, and went into the prætorium, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "[Arabic, p. 191] gathered unto him all of the footsoldiers. And they stripped him, and put on",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "him a scarlet cloak. And they clothed him in garments of purple, and plaited",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "a crown of thorns, and placed it on his head, and a reed in his right hand; and while they mocked at him and laughed, they fell down on their knees before him, and bowed",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "down to him, and said, Hail, King of the Jews! And they spat in his face, and took the reed from his hand, and struck him on his head, and smote his cheeks.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 30
+    },
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "And Pilate went forth without again, and said unto the Jews, I bring him forth to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "you, that ye may know that I do not find, in examining him, even one crime. And Jesus went forth without, wearing the crown of thorns and the purple garments.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "Pilate said unto them, Behold, the man! And when the chief priests and the soldiers saw him, they cried out and said, Crucify him, crucify him. Pilate said unto them, Take him yourselves, and crucify him: for I find not a cause against",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "him. The Jews said unto him, We have a law, and according to our law he deserves",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "death, because he made himself the Son of God. And when Pilate heard this word,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "his fear increased; and he entered again into the porch, and said to Jesus, Whence",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "art thou? But Jesus answered him not a word. Pilate said unto him, Speakest thou not unto me? knowest thou not that I have authority to release thee, and have",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "authority to crucify thee? Jesus said unto him, Thou hast not any authority over me, if thou wert not given it from above: therefore the sin of him that delivered",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "me up unto thee is greater than thy sin. And for this word Pilate wished to release him: but the Jews cried out, If thou let him go, thou art not a friend of Cæsar: for every one that maketh himself a king is against Cæsar.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 12
+    }
+   ]
+  }
+ ]
+}

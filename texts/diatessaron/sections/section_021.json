@@ -1,0 +1,504 @@
+{
+ "number": 21,
+ "roman": "XXI",
+ "id": "iv.iii.xxi",
+ "title": "Section XXI",
+ "books": [
+  "mark",
+  "john"
+ ],
+ "stich_count": 41,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Jesus went out again from the borders of Tyre and Sidon, and came to the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "sea of Galilee, towards the borders of Decapolis. And they brought unto him one dumb and deaf, and entreated him that he would lay his hand upon him and heal",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "him. And he drew him away from the multitude, and went away alone, and spat",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "upon his fingers, and thrust them into his ears, and touched his tongue; and looked",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "to heaven, and sighed, and said unto him, Be opened. And in that hour his ears",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "were opened, and the bond of his tongue was loosed, and he spake with ease. And Jesus charged them much that they should not tell this to any man: but the more",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "he charged them, the more they increased in publishing, and marvelled much, and [Arabic, p. 82] said, This man doeth everything well: he made the deaf to hear, and those that lacked speech to speak. [8, 9] And while he was passing through the land of Samaria, he came to one of the cities of the Samaritans, called Sychar, beside the field which Jacob gave to Joseph to",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 37
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 4
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "his son. And there was there a spring of water of Jacob’s. And Jesus was fatigued from the exertion of the way, and sat at the spring. And the time was about the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "sixth hour. And a woman of Samaria came to draw water; and Jesus said unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "her, Give me water, that I may drink. And his disciples had entered into the city",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "to buy for themselves food. And that Samaritan woman said unto him, How dost thou, being a Jew, ask me to give thee to drink, while I am a Samaritan woman?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "(And the Jews mingle not with the Samaritans.) Jesus answered and said unto her, If thou knewest the gift of God, and who this is that said unto thee, Give me",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "to drink; thou wouldest ask him, and he would give thee the water of life. That woman said unto him, My Lord, thou hast no bucket, and the well is deep: from",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "whence hast thou the water of life? Can it be that thou art greater than our father Jacob, who gave us this well, and drank from it, and his children, and his sheep?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "Jesus answered and said unto her, Every one that drinketh of this water shall thirst",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "again: but whosoever drinketh of the water which I shall give him shall not thirst for ever: but the water which I shall give him shall be in him a spring of water springing",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "up unto eternal life. That woman said unto him, My Lord, give me of this water, that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "I may not thirst again, neither come and draw water from here. Jesus said unto her,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "[Arabic, p. 83] Go and call thy husband, and come hither. She said unto him, I have no",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "husband. Jesus said unto her, Thou saidst well, I have no husband: five husbands hast thou had, and this man whom thou hast now is not thy husband; and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "in this thou saidst truly. That woman said unto him, My Lord, I perceive thee to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "be a prophet. Our fathers worshipped in this mountain; and ye say that in Jerusalem",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "is the place in which worship must be. Jesus said unto her, Woman, believe me, an hour cometh, when neither in this mountain, nor yet in Jerusalem, shall ye worship",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "the Father. Ye worship that which ye know not: but we worship that which",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "we know: for salvation is of the Jews. But an hour cometh, and now is, when the true worshippers shall worship the Father in spirit and truth: and the Father also",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "seeketh such as these worshippers. For God is a Spirit: and they that worship him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "must worship him in spirit and in truth. That woman said unto him, I know that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "the Messiah cometh: and when he is come, he will teach us everything. Jesus said unto her, I that speak unto thee am he.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "And while he was speaking, his disciples came; and they wondered how he would speak with a woman; but not one of them said unto him, What seekest thou? or,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "What speakest thou with her? And the woman left her waterpot, and went to the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "city, and said to the people, Come, and see a man who told me all that ever I did:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "perhaps then he is the Messiah. And people went out from the city, and came to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "him. And in the mean while his disciples besought him, and said unto him, Our [36, 37] master, eat. And he said unto them, I have food to eat that ye know not. And the disciples said amongst themselves, Can any one have brought him aught to eat?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 31
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 32
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "Jesus said unto them, My food is to do the will of him that sent me, and to accomplish",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "[Arabic, p. 84] his work. Said ye not that after four months cometh the harvest? behold, I therefore say unto you, Lift up your eyes, and behold the lands,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "that they have become white, and the harvest is already come. And he that reapeth receiveth his wages, and gathereth the fruit of eternal life; and the sower and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "the reaper rejoice together. For in this is found the word of truth, One soweth, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "another reapeth. And I sent you to reap that in which ye have not laboured: others laboured, and ye have entered on their labour.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "And from that city many of the Samaritans believed in him because of the words",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "of that woman, who testified and said, He told me all that ever I did. And when those Samaritans came unto him, they besought him to abide with them; and he [45, 46] abode with them two days. And many believed in him because of his word; and they said to that woman, Now not because of thy saying have we believed in him: we have heard and known that this truly is the Messiah, the Saviour of the world. [47, 48] And after two days Jesus went out thence and departed to Galilee. And Jesus",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 40
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 41
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 42
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 43
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "testified that a prophet is not honoured in his own city. And when he came to Galilee, the Galilæans received him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 45
+    }
+   ]
+  }
+ ]
+}

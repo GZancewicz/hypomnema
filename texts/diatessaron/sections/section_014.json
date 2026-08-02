@@ -1,0 +1,494 @@
+{
+ "number": 14,
+ "roman": "XIV",
+ "id": "iv.iii.xiv",
+ "title": "Section XIV",
+ "books": [
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 42,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Verily I say unto you, There hath not arisen among those whom women have borne a greater than John the Baptist; but he that is little now in the kingdom of heaven is greater than he.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "[Arabic, p. 54] And all the people which heard, and the publicans, justified God, for",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "they had been baptized with the baptism of John. But the Pharisees and the scribes wronged the purpose of God in themselves, in that they were not baptized of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "him. And from the days of John the Baptist until now the kingdom of heaven is",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "snatched away by violence. The law and the prophets were until John; and after that, the kingdom of God is preached, and all press to enter it: and they that exert themselves [6, 7] snatch it away. All the prophets and the law until John prophesied. And if ye",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 16
+    },
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 12
+    },
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 13
+    },
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "will, then receive it, that he is Elijah, which is to come. Whosoever hath ears that hear",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "let him hear. Easier is the perishing of heaven and earth, than the passing away of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "one point of the law. To whom then shall I liken the people of this generation, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "to whom are they like? They are like the children sitting in the market, which call to their companions, and say, We sang to you, and ye danced not; we wailed to you,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "and ye wept not. John the Baptist came neither eating bread nor drinking wine;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "and ye said, He hath demons: and the Son of man came eating and drinking; and ye said, Behold, a gluttonous man, and a drinker of wine, and an associate of publicans [14, 15] and sinners! And wisdom was justified of all her children. And when he said that, they came to the house. And there gathered unto him again multitudes,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 34
+    },
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "so that they found not bread to eat. And while he was casting out a devil which was dumb, when he cast out that devil, that dumb man spake. And the multitudes",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "[Arabic, p. 55] marvelled. And the Pharisees, when they heard, said, This man doth not cast out the devils, except by Beelzebul the chief of the demons, which is in him. [18, 19] And others requested of him a sign from heaven, to tempt him. And Jesus knew their thoughts, and said unto them in parables, Every kingdom that withstandeth itself shall become desolate; and every house or city that disagreeth with itself shall not",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 24
+    },
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 16
+    },
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "stand: and if a devil cast out a devil, he withstandeth himself; neither shall he be",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "able to stand, but his end shall be. Then how now shall his kingdom stand? for ye",
+   "refs": []
+  },
+  {
+   "n": 22,
+   "text": "said that I cast out devils by Beelzebul. And if I by Beelzebul cast out the devils, then your children, by what do they cast them out? And for this cause they shall",
+   "refs": []
+  },
+  {
+   "n": 23,
+   "text": "be judges against you. But if I by the Spirit of God cast out devils, then the kingdom",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "of God is come near unto you. Or how can a man enter into the house of a valiant man, and seize his garments, if he do not beforehand secure himself from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "that valiant man? and then will he cut off his house. But when the valiant man is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "armed, guarding his house, his possessions are in peace. But if one come who is more valiant than he, he overcometh him, and taketh his whole armour, on which",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "he relieth, and divideth his spoil. Whosoever is not with me is against me; and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "whosoever gathereth not with me scattereth abroad. For this reason I say unto you, [Arabic, p. 56] that all sins and blasphemies with which men blaspheme shall be forgiven",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "them: but whosoever shall blaspheme against the Holy Spirit, there is no",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "forgiveness for him for ever, but he is deserving of eternal punishment: because they",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "said that he had an unclean spirit. And he said also, Every one that speaketh a word against the Son of man, it shall be forgiven him; but whosoever speaketh against the Holy Spirit, it shall not be forgiven him, neither in this world, nor in the world to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "come. Either ye must make a good tree and its fruit good; or ye must make an evil",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "tree and its fruit evil: for the tree is known by its fruit. Ye children of vipers, how can ye, being evil, speak good things? from the overflowings of the heart the mouth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "speaketh. The good man from the good treasures which are in his heart bringeth forth good things; and the wicked man from the evil treasures which are in his",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "heart bringeth forth evils. I say unto you, that every idle word which men shall",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "speak, they shall give an answer for in the day of judgement: for by thy sayings thou shalt be justified, and by thy sayings thou shalt be judged.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "And he said to the multitudes, When ye see the clouds appear from the west,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "straightway ye say that there cometh rain; and so it cometh to pass. And when",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 55
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "the south wind bloweth, ye say that there will be heat; and it cometh to pass. And when the evening is come, ye say, It will be fair weather, for the heaven has become",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "red. And in the morning ye say, To-day there will be severe weather, for the redness [Arabic, p. 57] of the heaven is paling. Ye hypocrites, ye know to examine the face of the heaven and the earth; but the signs of this time ye know not to discern.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "Then they brought to him one possessed of a demon, dumb and blind; and he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "healed him, so that the dumb and blind began to speak and see. And all the multitudes wondered, and said, Is this, think you, the son of David?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "And the apostles returned unto Jesus, and told him everything that they had",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "done and wrought. And he said unto them, Come, let us go into the desert alone, and rest ye a little. And many were going and returning, and they had not leisure, not even to eat bread.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "And after that, there came to him one of the Pharisees, and besought him that he would eat bread with him. And he entered into the house of that Pharisee, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "reclined. And there was in that city a woman that was a sinner; and when she knew that he was sitting in the house of that Pharisee, she took a box of sweet ointment,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "and stood behind him, towards his feet, weeping, and began to wet his feet with her tears, and to wipe them with the hair of her head, and to kiss his feet, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "anoint them with the sweet ointment. And when that Pharisee saw it, who invited him, he thought within himself, and said, This man, if he were a prophet, would know who she is and what is her history: for the woman which touched him was a sinner.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 39
+    }
+   ]
+  }
+ ]
+}

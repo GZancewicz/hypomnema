@@ -1,0 +1,430 @@
+{
+ "number": 49,
+ "roman": "XLIX",
+ "id": "iv.iii.xlix",
+ "title": "Section XLIX",
+ "books": [
+  "john",
+  "mark",
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 37,
+ "stichs": [
+  {
+   "n": 3,
+   "text": "[Arabic, p. 185] secret. Why askest thou me? ask those that have heard, what I spake unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "them: for they know all that I said. And when he had said that, one of the soldiers which were standing there struck the cheek of Jesus, and said unto him,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Dost thou thus answer the chief priest? Jesus answered and said unto him, If I",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "have spoken evil, bear witness of evil: but if well, why didst thou smite me? And Annas sent Jesus bound unto Caiaphas the chief priest.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "And when Jesus went out, Simon Cephas was standing in the outer court warming",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "himself. And that maid saw him again, and began to say to those that stood",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 69
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "by, This man also was there with Jesus the Nazarene. And those that stood by",
+   "refs": []
+  },
+  {
+   "n": 10,
+   "text": "came forward and said to Cephas, Truly thou art one of his disciples. And he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 72
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "denied again with an oath, I know not the man. And after a little one of the servants of the chief priest, the kinsman of him whose ear Simon cut off, saw him; and",
+   "refs": []
+  },
+  {
+   "n": 12,
+   "text": "he disputed and said, Truly this man was with him: and he also is a Galilæan;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 59
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "and his speech resembles. And he said unto Simon, Did not I see thee with him",
+   "refs": []
+  },
+  {
+   "n": 14,
+   "text": "in the garden? Then began Simon to curse, and to swear, I know not this man",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 71
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "whom ye have mentioned. And immediately, while he was speaking, the cock crew",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 60
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "twice. And in that hour Jesus turned, he being without, and looked stedfastly at Cephas. And Simon remembered the word of our Lord, which he said unto him, [17, 18] Before the cock crow twice, thou shalt deny me thrice. And Simon went forth without, and wept bitterly.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 61
+    },
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 62
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "[Arabic, p. 186] And when the morning approached, the servants of all the chief priests and the scribes and the elders of the people and all the multitude assembled, [20, 21] and made a plot; and they took counsel against Jesus to put him to death. And they sought false witnesses who should witness against him, that they might put him to [22, 23] death, and they found not; but many false witnesses came, but their witness did not [24, 25] agree. But at last there came two lying witnesses, and said, We heard him say, I will destroy this temple of God that is made with hands, and will build another not [26, 27] made with hands after three days. And not even so did their witness agree. But Jesus was silent. And the chief priest rose in the midst, and asked Jesus, and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 66
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 1
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 59
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 60
+    },
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 59
+    },
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 60
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "Answerest thou not a word concerning anything? what do these witness against [29, 30] thee? But Jesus was silent, and answered him nothing. And they took him up",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 62
+    },
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 61
+    },
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 66
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "into their assembly, and said unto him, If thou art the Messiah, tell us. He said",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 67
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "unto them, If I tell you, ye will not believe me: and if I ask you, ye will not answer",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 68
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "me a word, nor let me go. And the chief priest answered and said unto him, I adjure thee by the living God, that thou tell us whether thou art the Messiah, the [34, 35] Son of the living God. Jesus said unto him, Thou hast said that I am he. They all said unto him, Then thou art now the Son of God? Jesus said, Ye have said",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 63
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 64
+    },
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 70
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "that I am he. I say unto you, that henceforth ye shall see the Son of man sitting",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 64
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "[Arabic, p. 187] at the right hand of power, and coming on the clouds of heaven. Then the",
+   "refs": []
+  },
+  {
+   "n": 38,
+   "text": "chief priest rent his tunic, and said, He hath blasphemed. And they all said, Why should we seek now witnesses? we have heard now the blasphemy from his mouth. [39, 40] What then think ye? They all answered and said, He is worthy of death. Then some of them drew near, and spat in his face, and struck him, and scoffed at him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 71
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "And the soldiers struck him on his cheeks, and said, Prophesy unto us, thou Messiah:",
+   "refs": []
+  },
+  {
+   "n": 42,
+   "text": "who is he that struck thee? And many other things spake they falsely, and said against him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 65
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "And all of their assembly arose, and took Jesus, and brought him bound to",
+   "refs": []
+  },
+  {
+   "n": 44,
+   "text": "the prætorium, and delivered him up to Pilate the judge; but they entered not into the prætorium, that they might not be defiled when they should eat the passover.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "And Jesus stood before the judge. And Pilate went forth unto them without, and",
+   "refs": []
+  },
+  {
+   "n": 46,
+   "text": "said unto them, What accusation have ye against this man? They answered and said unto him, If he had not been doing evils, neither should we have delivered",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "him up unto thee. We found this man leading our people astray, and restraining from giving tribute to Cæsar, and saying of himself that he is the King, the Messiah.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "Pilate said unto them, Then take ye him, and judge him according to your law. [Arabic, p. 188] The Jews said unto him, We have no authority to put a man to death:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "that the word might be fulfilled, which Jesus spake, when he made known by what manner of death he was to die.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "And Pilate entered into the prætorium, and called Jesus, and said unto him, Art",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "thou the King of the Jews? Jesus said unto him, Of thyself saidst thou this, or",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "did others tell it thee concerning me? Pilate said unto him, Am I, forsooth, a Jew? The sons of thy nation and the chief priests delivered thee unto me: what",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "hast thou done? Jesus said unto him, My kingdom is not of this world: if my kingdom were of this world, then would my servants fight, that I should not be",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "delivered to the Jews: now my kingdom is not from hence. Pilate said unto him, Then thou art a king? Jesus said unto him, Thou hast said that I am a king. And for this was I born, and for this came I into the world, that I should bear witness",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "of the truth. And every one that is of the truth heareth my voice. Pilate said unto him, And what is the truth? And when he said that, he went out again unto the Jews.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 38
+    }
+   ]
+  }
+ ]
+}

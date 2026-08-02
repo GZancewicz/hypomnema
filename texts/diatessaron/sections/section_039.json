@@ -1,0 +1,434 @@
+{
+ "number": 39,
+ "roman": "XXXIX",
+ "id": "iv.iii.xxxix",
+ "title": "Section XXXIX",
+ "books": [
+  "john",
+  "mark",
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 37,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Jesus six days before the passover came to Bethany, where was Lazarus,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "whom Jesus raised from among the dead. And they made a feast for him there:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "and Martha was serving; while Lazarus was one of them that sat with him. And",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "at the time of Jesus’ being at Bethany in the house of Simon the leper, great multitudes of the Jews heard that Jesus was there: and they came, not because of Jesus alone, but [Arabic, p. 147] that they might look also on Lazarus, whom he raised from among the dead. [5, 6] And the chief priests considered how they might kill Lazarus also; because",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 9
+    },
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 10
+    },
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "many of the Jews were going on his account, and believing in Jesus. And Mary took a case of the ointment of fine nard, of great price, and opened it, and poured",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 3
+    },
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "it out on the head of Jesus as he was reclining; and she anointed his feet, and wiped them with her hair: and the house was filled with the odour of the ointment. [9, 10] But Judas Iscariot, one of the disciples, he that was to betray him, said, Why was",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 3
+    },
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 4
+    },
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "not this ointment sold for three hundred pence, and given unto the poor? This he said, not because of his care for the poor, but because he was a thief, and the chest",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "was with him, and what was put into it he used to bear. And that displeased the rest of the disciples also within themselves, and they said, Why went this ointment",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "to waste? It was possible that it should be sold for much, and the poor be given",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "it. And they were angry with Mary. And Jesus perceived it, and said unto them, Leave her; why molest ye her? a good work hath she accomplished on me: for the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 5
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 10
+    },
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 6
+    },
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "day of my burial kept she it. At all times the poor are with you, and when ye",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "wish ye can do them a kindness: but I am not at all times with you. And for this cause, when she poured this ointment on my body, it is as if she did it for my burial,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 7
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "and anointed my body beforehand. And verily I say unto you, In every place where this my gospel shall be proclaimed in all the world, what she did shall be told for a memorial of her. [18, 19] [Arabic, p. 148] And when Jesus said that, he went out leisurely to go to Jerusalem. And when he arrived at Bethphage and at Bethany, beside the mount which is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "called the mount of Olives, Jesus sent two of his disciples, and he said unto them, Go",
+   "refs": []
+  },
+  {
+   "n": 21,
+   "text": "into this village that is opposite you: and when ye enter it, ye shall find an ass tied, and",
+   "refs": []
+  },
+  {
+   "n": 22,
+   "text": "a colt with him, which no man ever yet mounted: loose him, and bring them unto me. And if any man say unto you, Why loose ye them? say unto him thus, We",
+   "refs": []
+  },
+  {
+   "n": 23,
+   "text": "seek them for our Lord; and straightway send them hither. All this was, that what was said in the prophet might be fulfilled, which said,",
+   "refs": []
+  },
+  {
+   "n": 24,
+   "text": "Say ye unto the daughter of Zion, Behold, thy King cometh unto thee, Meek, and riding upon an ass, And upon a colt the foal of an ass.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And the disciples did not know this at that time: but after that Jesus was glorified, his disciples remembered that these things were written of him, and that this",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "they had done unto him. And when the two disciples went, they found as he had",
+   "refs": []
+  },
+  {
+   "n": 27,
+   "text": "said unto them, and they did as Jesus charged them. And when they loosed them,",
+   "refs": []
+  },
+  {
+   "n": 28,
+   "text": "their owners said unto them, Why loose ye them? They said unto them, We seek",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "them for our Lord. And they let them go. And they brought the ass and the colt,",
+   "refs": []
+  },
+  {
+   "n": 30,
+   "text": "and they placed on the colt their garments; and Jesus mounted it. And most of the multitudes spread their garments on the ground before him: and others cut branches",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "from the trees, and threw them in the way. And when he neared his descent from [Arabic, p. 149] the mount of Olives, all the disciples began to rejoice and to praise God with",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "a loud voice for all the powers which they had seen; and they said, Praise in the highest; Praise to the Son of David: Blessed is he that cometh in the name",
+   "refs": []
+  },
+  {
+   "n": 33,
+   "text": "of the Lord; and blessed is the kingdom that cometh, that of our father David: Peace in heaven, and praise in the highest.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 10
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "And a great multitude, that which came to the feast, when they heard that Jesus",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "was coming to Jerusalem, took young palm branches, and went forth to meet him, and cried and said, Praise: Blessed is he that cometh in the name of the Lord, the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "King of Israel. Certain therefore of the Pharisees from among the multitudes",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "said unto him, Our Master, rebuke thy disciples. He said unto them, Verily I say unto you, If these were silent, the stones would cry out. [38, 39] And when he drew near, and saw the city, he wept over it, and said, Would that thou hadst known the things that are for thy peace, in this thy day! now that is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 40
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 41
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "hidden from thine eyes. There shall come unto thee days when thine enemies",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "shall encompass thee, and straiten thee from every quarter, and shall get possession of thee, and thy children within thee; and they shall not leave in thee a stone upon another; because thou knewest not the time of thy visitation.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "And when he entered into Jerusalem, the whole city was agitated, and they said,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Who is this? And the multitudes said, This is Jesus, the prophet that is from Nazareth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "of Galilee. And the multitude which was with him bare witness that he called",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "Lazarus from the grave, and raised him from among the dead. And for this cause great multitudes went out to meet him, because they heard the sign which he did.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 18
+    }
+   ]
+  }
+ ]
+}

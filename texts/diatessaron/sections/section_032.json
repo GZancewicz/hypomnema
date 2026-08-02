@@ -1,0 +1,506 @@
+{
+ "number": 32,
+ "roman": "XXXII",
+ "id": "iv.iii.xxxii",
+ "title": "Section XXXII",
+ "books": [
+  "matthew",
+  "john",
+  "mark",
+  "luke"
+ ],
+ "stich_count": 45,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And when Jesus entered Jerusalem, he went up to the temple of God, and found",
+   "refs": []
+  },
+  {
+   "n": 2,
+   "text": "there oxen and sheep and doves. And when he beheld those that sold and those that bought, and the money-changers sitting, he made for himself a scourge of rope, and drove them all out of the temple, and the sheep and the oxen, and the money-changers; and he threw down their money, and upset their tables, and the seats of",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 12
+    },
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "them that sold the doves; and he was teaching, and saying unto them, Is it not written, My house is a house of prayer for all peoples? and ye have made it a den",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "for robbers. And he said unto those that sold the doves, Take this hence, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "make not my Father’s house a house of merchandise. And he suffered not any",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "one to carry vessels inside the temple. And his disciples remembered the scripture,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "The zeal of thy house hath eaten me up. The Jews answered and said unto him,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "What sign hast thou shewn us, that thou doest this? Jesus answered and said unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "them, Destroy this temple, and I shall raise it in three days. The Jews said unto him, This temple was built in forty-six years, and wilt thou raise it in three days?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "But he spake unto them of the temple of his body, that when they destroyed it, he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "[Arabic, p. 122] would raise it in three days. When therefore he rose from among the dead, his disciples remembered that he said this; and they believed the scriptures, and the word that Jesus spake.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And when Jesus sat down over against the treasury, he observed how the multitudes were casting their offerings into the treasury: and many rich men were [13, 14] throwing in much. And there came a poor widow, and cast in two mites. And Jesus called his disciples, and said unto them, Verily I say unto you, This poor",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 41
+    },
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 42
+    },
+    {
+     "book": "luke",
+     "chapter": 21,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "widow cast into the treasury more than all the people: and all of these cast into the place of the offering of God of the superfluity of their wealth; while this woman of her want threw in all that she possessed.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And he spake unto them this parable, concerning people who trusted in themselves",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "that they are righteous, and despised every man: Two men went up to the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "temple to pray; one of them a Pharisee, and the other a publican. And the Pharisee stood apart, and prayed thus, O Lord, I thank thee, since I am not like the rest of men, the unjust, the profligate, the extortioners, or even like this publican;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "but I fast two days a week, and tithe all my possessions. And the publican was",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 12
+    },
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "standing at a distance, and he would not even lift up his eyes to heaven, but was",
+   "refs": []
+  },
+  {
+   "n": 21,
+   "text": "beating upon his breast, and saying, O Lord, have mercy on me, me the sinner. I say unto you, that this man went down justified to his house more than the Pharisee. Every one that exalteth himself shall be abased; and every one that abaseth himself shall be exalted.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "[Arabic, p. 123] And when eventide was come, he left all the people, and went outside the",
+   "refs": []
+  },
+  {
+   "n": 23,
+   "text": "city to Bethany, he and his twelve, and he remained there. And all the people, because they knew the place, came to him, and he received them; and them that",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "had need of healing he healed. And on the morning of the next day, when he returned",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "to the city from Bethany, he hungered. And he saw a fig tree at a distance on the beaten highway, having on it leaves. And he came unto it, expecting to find something on it; and when he came, he found nothing on it but the leaves—it was not",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "the season of figs—and he said unto it, Henceforward for ever let no man eat fruit of thee. And his disciples heard.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And they came to Jerusalem. And there was there a man of the Pharisees,",
+   "refs": []
+  },
+  {
+   "n": 28,
+   "text": "named Nicodemus, ruler of the Jews. This man came unto Jesus by night, and said unto him, My Master, we know that thou hast been sent from God as a teacher; and no man can do these signs that thou doest, except him whom God is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "with. Jesus answered and said unto him, Verily, verily, I say unto thee, If a man",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "be not born a second time, he cannot see the kingdom of God. Nicodemus said unto him, How can a man who is old be born? can he, think you, return again to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "his mother’s womb a second time, to enter and be born? Jesus answered and said unto him, Verily, verily, I say unto thee, If a man be not born of water and the Spirit,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "he cannot enter the kingdom of God. For he that is born of flesh is flesh; and he that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "is born of Spirit is spirit. Wonder not that I said unto thee that ye must be born a",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "[Arabic, p. 124] second time. The wind bloweth where it listeth, and thou hearest its voice, but thou knowest not from what place it cometh, nor whither it goeth: so",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "is every man that is born of the Spirit. Nicodemus answered and said unto him,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "How can that be? Jesus answered and said unto him, Art thou teaching Israel,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "and yet knowest not these things? Verily, verily, I say unto thee, What we know",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "we say, and what we have seen we witness: and ye receive not our witness. If I said unto you what is on earth, and ye believed not, how then, if I say unto you",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "what is in heaven, will ye believe? And no man hath ascended up into heaven, except him that descended from heaven, the Son of man, which is in heaven.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "And as Moses lifted up the serpent in the wilderness, so is the Son of man to be",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "lifted up; so that every man who may believe in him may not perish, but have",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "eternal life. God so loved the world, that he should give his only Son; and so every one that believeth on him should not perish, but should have eternal life.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "God sent not his Son into the world to judge the world; but that the world might",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "be saved by his hand. He that believeth in him shall not be judged: but he that believeth not is condemned beforehand, because he hath not believed in the name",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "of the only Son, the Son of God. This is the judgement, that the light came into the world, and men loved the darkness more than the light; because their deeds",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "were evil. Whosoever doeth evil deeds hateth the light, and cometh not to the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "light, lest his deeds be reproved. But he that doeth the truth cometh to the light, that his deeds may be known, that they have been done in God.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 21
+    }
+   ]
+  }
+ ]
+}

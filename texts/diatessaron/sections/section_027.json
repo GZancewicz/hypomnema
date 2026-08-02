@@ -1,0 +1,531 @@
+{
+ "number": 27,
+ "roman": "XXVII",
+ "id": "iv.iii.xxvii",
+ "title": "Section XXVII",
+ "books": [
+  "matthew",
+  "luke",
+  "john"
+ ],
+ "stich_count": 47,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Therefore the kingdom of heaven is like a certain king, who would make a",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "reckoning with his servants. And when he began to make it, they brought to him one who",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "owed him ten talents. And because he had not wherewith to pay, his lord ordered that he should be sold, he, and his wife, and children, and all that he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "had, and payment be made. So that servant fell down and worshipped him, and said unto him, My lord, have patience with me, and I shall pay thee everything.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And the lord of that servant had compassion, and released him, and forgave him his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "debt. And that servant went out, and found one of his fellow-servants, who owed him [Arabic, p. 104] a hundred pence; and he took him, and dealt severely with him, and said",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "unto him, Give me what thou owest. So the fellow-servant fell down at his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "feet, and besought him, and said, Grant me respite, and I will pay thee. And he would not; but took him, and cast him into prison, till he should give him his debt.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "And when their fellow-servants saw what happened, it distressed them much; and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "they came and told their lord of all that had taken place. Then his lord called him, and said unto him, Thou wicked servant, all that debt I forgave thee, because",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "thou besoughtest me: was it not then incumbent on thee also to have mercy on thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "fellow-servant, as I had mercy on thee? And his lord became wroth, and delivered",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "him to the scourgers, till he should pay all that he owed. So shall my Father which is in heaven do unto you, if one forgive not his brother his wrong conduct from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "his heart. Take heed within yourselves: if thy brother sin, rebuke him; and if he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "repent, forgive him. And if he act wrongly towards thee seven times in a day, and on that day return seven times unto thee, and say, I repent towards thee; forgive him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And if thy brother act wrongly towards thee, go and reprove him between thee and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "him alone: if he hear thee, thou hast gained thy brother. But if he hear thee not, take with thee one or two, and so at the mouth of two or three every saying shall",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "be established. And if he listen not to these also, tell the congregation; and if he listen not even to the congregation, let him be unto thee as a publican and a Gentile.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "Verily I say unto you, All that ye bind on earth shall be bound in heaven:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "and what ye loose on earth shall be loosed in heaven. I say unto you also, If two of you agree on earth to ask, everything shall be granted them from my Father",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "[Arabic, p. 105] which is in heaven. For where two or three are gathered in my name, there",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "am I amongst them. Then Cephas drew near to him, and said unto him, My Lord, how many times, if my brother act wrongly towards me, should I forgive him?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "until seven times? Jesus said unto him, I say not unto thee, Until seven; but, Until seventy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "times seven, seven. And the servant that knoweth his lord’s will, and maketh not",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 47
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "ready for him according to his will, shall meet with much punishment; but he that knoweth not, and doeth something for which he meriteth punishment, shall meet with slight punishment. Every one to whom much hath been given, much shall be asked of him; and he that hath had much committed to him, much shall be",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "required at his hand. I came to cast fire upon the earth; and I would that it had",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "been kindled already. And I have a baptism to be baptized with, and greatly am",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "I straitened till it be accomplished. See that ye despise not one of these little ones that believe in me. Verily I say unto you, Their angels at all times see the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "face of my Father which is in heaven. The Son of man came to save the thing which was lost.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "And after that, Jesus walked in Galilee; and he did not like to walk in Judæa,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "because the Jews sought to kill him. And there came people who told him of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "the Galilæans, those whose blood Pilate had mingled with their sacrifices. Jesus answered and said unto them, Do ye imagine that those Galilæans were sinners",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "more than all the Galilæans, so that this thing has come upon them? Nay. Verily I say unto you now, that ye shall all also, if ye repent not, likewise perish.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "Or perchance those eighteen on whom the palace fell in Siloam, and slew them, do ye imagine that they were to be condemned more than all the people that dwell",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "[Arabic, p. 106] in Jerusalem? Nay. Verily I say unto you, If ye do not all repent, ye shall perish like them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "And he spake unto them this parable: A man had a fig tree planted in his vineyard;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "and he came and sought fruit thereon, and found none. So he said to the husbandman, Lo, three years do I come and seek fruit on this fig tree, and find",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "none: cut it down; why doth it render the ground unoccupied? The husbandman said unto him, My lord, leave it this year also, that I may dig about it, and dung",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "it; then if it bear fruit—! and if not, then cut it down in the coming year.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "And when Jesus was teaching on the sabbath day in one of the synagogues,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "there was there a woman that had a spirit of disease eighteen years; and she was",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "bowed down, and could not straighten herself at all. And Jesus saw her, and called",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "her, and said unto her, Woman, be loosed from thy disease. And he put his hand",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "upon her; and immediately she was straightened, and praised God. And the chief of the synagogue answered with anger, because Jesus had healed on a sabbath, and said unto the multitudes, There are six days in which work ought to be done;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "come in them and be healed, and not on the sabbath day. But Jesus answered and said unto him, Ye hypocrites, doth not each of you on the sabbath day loose",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "his ox or his ass from the manger, and go and water it? Ought not this woman, who is a daughter of Abraham, and whom the devil hath bound eighteen years,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "to be loosed from this bond on the sabbath day? And when he said this, they were all put to shame, those standing, who were opposing him: and all the people were pleased with all the wonders that proceeded from his hand.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 17
+    }
+   ]
+  }
+ ]
+}

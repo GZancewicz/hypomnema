@@ -1,0 +1,507 @@
+{
+ "number": 18,
+ "roman": "XVIII",
+ "id": "iv.iii.xviii",
+ "title": "Section XVIII",
+ "books": [
+  "mark",
+  "luke",
+  "matthew",
+  "john"
+ ],
+ "stich_count": 44,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "At that time Herod the tetrarch heard of the fame of Jesus, and all the things which came to pass at his hand; and he marvelled, for he had obtained excellent",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "information concerning him. And some men said that John the Baptist was risen",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "from among the dead; and others said that Elijah had appeared; and others, Jeremiah;",
+   "refs": []
+  },
+  {
+   "n": 4,
+   "text": "and others, that a prophet of the old prophets was risen; and others said that he",
+   "refs": []
+  },
+  {
+   "n": 5,
+   "text": "was a prophet like one of the prophets. Herod said to his servants, This is John the Baptist, he whom I beheaded; he is risen from among the dead: therefore mighty",
+   "refs": []
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 70] works result from him. For Herod himself had sent and taken John, and cast him into prison, for the sake of Herodias his brother Philip’s wife, whom he",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "had taken. And John said to Herod, Thou hast no authority to take the wife of thy",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "brother. And Herodias avoided him and wished to kill him; and she could not.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "But Herod feared John, for he knew that he was a righteous man and a holy; and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "he guarded him, and heard him much, and did, and obeyed him with gladness. And he wished to kill him; but he feared the people, for they adhered to him as the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "prophet. And there was a celebrated day, and Herod had made a feast for his great men on the day of his anniversary, and for the officers and for the chief men",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "of Galilee. And the daughter of Herodias came in and danced in the midst of the company, and pleased Herod and those that sat with him. And the king said to the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "damsel, Ask of me what thou wilt, and I will give it thee. And he sware unto her,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "Whatsoever thou shalt ask, I will give it thee, to the half of my kingdom. And she went out, and said unto her mother, What shall I ask him? She said unto her, The",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "head of John the Baptist. And immediately she came in hastily to the king, and said unto him, I desire in this hour that thou give me on a dish the head of John",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "the Baptist. And the king was exceeding sorry; but because of the oath and the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "guests he did not wish to refuse her. But immediately the king sent an executioner, and commanded that he should bring the head of John: and he went and cut off",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "the head of John in the prison, and brought it on a dish, and delivered it to the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "damsel; and the damsel gave it to her mother. And his disciples heard, and came [Arabic, p. 71] and took his body, and buried it. And they came and told Jesus what",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 29
+    },
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "had happened. And for this cause Herod said, I beheaded John: who",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "is this, of whom I hear these things. And he desired to see him. And Jesus, when he heard, removed thence in a boat to a waste place alone, to the other side of the sea of the Galilee of Tiberias.",
+   "refs": []
+  },
+  {
+   "n": 22,
+   "text": "And many saw them going, and knew them, and hastened by land from all the cities, and came thither beforehand; for they saw the signs which he was doing on the [23, 24] sick. And Jesus went up into the mountain, and sat there with his disciples. And",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 33
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 2
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 3
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "the feast of the passover of the Jews was near. And Jesus lifted up his eyes, and saw great multitudes coming to him. And he was moved with compassion for them, for",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 5
+    },
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "they were like sheep that were without a shepherd. And he received them, and spake to them concerning the kingdom of God, and healed those who had need of healing.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And when the evening approached, his disciples came to him, and said unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "him, The place is desert, and the time is past; send away the multitudes of the people, that they may go to the towns and villages which are around us, and buy for",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "themselves bread; for they have nothing to eat. But he said unto them, They have",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "no need to go away; give ye them what may be eaten. They said unto him, We have not here enough. He said unto Philip, Whence shall we buy bread that these may eat? [31, 32] And he said that proving him; and he knew what he was resolved to do. Philip said [Arabic, p. 72] unto him, Two hundred pennyworth of bread would not suffice them after",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 17
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 5
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 6
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "every one of them hath taken a small amount. One of his disciples said unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "him (namely, Andrew the brother of Simon Cephas), Here is a lad having five loaves",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "of barley and two fishes: but this amount, what is it for all these? But wilt thou that we go and buy for all the people what may be eaten? for we have no more",
+   "refs": []
+  },
+  {
+   "n": 36,
+   "text": "than these five loaves and the two fishes. And the grass was plentiful in that place. Jesus said unto them, Arrange all the people that they may sit down on the grass,",
+   "refs": []
+  },
+  {
+   "n": 37,
+   "text": "fifty people in a company. And the disciples did so. And all the people sat down",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "by companies, by hundreds and fifties. Then Jesus said unto them, Bring hither",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "those five loaves and the two fishes. And when they brought him that, Jesus took the bread and the fish, and looked to heaven, and blessed, and divided, and gave to",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "his disciples to set before them; and the disciples set for the multitudes the bread",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "and the fish; and they ate, all of them, and were satisfied. And when they were satisfied, he said unto his disciples, Gather the fragments that remain over, that nothing",
+   "refs": []
+  },
+  {
+   "n": 42,
+   "text": "be lost. And they gathered, and filled twelve baskets with fragments, being those that remained over from those which ate of the five barley loaves and the two",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "fishes. And those people who ate were five thousand, besides the women and children.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "[Arabic, p. 73] And straightway he pressed his disciples to go up into the ship, and that they should go before him unto the other side to Bethsaida, while he",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "himself should send away the multitudes. And those people who saw the sign which",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "Jesus did, said, Of a truth this is a prophet who hath come into the world. And Jesus knew their purpose to come and take him, and make him a king; and he left them, and went up into the mountain alone for prayer. [47, 48] And when the nightfall was near, his disciples went down unto the sea, and sat in a boat, and came to the side of Capernaum. And the darkness came on, and Jesus",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 15
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 16
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "had not come to them. And the sea was stirred up against them by reason of a violent",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "wind that blew. And the boat was distant from the land many furlongs, and they were much damaged by the waves, and the wind was against them.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 24
+    }
+   ]
+  }
+ ]
+}

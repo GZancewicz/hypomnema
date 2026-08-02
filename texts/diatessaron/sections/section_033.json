@@ -1,0 +1,600 @@
+{
+ "number": 33,
+ "roman": "XXXIII",
+ "id": "iv.iii.xxxiii",
+ "title": "Section XXXIII",
+ "books": [
+  "mark",
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 48,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 125] And when evening came, Jesus went forth outside of the city, he and his",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "disciples. And as they passed in the morning, the disciples saw that fig tree",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "withered away from its root. And they passed by, and said, How did the fig tree dry",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "up immediately? And Simon remembered, and said unto him, My Master, behold,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "that fig tree which thou didst curse hath dried up. And Jesus answered and said",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "unto them, Let there be in you the faith of God. Verily I say unto you, if ye believe, and doubt not in your hearts, and assure yourselves that that will be which",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "ye say, ye shall have what ye say. And if ye say to this mountain, Remove, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "fall into the sea, it shall be. And all that ye ask God in prayer, and believe, he [9, 10] will give you. And the apostles said unto our Lord, Increase our faith. He said unto them, If there be in you faith like a grain of mustard, ye shall say to this fig tree, Be thou torn up, and be thou planted in the sea; and it will obey you.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 22
+    },
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 5
+    },
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "Who of you hath a servant driving a yoke of oxen or tending sheep, and if he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "come from the field, will say unto him straightway, Go and sit down? Nay, he will say unto him, Make ready for me wherewith I may sup, and gird thy waist, and serve me, till I eat and drink; and afterwards thou shalt eat and drink also.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "Doth that servant haply, who did what he was bid, receive his praise? I think",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "not. So ye also, when ye have done all that ye were bid, say, We are idle servants; what it was our duty to do, we have done.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "For this reason I say unto you, Whatever ye pray and ask, believe that ye",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "[Arabic, p. 126] receive, and ye shall have. And when ye stand to pray, forgive what is in your heart against any man; and your Father which is in heaven will",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "forgive you also your wrong-doings. But if ye forgive not men their wrong-doings, neither will your Father forgive you also your wrong-doings.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "And he spake unto them a parable also, that they should pray at all times, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "not be slothful: There was a judge in a city, who feared not God, nor was ashamed",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "for men: and there was a widow in that city; and she came unto him, and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "Avenge me of mine adversary. And he would not for a long time: but afterwards he said within himself, If of God I have no fear, and before men I have no shame;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "yet because this widow vexeth me, I will avenge her, that she come not at all times [23, 24] and annoy me. And our Lord said, Hear ye what the judge of injustice said. And shall not God still more do vengeance for his elect, who call upon him in the night",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 5
+    },
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 6
+    },
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "and in the day, and grant them respite? I say unto you, He will do vengeance for them speedily. Thinkest thou the Son of man will come and find faith on the earth? [26, 27] And they came again to Jerusalem. And it came to pass, on one of the days, as Jesus was walking in the temple, and teaching the people, and preaching the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 8
+    },
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 15
+    },
+    {
+     "book": "luke",
+     "chapter": 20,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "gospel, that the chief priests and the scribes with the elders came upon him, and said unto him, Tell us: By what power doest thou this? and who gave thee this",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 20,
+     "verse": 2
+    },
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "power to do that? And Jesus said unto them, I also will ask you one word, and if",
+   "refs": []
+  },
+  {
+   "n": 30,
+   "text": "ye tell me, I also shall tell you by what power I do that. The baptism of John, from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "what place is it? from heaven or of men? Tell me. And they reflected within themselves, [Arabic, p. 127] and said, If we shall say unto him, From heaven; he will say unto",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 30
+    },
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "us, For what reason did ye not believe him? But if we shall say, Of men;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "we fear that the people will stone us, all of them. And all of them were holding",
+   "refs": []
+  },
+  {
+   "n": 34,
+   "text": "to John, that he was a true prophet. They answered and said unto him, We know",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 11,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "not. Jesus said unto them, Neither tell I you also by what power I work. What think ye? A man had two sons; and he went to the first, and said unto him, My",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "son, go to-day, and till in the vineyard. And he answered and said, I do not wish",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "to: but finally he repented, and went. And he went to the other, and said unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "him likewise. And he answered and said, Yea, my lord: and went not. Which of these two did the will of his father? They said unto him, The first. Jesus said unto them, Verily I say unto you, The publicans and harlots go before you into",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "the kingdom of God. John came unto you in the way of righteousness, and ye believed him not; but the publicans and harlots believed him; and ye, not even when ye saw, did ye repent at last, that ye might believe in him.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "Hear another parable: A man was a householder, and planted a vineyard, and surrounded it with a hedge, and digged in it a winepress, and built in it a tower, [41, 42] and gave it to husbandmen, and went to a distance for a long time. So when the time of the fruits came, he sent his servants unto the husbandmen, that they might",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 33
+    },
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "send him of the produce of his vineyard. And those husbandmen beat him, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "sent him away empty. And he sent unto them another servant also; and they",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "stoned him, and wounded him, and sent him away with shameful handling. And he sent again another; and they slew him. And he sent many other servants unto",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "them. And the husbandmen took his servants, and one they beat, and another they",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "stoned, and another they slew. So he sent again other servants more than the first; and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "[Arabic, p. 128] they did likewise with them. So the owner of the vineyard said, What shall I do? I will send my beloved son: it may be they will see him and be [49, 50] ashamed. So at last he sent unto them his beloved son that he had. But the husbandmen, when they saw the son, said amongst themselves, This is the heir. [51, 52] And they said, We will slay him, and so the inheritance will be ours. So they took",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 20,
+     "verse": 13
+    },
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 6
+    },
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 38
+    },
+    {
+     "book": "luke",
+     "chapter": 20,
+     "verse": 14
+    },
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "him, and put him forth without the vineyard, and slew him. When then the lord",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "of the vineyard shall come, what will he do with those husbandmen? They said unto him, He will destroy them in the worst of ways, and give the vineyard to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "other husbandmen, who will give him fruit in its season. Jesus said unto them, Have ye never read in the scripture, The stone which the builders declared to be base, The same came to be at the head of the corner:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 42
+    },
+    {
+     "book": "luke",
+     "chapter": 20,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "From God was this, And it is wonderful in our eyes?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "Therefore I say unto you, The kingdom of God shall be taken from you, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "given to a people that will produce fruit. And whosoever falleth on this stone shall be broken in pieces: but on whomsoever it falleth, it will grind him to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "text": "powder. And when the chief priests and the Pharisees heard his parables, they",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "text": "perceived that it was concerning them he spake. And they sought to seize him; and they feared the multitude, because they were holding to him as the prophet.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 46
+    }
+   ]
+  }
+ ]
+}

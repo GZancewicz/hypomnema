@@ -1,0 +1,537 @@
+{
+ "number": 9,
+ "roman": "IX",
+ "id": "iv.iii.ix",
+ "title": "Section IX",
+ "books": [
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 44,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Ye have heard also that it was said unto the ancients, Lie not, but perform unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "God in thy oaths: but I say unto you, Swear not at all; neither by heaven, for it",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "is God’s throne; nor by the earth, for it is a footstool under his feet; nor yet by",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Jerusalem, for it is the city of the great King. Neither shalt thou swear by thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "head, for thou canst not make in it one lock of hair black or white. But your word shall be either Yea or Nay, and what is in excess of this is of the evil one. [6, 7] Ye have heard that it was said, Eye for eye, and tooth for tooth: but I say unto you, Stand not in opposition to the evil; but whosoever smiteth thee on thy right",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 37
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 38
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "cheek, turn to him also the other. And he that would sue thee, and take thy tunic,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "leave to him also thy wrapper. And whosoever compelleth thee one mile, go with",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "[Arabic, p. 35] him twain. And he that asketh thee, give unto him: and he that would borrow of thee, prevent him not. And prosecute not him that taketh thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 42
+    },
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "substance. And as ye desire that men should do to you, so do ye also to them. [12, 13] Ye have heard that it was said, Love thy neighbour and hate thine enemy: but I say unto you, Love your enemies, and pray for those that curse you, and deal well with those that hate you, and pray for those who take you with violence and persecute you;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 31
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 43
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "that ye may be sons of your heavenly Father, who maketh his sun to rise on the good and the evil, and sendeth down his rain on the righteous and the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "unrighteous. If ye love them that love you, what reward shall ye have? for the publicans",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 46
+    },
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "and sinners also love those that love them. And if ye do a kindness to those",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "who treat you well, where is your superiority? for sinners also do likewise. And if ye lend to him of whom ye hope for a reward, where is your superiority? for the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "sinners also lend to sinners, seeking recompense from them. But love your enemies, and do good to them, and lend, and cut not off the hope of any man; that your reward may be great, and ye may be the children of the Highest: for he is lenient",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "towards the wicked and the ungrateful. Be ye merciful, even as your Father also is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "merciful. And if ye inquire for the good of your brethren only, what more have",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 47
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "ye done than others? is not this the conduct of the publicans also? Be ye now perfect, even as your Father which is in heaven is perfect.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "Consider your alms; do them not before men to let them see you: and if it be not",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "so, ye have no reward before your Father which is in the heavens. When then thou givest an alms now, do not sound a trumpet before thee, as do the people of hypocrisy, [Arabic, p. 36] in the synagogues and the marketplaces, that men may praise them. And",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "verily say I unto you, They have received their reward. But thou, when",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "thou doest alms, let thy left hand not know what thy right hand doeth; that thine alms may be concealed: and thy Father which seeth in secret shall reward thee openly.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "And whenever thou prayest, be not as the hypocrites, who love to stand in the synagogues and in the corners of the marketplaces for prayers, that men may behold",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "them. And verily say I unto you, They have received their reward. But thou, when thou prayest, enter into thy closet, and fasten thy door, and pray to thy Father in secret, and thy Father which seeth in secret shall reward thee openly.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "And whenever ye pray, be not babblers, as the heathen; for they think that by the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "abundance of their words they shall be heard. Then be not ye now like unto them:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "for your Father knoweth your request before ye ask him. One of his disciples said",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "unto him, Our Lord, teach us to pray, as John taught his disciples. Jesus said unto",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "them, Thus now pray ye now: Our Father which art in heaven, Hallowed be thy [33, 34] name. Thy kingdom come. Thy will be done, as in heaven, so on earth. Give us the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 9
+    },
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 10
+    },
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "food of to-day. And forgive us our trespasses, as we forgave those that trespassed",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "against us. And bring us not into temptations, but deliver us from the evil one. For",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "thine is the kingdom, and the power, and the glory, for ever and ever. If ye forgive [Arabic, p. 37] men their wrong-doing, your Father which is in heaven will forgive you.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "But if ye forgive not men, neither will your Father pardon your wrong-doing.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "When ye fast, do not frown, as the hypocrites; for they make their faces austere, that they may be seen of men that they are fasting. Verily I say unto you, They",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "have received their reward. But when thou fastest, wash thy face and anoint thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "head; that thou make not an appearance to men of fasting, but to thy Father which is in secret: and thy Father which seeth in secret shall reward thee.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "Be not agitated, little flock; for your Father hath delighted to give you the kingdom.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Sell your possessions, and give in alms; take to yourselves purses that wax",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "not old. Lay not up treasure on earth, where moth and worm corrupt, and where",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "thieves break through and steal: but lay up for yourselves treasure in heaven, where",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "moth and worm do not corrupt, nor thieves break through nor steal: for where your",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "treasure is, there also will your heart be. The lamp of the body is the eye: if then",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "thine eye now be sound, thy whole body also shall be light. But if thine eye be evil, all thy body shall be dark. And if the light which is in thee is darkness, how",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "great is thy darkness! Be watchful that the light which is in thee be not darkness.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "Because that, if thy whole body is light, and have no part dark, it shall all be light, as the lamp giveth light to thee with its flame.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 36
+    }
+   ]
+  }
+ ]
+}

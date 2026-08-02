@@ -1,0 +1,535 @@
+{
+ "number": 48,
+ "roman": "XLVIII",
+ "id": "iv.iii.xlviii",
+ "title": "Section XLVIII",
+ "books": [
+  "john",
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 53,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "This said Jesus, and went forth with his disciples to a place which was called Gethsemane, on the side that is in the plain of Kidron, the mountain, the place",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 1
+    },
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "in which was a garden; and he entered thither, he and his disciples. And Judas the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "betrayer knew that place: for Jesus oft-times met with his disciples there. And when Jesus came to the place, he said to his disciples, Sit ye here, so that I may go and pray; [4, 5] [Arabic, p. 181] and pray ye, that ye enter not into temptations. And he took with him Cephas and the sons of Zebedee together, James and John; and he began to",
+   "refs": []
+  },
+  {
+   "n": 6,
+   "text": "look sorrowful, and to be anxious. And he said unto them, My soul is distressed unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "death: abide ye here, and watch with me. And he withdrew from them a little,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "the space of a stone’s throw; and he kneeled, and fell on his face, and prayed, so",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "that, if it were possible, this hour might pass him. And he said, Father, thou art able for all things; if thou wilt, let this cup pass me: but let not my will be done,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 36
+    },
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "but let thy will be done. And he came to his disciples, and found them sleeping;",
+   "refs": []
+  },
+  {
+   "n": 11,
+   "text": "and he said unto Cephas, Simon, didst thou sleep? Could ye thus not for one hour",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "watch with me? Watch and pray, that ye enter not into temptations: the spirit is",
+   "refs": []
+  },
+  {
+   "n": 13,
+   "text": "willing and ready, but the body is weak. And he went again a second time, and prayed, and said, My Father, if it is not possible with regard to this cup that it pass,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "except I drink it, thy will be done. And he returned again, and found his disciples sleeping, for their eyes were heavy from their grief and anxiety; and they knew not",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "what to say to him. And he left them, and went away again, and prayed a third",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "time, and said the very same word. And there appeared unto him an angel from",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "heaven, encouraging him. And being afraid he prayed continuously: and his sweat",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "[Arabic, p. 182] became like a stream of blood, and fell on the ground. Then he rose from",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "his prayer, and came to his disciples, and found them sleeping. And he",
+   "refs": []
+  },
+  {
+   "n": 20,
+   "text": "said unto them, Sleep now, and rest: the end hath arrived, and the hour hath come;",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "and behold, the Son of man is betrayed into the hands of sinners. Arise, let us go: for he hath come that betrayeth me.",
+   "refs": []
+  },
+  {
+   "n": 22,
+   "text": "And while he was still speaking, came Judas the betrayer, one of the twelve, and with him a great multitude carrying lanterns and torches and swords and staves, from the chief priests and scribes and elders of the people, and with him the footsoldiers",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 47
+    },
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "of the Romans. And Judas the betrayer gave them a sign, and said, He whom I shall kiss, he is he: take him with care, and lead him away.",
+   "refs": []
+  },
+  {
+   "n": 24,
+   "text": "And Jesus, because he knew everything that should come upon him, went forth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "unto them. And immediately Judas the betrayer came to Jesus, and said, Peace,",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "my Master; and kissed him. And Jesus said unto him, Judas, with a kiss betrayest",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "thou the Son of man? Was it for that thou camest, my friend? And Jesus said",
+   "refs": []
+  },
+  {
+   "n": 28,
+   "text": "to those that came unto him, Whom seek ye? They said unto him, Jesus the Nazarene. Jesus said unto them, I am he. And Judas the betrayer also was standing",
+   "refs": []
+  },
+  {
+   "n": 29,
+   "text": "with them. And when Jesus said unto them, I am he, they retreated backward, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "fell to the ground. And Jesus asked them again, Whom seek ye? They answered,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "Jesus the Nazarene. Jesus said unto them, I told you that I am he: and if ye seek",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "me, let these go away: that the word might be fulfilled which he spake, Of those",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "[Arabic, p. 183] whom thou hast given me I lost not even one. Then came those that were with Judas, and seized Jesus, and took him.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "And when his disciples saw what happened, they said, Our Lord, shall we smite",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "them with swords? And Simon Cephas had a sword, and he drew it, and struck the servant of the chief priest, and cut off his right ear. And the name of that servant",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "was Malchus. Jesus said unto Cephas, The cup which my Father hath given",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "me, shall I not drink it? Put the sword into its sheath: for all that take with the",
+   "refs": []
+  },
+  {
+   "n": 38,
+   "text": "sword shall die by the sword. Thinkest thou that I am not able to ask of my",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "Father, and he shall now raise up for me more than twelve tribes of angels? Then",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "how should the scriptures which were spoken be fulfilled, that thus it must be? Your",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "leave in this. And he touched the ear of him that was struck, and healed it. And in that hour Jesus said to the multitudes, As they come out against a thief are ye come out against me with swords and staves to take me? Daily was I with you in",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 55
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "the temple sitting teaching, and ye took me not: but this is your hour, and the power",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "of darkness. And that was, that the scriptures of the prophets might be fulfilled.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 26,
+     "verse": 56
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "Then the disciples all left him, and fled. And the footsoldiers and the officers",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "and the soldiers of the Jews seized Jesus, and came. And a certain young man",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "followed him, and he was wrapped in a towel, naked: and they seized him; so he",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 14,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "[Arabic, p. 184] left the towel, and fled naked. Then they took Jesus, and bound him, and brought him to Annas first; because he was the father in law of Caiaphas,",
+   "refs": []
+  },
+  {
+   "n": 48,
+   "text": "who was chief priest that year. And Caiaphas was he that counselled the Jews, that it was necessary that one man should die instead of the people.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "And Simon Cephas and one of the other disciples followed Jesus. And the chief",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "priest knew that disciple, and he entered with Jesus into the court; but Simon was standing without at the door. And that other disciple, whom the chief priest knew,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "went out and spake unto her that kept the door, and she brought Simon in. And when the maid that kept the door saw Simon, she looked stedfastly at him, and said unto him, Art not thou also one of the disciples of this man, I mean Jesus the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "Nazarene? But he denied, and said, Woman, I know him not, neither know I even",
+   "refs": []
+  },
+  {
+   "n": 53,
+   "text": "what thou sayest. And the servants and the soldiers rose, and made a fire in the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 18,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "middle of the court, that they might warm themselves; for it was cold. And when",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 22,
+     "verse": 55
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "the fire burned up, they sat down around it. And Simon also came, and sat down with them to warm himself, that he might see the end of what should happen.",
+   "refs": []
+  }
+ ]
+}

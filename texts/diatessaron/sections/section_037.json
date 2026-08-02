@@ -1,0 +1,611 @@
+{
+ "number": 37,
+ "roman": "XXXVII",
+ "id": "iv.iii.xxxvii",
+ "title": "Section XXXVII",
+ "books": [
+  "john"
+ ],
+ "stich_count": 49,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Jesus said, To judge the world am I come, so that they that see not may",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 9,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "see, and they that see may become blind. And some of the Pharisees which were",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 9,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "with him heard that, and they said unto him, Can it be that we are blind? Jesus said unto them, If ye were blind, ye should not have sin: but now ye say, We see: and because of this your sin remaineth.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 9,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "[Arabic, p. 140] Verily, verily, I say unto you, Whosoever entereth not into the fold of the sheep by the door, but goeth up from another place, that man is a thief and a [5, 6] stealer. But he that entereth by the door is the shepherd of the sheep. And therefore the keeper of the door openeth for him the door; and the sheep hear his voice: and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 1
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 2
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "he calleth his sheep by their names, and they go forth unto him. And when he putteth forth his sheep, he goeth before them, and his sheep follow him: because",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "they know his voice. And after a stranger will the sheep not go, but they flee from",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "him: because they hear not the voice of a stranger. This parable spake Jesus unto them: but they knew not what he was saying unto them.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "Jesus said unto them again, Verily, verily, I say unto you, I am the door of the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "sheep. And all that came are thieves and stealers: but the sheep heard them not.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "I am the door: and if a man enter by me, he shall live, and shall go in and go out,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "and shall find pasture. And the stealer cometh not, save that he may steal, and kill, and destroy: but I came that they might have life, and that they might have",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "the thing that is better. I am the good shepherd; and the good shepherd giveth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "himself for his sheep. But the hireling, who is not a shepherd, and whose the sheep are not, when he seeth the wolf as it cometh, leaveth the sheep, and fleeth,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "and the wolf cometh, and snatcheth away the sheep, and scattereth them: and the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "hireling fleeth because he is an hireling, and hath no care for the sheep. I am the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "good shepherd; and I know what is mine, and what is mine knoweth me, as my Father knoweth me, and I know my Father; and I give myself for the sheep.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "And I have other sheep also, that are not of this flock: them also I must invite, and they shall hear my voice; and all the sheep shall be one, and the shepherd one.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "[Arabic, p. 141] And therefore doth my Father love me, because I give my life, that I may",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "take it again. No man taketh it from me, but I leave it of my own choice. And I have the right to leave it, and have the right also to take it. And this commandment did I receive of my Father.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "And there occurred a disagreement among the Jews because of these sayings.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And many of them said, He hath a devil, and is afflicted with madness; why listen",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "ye to him? And others said, These sayings are not those of men possessed with demons. Can a demon haply open the eyes of a blind man? [25, 26] And the feast of the dedication came on at Jerusalem: and it was winter. And",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 21
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 22
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "Jesus was walking in the temple in the porch of Solomon. The Jews therefore surrounded him, and said unto him, Until when dost thou make our hearts anxious?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "If thou art the Messiah, tell us plainly. He answered and said unto them, I told you, and ye believe not: and the deeds that I do in my Father’s name bear witness [29, 30] to me. But ye believe not, because ye are not of my sheep, as I said unto you.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 25
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "And my sheep hear my voice, and I know them, and they come after me: and I give them eternal life; and they shall not perish for ever, nor shall any man snatch",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 27
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "them out of my hands. For the Father, who hath given them unto me, is greater",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "than all; and no man is able to take them from the hand of my Father. I and [34, 35] my Father are one. And the Jews took stones to stone him. Jesus said unto them, Many good deeds from my Father have I shewed you; because of which of them,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 30
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 31
+    },
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "then, do ye stone me? The Jews said unto him, Not for the good deeds do we stone thee, but because thou blasphemest; and, whilst thou art a man, makest thyself",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "God. Jesus said unto them, Is it not thus written in your law, I said, Ye are gods?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "[Arabic, p. 142] And if he called those gods—for to them came the word of God (and it is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "not possible in the scripture that anything should be undone)—he then, whom the Father hath sanctified and sent into the world, do ye say that he blasphemeth;",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "because I said unto you, I am the Son of God? If then I do not the deeds of my",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "Father, ye believe me not. But if I do, even if ye believe not me, believe the deeds: that ye may know and believe that my Father is in me, and I in my Father.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "And they sought again to take him: and he went forth out of their hands.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "And he went beyond Jordan to the place where John was baptizing formerly;",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "and abode there. And many people came unto him; and they said, John did not",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "work even one sign: but all that John said of this man is truth. And many believed in him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 10,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "And there was a sick man, named Lazarus, of the village of Bethany, the brother",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "of Mary and Martha. And Mary was she that anointed with sweet ointment the feet of Jesus, and wiped them with her hair; and Lazarus, who was sick, was the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "brother of this woman. And his sisters sent unto Jesus, and said unto him, Our",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "Lord, behold, he whom thou lovest is sick. But Jesus said, This sickness is not unto death, but for the glorifying of God, that the Son of God may be glorified [50, 51] because of it. And Jesus loved Martha, and Mary, and Lazarus. And when he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 4
+    },
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 5
+    },
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "heard that he was sick, he abode in the place where he was two days. And after that,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "he said unto his disciples, Come, let us go into Judæa. His disciples said unto him, Our [Arabic, p. 143] Master, now the Jews desire to stone thee; and goest thou again thither? [54, 55] Jesus said unto them, Is not the day of twelve hours? If then a man walk in the day, he stumbleth not, because he seeth the light of the world. But if",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 8
+    },
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 9
+    },
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "a man walk in the night, he stumbleth, because there is no lamp in him. This said Jesus: and after that, he said unto them, Lazarus our friend hath fallen asleep; but",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "I am going to awaken him. His disciples said unto him, Our Lord, if he hath",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "fallen asleep, he will recover. But Jesus said that concerning his death: while they",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "text": "supposed that he spake of lying down to sleep. Then Jesus said unto them plainly,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "text": "Lazarus is dead. And I am glad that I was not there for your sakes, that ye may",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "text": "believe; but let us go thither. Thomas, who is called Thama, said to the disciples, his companions, Let us also go, and die with him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 11,
+     "verse": 16
+    }
+   ]
+  }
+ ]
+}

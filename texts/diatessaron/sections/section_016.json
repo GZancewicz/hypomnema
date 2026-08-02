@@ -1,0 +1,506 @@
+{
+ "number": 16,
+ "roman": "XVI",
+ "id": "iv.iii.xvi",
+ "title": "Section XVI",
+ "books": [
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 46,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Then answered certain of the scribes and Pharisees, that they might tempt him,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "and said, Teacher, we desire to see a sign from thee. He answered and said, This evil and adulterous generation seeketh a sign; and it shall not be given a sign,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "except the sign of Jonah the prophet. And as Jonah was a sign to the inhabitants",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "of Nineveh, so shall the Son of man also be to this generation. And as Jonah was in the belly of the great fish three days and three nights, so shall the Son of man",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "be in the heart of the earth three days and three nights. The queen of the south shall rise in the judgement with the people of this generation, and condemn them: for she came from the ends of the earth that she might hear the wisdom of Solomon;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 62] and behold, here is a better than Solomon. The men of Nineveh shall stand in the judgement with this generation, and condemn it: for they repented at",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "the preaching of Jonah; and behold, here is a greater than Jonah. The unclean spirit, when he goeth out of the man, departeth, and goeth about through places wherein are no waters, that he may find rest for himself; and when he findeth it not, he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "saith, I will return to my house whence I came out. And if he come and find it",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "adorned and set in order, then he goeth, and associateth with himself seven other spirits worse than himself; and they enter and dwell in it: and the end of that man",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "shall be worse than his beginning. Thus shall it be unto this evil generation.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "And while he was saying that, a woman from the multitude lifted up her voice, and said unto him, Blessed is the womb that bare thee, and the breasts that nursed",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "thee. But he said unto her, Blessed is he that heareth the word of God, and keepeth it.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "And while he was speaking unto the multitude, there came unto him his mother",
+   "refs": []
+  },
+  {
+   "n": 14,
+   "text": "and his brethren, and sought to speak with him; and they were not able, because of",
+   "refs": []
+  },
+  {
+   "n": 15,
+   "text": "the multitude; and they stood without and sent, calling him unto them. A man said unto him, Behold, thy mother and thy brethren are standing without, and seek to",
+   "refs": []
+  },
+  {
+   "n": 16,
+   "text": "speak with thee. But he answered unto him that spake unto him, Who is my",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "mother? and who are my brethren? And he beckoned with his hand, stretching it out towards his disciples, and said, Behold, my mother! and behold, my brethren!",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "And every man that shall do the will of my Father which is in heaven is my brother, and my sister, and my mother.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "And after that, Jesus was going about in the cities and in the villages, and proclaiming [Arabic, p. 63] and preaching the kingdom of God, and his twelve with him,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "and the women which had been healed of diseases and of evil spirits, Mary",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "that was called Magdalene, from whom he had cast out seven devils, and Joanna the wife of Chuza Herod’s steward, and Susanna, and many others, who were ministering to them of their substance.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "And after that, Jesus went out of the house, and sat on the sea shore. And there",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 1
+    },
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "gathered unto him great multitudes. And when the press of the people was great upon him, he went up and sat in the boat; and all the multitude was standing on the",
+   "refs": []
+  },
+  {
+   "n": 24,
+   "text": "shore of the sea. And he spake to them much in parables, and said, The sower",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "went forth to sow: and when he sowed, some fell on the beaten highway; and it was",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "trodden upon, and the birds ate it. And other fell on the rocks: and some, where there was not much earth; and straightway it sprang up, because it had no depth in",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "the earth: and when the sun rose, it withered; and because it had no root, it dried",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "up. And some fell among thorns; and the thorns sprang up with it, and choked it;",
+   "refs": []
+  },
+  {
+   "n": 29,
+   "text": "and it yielded no fruit. And other fell into excellent and good ground; and it came up, and grew, and brought forth fruit, some thirty, and some sixty, and some",
+   "refs": []
+  },
+  {
+   "n": 30,
+   "text": "a hundred. And when he said that, he cried, He that hath ears that hear, let him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "hear. And when they were alone, his disciples came, and asked him, and said unto",
+   "refs": []
+  },
+  {
+   "n": 32,
+   "text": "him, What is this parable? and why spakest thou unto them in parables? He [Arabic, p. 64] answered and said unto them, Unto you is given the knowledge of the secrets of the kingdom of God; but it is not given unto them that are",
+   "refs": []
+  },
+  {
+   "n": 33,
+   "text": "without. He that hath shall be given unto, and there shall be added; and he that",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "hath not, that which he hath shall be taken from him also. For this cause therefore I speak unto them in parables; because they see, and see not; and hear, and hear",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "not, nor understand. And in them is being fulfilled the prophecy of Isaiah, who said, Hearing they shall hear, and shall not understand; And seeing they shall see, and shall not perceive:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "The heart of this people is waxed gross, And their hearing with their ears is become heavy, And they have closed their eyes; Lest they should see with their eyes, And hear with their ears, And understand with their hearts, And should return, And I should heal them. [37, 38] But ye, blessed are your eyes, which see; and your ears, which hear. Blessed",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 15
+    },
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 16
+    },
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "are the eyes which see what ye see. Verily I say unto you, Many of the prophets and the righteous longed to see what ye see, and saw not; and to hear what ye",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "hear, and heard not. When ye know not this parable, how shall ye know all parables? [41, 42] Hear ye the parable of the sower. The sower which sowed, sowed the word",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 13
+    },
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 18
+    },
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "of God. Every one who heareth the word of the kingdom, and understandeth it not, the evil one cometh and snatcheth away the word that hath been sown in his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "heart: and this is that which was sown on the middle of the highway. But that which was sown on the rocks is he that heareth the word, and straightway receiveth [45, 46] [Arabic, p. 65] it with joy; only, it hath no root in his soul, but his belief in it is for a time; and whenever there is distress or persecution because of a word, he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 20
+    },
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "stumbleth quickly. And that which was sown among the thorns is he that heareth the word; and the care of this world, and the error of riches, and the rest of the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 22
+    },
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "other lusts enter, and choke the word, and it becometh without fruit. And that which was sown in good ground is he that heareth my word in a pure and good heart, and understandeth it, and holdeth to it, and bringeth forth fruit with patience, and produceth either a hundredfold or sixtyfold or thirty.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 15
+    },
+    {
+     "book": "matthew",
+     "chapter": 13,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "And he said, So is the kingdom of God, like a man who casteth seed into the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "earth, and sleepeth and riseth by night and day, and the seed groweth and cometh",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "up, whence he knoweth not. And the earth bringeth it to the fruit; and first it",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "will be blade, and after it ear, and at last perfect wheat in the ear: and whenever the fruit ripeneth, he bringeth immediately the sickle, for the harvest hath come.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 29
+    }
+   ]
+  }
+ ]
+}

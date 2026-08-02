@@ -1,0 +1,698 @@
+{
+ "number": 40,
+ "roman": "XL",
+ "id": "iv.iii.xl",
+ "title": "Section XL",
+ "books": [
+  "matthew",
+  "john",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 59,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 150] And when Jesus entered the temple, they brought unto him blind and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "lame: and he healed them. But when the chief priests and the Pharisees saw the wonders that he did, and the children that were crying in the temple and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "saying, Praise be to the Son of David: it distressed them, and they said, Hearest thou not what these say? Jesus said unto them, Yea: did ye not read long ago, From",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 21,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "the mouths of children and infants thou hast chosen my praise? And the Pharisees said one to another, Behold, do ye not see that nothing availeth us? for lo, the whole world hath followed him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And there were among them certain Gentiles also, which had come up to worship",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "at the feast: these therefore came to Philip, who was of Bethsaida of Galilee,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "and asked him, and said unto him, My lord, we wish to see Jesus. And Philip",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "came and told Andrew: and Andrew and Philip told Jesus. And Jesus answered and said unto them, The hour is come nigh, in which the Son of man is to be glorified.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Verily, verily, I say unto you, A grain of wheat, if it fall not and die in the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "earth, remaineth alone; but if it die, it beareth much fruit. He that loveth his life destroyeth it; and he that hateth his life in this world shall keep it unto the life eternal.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "If a man serve me, he will follow me; and where I am, there shall my servant be",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "also: and whosoever serveth me, the Father will honour him. Now is my soul troubled: [Arabic, p. 151] and what shall I say? My Father, deliver me from this hour. But",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "for this cause came I unto this hour. My Father, glorify thy name. And a",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "voice was heard from heaven, I have glorified it, and shall glorify it. And the multitude that were standing heard, and said, This is thunder: and others said, An",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "angel speaketh to him. Jesus answered and said unto them, Not because of me",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "was this voice, but because of you. Now is the judgement of this world; and the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "prince of this world shall now be cast forth. And I, when I am lifted up from the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "earth, shall draw every man unto me. This he said, that he might shew by what",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "manner of death he should die. The multitudes said unto him, We have heard out of the law that the Messiah abideth for ever: how then sayest thou, that the Son of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "man is to be lifted up? who is this, the Son of man? Jesus said unto them, Another little while is the light with you. Walk so long as ye have light, lest the darkness overtake you; for he that walketh in the darkness knoweth not whither he goeth.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "So long as ye have light, believe the light, that ye may be the children of the light.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 12,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "And when certain of the Pharisees asked of Jesus, when the kingdom of God should come, he answered and said unto them, The kingdom of God cometh not",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "with expectation: neither shall they say, Lo, it is here! nor, Lo, it is there! for the kingdom of God is within you.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "And in the daytime he was teaching in the temple; and at night he used to go",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 21,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "out, and pass the night in the mount called the mount of Olives. And all the people came to him in the morning in the temple, to hear his word. [26, 27] Then spake Jesus unto the multitudes and his disciples, and said unto them, On",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 21,
+     "verse": 38
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 1
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "[Arabic, p. 152] the seat of Moses are seated the scribes and Pharisees: everything that they say unto you now to keep, keep and do: but according to their deeds",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "do ye not; for they say, and do not. And they bind heavy burdens, and lay them on the shoulders of the people; while they with one of their fingers will not come [30, 31] near them. But all their deeds they do to make a shew before men. And all the multitude were hearing that with pleasure.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 4
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 5
+    },
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "And in the course of his teaching he said unto them, Guard yourselves from the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "scribes, who desire to walk in robes, and love salutation in the marketplaces, and sitting in the highest places of the synagogues, and at feasts in the highest parts of",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "the rooms: and they broaden their amulets, and lengthen the cords of their cloaks,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "and love that they should be called by men, My master, and devour widows’ houses, because of their prolonging their prayers; these then shall receive greater judgement.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 7
+    },
+    {
+     "book": "mark",
+     "chapter": 12,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "But ye, be ye not called masters: for your master is one; all ye are brethren.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "Call not then to yourselves any one father on earth: for your Father is one, who is",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "in heaven. And be not called directors: for your director is one, even the Messiah. [39, 40] He that is great among you shall be unto you a minister. Whosoever shall exalt himself shall be abased; and whosoever shall abase himself shall be exalted.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 10
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 11
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "Woe unto you, Pharisees! because ye love the highest places in the synagogues, and salutation in the marketplaces.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye devour widows’ houses, because of your prolonging your prayers: for this reason then ye shall receive greater judgement.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye have shut the kingdom of God before men.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "[Arabic, p. 153] Woe unto you that know the law! for ye concealed the keys of knowledge: ye enter not, and those that are entering ye suffer not to enter.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 52
+    },
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye compass land and sea to draw one proselyte; and when he is become so, ye make him a son of hell twice as much as yourselves.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "Woe unto you, ye blind guides! because ye say, Whosoever sweareth by the temple, it is nothing; but whosoever sweareth by the gold that is in the temple,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "shall be condemned. Ye blind foolish ones: which is greater, the gold, or the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "temple which sanctifieth the gold? And, Whosoever sweareth by the altar, it is nothing; but whosoever sweareth by the offering that is upon it, shall be condemned.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "Ye blind foolish ones: which is greater, the offering, or the altar which sanctifieth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "the offering? Whosoever then sweareth by the altar, hath sworn by it, and by all",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "that is upon it. And whosoever sweareth by the temple, hath sworn by it, and by",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "him that is dwelling in it. And whosoever sweareth by heaven, hath sworn by the throne of God, and by him that sitteth upon it.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye tithe mint and rue and dill and cummin and all herbs, and ye leave the important matters of the law, judgement, and mercy, and faith, and the love of God: this ought ye to do, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "not to leave that undone. Ye blind guides, which strain out a gnat, and swallow camels.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! because ye cleanse the outside of the cup and of the platter, while the inside of them is full of injustice and wrong.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "Ye blind Pharisees, cleanse first the inside of the cup and of the platter, then shall the outside of them be cleansed.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "[Arabic, p. 154] Woe unto you, scribes and Pharisees, hypocrites! because ye resemble whited sepulchres, which appear from the outside beautiful, but within",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "full of the bones of the dead, and all uncleanness. So ye also from without appear unto men like the righteous, but within ye are full of wrong and hypocrisy.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "text": "One of the scribes answered and said unto him, Teacher, in this saying of thine",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "text": "thou art casting a slur on us. He said, And to you also, ye scribes, woe! for ye lade men with heavy burdens, and ye with one of your fingers come not near those burdens.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye build the tombs of the prophets, which your fathers killed, and adorn the burying-places of the righteous,",
+   "refs": []
+  },
+  {
+   "n": 62,
+   "text": "and say, If we had been in the days of our fathers, we should not have been partakers",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 63,
+   "text": "with them in the blood of the prophets. Wherefore, behold, ye witness against",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 64,
+   "text": "yourselves, that ye are the children of those that slew the prophets. And ye also,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "text": "ye fill up the measure of your fathers. Ye serpents, ye children of vipers, where shall ye flee from the judgement of Gehenna?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 23,
+     "verse": 33
+    }
+   ]
+  }
+ ]
+}

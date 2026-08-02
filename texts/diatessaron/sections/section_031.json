@@ -1,0 +1,543 @@
+{
+ "number": 31,
+ "roman": "XXXI",
+ "id": "iv.iii.xxxi",
+ "title": "Section XXXI",
+ "books": [
+  "mark",
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 48,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And when the ten heard, they were moved with anger against James and John.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "And Jesus called them, and said unto them, Ye know that the rulers of the nations",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "are their lords; and their great men are set in authority over them. Not thus shall it [Arabic, p. 118] be amongst you: but he amongst you that would be great, let him be to you a",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "servant; and whoever of you would be first, let him be to every man a",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "bond-servant: even as the Son of man also came not to be served, but to serve, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 20,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "to give himself a ransom in place of the many. He said this, and was going about",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "the villages and the cities, and teaching; and he went to Jerusalem. And a man asked him, Are those that shall be saved few? Jesus answered and said unto",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "them, Strive ye to enter at the narrow door: I say unto you now, that many shall",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "seek to enter, and shall not be able—from the time when the master of the house riseth, and closeth the door, and ye shall be standing without, and shall knock at the door, and shall begin to say, Our lord, open unto us; and he shall answer and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "say, I say unto you, I know you not whence ye are: and ye shall begin to say,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "Before thee we did eat and drink, and in our markets didst thou teach; and he shall say unto you, I know you not whence ye are; depart from me, ye servants",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "of untruth. There shall be weeping and gnashing of teeth, when ye see Abraham, and Isaac, and Jacob, and all the prophets, in the kingdom of God, while ye are",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "put forth without. And they shall come from the east and the west, and from the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "north and the south, and shall sit down in the kingdom of God. And there shall then be last that have become first, and first that have become last. [15, 16] And when Jesus entered and passed through Jericho, there was a man named Zacchæus,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 30
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 1
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "rich, and chief of the publicans. And he desired to see Jesus who he was; and he was not able for the pressure of the crowd, because Zacchæus was little of stature.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "[Arabic, p. 119] And he hastened, and went before Jesus, and went up into an unripe fig",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "tree to see Jesus: for he was to pass thus. And when Jesus came to that place, he saw him, and said unto him, Make haste, and come down, Zacchæus:",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "to-day I must be in thy house. And he hastened, and came down, and received",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "him joyfully. And when they all saw, they murmured, and said, He hath gone in",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "and lodged with a man that is a sinner. So Zacchæus stood, and said unto Jesus, My Lord, now half of my possessions I give to the poor, and what I have unjustly",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "taken from every man I give him fourfold. Jesus said unto him, Today is salvation",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "come to this house, because this man also is a son of Abraham. For the Son of man came to seek and save the thing that was lost.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And when Jesus went out of Jericho, he and his disciples, there came after him",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "a great multitude. And there was a blind man sitting by the way side begging.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And his name was Timæus, the son of Timæus. And he heard the sound of the",
+   "refs": []
+  },
+  {
+   "n": 28,
+   "text": "multitude passing, and asked, Who is this? They said unto him, Jesus the Nazarene",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "passeth by. And when he heard that it was Jesus, he called out with a loud",
+   "refs": []
+  },
+  {
+   "n": 30,
+   "text": "voice, and said, Jesus, son of David, have mercy on me. And those that went before Jesus were rebuking him, that he should hold his peace: but he cried the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 39
+    },
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "more, and said, Son of David, have mercy on me. And Jesus stood, and commanded that they should call him. And they called the blind man, and said unto",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "him, Be of good courage, and rise; for, behold, he calleth thee. And the blind",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "man threw away his garment, and rose, and came to Jesus. Jesus said unto him, What dost thou wish that I should do unto thee? And that blind man said unto him, My Lord and Master, that my eyes may be opened, so that I may see thee.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "[Arabic, p. 120] And Jesus had compassion on him, and touched his eyes, and said unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 20,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "him, See; for thy faith hath saved thee. And immediately he received his sight, and came after him, and praised God; and all the people that saw praised God.",
+   "refs": []
+  },
+  {
+   "n": 36,
+   "text": "And he spake a parable because he was nearing Jerusalem, and they supposed",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "that at that time the kingdom of God was about to appear. He said unto them, A man, a son of a great race, went into a far country, to receive a kingdom, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "return. And he called his ten servants, and gave them ten shares, and said unto",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "them, Trade till the time of my coming. But the people of his city hated him, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "sent messengers after him, and said, We will not that this man reign over us. And when he had received a kingdom, and returned, he said that the servants to whom he had given the money should be called unto him, that he might know what each",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "of them had traded. And the first came, and said, My lord, thy share hath gained",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "ten shares. The king said unto him, Thou good and faithful servant, who hast",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "been found faithful in a little, be thou set over ten districts. And the second came,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "and said, My lord, thy portion hath gained five portions. And he said unto him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "also, And thou shalt be set over five districts. And another came, and said, My",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "lord, here is thy portion, which was with me laid by in a napkin: I feared thee, because thou art a hard man, and takest what thou didst not leave, and seekest",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "what thou didst not give, and reapest what thou didst not sow. His lord said unto him, From thy mouth shall I judge thee, thou wicked and idle servant, who wast untrustworthy. Thou knewest that I am a hard man, and take what I did not",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "leave, and reap what I did not sow: why didst thou not put my money at usury,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "and so I might come and seek it, with its gains? And he said unto those that were standing in front of him, Take from him the share, and give it to him that hath [50, 51] [Arabic, p. 121] ten shares. They said unto him, Our lord, he hath ten shares. He said unto them, I say unto you, Every one that hath shall be given unto; and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 24
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 25
+    },
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "he that hath not, that which he hath also shall be taken from him. And those mine enemies who would not that I should reign over them, bring them, and slay them before me.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 19,
+     "verse": 27
+    }
+   ]
+  }
+ ]
+}

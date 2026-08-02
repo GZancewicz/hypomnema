@@ -1,0 +1,691 @@
+{
+ "number": 8,
+ "roman": "VIII",
+ "id": "iv.iii.viii",
+ "title": "Section VIII",
+ "books": [
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 58,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And the Pharisees went out, and consulted together concerning him, that they",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "might destroy him. And Jesus perceived, and removed thence: and great multitudes",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "followed him; and he healed all of them: and he forbade them that they should",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "not make him known: that the saying in Isaiah the prophet might be fulfilled, which said,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "Behold, my servant with whom I am pleased; My beloved in whom my soul hath delighted: My spirit have I put upon him, And he shall proclaim to the nations judgement.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "He shall not dispute, nor cry out; And no man shall hear his voice in the marketplace.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "And a bruised reed shall he not break, And a smoking lamp shall he not extinguish, Until he shall bring forth judgement unto victory.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "And the nations shall rejoice in his name.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "And in those days Jesus went out to the mountain that he might pray, and he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "spent the night there in prayer to God. And when the morning was come, he called the disciples. And he went towards the sea: and there followed him much people",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 13
+    },
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "from Galilee that he might pray, and from Judæa, and from Jerusalem, and from Idumæa, and from beyond Jordan, and from Tyre, and from Sidon, and from Decapolis;",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "and great multitudes came unto him, which had heard what he did. And he spake to his disciples to bring him the boat because of the multitudes, that they",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "might not throng him. And he healed many, so that they were almost falling on [Arabic, p. 31] him on account of their seeking to get near him. And those that had",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "plagues and unclean spirits, as soon as they beheld him, would fall, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "cry out, and say, Thou art the Son of God. And he rebuked them much, that they",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "should not make him known. And those that were under the constraint of unclean",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "spirits were healed. And all of the crowd were seeking to come near him; because power went out from him, and he healed them all. [18, 19] And when Jesus saw the multitudes, he went up to the mountain. And he called his disciples, and chose from them twelve; and they are those whom he named",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 19
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 1
+    },
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "apostles: Simon, whom he named Cephas, and Andrew his brother, and James and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "John, and Philip and Bartholomew, and Matthew and Thomas, and James the son",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "of Alphæus, and Simon which was called the Zealot, and Judas the son of James,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "and Judas the Iscariot, being he that had betrayed him. And Jesus went down with them and stood in the plain, and the company of his disciples, and the great",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "multitude of people. And these twelve he chose to be with him, and that he might",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "send them to preach, and to have power to heal the sick and to cast out devils.",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "Then he lifted up his eyes unto them, and opened his mouth, and taught them, and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 20
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "Blessed are the poor in spirit: for the kingdom of heaven is theirs.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "Blessed are the sorrowful: for they shall be comforted.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "Blessed are the humble: for they shall inherit the earth.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "Blessed are they that hunger and thirst after righteousness: for they shall be satisfied.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "Blessed are the merciful: for on them shall be mercy.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "[Arabic, p. 32] Blessed are the pure in their hearts: for they shall see God.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "Blessed are the peacemakers: for they shall be called the sons of God.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "Blessed are they that were persecuted for righteousness’ sake: for the kingdom of heaven is theirs.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Blessed are ye when men shall hate you, and separate you from them, and persecute you, and reproach you, and shall speak against you with all evil talk, for my",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 22
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "sake, falsely. Then rejoice and be glad, for your reward is great in heaven: for so persecuted they the prophets before you.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "But woe unto you rich! for ye have received your consolation.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "Woe unto you that are satisfied! ye shall hunger. Woe unto you that laugh now! ye shall weep and be sad.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "Woe unto you when men praise you! for so did their fathers use to do to the false prophets.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "Unto you do I say, ye which hear, Ye are the salt of the earth: if then the salt become tasteless, wherewith shall it be salted? For any purpose it is of no use, but",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 27
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "is thrown outside, and men tread upon it. Ye are the light of the world. It is",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "impossible that a city built on a mountain should be hid. Neither do they light a lamp and place it under a bushel, but on the lamp-stand, and it giveth light to all",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "who are in the house. So shall your light shine before men, that they may see",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "your good works, and glorify your Father which is in heaven. There is nothing",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "secret that shall not be revealed, or hidden that shall not be known. Whoever hath ears that hear, let him hear.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "Think not that I came to destroy the law or the prophets; I came not to destroy,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "but to complete. Verily I say unto you, Until heaven and earth shall pass, there [Arabic, p. 33] shall not pass one point or one letter of the law, until all of it shall be",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "accomplished. Every one who shall violate now one of these small commandments, and shall teach men so, shall be called lacking in the kingdom of heaven: every one that shall do and teach shall be called great in the kingdom",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "of heaven. I say unto you now, unless your righteousness abound more than that of the scribes and Pharisees, ye shall not enter the kingdom of heaven.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "Ye have heard that it was said to the ancients, Do not kill; and every one that",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "killeth is worthy of the judgement. But I say unto you that every one who is angry with his brother without a cause is worthy of the judgement; and every one that saith to his brother, Thou foul one, is condemned by the synagogue; and whosoever",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "saith to him, Thou fool, is worthy of the fire of Gehenna. If thou art now offering thy gift at the altar, and rememberest there that thy brother hath conceived",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "against thee any grudge, leave thy gift at the altar, and go first and satisfy thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "brother, and then return and offer thy gift. Join thine adversary quickly, and while thou art still with him in the way, give a ransom and free thyself from him;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 25
+    },
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 58
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "lest thine adversary deliver thee to the judge, and the judge deliver thee to the tax-collector,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "and thou fall into prison. And verily I say unto thee, Thou shalt not go out thence until thou payest the last farthing. [57, 58] Ye have heard that it was said, Do not commit adultery: but I now say unto you, that every one that looketh at a woman lusting after her hath forthwith already",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 26
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 27
+    },
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 59,
+   "text": "[Arabic, p. 34] committed adultery with her in his heart. If thy right eye injure thee, put it out and cast it from thee; for it is preferable for thee that one of thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "text": "members should perish, and not thy whole body go into the fire of hell. And if thy right hand injure thee, cut it off and cast it from thee; and it is better for thee that",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "text": "one of thy members should perish, and not thy whole body fall into Gehenna. It was said that he that putteth away his wife should give her a writing of divorcement:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 62,
+   "text": "but I say unto you, that every one that putteth away his wife, except for the cause of adultery, hath made it lawful for her to commit adultery: and whosoever taketh one that is put away committeth adultery.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 5,
+     "verse": 32
+    }
+   ]
+  }
+ ]
+}

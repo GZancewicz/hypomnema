@@ -1,0 +1,524 @@
+{
+ "number": 24,
+ "roman": "XXIV",
+ "id": "iv.iii.xxiv",
+ "title": "Section XXIV",
+ "books": [
+  "mark",
+  "matthew",
+  "luke"
+ ],
+ "stich_count": 50,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And he said unto them, Verily I say unto you, There be here now some standing that shall not taste death, until they see the kingdom of God come with strength, and the Son of man who cometh in his kingdom.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 1
+    },
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "And after six days Jesus took Simon Cephas, and James, and John his brother,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "and brought them up into a high mountain, the three of them only. And while they",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "were praying, Jesus changed, and became after the fashion of another person; and his face shone like the sun, and his raiment was very white like the snow, and as",
+   "refs": []
+  },
+  {
+   "n": 5,
+   "text": "the light of lightning, so that nothing on earth can whiten like it. And there appeared",
+   "refs": []
+  },
+  {
+   "n": 6,
+   "text": "unto him Moses and Elijah talking to Jesus. And they thought that the time",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "of his decease which was to be accomplished at Jerusalem was come. And Simon and those that were with him were heavy in the drowsiness of sleep; and with effort they roused themselves, and saw his glory, and those two men that were standing with him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "[Arabic, p. 93] And when they began to depart from him, Simon said unto Jesus, My",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Master, it is good for us to be here: and if thou wilt, we will make here three tabernacles; one for thee, and one for Moses, and one for Elijah; not knowing",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 4
+    },
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "what he said, because of the fear which took possession of them. And while he",
+   "refs": []
+  },
+  {
+   "n": 11,
+   "text": "was yet saying that, a bright cloud overshadowed them. And when they saw Moses",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "and Elijah that they had entered into that cloud, they feared again. And a voice was heard out of the cloud, saying, This is my beloved Son, whom I have chosen;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "hear ye therefore him. And when this voice was heard, Jesus was found alone.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "And the disciples, when they heard the voice, fell on their faces from the fear which",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "took hold of them. And Jesus came and touched them and said, Arise, be not",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "afraid. And they lifted up their eyes, and saw Jesus as he was.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "And when they went down from the mountain, Jesus charged them, and said unto them, Tell not what ye have seen to any man, until the Son of man rise from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "among the dead. And they kept the word within themselves, and told no man in",
+   "refs": []
+  },
+  {
+   "n": 19,
+   "text": "those days what they had seen. And they reflected among themselves, What is this",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "word which he spake unto us, I, when I am risen from among the dead? And his disciples asked him, and said, What is that which the scribes say, then, that Elijah",
+   "refs": []
+  },
+  {
+   "n": 21,
+   "text": "must first come? He said unto them, Elijah cometh first to set in order everything, [Arabic, p. 94] and as it was written of the Son of man, that he should suffer many things,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "and be rejected. But I say unto you, that Elijah is come, and they knew him not, and have done unto him whatsoever they desired, as it was written of him. [23, 24] In like manner the Son of man is to suffer of them. Then understood the disciples that he spake unto them concerning John the Baptist.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 13
+    },
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 12
+    },
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And on that day whereon they came down from the mountain, there met him a multitude of many people standing with his disciples, and the scribes were discussing",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "with them. And the people, when they saw Jesus, were perplexed, and in the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "midst of their joy hastened and saluted him. And on that day came certain of the Pharisees, and said unto him, Get thee out, and go hence; for Herod seeketh",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "to kill thee. Jesus said unto them, Go ye and say to this fox, Behold, I am casting out demons, and I heal to-day and to-morrow, and on the third day I am perfected.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "Nevertheless I must be watchful to-day and to-morrow, and on the last day I shall depart; for it cannot be that a prophet perish outside of Jerusalem.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 13,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "And after that, there came to him a man from that multitude, and fell upon his knees, and said unto him, I beseech thee, my Lord, look upon my son; he is my",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "only child: and the spirit cometh upon him suddenly. A lunacy hath come upon",
+   "refs": []
+  },
+  {
+   "n": 32,
+   "text": "him, and he meeteth with evils. And when it cometh upon him, it beateth him about;",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "and he foameth, and gnasheth his teeth, and wasteth; and many times it hath thrown him into the water and into the fire to destroy him, and it hardly leaveth him after",
+   "refs": []
+  },
+  {
+   "n": 34,
+   "text": "[Arabic, p. 95] bruising him. And I brought him near to thy disciples, and they could",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "not heal him. Jesus answered and said, O faithless and perverse generation, till when shall I be with you? and till when shall I bear with you? bring thy son",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "hither. And he brought him unto him: and when the spirit saw him, immediately",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "it beat him about; and he fell upon the ground, and was raging and foaming. And Jesus asked his father, How long is the time during which he hath been thus? He",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "said unto him, From his youth until now. But, my Lord, help me wherein thou",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "canst, and have mercy upon me. Jesus said unto him, If thou canst believe! All",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "things are possible to him that believeth. And immediately the father of the child",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "cried out, weeping, and said, I believe, my Lord; help my lack of faith. And when Jesus saw the hastening of the people, and their coming at the sound, he rebuked that unclean spirit, and said to it, Thou dumb spirit that speakest not, I command",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "thee, come out of him, and enter not again into him. And that spirit, devil, cried out much, and bruised him, and came out; and that child fell as one dead, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "many thought that he had died. But Jesus took him by his hand, and raised him",
+   "refs": []
+  },
+  {
+   "n": 44,
+   "text": "up, and gave him to his father; and that child was healed from that hour. And the people all marvelled at the greatness of God.",
+   "refs": []
+  },
+  {
+   "n": 45,
+   "text": "And when Jesus entered into the house, his disciples came, and asked him",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "privately, and said unto him, Why were we not able to heal him? Jesus said unto [Arabic, p. 96] them, Because of your unbelief. Verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say to this mountain, Remove hence;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "and it shall remove; and nothing shall overcome you. But it is impossible to cast out this kind by anything except by fasting and prayer.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "And when he went forth thence, they passed through Galilee: and he would not",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "that any man should know it. And he taught his disciples, and said unto them,",
+   "refs": []
+  },
+  {
+   "n": 50,
+   "text": "Keep ye these sayings in your ears and your hearts: for the Son of man is to be delivered into the hands of men, and they shall kill him; and when he is killed, he",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "shall rise on the third day. But they knew not the word which he spake unto them, for it was concealed from them, that they should not perceive it; and they feared to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "ask him about this word. And they were exceeding sorrowful.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 23
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "number": 7,
+ "roman": "VII",
+ "id": "iv.iii.vii",
+ "title": "Section VII",
+ "books": [
+  "mark",
+  "luke",
+  "matthew"
+ ],
+ "stich_count": 49,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 26] And in the morning of that day he went out very early, and went to a",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "desert place, and was there praying. And Simon and those that were with",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "him sought him. And when they found him, they said unto him, All the people seek for",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "thee. He said unto them, Let us go into the adjacent villages and towns, that I may",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "preach there also; for to this end did I come. And the multitudes were seeking him, and came till they reached him; and they took hold of him, that he should not",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "go away from them. But Jesus said unto them, I must preach of the kingdom of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "God in other cities also: for because of this gospel was I sent. And Jesus was going about all the cities and the villages, and teaching in their synagogues, and preaching the gospel of the kingdom, and healing all the diseases and all the sicknesses,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 9,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "and casting out the devils. And his fame became known that he was teaching in",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 39
+    },
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 14
+    },
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "every place and being glorified by every man. And when he passed by, he saw Levi the son of Alphæus sitting among the tax-gatherers; and he said unto him, Follow",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "me: and he rose and followed him. And the news of him was heard of in all the land of Syria: and they brought unto him all those whom grievous ills had befallen through divers diseases, and those that were enduring torment, and those that were possessed, and lunatics, and paralytics; and he healed them. [11, 12] And after some days Jesus entered into Capernaum again. And when they heard that he was in the house, many gathered, so that it could not hold them, even about",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 24
+    },
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 1
+    },
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "[Arabic, p. 27] the door; and he made known to them the word of God. And there were there some of the Pharisees and the teachers of the law, sitting, come from all the villages of Galilee, and Judæa, and Jerusalem; and the power of the Lord was",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "present to heal them. And some men brought a bed with a man on it who was paralytic.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "And they sought to bring him in and lay him before him. And when they found no way to bring him in because of the multitude of people, they went up to the roof, and let him down with his bed from the roofing, into the midst before Jesus.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And when Jesus saw their faith, he said unto the paralytic, My son, thy sins are forgiven",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "thee. And the scribes and Pharisees began to think within their hearts, Why doth this man blaspheme? Who is it that is able to forgive sins, but God alone?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "And Jesus knew by the spirit that they were thinking this within themselves, and he",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "said unto them, Why do ye think this within your heart? Which is better, that it should be said to the paralytic, Thy sins are forgiven thee, or that it should be said",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "to him, Arise, and take thy bed, and walk? That ye may know that the Son of man",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "is empowered on earth to forgive sins (and he said to the paralytic), I say unto thee,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "Arise, take thy bed, and go to thine house. And he rose forthwith, and took his bed, and went out in the presence of all. And he went to his house praising God.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 12
+    },
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And when those multitudes saw, they feared; and amazement took possession of",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 9,
+     "verse": 8
+    },
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "them, and they praised God, who had given such power to men. And they said, We have seen marvellous things to-day, of which we have never before seen the like.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 26
+    },
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "[Arabic, p. 28] And after that, Jesus went out, and saw a publican, named Levi, sitting",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "among the publicans: and he said unto him, Follow me. And he left",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "everything, and rose, and followed him. And Levi made him a great feast in his house. And there was a great multitude of the publicans and others sitting with him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "And the scribes and Pharisees murmured, and said unto his disciples, Why do ye eat",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "and drink with the publicans and sinners? Jesus answered and said unto them, The physician seeketh not those who are well, but those that are afflicted with grievous [30, 31] sickness. I came not to call the righteous, but the sinners, to repentance. And they said unto him, Why do the disciples of John fast always, and pray, and the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 31
+    },
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 32
+    },
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "Pharisees also, but thy disciples eat and drink? He said unto them, Ye cannot make",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "the sons of the marriage feast fast, while the bridegroom is with them. Days will come, when the bridegroom is taken away from them; then will they fast in those",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "days. And he spake unto them a parable: No man inserteth a new patch and seweth it in a worn garment, lest the newness of the new take from the worn, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 36
+    },
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "there occur a great rent. And no man putteth fresh wine into old skins, lest the wine burst the skins, and the skins be destroyed, and the wine spilled; but they put",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "the fresh wine in the new skins, and both are preserved. And no man drinketh old wine and straightway desireth fresh; for he saith, The old is better.",
+   "refs": []
+  },
+  {
+   "n": 37,
+   "text": "And while Jesus was walking on the sabbath day among the sown fields, his disciples [Arabic, p. 29] hungered. And they were rubbing the ears with their hands, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "eating. But some of the Pharisees, when they saw them, said unto him, See,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 2
+    },
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "why do thy disciples on the sabbath day that which is not lawful? But Jesus said unto them, Have ye not read in olden time what David did, when he had need and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "hungered, he and those that were with him? how he entered the house of God, when Abiathar was high priest, and ate the bread of the table of the Lord, which it was not lawful that any should eat, save the priests, and gave to them that were with him also?",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "And he said unto them, The sabbath was created because of man, and man was not",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 2,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "created because of the sabbath. Or have ye not read in the law, that the priests in",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "the temple profane the sabbath, and yet they are blameless? I say unto you now,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "that here is what is greater than the temple. If ye had known this: I love mercy,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "not sacrifice, ye would not have condemned those on whom is no blame. The",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "Lord of the sabbath is the Son of man. And his relatives heard, and went out to take him, and said, He hath gone out of his mind.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "And on the next sabbath day he entered into the synagogue and was teaching.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "And there was there a man whose right hand was withered. And the scribes and the Pharisees were watching him, whether he would heal on the sabbath day,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "that they might find the means of accusing him. But he knew their thoughts, and said unto the man whose hand was withered, Rise and come near into the midst of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "the synagogue. And when he came and stood, Jesus said unto them, I ask you, which is lawful to be done on the sabbath day, good or evil? shall lives be saved or",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "[Arabic, p. 30] destroyed? But they were silent. Regarding them with anger, being grieved because of the hardness of their hearts. And he said unto the man, Stretch out thy hand. And he stretched it out: and his hand became straight.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 4
+    },
+    {
+     "book": "mark",
+     "chapter": 3,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "Then he said unto them, What man of you shall have one sheep, and if it fall into a",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "well on the sabbath day, will not take it and lift it out? And how much is man better than a sheep! Wherefore it is lawful on the sabbath to do good.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 12,
+     "verse": 12
+    }
+   ]
+  }
+ ]
+}

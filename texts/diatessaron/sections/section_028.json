@@ -1,0 +1,524 @@
+{
+ "number": 28,
+ "roman": "XXVIII",
+ "id": "iv.iii.xxviii",
+ "title": "Section XXVIII",
+ "books": [
+  "john",
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 49,
+ "stichs": [
+  {
+   "n": 3,
+   "text": "thy disciples may see the deeds that thou doest. For no man doeth a thing secretly",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "and wisheth to be apparent. If thou doest this, shew thyself to the world. For",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "up to this time not even the brethren of Jesus believed on him. Jesus said unto them, My time till now has not arrived; but as for you, your time is alway ready.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "It is not possible for the world to hate you; but me it hateth, for I bear witness",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "against it, that its deeds are evil. As for you, go ye up unto this feast: but I go",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "not up now to this feast; for my time has not yet been completed. He said this, and remained behind in Galilee.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "But when his brethren went up unto the feast, he journeyed from Galilee, and",
+   "refs": []
+  },
+  {
+   "n": 10,
+   "text": "came to the borders of Judæa, to the country beyond Jordan; and there came after",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "him great multitudes, and he healed them all there. And he went out, and proceeded",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "to the feast, not openly, but as one that conceals himself. And the Jews sought him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "at the feast, and said, In what place is this man? And there occurred much murmuring there in the great multitude that came to the feast, on his account. For",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "some said, He is good: and others said, Nay, but he leadeth the people astray. But no man spake of him openly for fear of the Jews.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "[Arabic, p. 108] But when the days of the feast of tabernacles were half over, Jesus went",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "up to the temple, and taught. And the Jews wondered, and said, How doth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "this man know writing, seeing he hath not learned? Jesus answered and said, My doctrine",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "is not mine, but his that sent me. Whoever wisheth to do his will understandeth my doctrine, whether it be from God, or whether I speak of mine own accord.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "Whosoever speaketh of his own accord seeketh praise for himself; but whosoever seeketh praise for him that sent him, he is true, and unrighteousness in his heart",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "there is none. Did not Moses give you the law, and no man of you keepeth the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "law? Why seek ye to kill me? The multitude answered and said unto him, Thou",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "hast demons: who seeketh to kill thee? Jesus answered and said unto them, I did",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "one deed, and ye all marvel because of this. Moses hath given you circumcision (not because it is from Moses, but it is from the fathers); and ye on the sabbath",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "circumcise a man. And if a man is circumcised on the sabbath day, that the law of Moses may not be broken; are ye angry at me, because I healed on the sabbath",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "day the whole man? Judge not with hypocrisy, but judge righteous judgement.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "And some people from Jerusalem said, Is not this he whom they seek to slay?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And lo, he discourseth with them openly, and they say nothing unto him. Think",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "you that our elders have learned that this is the Messiah indeed? But this man is known whence he is; and the Messiah, when he cometh, no man knoweth whence",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "he is. So Jesus lifted up his voice as he taught in the temple, and said, Ye both know me, and know whence I am; and of my own accord am I not come, but he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "[Arabic, p. 109] that sent me is true, he whom ye know not: but I know him; for I am",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "from him, and he sent me. And they sought to seize him: and no man",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "laid a hand on him, because his hour had not yet come. But many of the multitude believed on him; and they said, The Messiah, when he cometh, can it be that he will do more than these signs that this man doeth?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 7,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "And a man of that multitude said unto our Lord, Teacher, say to my brother",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "that he divide with me the inheritance. Jesus said unto him, Man, who is it that",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "appointed me over you as a judge and divider? And he said unto his disciples, Take heed within yourselves of all inordinate desire; for it is not in abundance of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "possessions that life shall be. And he gave them this parable: The ground of a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "rich man brought forth abundant produce: and he pondered within himself, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "said, What shall I do, since I have no place to store my produce? And he said, I will do this: I will pull down the buildings of my barns, and build them, and make",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "them greater; and store there all my wheat and my goods. And I will say to my soul, Soul, thou hast much goods laid by for many years; take thine ease, eat,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "drink, enjoy thyself. God said unto him, O thou of little intelligence, this night shall thy soul be taken from thee; and this that thou hast prepared, whose shall it",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "be? So is he that layeth up treasures for himself, and is not rich in God.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "And while Jesus was going in the way, there came near to him a young man of the rulers, and fell on his knees, and asked him, and said, Good Teacher, what is",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "it that I must do that I may have eternal life? Jesus said unto him, Why callest thou",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "me good, while there is none good but the one, even God? Thou knowest the commandments.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "If thou wouldest enter into life, keep the commandments. The young [Arabic, p. 110] man said unto him, Which of the commandments? Jesus said unto him,",
+   "refs": []
+  },
+  {
+   "n": 46,
+   "text": "Thou shalt not commit adultery, Thou shalt not steal, Thou shalt not kill, Thou shalt not bear false witness, Thou shalt not do injury, Honour thy father",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "and thy mother: and, Love thy neighbour as thyself. That young man said unto",
+   "refs": []
+  },
+  {
+   "n": 48,
+   "text": "him, All these have I kept from my youth: what then is it that I lack? And Jesus",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "looked intently at him, and loved him, and said unto him, If thou wouldest be perfect, what thou lackest is one thing: go away and sell everything that thou hast, and give to the poor, and thou shalt have treasure in heaven: and take thy",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "cross, and follow me. And that young man frowned at this word, and went away",
+   "refs": []
+  },
+  {
+   "n": 51,
+   "text": "feeling sad; for he was very rich. And when Jesus saw his sadness, he looked towards his disciples, and said unto them, How hard it is for them that have possessions to enter the kingdom of God!",
+   "refs": []
+  }
+ ]
+}

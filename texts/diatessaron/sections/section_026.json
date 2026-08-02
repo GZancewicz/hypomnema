@@ -1,0 +1,478 @@
+{
+ "number": 26,
+ "roman": "XXVI",
+ "id": "iv.iii.xxvi",
+ "title": "Section XXVI",
+ "books": [
+  "luke",
+  "matthew"
+ ],
+ "stich_count": 41,
+ "stichs": [
+  {
+   "n": 3,
+   "text": "eateth with them. And Jesus, when he beheld their murmuring, spake unto them",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "this parable: What man of you, having an hundred sheep, if one of them were lost, would not leave the ninety-nine in the wilderness, and go and seek the straying one",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "till he found it? Verily I say unto you, When he findeth it, he will rejoice over it",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "more than over the ninety-nine that went not astray; and bear it on his shoulders, and bring it to his house, and call his friends and neighbours, and say unto them,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 5
+    },
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Rejoice with me, since I have found my straying sheep. So your Father which is in heaven willeth not that one of these little ones that have strayed should perish,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "and he seeketh for them repentance. I say unto you, Thus there shall be rejoicing in heaven over one sinner that repenteth, more than over ninety-nine righteous persons that do not need repentance.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "And what woman having ten drachmas would lose one of them, and not light a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "lamp, and sweep the house, and seek it with care till she found it; and when she found it, call her friends and neighbours, and say unto them, Rejoice with me, as I",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "have found my drachma that was lost? I say unto you, Thus there shall be joy [Arabic, p. 101] before the angels of God over the one sinner that repenteth, more than over the ninety-nine righteous persons that do not need repentance. [12, 13] And Jesus spake unto them also another parable: A man had two sons: and the younger son said unto him, My father, give me my portion that belongeth to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 10
+    },
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 11
+    },
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "me of thy goods. And he divided between them his property. And after a few days the younger son gathered everything that belonged to him, and went into a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "far country, and there squandered his property by living prodigally. And when he had exhausted everything he had, there occurred a great dearth in that country.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And when he was in want, he went and joined himself to one of the people of a city",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "of that country; and that man sent him into the field to feed the swine. And he used to long to fill his belly with the carob that those swine were eating: and no man",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "gave him. And when he returned unto himself, he said, How many hired servants now in my father’s house have bread enough and to spare, while I here perish with",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "hunger! I will arise and go to my father’s house, and say unto him, My father, I",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 18
+    },
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "have sinned in heaven and before thee, and am not worthy now to be called thy",
+   "refs": []
+  },
+  {
+   "n": 21,
+   "text": "son: make me as one of thy hired servants. And he arose, and came to his father. But his father saw him while he was at a distance, and was moved with compassion",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "for him, and ran, and fell on his breast, and kissed him. And his son said unto him, My father, I have sinned in heaven and before thee, and am not worthy to be",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "called thy son. His father said unto his servants, Bring forth a stately robe, and put",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "it on him; and put a ring on his hand, and put on him shoes on his feet: and bring and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "slay a fatted ox, that we may eat and make merry: for this my son was dead, and is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "[Arabic, p. 102] alive; and was lost, and is found. And they began to be merry. Now his elder son was in the field; and when he came and drew near to the house,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "he heard the sound of many singing. And he called one of the lads, and asked him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "what this was. He said unto him, Thy brother hath arrived; and thy father hath",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "slain a fatted ox, since he hath received him safe and sound. And he was angry,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "and would not enter; so his father went out, and besought him to enter. And he said to his father, How many years do I serve thee in bondage, and I never transgressed a commandment of thine; and thou hast never given me a kid, that I might",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "make merry with my friends? but this thy son, when he had squandered thy",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "property with harlots, and come, thou hast slain for him a fatted ox. His father said unto him, My son, thou art at all times with me, and everything I have is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "thine. It behoveth thee to rejoice and make merry, since this thy brother was dead, and is alive; and was lost, and is found.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 15,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "And he spake a parable unto his disciples: There was a rich man, and he had",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "a steward; and he was accused to him that he had squandered his property. So his lord called him, and said unto him, What is this that I hear regarding thee? Give me the account of thy stewardship; for it is now impossible that thou shouldest",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "be a steward for me. The steward said within himself, What shall I do, seeing that my lord taketh from me the stewardship? To dig I am not able; and to beg I",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "am ashamed. I know what I will do, that, when I go out of the stewardship, they",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "may receive me into their houses. And he called one after another of his lord’s",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "debtors, and said to the first, How much owest thou my lord? He said unto him, An hundred portions of oil. He said unto him, Take thy writing, and sit down, and write",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "quickly fifty portions. And he said to the next, And thou, how much owest thou my lord? He said unto him, An hundred cors of wheat. He said unto him, Take",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "[Arabic, p. 103] thy writing, and sit down, and write eighty cors. And our lord commended the sinful steward because he had done a wise deed; for the children",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "of this world are wiser than the children of the light in this their age. And I also say unto you, Make unto yourselves friends with the wealth of this unrighteousness;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "so that, when it is exhausted, they may receive you into their tents for ever. He who is faithful in a little is faithful also in much: and he who is unrighteous in a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "little is unrighteous also in much. If then in the wealth of unrighteousness ye were",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "not trustworthy, who will intrust you with the truth? If ye are not found faithful in what does not belong to you, who will give you what belongeth to you?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 16,
+     "verse": 12
+    }
+   ]
+  }
+ ]
+}

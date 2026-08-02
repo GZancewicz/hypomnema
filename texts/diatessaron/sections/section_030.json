@@ -1,0 +1,551 @@
+{
+ "number": 30,
+ "roman": "XXX",
+ "id": "iv.iii.xxx",
+ "title": "Section XXX",
+ "books": [
+  "luke",
+  "matthew",
+  "john",
+  "mark"
+ ],
+ "stich_count": 50,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And he spake a parable unto those which were bidden there, because he saw",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "them choose the places that were in the highest part of the sitting room: When a man invites thee to a feast, do not go and sit at the head of the room; lest there",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "be there a man more honourable than thou, and he that invited you come and say unto thee, Give the place to this man: and thou be ashamed when thou risest and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "takest another place. But when thou art invited, go and sit last; so that when he that invited thee cometh, he may say unto thee, My friend, go up higher: and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "thou shalt have praise before all that were invited with thee. For every one that exalteth himself shall be abased; and every one that abaseth himself shall be exalted.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "And he said also to him that had invited him, When thou makest a feast or a banquet, do not invite thy friends, nor even thy brethren, nor thy kinsmen, nor thy",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "rich neighbours; lest haply they also invite thee, and thou have this reward. But when thou makest a feast, invite the poor, and those with withered hand, and the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "lame, and the blind: and blessed art thou, since they have not the means to reward",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "thee; that thy reward may be at the rising of the righteous. And when one of them that were invited heard that, he said unto him, Blessed is he that shall eat bread in the kingdom of God. [10, 11] Jesus answered again in parables, and said, The kingdom of heaven hath been likened [Arabic, p. 115] to a certain king, which made a feast for his son, and prepared a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 15
+    },
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "great banquet, and invited many: and he sent his servants at the time of the feast to inform them that were invited, Everything is made ready for you; come. And",
+   "refs": []
+  },
+  {
+   "n": 13,
+   "text": "they would not come, but began all of them with one voice to make excuse. And the first said unto them, Say to him, I have bought a field, and I must needs go out",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "to see it: I pray thee to release me, for I ask to be excused. And another said, I have bought five yoke of oxen, and I am going to examine them: I pray thee",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "to release me, for I ask to be excused. And another said, I have married a wife,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "and therefore I cannot come. And the king sent also other servants, and said, Say to those that were invited, that my feast is ready, and my oxen and my fatlings are",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "slain, and everything is ready: come to the feast. But they made light of it, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "went, one to his field, and another to his merchandise: and the rest took his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "servants, and entreated them shamefully, and killed them. And one of the servants",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "came, and informed his lord of what had happened. And when the king heard, he became angry, and sent his armies; and they destroyed those murderers, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "burned their cities. Then he said to his servants, The feast is prepared, but those",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "that were invited were not worthy. Go out quickly into the markets and into the partings of the ways of the city, and bring in hither the poor, and those with pains, and the lame, and the blind. And the servants did as the king commanded them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And they came, and said unto him, Our lord, we have done all that thou commandedst",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "us, and there is here still room. So the lord said unto his servants, Go out into the roads, and the ways, and the paths, and every one that ye find, invite",
+   "refs": []
+  },
+  {
+   "n": 25,
+   "text": "[Arabic, p. 116] to the feast, and constrain them to enter, till my house is filled. I say unto you, that no one of those people that were invited shall taste of my feast.",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "And those servants went out into the roads, and gathered all that they found, good and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "bad: and the banquet-house was filled with guests. And the king entered to see those",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "who were seated, and he saw there a man not wearing a festive garment: and he said unto him, My friend, how didst thou come in here not having on festive garments?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "And he was silent. Then the king said to the servants, Bind his hands and his feet, and put him forth into the outer darkness; there shall be weeping and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "gnashing of teeth. The called are many; and the chosen, few.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 22,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "And after that, the time of the feast of unleavened bread of the Jews arrived,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "and Jesus went out to go to Jerusalem. And as he went in the way, there met him",
+   "refs": []
+  },
+  {
+   "n": 33,
+   "text": "ten persons who were lepers, and stood afar off: and they lifted up their voice, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "said, Our Master, Jesus, have mercy upon us. And when he saw them, he said unto them, Go and shew yourselves unto the priests. And when they went, they",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "were cleansed. And one of them, when he saw himself cleansed, returned, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "was praising God with a loud voice; and he fell on his face before the feet of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "Jesus, giving him thanks: and this man was a Samaritan. Jesus answered and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "Were not those that were cleansed ten? where then are the nine? Not one of them turned aside to come and praise God, but this man who is of a strange",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "people. He said unto him, Arise, and go thy way; for thy faith hath given thee life.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 17,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "And while they were going up in the way to Jerusalem, Jesus went in front of them; and they wondered, and followed him fearing. And he took his twelve disciples apart,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "and began to tell them privately what was about to befall him. And he said unto [Arabic, p. 117] them, We are going up to Jerusalem, and all the things shall be fulfilled",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "that are written in the prophets concerning the Son of man. He shall be delivered to the chief priests and the scribes; and they shall condemn him to death,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "and deliver him to the peoples; and they shall treat him shamefully, and scourge",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "him, and spit in his face, and humble him,and crucify him, and slay him: and on",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "the third day he shall rise. But they understood not one thing of this; but this word was hidden from them, and they did not perceive these things that were addressed to them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 18,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "Then came near to him the mother of the (two) sons of Zebedee, she and her (two) sons, and worshipped him, and asked of him a certain thing. And he said",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 20,
+     "verse": 20
+    },
+    {
+     "book": "matthew",
+     "chapter": 20,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "unto her, What wouldest thou? And James and John, her two sons, came forward, and said unto him, Teacher, we would that all that we ask thou wouldest",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "do unto us. He said unto them, What would ye that I should do unto you?",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "They said unto him, Grant us that we may sit, the one on thy right, and the other",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "on thy left, in thy kingdom and thy glory. And Jesus said unto them, Ye know not what ye ask. Are ye able to drink the cup that I am to drink? and with the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "baptism that I am to be baptized with, will ye be baptized? And they said unto him, We are able. Jesus said unto them, The cup that I drink ye shall drink; and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "with the baptism wherewith I am baptized ye shall be baptized: but that ye should sit on my right and on my left is not mine to give; but it is for him for whom my Father hath prepared it.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 40
+    }
+   ]
+  }
+ ]
+}

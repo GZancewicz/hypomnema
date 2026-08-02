@@ -560,6 +560,94 @@ body {
     margin-top: 2px;
 }
 
+.greek-commentary {
+    line-height: 1.85;
+}
+
+.greek-commentary .lemma-quote {
+    margin: 0 0 1.2em 0;
+    padding: 0.5em 0 0.5em 1em;
+    border-left: 3px solid #c9c3b6;
+    font-size: 1.02em;
+}
+
+.greek-commentary p {
+    margin-bottom: 1.1em;
+    text-align: justify;
+}
+
+.ephraim-commentary {
+    line-height: 1.85;
+}
+
+.ephraim-commentary .lemma-quote {
+    margin: 0 0 1.2em 0;
+    padding: 0.5em 0 0.5em 1em;
+    border-left: 3px solid #c9c3b6;
+    font-size: 1.02em;
+    font-style: italic;
+}
+
+.ephraim-commentary p {
+    margin-bottom: 1.1em;
+    text-align: justify;
+}
+
+.ephraim-footnotes {
+    margin-top: 2.2em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+    font-size: 0.86em;
+    color: #555;
+}
+
+.ephraim-footnotes h4 {
+    margin: 0 0 0.6em 0;
+    font-variant: small-caps;
+    letter-spacing: 0.04em;
+    color: #777;
+}
+
+.ephraim-footnotes ol {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+.ephraim-footnotes li {
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+.ephraim-source {
+    margin-top: 1.8em;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #888;
+    text-align: center;
+}
+
+.diat-commentary-bar {
+    text-align: center;
+    margin: 0 0 1.6em 0;
+}
+
+.diat-commentary-btn {
+    background: none;
+    border: 1px solid #c9c3b6;
+    border-radius: 3px;
+    padding: 5px 14px;
+    font-family: inherit;
+    font-size: 0.82em;
+    color: #6a6257;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.diat-commentary-btn:hover {
+    background-color: #f2efe9;
+    color: #3a352d;
+}
+
 .commentary-legend::before {
     content: '';
     display: inline-block;

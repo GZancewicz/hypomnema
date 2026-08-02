@@ -1,0 +1,596 @@
+{
+ "number": 43,
+ "roman": "XLIII",
+ "id": "iv.iii.xliii",
+ "title": "Section XLIII",
+ "books": [
+  "luke",
+  "matthew"
+ ],
+ "stich_count": 51,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Simon Cephas said unto him, Our Lord, is it to us that thou hast spoken this",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "parable, or also to every man? Jesus said unto him, Who, thinkest thou, is the servant, the master of the house, trusted with control, whom his lord set over his",
+   "refs": []
+  },
+  {
+   "n": 3,
+   "text": "household, to give them their food in its season? Blessed is that servant, whom his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 24,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "lord shall come and find having done so. Verily I say unto you, He will set him",
+   "refs": []
+  },
+  {
+   "n": 5,
+   "text": "over all that he hath. But if that evil servant say in his heart, My lord delayeth his",
+   "refs": []
+  },
+  {
+   "n": 6,
+   "text": "coming; and shall begin to beat his servants and the maidservants of his lord, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 24,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "shall begin to eat and to drink with the drunken; the lord of that servant shall come",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 24,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "in the day that he thinketh not, and in the hour that he knoweth not, and shall [Arabic, p. 163] judge him, and appoint his portion with the hypocrites, and with those that are not faithful: there shall be weeping and gnashing of teeth.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 24,
+     "verse": 51
+    },
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Then shall the kingdom of heaven be like unto ten virgins, those that took their",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "lamps, and went forth to meet the bridegroom and the bride. Five of them were",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "wise, and five foolish. And those foolish ones took their lamps, and took not with [12, 13] them oil: but those wise ones took oil in vessels along with their lamps. When then",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 3
+    },
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 4
+    },
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "the bridegroom delayed, they all slumbered and slept. But in the middle of the night there occurred a cry, Behold, the bridegroom cometh! Go forth therefore to [15, 16] meet him. Then all those virgins arose, and made ready their lamps. The foolish",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 6
+    },
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 7
+    },
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "said unto the wise, Give us of your oil; for our lamps are gone out. But those wise answered and said, Perhaps there will not be enough for us and you: but go ye to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "the sellers, and buy for yourselves. And when they went away to buy, the bridegroom came; and those that were ready went in with him to the marriage feast: and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "the door was shut. And at last those other virgins also came and said, Our Lord,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "our Lord, open unto us. He answered and said unto them, Verily I say unto you,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "I know you not. Watch then, for ye know not that day nor that hour.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "It is as a man, who went on a journey, and called his servants, and delivered unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "them his possessions. And unto one he gave five talents, and another two, and another",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "one; every one according to his strength; and went on his journey forthwith. He [Arabic, p. 164] then that received the five talents went and traded with them, and gained",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "other five. And so also he of the two gained other two. But he that received",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 17
+    },
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "the one went and digged in the earth, and hid the money of his lord. And after a long time the lord of those servants came, and took from them the account.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "And he that received five talents came near and brought other five, and said, My lord, thou gavest me five talents: lo, I have gained other five in addition to them.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "His lord said unto him, Well done, thou good and faithful servant: over a little hast",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "thou been faithful, over much will I set thee: enter into the joy of thy lord. And he that had the two came near and said, My lord, thou gavest me two talents: lo,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "other two have I gained in addition to them. His lord said unto him, Good, thou faithful servant: over a little hast thou been faithful, over much will I set thee: enter",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "into the joy of thy lord. And he also that received the one talent came forward and said, My lord, I knew thee that thou art a severe man, who reapest where thou",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "sowest not, and gatherest where thou didst not scatter: and so I was afraid, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "went away and hid thy talent in the earth: lo, thou hast what is thine. His lord answered and said unto him, Thou wicked and slothful servant, thou knewest me",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "that I reap where I sowed not, and gather where I did not scatter; it was incumbent on thee to put my money to the bank, and then I should come and seek it with its",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "gains. Take now from him the talent, and give it to him that hath ten talents.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "Whosoever hath shall be given, and he shall have more: but he that hath not, even",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "[Arabic, p. 165] what he hath shall be taken from him. And the unprofitable servant, put him forth into the outer darkness: there shall be the weeping and gnashing of teeth. [39, 40] Your loins shall be girded, and your lamps lit; and ye shall be like the people that are looking for their lord, when he shall return from the feast; so that, when",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 30
+    },
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 35
+    },
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "he cometh and knocketh, they may at once open unto him. Blessed are those servants, whom their lord shall come and find attentive: verily I say unto you, that he will gird his waist, and make them sit down, and pass through them and serve",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "them. And if he come in the second watch, or the third, and find thus, blessed are those servants.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "But when the Son of man cometh in his glory, and all his pure angels with him,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "then shall he sit on the throne of his glory: and he will gather before him all the nations, and separate them the one from the other, like the shepherd who separateth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "the sheep from the goats; and will set the sheep on his right, and the goats on his",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "left. Then shall the King say to those that are at his right, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundations of the world:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "I hungered, and ye gave me to eat; and I thirsted, and ye gave me to drink; and I",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "was a stranger, and ye took me in; and I was naked, and ye clothed me; and I",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "was sick, and ye visited me; and I was in prison, and ye cared for me. Then shall those righteous say unto him, Our Lord, when saw we thee hungry, and fed thee?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "or thirsty, and gave thee to drink? And when saw we thee a stranger, and took",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "thee in? or naked, and clothed thee? And when saw we thee sick, or imprisoned, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "cared for thee? The King shall answer and say unto them, Verily I say unto you, What",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "[Arabic, p. 166] ye did to one of these my brethren, the little ones, ye did unto me. Then shall he say unto those that are on his left also, Depart from me, ye cursed,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "into the eternal fire prepared for the devil and his hosts: I hungered, and ye fed me",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "not; and I thirsted, and ye did not give me to drink; and I was a stranger, and ye took me not in; and I was naked, and ye clothed me not; and I was sick, and imprisoned,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "and ye visited me not. Then shall those also answer and say, Our Lord, when saw we thee an hungred, or athirst, or naked, or a stranger, or sick, or imprisoned,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "and did not minister unto thee? Then shall he answer and say unto them, Verily I say unto you, When ye did it not unto one of these little ones, ye did it not",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "unto me also. And these shall go away into eternal punishment: but the righteous into eternal life.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 25,
+     "verse": 46
+    }
+   ]
+  }
+ ]
+}

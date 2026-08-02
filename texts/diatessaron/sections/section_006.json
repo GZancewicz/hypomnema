@@ -1,0 +1,561 @@
+{
+ "number": 6,
+ "roman": "VI",
+ "id": "iv.iii.vi",
+ "title": "Section VI",
+ "books": [
+  "luke",
+  "john",
+  "matthew",
+  "mark"
+ ],
+ "stich_count": 46,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 22] But when Simon Cephas saw this he fell before the feet of Jesus, and said unto him, My Lord, I beseech of thee to depart from me, for I am",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "a sinful man. And amazement took possession of him, and of all who were with him,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "because of the draught of the fishes which they had taken. And thus also were James and John the sons of Zebedee overtaken, who were Simon’s partners. And Jesus said",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "unto Simon, Fear not; henceforth thou shalt be a fisher of men unto life. And they brought the boats to the land; and they left everything, and followed him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And after that came Jesus and his disciples into the land of Judæa; and he went",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "about there with them, and baptized. And John also was baptizing in Ænon, which is beside Salim, because there was much water there: and they came, and were baptized. [7, 8] And John was not yet come into prison. And there was an inquiry between",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 23
+    },
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 24
+    },
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "one of John’s disciples and one of the Jews about purifying. And they came unto John, and said unto him, Our master, he that was with thee beyond Jordan, to whom",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "thou hast borne witness, behold, he also baptizeth, and many come to him. John answered and said unto them, A man can receive nothing of himself, except it be",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "given him from heaven. Ye are they that bear witness unto me that I said, I am",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "not the Messiah, but I am one sent before him. And he that hath a bride is a bridegroom: and the friend of the bridegroom is he that standeth and listeneth to him, and rejoiceth greatly because of the bridegroom’s voice. Lo now, behold, [13, 14] [Arabic, p. 23] my joy becometh complete. And he must increase and I decrease. For he that is come from above is higher than everything; and he that is of the earth, of the earth he is, and of the earth he speaketh; and he that came down from heaven is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 29
+    },
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 30
+    },
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "higher than all. And he beareth witness of what he hath seen and heard: and no man",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "receiveth his witness. And he that hath received his witness hath asserted that he is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "truly God. And he whom God hath sent speaketh the words of God: God gave",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "not the Spirit by measure. The Father loveth the Son, and hath put everything in",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "his hands. Whosoever believeth in the Son hath eternal life; but whosoever obeyeth not the Son shall not see life, but the wrath of God cometh upon him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 3,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "And Jesus learned that the Pharisees had heard that he had received many disciples,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "and that he was baptizing more than John (not that Jesus was himself baptizing,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "but his disciples); and so he left Judæa.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And Herod the governor, because he used to be rebuked by John because of Herodias the wife of Philip his brother, and for all the sins which he was committing,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "added to all that also this, that he shut up John in prison.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And when Jesus heard that John was delivered up, he went away to Galilee.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "And he entered again into Cana, where he had made the water wine. And there",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "was at Capernaum a king’s servant, whose son was sick. And this man heard that Jesus was come from Judæa to Galilee; and he went to him, and besought of him that he would come down and heal his son; for he had come near unto death. [28, 29] Jesus said unto him, Except ye see signs and wonders, ye do not believe. The [Arabic, p. 24] king’s servant said unto him, My Lord, come down, that the child die not.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 47
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 48
+    },
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "Jesus said unto him, Go; for thy son is alive. And that man believed the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "word which Jesus spake, and went. And when he went down, his servants met him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "and told him, and said unto him, Thy son is alive. And he asked them at what time he recovered. They said unto him, Yesterday at the seventh hour the fever left",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "him. And his father knew that that was at that hour in which Jesus said unto him,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "Thy son is alive. And he believed, he and the whole people of his house. And this",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "is the second sign which Jesus did when he returned from Judæa to Galilee. And he was preaching in the synagogues of Galilee.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "And he left Nazareth, and came and dwelt in Capernaum by the sea shore, in the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "borders of Zebulun and Naphtali: that it might be fulfilled which was said in Isaiah the prophet, who said,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "The land of Zebulun, the land of Naphtali, The way of the sea, the passage of the Jordan, Galilee of the nations:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "The people sitting in darkness Saw a great light, And those sitting in the region and in the shadow of death, There appeared to them a light.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 4,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "And he taught them on the sabbaths. And they wondered because of his doctrine:",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 31
+    },
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "for his word was as if it were authoritative. And there was in the synagogue",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "a man with an unclean devil, and he cried out with a loud voice, and said, Let me alone; what have I to do with thee, thou Jesus of Nazareth? art thou come for our",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "destruction? I know thee who thou art, thou Holy One of God. And Jesus rebuked him, and said, Stop up thy mouth, and come out of him. And the demon threw him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "in the midst and came out of him, having done him no harm. And great amazement [Arabic, p. 25] took hold upon every man. And they talked one with another, and said, What is this word that orders the unclean spirits with power and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "authority, and they come out? And the news of him spread abroad in all the region which was around them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "And when Jesus went out of the synagogue, he saw a man sitting among the publicans, named Matthew: and he said unto him, Come after me. And he rose, and followed him. [47, 48] And Jesus came to the house of Simon and Andrew with James and John. And Simon’s wife’s mother was oppressed with a great fever, and they besought him for",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 38
+    },
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "her. And he stood over her and rebuked her fever, and it left her, and immediately",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "she rose and ministered to them. And at even they brought to him many that had",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "demons: and he cast out their devils with the word. And all that had sick, their diseases being divers and malignant, brought them unto him. And he laid his hand",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "on them one by one and healed them: that that might be fulfilled which was said",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "in the prophet Isaiah, who said, He taketh our pains and beareth our diseases. And",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "all the city was gathered together unto the door of Jesus. And he cast out devils also from many, as they were crying out and saying, Thou art the Messiah, the Son of God; and he rebuked them. And he suffered not the demons to speak, because they knew him that he was the Lord the Messiah.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 4,
+     "verse": 41
+    }
+   ]
+  }
+ ]
+}

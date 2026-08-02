@@ -155,6 +155,28 @@ The panel subtitle (`#homilyRange`) shows the passage a commentary covers.
 - Synaxarion Lives attach to single verses rather than ranges, so they intentionally have no range
 - Any new commentary link site must pass the range too — there are entry points in the reader, the Commentaries index (`/api/index`), Scripture References (`/api/scripture-references`), and the "more homilies" list (`/api/homilies/`)
 
+### Theophylact — served from the PG Greek, not from `content/`
+Theophylact is the one commentary that does **not** read `content/%03d/content.json`.
+`extractTheophylactGreek()` in main.go reads the Migne PG Greek directly from
+`texts/commentaries/theophylact/PG/sectioned/<GOSPEL>/ΕΡΜΗΝΕΙΑ/<ΚΕΦΑΛΑΙΟΝ>/<ΛΗΜΜΑ>/`.
+- **Why:** only lemma 1 was ever built into `content/`, while all 5,028 lemma folders
+  have their Greek `.txt`. Reading the PG directly serves all four Gospels today.
+- **ID → folder:** `theophylactLemmaPaths()` sorts chapters, then lemmata by their
+  numeric `ΛΗΜΜΑ_NN_` prefix. Index `i` = lemma id `i+1`, matching `coverage.json`
+  order. Verified against the `source` field in `matthew/content/001/metadata.json`.
+  The list is built once and cached — restart the server after adding lemma folders.
+- **Lemma counts:** Matthew 1124, Mark 526, Luke 1046, John **2332** (John has one
+  fewer folder than it has `metadata.json` files — trust the folder count).
+- **Guillemet handling is not symmetric.** The PG section split cuts quotations, so a
+  lemma may open `«` without closing (796 cases), or close `»` having never opened
+  (250 cases). Both forms are still scripture and get the blockquote. Stray guillemets
+  left over are OCR artifacts (a `»` scanned as `«`) and are normalized to curly quotes.
+- **Do not reuse the `.greek-text` class** for commentary output — `.chapter-text
+  .greek-text` is `display: none` (it belongs to the reader's interlinear Greek).
+  Theophylact's panel uses `.greek-commentary`.
+- `texts/commentaries/theophylact/PG/sectioned/ΚΑΤΑ_ΛΟΥΚΑΝ/.../ΛΗΜΜΑ_37_21.38` contains
+  only `«` and renders as an empty panel. Known bad source file, not a code fault.
+
 ### Testing responsive design
 - Toggle viewport below/above 700px
 - Check sidebar behavior (hamburger menu)
@@ -176,6 +198,7 @@ The panel subtitle (`#homilyRange`) shows the passage a commentary covers.
 - Cyril of Alexandria's 153 sermons on Luke (manuscript contains only fragments for 154-156)
 - Gregory the Great's 40 homilies across all four Gospels
 - Venerable Bede's 50 homilies across all four Gospels
+- Theophylact of Ohrid's commentary on all four Gospels (5,028 lemmata), served as the Migne PG Greek; English translation in progress
 - Minimal blue markers in right margin for commentary references
 - Custom hover tooltips showing homily/sermon numbers
 - Split-screen commentary viewing (50/50 layout), with the covered verse range in small italics under the title

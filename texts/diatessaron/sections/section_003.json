@@ -1,0 +1,595 @@
+{
+ "number": 3,
+ "roman": "III",
+ "id": "iv.iii.iii",
+ "title": "Section III",
+ "books": [
+  "matthew",
+  "luke",
+  "john"
+ ],
+ "stich_count": 52,
+ "stichs": [
+  {
+   "n": 3,
+   "text": "come to worship him. And Herod the king heard, and he was troubled, and all",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Jerusalem with him. And he gathered all the chief priests and the scribes of the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "people, and asked them in what place the Messiah should be born. They said, In Bethlehem of Judæa: thus it is written in the prophet,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "Thou also, Bethlehem of Judah, Art not contemptible among the kings of Judah: From thee shall go forth a king, And he shall be a shepherd to my people Israel.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Then Herod called the Magi secretly, and inquired of them the time at which",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "the star appeared to them. And he sent them to Bethlehem, and said unto them, Go and search about the child diligently; and when ye have found him, come and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "make known to me, that I also may go and worship him. And they, when they [Arabic, p. 11] heard the king, departed; and lo, the star which they had seen in the east went before them, until it came and stood above the place where the child [10, 11] was. And when they beheld the star, they rejoiced with very great joy. And they entered the house and beheld the child with Mary his mother, and fell down worshipping him, and opened their saddle-bags and offered to him offerings, gold and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 9
+    },
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 10
+    },
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "myrrh and frankincense. And they saw in a dream that they should not return to Herod, and they travelled by another way in going to their country.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "And when they had departed, the angel of the Lord appeared in a dream to Joseph, and said unto him, Rise, take the child and his mother, and flee into Egypt, and be thou there until I speak to thee; for Herod is determined to seek the child",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "to slay him. And Joseph arose and took the child and his mother in the night, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "fled into Egypt, and remained in it until the time of the death of Herod: that that might be fulfilled which was said by the Lord in the prophet, which said, From",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "Egypt did I call my son. And Herod then, when he saw that he was mocked of the Magi, was very angry, and sent and killed all the male children which were in Bethlehem and all its borders, from two years old and under, according to the time",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "which he had inquired from the Magi. Then was fulfilled the saying in Jeremiah the prophet, which said,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "A voice was heard in Ramah, Weeping and much lamentation; Rachel weeping for her children, And not willing to be consoled for their loss.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "But when Herod the king died, the angel of the Lord appeared in a dream to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "Joseph in Egypt, and said unto him, Rise and take the child and his mother, and [Arabic, p. 12] go into the land of Israel; for they have died who sought the child’s life.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "And Joseph rose and took the child and his mother, and came to the land",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "of Israel. But when he heard that Archelaus had become king over Judæa instead of Herod his father, he feared to go thither; and he saw in a dream that he should",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "go into the land of Galilee, and that he should abide in a city called Nazareth: that the saying in the prophet might be fulfilled, that he should be called a Nazarene.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 2,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "And the child grew, and became strong in spirit, becoming filled with wisdom; and the grace of God was upon him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And his kinsfolk used to go every year to Jerusalem at the feast of the passover.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "And when he was twelve years old, they went up according to their custom,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "to the feast. And when the days were accomplished, they returned; and the child",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "Jesus remained in Jerusalem, and Joseph and his mother knew not: and they supposed that he was with the children of their company. And when they had gone one day’s journey, they sought him beside their people and those who knew them,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "and they found him not; so they returned to Jerusalem and sought him again.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "And after three days they found him in the temple, sitting in the midst of the teachers,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "hearing them and asking them questions; and all who heard him wondered at",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 47
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "his wisdom and his words. And when they saw him they wondered, and his mother said unto him, My son, why hast thou dealt with us thus? behold, I and thy father",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "have been seeking for thee with much anxiety. And he said unto them, Why were",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "ye seeking me? know ye not that I must be in the house of my Father? And they",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "understood not the word which he spake unto them. And he went down with them, and came to Nazareth; and he was obedient to them: and his mother used to keep all these sayings in her heart.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "[Arabic, p. 13] And Jesus grew in his stature and wisdom, and in grace with God and men.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 2,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "And in the fifteenth year of the reign of Tiberius Cæsar, when Pontius Pilate was governor in Judæa, and one of the four rulers, Herod, in Galilee; and Philip his brother, one of the four rulers, in Ituræa and in the district of Trachonitis; and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "Lysanias, one of the four rulers, in Abilene; in the chief-priesthood of Annas and Caiaphas, the command of God went forth to John the son of Zacharias in the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "desert. And he came into all the region which is about Jordan, proclaiming the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "baptism of repentance unto the forgiveness of sins. And he was preaching in the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 3,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "wilderness of Judæa, and saying, Repent ye; the kingdom of heaven is come near.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 3,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "This is he that was spoken of in Isaiah the prophet, The voice which crieth in the desert,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 3,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Prepare ye the way of the Lord, And make straight in the plain, paths for our God.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "All the valleys shall become filled, And all the mountains and hills shall become low; And the rough shall become plain, And the difficult place, easy;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "And all flesh shall see the salvation of God.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 3,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "This man came to bear witness, that he might bear witness to the light, that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "every man might believe through his mediation. He was not the light, but that he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "might bear witness to the light, which was the light of truth, that giveth light to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "every man coming into the world. He was in the world, and the world was made",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "by him, and the world knew",
+   "refs": []
+  },
+  {
+   "n": 51,
+   "text": "him not. He came unto his own, and his own received him not. And those who received him, to them gave he the power that they might",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 11
+    },
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "be sons of God,—those which believe in his name: which were born, not of blood,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "nor of the will of the flesh, nor of the will of a man, but of God. And the Word became flesh, and took up his abode among us; and we saw his glory as the glory",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "of the only Son from the Father, which is full of grace and equity. John bare witness [Arabic, p. 14] of him, and cried, and said, This is he that I said cometh after me and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "was before me, because he was before me. And of his fullness received",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "we all grace for grace. For the law was given through the mediation of Moses, but truth and grace were through Jesus Christ.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 17
+    }
+   ]
+  }
+ ]
+}

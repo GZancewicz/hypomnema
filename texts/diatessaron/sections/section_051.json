@@ -1,0 +1,555 @@
+{
+ "number": 51,
+ "roman": "LI",
+ "id": "iv.iii.li",
+ "title": "Section LI",
+ "books": [
+  "john",
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 50,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 192] And when Pilate heard this saying, he took Jesus out, and sat on the tribune in the place which was called the pavement of stones, but in the Hebrew",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "called Gabbatha. And that day was the Friday of the passover: and it had reached",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "about the sixth hour. And he said to the Jews, Behold, your King! And they cried out, Take him, take him, crucify him, crucify him. Pilate said unto them, Shall I crucify your King? The chief priests said unto him, We have no king except",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Cæsar. And Pilate, when he saw it, and he was gaining nothing, but the tumult was increasing, took water, and washed his hands before the multitude, and said, I",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "am innocent of the blood of this innocent man: ye shall know. And all the people",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "answered and said, His blood be on us, and on our children. Then Pilate commanded to grant them their request; and delivered up Jesus to be crucified, according to their wish.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Then Judas the betrayer, when he saw Jesus wronged, went and returned the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "thirty pieces of money to the chief priests and the elders, and said, I have sinned in my betraying innocent blood. And they said unto him, And we, what must we do?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "know thou. And he threw down the money in the temple, and departed; and he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "went away and hanged himself. And the chief priests took the money, and said, We have not authority to cast it into the place of the offering, for it is the price",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "of blood. And they took counsel, and bought with it the plain of the potter, for",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "the burial of strangers. Therefore that plain was called, The field of blood, unto",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "[Arabic, p. 193] this day. Therein was fulfilled the saying in the prophet which said, I took thirty pieces of money, the price of the precious one, which was fixed",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "by the children of Israel; and I paid them for the plain of the potter, as the Lord commanded me.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "And the Jews took Jesus, and went away to crucify him. And when he bare his",
+   "refs": []
+  },
+  {
+   "n": 16,
+   "text": "cross and went out, they stripped him of those purple and scarlet garments which he",
+   "refs": []
+  },
+  {
+   "n": 17,
+   "text": "had on, and put on him his own garments. And while they were going with him, they found a man, a Cyrenian, coming from the country, named Simon, the father of Alexander and Rufus: and they compelled this man to bear the cross of Jesus.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "And they took the cross and laid it upon him, that he might bear it, and come after Jesus; and Jesus went, and his cross behind him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "And there followed him much people, and women which were lamenting and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "raving. But Jesus turned unto them and said, Daughters of Jerusalem, weep not",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "for me: weep for yourselves, and for your children. Days are coming, when they shall say, Blessed are the barren, and the wombs that bare not, and the breasts",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "that gave not suck. Then shall they begin to say to the mountains, Fall on us; and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "to the hills, Cover us. For if they do so in the green tree, what shall be in the dry?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "And they brought with Jesus two others of the malefactors, to be put to death.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And when they came unto a certain place called The skull, and called in the Hebrew Golgotha, they crucified him there: they crucified with him these two",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "malefactors, one on his right, and the other on his left. And the scripture was",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "[Arabic, p. 194] fulfilled, which saith, He was numbered with the transgressors. And they gave him to drink wine and myrrh, and vinegar which had been mixed with the myrrh; and he tasted, and would not drink; and he received it not.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 15,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "And the soldiers, when they had crucified Jesus, took his garments, and cast lots for them in four parts, to every party of the soldiers a part; and his tunic was",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "without sewing, from the top woven throughout. And they said one to another, Let us not rend it, but cast lots for it, whose it shall be: and the scripture was fulfilled, which saith, They divided my garments among them, And cast the lot for my vesture. [30, 31] This the soldiers did. And they sat and guarded him there. And Pilate wrote on a tablet the cause of his death, and put it on the wood of the cross above his head. And there was written upon it thus: This is Jesus the Nazarene, the King of the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 24
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 36
+    },
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 19
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "Jews. And this tablet read many of the Jews: for the place where Jesus was crucified was near the city: and it was written in Hebrew and Greek and Latin.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "And the chief priests said unto Pilate, Write not, The King of the Jews; but, He it is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "that said, I am the King of the Jews. Pilate said unto them, What hath been",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "written hath been written. And the people were standing beholding; and they",
+   "refs": []
+  },
+  {
+   "n": 36,
+   "text": "that passed by were reviling him, and shaking their heads, and saying, Thou that destroyest the temple, and buildest it in three days, save thyself if thou art the Son",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "of God, and come down from the cross. And in like manner the chief priests and the [Arabic, p. 195] scribes and the elders and the Pharisees derided him, and laughed one with [38, 39] another, and said, The saviour of others cannot save himself. If he is the Messiah, the chosen of God, and the King of Israel, let him come down now from the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 41
+    },
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "cross, that we may see, and believe in him. He that relieth on God—let him deliver him",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "now, if he is pleased with him: for he said, I am the Son of God. And the soldiers",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "also scoffed at him in that they came near unto him, and brought him vinegar, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "said unto him, If thou art the King of the Jews, save thyself. And likewise the two robbers also that were crucified with him reproached him.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "And one of those two malefactors who were crucified with him reviled him, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "said, If thou art the Messiah, save thyself, and save us also. But his comrade rebuked him, and said, Dost thou not even fear God, being thyself also in this",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "condemnation? And we with justice, and as we deserved, and according to our deed, have we been rewarded: but this man hath not done anything unlawful.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "And he said unto Jesus, Remember me, my Lord, when thou comest in thy kingdom.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "Jesus said unto him, Verily I say unto thee, To-day shalt thou be with me in Paradise.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 23,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "And there stood by the cross of Jesus his mother, and his mother’s sister,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "Mary that was related to Clopas, and Mary Magdalene. And Jesus saw his mother, and that disciple whom he loved standing by; and he said to his mother,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "Woman, behold, thy son! And he said to that disciple, Behold, thy mother! And from that hour that disciple took her unto himself.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 19,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "[Arabic, p. 196] And from the sixth hour darkness was on all the land unto the ninth",
+   "refs": []
+  },
+  {
+   "n": 53,
+   "text": "hour, and the sun became dark. And at the ninth hour Jesus cried out with a loud voice, and said, Yail, Yaili, why hast thou forsaken me? which is, My",
+   "refs": []
+  },
+  {
+   "n": 54,
+   "text": "God, my God, why hast thou forsaken me? And some of those that stood there, when they heard, said, This man called Elijah.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 27,
+     "verse": 47
+    }
+   ]
+  }
+ ]
+}

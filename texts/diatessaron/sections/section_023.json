@@ -1,0 +1,549 @@
+{
+ "number": 23,
+ "roman": "XXIII",
+ "id": "iv.iii.xxiii",
+ "title": "Section XXIII",
+ "books": [
+  "matthew",
+  "john",
+  "mark",
+  "luke"
+ ],
+ "stich_count": 48,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Jesus departed thence, and came to the side of the sea of Galilee, and went",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "up into the mountain, and sat there. And there came unto him great multitudes, having with them lame, and blind, and dumb, and maimed, and many others, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "they cast them at the feet of Jesus: for they had seen all the signs which he did in",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 4,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "Jerusalem, when they were gathered at the feast. And he healed them all. And those multitudes marvelled when they saw dumb men speak, and maimed men healed, and lame men walk, and blind men see; and they praised the God of Israel.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 30
+    },
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And Jesus called his disciples, and said unto them, I have compassion on this multitude, because of their continuing with me three days, having nothing to eat; and to send them away fasting I am not willing, lest they faint in the way, some of them having",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 32
+    },
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 89] come from far. His disciples said unto him, Whence have we in the desert",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "bread wherewith to satisfy all this multitude? Jesus said unto them, How",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "many loaves have ye? They said unto him, Seven, and a few small fishes. And he",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "commanded the multitudes to sit down upon the ground; and he took those seven loaves and the fish, and blessed, and brake, and gave to his disciples to set before",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "them; and the disciples set before the multitudes. And they all ate, and were satisfied: and they took that which remained over of the fragments, seven basketfuls.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "And the people that ate were four thousand men, besides the women and children.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And when the multitudes departed, he went up into the boat, and came to the borders of Magada.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "And the Pharisees and Sadducees came to him, and began to seek a discussion with him. And they asked him to shew them a sign from heaven, tempting him.",
+   "refs": []
+  },
+  {
+   "n": 14,
+   "text": "And Jesus sighed within himself, and said, What sign seeketh this evil and adulterous generation? It seeketh a sign, and it shall not be given a sign, except the sign",
+   "refs": []
+  },
+  {
+   "n": 15,
+   "text": "of Jonah the prophet. Verily I say unto you, This generation shall not be given a",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "sign. And he left them, and went up into the boat, and went away to that side.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "And his disciples forgot to take with them bread, and there was not with them",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "in the boat, not even one loaf. And Jesus charged them, and said, Take heed, and guard yourselves from the leaven of the Pharisees and Sadducees, and from the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "leaven of Herod. And they reflected within themselves that they had taken with them",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "no bread. And Jesus knew, and said unto them, Why think ye within yourselves, O ye of little faith, and are anxious, because ye have no bread? until now do ye not perceive,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 8
+    },
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "neither understand? is your heart yet hard? And have ye eyes, and yet see not?",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "[Arabic, p. 90] and have ye ears, and yet hear not? and do ye not remember when I brake those five loaves for five thousand? and how many baskets full of broken",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "pieces took ye up? They said, Twelve. He said unto them, And the seven also for four thousand: how many baskets full of broken pieces took ye up? They",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "said, Seven. He said unto them, How have ye not understood that I spake not to you because of the bread, but that ye should beware of the leaven of the Pharisees",
+   "refs": []
+  },
+  {
+   "n": 25,
+   "text": "and Sadducees? Then they understood that he spake, not that they should beware of the leaven of the bread, but of the doctrine of the Pharisees and Sadducees, which he called leaven.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "And after that, he came to Bethsaida. And they brought to him a certain blind",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "man, and besought him that he would touch him. And he took the hand of that blind man, and led him out without the village, and spat in his eyes, and laid his",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "hand on him, and asked him, What seest thou? And that blind man looked intently,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "and said unto him, I see men as trees walking. And he placed his hand",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "again on his eyes; and they were restored, and he saw everything clearly. And he sent him to his house, and said, Do not enter even into the village, nor tell any man in the village.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "And Jesus went forth, and his disciples, to the villages of Cæsarea Philippi.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "And while he was going in the way, and his disciples alone, he asked his disciples,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "and said, What do men say of me that I am, the Son of man? They said unto him, Some say, John the Baptist; and others, Elijah; and others, Jeremiah, or one of the [34, 35] prophets. He said unto them, And ye, what say ye that I am? Simon Cephas answered",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 14
+    },
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 15
+    },
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "[Arabic, p. 91] and said, Thou art the Messiah, the Son of the living God. Jesus answered and said unto him, Blessed art thou, Simon son of Jonah: flesh and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "blood hath not revealed it unto thee, but my Father which is in heaven. And I say unto thee also, that thou art Cephas, and on this rock will I build my church; and the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "gates of Hades shall not prevail against it. To thee will I give the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven; and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "whatsoever thou shalt loose on earth shall be loosed in heaven. And he sternly charged his disciples, and warned them that they should not tell any man concerning him,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "that he was the Messiah. And henceforth began Jesus to shew to his disciples",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "that he was determined to go to Jerusalem, and suffer much, and be rejected of the elders, and of the chief priests, and of the scribes, and be killed, and on the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "third day rise. And he was speaking plainly. And Simon Cephas, as one grieved",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 32
+    },
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "for him, said, Far be thou, my Lord, from that. And he turned, and looked upon",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "his disciples, and rebuked Simon, and said, Get thee behind me, Satan: for thou art a stumblingblock unto me: for thou thinkest not of what pertains to God, but of what pertains to men.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "And Jesus called the multitudes with his disciples, and said unto them, Whosoever would come after me, let him deny himself, and take his cross every day, and",
+   "refs": []
+  },
+  {
+   "n": 46,
+   "text": "come after me. And whosoever would save his life shall lose it; and whosoever",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "loseth his life for my sake, and for the sake of my gospel, shall save it. What shall",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "a man profit, if he gain all the world, and destroy his own life, or lose it? or what",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "[Arabic, p. 92] will a man give in ransom for his life? Whosoever shall deny me and my sayings in this sinful and adulterous generation, the Son of man also will",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 8,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "deny him, when he cometh in the glory of his Father with his holy angels. For the Son of man is about to come in the glory of his Father with his holy angels; and then shall he reward each man according to his works.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 16,
+     "verse": 27
+    }
+   ]
+  }
+ ]
+}

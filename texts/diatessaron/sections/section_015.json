@@ -1,0 +1,540 @@
+{
+ "number": 15,
+ "roman": "XV",
+ "id": "iv.iii.xv",
+ "title": "Section XV",
+ "books": [
+  "luke",
+  "john",
+  "matthew"
+ ],
+ "stich_count": 46,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "Jesus answered and said unto him, Simon, I have something to say unto thee. And",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "he said unto him, Say on, my Master. Jesus said unto him, There were two debtors [Arabic, p. 58] to one creditor; and one of them owed five hundred pence, and the other",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "owed fifty pence. And because they had not wherewith to pay, he forgave",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "them both. Which of them ought to love him more? Simon answered and said, I suppose, he to whom he forgave most. Jesus said unto him, Thou hast judged rightly.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "And he turned to that woman, and said to Simon, Dost thou see this woman? I entered into thy dwelling, and thou gavest me not water to wash my feet: but this",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "woman hath bathed my feet with her tears, and dried them with her hair. And thou kissedst me not: but this woman, since she entered, hath not ceased to kiss my",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "feet. And thou anointedst not my head with oil: but this woman hath anointed",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "my feet with sweet ointment. And for this, I say unto thee, Her many sins are forgiven her, because she loved much; for he to whom little is forgiven loveth little. [9, 10] And he said unto that woman, Thy sins are forgiven thee. And those that were invited",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 47
+    },
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 48
+    },
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "began to say within themselves, Who is this that forgiveth sins also? And Jesus said to that woman, Thy faith hath saved thee; go in peace.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And many believed in him when they saw the signs which he was doing. [13, 14] But Jesus did not trust himself to them, for he knew every man, and he needed not any man to testify to him concerning every man; for he knew what was in man.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 23
+    },
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 24
+    },
+    {
+     "book": "john",
+     "chapter": 2,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "And after that, Jesus set apart from his disciples other seventy, and sent them two and two before his face to every region and city whither he was purposing to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "go. And he said unto them, The harvest is abundant, and the labourers are few:",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "entreat now the Lord of the harvest, that he send forth labourers into his harvest. Go",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "[Arabic, p. 59] ye: and lo, I am sending you as lambs among wolves. Take not with you",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "purses, nor a wallet, nor shoes; neither salute any man in the way. And",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "whatsoever house ye enter, first salute that house: and if there be there a son of peace,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "let your peace rest upon him; but if there be not, your peace shall return to you. And be ye in that house eating and drinking what they have: for the labourer is worthy of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "his hire. And remove not from house to house. And into whatsoever city ye enter,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "and they receive you, eat what is presented to you: and heal the sick that are",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "therein, and say unto them, The kingdom of God is come near unto you. But whatsoever city ye enter, and they receive you not, go out into the market, and say,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "Even the dust that clave to our feet from your city, we shake off against you; but",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "know this, that the kingdom of God is come near unto you. I say unto you, that for Sodom there shall be quiet in the day of judgement, but there shall not be for",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "that city. Then began Jesus to rebuke the cities in which there had been many",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "mighty works, and they repented not. And he said, Woe unto thee, Chorazin! woe unto thee, Bethsaida! if there had been in Tyre and Sidon the signs which were in",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "thee, it may be that they would have repented in sackcloth and ashes. Howbeit I say unto you, that for Tyre and Sidon there shall be rest in the day of judgement,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "more than for you. And thou, Capernaum, which art exalted unto heaven, shalt sink down unto Hades; for if there had been in Sodom the wonders which were",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "in thee, it would have remained until this day. And now I say unto thee, that for the land of Sodom there shall be quiet in the day of judgement, more than for thee.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "[Arabic, p. 60] And he said again unto his apostles, Whosoever heareth you heareth me; and whosoever heareth me heareth him that sent me: and whosoever wrongeth you wrongeth me; and whosoever wrongeth me wrongeth him that sent me.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "And those seventy returned with great joy, and said unto him, Our Lord, even",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "the devils also are subject unto us in thy name. He said unto them, I beheld",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Satan fallen like lightning from heaven. Behold, I am giving you authority to tread upon serpents and scorpions, and the whole race of the enemy; and nothing shall",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "hurt you. Only ye must not rejoice that the devils are subject unto you; but be glad that your names are written in heaven.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "And in that hour Jesus rejoiced in the Holy Spirit, and said, I acknowledge thee, my Father, Lord of heaven and earth, that thou didst hide these things from the wise and understanding, and didst reveal them unto children: yea, my Father; so",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "was thy will. And he turned to his disciples, and said unto them, Everything hath been delivered to me of my Father: and no man knoweth who the Son is, save the Father; and who the Father is, save the Son, and to whomsoever the Son willeth",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 10,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "to reveal him. Come unto me, all of you, ye that are wearied and bearers of burdens,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "and I will give you rest. Bear my yoke upon you, and learn of me; for I",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "am gentle and lowly in my heart: and ye shall find rest unto your souls. For my yoke is pleasant, and my burden is light.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 11,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "And while great multitudes were going with him, he turned, and said unto them,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Whosoever cometh unto me, and hateth not his father, and his mother, and his brethren, and his sisters, and his wife, and his children, and himself also, cannot",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "[Arabic, p. 61] be a disciple to me. And whosoever doth not take his cross, and follow",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "me, cannot be a disciple to me. Which of you desireth to build a tower, and doth not sit down first and reckon his expenses and whether he hath enough to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "complete it? lest when he hath laid the foundations, and is not able to finish, all that",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "behold him laugh at him, and say, This man began to build, and was not able to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "finish. Or what king goeth to the battle to fight with another king, and doth not consider first whether he is able with ten thousand to meet him that cometh to him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "with twenty thousand? And if he is not able, he sendeth unto him while he is afar",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "off, and seeketh peace. So shall every man of you consider, that desireth to be a disciple to me; for if he renounceth not all that he hath, he cannot be a disciple to me.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 14,
+     "verse": 33
+    }
+   ]
+  }
+ ]
+}

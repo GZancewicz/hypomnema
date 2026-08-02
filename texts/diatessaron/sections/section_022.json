@@ -1,0 +1,595 @@
+{
+ "number": 22,
+ "roman": "XXII",
+ "id": "iv.iii.xxii",
+ "title": "Section XXII",
+ "books": [
+  "luke",
+  "mark",
+  "john"
+ ],
+ "stich_count": 51,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And when Jesus came to a certain village, there drew near to him a leper, and fell at his feet, and besought him, and said unto him, If thou wilt, thou art able to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "cleanse me. And Jesus had mercy upon him, and stretched forth his hand, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "touched him, and said, I will cleanse thee. And immediately his leprosy departed",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "from him, and he was cleansed. And he sternly charged him, and sent him out,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "[Arabic, p. 85] and said unto him, See that thou tell not any man: but go and shew thyself to the priests, and offer an offering for thy cleansing as Moses commanded",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "for their testimony. But he, when he went out, began to publish much, and spread abroad the news, so that Jesus could not enter into any of the cities openly, for the extent to which the report of him spread, but he remained without in a desert",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 1,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "place. And much people came unto him from one place and another, to hear",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "his word, and that they might be healed of their pains. And he used to withdraw from them into the desert, and pray.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 5,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "And after that, was the feast of the Jews; and Jesus went up to Jerusalem.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "And there was in Jerusalem a place prepared for bathing, which was called in",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "Hebrew the House of Mercy, having five porches. And there were laid in them much people of the sick, and blind, and lame, and paralysed, waiting for the moving",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "of the water. And the angel from time to time went down into the place of bathing, and moved the water; and the first that went down after the moving",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "of the water, every pain that he had was healed. And a man was there who had a",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "disease for thirty-eight years. And Jesus saw this man laid, and knew that he had",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "been thus a long time; and he said unto him, Wouldest thou be made whole? That diseased one answered and said, Yea, my Lord, I have no man, when the water moveth, to put me into the bathing-place; but when I come, another goeth down before [16, 17] me. Jesus said unto him, Rise, take thy bed, and walk. And immediately that man was healed; and he rose, and carried his bed, and walked.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 7
+    },
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 8
+    },
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "And that day was a sabbath. And when the Jews saw that healed one, they said",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "unto him, It is a sabbath: thou hast no authority to carry thy bed. And he answered and said unto them, He that made me whole, the same said unto me, Take thy bed,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "[Arabic, p. 86] and walk. They asked him therefore, Who is this man that said unto thee,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "Take thy bed, and walk? But he that was healed knew not who it was; for Jesus had removed from that place to another, because of the press of the great multitude",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "which was in that place. And after two days Jesus happened upon him in the temple, and said unto him, Behold, thou art whole: sin not again, lest there come upon",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "thee what is worse than the first. And that man went, and said to the Jews that it",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "was Jesus that had healed him. And because of that the Jews persecuted Jesus and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "sought to kill him, because he was doing this on the sabbath. And Jesus said unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "them, My Father worketh until now, and I also work. And because of this especially the Jews sought to kill him, not because he profaned the sabbath only; but for his saying also that God was his Father, and his making himself equal with God.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "Jesus answered and said unto them, Verily, verily, I say unto you, The Son cannot do anything of himself, but what he seeth the Father do; what the Father doeth,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "that the Son also doeth like him. The Father loveth his Son, and everything that he doeth he sheweth him: and more than these works will he shew him, that ye",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "may marvel. And as the Father raiseth the dead and giveth them life, so the Son",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "also giveth life to whomsoever he will. And the Father judgeth no man, but hath",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "given all judgement unto the Son; that every man may honour the Son, as he honoureth the Father. And he that honoureth not the Son honoureth not the Father which",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "sent him. Verily, verily, I say unto you, Whosoever heareth my word, and believeth in him that sent me, hath eternal life, and cometh not into judgement, but passeth from",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "[Arabic, p. 87] death unto life. Verily, verily, I say unto you, An hour shall come, and now is also, when the dead shall hear the voice of the Son of God; and those",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "which hear shall live. And as the Father hath life in himself, likewise he gave to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "the Son also that he might have life in himself, and authority to do judgement also,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "because he is the Son of man. Marvel not then at that: I mean the coming of the hour when all that are in the tombs shall hear his voice, and shall come forth:",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "those that have done good, to the resurrection of life; and those that have done evil deeds, to the resurrection of judgement.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "I am not able of myself to do anything; but as I hear, I judge: and my judgement",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "is just; I seek not my own will, but the will of him that sent me. I bear witness",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "of myself, and so my witness is not true. It is another that beareth witness",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "of me; and I know that the witness which he beareth of me is true. Ye have sent",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "unto John, and he hath borne witness of the truth. But not from man do I seek",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "witness; but I say that ye may live. That was a lamp which shineth and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "giveth light: and ye were pleased to glory now in his light. But I have witness greater than that of John: the works which my Father hath given me to accomplish,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "those works which I do, bear witness of me, that the Father hath sent me. And the Father which sent me, he hath borne witness of me. Ye have neither heard his",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "voice at any time, nor seen his appearance. And his word abideth not in you; because",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "in him whom he hath sent ye do not believe. Search the scriptures, in which ye rejoice",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "that ye have eternal life; and they bear witness of me; and ye do not wish to come to [49, 50] [Arabic, p. 88] me, that ye may have eternal life. I seek not praise of men. But I know",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 40
+    },
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 41
+    },
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "you, that the love of God is not in you. I am come in the name of my Father, and ye received me not; but if another come in his own name, that one will",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "ye receive. And how can ye believe, while ye receive praise one from another, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "praise from God, the One, ye seek not? Can it be that ye think that I will accuse you before the Father? Ye have one that accuseth you, Moses, in whom ye have",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "rejoiced. If ye believed Moses, ye would believe me also; Moses wrote of me.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "And if ye believed not his writings, how shall ye believe my words?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 5,
+     "verse": 47
+    }
+   ]
+  }
+ ]
+}

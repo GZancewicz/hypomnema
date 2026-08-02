@@ -677,6 +677,9 @@ func main() {
 	http.HandleFunc("/api/canon/", canonHandler)
 	http.HandleFunc("/api/about", aboutHandler)
 	http.HandleFunc("/api/synaxarion", synaxarionHandler)
+	http.HandleFunc("/api/diatessaron", diatessaronHandler)
+	http.HandleFunc("/api/diatessaron/", diatessaronSectionHandler)
+	http.HandleFunc("/api/ephraim/", ephraimSectionHandler)
 	http.HandleFunc("/api/index", indexPageHandler)
 	http.HandleFunc("/api/references", referencesHandler)
 	http.HandleFunc("/api/scripture-references", scriptureReferencesHandler)
@@ -2032,8 +2035,12 @@ func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) 
 	text = regexp.MustCompile(`[ \t]*\n[ \t]*`).ReplaceAllString(text, " ")
 	text = strings.Join(strings.Fields(text), " ")
 
+	// Stray guillemets inside a quote are OCR artifacts (a » scanned as «);
+	// normalize them to curly quotes so no raw guillemet reaches the page.
+	tidy := strings.NewReplacer("«", "“", "»", "”")
+
 	var html strings.Builder
-	html.WriteString(`<div class="greek-text" lang="grc">`)
+	html.WriteString(`<div class="greek-commentary" lang="grc">`)
 
 	// Pull off the leading «…» scripture quote, if present, as the lemma heading.
 	// Many lemmata are scripture-only stubs whose quote is never closed (the PG
@@ -2047,9 +2054,21 @@ func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) 
 			rest = strings.TrimSpace(body[end+len("»"):])
 		}
 		html.WriteString(`<blockquote class="lemma-quote"><strong>` +
-			template.HTMLEscapeString(strings.TrimSpace(quote)) + `</strong></blockquote>`)
+			template.HTMLEscapeString(tidy.Replace(strings.TrimSpace(quote))) + `</strong></blockquote>`)
 		text = rest
+	} else if end := strings.Index(text, "»"); end >= 0 {
+		// Mirror case: the lemma continues a quote opened in the previous section,
+		// so it closes with » having never opened. The head is still scripture.
+		quote := strings.TrimSpace(text[:end])
+		if quote != "" {
+			html.WriteString(`<blockquote class="lemma-quote"><strong>` +
+				template.HTMLEscapeString(tidy.Replace(quote)) + `</strong></blockquote>`)
+		}
+		text = strings.TrimSpace(text[end+len("»"):])
 	}
+
+	// Any remaining guillemets are inline quotations within the exposition.
+	text = tidy.Replace(text)
 
 	for _, para := range strings.Split(text, "\n\n") {
 		para = strings.TrimSpace(para)
@@ -2714,6 +2733,292 @@ func synaxarionHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(b.String()))
 }
 
+type diatessaronRef struct {
+	Book    string `json:"book"`
+	Chapter int    `json:"chapter"`
+	Verse   int    `json:"verse"`
+}
+
+type diatessaronStich struct {
+	N    int              `json:"n"`
+	Text string           `json:"text"`
+	Refs []diatessaronRef `json:"refs"`
+}
+
+type diatessaronSection struct {
+	Number     int                `json:"number"`
+	Roman      string             `json:"roman"`
+	Title      string             `json:"title"`
+	Books      []string           `json:"books"`
+	StichCount int                `json:"stich_count"`
+	StichStart int                `json:"stich_start"`
+	StichEnd   int                `json:"stich_end"`
+	BookSpans  map[string]string  `json:"book_spans"`
+	BookRanges map[string]string  `json:"book_ranges"`
+	Excerpt    string             `json:"excerpt"`
+	Stichs     []diatessaronStich `json:"stichs"`
+}
+
+type diatessaronIndex struct {
+	Title        string               `json:"title"`
+	Translator   string               `json:"translator"`
+	Source       string               `json:"source"`
+	SectionCount int                  `json:"section_count"`
+	Sections     []diatessaronSection `json:"sections"`
+}
+
+var diatessaronBookTitles = map[string]string{
+	"matthew": "Matthew", "mark": "Mark", "luke": "Luke", "john": "John",
+}
+
+var diatessaronBookOrder = []string{"matthew", "mark", "luke", "john"}
+
+// diatessaronRefRange is a run of consecutive verses in one chapter, so a stich
+// citing Luke 2:2, 2:3, 2:4 renders as a single "Luke 2:2-4" tag.
+type diatessaronRefRange struct {
+	Book    string
+	Chapter int
+	Start   int
+	End     int
+}
+
+func (g diatessaronRefRange) label() string {
+	if g.Start == g.End {
+		return fmt.Sprintf("%s %d:%d", diatessaronBookTitles[g.Book], g.Chapter, g.Start)
+	}
+	return fmt.Sprintf("%s %d:%d-%d", diatessaronBookTitles[g.Book], g.Chapter, g.Start, g.End)
+}
+
+func groupDiatessaronRefs(refs []diatessaronRef) []diatessaronRefRange {
+	var out []diatessaronRefRange
+	for _, rf := range refs {
+		if n := len(out); n > 0 {
+			last := &out[n-1]
+			if last.Book == rf.Book && last.Chapter == rf.Chapter && rf.Verse == last.End+1 {
+				last.End = rf.Verse
+				continue
+			}
+			if last.Book == rf.Book && last.Chapter == rf.Chapter && rf.Verse >= last.Start && rf.Verse <= last.End {
+				continue
+			}
+		}
+		out = append(out, diatessaronRefRange{Book: rf.Book, Chapter: rf.Chapter, Start: rf.Verse, End: rf.Verse})
+	}
+	return out
+}
+
+func diatessaronHandler(w http.ResponseWriter, r *http.Request) {
+	data, err := os.ReadFile("../texts/diatessaron/index.json")
+	if err != nil {
+		http.Error(w, "Diatessaron unavailable", http.StatusInternalServerError)
+		return
+	}
+	var idx diatessaronIndex
+	if err := json.Unmarshal(data, &idx); err != nil {
+		http.Error(w, "Diatessaron unavailable", http.StatusInternalServerError)
+		return
+	}
+
+	var b strings.Builder
+	b.WriteString(`<div class="chapter-text diatessaron-page" style="max-width: 760px; margin: 0 auto;">`)
+	b.WriteString(`<h2 style="text-align: center; margin-bottom: 8px;">The Diatessaron</h2>`)
+	b.WriteString(`<p style="text-align: center; color: #666; font-style: italic; margin-bottom: 20px;">Tatian&rsquo;s harmony of the four Gospels, c. A.D. 170, woven into a single continuous narrative. Translated by Hope W. Hogg from the Arabic. Each section notes the Gospels it draws upon.</p>`)
+
+	b.WriteString(`<table class="diat-index-table"><thead><tr>`)
+	b.WriteString(`<th class="diat-col-sec">Section</th><th class="diat-col-stich">Verses</th>`)
+	for _, bk := range diatessaronBookOrder {
+		b.WriteString(fmt.Sprintf(`<th>%s</th>`, html.EscapeString(diatessaronBookTitles[bk])))
+	}
+	b.WriteString(`</tr></thead><tbody>`)
+	for _, s := range idx.Sections {
+		b.WriteString(fmt.Sprintf(`<tr onclick="loadDiatessaronSection(%d)">`, s.Number))
+		b.WriteString(fmt.Sprintf(`<td class="diat-col-sec">%s</td>`, html.EscapeString(s.Roman)))
+		b.WriteString(fmt.Sprintf(`<td class="diat-col-stich">%d&ndash;%d</td>`, s.StichStart, s.StichEnd))
+		for _, bk := range diatessaronBookOrder {
+			span := s.BookSpans[bk]
+			if span == "" {
+				b.WriteString(`<td class="diat-cell-empty">&ndash;</td>`)
+				continue
+			}
+			b.WriteString(fmt.Sprintf(`<td><span class="diat-ref diat-book-%s" title="%s">%s</span></td>`,
+				html.EscapeString(bk), html.EscapeString(s.BookRanges[bk]), html.EscapeString(span)))
+		}
+		b.WriteString(`</tr>`)
+	}
+	b.WriteString(`</tbody></table>`)
+
+	for _, s := range idx.Sections {
+		b.WriteString(`<div class="diat-section-row" onclick="loadDiatessaronSection(` + strconv.Itoa(s.Number) + `)">`)
+		b.WriteString(fmt.Sprintf(`<div class="diat-section-head"><span class="diat-section-name">Section %s</span><span class="diat-books">`, html.EscapeString(s.Roman)))
+		for _, bk := range s.Books {
+			b.WriteString(fmt.Sprintf(`<span class="diat-book diat-book-%s">%s</span>`,
+				html.EscapeString(bk), html.EscapeString(diatessaronBookTitles[bk])))
+		}
+		b.WriteString(`</span></div>`)
+		b.WriteString(fmt.Sprintf(`<div class="diat-excerpt">%s</div>`, html.EscapeString(s.Excerpt)))
+		b.WriteString(`</div>`)
+	}
+	b.WriteString(`</div>`)
+
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(b.String()))
+}
+
+func diatessaronSectionHandler(w http.ResponseWriter, r *http.Request) {
+	numStr := strings.TrimPrefix(r.URL.Path, "/api/diatessaron/")
+	num, err := strconv.Atoi(numStr)
+	if err != nil || num < 1 {
+		http.Error(w, "Invalid section", http.StatusBadRequest)
+		return
+	}
+
+	data, err := os.ReadFile(fmt.Sprintf("../texts/diatessaron/sections/section_%03d.json", num))
+	if err != nil {
+		http.Error(w, "Section not found", http.StatusNotFound)
+		return
+	}
+	var sec diatessaronSection
+	if err := json.Unmarshal(data, &sec); err != nil {
+		http.Error(w, "Section unavailable", http.StatusInternalServerError)
+		return
+	}
+
+	var b strings.Builder
+	b.WriteString(`<div class="chapter-text diatessaron-reader" style="max-width: 760px; margin: 0 auto;">`)
+	b.WriteString(`<div class="diat-nav">`)
+	if num > 1 {
+		b.WriteString(fmt.Sprintf(`<a href="#" onclick="loadDiatessaronSection(%d);return false;">&larr; Section %s</a>`, num-1, html.EscapeString(intToRoman(num-1))))
+	} else {
+		b.WriteString(`<span></span>`)
+	}
+	b.WriteString(`<a href="#" class="diat-nav-index" onclick="loadDiatessaron();return false;">All Sections</a>`)
+	if num < 55 {
+		b.WriteString(fmt.Sprintf(`<a href="#" onclick="loadDiatessaronSection(%d);return false;">Section %s &rarr;</a>`, num+1, html.EscapeString(intToRoman(num+1))))
+	} else {
+		b.WriteString(`<span></span>`)
+	}
+	b.WriteString(`</div>`)
+
+	b.WriteString(fmt.Sprintf(`<h2 style="text-align:center;margin-bottom:6px;">Section %s</h2>`, html.EscapeString(sec.Roman)))
+	b.WriteString(`<p class="diat-subtitle">Tatian&rsquo;s Diatessaron &middot; tr. Hogg</p>`)
+
+	if hasEphraimCommentary(num) {
+		b.WriteString(fmt.Sprintf(
+			`<div class="diat-commentary-bar"><button class="diat-commentary-btn" onclick="loadEphraimCommentary(%d,'%s')">Commentary &middot; Ephraim the Syrian</button></div>`,
+			num, html.EscapeString(sec.Roman)))
+	}
+
+	for _, st := range sec.Stichs {
+		conflated := ""
+		books := map[string]bool{}
+		for _, rf := range st.Refs {
+			books[rf.Book] = true
+		}
+		if len(books) > 1 {
+			conflated = " diat-conflated"
+		}
+		b.WriteString(fmt.Sprintf(`<div class="diat-stich%s">`, conflated))
+		b.WriteString(fmt.Sprintf(`<div class="diat-stich-num">%d</div>`, st.N))
+		b.WriteString(`<div class="diat-stich-body">`)
+		b.WriteString(fmt.Sprintf(`<span class="diat-text">%s</span>`, html.EscapeString(st.Text)))
+		if len(st.Refs) > 0 {
+			b.WriteString(`<span class="diat-refs">`)
+			for _, g := range groupDiatessaronRefs(st.Refs) {
+				label := g.label()
+				b.WriteString(fmt.Sprintf(`<a class="diat-ref diat-book-%s" href="#" onclick="loadChapterAndScroll('%s',%d);return false;" title="Read %s">%s</a>`,
+					html.EscapeString(g.Book), html.EscapeString(g.Book), g.Chapter,
+					html.EscapeString(label), html.EscapeString(label)))
+			}
+			b.WriteString(`</span>`)
+		}
+		b.WriteString(`</div></div>`)
+	}
+	b.WriteString(`</div>`)
+
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(b.String()))
+}
+
+// hasEphraimCommentary reports whether a parsed section file exists, so the
+// button only appears where there is something to show.
+func hasEphraimCommentary(num int) bool {
+	_, err := os.Stat(fmt.Sprintf("../texts/commentaries/ephraim/diatessaron/sections/section_%03d.json", num))
+	return err == nil
+}
+
+type ephraimLemma struct {
+	Heading    string   `json:"heading"`
+	Paragraphs []string `json:"paragraphs"`
+}
+
+type ephraimSection struct {
+	Section            int               `json:"section"`
+	Roman              string            `json:"roman"`
+	AuthorFull         string            `json:"author_full"`
+	Work               string            `json:"work"`
+	Source             string            `json:"source"`
+	ScriptureReference string            `json:"scripture_reference"`
+	Lemmata            []ephraimLemma    `json:"lemmata"`
+	Footnotes          map[string]string `json:"footnotes"`
+}
+
+// ephraimSectionHandler renders Ephraim's Latin commentary on a Diatessaron
+// section. Unlike the Gospel commentaries this is keyed to Tatian's sections
+// rather than to verses, because that is how Ephraim wrote it.
+func ephraimSectionHandler(w http.ResponseWriter, r *http.Request) {
+	numStr := strings.TrimPrefix(r.URL.Path, "/api/ephraim/")
+	num, err := strconv.Atoi(numStr)
+	if err != nil || num < 1 {
+		http.Error(w, "Invalid section", http.StatusBadRequest)
+		return
+	}
+
+	data, err := os.ReadFile(fmt.Sprintf("../texts/commentaries/ephraim/diatessaron/sections/section_%03d.json", num))
+	if err != nil {
+		w.Header().Set("Content-Type", "text/html")
+		w.Write([]byte(`<div class="chapter-text"><p style="text-align:center;color:#666;">Ephraim&rsquo;s commentary is not yet available for this section.</p></div>`))
+		return
+	}
+
+	var sec ephraimSection
+	if err := json.Unmarshal(data, &sec); err != nil {
+		http.Error(w, "Commentary unavailable", http.StatusInternalServerError)
+		return
+	}
+
+	var b strings.Builder
+	b.WriteString(`<div class="chapter-text ephraim-commentary" lang="la">`)
+	b.WriteString(fmt.Sprintf(`<p class="verse-reference" style="text-align:center;color:#666;font-style:italic;margin-bottom:20px;">%s</p>`,
+		html.EscapeString(sec.ScriptureReference)))
+
+	for _, lem := range sec.Lemmata {
+		if lem.Heading != "" {
+			b.WriteString(fmt.Sprintf(`<blockquote class="lemma-quote"><strong>%s</strong></blockquote>`,
+				html.EscapeString(lem.Heading)))
+		}
+		for _, para := range lem.Paragraphs {
+			b.WriteString("<p>" + html.EscapeString(para) + "</p>")
+		}
+	}
+
+	if len(sec.Footnotes) > 0 {
+		b.WriteString(`<div class="ephraim-footnotes"><h4>Notae</h4><ol>`)
+		for i := 1; i <= len(sec.Footnotes); i++ {
+			if note, ok := sec.Footnotes[strconv.Itoa(i)]; ok {
+				b.WriteString("<li>" + html.EscapeString(note) + "</li>")
+			}
+		}
+		b.WriteString(`</ol></div>`)
+	}
+
+	b.WriteString(fmt.Sprintf(`<p class="ephraim-source">%s &middot; %s</p>`,
+		html.EscapeString(sec.Work), html.EscapeString(sec.Source)))
+	b.WriteString(`</div>`)
+
+	w.Header().Set("Content-Type", "text/html")
+	w.Write([]byte(b.String()))
+}
+
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	html := `
 	<div class="chapter-text" style="max-width: 600px; margin: 0 auto;">
@@ -2775,10 +3080,11 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		commentary on both Matthew and Luke's accounts of the Our Father.</p>
 
 		<p><strong>Theophylact's Explanations of the Holy Gospel</strong><br>
-		Blessed Theophylact of Ohrid's verse-by-verse commentary on the Gospels,
-		combining patristic wisdom with accessible explanation (In progress).
-		The English translation was made from the Greek text of Migne's
-		<em>Patrologia Graeca</em> (PG) using Claude Opus 4.8.</p>
+		Blessed Theophylact of Ohrid's verse-by-verse commentary on all four Gospels,
+		combining patristic wisdom with accessible explanation. The text is presented
+		in the original Greek of Migne's <em>Patrologia Graeca</em> (PG 123&ndash;124),
+		divided into the 5,028 lemmata Theophylact himself quotes and expounds.
+		An English translation is in progress.</p>
 
 		<p><strong>Synaxarion (Daily Lives of the Saints)</strong><br>
 		The daily commemorations and Lives of the Saints are drawn from the
@@ -3371,11 +3677,15 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 					<tbody>`, bookName, bookName, commentaryCount, bookName)
 
 		sectionLink := func(row TableRow) string {
-			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "maximos_the_confessor" || row.Author == "theophylact" || row.Author == "synaxarion" {
-				// Gregory the Great, Bede, Maximos, Theophylact, and Synaxarion - plain text, no link
+			if row.Author == "gregory_the_great" || row.Author == "bede" || row.Author == "maximos_the_confessor" || row.Author == "synaxarion" {
+				// Gregory the Great, Bede, Maximos, and Synaxarion - plain text, no link
 				return row.Section
 			}
 			rowRange := formatRowRange(row.Book, row.StartChapter, row.StartVerse, row.EndChapter, row.EndVerse)
+			if row.Author == "theophylact" {
+				return fmt.Sprintf(`<a href="#" onclick="loadTheophylactCommentary(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, row.Section, strings.ToLower(row.Book), rowRange, row.Section)
+			}
 			if row.Author == "nikolai" {
 				label := row.Section + " (Homily)"
 				return fmt.Sprintf(`<a href="#" onclick="loadNikolaiHomily(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,

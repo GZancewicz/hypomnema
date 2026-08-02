@@ -1,0 +1,533 @@
+{
+ "number": 10,
+ "roman": "X",
+ "id": "iv.iii.x",
+ "title": "Section X",
+ "books": [
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 44,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 38] No man can serve two masters; and that because it is necessary that he hate one of them and love the other, and honour one of them and despise the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "other. Ye cannot serve God and possessions. And because of this I say unto you, Be not anxious for yourselves, what ye shall eat and what ye shall drink; neither for your bodies, what ye shall put on. Is not the life better than the food, and the body",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "than the raiment? Consider the birds of the heaven, which sow not, nor reap, nor store in barns; and yet your Father which is in heaven feedeth them. Are not ye",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "better than they? Who of you when he trieth is able to add to his stature one",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "cubit? If then ye are not able for a small thing, why are ye anxious about the [6, 7] rest? Consider the wild lily, how it grows, although it toils not, nor spins; and I say unto you that Solomon in the greatness of his glory was not clothed like one of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 26
+    },
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 28
+    },
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "them. And if God so clothe the grass of the field, which to-day is, and to-morrow",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "is cast into the oven, how much more shall be unto you, O ye of little faith! Be not anxious, so as to say, What shall we eat? or, What shall we drink? or, With",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "what shall we be clothed? Neither let your minds be perplexed in this: all these things the nations of the world seek; and your Father which is in heaven knoweth",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 12,
+     "verse": 29
+    },
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "your need of all these things. Seek ye first the kingdom of God, and his righteousness;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "[Arabic, p. 39] and all these shall come to you as something additional for you. Be not anxious for the morrow; for the morrow shall be anxious for what belongs to it. Sufficient unto the day is its evil.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 6,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "Judge not, that ye be not judged: condemn not, that ye be not condemned:",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 1
+    },
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "forgive, and it shall be forgiven you: release, and ye shall be released: give, that ye may be given unto; with good measure, abundant, full, they shall thrust into your",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "bosoms. With what measure ye measure it shall be measured to you. See to it what ye hear: with what measure ye measure it shall be measured to you; and ye",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "shall be given more. I say unto those that hear, He that hath shall be given unto; and he that hath not, that which he regards as his shall be taken from him.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "And he spake unto them a parable, Can a blind man haply guide a blind man?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "shall they not both fall into a hollow? A disciple is not better than his master;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "every perfect man shall be as his master. Why lookest thou at the mote which is in the eye of thy brother, but considerest not the column that is in thine own eye?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "Or how canst thou say to thy brother, Brother, I will take out the mote from thine eye; and the column which is in thine eye thou seest not? Thou hypocrite, take out first the column from thine eye; and then shalt thou see to take out the mote from the eye of thy brother.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "Give not that which is holy unto the dogs, neither cast your pearls before the swine, lest they trample them with their feet, and return and wound you.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "And he said unto them, Who of you, that hath a friend, goeth to him at midnight,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "and saith unto him, My friend, lend me three loaves; for a friend hath come",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "to me from a journey, and I have nothing to offer to him: and that friend shall [Arabic, p. 40] answer him from within, and say unto him, Trouble me not; for the door is shut, and my children are with me in bed, and I cannot rise and give thee?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And verily I say unto you, If he will not give him because of friendship, yet because",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "of his importunity he will rise and give him what he seeketh. And I also say unto you, Ask, and ye shall be given unto; seek, and ye shall find; knock, and it shall be",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "opened unto you. Every one that asketh receiveth, and he that seeketh findeth, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "he that knocketh, it shall be opened to him. What father of you, shall his son ask for bread—will he, think you, give him a stone? and if he ask of him a fish, will he,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "think you, instead of the fish give him a serpent? and if he ask him for an egg, will",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "he, think you, extend to him a scorpion? If ye then, although being evil, know the gifts which are good, and give them to your children, how much more shall your",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "Father which is in heaven give the Holy Spirit to them that ask him? Whatsoever ye would that men should do to you, do ye even so to them: this is the law and the prophets.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "Enter ye by the narrow gate; for the wide gate and the broad way lead to destruction,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "and many they be which go therein. How narrow is the gate and straitened the way leading to life! and few be they that find it.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "Beware of false prophets, which come to you in sheep’s clothing, while within",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "they are ravening wolves. But by their fruits ye shall know them. For every tree is known by its fruit. For figs are not gathered of thorns, neither are grapes plucked of",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 16
+    },
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "briers. Even so every good tree bringeth forth good fruit, but the evil tree bringeth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "[Arabic, p. 41] forth evil fruit. The good tree cannot bring forth evil fruit, neither can the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "evil tree bring forth good fruit. The good man from the good treasures that are in his heart bringeth forth good things; and the evil man from the evil treasures that are in his heart bringeth forth evil things: and from the overflowings of the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "heart the lips speak. Every tree that beareth not good fruit is cut down and cast [40, 41] into the fire. Therefore by their fruits ye shall know them. Not all that say unto me, My Lord, my Lord, shall enter the kingdom of the heavens; but he that doeth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 19
+    },
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 20
+    },
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "the will of my Father which is in heaven. Many shall say unto me in that day, My Lord, my Lord, did we not prophesy in thy name, and in thy name cast out",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "devils, and in thy name do many powers? Then shall I say unto them, I never",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "knew you: depart from me, ye servants of iniquity. Every man that cometh unto",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 47
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "me, and heareth my sayings, and doeth them, I will shew you to what he is like: he is like the wise man which built a house, and digged and went deep, and laid the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 6,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "foundations on a rock: and the rain came down, and the rivers overflowed, and the winds blew, and shook that house, and it fell not: for its foundation was laid on",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "rocks. And every one that heareth these my words, and doeth them not, is like",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "the foolish man which built his house on sand, without foundation: and the rain descended, and the rivers overflowed, and the winds blew, and smote upon that house, and it fell: and the fall of it was great.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 27
+    }
+   ]
+  }
+ ]
+}

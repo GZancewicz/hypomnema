@@ -1,0 +1,599 @@
+{
+ "number": 20,
+ "roman": "XX",
+ "id": "iv.iii.xx",
+ "title": "Section XX",
+ "books": [
+  "john",
+  "luke",
+  "mark",
+  "matthew"
+ ],
+ "stich_count": 52,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And Jesus knew within himself that his disciples were murmuring because of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 61
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "that, and he said unto them, Doth this trouble you? What if ye should see the Son",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 62
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "of man then ascend to the place where he was of old? It is the spirit that quickeneth, and the body profiteth nothing: the words that I speak unto you are spirit",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 63
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "and life. But there are some of you that do not believe. And Jesus knew beforehand who they were who should not believe, and who it was that should betray",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 64
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "him. And he said unto them, Therefore I said unto you, No man can come unto me, if that hath not been given him by the Father.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 65
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 78] And because of this word many of his disciples turned back and walked",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 66
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "not with him. And Jesus said unto the twelve, Do ye haply also wish to",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 67
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "go away? Simon Cephas answered and said, My Lord, to whom shall we go? thou",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 68
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "hast the words of eternal life. And we have believed and known that thou art the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 69
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "Messiah, the Son of the living God. Jesus said unto them, Did not I choose you,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 70
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "ye company of the twelve, and of you one is a devil? He said that because of Judas the son of Simon Iscariot; for he, being of the twelve, was purposed to betray him.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 71
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And while he was speaking, one of the Pharisees came asking of him that he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "would eat with him: and he went in, and reclined to meat. And that Pharisee, when",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "he saw it, marvelled that he had not first cleansed himself before his eating. Jesus said unto him, Now do ye Pharisees wash the outside of the cup and the dish, and ye think that ye are cleansed; but your inside is full of injustice and wickedness. [15, 16] Ye of little mind, did not he that made the outside make the inside? Now give what ye have in alms, and everything shall be clean unto you. [17, 18] And there came to him Pharisees and scribes, come from Jerusalem. And when they saw some of his disciples eating bread while they had not washed their hands,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 39
+    },
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 40
+    },
+    {
+     "book": "luke",
+     "chapter": 11,
+     "verse": 41
+    },
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 1
+    },
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "they found fault. For all of the Jews and the Pharisees, if they wash not their",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "hands thoroughly, eat not; for they held to the ordinance of the elders. And they ate not what was bought from the market, except they washed it; and many other things did they keep of what they had received, such as the washing of cups, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "measures, and vessels of brass, and couches. And scribes and Pharisees asked him, [Arabic, p. 79] Why do thy disciples not walk according to the ordinances of the elders, but",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "eat bread without washing their hands? Jesus answered and said unto them, Why do ye also overstep the command of God by reason of your ordinance?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "God said, Honour thy father and thy mother; and, Whosoever revileth his father and",
+   "refs": []
+  },
+  {
+   "n": 24,
+   "text": "his mother shall surely die. But ye say, If a man say to his father or to his mother,",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "What thou receivest from me is an offering,—and ye suffer him not to do anything",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "for his father or his mother; and ye make void and reject the word of God by reason of the ordinance that ye have ordained and commanded, such as the washing",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "of cups and measures, and what resembles that ye do much. And ye forsook",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "the command of God, and held to the ordinance of men. Do ye well to wrong",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "the command of God in order that ye may establish your ordinance? Ye hypocrites, well did Isaiah the prophet prophesy concerning you, and say,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "This people honoureth me with its lips; But their heart is very far from me.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "But in vain do they fear me, In that they teach the commands of men.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "And Jesus called all the multitude, and said unto them, Hear me, all of you, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "understand: nothing without the man, which then enters him, is able to defile him;",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "but what goeth out of him, that it is which defileth the man. He that hath ears",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "that hear, let him hear. Then his disciples drew near, and said unto him, Knowest",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "thou that the Pharisees which heard this word were angry? He answered and said unto them, Every plant which my Father which is in heaven planted not shall be",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "[Arabic, p. 80] uprooted. Let them alone; for they are blind leading blind. And if the blind lead the blind, both of them shall fall into a hollow.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "And when Jesus entered the house from the multitude, Simon Cephas asked him,",
+   "refs": []
+  },
+  {
+   "n": 39,
+   "text": "and said unto him, My Lord, explain to us that parable. He said unto them, Do ye also thus not understand? Know ye not that everything that entereth into the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "man from without cannot defile him; because it entereth not into his heart; it entereth into his stomach only, and thence is cast forth in the cleansing which maketh",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "clean all the food? The thing which goeth forth from the mouth of the man proceedeth",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "from his heart, and it is that which defileth the man. From within the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "heart of men proceed evil thoughts, fornication, adultery, theft, false witness, murder, injustice, wickedness, deceit, stupidity, evil eye, calumny, pride, foolishness:",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "these evils all of them from within proceed from the heart, and they are the things",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "which defile the man: but if a man eat while he washeth not his hands, he is not defiled.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "And Jesus went out thence, and came to the borders of Tyre and Sidon. And he entered into a certain house, and desired that no man should know it; and",
+   "refs": []
+  },
+  {
+   "n": 47,
+   "text": "he could not be hid. But straightway a Canaanitish woman, whose daughter had an [48, 49] unclean spirit, heard of him. And that woman was a Gentile of Emesa of Syria. And she came out after him, crying out, and saying, Have mercy upon me, my Lord, thou",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 25
+    },
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 26
+    },
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "son of David; for my daughter is seized in an evil way by Satan. And he answered [Arabic, p. 81] her not a word. And his disciples came and besought him, and said, Send",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "her away: for she crieth after us. He answered and said unto them, I was",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "not sent except to the sheep that are gone astray of the house of Israel. But she came and worshipped him, and said, My Lord, help me, have mercy upon me.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "Jesus said unto her, It is not seemly that the children’s bread should be taken and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "thrown to the dogs. But she said, Yea, my Lord: the dogs also eat of the crumbs",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "that fall from their masters’ tables, and live. Then said Jesus unto her, O woman,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "great is thy faith: it shall be unto thee as thou hast desired. Go then thy way; and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "because of this word, the devil is gone out of thy daughter. And her daughter was",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 15,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 58,
+   "text": "healed in that hour. And that woman went away to her house, and found her daughter laid upon the bed, and the devil gone out of her.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 7,
+     "verse": 30
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "number": 11,
+ "roman": "XI",
+ "id": "iv.iii.xi",
+ "title": "Section XI",
+ "books": [
+  "matthew",
+  "luke",
+  "mark"
+ ],
+ "stich_count": 50,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "[Arabic, p. 42] And when Jesus finished these sayings, the multitudes were astonished",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "at his teaching; and that because he was teaching them as one having authority, not as their scribes and the Pharisees.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 7,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "And when he descended from the mountain, great multitudes followed him.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "And when Jesus entered Capernaum, the servant of one of the chiefs was in an",
+   "refs": []
+  },
+  {
+   "n": 5,
+   "text": "evil case, and he was precious to him, and he was at the point of death. And he",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "heard of Jesus, and came to him with the elders of the Jews; and he besought him, and said, My Lord, my boy is laid in the house paralysed, and he is suffering grievous",
+   "refs": []
+  },
+  {
+   "n": 7,
+   "text": "torment. And the elders urgently requested of him, and said, He is worthy that",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "this should be done unto him: for he loveth our people, and he also built the synagogue [9, 10] for us. Jesus said unto him, I will come and heal him. That chief answered and said, My Lord, I am not worthy that my roof should shade thee; but it sufficeth",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 5
+    },
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 7
+    },
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "that thou speak a word, and my lad shall be healed. And I also am a man in obedience to authority, having under my hand soldiers: and I say to this one, Go, and he goeth; and to another, Come, and he cometh; and to my servant that he do this,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "and he doeth it. And when Jesus heard that, he marvelled at him, and turned and said unto the multitude that were coming with him, Verily I say unto you, I have",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 9
+    },
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "not found in Israel the like of this faith. I say unto you, that many shall come from the east and the west, and shall recline with Abraham and Isaac and Jacob",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "[Arabic, p. 43] in the kingdom of heaven: but the children of the kingdom shall be cast",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "forth into the outer darkness: and there shall be weeping and gnashing of teeth. And Jesus said to that chief, Go thy way; as thou hast believed, so shall it be unto thee.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And his lad was healed in that hour. And that chief returned to the house and found that sick servant healed.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "And the day after, he was going to a city called Nain, and his disciples with him,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "and a great multitude. And when he was come near the gate of the city, he saw a crowd accompanying one that was dead, the only son of his mother; and his mother was a widow: and there was with her a great multitude of the people of the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "city. And when Jesus saw her, he had compassion on her, and said unto her, Weep",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "not. And he went and advanced to the bier, and the bearers of it stood still; and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "he said, Young man, I say unto thee, Arise. And that dead man sat up and began",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "to speak; and he gave him to his mother. And fear came on all the people: and they praised God, and said, There hath risen among us a great prophet: and, God",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "hath had regard to his people. And this news concerning him spread in all Judæa, and in all the region which was about them.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 7,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "And when Jesus saw great multitudes surrounding him, he commanded them to",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "depart to the other side. And while they were going in the way, there came one of the scribes and said unto him, My Master, I will follow thee whithersoever thou",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "goest. Jesus said unto him, The foxes have holes, and the birds of the heaven have",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "nests; but the Son of man hath not a place in which to lay his head. And he said unto another, Follow me. And he said unto him, My Lord, suffer me first to go and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 59
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "bury my father. Jesus said unto him, Leave the dead to bury their dead; but thou,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 60
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "follow me and preach the kingdom of God. And another said unto him, I will follow [Arabic, p. 44] thee, my Lord; but first suffer me to go and salute my household and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 61
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "come. Jesus said unto him, There is no one who putteth his hand to the plough and looketh behind him, and yet is fit for the kingdom of God.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 62
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "And he said to them on that day in the evening, Let us go over to the other side",
+   "refs": []
+  },
+  {
+   "n": 32,
+   "text": "of the lake; and he left the multitudes. And Jesus went up and sat in the ship,",
+   "refs": []
+  },
+  {
+   "n": 33,
+   "text": "he and his disciples, and there were with them other ships. And there occurred on the sea a great tempest of whirlwind and wind, and the ship was on the point of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "sinking from the greatness of the waves. But Jesus was sleeping on a cushion in the stern of the ship; and his disciples came and awoke him, and said unto him, Our",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 38
+    },
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Lord, save us; lo, we perish. And he rose, and rebuked the winds and the turbulence of the water, and said to the sea, Be still, for thou art rebuked; and the wind",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 24
+    },
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "was still, and there was a great calm. And he said unto them, Why are ye thus",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 4,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "afraid? and why have ye no faith? And they feared greatly. And they marvelled, and said one to another, Who, think you, is this, who commandeth also the wind and the waves and the sea, and they obey him?",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "And they departed and came to the country of the Gadarenes, which is on the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "other side, opposite the land of Galilee. And when he went out of the ship to the land, there met him from among the tombs a man who had a devil for a long time,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "and wore no clothes, neither dwelt in a house, but among the tombs. And no man was [Arabic, p. 45] able to bind him with chains, because any time that he was bound with chains",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 3
+    },
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "and fetters he cut the chains and loosened the fetters; and he was snatched",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "away of the devil into the desert, and no man was able to quiet him; and at all times, in the night and in the day, he would be among the tombs and in the mountains; and no man was able to pass by that way; and he would cry out and wound himself",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 8,
+     "verse": 28
+    },
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "with stones. And when he saw Jesus at a distance, he hastened and worshipped",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "him, and cried with a loud voice and said, What have we to do with thee, Jesus,",
+   "refs": []
+  },
+  {
+   "n": 45,
+   "text": "Son of the most high God? I adjure thee by God, torment me not. And Jesus commanded the unclean spirit to come out of the man: and he had suffered a long",
+   "refs": []
+  },
+  {
+   "n": 46,
+   "text": "time since the time when he came into captivity to it. And Jesus asked him, What is thy name? He said unto him, Legion; for there had entered into him many",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "devils. And they besought him that he would not command them to depart into",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "the depths. And there was there a herd of many swine, feeding in the mountain, and those devils besought him to give them leave to enter the swine; and he gave",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "them leave. And the devils went out of the man and entered into the swine. And that herd hastened to the summit and fell down into the midst of the sea, about two",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 33
+    },
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "thousand, and they were choked in the water. And when the keepers saw what",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "happened, they fled, and told those in the cities and villages. And the people went out to see what had happened; and they came to Jesus, and found the man whose [Arabic, p. 46] devils had gone out, clothed, modest, seated at the feet of Jesus; and they",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "feared. And they reported what they saw, and how the man was healed who had a devil, and concerning those swine also.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 8,
+     "verse": 36
+    },
+    {
+     "book": "mark",
+     "chapter": 5,
+     "verse": 16
+    }
+   ]
+  }
+ ]
+}

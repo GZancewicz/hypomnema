@@ -1,0 +1,554 @@
+{
+ "number": 19,
+ "roman": "XIX",
+ "id": "iv.iii.xix",
+ "title": "Section XIX",
+ "books": [
+  "matthew",
+  "john",
+  "mark"
+ ],
+ "stich_count": 48,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And in the fourth watch of the night Jesus came unto them, walking upon the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "water, after they had rowed with difficulty about twenty-five or thirty furlongs.",
+   "refs": []
+  },
+  {
+   "n": 3,
+   "text": "And when he drew near unto their boat, his disciples saw him walking on the water; and they were troubled, and supposed that it was a false appearance; and they cried",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "out from their fear. But Jesus straightway spoke unto them, and said, Take courage,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "for it is I; fear not. Then Cephas answered and said unto him, My Lord, if it be thou,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "bid me to come unto thee on the water. And Jesus said unto him, Come. And",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Cephas went down out of the boat, and walked on the water to come unto Jesus. But [Arabic, p. 74] when he saw the wind strong, he feared, and was on the point of sinking;",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "and he lifted up his voice, and said, My Lord, save me. And immediately our Lord stretched out his hand and took hold of him, and said unto him,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Thou of little faith, why didst thou doubt? And when Jesus came near, he went up",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "unto them into the boat, he and Simon, and immediately the wind ceased. And those that were in the ship came and worshipped him, and said, Truly thou art the",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 14,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "Son of God. And straightway that ship arrived at the land which they made for.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "And when they came out of the ship to the land, they marvelled greatly and were",
+   "refs": []
+  },
+  {
+   "n": 13,
+   "text": "perplexed in themselves: and they had not understood by means of that bread, because their heart was gross.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "And when the people of that region knew of the arrival of Jesus, they made haste in all that land, and began to bring those that were diseased, borne in their",
+   "refs": []
+  },
+  {
+   "n": 15,
+   "text": "beds to the place where they heard that he was. And wheresoever the place might be which he entered, of the villages or the cities, they laid the sick in the markets, and sought of him that they might touch were it only the edge of his garment: and all that touched him were healed and lived.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 6,
+     "verse": 56
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "And on the day after that, the multitude which was standing on the shore of the sea saw that there was there no other ship save that into which the disciples had",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "gone up, and that Jesus went not up into the ship with his disciples (but there were other ships from Tiberias near the place where they ate the bread when Jesus blessed",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "it): and when that multitude saw that Jesus was not there, nor yet his disciples, they",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "[Arabic, p. 75] went up into those ships, and came to Capernaum, and sought Jesus. And when they found him on the other side of the sea, they said unto him, Our",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "Master, when camest thou hither? Jesus answered and said unto them, Verily, verily, I say unto you, Ye have not sought me because of your seeing the signs, but because of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "your eating the bread and being satisfied. Serve not the food which perisheth, but the food which abideth in eternal life, which the Son of man will give unto you: him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "hath God the Father sealed. They said unto him, What shall we do that we may",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "work the work of God? Jesus answered and said unto them, This is the work of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "God, that ye believe in him whom he hath sent. They said unto him, What sign hast thou done, that we may see, and believe in thee? what hast thou wrought?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "Our fathers ate the manna in the wilderness; as it was written, Bread from heaven",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "gave he them to eat. Jesus said unto them, Verily, verily, I say unto you, Moses gave you not bread from",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "heaven; but my Father gave you the bread of truth from heaven. The bread of God is that which came down from heaven and gave the [28, 29] world life. They said unto him, Our Lord, give us at all times this bread. Jesus said unto them, I am the bread of life: whosoever cometh unto me shall not hunger,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 33
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 34
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "and whosoever believeth in me shall not thirst for ever. But I said unto you,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "Ye have seen me, and have not believed. And all that my Father hath given to me cometh unto me; and whosoever cometh unto me I shall not cast him forth without.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "I came down from heaven, not to do my own will, but to do the will of him",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "that sent me; and this is the will of him that sent me, that I should lose nothing of",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "[Arabic, p. 76] that which he gave me, but raise it up in the last day. This is the will of my Father, that every one that seeth the Son, and believeth in him, should have eternal life; and I will raise him up in the last day.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "The Jews therefore murmured against him because of his saying, I am the bread",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "which came down from heaven. And they said, Is not this Jesus, the son of Joseph, whose father and mother we know? then how saith this man, I came down from [37, 38] heaven? Jesus answered and said unto them, Murmur not one with another. No man is able to come unto me, except the Father which sent me draw him; and I will",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 42
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 43
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "raise him up in the last day. It is written in the prophet, They shall all be the taught of God. Every one who heareth from the Father now, and learneth of him, cometh",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "unto me. No man now seeth the Father; but he that is from God, he it is that seeth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "the Father. Verily, verily, I say unto you, Whosoever believeth in me hath eternal [42, 43] life. I am the bread of life. Your fathers ate the manna in the wilderness, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 47
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 48
+    },
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "they died. This is the bread which came down from heaven, that a man may eat",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "of it, and not die. I am the bread of life which came down from heaven: and if a man eat of this bread he shall live for ever: and the bread which I shall give is my body, which I give for the life of the world.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "The Jews therefore quarrelled one with another, and said, How can he give us",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "[Arabic, p. 77] his body that we may eat it? Jesus said unto them, Verily, verily, I say unto you, If ye do not eat the body of the Son of man and drink his blood, ye shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "not have life in yourselves. Whosoever eateth of my body and drinketh of my blood",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "hath eternal life; and I will raise him up in the last day. My body truly is meat, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 55
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "my blood truly is drink. Whosoever eateth my body and drinketh my blood abideth",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 56
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "in me, and I in him—as the living Father sent me, and I am alive because of the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 57
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "Father; and whosoever eateth me, he also shall live because of me. This is the bread which came down from heaven: and not according as your fathers ate the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 58
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "manna, and died: whosoever eateth of this bread shall live for ever. This he said in",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 59
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "the synagogue, when he was teaching in Capernaum. And many of his disciples, when they heard, said, This word is hard; who is he that can hear it?",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 6,
+     "verse": 60
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,862 @@
+{
+ "number": 1,
+ "roman": "I",
+ "id": "iv.iii.i",
+ "title": "Section I",
+ "books": [
+  "john",
+  "luke"
+ ],
+ "stich_count": 75,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "In the beginning was the Word, and the Word was with God, and God is the [2,3] Word. This was in the beginning with God. Everything was by his hand, and",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 1
+    },
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 2
+    },
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "without him not even one existing thing was made. In him was life, and the life",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "is the light of men. And the light shineth in the darkness, and the darkness apprehended it not.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 1,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "There was in the days of Herod the king a priest whose name was Zacharias, of the family of Abijah; and his wife was of the daughters of Aaron, and her name",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "was Elizabeth. And they were both righteous before God, walking in all his commands,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "and in the uprightness of God without reproach. And they had no son, for",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "Elizabeth was barren, and they had both advanced in age. And while he discharged",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "text": "[Arabic, p. 2] the duties of priest in the order of his service before God, according to the custom of the priesthood it was his turn to burn incense; so he entered the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "temple of the Lord. And the whole gathering of the people were praying without at the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "time of the incense. And there appeared unto Zacharias the angel of the Lord, standing",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "at the right of the altar of incense; and Zacharias was troubled when he saw him,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "and fear fell upon him. But the angel said unto him, Be not agitated, Zacharias, for thy prayer is heard, and thy wife Elizabeth shall bear thee a son, and thou shalt",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "call his name John; and thou shalt have joy and gladness, and many shall rejoice",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "text": "at his birth. And he shall be great before the Lord, and shall not drink wine nor strong drink, and he shall be filled with the Holy Spirit while he is in his mother’s",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "text": "womb. And he shall turn back many of the children of Israel to the Lord their",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "God. And he shall go before him in the spirit, and in the power of Elijah the prophet, to turn back the heart of the fathers to the sons, and those that obey not to the knowledge of the righteous; and to prepare for the Lord a perfect people.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "And Zacharias said unto the angel, How shall I know this, since I am an old man",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "and my wife is advanced in years? And the angel answered and said unto him, I am Gabriel, that standeth before God; and I was sent to speak unto thee, and give",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "thee tidings of this. Henceforth thou shalt be speechless, and shalt not be able to speak until the day in which this shall come to pass, because thou didst not trust",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "this my word, which shall be accomplished in its time. And the people were standing [Arabic, p. 3] awaiting Zacharias, and they were perplexed at his delaying in the temple.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "And when Zacharias went out, he was not able to speak unto them: so they knew that he had seen in the temple a vision; and he made signs unto them, and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "continued dumb. And when the days of his service were completed, he departed to his dwelling.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "And after those days Elizabeth his wife conceived; and she hid herself five",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "text": "months, and said, This hath the Lord done unto me in the days when he looked upon me, to remove my reproach from among men.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And in the sixth month Gabriel the angel was sent from God to Galilee to a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "city called Nazareth, to a virgin given in marriage to a man named Joseph, of the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "house of David; and the virgin’s name was Mary. And the angel entered unto her and said unto her, Peace be unto thee, thou who art filled with grace. Our Lord",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "is with thee, thou blessed amongst women. And she, when she beheld, was agitated",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "at his word, and pondered what this salutation could be. And the angel said unto",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 30
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "her, Fear not, Mary, for thou hast found favour with God. Thou shalt now conceive,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 31
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "and bear a son, and call his name Jesus. This shall be great, and shall be called the Son of the Most High; and the Lord God will give him the throne of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "David his father: and he shall rule over the house of Jacob for ever; and to his",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "kingdom there shall be no end. Mary said unto the angel, How shall this be to",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "me when no man hath known me? The angel answered and said unto her, The [Arabic, p. 4] Holy Spirit will come, and the power of the Most High shall rest upon thee, and therefore shall he that is born of thee be pure, and shall be called the Son",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 35
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "of God. And lo, Elizabeth thy kinswoman, she also hath conceived a son in her old",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 36
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "age; and this is the sixth month with her, her that is called barren. For nothing is",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "difficult for God. Mary said, Lo, I am the handmaid of the Lord; let it be unto me according unto thy word. And the angel departed from her.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 38
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "And then Mary arose in those days and went in haste into the hill country, to a",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 39
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "city of Judah; and entered into the house of Zacharias, and asked for the health of",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 40
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "Elizabeth. And when Elizabeth heard the salutation of Mary, the babe leaped in",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 41
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "her womb. And Elizabeth was filled with the Holy Spirit; and cried with a loud voice and said unto Mary, Blessed art thou amongst women, and blessed is the",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 42
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "fruit that is in thy womb. Whence have I this privilege, that the mother of my",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 43
+    }
+   ]
+  },
+  {
+   "n": 45,
+   "text": "Lord should come unto me? When the sound of thy salutation reached my ears,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 44
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "with great joy rejoiced the babe in my womb. And blessed is she who believed",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 45
+    }
+   ]
+  },
+  {
+   "n": 47,
+   "text": "that what was spoken to her from the Lord would be fulfilled. And Mary said, My soul doth magnify the Lord,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 48,
+   "text": "And my spirit hath rejoiced in God my Saviour,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 47
+    }
+   ]
+  },
+  {
+   "n": 49,
+   "text": "Who hath looked upon the low estate of his handmaiden: Lo, henceforth, all generations shall pronounce blessing on me.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 50,
+   "text": "For he hath done great things for me, who is mighty, And holy is his name.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 51,
+   "text": "And his mercy embraceth them who fear him, Throughout the ages and the times.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 52,
+   "text": "[Arabic, p. 5] He wrought the victory with his arm, And scattered them that prided themselves in their opinions.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 51
+    }
+   ]
+  },
+  {
+   "n": 53,
+   "text": "He overthrew them that acted haughtily from their thrones, And raised the lowly.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 52
+    }
+   ]
+  },
+  {
+   "n": 54,
+   "text": "He satisfied with good things the hungry, And left the rich without anything.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 53
+    }
+   ]
+  },
+  {
+   "n": 55,
+   "text": "He helped Israel his servant, And remembered his mercy",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 54
+    }
+   ]
+  },
+  {
+   "n": 56,
+   "text": "(According as he spake with our fathers) Unto Abraham and unto his seed for ever.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 55
+    }
+   ]
+  },
+  {
+   "n": 57,
+   "text": "And Mary abode with Elizabeth about three months, and returned unto her house. [58, 59] And Elizabeth’s time of delivery was come; and she brought forth a son. And her neighbours and kinsfolk heard that God had multiplied his mercy towards her;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 56
+    },
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 57
+    },
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 58
+    }
+   ]
+  },
+  {
+   "n": 60,
+   "text": "and they rejoiced with her. And when it was the eighth day, they came to circumcise the child, and called him Zacharias, calling him by the name of his father.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 59
+    }
+   ]
+  },
+  {
+   "n": 61,
+   "text": "And his mother answered and said unto them, Not so; but he shall be called John.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 60
+    }
+   ]
+  },
+  {
+   "n": 62,
+   "text": "And they said unto her, There is no man of thy kindred that is called by this name. [63, 64] And they made signs to his father, saying, How dost thou wish to name him? And he asked for a tablet, and wrote and said, His name is John. And every one wondered.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 61
+    },
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 62
+    },
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 63
+    }
+   ]
+  },
+  {
+   "n": 65,
+   "text": "And immediately his mouth was opened, and his tongue, and he spake and",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 64
+    }
+   ]
+  },
+  {
+   "n": 66,
+   "text": "praised God. And fear fell on all their neighbours: and this was spoken of in all",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 65
+    }
+   ]
+  },
+  {
+   "n": 67,
+   "text": "the mountains of Judah. And all who heard pondered in their hearts and said, What shall this child be? And the hand of the Lord was with him.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 66
+    }
+   ]
+  },
+  {
+   "n": 68,
+   "text": "And Zacharias his father was filled with the Holy Spirit, and prophesied and said,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 67
+    }
+   ]
+  },
+  {
+   "n": 69,
+   "text": "Blessed is the Lord, the God of Israel, Who hath cared for his people, and wrought for it salvation;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 68
+    }
+   ]
+  },
+  {
+   "n": 70,
+   "text": "And hath raised for us the horn of salvation [Arabic, p. 6] In the house of David his servant",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 69
+    }
+   ]
+  },
+  {
+   "n": 71,
+   "text": "(As he spake by the mouth of his holy prophets from eternity),",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 70
+    }
+   ]
+  },
+  {
+   "n": 72,
+   "text": "That he might save us from our enemies, And from the hand of all them that hate us.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 71
+    }
+   ]
+  },
+  {
+   "n": 73,
+   "text": "And he hath performed his mercy towards our fathers, And remembered his holy covenants,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 72
+    }
+   ]
+  },
+  {
+   "n": 74,
+   "text": "And the oath which he sware unto Abraham our father,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 73
+    }
+   ]
+  },
+  {
+   "n": 75,
+   "text": "That he would give us deliverance from the hand of our enemies, And without fear we shall serve before him",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 74
+    }
+   ]
+  },
+  {
+   "n": 76,
+   "text": "All our days with equity and righteousness.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 75
+    }
+   ]
+  },
+  {
+   "n": 77,
+   "text": "And as for thee, O child, prophet of the Most High shalt thou be called. Thou shalt go forth before the face of the Lord to prepare his way,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 76
+    }
+   ]
+  },
+  {
+   "n": 78,
+   "text": "To give the knowledge of salvation unto his people, For the forgiveness of their sins,",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 77
+    }
+   ]
+  },
+  {
+   "n": 79,
+   "text": "Through the mercy of the compassion of our God, With which he careth for us, to appear from on high",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 78
+    }
+   ]
+  },
+  {
+   "n": 80,
+   "text": "To give light to them that sit in darkness and under the shadow of death, And to set straight our feet in the way of peace.",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 1,
+     "verse": 79
+    }
+   ]
+  },
+  {
+   "n": 81,
+   "text": "And the child grew and became strong in the spirit, and abode in the desert until the time of his appearing unto the children of Israel.",
+   "refs": []
+  }
+ ]
+}

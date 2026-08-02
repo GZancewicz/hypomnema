@@ -1,0 +1,459 @@
+{
+ "number": 47,
+ "roman": "XLVII",
+ "id": "iv.iii.xlvii",
+ "title": "Section XLVII",
+ "books": [
+  "john"
+ ],
+ "stich_count": 38,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "A little while, and ye shall not behold me; and a little while again, and ye shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 16
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "behold me; because I go to the Father. His disciples therefore said one to another, What is this that he hath said unto us, A little while, and ye shall not behold me; and a little while again, and ye shall behold me: and, I go to my",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "Father? And they said, What is this little while that he hath said? We know not",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "what he speaketh. And Jesus perceived that they were seeking to ask him, and said unto them, Do ye inquire among yourselves concerning this, that I said unto you, A little while, and ye behold me not, and a little while again, and ye shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "behold me? Verily, verily, I say unto you, that ye shall weep and grieve, but the world shall rejoice: and ye shall be sorrowful, but your grief shall turn to joy.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "For, a woman when the time is come for her that she should bring forth, the arrival of the day of her bringing forth distresseth her: but whenever she hath brought forth a son, she remembereth not her distress, for joy at the birth of a man into the",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "world. And ye now also grieve: but I shall see you, and your hearts shall rejoice,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "[Arabic, p. 178] and your joy no man taketh from you. And in that day ye shall ask me nothing. And verily, verily, I say unto you, All that ye ask my Father in my name, he will give you. Hitherto ye have asked nothing",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 23
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "in my name: ask, and ye shall receive, that your joy may be complete.",
+   "refs": []
+  },
+  {
+   "n": 10,
+   "text": "I have spoken unto you now in ænigmas: but there will come an hour when I shall not speak to you in ænigmas, but shall reveal unto you the Father plainly,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "in that day when ye shall ask in my name: and I say not unto you, that I shall",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "entreat the Father for you; for the Father loveth you, because ye have loved me,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "and have believed that I came forth from my Father. I came forth from my Father, and came into the world: and I leave the world, and go unto my Father.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 28
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "His disciples said unto him, Lo, thy speech is now plain, and thou hast not said one",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 29
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "thing in an ænigma. Now, lo, we know that thou knowest everything, and needest not that any man should ask thee: and by this we believe that thou camest forth [16, 17] from God. Jesus said unto them, Believe that an hour cometh, and lo, it hath come, and ye shall be scattered, every one of you to his place, and shall leave me",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 30
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 31
+    },
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 32
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "alone: and yet I am not alone, because the Father is with me. This have I said unto you, that in me ye may have peace. And in the world trouble shall overtake you: but be of good courage; for I have overcome the world.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 16,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "text": "This said Jesus, and lifted up his eyes unto heaven, and said, My Father, the hour",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "text": "is come; glorify thy Son, that thy Son may glorify thee: as thou gavest him authority",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "over all flesh, that all that thou hast given him, he might give them eternal life. And this is eternal life, that they should know that thou alone art true God, and that he",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "text": "[Arabic, p. 179] whom thou didst send is Jesus the Messiah. I glorified thee in the earth,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "text": "and the work which thou gavest me to do I have accomplished. And now glorify thou me, O Father, beside thee, with that glory which I had with thee",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "before the world was. I made known thy name to the men whom thou gavest me out of the world: thine they were, and thou gavest them to me; and they have kept [25, 26] thy word. Now they know that all that thou hast given me is from thee: and the sayings which thou gavest me I have given unto them; and they received them, and knew of a truth that I came forth from thee, and believed that thou didst send me.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 6
+    },
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 7
+    },
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And I ask for their sake: and my asking is not for the world, but for those whom",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "thou hast given me; for they are thine: and all that is mine is thine, and all that is",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "thine is mine: and I am glorified in them. And now I am not in the world, and they are in the world, and I come to thee. My holy Father, keep them in thy",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "name which thou hast given unto me, that they may be one, as we are. When I was with them in the world, I kept them in thy name: and I kept those whom thou gavest unto me: and no man of them hath perished, but the son of perdition; that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "the scripture might be fulfilled. Now I come to thee: and this I say in the world,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "that my joy may be complete in them. I have given them thy word; and the world",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 14
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "hated them, because they were not of the world, as I was not of the world. And I ask not this, that thou take them from the world, but that thou keep them from the [34, 35] evil one. They were not of the world, as I was not of the world. O Father, sanctify",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 15
+    },
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 16
+    },
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 17
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "them in thy truth: for thy word is truth. And as thou didst send me into the world, I",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 18
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "[Arabic, p. 180] also send them into the world. And for their sake I sanctify myself, that they",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 19
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "also may be sanctified in the truth. Neither for these alone do I ask, but for",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 20
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "the sake of them that believe in me through their word; that they may be all one; as thou art in me, and I in thee, and so they also shall be one in us: that the world",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 21
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "may believe that thou didst send me. And the glory which thou hast given unto",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 22
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "me I have given unto them; that they may be one, as we are one; I in them, and thou in me, that they may be perfect into one; and that the world may know that",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 23
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "thou didst send me, and that I loved them, as thou lovedst me. Father, and those whom thou hast given me, I wish that, where I am, they may be with me also; that they may behold my glory, which thou hast given me: for thou lovedst me before",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "the foundation of the world. My righteous Father, and the world knew thee not,",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "but I know thee; and they knew that thou didst send me; and I made known unto them thy name, and will make it known to them; that the love wherewith thou lovedst me may be in them, and I shall be in them.",
+   "refs": [
+    {
+     "book": "john",
+     "chapter": 17,
+     "verse": 26
+    }
+   ]
+  }
+ ]
+}

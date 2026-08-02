@@ -20,7 +20,7 @@ The hypomnema app is a biblical text reader featuring the King James Version (KJ
   - Nikolai Velimirovich's daily meditations from the Prologue of Ohrid featuring homilies on Scripture (In progress)
   - Maximos the Confessor's treatise On the Lord's Prayer
   - Synaxarion entries linking saints' lives to New Testament passages (Sept 1 – Oct 31, in progress)
-  - Theophylact of Ohrid's commentary (In progress)
+  - Theophylact of Ohrid's commentary on all four Gospels, 5,028 lemmata served as the Migne PG Greek (English translation in progress)
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout), with the passage covered shown under the title
   - Hover tooltips showing commentary references

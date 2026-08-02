@@ -230,6 +230,156 @@
             color: #999;
             min-height: 16px;
         }
+        .diat-index-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 34px;
+            font-size: 13px;
+        }
+        .diat-index-table th {
+            text-align: left;
+            font-size: 10px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #95a5a6;
+            font-weight: 600;
+            padding: 0 6px 7px;
+            border-bottom: 1px solid #d8d8d8;
+        }
+        .diat-index-table td {
+            padding: 5px 6px;
+            border-bottom: 1px solid #f0f0f0;
+            white-space: nowrap;
+        }
+        .diat-index-table tbody tr {
+            cursor: pointer;
+        }
+        .diat-index-table tbody tr:hover {
+            background: #f0f8ff;
+        }
+        .diat-col-sec {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 62px;
+        }
+        .diat-col-stich {
+            color: #95a5a6;
+            font-size: 12px;
+            width: 62px;
+        }
+        .diat-cell-empty { color: #d0d0d0; }
+        .diat-index-table .diat-ref { cursor: pointer; }
+        @media (max-width: 700px) {
+            .diat-index-table { font-size: 11.5px; }
+            .diat-index-table td, .diat-index-table th { padding: 5px 3px; }
+            .diat-col-sec, .diat-col-stich { width: auto; }
+        }
+        .diat-section-row {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 14px 6px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .diat-section-row:hover {
+            background: #f0f8ff;
+        }
+        .diat-section-head {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .diat-section-name {
+            font-size: 17px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .diat-books {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        .diat-book {
+            font-size: 10px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            padding: 2px 7px;
+            border-radius: 9px;
+            font-weight: 600;
+        }
+        .diat-book-matthew { background: #e4f0ff; color: #1c5ea8; }
+        .diat-book-mark    { background: #e8f5e9; color: #2e6b34; }
+        .diat-book-luke    { background: #fff3e0; color: #a35a13; }
+        .diat-book-john    { background: #f3e8f7; color: #6a3480; }
+        .diat-excerpt {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.5;
+        }
+        .diat-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 18px;
+            font-size: 14px;
+        }
+        .diat-nav a {
+            color: #2185d0;
+            text-decoration: none;
+        }
+        .diat-nav a:hover { text-decoration: underline; }
+        .diat-nav-index { color: #7f8c8d !important; }
+        .diat-subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 26px;
+        }
+        .diat-stich {
+            display: flex;
+            gap: 12px;
+            padding: 9px 8px 9px 4px;
+            border-radius: 4px;
+        }
+        .diat-stich.diat-conflated {
+            background: #fbfaf6;
+            box-shadow: inset 3px 0 0 #c9c3b6;
+        }
+        .diat-stich-num {
+            flex: 0 0 30px;
+            text-align: right;
+            font-size: 11px;
+            color: #b0b0b0;
+            padding-top: 5px;
+            user-select: none;
+        }
+        .diat-stich-body { flex: 1; }
+        .diat-text { line-height: 1.75; }
+        .diat-refs {
+            display: inline-flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-left: 8px;
+            vertical-align: baseline;
+        }
+        .diat-ref {
+            font-size: 10.5px;
+            padding: 1px 6px;
+            border-radius: 8px;
+            text-decoration: none;
+            white-space: nowrap;
+            font-weight: 600;
+            opacity: 0.75;
+            transition: opacity 0.15s;
+        }
+        .diat-ref:hover { opacity: 1; text-decoration: none; }
+        @media (max-width: 700px) {
+            .diat-stich-num { flex-basis: 20px; }
+            .diat-refs { margin-left: 0; display: flex; margin-top: 5px; }
+        }
         .synaxarion-page .synax-month {
             border-bottom: 1px solid #e5e5e5;
         }
@@ -369,6 +519,9 @@
                     </li>
                     <li class="book-item" onclick="loadSynaxarion(event)">
                         SYNAXARION
+                    </li>
+                    <li class="book-item" onclick="loadDiatessaron(event)">
+                        DIATESSARON
                     </li>
                 </ul>
                 <div class="accordion">
@@ -1010,6 +1163,56 @@
             }
         }
 
+        function loadDiatessaron(evt) {
+            document.getElementById('book-title').textContent = 'Diatessaron';
+            document.getElementById('chapter-title').textContent = '';
+
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            if (evt && evt.target) {
+                evt.target.classList.add('active');
+            } else {
+                document.querySelectorAll('.book-item').forEach(item => {
+                    if (item.textContent.trim() === 'DIATESSARON') {
+                        item.classList.add('active');
+                    }
+                });
+            }
+
+            const topSelector = document.getElementById('chapter-selector');
+            const bottomSelector = document.getElementById('chapter-selector-bottom');
+            if (topSelector) topSelector.innerHTML = '';
+            if (bottomSelector) bottomSelector.innerHTML = '';
+
+            htmx.ajax('GET', '/api/diatessaron', '#text-content');
+
+            if (window.innerWidth <= 700) {
+                closeSidebarOverlay();
+            }
+        }
+
+        function loadDiatessaronSection(num) {
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+            const mainContent = document.querySelector('.content');
+            if (mainContent) mainContent.scrollTop = 0;
+
+            document.getElementById('book-title').textContent = 'Diatessaron';
+            document.getElementById('chapter-title').textContent = '';
+
+            document.querySelectorAll('.book-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.textContent.trim() === 'DIATESSARON') {
+                    item.classList.add('active');
+                }
+            });
+
+            htmx.ajax('GET', '/api/diatessaron/' + num, '#text-content');
+        }
+
         function toggleSynaxMonth(header) {
             const body = header.nextElementSibling;
             const open = body.hasAttribute('hidden');
@@ -1268,6 +1471,25 @@
             container.classList.add('homily-open');
 
             htmx.ajax('GET', `/api/homily/theophylact/${book}/${num}`, '#homilyContent');
+        }
+
+        function loadEphraimCommentary(num, roman) {
+            const panel = document.getElementById('homilyPanel');
+            const title = document.getElementById('homilyTitle');
+            const author = document.getElementById('homilyAuthor');
+            const content = document.getElementById('homilyContent');
+            const container = document.querySelector('.container');
+
+            title.textContent = 'Section ' + roman;
+            author.textContent = 'Ephraim the Syrian';
+            setHomilyRange('Commentary on the Diatessaron (Latin)');
+
+            content.innerHTML = '<div class="loading">Loading commentary...</div>';
+
+            panel.classList.add('active');
+            container.classList.add('homily-open');
+
+            htmx.ajax('GET', `/api/ephraim/${num}`, '#homilyContent');
         }
 
         function closeHomilyPanel() {

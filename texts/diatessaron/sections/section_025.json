@@ -1,0 +1,476 @@
+{
+ "number": 25,
+ "roman": "XXV",
+ "id": "iv.iii.xxv",
+ "title": "Section XXV",
+ "books": [
+  "luke",
+  "mark",
+  "matthew"
+ ],
+ "stich_count": 40,
+ "stichs": [
+  {
+   "n": 1,
+   "text": "And in that day this thought presented itself to his disciples, and they said, which",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 46
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "text": "haply should be the greatest among them. And when they came to Capernaum, and entered into the house, Jesus said unto them, What were ye considering in the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 33
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "text": "way among yourselves? And they were silent because they had considered that matter.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 34
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "text": "And when Simon went forth without, those that received two dirhams for the tribute came to Cephas, and said unto him, Doth your master not give his two",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 24
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "text": "dirhams? He said unto them, Yea. And when Cephas entered the house, Jesus anticipated him, and said unto him, What thinkest thou, Simon? the kings of the earth, from whom do they receive custom and tribute? from their sons, or from",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 25
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "text": "[Arabic, p. 97] strangers? Simon said unto him, From strangers. Jesus said unto him, Children then are free. Simon said unto him, Yea. Jesus said unto him,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 26
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "text": "Give thou also unto them, like the stranger. But, lest it trouble them, go thou to the sea, and cast a hook; and the first fish that cometh up, open its mouth, and thou shalt find a stater: take therefore that, and give for me and thee.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 17,
+     "verse": 27
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "text": "And in that hour came the disciples to Jesus, and said unto him, Who, thinkest",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "text": "thou, is greater in the kingdom of heaven? And Jesus knew the thought of their heart, and called a child, and set him in the midst, and took him in his arms, and",
+   "refs": []
+  },
+  {
+   "n": 10,
+   "text": "said unto them, Verily I say unto you, If ye do not return, and become as children,",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "text": "ye shall not enter the kingdom of heaven. Every one that shall receive in my name such as this child hath received me: and whosoever receiveth me receiveth",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 48
+    },
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 37
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "text": "not me, but him that sent me. And he who is little in your company, the same",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 48
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "text": "shall be great. But whosoever shall injure one of these little ones that believe in me, it were better for him that a great millstone should be hanged about his neck, and he should be drowned in the depths of the sea.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "text": "John answered and said, Our Master, we saw one casting out devils in thy name;",
+   "refs": [
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "text": "and we prevented him, because he followed not thee with us. Jesus said unto them, Prevent him not; for no man doeth powers in my name, and can hasten to speak evil [16, 17] of me. Every one who is not in opposition to you is with you. Woe unto the world [Arabic, p. 98] because of trials! but woe unto that man by whose hand the trials come!",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 39
+    },
+    {
+     "book": "luke",
+     "chapter": 9,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "text": "If thy hand or thy foot injure thee, cut it off, and cast it from thee; for it is better for thee to enter into life being halt or maimed, and not that thou shouldest have two hands or two feet, and fall into the hell of fire that burneth for ever; [19, 20] where their worm dieth not, and their fire is not quenched. And if thine eye seduce",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 8
+    },
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 44
+    },
+    {
+     "book": "matthew",
+     "chapter": 18,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "text": "thee, pluck it out, and cast it from thee; for it is better for thee to enter the kingdom of God with one eye, than that thou shouldest have two eyes, and fall into the [22, 23] fire of Gehenna; where their worm dieth not, and their fire is not quenched. Every",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 47
+    },
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 48
+    },
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 49
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "text": "one shall be salted with fire, and every sacrifice shall be salted with salt. How good",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "text": "is salt! but if the salt also be tasteless, wherewith shall it be salted? It is fit neither for the land nor for dung, but they cast it out. He that hath ears to hear, let him",
+   "refs": []
+  },
+  {
+   "n": 26,
+   "text": "hear. Have ye salt in yourselves, and be in peace one with another.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 9,
+     "verse": 50
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "text": "And he arose from thence, and came to the borders of Judæa beyond Jordan: and there went unto him thither great multitudes, and he healed them; and he taught",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 1
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "text": "them also, according to his custom. And the Pharisees came unto him, tempting",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 2
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "text": "him, and asking him, Is it lawful for a man to put away his wife? He said, What",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 3
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "text": "did Moses command you? They said, Moses made it allowable for us, saying, Whosoever",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "text": "will, let him write a writing of divorcement, and put away his wife. Jesus answered and said unto them, Have ye not read, He that made them from the beginning",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 5
+    },
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 4
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "text": "made them male and female, and said, For this reason shall the man leave his father [Arabic, p. 99] and his mother, and cleave to his wife; and they both shall be one body?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 5
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "text": "So then they are not twain, but one body; the thing, then, which God hath",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 6
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "text": "joined together, let no man put asunder. And those Pharisees said unto him, Why did Moses consent that a man should give a writing of divorcement and put her away?",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 7
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "text": "Jesus said unto them, Moses because of the hardness of your hearts gave you leave",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 8
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "text": "to divorce your wives; but in the beginning it was not so. I say unto you, Whosoever putteth away his wife without fornication, and marrieth another, hath exposed",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "text": "her to adultery. And his disciples, when he entered the house, asked him again",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "text": "about that. And he said unto them, Every one who putteth away his wife, and",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 39,
+   "text": "marrieth another, hath exposed her to adultery. And any woman that leaveth her husband, and becometh another’s, hath committed adultery. And whosoever marrieth",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 12
+    },
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 9
+    }
+   ]
+  },
+  {
+   "n": 40,
+   "text": "her that is divorced hath committed adultery. And his disciples said unto him, If there be between the man and the woman such a case as this, it is not good for",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 10
+    }
+   ]
+  },
+  {
+   "n": 41,
+   "text": "a man to marry. He said unto them, Not every man can endure this saying, except",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 11
+    }
+   ]
+  },
+  {
+   "n": 42,
+   "text": "him to whom it is given. There are eunuchs which from their mother’s womb were born so; and there are eunuchs which through men became eunuchs; and there are eunuchs which made themselves eunuchs for the sake of the kingdom of heaven. He that is able to be content, let him be content.",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 12
+    }
+   ]
+  },
+  {
+   "n": 43,
+   "text": "Then they brought to him children, that he should lay his hand upon them, and",
+   "refs": [
+    {
+     "book": "matthew",
+     "chapter": 19,
+     "verse": 13
+    }
+   ]
+  },
+  {
+   "n": 44,
+   "text": "pray: and his disciples were rebuking those that were bringing them. And Jesus saw, and it was distressing to him; and he said unto them, Suffer the children to [Arabic, p. 100] come unto me, and prevent them not; for those that are like these have",
+   "refs": []
+  },
+  {
+   "n": 45,
+   "text": "the kingdom of God. Verily I say unto you, Whosoever receiveth not the",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 15
+    }
+   ]
+  },
+  {
+   "n": 46,
+   "text": "kingdom of God as this child, shall not enter it. And he took them in his arms, and laid his hand upon them, and blessed them.",
+   "refs": [
+    {
+     "book": "mark",
+     "chapter": 10,
+     "verse": 16
+    }
+   ]
+  }
+ ]
+}
