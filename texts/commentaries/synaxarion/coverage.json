@@ -1430,6 +1430,181 @@
           "verse": 5
         }
       ]
+    },
+    {
+      "id": 74,
+      "title": "The Circumcision of the Lord",
+      "saint": "The Circumcision (Obrezanie) of the Lord:",
+      "date": "January 1",
+      "mmdd": "01-01",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 21
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "The Theophany of the Lord",
+      "saint": "Theophany / Bogoyavlenie",
+      "date": "January 6",
+      "mmdd": "01-06",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 3,
+          "verse": 13
+        },
+        {
+          "book": "mark",
+          "chapter": 1,
+          "verse": 9
+        },
+        {
+          "book": "luke",
+          "chapter": 3,
+          "verse": 21
+        },
+        {
+          "book": "john",
+          "chapter": 1,
+          "verse": 29
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "The Synaxis of the Forerunner and Baptist John",
+      "saint": "Assemblage (\"Sobor\" or Synaxis\") of the Forerunner and Baptist of the Lord, John. Martyr Athanasias of Attaleia (+ 1770)",
+      "date": "January 7",
+      "mmdd": "01-07",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 5
+        },
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 13
+        },
+        {
+          "book": "luke",
+          "chapter": 1,
+          "verse": 24
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "The Veneration of the Precious Chains of the Apostle Peter",
+      "saint": "The Veneration of the Venerable Shackles of the Holy and All-Praiseworthy Apostle Peter",
+      "date": "January 16",
+      "mmdd": "01-16",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "acts",
+          "chapter": 12,
+          "verse": 7
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Life of the Holy Apostle Timothy",
+      "saint": "The Holy Disciple Timothy",
+      "date": "January 22",
+      "mmdd": "01-22",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "2timothy",
+          "chapter": 1,
+          "verse": 4
+        },
+        {
+          "book": "2timothy",
+          "chapter": 1,
+          "verse": 5
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "The Meeting of the Lord",
+      "saint": "On the Feast of the Meeting of the Lord",
+      "date": "February 2",
+      "mmdd": "02-02",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 29
+        },
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 30
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Righteous Simeon the God-Receiver and Anna the Prophetess",
+      "saint": "Righteous Simeon the God-Receiver (Bogopriimets)",
+      "date": "February 3",
+      "mmdd": "02-03",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 36
+        },
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 37
+        },
+        {
+          "book": "luke",
+          "chapter": 2,
+          "verse": 38
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "The First and Second Finding of the Head of the Forerunner",
+      "saint": "First (4 c.) and Second (452) Discovery of the Head of the Prophet, ForeRunner and Baptist John",
+      "date": "February 24",
+      "mmdd": "02-24",
+      "commemoration_index": 0,
+      "verses": [
+        {
+          "book": "matthew",
+          "chapter": 14,
+          "verse": 10
+        },
+        {
+          "book": "mark",
+          "chapter": 6,
+          "verse": 27
+        },
+        {
+          "book": "luke",
+          "chapter": 9,
+          "verse": 9
+        }
+      ]
     }
   ]
 }

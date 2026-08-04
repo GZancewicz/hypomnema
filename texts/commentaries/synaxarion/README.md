@@ -51,3 +51,16 @@ commemoration's title + text.
 Use the `add-synaxarion-reference` skill (`.claude/skills/add-synaxarion-reference/`): it
 runs the NT search for a term, picks the Life from a calendar day, and appends/updates a
 `lives` entry. No code changes needed. Restart the server to load new entries.
+
+Before adding a day, check whether it already has an entry — the skill merges only on an
+exact `mmdd` + `commemoration_index` + `title` match, so a differently-worded title on a
+day already covered creates a duplicate marker rather than merging.
+
+## Calendar coverage
+
+Worked through the calendar year in date order; **January and February are complete**
+(as of 2026-08-02). Days covered: 01-01, 01-04, 01-06, 01-07, 01-16, 01-22, 02-02, 02-03,
+02-15, 02-19, 02-24. March onward is partial — resume at March.
+
+Note the calendar day folders live at `synaxarion/calendar/<MM-Month>/<MM-DD>/` off the
+repo root, not under `texts/commentaries/`.
