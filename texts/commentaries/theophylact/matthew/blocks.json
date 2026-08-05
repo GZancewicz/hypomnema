@@ -1,0 +1,8052 @@
+{
+  "commentary": "Theophylact of Ohrid — Explanation of the Holy Gospel According to Matthew",
+  "note": "Scripture-keyed blocks. Each block groups consecutive lemmata ending in exposition; range spans its members (build_theophylact_blocks.py).",
+  "total_blocks": 865,
+  "blocks": [
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        1
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        2
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        3
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        4
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        5,
+        6
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        10,
+        11
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        12
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        13
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        14
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        15,
+        16
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        17
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        18,
+        19
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        20
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        21
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        22
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        23
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        24
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        25
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        26
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        27
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        28
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        29
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        30
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        31
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        32
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        33
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        34
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        35
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        36
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 22,
+      "end_verse": 23,
+      "lemmata": [
+        37,
+        38
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        42
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        43,
+        44
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        45
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 1,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        46
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        47
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        48
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        49
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        50
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        51
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        52
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        53
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        54
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        55
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        56
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        57
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        58
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        59
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        60
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        61
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        62
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        63
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        64
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        65
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        66,
+        67
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        68
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        69
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        70
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        71
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        72
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        73
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        74
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        75
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        76
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        77
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        78
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        79,
+        80
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        81
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        82
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        83,
+        84
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        85
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        86,
+        87
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        88
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        89,
+        90
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        91
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        92
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        93
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        94
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 2,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        95
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        96
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        97
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        98
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        99
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        100
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        101
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        102
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 5,
+      "end_verse": 6,
+      "lemmata": [
+        103,
+        104
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        105
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        106
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        107
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        108
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        109
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        110,
+        111
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        112
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        113
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        114,
+        115
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 10,
+      "end_verse": 11,
+      "lemmata": [
+        116,
+        117
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        118
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        119
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        120
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        121
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        122
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 13,
+      "end_verse": 14,
+      "lemmata": [
+        123,
+        124
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        125
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        126
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        127,
+        128
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        129
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        130
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        131
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        132
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        133
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        134
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 3,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        135
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        136
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        137
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        138
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        139
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        140
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        141
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        142
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        143
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        144
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        145,
+        146
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        147
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        148
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        149
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        150
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        151
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        152
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        153,
+        154
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 14,
+      "end_verse": 16,
+      "lemmata": [
+        155,
+        156
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        157
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        158
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        159
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        160,
+        161
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        162
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        163
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        164
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        165
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        166
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        167
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 4,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        168
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        169
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        170
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        171,
+        172
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        173
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        174
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        175
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        176
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        177
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        178
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        179
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        180
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        181
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        182
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        183,
+        184
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        185
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        186
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        187
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        188
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        189
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        190
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        191
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        192
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        193
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        194
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        195,
+        196
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        197
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        198
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        199
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        200
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        204
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        205
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        206
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        207
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        208
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        209
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        210
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        211
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        212
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        213
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 33,
+      "end_verse": 35,
+      "lemmata": [
+        214,
+        215
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        216
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        217
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        218
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        219
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        220
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        221
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        222
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        223
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        224
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        225
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        226
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        227
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 5,
+      "start_verse": 47,
+      "end_verse": 48,
+      "lemmata": [
+        228,
+        229
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        230
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        231
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        232
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        233
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        234
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        235
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        236
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        237
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        238
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        239
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        240,
+        241
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 10,
+      "end_verse": 11,
+      "lemmata": [
+        242,
+        243
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        244
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        245
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        246
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        247
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        248
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        249
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        250
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 17,
+      "end_verse": 18,
+      "lemmata": [
+        251,
+        252
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        253,
+        254
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        255
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        256,
+        257
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        258
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        259
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        260
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        261
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        262
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        263
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        264
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 28,
+      "end_verse": 29,
+      "lemmata": [
+        265,
+        266
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        267
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        268,
+        269
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        270,
+        271
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 6,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        272
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        273
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        274,
+        275
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        276
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        277
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        278,
+        279
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        280,
+        281
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        282
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        283
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        284
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        285
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 15,
+      "end_verse": 17,
+      "lemmata": [
+        286,
+        287
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        288
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        289
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        290
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 22,
+      "end_verse": 23,
+      "lemmata": [
+        291,
+        292
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        293,
+        294
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        295
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        296
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 7,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        297
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        298,
+        299
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        300
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        301,
+        302
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        303,
+        304
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        305,
+        306
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        307
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        308,
+        309
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        310,
+        311
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        312
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        313
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        314
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        315,
+        316
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        317,
+        318
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        319
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        320
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        321
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        322
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        323
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 30,
+      "end_verse": 31,
+      "lemmata": [
+        324,
+        325
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        326
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 8,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        327
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        328
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        329
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        330
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        331,
+        332
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        333,
+        334
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        335
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        336
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        337,
+        338,
+        339
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        340
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        341
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        342
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        343,
+        344
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        345,
+        346
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 20,
+      "end_verse": 22,
+      "lemmata": [
+        347,
+        348
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        349,
+        350
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 25,
+      "end_verse": 26,
+      "lemmata": [
+        351,
+        352
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        353
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 28,
+      "end_verse": 30,
+      "lemmata": [
+        354,
+        355,
+        356
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 30,
+      "end_verse": 31,
+      "lemmata": [
+        357,
+        358
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        359,
+        360
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        361
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        362
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        363
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        364
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 9,
+      "start_verse": 37,
+      "end_verse": 38,
+      "lemmata": [
+        365,
+        366
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        367
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        368
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        369
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        370,
+        371
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 5,
+      "end_verse": 6,
+      "lemmata": [
+        372,
+        373
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        374
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        375
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        376,
+        377
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        378
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        379
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        380
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        381,
+        382
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        383
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        384
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 17,
+      "end_verse": 18,
+      "lemmata": [
+        385,
+        386
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        387
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        388
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        389
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        390
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 24,
+      "end_verse": 25,
+      "lemmata": [
+        391,
+        392
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 25,
+      "end_verse": 26,
+      "lemmata": [
+        393,
+        394
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        395
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        396
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 29,
+      "end_verse": 30,
+      "lemmata": [
+        397,
+        398
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        399
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        400,
+        401
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        402
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        403
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        404
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        405
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        406
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 38,
+      "end_verse": 39,
+      "lemmata": [
+        407,
+        408
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 40,
+      "end_verse": 41,
+      "lemmata": [
+        409,
+        410
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 10,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        411
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        412,
+        413
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        414
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        415
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        416,
+        417,
+        418
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        419
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        420
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        421
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        422
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        423
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        424
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        425
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 11,
+      "end_verse": 13,
+      "lemmata": [
+        426,
+        427,
+        428,
+        429
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        430
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        431,
+        432
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        433,
+        434,
+        435
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        436
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        437
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        438
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        439,
+        440
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        441
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        442
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        443
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        444,
+        445
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        446
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        447
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 11,
+      "start_verse": 29,
+      "end_verse": 30,
+      "lemmata": [
+        448
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        449
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        450
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        451
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        452
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        453
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        454
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        455,
+        456
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        457,
+        458
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        459
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 14,
+      "end_verse": 16,
+      "lemmata": [
+        460,
+        461,
+        462,
+        463
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 17,
+      "end_verse": 18,
+      "lemmata": [
+        464,
+        465
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        466
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        467
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 20,
+      "end_verse": 21,
+      "lemmata": [
+        468,
+        469
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        470
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        471
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 25,
+      "end_verse": 26,
+      "lemmata": [
+        472,
+        473
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        474
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        475
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        476
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        477
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        478
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        479
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        480,
+        481
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        482,
+        483
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        484
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 37,
+      "end_verse": 38,
+      "lemmata": [
+        485,
+        486
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 39,
+      "end_verse": 40,
+      "lemmata": [
+        487,
+        488
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        489
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        490
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 43,
+      "end_verse": 45,
+      "lemmata": [
+        491,
+        492
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        493
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 47,
+      "end_verse": 49,
+      "lemmata": [
+        494,
+        495
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 12,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        496
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        497
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        498
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        499
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 4,
+      "end_verse": 6,
+      "lemmata": [
+        500,
+        501
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        502
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        503
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        504
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        505
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 13,
+      "end_verse": 15,
+      "lemmata": [
+        506,
+        507
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        508
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        509
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        510
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        511
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        512
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        513
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        514
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        515
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        516
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 38,
+      "end_verse": 39,
+      "lemmata": [
+        517,
+        518
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        519
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        520
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        521
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        522
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 44,
+      "end_verse": 46,
+      "lemmata": [
+        523,
+        524,
+        525
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 47,
+      "end_verse": 48,
+      "lemmata": [
+        526,
+        527
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        528
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        529
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 51,
+      "end_verse": 52,
+      "lemmata": [
+        530,
+        531
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 53,
+      "end_verse": 54,
+      "lemmata": [
+        532,
+        533
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 54,
+      "end_verse": 55,
+      "lemmata": [
+        534,
+        535
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 56,
+      "end_verse": 56,
+      "lemmata": [
+        536
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 13,
+      "start_verse": 57,
+      "end_verse": 58,
+      "lemmata": [
+        537,
+        538
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        539
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        540,
+        541
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        542
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        543,
+        544
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        545
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        546,
+        547
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        548
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        549
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        550
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        551,
+        552
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        553,
+        554
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        555
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        556
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        557,
+        558
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 25,
+      "end_verse": 26,
+      "lemmata": [
+        559,
+        560
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        561
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 28,
+      "end_verse": 29,
+      "lemmata": [
+        562,
+        563
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        564
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        565,
+        566
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        567
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        568
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        569
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        570,
+        571
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 14,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        572
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        573,
+        574
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        575,
+        576
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        577
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        578,
+        579
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        580
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        581
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        582
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        583
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 13,
+      "end_verse": 14,
+      "lemmata": [
+        584,
+        585
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        586
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        587,
+        588
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        589
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        590
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        591
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        592
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        593,
+        594
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        595
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        596,
+        597
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 29,
+      "end_verse": 30,
+      "lemmata": [
+        598,
+        599
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        600
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        601
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        602
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        603,
+        604
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        605
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        606
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        607
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        608
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 15,
+      "start_verse": 6,
+      "end_verse": 39,
+      "lemmata": [
+        609,
+        610
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        611
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        612,
+        613
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        614
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        615
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 5,
+      "end_verse": 6,
+      "lemmata": [
+        616,
+        617
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        618
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        619
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        620
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        621
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        622
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        623
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        624
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        625,
+        626
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        627
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        628
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        629
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        630
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        631
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        632
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        633
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        634
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        635
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        636
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 16,
+      "start_verse": 28,
+      "end_verse": 1,
+      "lemmata": [
+        637,
+        638
+      ],
+      "end_chapter": 17
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        639
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        640,
+        641
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        642
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        643
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        644
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        645,
+        646
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        647
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        648
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        649
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        650
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 11,
+      "end_verse": 13,
+      "lemmata": [
+        651,
+        652
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        653
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 16,
+      "end_verse": 18,
+      "lemmata": [
+        654,
+        655
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        656,
+        657
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        658
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        659
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 22,
+      "end_verse": 23,
+      "lemmata": [
+        660,
+        661
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        662
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        663
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 17,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        664
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        665
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        666,
+        667
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        668
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        669
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        670
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        671,
+        672
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        673
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        674
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        675,
+        676
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        677
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        678
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        679
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        680
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        681,
+        682
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        683
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 24,
+      "end_verse": 25,
+      "lemmata": [
+        684,
+        685
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 26,
+      "end_verse": 27,
+      "lemmata": [
+        686,
+        687
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        688
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        689
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        690,
+        691
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        692
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 18,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        693
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        694,
+        695
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        696,
+        697
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        698
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        699,
+        700
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        701
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        702
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        703
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        704
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        705,
+        706,
+        707
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        708
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 13,
+      "end_verse": 14,
+      "lemmata": [
+        709,
+        710
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        711
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 15,
+      "end_verse": 16,
+      "lemmata": [
+        712,
+        713
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 17,
+      "end_verse": 18,
+      "lemmata": [
+        714,
+        715
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        716
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        717
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        718,
+        719
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        720
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        721
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        722
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 27,
+      "end_verse": 28,
+      "lemmata": [
+        723,
+        724
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        725
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 19,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        726
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        727
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        728
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        729
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        730
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        731
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        732
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 1,
+      "end_verse": 10,
+      "lemmata": [
+        733,
+        734,
+        735
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        736
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        737
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        738
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        739
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 17,
+      "end_verse": 21,
+      "lemmata": [
+        740,
+        741
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        742
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        743
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 23,
+      "end_verse": 25,
+      "lemmata": [
+        744,
+        745,
+        746
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        747
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 29,
+      "end_verse": 30,
+      "lemmata": [
+        748,
+        749
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        750
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        751
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        752
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 20,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        753
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        754,
+        755
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        756
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        757
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        758,
+        759
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        760,
+        761
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        762
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        763
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        764
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        765
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        766,
+        767
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        768
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 15,
+      "end_verse": 16,
+      "lemmata": [
+        769,
+        770
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        771
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        772,
+        773
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        774
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        775,
+        776
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        777
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        778,
+        779
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        780
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        781
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        782
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        783
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        784
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        785
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 33,
+      "end_verse": 34,
+      "lemmata": [
+        786,
+        787
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        788
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        789
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 40,
+      "end_verse": 41,
+      "lemmata": [
+        790,
+        791
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 42,
+      "end_verse": 43,
+      "lemmata": [
+        792,
+        793
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        794
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        795
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 21,
+      "start_verse": 45,
+      "end_verse": 46,
+      "lemmata": [
+        796,
+        797
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        798,
+        799
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        800
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        801
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        802
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        803
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        804
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        805
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        806,
+        807
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        808
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 11,
+      "end_verse": 13,
+      "lemmata": [
+        809,
+        810
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        811
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 15,
+      "end_verse": 16,
+      "lemmata": [
+        812,
+        813
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        814,
+        815
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        816
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        817
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        818
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        819
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        820
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        821,
+        822
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        823
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        824
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        825
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        826
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        827
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        828
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        829
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        830
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        831
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        832,
+        833
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        834
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        835
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        836
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        837,
+        838,
+        839
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 38,
+      "end_verse": 39,
+      "lemmata": [
+        840,
+        841
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 41,
+      "end_verse": 42,
+      "lemmata": [
+        842,
+        843
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        844
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        845
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 22,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        846
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        847,
+        848
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        849
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        850,
+        851
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        852,
+        853
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        854
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        855,
+        856
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        857
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        858
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        859
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        860
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        861
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 16,
+      "end_verse": 18,
+      "lemmata": [
+        862,
+        863
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        864
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        865
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        866
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        867
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        868
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        869
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 29,
+      "end_verse": 30,
+      "lemmata": [
+        870,
+        871
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        872
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        873,
+        874
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        875
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        876,
+        877
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        878
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 37,
+      "end_verse": 38,
+      "lemmata": [
+        879,
+        880
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        881
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 23,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        882
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        883,
+        884
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        885
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        886,
+        887
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        888,
+        889
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        890
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        891
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        892
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 12,
+      "end_verse": 14,
+      "lemmata": [
+        893,
+        894
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        895
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 16,
+      "end_verse": 18,
+      "lemmata": [
+        896,
+        897
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        898
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        899
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        900,
+        901
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        902,
+        903
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        904
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        905
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 26,
+      "end_verse": 27,
+      "lemmata": [
+        906,
+        907
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        908
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        909
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        910
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        911
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        912
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        913,
+        914
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        915
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 37,
+      "end_verse": 38,
+      "lemmata": [
+        916,
+        917
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 40,
+      "end_verse": 41,
+      "lemmata": [
+        918,
+        919
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 42,
+      "end_verse": 43,
+      "lemmata": [
+        920,
+        921
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        922
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 48,
+      "end_verse": 49,
+      "lemmata": [
+        923,
+        924
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        925
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 24,
+      "start_verse": 51,
+      "end_verse": 51,
+      "lemmata": [
+        926
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        927,
+        928
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        929
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        930
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        931
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 6,
+      "end_verse": 8,
+      "lemmata": [
+        932,
+        933
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        934
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        935
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        936
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        937
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        938
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        939,
+        940
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        941
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        942
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        943
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        944
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 20,
+      "end_verse": 23,
+      "lemmata": [
+        945,
+        946
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        947
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        948
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        949
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        950
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        951,
+        952
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        953
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        954
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        955,
+        956
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        957
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        958
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        959
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        960
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 41,
+      "end_verse": 42,
+      "lemmata": [
+        961,
+        962
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        963
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        964
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 25,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        965
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        966
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        967
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        968,
+        969
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        970,
+        971
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        972
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 8,
+      "end_verse": 9,
+      "lemmata": [
+        973,
+        974
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        975
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        976
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        977,
+        978
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        979
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        980
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        981
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        982
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        983
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 20,
+      "end_verse": 21,
+      "lemmata": [
+        984,
+        985
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        986
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        987,
+        988
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        989
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        990
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        991
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        992,
+        993
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        994
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        995,
+        996
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        997
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        998
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 35,
+      "end_verse": 36,
+      "lemmata": [
+        999,
+        1000
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        1001
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 40,
+      "end_verse": 41,
+      "lemmata": [
+        1002,
+        1003
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 42,
+      "end_verse": 44,
+      "lemmata": [
+        1004,
+        1005
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 45,
+      "end_verse": 46,
+      "lemmata": [
+        1006,
+        1007
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 47,
+      "end_verse": 50,
+      "lemmata": [
+        1008,
+        1009
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 51,
+      "end_verse": 52,
+      "lemmata": [
+        1010,
+        1011
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 53,
+      "end_verse": 53,
+      "lemmata": [
+        1012
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 55,
+      "end_verse": 56,
+      "lemmata": [
+        1013,
+        1014
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 56,
+      "end_verse": 57,
+      "lemmata": [
+        1015,
+        1016
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 58,
+      "end_verse": 58,
+      "lemmata": [
+        1017
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 59,
+      "end_verse": 60,
+      "lemmata": [
+        1018,
+        1019
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 60,
+      "end_verse": 63,
+      "lemmata": [
+        1020,
+        1021
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 64,
+      "end_verse": 64,
+      "lemmata": [
+        1022
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 68,
+      "end_verse": 68,
+      "lemmata": [
+        1023
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 69,
+      "end_verse": 70,
+      "lemmata": [
+        1024,
+        1025
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 71,
+      "end_verse": 71,
+      "lemmata": [
+        1026
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 73,
+      "end_verse": 73,
+      "lemmata": [
+        1027
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 26,
+      "start_verse": 75,
+      "end_verse": 75,
+      "lemmata": [
+        1028
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        1029,
+        1030
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 3,
+      "end_verse": 4,
+      "lemmata": [
+        1031,
+        1032
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        1033
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        1034,
+        1035
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        1036
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        1037
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        1038
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        1039,
+        1040
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        1041
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        1042
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 15,
+      "end_verse": 18,
+      "lemmata": [
+        1043,
+        1044
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        1045,
+        1046
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        1047
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        1048
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        1049
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        1050
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        1051
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 26,
+      "end_verse": 28,
+      "lemmata": [
+        1052,
+        1053,
+        1054
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        1055
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        1056
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        1057,
+        1058
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        1059,
+        1060
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        1061
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        1062
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        1063
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        1064
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 38,
+      "end_verse": 39,
+      "lemmata": [
+        1065,
+        1066
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        1067
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        1068
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        1069
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        1070
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        1071
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 45,
+      "end_verse": 47,
+      "lemmata": [
+        1072,
+        1073
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 48,
+      "end_verse": 48,
+      "lemmata": [
+        1074
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        1075
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        1076
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        1077
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        1078
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        1079
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 50,
+      "end_verse": 51,
+      "lemmata": [
+        1080,
+        1081
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 52,
+      "end_verse": 52,
+      "lemmata": [
+        1082
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 53,
+      "end_verse": 53,
+      "lemmata": [
+        1083
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 53,
+      "end_verse": 53,
+      "lemmata": [
+        1084,
+        1085
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 54,
+      "end_verse": 55,
+      "lemmata": [
+        1086,
+        1087
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 56,
+      "end_verse": 56,
+      "lemmata": [
+        1088
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 57,
+      "end_verse": 57,
+      "lemmata": [
+        1089
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 58,
+      "end_verse": 58,
+      "lemmata": [
+        1090
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 59,
+      "end_verse": 59,
+      "lemmata": [
+        1091
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 60,
+      "end_verse": 60,
+      "lemmata": [
+        1092
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 61,
+      "end_verse": 61,
+      "lemmata": [
+        1093
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 62,
+      "end_verse": 63,
+      "lemmata": [
+        1094,
+        1095
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 64,
+      "end_verse": 64,
+      "lemmata": [
+        1096
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 65,
+      "end_verse": 65,
+      "lemmata": [
+        1097
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 66,
+      "end_verse": 66,
+      "lemmata": [
+        1098
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 27,
+      "start_verse": 66,
+      "end_verse": 66,
+      "lemmata": [
+        1099,
+        1100
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        1101
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        1102
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        1103
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        1104
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        1105
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        1106
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        1107
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        1108,
+        1109
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        1110,
+        1111
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        1112
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        1113
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        1114
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        1115,
+        1116
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        1117
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        1118
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        1119
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        1120
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        1121
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        1122
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        1123
+      ]
+    },
+    {
+      "book": "mt",
+      "chapter": 28,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        1124
+      ]
+    }
+  ]
+}

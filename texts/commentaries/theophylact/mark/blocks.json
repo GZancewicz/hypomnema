@@ -1,0 +1,3869 @@
+{
+  "commentary": "Theophylact of Ohrid — Explanation of the Holy Gospel According to Mark",
+  "note": "Scripture-keyed blocks. Each block groups consecutive lemmata ending in exposition; range spans its members (build_theophylact_blocks.py).",
+  "total_blocks": 417,
+  "blocks": [
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        1,
+        2
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        3
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        4,
+        5
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        6
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        7,
+        8
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        9,
+        10
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        11,
+        12
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        13,
+        14
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        15
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        16
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        17
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        18,
+        19
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        20,
+        21
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        22
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        23
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        24
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        25
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        26
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        27,
+        28
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        29
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 35,
+      "end_verse": 36,
+      "lemmata": [
+        30,
+        31
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        32
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        33
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        34
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 40,
+      "end_verse": 41,
+      "lemmata": [
+        35,
+        36
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        37
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        38
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        39
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 1,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        40
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 1,
+      "end_verse": 4,
+      "lemmata": [
+        41,
+        42
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        43
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 6,
+      "end_verse": 8,
+      "lemmata": [
+        44,
+        45
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        46
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        47
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        48
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        49
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        50
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 13,
+      "end_verse": 17,
+      "lemmata": [
+        51,
+        52
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        53,
+        54
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        55
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        56,
+        57
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        58,
+        59
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        60
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        61
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 2,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        62
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        63,
+        64
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        65
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        66
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        67
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        68,
+        69
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        70
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        71
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        72
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        73
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        74
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        75
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        76
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        77
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 20,
+      "end_verse": 21,
+      "lemmata": [
+        78,
+        79
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        80
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 23,
+      "end_verse": 24,
+      "lemmata": [
+        81,
+        82
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        83
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        84
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 28,
+      "end_verse": 29,
+      "lemmata": [
+        85,
+        86
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        87,
+        88
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        89
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        90
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 3,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        91
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        92,
+        93
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 2,
+      "end_verse": 3,
+      "lemmata": [
+        94,
+        95
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        96
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        97
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        98
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        99
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        100
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        101
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 13,
+      "end_verse": 15,
+      "lemmata": [
+        102,
+        103
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        104
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        105
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        106
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        107
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        108
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 21,
+      "end_verse": 23,
+      "lemmata": [
+        109,
+        110
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        111
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        112
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        113
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        114
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        115
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        116,
+        117
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        118
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 35,
+      "end_verse": 36,
+      "lemmata": [
+        119,
+        120
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        121
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 4,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        122
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 1,
+      "end_verse": 3,
+      "lemmata": [
+        123,
+        124
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        125
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        126
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        127,
+        128
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        129
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        130
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        131,
+        132
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        133
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        134
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        135
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        136,
+        137
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        138
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        139
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        140
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        141
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        142,
+        143
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        144
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        145
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        146
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        147
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        148
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        149
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        150
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        151
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        152
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        153
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        154
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 35,
+      "end_verse": 36,
+      "lemmata": [
+        155,
+        156
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        157
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        158
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        159
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        160
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 5,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        161
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        162
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        163
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        164
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        165,
+        166
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        167
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        168,
+        169
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        170
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        171
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        172
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        173,
+        174
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        175
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        176
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        177,
+        178
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        179
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 17,
+      "end_verse": 18,
+      "lemmata": [
+        180,
+        181
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        182
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        183
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 21,
+      "end_verse": 22,
+      "lemmata": [
+        184,
+        185
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        186
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        187
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        188
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        189
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        190
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        191
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        192,
+        193
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        194
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        195
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 39,
+      "end_verse": 40,
+      "lemmata": [
+        196,
+        197
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 41,
+      "end_verse": 43,
+      "lemmata": [
+        198,
+        199
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        200
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 45,
+      "end_verse": 46,
+      "lemmata": [
+        201,
+        202
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 47,
+      "end_verse": 47,
+      "lemmata": [
+        203
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        204
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        205
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 51,
+      "end_verse": 51,
+      "lemmata": [
+        206
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 52,
+      "end_verse": 52,
+      "lemmata": [
+        207
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 53,
+      "end_verse": 54,
+      "lemmata": [
+        208,
+        209
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 6,
+      "start_verse": 56,
+      "end_verse": 56,
+      "lemmata": [
+        210
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        211,
+        212
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        213
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 6,
+      "end_verse": 11,
+      "lemmata": [
+        214,
+        215
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        216
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        217,
+        218
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        219
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        220
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        221
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        222
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        223
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        224
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        225
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        226
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        227,
+        228
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        229
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        230
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        231
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        232
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 7,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        233
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        234,
+        235
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        236
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        237
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        238
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        239
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        240
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        241
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 10,
+      "end_verse": 11,
+      "lemmata": [
+        242,
+        243
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        244
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 13,
+      "end_verse": 14,
+      "lemmata": [
+        245,
+        246
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        247
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        248
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        249
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        250
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        251
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 22,
+      "end_verse": 23,
+      "lemmata": [
+        252,
+        253
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        254
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        255
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        256
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        257,
+        258
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 27,
+      "end_verse": 28,
+      "lemmata": [
+        259,
+        260
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        261
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        262
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 31,
+      "end_verse": 32,
+      "lemmata": [
+        263,
+        264
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        265
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 34,
+      "end_verse": 35,
+      "lemmata": [
+        266,
+        267
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        268
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        269
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 8,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        270
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        271
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 4,
+      "end_verse": 5,
+      "lemmata": [
+        272,
+        273
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        274
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        275
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        276,
+        277
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        278
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 12,
+      "end_verse": 18,
+      "lemmata": [
+        279,
+        280
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        281
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        282
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        283
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        284
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        285
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 38,
+      "end_verse": 40,
+      "lemmata": [
+        286,
+        287
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        288
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        289
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 9,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        290,
+        291
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        292
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        293
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        294
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        295,
+        296
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        297
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        298
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        299
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        300
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        301,
+        302
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        303
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 35,
+      "end_verse": 38,
+      "lemmata": [
+        304,
+        305
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 39,
+      "end_verse": 40,
+      "lemmata": [
+        306,
+        307
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 41,
+      "end_verse": 45,
+      "lemmata": [
+        308,
+        309
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 46,
+      "end_verse": 48,
+      "lemmata": [
+        310,
+        311
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        312
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 50,
+      "end_verse": 50,
+      "lemmata": [
+        313
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 10,
+      "start_verse": 51,
+      "end_verse": 51,
+      "lemmata": [
+        314
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        315
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        316
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        317
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        318
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        319
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 7,
+      "end_verse": 8,
+      "lemmata": [
+        320,
+        321
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        322
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 11,
+      "end_verse": 12,
+      "lemmata": [
+        323,
+        324
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        325
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        326
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        327
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        328
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 19,
+      "end_verse": 20,
+      "lemmata": [
+        329,
+        330
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        331
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        332
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        333
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        334
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 24,
+      "end_verse": 25,
+      "lemmata": [
+        335,
+        336
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        337
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 27,
+      "end_verse": 28,
+      "lemmata": [
+        338,
+        339
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        340
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        341
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        342
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        343
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 11,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        344
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 1,
+      "end_verse": 3,
+      "lemmata": [
+        345,
+        346
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        347
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        348
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        349
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        350
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 9,
+      "end_verse": 30,
+      "lemmata": [
+        351,
+        352,
+        353
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 10,
+      "end_verse": 12,
+      "lemmata": [
+        354,
+        355
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 13,
+      "end_verse": 14,
+      "lemmata": [
+        356,
+        357
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        358
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        359
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        360,
+        361
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        362
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        363
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        364
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        365
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        366
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 28,
+      "end_verse": 29,
+      "lemmata": [
+        367,
+        368
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        369
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        370
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 33,
+      "end_verse": 33,
+      "lemmata": [
+        371
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        372
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        373
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        374
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        375
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        376
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        377
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 12,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        378
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        379,
+        380
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        381
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        382
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 5,
+      "end_verse": 6,
+      "lemmata": [
+        383,
+        384
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        385
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        386
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        387
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 10,
+      "end_verse": 12,
+      "lemmata": [
+        388,
+        389,
+        390
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        391
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        392,
+        393
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        394
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        395
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 18,
+      "end_verse": 19,
+      "lemmata": [
+        396,
+        397
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        398
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        399,
+        400
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 22,
+      "end_verse": 22,
+      "lemmata": [
+        401
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 23,
+      "end_verse": 23,
+      "lemmata": [
+        402
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 24,
+      "end_verse": 24,
+      "lemmata": [
+        403
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        404
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 26,
+      "end_verse": 26,
+      "lemmata": [
+        405
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 27,
+      "end_verse": 28,
+      "lemmata": [
+        406,
+        407
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        408
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 31,
+      "end_verse": 31,
+      "lemmata": [
+        409
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 32,
+      "end_verse": 33,
+      "lemmata": [
+        410,
+        411
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 34,
+      "end_verse": 34,
+      "lemmata": [
+        412
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 13,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        413
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 1,
+      "end_verse": 1,
+      "lemmata": [
+        414
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 2,
+      "end_verse": 2,
+      "lemmata": [
+        415
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        416
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        417
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 6,
+      "end_verse": 7,
+      "lemmata": [
+        418,
+        419
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        420
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        421
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 10,
+      "end_verse": 11,
+      "lemmata": [
+        422,
+        423
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 12,
+      "end_verse": 13,
+      "lemmata": [
+        424,
+        425
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        426
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        427
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 16,
+      "end_verse": 17,
+      "lemmata": [
+        428,
+        429
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        430
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        431
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 21,
+      "end_verse": 21,
+      "lemmata": [
+        432
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        433
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 22,
+      "end_verse": 23,
+      "lemmata": [
+        434,
+        435
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 25,
+      "end_verse": 25,
+      "lemmata": [
+        436
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 26,
+      "end_verse": 27,
+      "lemmata": [
+        437,
+        438
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 28,
+      "end_verse": 28,
+      "lemmata": [
+        439
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 29,
+      "end_verse": 29,
+      "lemmata": [
+        440
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 30,
+      "end_verse": 30,
+      "lemmata": [
+        441
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 32,
+      "end_verse": 34,
+      "lemmata": [
+        442,
+        443
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 35,
+      "end_verse": 35,
+      "lemmata": [
+        444
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        445
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 38,
+      "end_verse": 38,
+      "lemmata": [
+        446
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 39,
+      "end_verse": 39,
+      "lemmata": [
+        447
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 40,
+      "end_verse": 40,
+      "lemmata": [
+        448
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        449
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        450
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 43,
+      "end_verse": 45,
+      "lemmata": [
+        451,
+        452
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        453
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 47,
+      "end_verse": 47,
+      "lemmata": [
+        454
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 49,
+      "end_verse": 49,
+      "lemmata": [
+        455
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 50,
+      "end_verse": 51,
+      "lemmata": [
+        456,
+        457
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 52,
+      "end_verse": 52,
+      "lemmata": [
+        458
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 53,
+      "end_verse": 53,
+      "lemmata": [
+        459
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 54,
+      "end_verse": 54,
+      "lemmata": [
+        460
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 55,
+      "end_verse": 56,
+      "lemmata": [
+        461,
+        462
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 58,
+      "end_verse": 58,
+      "lemmata": [
+        463
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 59,
+      "end_verse": 59,
+      "lemmata": [
+        464
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 60,
+      "end_verse": 60,
+      "lemmata": [
+        465
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 61,
+      "end_verse": 61,
+      "lemmata": [
+        466
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 64,
+      "end_verse": 64,
+      "lemmata": [
+        467
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 65,
+      "end_verse": 65,
+      "lemmata": [
+        468
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 65,
+      "end_verse": 65,
+      "lemmata": [
+        469
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 66,
+      "end_verse": 67,
+      "lemmata": [
+        470,
+        471
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 69,
+      "end_verse": 69,
+      "lemmata": [
+        472
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 70,
+      "end_verse": 70,
+      "lemmata": [
+        473
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 14,
+      "start_verse": 72,
+      "end_verse": 72,
+      "lemmata": [
+        474
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 1,
+      "end_verse": 2,
+      "lemmata": [
+        475,
+        476
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 3,
+      "end_verse": 3,
+      "lemmata": [
+        477
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 4,
+      "end_verse": 4,
+      "lemmata": [
+        478
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 6,
+      "end_verse": 6,
+      "lemmata": [
+        479
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        480
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        481
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 9,
+      "end_verse": 9,
+      "lemmata": [
+        482
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 10,
+      "end_verse": 10,
+      "lemmata": [
+        483
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        484
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        485
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        486
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 15,
+      "end_verse": 15,
+      "lemmata": [
+        487
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        488
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        489
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 23,
+      "end_verse": 26,
+      "lemmata": [
+        490,
+        491
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 27,
+      "end_verse": 27,
+      "lemmata": [
+        492
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 29,
+      "end_verse": 31,
+      "lemmata": [
+        493,
+        494
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 32,
+      "end_verse": 32,
+      "lemmata": [
+        495
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 33,
+      "end_verse": 35,
+      "lemmata": [
+        496,
+        497
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 36,
+      "end_verse": 36,
+      "lemmata": [
+        498
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 37,
+      "end_verse": 37,
+      "lemmata": [
+        499
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 38,
+      "end_verse": 40,
+      "lemmata": [
+        500,
+        501
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 41,
+      "end_verse": 41,
+      "lemmata": [
+        502
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 42,
+      "end_verse": 42,
+      "lemmata": [
+        503
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 43,
+      "end_verse": 43,
+      "lemmata": [
+        504
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 44,
+      "end_verse": 44,
+      "lemmata": [
+        505
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 45,
+      "end_verse": 45,
+      "lemmata": [
+        506
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 46,
+      "end_verse": 46,
+      "lemmata": [
+        507
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 15,
+      "start_verse": 47,
+      "end_verse": 47,
+      "lemmata": [
+        508
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 1,
+      "end_verse": 3,
+      "lemmata": [
+        509,
+        510
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 5,
+      "end_verse": 5,
+      "lemmata": [
+        511
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 7,
+      "end_verse": 7,
+      "lemmata": [
+        512
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 8,
+      "end_verse": 8,
+      "lemmata": [
+        513
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 9,
+      "end_verse": 10,
+      "lemmata": [
+        514,
+        515
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 11,
+      "end_verse": 11,
+      "lemmata": [
+        516
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 12,
+      "end_verse": 12,
+      "lemmata": [
+        517
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 13,
+      "end_verse": 13,
+      "lemmata": [
+        518
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 14,
+      "end_verse": 14,
+      "lemmata": [
+        519
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 14,
+      "end_verse": 15,
+      "lemmata": [
+        520,
+        521
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 16,
+      "end_verse": 16,
+      "lemmata": [
+        522
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 17,
+      "end_verse": 17,
+      "lemmata": [
+        523
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 18,
+      "end_verse": 18,
+      "lemmata": [
+        524
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 19,
+      "end_verse": 19,
+      "lemmata": [
+        525
+      ]
+    },
+    {
+      "book": "mk",
+      "chapter": 16,
+      "start_verse": 20,
+      "end_verse": 20,
+      "lemmata": [
+        526
+      ]
+    }
+  ]
+}

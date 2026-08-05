@@ -240,10 +240,19 @@ def load_overrides(path):
 
 def coverage_entries(g, chapter, rows):
     return [{
-        "id": r["index"], "roman": "", "title": f"Lemma {r['index']}",
         "start": {"book": g, "chapter": r.get("chapter", chapter), "verse": r["start"]},
         "end": {"book": g, "chapter": r.get("chapter", chapter), "verse": r["end"]},
     } for r in rows if r["start"] is not None]
+
+
+def number_lemmata(entries):
+    # The app addresses lemmata globally: theophylactLemmaPaths() flattens every
+    # chapter folder into one list where index i is id i+1. Chapter-local indices
+    # would collide across chapters, so number the concatenated run 1..N.
+    numbered = []
+    for n, e in enumerate(entries, 1):
+        numbered.append({"id": n, "roman": "", "title": f"Lemma {n}", **e})
+    return numbered
 
 
 def main():
@@ -268,7 +277,8 @@ def main():
     all_rows = [(c, r) for c, rows in per_ch for r in rows]
 
     if args.coverage_json:
-        homilies = [h for c, rows in per_ch for h in coverage_entries(g, c, rows)]
+        homilies = number_lemmata(
+            [h for c, rows in per_ch for h in coverage_entries(g, c, rows)])
         title = f"Explanation of the Holy Gospel According to {g.title()}"
         print(json.dumps({"commentary": f"Theophylact of Ohrid — {title}",
                           "note": "Section = Lemma N. Coverage: Greek«»→Patriarchal cosine (match_verses.py).",

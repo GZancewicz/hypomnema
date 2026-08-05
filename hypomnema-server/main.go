@@ -1949,6 +1949,71 @@ var (
 	theophylactPathsMu sync.Mutex
 )
 
+// TheophylactBlock groups the consecutive lemmata that make up one logical unit
+// of commentary: the scripture quote plus the exposition on it. The PG sectioning
+// splits these across folders, so a lemma read alone can be a bare quote.
+type TheophylactBlock struct {
+	Book       string `json:"book"`
+	Chapter    int    `json:"chapter"`
+	StartVerse int    `json:"start_verse"`
+	EndVerse   int    `json:"end_verse"`
+	EndChapter int    `json:"end_chapter"`
+	Lemmata    []int  `json:"lemmata"`
+}
+
+var (
+	theophylactBlocks   = map[string][]TheophylactBlock{}
+	theophylactBlockOf  = map[string]map[int]int{}
+	theophylactBlocksMu sync.Mutex
+)
+
+// theophylactBlocksFor loads blocks.json for a gospel and indexes every member
+// lemma to its block, so any lemma id resolves to the unit that contains it.
+func theophylactBlocksFor(book string) ([]TheophylactBlock, map[int]int, error) {
+	theophylactBlocksMu.Lock()
+	defer theophylactBlocksMu.Unlock()
+
+	if blocks, ok := theophylactBlocks[book]; ok {
+		return blocks, theophylactBlockOf[book], nil
+	}
+
+	path := fmt.Sprintf("../texts/commentaries/theophylact/%s/blocks.json", book)
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, nil, err
+	}
+	var payload struct {
+		Blocks []TheophylactBlock `json:"blocks"`
+	}
+	if err := json.Unmarshal(data, &payload); err != nil {
+		return nil, nil, err
+	}
+
+	index := map[int]int{}
+	for i, b := range payload.Blocks {
+		for _, id := range b.Lemmata {
+			index[id] = i
+		}
+	}
+
+	theophylactBlocks[book] = payload.Blocks
+	theophylactBlockOf[book] = index
+	log.Printf("Indexed %d Theophylact blocks for %s", len(payload.Blocks), book)
+	return payload.Blocks, index, nil
+}
+
+// theophylactBlockRange renders a block's scripture range for display.
+func theophylactBlockRange(book string, b TheophylactBlock) string {
+	name := strings.Title(book)
+	if b.EndChapter != 0 && b.EndChapter != b.Chapter {
+		return fmt.Sprintf("%s %d:%d-%d:%d", name, b.Chapter, b.StartVerse, b.EndChapter, b.EndVerse)
+	}
+	if b.EndVerse != b.StartVerse {
+		return fmt.Sprintf("%s %d:%d-%d", name, b.Chapter, b.StartVerse, b.EndVerse)
+	}
+	return fmt.Sprintf("%s %d:%d", name, b.Chapter, b.StartVerse)
+}
+
 // theophylactLemmaPaths returns lemma folder paths for a gospel, ordered so that
 // index i corresponds to lemma id i+1 (matching coverage.json ordering).
 func theophylactLemmaPaths(book string) ([]string, error) {
@@ -2013,8 +2078,43 @@ func theophylactLemmaPaths(book string) ([]string, error) {
 	return paths, nil
 }
 
-// extractTheophylactGreek renders a lemma's PG Greek text as HTML. The lemma's
-// scripture quote («…») becomes a bold blockquote; the exposition follows as prose.
+// theophylactLemmaText reads one lemma's PG text and splits it into its leading
+// scripture quote and the exposition that follows. The PG sectioning cuts long
+// quotes at the column boundary, so a lemma may open « without ever closing it
+// (all scripture), or close » having never opened (a continuation).
+func theophylactLemmaText(folder string) (quote, prose string, err error) {
+	textPath := filepath.Join(folder, filepath.Base(folder)+".txt")
+	raw, err := os.ReadFile(textPath)
+	if err != nil {
+		return "", "", err
+	}
+
+	// The source is hard-wrapped at the column width of the PG scan; join the
+	// lines back into flowing text.
+	text := strings.TrimSpace(string(raw))
+	text = regexp.MustCompile(`[ \t]*\n[ \t]*`).ReplaceAllString(text, " ")
+	text = strings.Join(strings.Fields(text), " ")
+
+	if strings.HasPrefix(text, "«") {
+		body := text[len("«"):]
+		if end := strings.Index(body, "»"); end >= 0 {
+			return strings.TrimSpace(body[:end]), strings.TrimSpace(body[end+len("»"):]), nil
+		}
+		// Quote runs to the end of the section: all scripture, no exposition.
+		return strings.TrimSpace(body), "", nil
+	}
+	if end := strings.Index(text, "»"); end >= 0 {
+		return strings.TrimSpace(text[:end]), strings.TrimSpace(text[end+len("»"):]), nil
+	}
+	// No guillemets at all. OCR drops them often enough that this is ambiguous,
+	// but a section that never opens a quote is already running prose.
+	return "", text, nil
+}
+
+// extractTheophylactGreek renders the block containing the given lemma as HTML:
+// the scripture stitched across its member lemmata becomes one bold blockquote,
+// and the exposition follows as prose. Any member id resolves to its block, so
+// links to a mid-block lemma still return the whole unit rather than a bare quote.
 func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) {
 	paths, err := theophylactLemmaPaths(book)
 	if err != nil {
@@ -2024,31 +2124,47 @@ func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) 
 		return "", "", fmt.Errorf("lemma %d out of range for %s (1-%d)", lemmaNum, book, len(paths))
 	}
 
-	folder := paths[lemmaNum-1]
-	textPath := filepath.Join(folder, filepath.Base(folder)+".txt")
-	raw, err := os.ReadFile(textPath)
-	if err != nil {
-		return "", "", err
-	}
-
+	members := []int{lemmaNum}
 	verseRef := ""
-	metaPath := filepath.Join(folder, "metadata.json")
-	if metaData, err := os.ReadFile(metaPath); err == nil {
-		var meta struct {
-			ScriptureReference struct {
-				Display string `json:"display"`
-			} `json:"scripture_reference"`
-		}
-		if json.Unmarshal(metaData, &meta) == nil {
-			verseRef = meta.ScriptureReference.Display
+	if blocks, index, err := theophylactBlocksFor(book); err == nil {
+		if i, ok := index[lemmaNum]; ok {
+			members = blocks[i].Lemmata
+			verseRef = theophylactBlockRange(book, blocks[i])
 		}
 	}
 
-	// The source is hard-wrapped at the column width of the PG scan; join the
-	// lines back into flowing text before splitting into logical paragraphs.
-	text := strings.TrimSpace(string(raw))
-	text = regexp.MustCompile(`[ \t]*\n[ \t]*`).ReplaceAllString(text, " ")
-	text = strings.Join(strings.Fields(text), " ")
+	if verseRef == "" {
+		// No blocks.json for this gospel; fall back to the lemma's own metadata.
+		metaPath := filepath.Join(paths[lemmaNum-1], "metadata.json")
+		if metaData, err := os.ReadFile(metaPath); err == nil {
+			var meta struct {
+				ScriptureReference struct {
+					Display string `json:"display"`
+				} `json:"scripture_reference"`
+			}
+			if json.Unmarshal(metaData, &meta) == nil {
+				verseRef = meta.ScriptureReference.Display
+			}
+		}
+	}
+
+	quotes := []string{}
+	proses := []string{}
+	for _, id := range members {
+		if id < 1 || id > len(paths) {
+			continue
+		}
+		quote, prose, err := theophylactLemmaText(paths[id-1])
+		if err != nil {
+			return "", "", err
+		}
+		if quote != "" {
+			quotes = append(quotes, quote)
+		}
+		if prose != "" {
+			proses = append(proses, prose)
+		}
+	}
 
 	// Stray guillemets inside a quote are OCR artifacts (a » scanned as «);
 	// normalize them to curly quotes so no raw guillemet reaches the page.
@@ -2056,41 +2172,13 @@ func extractTheophylactGreek(book string, lemmaNum int) (string, string, error) 
 
 	var html strings.Builder
 	html.WriteString(`<div class="greek-commentary" lang="grc">`)
-
-	// Pull off the leading «…» scripture quote, if present, as the lemma heading.
-	// Many lemmata are scripture-only stubs whose quote is never closed (the PG
-	// section boundary cuts it off), so a missing » means the quote runs to the end.
-	if strings.HasPrefix(text, "«") {
-		body := text[len("«"):]
-		quote := body
-		rest := ""
-		if end := strings.Index(body, "»"); end >= 0 {
-			quote = body[:end]
-			rest = strings.TrimSpace(body[end+len("»"):])
-		}
+	if len(quotes) > 0 {
 		html.WriteString(`<blockquote class="lemma-quote"><strong>` +
-			template.HTMLEscapeString(tidy.Replace(strings.TrimSpace(quote))) + `</strong></blockquote>`)
-		text = rest
-	} else if end := strings.Index(text, "»"); end >= 0 {
-		// Mirror case: the lemma continues a quote opened in the previous section,
-		// so it closes with » having never opened. The head is still scripture.
-		quote := strings.TrimSpace(text[:end])
-		if quote != "" {
-			html.WriteString(`<blockquote class="lemma-quote"><strong>` +
-				template.HTMLEscapeString(tidy.Replace(quote)) + `</strong></blockquote>`)
-		}
-		text = strings.TrimSpace(text[end+len("»"):])
+			template.HTMLEscapeString(tidy.Replace(strings.Join(quotes, " "))) +
+			`</strong></blockquote>`)
 	}
-
-	// Any remaining guillemets are inline quotations within the exposition.
-	text = tidy.Replace(text)
-
-	for _, para := range strings.Split(text, "\n\n") {
-		para = strings.TrimSpace(para)
-		if para == "" {
-			continue
-		}
-		html.WriteString("<p>" + template.HTMLEscapeString(para) + "</p>")
+	for _, para := range proses {
+		html.WriteString("<p>" + template.HTMLEscapeString(tidy.Replace(para)) + "</p>")
 	}
 	html.WriteString("</div>")
 
