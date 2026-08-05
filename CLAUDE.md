@@ -1,7 +1,8 @@
 # Hypomnema
 
 KJV New Testament reader with patristic commentary (Chrysostom, Cyril, Gregory, Bede,
-Theophylact) and Eusebian canon cross-references. Go + HTMX, port 8080.
+Theophylact, Maximos, Nikolai, Ephraim), Synaxarion lives, a Diatessaron reader, and
+Eusebian canon cross-references. Go + HTMX, port 8080.
 
 ## Task tracking
 Shortcut is the board (MCP server `shortcut`, workspace `orthodox-net`). Epics 383
@@ -36,10 +37,17 @@ python scripts/verify_commentaries_complete.py
 
 ## Layout
 `hypomnema-server/` is the Go app (main.go holds all endpoints); it expects texts at
-`../texts/`. Under `texts/`: `scripture/` (KJV + Greek TR), `commentaries/<author>/<book>/`
-(each homily/sermon folder has a `metadata.json` with verse range and footnotes),
-`reference/` (Eusebian canons, KJV paragraphs). Chapter files are `matthew_01.txt`, verses
-`chapter:verse text`.
+`../texts/`. Under `texts/`: `scripture/` (KJV + Greek `textus_receptus/` and
+`patriarchal/`), `commentaries/<author>/<book>/` (each homily/sermon folder has a
+`metadata.json` with verse range and footnotes), `diatessaron/` (Tatian, 55 sections;
+Ephraim's commentary lives in `commentaries/ephraim/diatessaron/`), `reference/`
+(Eusebian canons, KJV paragraphs). Chapter files are `matthew_01.txt`, verses
+`chapter:verse text`. Top-level `synaxarion/calendar/` holds the per-day
+commemorations + icons (all 366 days populated).
+
+`hypomnema-server/apiv1/` is the JSON REST API, mounted at `/api/v1` (coverage +
+commentary lookup; OpenAPI spec and Swagger docs embedded via `go:embed`, served at
+`/api/v1/docs`). The HTML-fragment `/api/*` endpoints in main.go are for HTMX, not REST.
 
 Adding a commentary needs no code — create the folder structure and metadata; the app
 reads it. Homily numbers are Roman in display, Arabic in URLs. Cyril's sermons use

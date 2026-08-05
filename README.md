@@ -2,7 +2,7 @@
 
 **Hypomnema** (ὑπόμνημα) is a Greek word meaning "reminder," "note," "commentary," or "memorandum." In ancient times, a *hypomnema* was a notebook or commentary where readers would record their thoughts, interpretations, and cross-references while studying texts. This application embodies that tradition by providing integrated commentary and cross-references alongside the biblical text.
 
-The hypomnema app is a biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, and Maximos the Confessor.
+The hypomnema app is a biblical text reader featuring the King James Version (KJV) New Testament with integrated patristic commentary from Church Fathers including John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Maximos the Confessor, Theophylact of Ohrid, Ephraim the Syrian, and Nikolai Velimirovich.
 
 ## Features
 
@@ -19,13 +19,14 @@ The hypomnema app is a biblical text reader featuring the King James Version (KJ
   - Venerable Bede's 50 homilies across all four Gospels
   - Nikolai Velimirovich's daily meditations from the Prologue of Ohrid featuring homilies on Scripture (In progress)
   - Maximos the Confessor's treatise On the Lord's Prayer
-  - Synaxarion entries linking saints' lives to New Testament passages (Sept 1 – Oct 31, in progress)
+  - Synaxarion entries linking saints' lives to New Testament passages (all 366 calendar days)
   - Theophylact of Ohrid's commentary on all four Gospels, 5,028 lemmata served as the Migne PG Greek (English translation in progress)
   - Minimal blue markers in the right margin
   - Split-screen commentary viewing (50/50 layout), with the passage covered shown under the title
   - Hover tooltips showing commentary references
   - Smart cross-referencing to parallel Gospel passages
   - Footnotes with hover tooltips
+- **Diatessaron Reader** — Tatian's Diatessaron (Hope W. Hogg's ANF vol. 9 translation, 55 sections) with per-section Gospel references and Ephraim the Syrian's commentary (English translation in progress)
 - **Eusebian Canon System**
   - Canon numbers displayed in text with clickable links
   - Modal showing parallel Gospel passages with full verse text
@@ -91,6 +92,7 @@ texts/commentaries/
 ├── bede/                    # 50 Homilies on the Gospels
 ├── nikolai/                 # Prologue of Ohrid
 ├── maximos_the_confessor/   # On the Lord's Prayer
+├── ephraim/                 # Commentary on the Diatessaron (in progress)
 ├── synaxarion/              # Saints' lives linked to Gospel passages
 └── theophylact/             # Commentary (in progress)
 ```
@@ -171,7 +173,8 @@ hypomnema/
 │   │       ├── english/
 │   │       │   └── kjv/     # KJV text files by book/chapter
 │   │       └── greek/
-│   │           └── tr/      # Textus Receptus
+│   │           ├── textus_receptus/ # Textus Receptus
+│   │           └── patriarchal/     # Patriarchal (Byzantine) text
 │   ├── commentaries/        # Patristic commentaries
 │   │   ├── chrysostom/      # John Chrysostom (Matthew, John)
 │   │   ├── cyril/           # Cyril of Alexandria (Luke)
@@ -179,11 +182,14 @@ hypomnema/
 │   │   ├── bede/            # Venerable Bede (all Gospels)
 │   │   ├── nikolai/         # Nikolai Velimirovich (Prologue)
 │   │   ├── maximos_the_confessor/ # Maximos (Lord's Prayer)
+│   │   ├── ephraim/         # Ephraim the Syrian (Diatessaron, in progress)
 │   │   ├── synaxarion/      # Saints' lives
 │   │   └── theophylact/     # Theophylact (in progress)
+│   ├── diatessaron/         # Tatian's Diatessaron (Hogg translation, 55 sections)
 │   └── reference/           
 │       ├── eusebian_canons/ # Canon tables and mappings
 │       └── kjv_paragraphs/  # Paragraph divisions
+├── synaxarion/              # Synaxarion calendar source (commemorations + icons by day)
 ├── scripts/                 # Python utility scripts
 ├── CLAUDE.md               # Development notes and instructions
 └── README.md
@@ -253,10 +259,17 @@ The application integrates patristic commentary on the Gospels from multiple Chu
 - Covers both Matthew 6:9-13 and Luke 11:2-4
 - Deep theological reflection on the Lord's Prayer
 
+### Ephraim the Syrian (c. 306-373)
+
+*A deacon and hymnographer of Nisibis and Edessa, the greatest poet-theologian of the Syriac tradition, honored as "the Harp of the Spirit." His Commentary on Tatian's Diatessaron — the second-century harmony of the four Gospels — survives complete in Armenian and partially in Syriac (Chester Beatty MS 709).*
+
+- **Commentary on the Diatessaron**, presented alongside the Diatessaron reader section by section
+- English translation in progress (from Moesinger's 1876 Latin edition of the Armenian)
+
 ### Synaxarion
 - **Saints' lives** linked to specific New Testament passages
 - Entries organized by liturgical date with saint name and scripture reference
-- **Coverage (in progress):** calendar days **September 1 through October 31** (old calendar) have been incorporated so far; work is ongoing to extend coverage through the remaining days
+- **Coverage:** all 366 calendar days (old calendar) are incorporated
 
 ### Theophylact of Ohrid (c. 1050-1107)
 
