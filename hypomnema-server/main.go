@@ -669,6 +669,10 @@ func main() {
 	// Serve static files
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
 
+	// Root-level agent/crawler files
+	http.HandleFunc("/llms.txt", rootTextFileHandler("llms.txt"))
+	http.HandleFunc("/robots.txt", rootTextFileHandler("robots.txt"))
+
 	// Main page
 	http.HandleFunc("/", indexHandler)
 
@@ -714,6 +718,18 @@ func assetVersion(path string) string {
 		}
 	}
 	return strconv.FormatInt(info.ModTime().Unix(), 10)
+}
+
+func rootTextFileHandler(name string) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		path := filepath.Join("static", name)
+		if _, err := os.Stat(path); err != nil {
+			wd, _ := os.Getwd()
+			path = filepath.Join(wd, "..", "hypomnema-server", "static", name)
+		}
+		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+		http.ServeFile(w, r, path)
+	}
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {

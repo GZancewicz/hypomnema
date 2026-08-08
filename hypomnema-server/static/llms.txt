@@ -1,0 +1,50 @@
+# Hypomnema
+
+> A King James Version New Testament reader paired with the patristic commentary
+> tradition: homilies, sermons and scholia from the Church Fathers aligned to the
+> verses they expound, alongside Synaxarion saints' lives, a Diatessaron reader and
+> Eusebian canon cross-references.
+
+Every commentary is aligned to a specific verse range, so a passage can be read
+together with what the Fathers wrote about that passage. Greek witnesses (Textus
+Receptus and the Patriarchal text) are available for the New Testament, and
+Theophylact's commentary is served from the Greek of Migne's Patrologia Graeca.
+
+## Reading the text
+
+- [New Testament reader](https://hypomnema.online/): KJV text with commentary markers in the margin. Chapter URLs follow `/{book}/{chapter}`, e.g. [Matthew 1](https://hypomnema.online/matthew/1), [John 3](https://hypomnema.online/john/3), [Romans 8](https://hypomnema.online/romans/8).
+- [Diatessaron](https://hypomnema.online/api/diatessaron): Tatian's second-century Gospel harmony in 55 sections, with Ephraim the Syrian's commentary.
+- [Synaxarion](https://hypomnema.online/api/synaxarion): commemorations and saints' lives for all 366 days of the liturgical calendar.
+- [Eusebian canons](https://hypomnema.online/api/references): the ancient cross-reference tables for Gospel parallels.
+- [About](https://hypomnema.online/api/about): what this project is and where the texts come from.
+
+## Commentators
+
+Homilies and commentaries are indexed at [the commentary index](https://hypomnema.online/api/index). Individual homilies are served at `/homily/{id}`, e.g. [homily 1](https://hypomnema.online/homily/1). Authors included:
+
+- John Chrysostom
+- Cyril of Alexandria
+- Gregory the Great
+- The Venerable Bede
+- Theophylact of Ohrid
+- Maximos the Confessor
+- Nikolai Velimirovich
+- Ephraim the Syrian
+
+## JSON API
+
+- [API documentation](https://hypomnema.online/api/v1/docs): Swagger UI for the public REST API.
+- [OpenAPI specification](https://hypomnema.online/api/v1/openapi.json): machine-readable schema.
+
+The REST API at `/api/v1` exposes commentary coverage and lookup: which commentaries
+address a given verse, and the text of each. Prefer it over scraping the HTML pages —
+the `/api/*` endpoints outside `/api/v1` return HTML fragments for the reader's
+interactive updates, not stable JSON.
+
+## Notes for automated readers
+
+- Scripture text is the King James Version and is in the public domain.
+- Commentary translations are drawn from public-domain sources; the Theophylact
+  translations are original to this project.
+- Homily numbers appear as Roman numerals in the interface and Arabic numerals in URLs.
+- There is no rate limit, but please crawl considerately.
