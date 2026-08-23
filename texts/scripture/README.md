@@ -8,7 +8,9 @@ This directory contains biblical texts organized by testament, language, and ver
 scripture/
 ├── old_testament/
 │   ├── english/
-│   │   └── brenton/          # Brenton's Septuagint Translation
+│   │   └── brenton/
+│   │       ├── usfm/         # Brenton's Septuagint — current build
+│   │       └── html-2025-07/ # superseded scrape, do not use
 │   └── greek/
 │       └── apostoliki_diakonia/  # Greek Septuagint from apostoliki-diakonia.gr
 └── new_testament/
@@ -27,7 +29,8 @@ scripture/
 ## Current Contents
 
 ### Old Testament
-- **English**: Brenton's Septuagint Translation (complete)
+- **English**: Brenton's Septuagint Translation — use `brenton/usfm/`
+  (53 books, 29,004 verses; `brenton/html-2025-07/` is superseded)
 - **Greek**: Apostoliki Diakonia Septuagint (partially complete - see README in that directory)
 
 ### New Testament

@@ -5,9 +5,14 @@ This directory contains Old Testament (Hebrew Bible/Septuagint) texts in various
 ## Current Contents
 
 ### English
-- **brenton/**: Brenton's English translation of the Septuagint (Greek Old Testament)
-  - Complete translation of all books including deuterocanonical texts
-  - Based on the Greek Septuagint rather than the Hebrew Masoretic Text
+- **brenton/**: Brenton's English translation of the Septuagint (1851), including
+  the deuterocanonical books. Based on the Greek Septuagint rather than the
+  Hebrew Masoretic Text.
+  - Use **`brenton/usfm/`** — 53 books, 29,004 verses, built from eBible.org's
+    USFM edition and laid out like the KJV New Testament (`genesis/genesis.txt`
+    plus `genesis/01/genesis_01.txt`).
+  - `brenton/html-2025-07/` is an earlier HTML scrape that truncated ~20% of
+    verses. Superseded — do not use. See `brenton/README.md`.
 
 ### Greek
 - **apostoliki_diakonia/**: Greek Septuagint text from apostoliki-diakonia.gr
@@ -28,6 +33,15 @@ The texts here primarily follow the Septuagint tradition, which includes:
 - Different book order
 - Textual variations from the Hebrew Masoretic Text
 - Different chapter/verse divisions in some books
+
+## Known Gaps
+
+- The Greek AD text is missing 12 books outright (Kingdoms, Chronicles, Esdras,
+  Maccabees) and 4 more are missing individual chapters. Every one of those
+  books *is* present in English in `brenton/usfm/`.
+- Brenton's footnotes and cross-references are not carried into the text files,
+  matching the New Testament convention. The USFM sources in
+  `brenton/usfm/src/` retain them if an apparatus is ever wanted.
 
 ## Future Additions
 

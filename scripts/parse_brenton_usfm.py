@@ -41,6 +41,9 @@ def clean(text):
     text = NOTE_SPAN.sub("", text)
     text = CHAR_MARKER.sub("", text)
     text = WS.sub(" ", text)
+    text = text.replace("— ", "—").replace(" —", "—")
+    text = re.sub(r"\( ", "(", text)
+    text = re.sub(r"(\w)- (\w)", r"\1-\2", text)
     return text.strip()
 
 
@@ -54,12 +57,16 @@ def parse(path):
 
     # Join the verse's continuation lines, then split on \v and \c.
     chapters, chapter, verse, buf = {}, None, None, []
+    order = {}
 
     def flush():
         if chapter is not None and verse is not None:
             text = clean(" ".join(buf))
             if text:
-                chapters.setdefault(chapter, {})[verse] = text
+                ch = chapters.setdefault(chapter, {})
+                if verse not in ch:
+                    order.setdefault(chapter, []).append(verse)
+                ch[verse] = text
 
     for line in raw.splitlines():
         cm = re.match(r"\\c\s+(\d+)", line)
@@ -68,23 +75,23 @@ def parse(path):
             chapter, verse, buf = int(cm.group(1)), None, []
             chapters.setdefault(chapter, {})
             continue
-        vm = re.match(r"\\v\s+(\d+)\s*(.*)", line)
+        vm = re.match(r"\\v\s+(\d+[a-z]?)\s*(.*)", line)
         if vm:
             flush()
-            verse, buf = int(vm.group(1)), [vm.group(2)]
+            verse, buf = vm.group(1), [vm.group(2)]
             continue
         if re.match(r"\\(id|h|toc\d|mt\d|is\d|ip|im|ib|cl|ie)\b", line):
             continue
         if verse is not None:
             buf.append(re.sub(r"^\\[a-z]+\d*\s*", "", line))
     flush()
-    return code, chapters
+    return code, chapters, order
 
 
 def main():
     written = []
     for path in sorted(SRC.glob("*.usfm")):
-        code, chapters = parse(path)
+        code, chapters, order = parse(path)
         if code not in BOOKS:
             continue
         name = BOOKS[code]
@@ -96,7 +103,7 @@ def main():
             verses = chapters[ch]
             if not verses:
                 continue
-            lines = [f"{ch}:{v} {verses[v]}" for v in sorted(verses)]
+            lines = [f"{ch}:{v} {verses[v]}" for v in order.get(ch, sorted(verses))]
             cdir = book_dir / f"{ch:02d}"
             cdir.mkdir(exist_ok=True)
             (cdir / f"{name}_{ch:02d}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")

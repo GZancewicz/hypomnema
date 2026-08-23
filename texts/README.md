@@ -25,17 +25,23 @@ texts/
 - **Total Verses**: ~7,957
 
 ### Brenton Septuagint Translation
-- **Location**: `scripture/english/brenton/`
-- **Content**: 54 books (39 Old Testament + 15 Deuterocanonical)
-- **Source**: [eBible.org](https://ebible.org/eng-Brenton/)
-- **Downloaded**: July 2025 HTML version
-- **Format**: Plain text, `chapter:verse text`
+- **Location**: `scripture/old_testament/english/brenton/usfm/`
+- **Content**: 53 books (39 Old Testament + 14 Deuterocanonical)
+- **Source**: [eBible.org](https://ebible.org/eng-Brenton/), USFM edition
+- **Downloaded**: 2026-08-23 (eBible source files dated 12 Dec 2025)
+- **Format**: Plain text, `chapter:verse text`, laid out like the KJV New
+  Testament — `genesis/genesis.txt` plus `genesis/01/genesis_01.txt`
+- **Built by**: `scripts/parse_brenton_usfm.py`
 - **License**: Public Domain
-- **Total Verses**: ~23,000+
+- **Total Verses**: 29,004 (includes 315 lettered LXX verses such as `9:18a`)
+- **Superseded**: `scripture/old_testament/english/brenton/html-2025-07/` is an
+  earlier scrape of eBible's HTML edition that truncated ~20% of verses. Do not
+  use it; see `brenton/README.md`.
 - **Includes Deuterocanonical books**:
   - Tobit, Judith, Wisdom of Solomon, Sirach (Ecclesiasticus)
   - Baruch, Letter of Jeremiah
-  - Additions to Daniel (Prayer of Azariah, Susanna, Bel and the Dragon)
+  - Susanna, Bel and the Dragon (Prayer of Azariah is inside Daniel, not a
+    separate book)
   - 1-4 Maccabees
   - Prayer of Manasseh
   - 1 Esdras
@@ -87,10 +93,20 @@ Example from John 1:1:
 
 ## Fetch Scripts
 
-The scripts used to download these texts are located in `/scripts/`:
-- `fetch-kjv-simple.py` - Downloads KJV New Testament
-- `parse-brenton-html.py` - Parses Brenton Septuagint from eBible HTML
-- `fetch-greek-unicode-tr.py` - Downloads Unicode Greek Textus Receptus
+Only some of the original fetch scripts were committed. Present in `/scripts/`:
+
+- `parse_brenton_usfm.py` - Builds the Brenton Septuagint from the USFM sources
+  kept in `brenton/usfm/src/`
+- `download_patriarchal_text.py` - Downloads the Greek Patriarchal New Testament
+
+**Not preserved** — these ran once and were never committed, so those texts
+cannot currently be reproduced or resumed without rewriting them:
+
+- `fetch-kjv-simple.py` - Downloaded the KJV New Testament
+- `parse-brenton-html.py` - Parsed Brenton from eBible HTML. This is the script
+  that truncated ~20% of verses; superseded by `parse_brenton_usfm.py`.
+- `fetch-greek-unicode-tr.py` - Downloaded the Unicode Greek Textus Receptus
+- `fetch-apostoliki-book.py` and helpers - Fetched the AD Greek Septuagint
 
 ## Usage Notes
 
@@ -102,6 +118,6 @@ The scripts used to download these texts are located in `/scripts/`:
 ## Updates and Maintenance
 
 - KJV texts fetched via bible-api.com API
-- Brenton texts parsed from eBible.org HTML downloads
+- Brenton texts parsed from eBible.org USFM downloads (`scripts/parse_brenton_usfm.py`)
 - Greek TR downloaded from GitHub (KJTR repository)
-- Last updated: July 2025
+- Last updated: 2026-08-23
