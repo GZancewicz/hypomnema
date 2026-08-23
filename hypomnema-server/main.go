@@ -699,6 +699,10 @@ func main() {
 	// Homily page
 	http.HandleFunc("/homily/", homilyHandler)
 
+	// Knowledge-graph sandbox (unlinked; not in any nav)
+	http.HandleFunc("/graph", graphHandler)
+	http.HandleFunc("/api/graph-data", graphDataHandler)
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
@@ -718,6 +722,42 @@ func assetVersion(path string) string {
 		}
 	}
 	return strconv.FormatInt(info.ModTime().Unix(), 10)
+}
+
+func graphHandler(w http.ResponseWriter, r *http.Request) {
+	tmpl, err := template.ParseGlob("templates/*.html")
+	if err != nil {
+		wd, _ := os.Getwd()
+		tmpl, err = template.ParseGlob(filepath.Join(wd, "..", "templates", "*.html"))
+		if err != nil {
+			tmpl = templates
+		}
+	}
+
+	data := struct {
+		AssetVersion string
+		Lives        int
+	}{
+		AssetVersion: assetVersion("static/graph.js"),
+		Lives:        251,
+	}
+
+	w.Header().Set("X-Robots-Tag", "noindex, nofollow")
+	w.Header().Set("Cache-Control", "no-cache, must-revalidate")
+	if err := tmpl.ExecuteTemplate(w, "graph.html", data); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+}
+
+func graphDataHandler(w http.ResponseWriter, r *http.Request) {
+	path := filepath.Join("static", "graph-data.json")
+	if _, err := os.Stat(path); err != nil {
+		wd, _ := os.Getwd()
+		path = filepath.Join(wd, "..", "hypomnema-server", "static", "graph-data.json")
+	}
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.Header().Set("X-Robots-Tag", "noindex, nofollow")
+	http.ServeFile(w, r, path)
 }
 
 func rootTextFileHandler(name string) http.HandlerFunc {
