@@ -587,6 +587,27 @@
                         </ul>
                     </div>
                 </div>
+                <div class="accordion">
+                    <h3 class="accordion-header" onclick="toggleAccordion(this)">
+                        <span class="accordion-icon collapsed">▼</span>Old Testament
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <ul hx-boost="true" hx-target="#text-content" hx-swap="innerHTML" hx-ext="preload">
+                            {{range .OTBooks}}
+                            <li class="book-item {{if eq $.CurrentBook .ID}}active{{end}}"
+                                data-book-id="{{.ID}}"
+                                hx-get="/api/chapter/{{.ID}}/1"
+                                hx-target="#text-content"
+                                hx-swap="innerHTML show:window:top"
+                                hx-push-url="/{{.ID}}/1"
+                                hx-indicator="#loading-indicator"
+                                preload="mousedown">
+                                {{.Name}}
+                            </li>
+                            {{end}}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
         
@@ -670,6 +691,7 @@
         // Book chapter counts
         const bookChapters = {
             {{range .Books}}'{{.ID}}': {{.Chapters}},
+            {{end}}{{range .OTBooks}}'{{.ID}}': {{.Chapters}},
             {{end}}
         };
         
@@ -775,7 +797,10 @@
                 if (match) {
                     currentBook = match[1];
                     currentChapter = parseInt(match[2]);
-                    
+
+                    // Rebuild the chapter picker for the newly loaded book
+                    populateChapterSelectors(currentBook, currentChapter);
+
                     // Update active book in sidebar
                     document.querySelectorAll('.book-item').forEach(item => {
                         item.classList.toggle('active', item.getAttribute('data-book-id') === currentBook);

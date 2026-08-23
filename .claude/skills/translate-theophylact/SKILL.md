@@ -74,6 +74,29 @@ Where the OCR'd Greek is **corrupt/ambiguous**:
   gaps, not paper over them.
 - If a whole lemma/clause is unrecoverable, translate what is legible, bracket the rest.
 
+**Routine orthography vs. substantive reconstruction.** The rule above governs corrupt or
+ambiguous text. Below it lies pure typography — and the boundary must not be each
+translator's private judgment, or two lemmata will be edited to two different standards:
+- **Normalize silently, no note:** accent and breathing errors on an otherwise correct
+  word (`ὄρασίς`→`ὅρασις`, `ἴνα`→`ἵνα`), and apostrophe form (`ἀλλ´`→`ἀλλ'`).
+- **Record in a trailing note at the end of the file** — a plain terse list, not a
+  numbered footnote — any restoration that *changes letters*: `σὐδὲν`→`οὐδέν`, or a word
+  broken across a line break (`Κτε.ρόν`→`ἕτερόν`). No discussion; just what was read for
+  what.
+- **Footnote properly** anything where more than one reading is defensible, or where the
+  restoration bears on the sense.
+- **Never silently re-analyze syntax, and never silently re-read punctuation as an OCR
+  slip.** If a comma's placement changes the construction, that is a footnote, not a
+  quiet fix. A reader must be able to see every place the received text was doubted.
+
+**Letterforms must carry a reconstruction; context may only corroborate it.** It is not
+sufficient that the surrounding exposition implies what the corrupt word must have been.
+That reasoning would license reconstructing any damaged lemma into whatever the commentary
+appears to expect — which is precisely how a commentary comes to "confirm" a text that was
+reconstructed out of it. State the letter-level correspondence first; cite the context only
+as a check on a reading already secure on its own. Where the letterforms alone do not
+settle it, bracket the word and footnote it.
+
 ### 5. Translate Theophylact's Greek — NOT the received English Bible
 Render the scripture lemmata **from the Greek Theophylact actually quotes**,
 translated fresh; **do not conform them to any existing English Bible** (KJV, RSV,
@@ -120,9 +143,21 @@ render or genuinely ambiguous**, do not silently pick one reading — **footnote
   lives in the footnote.
 
 ## Conventions (apply uniformly)
-- **Chapter header:** the Greek file's first line is `ΚΕΦΑΛ. <numeral>.`; open the
-  `.en.md` with `# Chapter <arabic> (<Greek numeral>)` plus the Gospel and, where
-  known, the corresponding KJV chapter.
+- **Header — per-lemma files (the normal case).** A lemma `.en.md` opens with exactly:
+
+      # <Gospel> <chapter arabic> (<Greek numeral>) — Lemma <n> · <verse ref>
+
+  e.g. `# Matthew 1 (Αʹ) — Lemma 1 · Matt. 1:1`. All 2,103 existing `.en.md` files use
+  this one shape; do not invent a variant. The Gospel is spelled out
+  (Matthew/Mark/Luke/John); the reference is abbreviated (`Matt.`, `Mark`, `Luke`,
+  `John`). Verse **ranges take an en-dash**: `Matt. 9:3–4`. The Greek numeral and the
+  lemma number come from the lemma folder name; the verse reference comes from
+  `metadata.json`. If the Greek numeral is not derivable from what you were given,
+  **ask — do not invent a header line.**
+- **Chapter header (whole-chapter files only):** where a whole `ΚΕΦΑΛΑΙΟΝ_*.txt` is
+  translated as one file, its first line is `ΚΕΦΑΛ. <numeral>.`; open with
+  `# Chapter <arabic> (<Greek numeral>)` plus the Gospel and, where known, the
+  corresponding KJV chapter.
 - **Proper nouns:** conventional English biblical forms (Ἰησοῦς→Jesus, Ἰωάννης→John,
   Πιλάτος→Pilate), not transliteration. Prefer the **familiar English form over the
   Greek transliteration** — `Ἠλίας`→"Elijah" (not "Elias"), `Ἡσαΐας`→"Isaiah" (not
@@ -143,11 +178,29 @@ render or genuinely ambiguous**, do not silently pick one reading — **footnote
 - **Scripture citations:** where a lemma maps to a known verse, add the reference in
   brackets, e.g. `> **… (Matt. 5:3)**`. This is a **locator only** — never a licence to
   borrow that Bible's English wording (Principle 5).
-- **Inline scripture locators (in the exposition):** for a bare, uncontroversial
-  cross-reference Theophylact alludes to, put the locator **inline in parentheses** at
-  the point of allusion — e.g. "A vision which Isaiah saw (Isa. 1:1)". Use a footnote
-  only when the reference needs discussion (LXX-vs-MT, loose/conflated quotation, a
-  textual point). Do not bury simple pointers in footnotes.
+- **Inline scripture locators (in the exposition) — ONLY from a verified file.**
+  A chapter-and-verse locator may be supplied **only** where you have actually read that
+  verse in `texts/scripture/`. A locator recalled from memory is a claim sourced from
+  training data — heavily weighted toward Protestant English Bibles and Western
+  commentary — and in the finished page it is indistinguishable from a verified one.
+  This corpus does not accept that provenance.
+  - **Default: supply no locator at all.** Translate the quotation and leave it unmarked.
+    A missing locator is a small loss; a wrong or unsourced one is a corruption.
+  - Where the reference genuinely bears on the sense, **describe it in words** in a
+    footnote — "the opening formula of Isaiah's prophecy" — rather than as
+    chapter-and-verse.
+  - **Never hedge with "cf." plus a verse number.** A hedged unverified locator is still
+    an unverified locator, and it reads as scholarship.
+  - **Report, don't cite:** where you notice an allusion you cannot verify, say so in
+    your notes to the maintainer so a human can check it against a printed text.
+  - Where you *do* verify one, name the file you read.
+  - **Greek Isaiah is currently unusable.** Every file under
+    `texts/scripture/old_testament/greek/apostoliki_diakonia/Hsaias/` contains only the
+    placeholder string `Κεφάλαιο` — the book never downloaded. Nothing in Isaiah can be
+    verified against this corpus; do not cite Isaiah at all.
+  - This restriction does **not** touch the lemma's own verse reference in the header and
+    the bold blockquote — that comes from `metadata.json`, which is corpus metadata, not
+    recall.
 - **Inline identity glosses:** for a one-step identity/equivalence clarification, use an
   inline bracket — "Nave [i.e. Nun]", "christs [i.e. anointed ones]" — rather than a
   footnote. Reserve footnotes for genuine ambiguity, wordplay, or OCR reconstruction.

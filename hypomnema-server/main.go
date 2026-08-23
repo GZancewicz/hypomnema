@@ -31,6 +31,25 @@ type Book struct {
 	ChapterRange []int  `json:"-"` // For template use
 }
 
+// isOldTestament reports whether bookID belongs to the Brenton Septuagint.
+func isOldTestament(bookID string) bool {
+	for _, b := range otBooks {
+		if b.ID == bookID {
+			return true
+		}
+	}
+	return false
+}
+
+// scriptureDir returns the text directory holding bookID. Old Testament books
+// come from the Brenton USFM build, everything else from the KJV.
+func scriptureDir(bookID string) string {
+	if isOldTestament(bookID) {
+		return "../texts/scripture/old_testament/english/brenton/usfm"
+	}
+	return "../texts/scripture/new_testament/english/kjv"
+}
+
 // GetChapterRange returns a slice of chapter numbers for iteration
 func (b Book) GetChapterRange() []int {
 	chapters := make([]int, b.Chapters)
@@ -207,6 +226,65 @@ var (
 		{ID: "3john", Name: "3 John", Chapters: 1},
 		{ID: "jude", Name: "Jude", Chapters: 1},
 		{ID: "revelation", Name: "Revelation", Chapters: 22},
+	}
+
+	// Old Testament (Brenton Septuagint), in the order of the Apostoliki
+	// Diakonia Greek text -- see texts/.../apostoliki_diakonia/books_order.json.
+	// This is AD's list of 50 exactly. Brenton's Susanna, Bel and the Dragon
+	// and Prayer of Manasseh are deliberately absent because AD does not list
+	// them; the Prayer of Azariah is likewise not separate, being embedded in
+	// Daniel 3. Their text remains in the Brenton tree, just unlinked.
+	otBooks = []Book{
+		{ID: "genesis", Name: "Genesis", Chapters: 50},
+		{ID: "exodus", Name: "Exodus", Chapters: 40},
+		{ID: "leviticus", Name: "Leviticus", Chapters: 27},
+		{ID: "numbers", Name: "Numbers", Chapters: 36},
+		{ID: "deuteronomy", Name: "Deuteronomy", Chapters: 34},
+		{ID: "joshua", Name: "Joshua", Chapters: 24},
+		{ID: "judges", Name: "Judges", Chapters: 21},
+		{ID: "ruth", Name: "Ruth", Chapters: 4},
+		{ID: "1samuel", Name: "1 Kings", Chapters: 31},
+		{ID: "2samuel", Name: "2 Kings", Chapters: 24},
+		{ID: "1kings", Name: "3 Kings", Chapters: 22},
+		{ID: "2kings", Name: "4 Kings", Chapters: 25},
+		{ID: "1chronicles", Name: "1 Chronicles", Chapters: 29},
+		{ID: "2chronicles", Name: "2 Chronicles", Chapters: 36},
+		{ID: "1esdras", Name: "1 Esdras", Chapters: 9},
+		{ID: "ezra", Name: "2 Esdras", Chapters: 10},
+		{ID: "nehemiah", Name: "Nehemiah", Chapters: 13},
+		{ID: "tobit", Name: "Tobit", Chapters: 14},
+		{ID: "judith", Name: "Judith", Chapters: 16},
+		{ID: "esther", Name: "Esther", Chapters: 10},
+		{ID: "1maccabees", Name: "1 Maccabees", Chapters: 16},
+		{ID: "2maccabees", Name: "2 Maccabees", Chapters: 15},
+		{ID: "3maccabees", Name: "3 Maccabees", Chapters: 7},
+		{ID: "psalms", Name: "Psalms", Chapters: 151},
+		{ID: "job", Name: "Job", Chapters: 42},
+		{ID: "proverbs", Name: "Proverbs", Chapters: 31},
+		{ID: "ecclesiastes", Name: "Ecclesiastes", Chapters: 12},
+		{ID: "song_of_solomon", Name: "Song of Songs", Chapters: 8},
+		{ID: "wisdom", Name: "Wisdom of Solomon", Chapters: 19},
+		{ID: "sirach", Name: "Sirach", Chapters: 51},
+		{ID: "hosea", Name: "Hosea", Chapters: 14},
+		{ID: "amos", Name: "Amos", Chapters: 9},
+		{ID: "micah", Name: "Micah", Chapters: 7},
+		{ID: "joel", Name: "Joel", Chapters: 4},
+		{ID: "obadiah", Name: "Obadiah", Chapters: 1},
+		{ID: "jonah", Name: "Jonah", Chapters: 4},
+		{ID: "nahum", Name: "Nahum", Chapters: 3},
+		{ID: "habakkuk", Name: "Habakkuk", Chapters: 3},
+		{ID: "zephaniah", Name: "Zephaniah", Chapters: 3},
+		{ID: "haggai", Name: "Haggai", Chapters: 2},
+		{ID: "zechariah", Name: "Zechariah", Chapters: 14},
+		{ID: "malachi", Name: "Malachi", Chapters: 3},
+		{ID: "isaiah", Name: "Isaiah", Chapters: 66},
+		{ID: "jeremiah", Name: "Jeremiah", Chapters: 52},
+		{ID: "baruch", Name: "Baruch", Chapters: 5},
+		{ID: "lamentations", Name: "Lamentations", Chapters: 5},
+		{ID: "letter_of_jeremiah", Name: "Letter of Jeremiah", Chapters: 1},
+		{ID: "ezekiel", Name: "Ezekiel", Chapters: 48},
+		{ID: "daniel", Name: "Daniel", Chapters: 12},
+		{ID: "4maccabees", Name: "4 Maccabees", Chapters: 18},
 	}
 
 	paragraphData map[string][]ParagraphBreak
@@ -790,8 +868,8 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	if path != "/" {
 		parts := strings.Split(strings.Trim(path, "/"), "/")
 		if len(parts) >= 1 {
-			// Check if it's a valid book
-			for _, book := range books {
+			// Check if it's a valid book, in either testament
+			for _, book := range append(append([]Book{}, books...), otBooks...) {
 				if book.ID == parts[0] {
 					currentBook = parts[0]
 					break
@@ -861,6 +939,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 
 	data := struct {
 		Books        []Book
+		OTBooks      []Book
 		CurrentBook  string
 		CurrentChap  int
 		AssetVersion string
@@ -871,6 +950,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		}
 	}{
 		Books:        books,
+		OTBooks:      otBooks,
 		CurrentBook:  currentBook,
 		CurrentChap:  currentChap,
 		AssetVersion: assetVersion("static/styles.css"),
@@ -1052,7 +1132,7 @@ func chapterHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Read chapter text
 	chapterStr := fmt.Sprintf("%02d", chapter)
-	filePath := filepath.Join("../texts/scripture/new_testament/english/kjv", bookID, chapterStr, bookID+"_"+chapterStr+".txt")
+	filePath := filepath.Join(scriptureDir(bookID), bookID, chapterStr, bookID+"_"+chapterStr+".txt")
 
 	file, err := os.Open(filePath)
 	if err != nil {
