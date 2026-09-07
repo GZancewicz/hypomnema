@@ -1,0 +1,50 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-471",
+    "title": "Fix loading indicator never displaying",
+    "description": "The .htmx-request .htmx-indicator descendant selector never matched because htmx marks the hx-indicator target itself. Add the self selector and restyle #loading-indicator as a delayed full-viewport dim.",
+    "deliverables": [
+      "Corrected CSS selector",
+      "Dimmed overlay treatment with 150ms delay"
+    ],
+    "acceptance": [
+      "Feedback appears within ~200ms on a throttled connection",
+      "Fast swaps do not flash",
+      "search-indicator still works",
+      "Page curled and confirmed working"
+    ],
+    "scale": "1 stylesheet, ~1 rule block",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Diagnose the selector, add the self match, restyle #loading-indicator as a delayed overlay, verify served CSS",
+        "shape": "Single-file edit \u2014 one CSS block, cause already understood",
+        "machine_tokens": {
+          "best": 3000,
+          "likely": 10600,
+          "worst": 29000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Cause was identified during ticket writing, so this was never open-ended debugging",
+    "Overlay must be scoped to #loading-indicator so search-indicator keeps its corner-box styling"
+  ],
+  "risks": [
+    "z-index had to sit below modals (1000) but above content, requiring a survey of existing values"
+  ],
+  "notes": "COMPLETE. Landed near the D5 band in a single session with no rework. Note this was NOT a cause-unknown debug \u2014 the root cause was diagnosed before the ticket was written, which is exactly why it estimates as a tight single-file edit rather than the full 3k-126k debug range."
+}

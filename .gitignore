@@ -55,3 +55,6 @@ texts/commentaries/ephraim/diatessaron/source/*.pdf
 
 # Agent/trial working output - never committed
 scratch/
+
+# Temporary screenshot drop (Gregory of Sinai transcription)
+tmp-screenshots/

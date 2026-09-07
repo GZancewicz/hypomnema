@@ -1,0 +1,47 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-465",
+    "title": "Measure what makes /api/index 1.7 MB",
+    "description": "Measure byte composition of the /api/index fragment: size, server render time vs parse, split by author/book, above-fold fraction. Output is a written finding, no code change.",
+    "deliverables": [
+      "Written finding recorded as a Shortcut comment"
+    ],
+    "acceptance": [
+      "Bytes by cause and by book section recorded",
+      "Server render time separated from wire time"
+    ],
+    "scale": "1 endpoint, 1.7 MB artifact, no edit sites",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Curl endpoint, measure size and TTFB, count elements and attributes, compute per-book split, write finding",
+        "shape": "Exploration / audit \u2014 read-heavy, zero edit sites",
+        "machine_tokens": {
+          "best": 7000,
+          "likely": 14000,
+          "worst": 33000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Zero edit sites \u2014 pure measurement",
+    "Artifact is local and already running, no environment friction"
+  ],
+  "risks": [
+    "Analysis could suggest more than one root cause, widening the follow-up rather than this task"
+  ],
+  "notes": "COMPLETE. Actual came in near the D5 band. Server render measured at 383 ms, so the finding resolved cleanly in one session with no rework."
+}

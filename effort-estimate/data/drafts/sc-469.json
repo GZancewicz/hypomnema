@@ -1,0 +1,58 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-469",
+    "title": "Defer Google Analytics",
+    "description": "Load gtag on requestIdleCallback or first interaction rather than during initial page load, while keeping the initial pageview recorded.",
+    "deliverables": [
+      "Deferred gtag loader"
+    ],
+    "acceptance": [
+      "gtag absent from the first ~1 s of the network trace",
+      "Analytics still records pageviews in the GA property"
+    ],
+    "scale": "1 template, 1 script block",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Rewrite the gtag bootstrap to defer, preserving the initial pageview",
+        "shape": "Single-file edit \u2014 one script block",
+        "machine_tokens": {
+          "best": 3000,
+          "likely": 10600,
+          "worst": 29000
+        }
+      },
+      {
+        "id": "S2",
+        "what": "Verify a real hit lands in the GA property",
+        "shape": "Q&A / ops \u2014 cannot be verified on staging",
+        "machine_tokens": {
+          "best": 1100,
+          "likely": 6000,
+          "worst": 32000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "GA lives only in main per CLAUDE.md, so this cannot be verified from staging",
+    "Deferred loading can silently drop the initial pageview \u2014 the failure mode is invisible in the network trace"
+  ],
+  "risks": [
+    "Verification depends on the GA property reporting, which lags and is outside the repo",
+    "If the maintainer will not deploy to main to test, this ticket cannot be closed as verified"
+  ],
+  "notes": "External dependency: confirming the pageview still lands requires a production deploy and GA reporting lag. That wait is not in the token number."
+}

@@ -16,6 +16,22 @@ tool calls are visible. Don't offer next steps unless asked. Yes/no questions ge
 No first. Length should fit the question: usually a line or two, more when a short answer
 would be wrong.
 
+**Be concise. This is a hard rule, not a preference.**
+- Default to the shortest answer that is still correct. One or two lines is normal.
+- No unsolicited analysis, caveats, trade-offs, risk lists, or "things worth knowing."
+  If it wasn't asked for, don't write it.
+- After finishing work, state what was done in one line. Do not critique it, summarize
+  its findings, or list follow-ups unless asked.
+- Findings that belong in a file go in the file, not in chat.
+
+**When human input is needed, ask one concise question.**
+- State the question in a single sentence and stop. Do not preface it with context,
+  reasoning, or a list of considerations.
+- Where there are discrete options, name them in a few words each — no explanation of
+  each option's implications unless asked.
+- One question at a time. If several decisions are pending, ask the blocking one first.
+- Never bury a question at the end of a long explanation.
+
 ## Ground rules
 - Never run git commands, and never start/stop the server — the user does both.
 - No comments in code unless asked.

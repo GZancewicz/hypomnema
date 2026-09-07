@@ -1,0 +1,47 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-468",
+    "title": "Serve /static/* with long Cache-Control",
+    "description": "Set a long immutable Cache-Control max-age on the /static/* handler in main.go and confirm the header lands, including on favicon.",
+    "deliverables": [
+      "Cache-Control header on the static handler"
+    ],
+    "acceptance": [
+      "curl -I on a static asset shows the header",
+      "A styles.css edit still busts the cache via AssetVersion"
+    ],
+    "scale": "1 Go file, 1 handler",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Add Cache-Control to the static handler and verify with curl -I",
+        "shape": "Single-file edit \u2014 one handler in main.go",
+        "machine_tokens": {
+          "best": 3000,
+          "likely": 10600,
+          "worst": 29000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Cache busting already automatic via AssetVersion, so a long max-age is safe",
+    "Single edit site, machine-verifiable acceptance"
+  ],
+  "risks": [
+    "Favicon is requested twice (Image and Other); both paths must be covered by the same handler"
+  ],
+  "notes": "Smallest ticket in the epic. Tight band \u2014 one edit site and the acceptance test is a curl."
+}

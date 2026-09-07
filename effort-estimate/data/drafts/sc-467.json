@@ -1,0 +1,59 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-467",
+    "title": "Self-host htmx and preload.js",
+    "description": "Vendor htmx 1.9.10 and its preload extension into static/, repoint the script tags, apply the AssetVersion cache-buster, confirm no template still references unpkg.",
+    "deliverables": [
+      "Two vendored JS files in hypomnema-server/static/",
+      "Updated script tags"
+    ],
+    "acceptance": [
+      "No unpkg request in a fresh network trace",
+      "htmx and preload still function",
+      "Page curled and confirmed working"
+    ],
+    "scale": "2 vendored files, 1 template, ~2 script tags",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Download both files into static/, repoint tags with ?v={{.AssetVersion}}, grep for stray unpkg references",
+        "shape": "Single-file edit \u2014 one template, two vendored assets",
+        "machine_tokens": {
+          "best": 3000,
+          "likely": 10600,
+          "worst": 29000
+        }
+      },
+      {
+        "id": "S2",
+        "what": "Verify htmx behaviour and fix any path or version issue",
+        "shape": "Q&A / ops \u2014 curl and confirm",
+        "machine_tokens": {
+          "best": 1100,
+          "likely": 6000,
+          "worst": 32000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Well-specified, known files, pinned version",
+    "AssetVersion mechanism already exists and is automatic"
+  ],
+  "risks": [
+    "preload.js is an htmx extension and must match the core version or extensions silently no-op"
+  ],
+  "notes": "Cheapest real win in the epic. Fetching the vendored files needs network access; if that is unavailable the task blocks rather than blowing up."
+}

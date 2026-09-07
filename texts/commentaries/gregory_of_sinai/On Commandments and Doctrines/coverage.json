@@ -1,0 +1,36 @@
+{
+    "commentary": "On Commandments and Doctrines",
+    "total_homilies": 2,
+    "homilies": [
+        {
+            "id": 15,
+            "roman": "",
+            "title": "No. 15",
+            "start": {
+                "book": "matthew",
+                "chapter": 3,
+                "verse": 3
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 3,
+                "verse": 3
+            }
+        },
+        {
+            "id": 19,
+            "roman": "",
+            "title": "No. 19",
+            "start": {
+                "book": "matthew",
+                "chapter": 23,
+                "verse": 5
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 23,
+                "verse": 5
+            }
+        }
+    ]
+}

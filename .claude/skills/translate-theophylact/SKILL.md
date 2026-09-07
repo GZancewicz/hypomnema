@@ -162,6 +162,43 @@ render or genuinely ambiguous**, do not silently pick one reading — **footnote
   Πιλάτος→Pilate), not transliteration. Prefer the **familiar English form over the
   Greek transliteration** — `Ἠλίας`→"Elijah" (not "Elias"), `Ἡσαΐας`→"Isaiah" (not
   "Esaias"), `Πάσχα`→"Passover" (not "Pascha"), `Ἰακώβ`/`Ἰάκωβος`→"Jacob"/"James".
+- **Old Testament names: use the Hebrew/OT English forms, not the Greek ones.** This is
+  the settled corpus policy — it resolves the "familiar form" rule for every OT name, so
+  do not re-decide it per lemma. Render the name as an English Bible's Old Testament
+  gives it, not as a transliteration of Theophylact's Greek:
+
+  | Greek | Use | NOT |
+  |---|---|---|
+  | Φαρές | Perez | Phares, Pharez |
+  | Ἐσρώμ | Hezron | Esrom |
+  | Αὐνάν | Onan | Aunan |
+  | Σαλαθιήλ | Shealtiel | Salathiel |
+  | Ζοροβάβελ | Zerubbabel | Zorobabel |
+  | Σαδώκ | Zadok | Sadoc |
+  | Ὁζίας | Uzziah | Ozias |
+  | Ἐζεκίας | Hezekiah | Ezekias |
+  | Ἀβιά | Abijah | Abia |
+  | Ἀσά | Asa | — |
+  | Ἰωσαφάτ | Jehoshaphat | Josaphat |
+  | Ἰωράμ | Joram | Jehoram |
+  | Ἰεχονίας | Jechoniah | Jeconiah |
+  | Ναυῆ | Nun | Nave, Naue |
+  | Βοόζ | Boaz | Booz |
+  | Ὡβήδ | Obed | Jobed, Obeth |
+  | Ἀμιναδάβ | Amminadab | Aminadab |
+  | Ναασσών | Nahshon | Naasson |
+
+  The table is not exhaustive; it fixes the names that have already caused drift. For an
+  OT name not listed, take the form an English Bible's OT uses and **report the choice**
+  so it can be added here.
+  - **Exception — when the Greek form is the point.** Where Theophylact's argument turns
+    on the Greek name itself (e.g. `Ἰησοῦς` for both Jesus and Joshua son of Nun, where
+    the shared name carries the typology), keep the Greek form in the body and add an
+    inline identity gloss — "Jesus [i.e. Joshua]". Translating it away would destroy the
+    argument.
+  - **Exception — Ῥαχάβ / Ῥαάβ.** Theophylact spells the Matthean ancestress and the
+    harlot of Jericho differently and reports their identification as an opinion. Keep
+    the two forms distinct; do not harmonize.
 - **Proper-noun consistency is a hard rule.** A given Greek name must surface as the
   **same English form everywhere in a work** — never "Elijah" in one lemma and "Elias"
   eleven lemmata later. Where a work introduces a name whose English form is a judgment

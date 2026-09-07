@@ -325,6 +325,9 @@ func init() {
 	loadCommentary("nikolai", "prologue",
 		"",
 		"../texts/commentaries/nikolai/Prologue/coverage.json")
+	loadCommentary("gregory_of_sinai", "commandments",
+		"",
+		"../texts/commentaries/gregory_of_sinai/On Commandments and Doctrines/coverage.json")
 
 	// Load coverage for commentaries without readable text
 	loadUnavailableWork("Gregory the Great", "Forty Gospel Homilies",
@@ -745,7 +748,11 @@ func main() {
 	loadScriptureReferences()
 
 	// Serve static files
-	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
+	staticFS := http.StripPrefix("/static/", http.FileServer(http.Dir("./static")))
+	http.Handle("/static/", http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Cache-Control", "public, max-age=31536000, immutable")
+		staticFS.ServeHTTP(w, r)
+	}))
 
 	// Root-level agent/crawler files
 	http.HandleFunc("/llms.txt", rootTextFileHandler("llms.txt"))
@@ -1543,6 +1550,28 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 					Book:   bookID,
 					Author: "Nikolai Velimirović",
 					Label:  fmt.Sprintf("Prologue, %s%s", coverage.Title, formatCoverageRef(coverage)),
+					Range:  formatCoverageRange(coverage, bookID),
+				})
+			}
+		}
+
+		// Add Gregory of Sinai, On Commandments and Doctrines
+		if comm, ok := commentaries["gregory_of_sinai-commandments"]; ok {
+			var sinaiIDs []int
+			for id, c := range comm.Coverage {
+				if c.Start.Book == bookID && coverageContains(c, chapter, verseNum) {
+					sinaiIDs = append(sinaiIDs, id)
+				}
+			}
+			sort.Ints(sinaiIDs)
+			for _, id := range sinaiIDs {
+				coverage := comm.Coverage[id]
+				verseRefs = append(verseRefs, VerseRef{
+					Type:   "gregory_of_sinai",
+					ID:     id,
+					Book:   bookID,
+					Author: "Gregory of Sinai",
+					Label:  "On Commandments and Doctrines",
 					Range:  formatCoverageRange(coverage, bookID),
 				})
 			}
@@ -2548,6 +2577,78 @@ func extractNikolaiHomily(homilyNum int) (string, string, error) {
 	return sb.String(), verseRef, nil
 }
 
+func extractGregorySinaiText(num int) (string, string, error) {
+	comm, ok := commentaries["gregory_of_sinai-commandments"]
+	if !ok {
+		return "", "", fmt.Errorf("gregory of sinai commentary not loaded")
+	}
+	coverage, ok := comm.Coverage[num]
+	if !ok {
+		return "", "", fmt.Errorf("gregory of sinai text %d not found in coverage", num)
+	}
+	verseRef := formatCoverageRange(coverage, "matthew")
+
+	path := fmt.Sprintf("../texts/commentaries/gregory_of_sinai/On Commandments and Doctrines/texts/%03d.md", num)
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return "", "", err
+	}
+
+	emphasisPattern := regexp.MustCompile(`\*([^*]+)\*`)
+	footnotePattern := regexp.MustCompile(`\[\^(\d+)\]`)
+	footnoteDefPattern := regexp.MustCompile(`^\[\^(\d+)\]:\s*(.+)$`)
+
+	content := string(data)
+	footnotes := map[string]string{}
+	if i := strings.Index(content, "\n---\n"); i >= 0 {
+		for _, line := range strings.Split(content[i+5:], "\n") {
+			if m := footnoteDefPattern.FindStringSubmatch(strings.TrimSpace(line)); m != nil {
+				footnotes[m[1]] = m[2]
+			}
+		}
+		content = content[:i]
+	}
+
+	var sb strings.Builder
+	sb.WriteString(fmt.Sprintf(`<p style="text-align: center; font-weight: bold; margin-bottom: 10px;">%s</p>`, html.EscapeString(coverage.Title)))
+	for _, para := range strings.Split(content, "\n\n") {
+		para = strings.TrimSpace(para)
+		if para == "" {
+			continue
+		}
+		text := html.EscapeString(para)
+		text = footnotePattern.ReplaceAllStringFunc(text, func(match string) string {
+			num := footnotePattern.FindStringSubmatch(match)[1]
+			if footnote, ok := footnotes[num]; ok {
+				tooltip := html.EscapeString(strings.ReplaceAll(footnote, "*", ""))
+				return fmt.Sprintf(`<sup class="footnote-ref" data-tooltip="%s">%s</sup>`, tooltip, num)
+			}
+			return match
+		})
+		text = emphasisPattern.ReplaceAllString(text, "<em>$1</em>")
+		sb.WriteString("<p>")
+		sb.WriteString(text)
+		sb.WriteString("</p>\n")
+	}
+	if len(footnotes) > 0 {
+		var nums []int
+		for k := range footnotes {
+			if n, err := strconv.Atoi(k); err == nil {
+				nums = append(nums, n)
+			}
+		}
+		sort.Ints(nums)
+		sb.WriteString(`<div class="footnotes"><h3>Notes</h3><ul class="footnotes-list">`)
+		for _, n := range nums {
+			note := emphasisPattern.ReplaceAllString(html.EscapeString(footnotes[strconv.Itoa(n)]), "<em>$1</em>")
+			sb.WriteString(fmt.Sprintf(`<li id="fn%d"><span class="footnote-number">%d.</span> %s</li>`, n, n, note))
+		}
+		sb.WriteString(`</ul></div>`)
+	}
+	sb.WriteString(`<p class="source-attribution" style="margin-top: 20px; font-size: 0.9em; color: #666;">St Gregory of Sinai, <em>On Commandments and Doctrines</em>, in <em>The Philokalia</em>, vol. 4, tr. G. E. H. Palmer, Philip Sherrard and Kallistos Ware (Faber and Faber).</p>`)
+	return sb.String(), verseRef, nil
+}
+
 func lifeAPIHandler(w http.ResponseWriter, r *http.Request) {
 	// Parse URL: /api/life/06-29/0  (mmdd / commemoration index)
 	parts := strings.Split(strings.TrimPrefix(r.URL.Path, "/api/life/"), "/")
@@ -2631,13 +2732,17 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Homily not found", http.StatusNotFound)
 		return
 	}
+	if author == "gregory_of_sinai" && book != "commandments" {
+		http.Error(w, "Homily not found", http.StatusNotFound)
+		return
+	}
 	if author == "theophylact" {
 		if _, ok := theophylactGospelDirs[book]; !ok {
 			http.Error(w, "Commentary not found", http.StatusNotFound)
 			return
 		}
 	}
-	if author != "chrysostom" && author != "cyril" && author != "nikolai" && author != "theophylact" {
+	if author != "chrysostom" && author != "cyril" && author != "nikolai" && author != "theophylact" && author != "gregory_of_sinai" {
 		http.Error(w, "Author not found", http.StatusNotFound)
 		return
 	}
@@ -2731,6 +2836,18 @@ func homilyAPIHandler(w http.ResponseWriter, r *http.Request) {
 			log.Printf("Error extracting Prologue homily %d: %v", homilyNum, err)
 			w.Header().Set("Content-Type", "text/html")
 			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Material currently under copyright.</p></div>"))
+			return
+		}
+	} else if author == "gregory_of_sinai" {
+		var sinaiVerseRef string
+		homilyText, sinaiVerseRef, err = extractGregorySinaiText(homilyNum)
+		if verseRef == "" {
+			verseRef = sinaiVerseRef
+		}
+		if err != nil {
+			log.Printf("Error extracting Gregory of Sinai text %d: %v", homilyNum, err)
+			w.Header().Set("Content-Type", "text/html")
+			w.Write([]byte("<div class=\"chapter-text\"><p style=\"text-align: center; color: #666;\">Text not available.</p></div>"))
 			return
 		}
 	}
@@ -3325,6 +3442,10 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		divided into the 5,028 lemmata Theophylact himself quotes and expounds.
 		An English translation is in progress.</p>
 
+		<p><strong>Gregory of Sinai's On Commandments and Doctrines</strong><br>
+		St. Gregory of Sinai's numbered texts from the <em>Philokalia</em>, attached to the
+		Gospel verses they expound.</p>
+
 		<p><strong>Synaxarion (Daily Lives of the Saints)</strong><br>
 		The daily commemorations and Lives of the Saints are drawn from the
 		Orthodox calendar of Holy Trinity Russian Orthodox Church. The English
@@ -3336,7 +3457,7 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 		<ul>
 			<li>Clean, distraction-free text reading</li>
 			<li>Eusebian Canon references in the margins showing Gospel parallels</li>
-			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirović, Maximos the Confessor, and Theophylact of Ohrid</li>
+			<li>Patristic commentary from John Chrysostom, Cyril of Alexandria, Gregory the Great, Venerable Bede, Nikolai Velimirović, Maximos the Confessor, Theophylact of Ohrid, and Gregory of Sinai</li>
 			<li>Commentary Index showing available homilies/sermons organized by Gospel book</li>
 			<li>Cross-Gospel homily references via Eusebian canons</li>
 			<li>Split-screen commentary viewing</li>
@@ -3440,6 +3561,13 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			map[string]string{
 				"matthew": "Explanation of the Holy Gospel According to Matthew",
 				"luke":    "Explanation of the Holy Gospel According to Luke",
+			},
+		},
+		{
+			"gregory_of_sinai",
+			"Gregory of Sinai",
+			map[string]string{
+				"On Commandments and Doctrines": "On Commandments and Doctrines",
 			},
 		},
 		{
@@ -3822,6 +3950,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Explanations of the Holy Gospel</em> (in progress)</td>
 					</tr>
 					<tr>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">Gregory of Sinai</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;">c. 1265–1346</td>
+						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>On Commandments and Doctrines</em></td>
+					</tr>
+					<tr>
 						<td style="padding: 8px; border-bottom: 1px solid #eee;">Nikolai Velimirović</td>
 						<td style="padding: 8px; border-bottom: 1px solid #eee;">1880–1956</td>
 						<td style="padding: 8px; border-bottom: 1px solid #eee;"><em>Prologue of Ohrid</em></td>
@@ -3927,6 +4060,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			if row.Author == "theophylact" {
 				return fmt.Sprintf(`<a href="#" onclick="loadTheophylactCommentary(%d, '%s', '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
 					row.HomilyID, row.Section, strings.ToLower(row.Book), rowRange, row.Section)
+			}
+			if row.Author == "gregory_of_sinai" {
+				label := "On Commandments and Doctrines"
+				return fmt.Sprintf(`<a href="#" onclick="loadGregorySinaiText(%d, '%s', '%s'); return false;" style="color: #4a6da0; text-decoration: none;">%s</a>`,
+					row.HomilyID, label, rowRange, row.Section)
 			}
 			if row.Author == "nikolai" {
 				label := row.Section + " (Homily)"

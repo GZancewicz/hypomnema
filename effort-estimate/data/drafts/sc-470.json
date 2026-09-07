@@ -1,0 +1,48 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-470",
+    "title": "Re-run Lighthouse and confirm the score moved",
+    "description": "Re-run Lighthouse mobile against the same URL and throttling, record a before/after table, confirm /api/index is off the critical path and no unpkg request remains, check CLS specifically.",
+    "deliverables": [
+      "New Lighthouse run recorded on the story with a before/after table"
+    ],
+    "acceptance": [
+      "Before/after table recorded",
+      "Plain statement of whether the target was met"
+    ],
+    "scale": "1 Lighthouse run, 1 JSON artifact, no edit sites",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Run Lighthouse, parse the JSON, build the before/after table, record it",
+        "shape": "Exploration / audit \u2014 parse and report, zero edit sites",
+        "machine_tokens": {
+          "best": 7000,
+          "likely": 14000,
+          "worst": 33000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Zero edit sites",
+    "Depends on all six prior tickets having landed and deployed"
+  ],
+  "risks": [
+    "If the score still falls short, the session extends into diagnosing the new top offender \u2014 that is a follow-up ticket, not this one",
+    "Requires a deploy to measure against the same public URL as the baseline"
+  ],
+  "notes": "Blocked until the rest of the epic ships. Token figure covers the measurement and write-up only, not any follow-up diagnosis."
+}

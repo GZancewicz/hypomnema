@@ -1,0 +1,84 @@
+{
+  "range_convention": "extremes",
+  "machine_tokens_per_hour": 185000,
+  "throughput_basis": "reference-corpus default (turn-based pooled) \u2014 NOT re-measured for this project",
+  "task": {
+    "id": "sc-466",
+    "title": "Stop shipping the full commentaries index on first paint",
+    "description": "Lazy-load the four collapsible book sections in /api/index instead of pre-rendering all four, and replace repeated inline style attributes with CSS classes plus onclick handlers with event delegation. Must preserve verse-range rendering and the no-code-to-add-a-commentary property.",
+    "deliverables": [
+      "New or modified handler serving per-section fragments",
+      "CSS classes replacing inline styles",
+      "Event delegation replacing inline onclick"
+    ],
+    "acceptance": [
+      "Initial /api/index response under ~100 KB uncompressed",
+      "Index still reaches every author, book and homily",
+      "Verse ranges still render",
+      "Page curled and confirmed working"
+    ],
+    "scale": "1 Go handler, 1 template, 1 stylesheet, ~7400 handlers and ~10700 style attrs to remove, 4 section fragments",
+    "context": {
+      "system": "hypomnema",
+      "familiarity": "known",
+      "environment_ready": true
+    }
+  },
+  "clarifications": [],
+  "decomposition": {
+    "agent_sessions": [
+      {
+        "id": "S1",
+        "what": "Restructure the index handler to serve per-book-section fragments with htmx lazy triggers",
+        "shape": "Feature \u2014 new endpoint shape, new fragments, behavioural change",
+        "machine_tokens": {
+          "best": 22000,
+          "likely": 52000,
+          "worst": 126000
+        }
+      },
+      {
+        "id": "S2",
+        "what": "Replace 10,698 inline style attrs with CSS classes and 7,439 onclick handlers with delegation",
+        "shape": "Multi-file change \u2014 template plus stylesheet, mechanical but wide",
+        "machine_tokens": {
+          "best": 8000,
+          "likely": 19000,
+          "worst": 52000
+        }
+      },
+      {
+        "id": "S3",
+        "what": "Verify verse ranges still render across reader, /api/index, /api/scripture-references, /api/homilies",
+        "shape": "Exploration / audit \u2014 curl and inspect four link sites",
+        "machine_tokens": {
+          "best": 7000,
+          "likely": 14000,
+          "worst": 33000
+        }
+      },
+      {
+        "id": "S4",
+        "what": "Fix cycles after verification",
+        "shape": "Multi-file change \u2014 one to three rework rounds",
+        "machine_tokens": {
+          "best": 0,
+          "likely": 19000,
+          "worst": 60000
+        }
+      }
+    ],
+    "human_touchpoints": []
+  },
+  "drivers": [
+    "Event delegation must reconstruct handler arguments now encoded per-element in onclick",
+    "formatCoverageRange() fallback-book gotcha spans four call sites; a miss renders ranges empty and is silent",
+    "Adding a commentary must still require no code, so no hardcoded author or book list"
+  ],
+  "risks": [
+    "Delegation rewrite touches loadTheophylactCommentary and showCanonModal, ~7000 call sites between them \u2014 a wrong argument shape breaks commentary loading everywhere at once",
+    "Lazy sections may change CLS rather than improve it if fragment height is unreserved",
+    "Verse ranges failing silently is the highest-risk regression and is not caught by a green page load"
+  ],
+  "notes": "Largest ticket in the epic and the one with real regression risk. S2 is mechanical and could ship independently of S1 if the maintainer wants the win split into two commits."
+}
