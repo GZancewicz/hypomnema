@@ -111,6 +111,16 @@ type HomilyRange struct {
 		Chapter int    `json:"chapter"`
 		Verse   int    `json:"verse"`
 	} `json:"end"`
+	Also []HomilyRange `json:"also,omitempty"`
+}
+
+func coverageRanges(c HomilyRange) []HomilyRange {
+	ranges := []HomilyRange{c}
+	for _, a := range c.Also {
+		a.ID, a.Roman, a.Title = c.ID, c.Roman, c.Title
+		ranges = append(ranges, a)
+	}
+	return ranges
 }
 
 // VerseRef represents a commentary reference attached to a verse
@@ -1558,21 +1568,25 @@ func formatChapterHTML(text string, paragraphBreaks []int, bookCanons map[string
 		// Add Gregory of Sinai, On Commandments and Doctrines
 		if comm, ok := commentaries["gregory_of_sinai-commandments"]; ok {
 			var sinaiIDs []int
+			sinaiRanges := map[int]HomilyRange{}
 			for id, c := range comm.Coverage {
-				if c.Start.Book == bookID && coverageContains(c, chapter, verseNum) {
-					sinaiIDs = append(sinaiIDs, id)
+				for _, r := range coverageRanges(c) {
+					if r.Start.Book == bookID && coverageContains(r, chapter, verseNum) {
+						sinaiIDs = append(sinaiIDs, id)
+						sinaiRanges[id] = r
+						break
+					}
 				}
 			}
 			sort.Ints(sinaiIDs)
 			for _, id := range sinaiIDs {
-				coverage := comm.Coverage[id]
 				verseRefs = append(verseRefs, VerseRef{
 					Type:   "gregory_of_sinai",
 					ID:     id,
 					Book:   bookID,
 					Author: "Gregory of Sinai",
 					Label:  "On Commandments and Doctrines",
-					Range:  formatCoverageRange(coverage, bookID),
+					Range:  formatCoverageRange(sinaiRanges[id], bookID),
 				})
 			}
 		}
@@ -3587,24 +3601,8 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 			data, err := os.ReadFile(coveragePathDirect)
 			if err == nil {
 				var coverage struct {
-					Commentary string `json:"commentary"`
-					Homilies   []struct {
-						ID    int    `json:"id"`
-						Roman string `json:"roman"`
-						Title string `json:"title"`
-						Date  string `json:"date"`
-						Saint string `json:"saint"`
-						Start struct {
-							Book    string `json:"book"`
-							Chapter int    `json:"chapter"`
-							Verse   int    `json:"verse"`
-						} `json:"start"`
-						End struct {
-							Book    string `json:"book"`
-							Chapter int    `json:"chapter"`
-							Verse   int    `json:"verse"`
-						} `json:"end"`
-					} `json:"homilies"`
+					Commentary string        `json:"commentary"`
+					Homilies   []HomilyRange `json:"homilies"`
 				}
 
 				if err := json.Unmarshal(data, &coverage); err == nil {
@@ -3614,7 +3612,11 @@ func indexPageHandler(w http.ResponseWriter, r *http.Request) {
 						break
 					}
 
+					var homilyRows []HomilyRange
 					for _, h := range coverage.Homilies {
+						homilyRows = append(homilyRows, coverageRanges(h)...)
+					}
+					for _, h := range homilyRows {
 						var bookNameLower string
 						var bookName string
 						if h.Start.Book != "" {

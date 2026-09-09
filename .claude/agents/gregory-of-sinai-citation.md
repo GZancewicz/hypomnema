@@ -29,15 +29,16 @@ Data model (read `texts/commentaries/gregory_of_sinai/README.md` if anything is 
    two page images; join the pieces. Ignore running heads, page numbers, and any part of a
    neighbouring text that is cut off at the top or bottom of the image.
 2. **Transcribe verbatim.** Keep the Philokalia's British spelling, single quotation marks,
-   and parenthetical references such as `(Matt. 3:3)`. Mark italics with `*...*`. Fix only
+   and parenthetical references such as `(Matt. 3:3)`. The print sets references with spaced
+   colons (`John 17 : 3`); write them compact (`John 17:3`). Mark italics with `*...*`. Fix only
    line-break hyphenation. Do not modernise, paraphrase, or add anything. If a word is
    illegible, write `[illegible]` and say so in your report.
 3. **Find the Gospel citation.** Take the Gospel reference the text itself gives in
    parentheses (Matt., Mark, Luke, John). If the text quotes a Gospel without a reference,
    locate the verse by searching the KJV under `texts/scripture/new_testament/english/kjv/`
-   with Grep. If the text cites more than one Gospel passage, use the first one for the
-   coverage entry and list the others in your report. If it cites no Gospel at all, stop
-   and report that; do not invent a verse.
+   with Grep. If the text cites more than one Gospel passage, pass the first as `--verse`
+   and each further one as `--also "john 3:18"` (repeatable); every one gets a reader
+   marker. If it cites no Gospel at all, stop and report that; do not invent a verse.
 4. **Write the transcription** to a scratch file (under `/private/tmp/**`), then run the
    helper once with `--dry-run` and once for real:
 

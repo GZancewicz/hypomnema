@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--id", type=int, required=True, help="text number within the work (1-137)")
     ap.add_argument("--verse", required=True, help="start verse, e.g. 'matthew 3:3'")
     ap.add_argument("--end", help="end verse (default: same as --verse)")
+    ap.add_argument("--also", action="append", default=[],
+                    help="additional Gospel verse the text cites (repeatable; 'john 3:18' or 'john 3:18-19')")
     ap.add_argument("--text-file", help="file holding the transcribed text (markdown, *emphasis* only)")
     ap.add_argument("--dry-run", action="store_true", help="print the summary, write nothing")
     args = ap.parse_args()
@@ -80,6 +82,17 @@ def main():
     for ch, v in ((sch, sv), (ech, ev)):
         if not verse_exists(sbook, ch, v):
             sys.exit(f"{sbook} {ch}:{v} is not a KJV verse")
+
+    also = []
+    for ref in args.also:
+        start, _, endv = ref.partition("-")
+        abook, ach, av = parse_ref(start)
+        aech, aev = (ach, int(endv)) if endv else (ach, av)
+        for ch, v in ((ach, av), (aech, aev)):
+            if not verse_exists(abook, ch, v):
+                sys.exit(f"{abook} {ch}:{v} is not a KJV verse")
+        also.append({"start": {"book": abook, "chapter": ach, "verse": av},
+                     "end": {"book": abook, "chapter": aech, "verse": aev}})
 
     text = None
     target = os.path.join(TEXTS, f"{args.id:03d}.md")
@@ -98,6 +111,8 @@ def main():
         "start": {"book": sbook, "chapter": sch, "verse": sv},
         "end": {"book": ebook, "chapter": ech, "verse": ev},
     }
+    if also:
+        entry["also"] = also
     homilies = [h for h in cov["homilies"] if h["id"] != args.id]
     replaced = len(homilies) != len(cov["homilies"])
     homilies.append(entry)
@@ -111,6 +126,7 @@ def main():
         "text_written": text is not None,
         "coverage_entry": "replaced" if replaced else "added",
         "range": f"{sbook} {sch}:{sv}" + ("" if (sch, sv) == (ech, ev) else f"-{ech}:{ev}"),
+        "also": [f"{a['start']['book']} {a['start']['chapter']}:{a['start']['verse']}" for a in also],
         "total_homilies": cov["total_homilies"],
         "dry_run": args.dry_run,
     }

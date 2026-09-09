@@ -17,7 +17,9 @@ cites a Gospel verse.
 - `On Commandments and Doctrines/coverage.json` — standard commentary format. One entry
   per text: `id` = text number, `title` = `No. NNN`, `start`/`end` = the Gospel verse
   range the text cites (`book` is set on both). Sorted by `id`; `total_homilies` = entry
-  count. The server keys entries by `id`, so each text carries one Gospel range.
+  count. The server keys entries by `id`; a text that cites further Gospel passages lists
+  them under `also` as `[{start, end}, ...]`, and each one gets a reader marker and an
+  index row of its own.
 - `util/add_text.py` — writes a text file and upserts its coverage entry from a
   transcription file plus a verse reference; validates id and verse against the KJV.
 
