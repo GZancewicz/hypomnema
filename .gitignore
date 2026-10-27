@@ -29,6 +29,11 @@ texts/scripture/old_testament/greek
 .claude/*
 !.claude/skills/
 !.claude/agents/
+!.claude/.claude-plugin/
+!.claude/evals/
+# Generated eval cases carry Stade excerpts (in-copyright) and run results - never committed
+.claude/evals/theophylact/
+.claude/evals/results/
 
 # Air build artifacts
 hypomnema-server/tmp

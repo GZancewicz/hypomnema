@@ -1,6 +1,6 @@
 {
     "commentary": "On Commandments and Doctrines",
-    "total_homilies": 9,
+    "total_homilies": 11,
     "homilies": [
         {
             "id": 15,
@@ -149,6 +149,36 @@
                 "book": "luke",
                 "chapter": 20,
                 "verse": 36
+            }
+        },
+        {
+            "id": 83,
+            "roman": "",
+            "title": "No. 83",
+            "start": {
+                "book": "matthew",
+                "chapter": 13,
+                "verse": 46
+            },
+            "end": {
+                "book": "matthew",
+                "chapter": 13,
+                "verse": 46
+            }
+        },
+        {
+            "id": 84,
+            "roman": "",
+            "title": "No. 84",
+            "start": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 19
+            },
+            "end": {
+                "book": "luke",
+                "chapter": 21,
+                "verse": 19
             }
         }
     ]

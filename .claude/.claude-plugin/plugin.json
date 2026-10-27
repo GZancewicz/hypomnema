@@ -1,0 +1,10 @@
+{
+  "name": "hypomnema",
+  "version": "0.1.0",
+  "description": "Hypomnema project skills and agents, packaged so `claude plugin eval` can run the Theophylact translation eval suite against them.",
+  "author": {
+    "name": "Greg Zancewicz"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["theophylact", "translation", "eval"]
+}
